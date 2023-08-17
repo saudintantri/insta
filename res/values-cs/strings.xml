@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">Stát</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">Město</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">Adresa</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">Byt/apartmá (nepovinné)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Zavřít prohlížeč</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s chce využít fotoaparát zařízení.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s chce využít polohu vašeho zařízení.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Povolit</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Zablokovat</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">Došlo k problémům s bezpečnostním certifikátem tohoto webu.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">Zpět</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">Chyba zabezpečení</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Bezpečnostní kód</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">Číslo karty</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">K automatickému vyplnění formuláře zadejte 3- nebo 4místný bezpečnostní kód z karty %1$s • %2$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">Kvůli vyššímu zabezpečení zadejte podrobnosti o vaší kartě končící na %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">Kvůli vyšší bezpečnosti zadejte celé číslo karty končící na %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">Zadejte celé číslo karty %1$s • %2$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">Potvrďte podrobnosti o kartě</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Potvrdit</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">Potvrďte bezpečnostní kód pro kartu %1$s • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120039">Něco se nepovedlo.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">E-mail</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">Důvodem může být technická chyba, na jejímž odstranění pracujeme. Zkuste stránku znovu načíst.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Načíst znovu</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">Stránka teď není dostupná</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Příjmení</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">Stránka se nedá načíst.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">Otevřít v …</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">Otevřít v aplikaci %1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Další možnosti</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Jméno</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120051">Momentálně máme problém s nastavením %2$su v jazyce %1$s. Můžete to zkoušet dál, nebo přepněte do americké angličtiny, tedy English (US).</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120052">Za chvíli se nastaví jazyk %1$s…</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120053">Opakovat</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120054">Pokračovat v americké angličtině, tedy English (US)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">Jméno / Název</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">PSČ</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a1">Odkaz na kartu s vysvětlením, jak funguje pokladna a jak společnost Meta využije informace o uživateli, s odkazy na relevantní zásady ochrany osobních údajů.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">Telefon</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">Држава</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">Град</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">Адреса</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">Број стана (опционално)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Затвори прегледач</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s жели да користи камеру на вашем уређају.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s жели да користи локацију вашег уређаја</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Дозволи</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Блокирај</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">Постоји проблем са безбедносним сертификатом ове веб-локације</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">Назад</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">Безбедносна грешка</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Безбедносни кôд</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">Број картице</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">Унесите 3-цифрени или 4-цифрени безбедносни кôд са своје картице %1$s • %2$s да бисте аутоматски попунили овај формулар.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">Ради додатне безбедносне провере, унесите податке о својој картици која се завршава са %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">Ради додатне безбедносне провере, унесите цео број картице која се завршава са %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">Додајте цео број картице за %1$s • %2$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">Потврдите податке о картици</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Потврди</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">Потврдите безбедносни кôд за картицу %1$s • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002e">У реду</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120039">Дошло је до грешке.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">Е-адреса</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">Можда је узрок техничка грешка на чијем отклањању радимо. Поново учитајте ову страницу.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Освежи</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">Страница тренутно није доступна</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Презиме</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">Није могуће учитати страницу</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">Отвори помоћу...</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">Отвори у апликацији %1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Још опција</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Име</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120051">Тренутно не можемо да пребацимо %2$s на %1$s. Покушајте поново или привремено наставите да користите %2$s на америчком енглеском језику.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120052">Само тренутак док подешавамо %1$s…</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120053">Покушај поново</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120054">Настави на енглеском (САД)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">Име</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">Поштански број</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a1">Веза до листа на ком је објашњено како функционише овај завршетак куповине и како ће Meta користити податке корисника, уз везе до релевантних политика приватности.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">Телефон</string>
+</resources>

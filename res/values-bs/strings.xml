@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">Savezna država</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">Adresa</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">Apt/ste (nije obavezno)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Zatvaranje preglednika</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s želi koristiti kameru vašeg uređaja.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s želi koristiti lokaciju Vašeg uređaja.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Dozvoli</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Blokiraj</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">Postoje problemi sa sigurnosnim certifikatom za ovu web lokaciju</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">Idi nazad</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Sigurnosni kod</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">Broj kartice</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">Unesite 3-cifreni ili 4-cifreni sigurnosni kod na vašoj kartici (%1$s) • %2$s da biste automatski popunili ovaj obrazac.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">Kao dodatnu mjeru sigurnosti, unesite detalje za svoju karticu koja se završava sa %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">Radi dodatne sigurnosne provjere, unesite u cijelosti broj kartice koji završava sa %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">Dodajte puni broj kartice %1$s • %2$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">Potvrdi detalje kartice</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Potvrdi</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">Potvrdite sigurnosni kod za: %1$s • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002e">U redu</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">E-mail</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">Razlog može biti tehnička greška na čijem otklanjanju radimo. Pokušajte ponovo učitati ovu stranicu.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Osvježi</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">Stranica trenutno nije dostupna</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Prezime</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">Nije moguće učitati stranicu</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">Otvori koristeći...</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">Otvori u aplikaciji %1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Više opcija</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Ime</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">Ime</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">Poštanski broj</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">Telefon</string>
+</resources>

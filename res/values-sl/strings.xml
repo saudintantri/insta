@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">Zvezna država</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">Mesto</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">Naslov</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">Stanovanje/suita (izbirno)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Zapri brskalnik</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$sželi uporabiti kamero tvoje naprave.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s želi uporabiti lokacijo vaše naprave.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Dovoli</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Blokiraj</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">Prišlo je do težav z varnostnim potrdilom za to mesto</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">Pojdi nazaj</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">Varnostna napaka</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Varnostna koda</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">Številka kartice</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">Vnesi 3- ali 4-mestno varnostno kodo za svoje %1$s • %2$s za samodejno zapolnjevanje tega obrazca.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">Za dodatno varnostno preverjanje vnesi podatke za kartico, ki se konča na %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">Za dodatno varnostno preverjanje vnesite celotno številko kartice za kartico, ki se konča na %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">Dodaj celotno številko kartice za %1$s • %2$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">Potrdite vpisane podatke o kartici</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Potrdi</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">Potrdi varnostno kodo za %1$s • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002e">V redu</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">E-pošta</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">Razlog je lahko tehnična napaka, ki se jo trudimo odpraviti. Poskusi znova naložiti to stran.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Osveži</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">Stran trenutno ni na voljo</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Priimek</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">Strani ni mogoče naložiti</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">Odpri z aplikacijo ...</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">Odpri v aplikaciji %1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Več možnosti</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Ime</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">Ime</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">Poštna številka</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">Telefon</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">Valstija</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">Miestas</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">Adresas</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">Apartamentai / butas (nebūtina)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Uždaryti naršyklę</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s nori naudoti įrenginio fotoaparatą.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s nori naudoti įrenginio vietą.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Leisti</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Blokuoti</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">Yra problemų, susijusių su šios svetainės saugos sertifikatu</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">Grįžti atgal</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">Saugos klaida</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Saugos kodas</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">Kortelės numeris</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">Jei norite automatiškai užpildyti šią formą, įveskite kortelės „%1$s“ 3–4 skaitmenų saugos kodą • %2$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">Kaip papildomą saugos patikros veiksnį įveskite kortelės, kuri baigiasi skaičiais %1$s, informaciją.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">Pridėkite visą kortelės „%1$s“ numerį • %2$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">Patvirtinkite kortelės informaciją</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Patvirtinti</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">Patvirtinkite saugos kodą („%1$s“) • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002e">Gerai</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">El. pašto adresas</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">Tai gali nutikti dėl techninės klaidos, kurią stengiamės pataisyti. Bandykite šį puslapį įkelti iš naujo.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Atnaujinti</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">Puslapis šiuo metu nepasiekiamas</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Pavardė</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">Negalima įkelti puslapio</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">Atidaryti naudojant…</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">Atidaryti naudojant „%1$s“</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Daugiau parinkčių</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">Vardas</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">Pašto kodas</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a1">Nuoroda į lapą, kuriame paaiškinama, kaip veikia ši patikra ir kaip „Meta“ naudos naudotojo informaciją, su nuorodomis į atitinkamą privatumo politiką.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">Telefono numeris</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:color="@color/ads_ratings_and_reviews_banner_color_fill" />
+    <item android:color="@color/igds_status_pill_ripple" />
+</selector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/progress">
+        <shape android:shape="ring" android:innerRadiusRatio="2.2" android:thicknessRatio="20.0" android:useLevel="true">
+            <corners android:radius="5.0dip" />
+            <gradient android:startColor="@color/igds_creation_tools_lavender" android:endColor="@color/igds_creation_tools_yellow" android:angle="0.0" android:type="sweep" android:centerColor="@color/activator_card_progress_bad" />
+        </shape>
+    </item>
+</layer-list>

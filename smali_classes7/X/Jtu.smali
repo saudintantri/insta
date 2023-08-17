@@ -1,0 +1,39 @@
+.class public final LX/Jtu;
+.super LX/JIB;
+.source ""
+
+
+# instance fields
+.field public final A00:LX/0Xg;
+
+.field public final A01:LX/0Vv;
+
+
+# direct methods
+.method public constructor <init>(Lcom/fbpay/logging/LoggingContext;LX/0Xg;LX/0Vv;)V
+    .locals 2
+
+    .line 0
+    sget-object v1, LX/KGP;->A06:LX/KGP;
+
+    .line 1
+    .line 2
+    const/4 v0, 0x0
+
+    .line 3
+    invoke-direct {p0, v1, p1, v0}, LX/JIB;-><init>(LX/KGP;Lcom/fbpay/logging/LoggingContext;Z)V
+
+    .line 4
+    .line 5
+    .line 6
+    iput-object p3, p0, LX/Jtu;->A01:LX/0Vv;
+
+    .line 7
+    .line 8
+    iput-object p2, p0, LX/Jtu;->A00:LX/0Xg;
+
+    .line 9
+    .line 10
+    return-void
+    .line 11
+.end method

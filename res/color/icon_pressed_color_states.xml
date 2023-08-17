@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/fundraiser_sticker_consumption_sheet_donation_disclaimer_normal_text_color" />
+    <item android:color="@color/ads_ratings_and_reviews_banner_color_fill" />
+</selector>

@@ -1,0 +1,305 @@
+{
+
+    "id":"story_ad_collection_ad_with_dynamic_video",
+    "taken_at":1603402790,
+    "reel_type":"ads_reel",
+    "pk":2425835835250365882,
+    "media_type":10,
+    "dynamic_item_id":3227403304017424,
+    "user":{
+      "pk":4467696972,
+      "username":"chicmeofficial",
+      "full_name":"Chic Me",
+      "is_private":false,
+      "profile_pic_url":"https://i.ibb.co/g4G5vcQ/IG-Logo.png",
+      "profile_pic_id":"1429632363511774759_4467696972",
+      "is_verified":false
+    },
+    "caption":{
+      "content_type":"comment",
+      "user":{
+        "pk":3729575284,
+        "username":"chicmeofficial",
+        "full_name":"Chic Me",
+        "is_private":false,
+        "profile_pic_url": "https://i.ibb.co/g4G5vcQ/IG-Logo.png",
+        "profile_pic_id":"1324353245640728206_3729575284",
+        "is_verified":false
+      },
+      "user_id":3729575284,
+      "pk":"2425835835250365882_caption",
+      "text":"\ud83d\udd25\ud83d\udd25  Up to 60% Off sitewide.\nExtra 10% off for first order.\nSHOP NOW >>  \ud83d\udc5a\ud83d\udc57\ud83d\udc5c\ud83d\udc59\ud83d\udc61\ud83d\udc62",
+      "type":1,
+      "created_at":1603402790,
+      "created_at_utc":1603377590,
+      "media_id":2425835835250365882,
+      "bit_flags":0,
+      "status":"Active",
+      "hide_username":false
+    },
+    "headline":{
+      "content_type":"comment",
+      "user":{
+        "pk":3729575284,
+        "username":"chicmeofficial",
+        "full_name":"Chic Me",
+        "is_private":false,
+        "profile_pic_url": "https://i.ibb.co/g4G5vcQ/IG-Logo.png",
+        "profile_pic_id":"1324353245640728206_3729575284",
+        "is_verified":false
+      },
+      "user_id":3729575284,
+      "pk":"3227403304017424_headline",
+      "text":"",
+      "type":1,
+      "created_at":1603402790,
+      "created_at_utc":1603377590,
+      "media_id":2425835835250365882,
+      "bit_flags":0,
+      "status":"Active"
+    },
+    "can_viewer_save":true,
+    "like_count":0,
+    "has_liked":false,
+    "has_more_comments":false,
+    "comment_count":0,
+    "max_num_visible_preview_comments":2,
+    "comments":[
+
+    ],
+    "caption_is_edited":false,
+    "photo_of_you":false,
+    "liker_config":{
+      "is_daisy":true,
+      "hide_view_count":false,
+      "show_count_in_likers_list":false,
+      "show_view_count_in_likers_list":false,
+      "show_daisy_liker_list_header":false,
+      "show_learn_more":false,
+      "ads_display_mode":1,
+      "display_mode":0,
+      "disable_liker_list_navigation":false,
+      "show_author_view_likes_button":false,
+      "user":{
+        "pk":4467696972,
+        "username":"lumiilighting",
+        "full_name":"LUMii Lighting",
+        "is_private":false,
+        "profile_pic_url":"https://i.ibb.co/g4G5vcQ/IG-Logo.png",
+        "profile_pic_id":"1429632363511774759_4467696972",
+        "is_verified":false,
+        "has_anonymous_profile_picture":false,
+        "is_unpublished":false,
+        "is_favorite":false,
+        "latest_reel_media":null
+      }
+    },
+    "injected":{
+      "label":"Sponsored",
+      "user":{
+        "pk":4467696972,
+        "username":"lumiilighting",
+        "full_name":"LUMii Lighting",
+        "is_private":false,
+        "profile_pic_url":"https://i.ibb.co/g4G5vcQ/IG-Logo.png",
+        "profile_pic_id":"1429632363511774759_4467696972",
+        "is_verified":false,
+        "has_anonymous_profile_picture":false,
+        "is_unpublished":false,
+        "is_favorite":false,
+        "latest_reel_media":null
+      },
+      "show_icon":true,
+      "hide_label":"Hide this",
+      "invalidation":null,
+      "is_demo":true,
+      "view_tags":[
+
+      ],
+      "is_holdout":false,
+      "tracking_token":"AI@AQJVc226Y6w35ABLsJXtFctaL136lEIJeqXGNEaw4PcOUIox6kHEAovfucwU3pm_wFEiaNEEniyTJkUhMJ4lsI87",
+      "show_ad_choices":true,
+      "ad_title":"Chic Me",
+      "about_ad_params":"",
+      "direct_share":true,
+      "ad_id":6147976168055,
+      "display_viewability_eligible":true,
+      "ads_debug_info":{
+        "adsBidInfo":{
+          "ecpmBid":0.0,
+          "ecpmPrice":0.0,
+          "ectr":0.0,
+          "ecvr":0.0,
+          "postImpEcvr":null,
+          "organicBidInfo":{
+            "organicBidCpm":0.0,
+            "userDollarValue":0.0,
+            "serializedPacedOrganicBidMap":"{}",
+            "serializedOrganicEventProbMap":"{}",
+            "serializedEventQualityMap":"{}",
+            "serializedImpOrganicBidMap":"{}",
+            "serializedImpOrganicCoeffMap":null,
+            "serializedImpOrganicScoreMap":null
+          }
+        },
+        "adsRankingInfo":{
+          "organicRank":0,
+          "ecpsBidRank":0,
+          "totalBidRank":0
+        }
+      },
+      "should_show_secondary_cta_on_profile":false,
+      "hide_reasons_v2":[
+        {
+          "text":"It's not relevant",
+          "reason":"NOT_RELEVANT"
+        },
+        {
+          "text":"I see it too often",
+          "reason":"KEEP_SEEING_THIS"
+        },
+        {
+          "text":"It's inappropriate",
+          "reason":null
+        },
+        {
+          "text":"[Employee only] Send ad for review",
+          "reason":"EMPLOYEE_REPORT"
+        }
+      ],
+      "hide_flow_type":2,
+      "cookies":[
+        "fr=1n7GiJnD4ReQRBCxB.AWXXj_5UdtzrrFOdDA-4WX5fBio.Bfkfwk..AAA.0.0.Bfkfwk.AWVC6OM5t_Y; expires=Wed, 20 Jan 2021 21:39:48 GMT; Max-Age=7776000; path=/; domain=.facebook.com; httponly"
+      ],
+      "cta_style":1,
+      "ctd_ads_info":{
+        "user":{
+          "pk":4467696972,
+          "username":"lumiilighting",
+          "full_name":"LUMii Lighting",
+          "is_private":false,
+          "profile_pic_url":"https://i.ibb.co/g4G5vcQ/IG-Logo.png",
+          "profile_pic_id":"1429632363511774759_4467696972",
+          "is_verified":false,
+          "has_anonymous_profile_picture":false,
+          "is_unpublished":false,
+          "is_favorite":false,
+          "latest_reel_media":null
+        },
+        "business_responsiveness_time_text":null,
+        "welcome_message_text":null,
+        "business_response_time_in_sec":null
+      }
+    },
+    "collapse_comments":false,
+    "ad_metadata":[
+      {
+        "value":"Tap to Open",
+        "type":1
+      }
+    ],
+    "link":null,
+    "link_text":"Shop Now",
+    "ad_action":"deeplink",
+    "link_hint_text":"Tap Photo to Open Page",
+    "iTunesItem":null,
+    "ad_link_type":1,
+    "ad_header_style":0,
+    "dr_ad_type":1,
+    "ios_links":[
+      {
+        "linkType":17,
+        "webUri":"",
+        "contentId":0,
+        "deeplinkUri":"instagram://mini_shop_collection_page/?business_user_id=3729575284&business_username=chicmeofficial&collection_type=seller_curated",
+        "callToActionTitle":"",
+        "redirectUri":null,
+        "leadGenFormId":null,
+        "igUserId":null,
+        "appInstallObjectiveInvalidationBehavior":null,
+        "skAdNetworkMetadata":null
+      }
+    ],
+    "force_overlay":true,
+    "hide_nux_text":true,
+    "overlay_text":"Tap to Open",
+    "overlay_title":"Chic Me",
+    "overlay_subtitle":"Tap to Open",
+    "follower_count":2042535,
+    "post_count":10092,
+    "collection_media_type":1,
+    "collection_media":[
+      {
+        "showreel_native_animation":{
+          "client_name":"dynamic_ads_ig_fa_rendering",
+          "content":"{\"product_ids\":[],\"variables\":\"7ZTNahsxFIVNoA2hgUIh4EAXszJd1Lakq9\\/CUGznF5oSHKd1V0IjyR7H4xnXM0ndvkP7LHnALortJJCkDjTOsrsrHa50+c6Rtn+\\/LD8v\\/LTQeKv0tiwPTJJk37xPg\\/04y4vgeDJIi+CzyWMTJT5o+\\/N8XrSyosjSYM9YHxyZfPjmmU\\/16cmr7c1SqfxicaBOsmz8dKeujycD6xdzlm4pm1fKzYW35fXByPRnjWuvyz\\/X4qIY5+\\/q9dxmaeHTopr0DVRxbTqt9SLr0lrqi\\/pFvWCyhgUjqsrrghOJhEKac4EVp0owzgkSmhGClOACAWYICQDJdFo7G\\/ff69Rqa4oQI1qxNgpJZbaTD1yIMEMe5ssstuF3NzxMzg4Op\\/u7jW61tZNMduaaceGP6mhe2lnXvIqL8P7Yc2UyciHhqJLFoRISM2U9E9xIzMA5SiPghjgvkGWokvmQ7SnYlbi5dbmxdbkxQ3jFaIHwP6iloBaPhcxS9vo4MYM0+JCl\\/eAk8f7CBy2Tn5sk6GTjv0WXLM0mmSH\\/9RjkSjEMGAtNJBGScxBISBAKtMJUMCwwUkRRiRih+B5z9jBzogXdYx9P9Oi00ZXtL51muiJz6XsWOO9hRyPkezziFhhySClPnHfmmnmToJ07zOFRzGEpc3h0zJWiAgNwDYwgThEigiiKhKaUc8yxBA5YEgVKkXvI+cPIfd6JU9FsAs0aXRUddYbZqjH31kaRM9SCRRwMoxKc6UURtVQx7G5ijiW6g5w++e9Nl9pBV7CDUYUF1ZxxBbNKEUUoaMIJQURyygSSSgBh8l\\/taPe7ujmB3a9xo9GtDtvFJ1jVDukRYw4w4IiBJE5IKz2jkZegnIdrO1pKNK7tKP0B\"}",
+          "template_name":"dpa_retail_with_page",
+          "assets":[
+            "https://i.ibb.co/jZrLpJh/pusheen-square-media.jpg",
+            "https://i.ibb.co/jZrLpJh/pusheen-square-media.jpg",
+            "https://i.ibb.co/jZrLpJh/pusheen-square-media.jpg",
+            "https://i.ibb.co/jZrLpJh/pusheen-square-media.jpg"
+          ]
+        },
+        "original_width":1080,
+        "original_height":1080,
+        "media_type":12,
+        "id":"2425835835250365882_3729575284_main",
+        "pk":2425835835250365882,
+        "collection_parent_id":"2425835835250365882_3729575284",
+        "collection_media_role":1
+      },
+      {
+        "collection_parent_id":"2425835835250365882_3729575284",
+        "collection_media_role":2,
+        "id":"3227403304017424_3729575284",
+        "pk":3227403304017424,
+        "media_type":1,
+        "image_versions2":{
+          "candidates":[
+            {
+              "url":  "https://i.ibb.co/jZrLpJh/pusheen-square-media.jpg",
+              "width":240,
+              "height":240
+            }
+          ]
+        }
+      },
+      {
+        "collection_parent_id":"2425835835250365882_3729575284",
+        "collection_media_role":2,
+        "id":"3273363772712151_3729575284",
+        "pk":3273363772712151,
+        "media_type":1,
+        "image_versions2":{
+          "candidates":[
+            {
+              "url":  "https://i.ibb.co/jZrLpJh/pusheen-square-media.jpg",
+              "width":240,
+              "height":240
+            }
+          ]
+        }
+      },
+      {
+        "collection_parent_id":"2425835835250365882_3729575284",
+        "collection_media_role":2,
+        "id":"4516180958423129_3729575284",
+        "pk":4516180958423129,
+        "media_type":1,
+        "image_versions2":{
+          "candidates":[
+            {
+              "url":  "https://i.ibb.co/jZrLpJh/pusheen-square-media.jpg",
+              "width":240,
+              "height":240
+            }
+          ]
+        }
+      }
+    ],
+    "fb_page_url":"https://www.facebook.com/ChicMefusion/",
+    "inventory_source":"media_or_ad",
+    "is_seen":false,
+    "is_eof":false
+}

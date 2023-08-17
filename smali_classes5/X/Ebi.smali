@@ -1,0 +1,481 @@
+.class public final LX/Ebi;
+.super Ljava/lang/Object;
+.source ""
+
+
+# direct methods
+.method public static A00(LX/100;LX/1Hv;)V
+    .locals 3
+
+    .line 0
+    invoke-virtual {p0}, LX/100;->A0N()V
+
+    .line 1
+    .line 2
+    .line 3
+    iget-object v0, p1, LX/1Hv;->A02:LX/7wt;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    const-string v0, "direct_pending_media"
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v0}, LX/100;->A0X(Ljava/lang/String;)V
+
+    .line 10
+    .line 11
+    .line 12
+    iget-object v0, p1, LX/1Hv;->A02:LX/7wt;
+
+    .line 13
+    .line 14
+    invoke-static {p0, v0}, LX/EUZ;->A00(LX/100;LX/7wt;)V
+
+    .line 15
+    .line 16
+    .line 17
+    :cond_0
+    iget-object v0, p1, LX/1Hv;->A01:LX/AR5;
+
+    .line 18
+    .line 19
+    if-eqz v0, :cond_1
+
+    .line 20
+    .line 21
+    iget v1, v0, LX/AR5;->A00:I
+
+    .line 22
+    .line 23
+    const-string v0, "mutation_queue_override"
+
+    .line 24
+    .line 25
+    invoke-virtual {p0, v0, v1}, LX/100;->A0F(Ljava/lang/String;I)V
+
+    .line 26
+    .line 27
+    .line 28
+    :cond_1
+    iget-object v0, p1, LX/1Hv;->A00:LX/EY4;
+
+    .line 29
+    .line 30
+    if-eqz v0, :cond_2
+
+    .line 31
+    .line 32
+    const-string v0, "private_reply_info"
+
+    .line 33
+    .line 34
+    invoke-virtual {p0, v0}, LX/100;->A0X(Ljava/lang/String;)V
+
+    .line 35
+    .line 36
+    .line 37
+    iget-object v0, p1, LX/1Hv;->A00:LX/EY4;
+
+    .line 38
+    .line 39
+    invoke-static {p0, v0}, LX/ETc;->A00(LX/100;LX/EY4;)V
+
+    .line 40
+    .line 41
+    .line 42
+    :cond_2
+    iget-object v0, p1, LX/1Hv;->A04:Ljava/lang/Boolean;
+
+    .line 43
+    .line 44
+    if-eqz v0, :cond_3
+
+    .line 45
+    .line 46
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    .line 47
+    .line 48
+    .line 49
+    move-result v1
+
+    .line 50
+    const-string v0, "is_x_transport_forward"
+
+    .line 51
+    .line 52
+    invoke-virtual {p0, v0, v1}, LX/100;->A0I(Ljava/lang/String;Z)V
+
+    .line 53
+    .line 54
+    .line 55
+    :cond_3
+    iget-object v0, p1, LX/1Hv;->A03:LX/60u;
+
+    .line 56
+    .line 57
+    if-eqz v0, :cond_5
+
+    .line 58
+    .line 59
+    const-string v0, "seed_message_identifier"
+
+    .line 60
+    .line 61
+    invoke-virtual {p0, v0}, LX/100;->A0X(Ljava/lang/String;)V
+
+    .line 62
+    .line 63
+    .line 64
+    iget-object v2, p1, LX/1Hv;->A03:LX/60u;
+
+    .line 65
+    .line 66
+    invoke-virtual {p0}, LX/100;->A0N()V
+
+    .line 67
+    .line 68
+    .line 69
+    iget-object v1, v2, LX/60u;->A00:Ljava/lang/String;
+
+    .line 70
+    .line 71
+    const-string v0, "non_null_identifier"
+
+    .line 72
+    .line 73
+    invoke-virtual {p0, v0, v1}, LX/100;->A0H(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 74
+    .line 75
+    .line 76
+    invoke-virtual {v2}, LX/60u;->A00()Ljava/lang/String;
+
+    .line 77
+    .line 78
+    .line 79
+    move-result-object v1
+
+    .line 80
+    if-eqz v1, :cond_4
+
+    .line 81
+    .line 82
+    const/16 v0, 0x22a
+
+    .line 83
+    .line 84
+    invoke-static {v0}, LX/000;->A00(I)Ljava/lang/String;
+
+    .line 85
+    .line 86
+    .line 87
+    move-result-object v0
+
+    .line 88
+    invoke-virtual {p0, v0, v1}, LX/100;->A0H(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 89
+    .line 90
+    .line 91
+    :cond_4
+    invoke-virtual {p0}, LX/100;->A0K()V
+
+    .line 92
+    .line 93
+    .line 94
+    :cond_5
+    invoke-static {p0, p1}, LX/ETd;->A00(LX/100;LX/1GH;)V
+
+    .line 95
+    .line 96
+    .line 97
+    invoke-virtual {p0}, LX/100;->A0K()V
+
+    .line 98
+    .line 99
+    .line 100
+    return-void
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+.end method
+
+.method public static parseFromJson(LX/0zD;)LX/1Hv;
+    .locals 3
+
+    .line 0
+    new-instance v2, LX/1Hv;
+
+    .line 1
+    .line 2
+    invoke-direct {v2}, LX/1Hv;-><init>()V
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-virtual {p0}, LX/0zD;->A0i()LX/3HY;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v1
+
+    .line 9
+    sget-object v0, LX/3HY;->A08:LX/3HY;
+
+    .line 10
+    .line 11
+    if-eq v1, v0, :cond_0
+
+    .line 12
+    .line 13
+    invoke-virtual {p0}, LX/0zD;->A0h()LX/0zD;
+
+    .line 14
+    .line 15
+    .line 16
+    const/4 v0, 0x0
+
+    .line 17
+    return-object v0
+
+    .line 18
+    :cond_0
+    :goto_0
+    invoke-virtual {p0}, LX/0zD;->A0t()LX/3HY;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v1
+
+    .line 22
+    sget-object v0, LX/3HY;->A04:LX/3HY;
+
+    .line 23
+    .line 24
+    if-eq v1, v0, :cond_7
+
+    .line 25
+    .line 26
+    invoke-static {p0}, LX/5Wd;->A0m(LX/0zD;)Ljava/lang/String;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object v1
+
+    .line 30
+    const-string v0, "direct_pending_media"
+
+    .line 31
+    .line 32
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 33
+    .line 34
+    .line 35
+    move-result v0
+
+    .line 36
+    if-eqz v0, :cond_1
+
+    .line 37
+    .line 38
+    invoke-static {p0}, LX/EUZ;->parseFromJson(LX/0zD;)LX/7wt;
+
+    .line 39
+    .line 40
+    .line 41
+    move-result-object v0
+
+    .line 42
+    iput-object v0, v2, LX/1Hv;->A02:LX/7wt;
+
+    .line 43
+    .line 44
+    :goto_1
+    invoke-virtual {p0}, LX/0zD;->A0h()LX/0zD;
+
+    .line 45
+    .line 46
+    .line 47
+    goto :goto_0
+
+    .line 48
+    :cond_1
+    const-string v0, "mutation_queue_override"
+
+    .line 49
+    .line 50
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 51
+    .line 52
+    .line 53
+    move-result v0
+
+    .line 54
+    if-eqz v0, :cond_3
+
+    .line 55
+    .line 56
+    invoke-virtual {p0}, LX/0zD;->A0K()I
+
+    .line 57
+    .line 58
+    .line 59
+    move-result v1
+
+    .line 60
+    sget-object v0, LX/AR5;->A01:Ljava/util/Map;
+
+    .line 61
+    .line 62
+    invoke-static {v0, v1}, LX/Chd;->A0c(Ljava/util/Map;I)Ljava/lang/Object;
+
+    .line 63
+    .line 64
+    .line 65
+    move-result-object v0
+
+    .line 66
+    check-cast v0, LX/AR5;
+
+    .line 67
+    .line 68
+    if-nez v0, :cond_2
+
+    .line 69
+    .line 70
+    sget-object v0, LX/AR5;->A03:LX/AR5;
+
+    .line 71
+    .line 72
+    :cond_2
+    iput-object v0, v2, LX/1Hv;->A01:LX/AR5;
+
+    .line 73
+    .line 74
+    goto :goto_1
+
+    .line 75
+    :cond_3
+    const-string v0, "private_reply_info"
+
+    .line 76
+    .line 77
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 78
+    .line 79
+    .line 80
+    move-result v0
+
+    .line 81
+    if-eqz v0, :cond_4
+
+    .line 82
+    .line 83
+    invoke-static {p0}, LX/ETc;->parseFromJson(LX/0zD;)LX/EY4;
+
+    .line 84
+    .line 85
+    .line 86
+    move-result-object v0
+
+    .line 87
+    iput-object v0, v2, LX/1Hv;->A00:LX/EY4;
+
+    .line 88
+    .line 89
+    goto :goto_1
+
+    .line 90
+    :cond_4
+    const-string v0, "is_x_transport_forward"
+
+    .line 91
+    .line 92
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 93
+    .line 94
+    .line 95
+    move-result v0
+
+    .line 96
+    if-eqz v0, :cond_5
+
+    .line 97
+    .line 98
+    invoke-static {p0}, LX/5We;->A0S(LX/0zD;)Ljava/lang/Boolean;
+
+    .line 99
+    .line 100
+    .line 101
+    move-result-object v0
+
+    .line 102
+    iput-object v0, v2, LX/1Hv;->A04:Ljava/lang/Boolean;
+
+    .line 103
+    .line 104
+    goto :goto_1
+
+    .line 105
+    :cond_5
+    const-string v0, "seed_message_identifier"
+
+    .line 106
+    .line 107
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 108
+    .line 109
+    .line 110
+    move-result v0
+
+    .line 111
+    if-eqz v0, :cond_6
+
+    .line 112
+    .line 113
+    invoke-static {p0}, LX/Dwu;->parseFromJson(LX/0zD;)LX/60u;
+
+    .line 114
+    .line 115
+    .line 116
+    move-result-object v0
+
+    .line 117
+    iput-object v0, v2, LX/1Hv;->A03:LX/60u;
+
+    .line 118
+    .line 119
+    goto :goto_1
+
+    .line 120
+    :cond_6
+    invoke-static {p0, v2, v1}, LX/ETd;->A01(LX/0zD;LX/1GH;Ljava/lang/String;)V
+
+    .line 121
+    .line 122
+    .line 123
+    goto :goto_1
+
+    .line 124
+    :cond_7
+    return-object v2
+    .line 125
+    .line 126
+.end method

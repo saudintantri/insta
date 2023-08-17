@@ -1,0 +1,259 @@
+{
+  "media_or_ad": {
+    "taken_at": 1606941306,
+    "pk": 2455524115412228600,
+    "id": "igtv_channel_internal_deeplink",
+    "device_timestamp": 1606941306,
+    "media_type": 2,
+    "code": "CITxixMjRqD",
+    "filter_type": 0,
+    "user": {
+      "pk": 90010190609115,
+      "username": "ig.ny.me",
+      "full_name": "",
+      "is_private": false,
+      "profile_pic_url": "https://i.ibb.co/g4G5vcQ/IG-Logo.png",
+      "profile_pic_id": "2369501671643981585_90010190609115",
+      "friendship_status": {
+        "following": false,
+        "outgoing_request": false,
+        "is_muting_reel": false,
+        "is_bestie": false,
+        "is_restricted": false
+      },
+      "is_verified": false,
+      "has_anonymous_profile_picture": false,
+      "is_unpublished": false,
+      "is_favorite": false,
+      "latest_reel_media": 0,
+      "account_badges": [],
+      "story_reel_media_ids": []
+    },
+    "caption_is_edited": false,
+    "liker_config": {
+      "is_daisy": true,
+      "hide_view_count": true,
+      "show_count_in_likers_list": false,
+      "show_view_count_in_likers_list": false,
+      "show_daisy_liker_list_header": false,
+      "show_learn_more": false,
+      "ads_display_mode": 1,
+      "display_mode": 0,
+      "disable_liker_list_navigation": false,
+      "show_author_view_likes_button": false
+    },
+    "comment_likes_enabled": true,
+    "comment_threading_enabled": true,
+    "has_more_comments": false,
+    "max_num_visible_preview_comments": 2,
+    "preview_comments": [],
+    "can_view_more_preview_comments": false,
+    "comment_count": 0,
+    "image_versions2": {
+      "candidates": [
+        {
+          "width": 1280,
+          "height": 720,
+          "url": "https://i.ibb.co/tDjkVYf/Screen-Shot-2019-09-27-at-10-49-08-AM.png",
+          "scans_profile": "e15",
+          "estimated_scans_sizes": [
+            2344,
+            4689,
+            7034,
+            9378,
+            11723,
+            21102,
+            21102,
+            21102,
+            21102
+          ]
+        }
+      ]
+    },
+    "original_width": 1280,
+    "original_height": 720,
+    "like_count": 0,
+    "bucketed_like_count": null,
+    "has_liked": false,
+    "top_likers": [],
+    "likers": [],
+    "photo_of_you": false,
+    "can_see_insights_as_brand": false,
+    "is_dash_eligible": 1,
+    "video_codec": "avc1.4D401F",
+    "number_of_qualities": 3,
+    "video_versions": [
+      {
+        "type": 101,
+        "width": 1280,
+        "height": 720,
+        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+        "id": "17872013657087216"
+      }
+    ],
+    "has_audio": true,
+    "video_duration": 15.000,
+    "view_count": 5,
+    "caption": {
+      "pk": 17899012870635492,
+      "user_id": 90010190609115,
+      "text": "primary text",
+      "type": 1,
+      "created_at": 1606941308,
+      "created_at_utc": 1606941308,
+      "content_type": "comment",
+      "status": "Active",
+      "bit_flags": 0,
+      "did_report_as_spam": false,
+      "share_enabled": false,
+      "user": {
+        "pk": 90010190609115,
+        "username": "ig.ny.me",
+        "full_name": "",
+        "is_private": false,
+        "profile_pic_url": "https://i.ibb.co/g4G5vcQ/IG-Logo.png",
+        "profile_pic_id": "2369501671643981585_90010190609115",
+        "friendship_status": {
+          "following": false,
+          "outgoing_request": false,
+          "is_muting_reel": false,
+          "is_bestie": false,
+          "is_restricted": false
+        },
+        "is_verified": false,
+        "has_anonymous_profile_picture": false,
+        "is_unpublished": false,
+        "is_favorite": false,
+        "latest_reel_media": 0,
+        "account_badges": [],
+        "story_reel_media_ids": []
+      },
+      "is_covered": false,
+      "media_id": 2455524115412228600,
+      "private_reply_status": 0,
+      "hide_username": false
+    },
+    "injected": {
+      "label": "Sponsored",
+      "show_icon": true,
+      "hide_label": "Hide this",
+      "invalidation": null,
+      "is_demo": true,
+      "view_tags": [],
+      "is_holdout": false,
+      "tracking_token": "AI@AQIMTxxU4ebOQLIf76-xKSTNI7hCj2S19HZr0vKBdtU03hdFsGPguGueLoShHiV72ZR_8ADu52uoLLKtdyetBzrv",
+      "show_ad_choices": false,
+      "ad_title": "[FB Test Page] IGBV Media & Entertainment Ads",
+      "about_ad_params": "",
+      "direct_share": true,
+      "ad_id": 23847204411380336,
+      "display_viewability_eligible": true,
+      "ads_debug_info": {
+        "adsBidInfo": {
+          "ecpmBid": 0,
+          "ecpmPrice": 0,
+          "ectr": 0,
+          "ecvr": 0,
+          "postImpEcvr": null,
+          "organicBidInfo": {
+            "organicBidCpm": 0,
+            "userDollarValue": 0,
+            "serializedPacedOrganicBidMap": "{}",
+            "serializedOrganicEventProbMap": "{}",
+            "serializedEventQualityMap": "{}",
+            "serializedImpOrganicBidMap": "{}",
+            "serializedImpOrganicCoeffMap": null,
+            "serializedImpOrganicScoreMap": null
+          }
+        },
+        "adsRankingInfo": {
+          "organicRank": 0,
+          "ecpsBidRank": 0,
+          "totalBidRank": 0
+        }
+      },
+      "should_show_secondary_cta_on_profile": false,
+      "hide_reasons_v2": [
+        {
+          "text": "It's not relevant",
+          "reason": "NOT_RELEVANT"
+        },
+        {
+          "text": "I see it too often",
+          "reason": "KEEP_SEEING_THIS"
+        },
+        {
+          "text": "It's inappropriate",
+          "reason": null
+        },
+        {
+          "text": "[Employee only] Send ad for review",
+          "reason": "EMPLOYEE_REPORT"
+        }
+      ],
+      "hide_flow_type": 2,
+      "cookies": [
+        "fr=53g3N2OYbISmSvR6H.AWVxi8DOIKC80AkJKCCTvFq4G7Q.Bfzlvp..AAA.0.0.Bfzlvp.AWV1X81Cqwg; expires=Sun, 07 Mar 2021 16:44:25 GMT; Max-Age=7776000; path=/; domain=.facebook.com; httponly"
+      ],
+      "ctd_ads_info": {
+        "business_responsiveness_time_text": null,
+        "welcome_message_text": null,
+        "business_response_time_in_sec": null
+      }
+    },
+    "collapse_comments": false,
+    "ad_metadata": [
+      {
+        "value": "Go to Website",
+        "type": 1
+      }
+    ],
+    "link": "https://www.instagram.com/nba/channel/",
+    "link_text": "Learn More",
+    "ad_action": "deeplink",
+    "link_hint_text": "Tap Photo to Open Page",
+    "iTunesItem": null,
+    "ad_link_type": 1,
+    "ad_header_style": 0,
+    "dr_ad_type": 1,
+    "android_links": [
+      {
+        "linkType": 21,
+        "webUri": "",
+        "androidClass": "",
+        "package": "",
+        "deeplinkUri": "instagram://igtv_profile/?user_id=20824486",
+        "callToActionTitle": "",
+        "redirectUri": null,
+        "leadGenFormId": null,
+        "igUserId": null,
+        "appInstallObjectiveInvalidationBehavior": null
+      }
+    ],
+    "force_overlay": false,
+    "hide_nux_text": true,
+    "overlay_text": "Go to Website",
+    "overlay_title": "[FB Test Page] IGBV Media & Entertainment Ads",
+    "overlay_subtitle": "Go to Website",
+    "dominant_color": "#252E3D",
+    "follower_count": 104,
+    "post_count": 1,
+    "fb_page_url": "https://www.facebook.com/FB-Test-Page-IGBV-Media-Entertainment-Ads-585949458755624/",
+    "can_viewer_save": true,
+    "organic_tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiYmMyNDcyMjNjODAyNDk3MmFjM2EwMDRmNjE3ZGM3YTMyNDU1NTI0MTE1NDEyMjI4NzM5Iiwic2VydmVyX3Rva2VuIjoiMTYwNzM1OTQ2NjA0OXwyNDU1NTI0MTE1NDEyMjI4NzM5fDI5NzcyMjg1NXw0ODU4NDFiNmMyNTFmNDljZmZjYTkwNWYxNWVjYzE2MzRkYjI4ZmMxODg0ZjZlYWY3ZWRhZDAxMzQwOGM3NDlkIn0sInNpZ25hdHVyZSI6IiJ9",
+    "expiring_at": 1607445866,
+    "preview": "ACEqeRVF7QPJvYkg9v8APatHHrTSuay2NSvgDgU0jHJ/KpmULz1qLbk5NAEfNFSYFFAF0DPWlYBRTzhRmoCSxpiIyMnJqvJOiHaTz3qe4cxISBk1gs24lj1POe3Xv6+1NK+4m7bGr5q/3h+YorGop8ouY6hiWpFIFB6UztUlA+COazXtFY5HH8qvvTO1MRQ+yD/IorTop3YrI//Z",
+    "sharing_friction_info": {
+      "should_have_sharing_friction": false,
+      "bloks_app_url": null
+    },
+    "is_in_profile_grid": false,
+    "profile_grid_control_enabled": false,
+    "is_shop_the_look_eligible": false,
+    "deleted_reason": 0,
+    "integrity_review_decision": "pending",
+    "inventory_source": "media_or_ad",
+    "is_seen": true,
+    "is_eof": false
+  }
+}

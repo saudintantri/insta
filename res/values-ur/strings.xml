@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">ریاست/صوبہ</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">شہر</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">پتہ</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">اپارٹمنٹ/سوئٹ (اختیاری)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">براؤزر بند کریں</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s آپ کے ڈیوائس کا کیمرہ استعمال کرنا چاہتا ہے۔</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s آپ کے ڈیوائس کا محل وقوع استعمال کرنا چاہتا ہے۔</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">اجازت دیں</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">مسدود کریں</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">اس سائٹ کیلئے سیکورٹی سرٹیفکیٹ کے ساتھ مسائل ہیں</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">واپس جائیں</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">سیکورٹی غلطی</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">سیکورٹی کوڈ</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">کارڈ نمبر</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">یہ فارم آٹو میٹک طریقے سے بھرنے کے لیے اپنے %1$s • %2$s پر 3 یا 4 ہندسوں کا سیکورٹی کوڈ درج کریں۔</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">اضافی سیکورٹی چیک کے طور پر براہ کرم %1$s پر ختم ہونے والے اپنے کارڈ کی تفصیلات درج کریں۔</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">اضافی سیکورٹی چیک کے طور پر براہ کرم %1$s پر ختم ہونے والے اپنے کارڈ کا مکمل کارڈ نمبر درج کریں۔</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">%1$s کا مکمل کارڈ نمبر شامل کریں • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">کارڈ کی تفصیلات کنفرم کریں</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">کنفرم کریں</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">%1$s کا سیکورٹی کوڈ کنفرم کریں • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002e">ٹھیک ہے</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">ای میل</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">ہو سکتا ہے یہ اس تکنیکی خرابی کی وجہ سے ہو جسے ہم حل کرنے کی کوشش کر رہے ہیں۔ اس پیج کو دوبارہ لوڈ کرنے کی کوشش کریں۔</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">ریفریش کریں</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">یہ پیج فی الوقت دستیاب نہیں ہے</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">آخری نام</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">صفحہ لوڈ نہیں کیا جاسکتا</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">کے ساتھ کھولیں...</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">میں کھولیں %1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">مزید اختیارات</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">پہلا نام</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">نام</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">زپ کوڈ</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a1">ایک شیٹ کا لنک جس میں بیان کیا گیا ہے کہ یہ چیک آؤٹ کیسے کام کرتا ہے اور یہ کہ Meta صارف کی معلومات کس طرح استعمال کرے گی۔ مزید براں اس شیٹ میں متعلقہ رازداری کی پالیسیوں کے لنکس بھی شامل ہیں۔</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">ٹیلیفون</string>
+</resources>

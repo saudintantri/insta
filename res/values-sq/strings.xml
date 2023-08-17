@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">Shteti</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">Qyteti</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">Adresa</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">Apartamenti/suita (opsionale)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Mbyll shfletuesin</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s dëshiron të përdorë vendndodhjen e pajisjes tënde.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Lejo</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Blloko</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">Ka probleme me certifikatën e sigurisë për këtë sajt</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">Kthehu prapa</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">Gabim sigurie</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Kodi i sigurisë</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">Numri i kartës</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">Fut kodin e sigurisë me 3 ose 4 shifra te %1$s • %2$s për ta plotësuar automatikisht këtë formular.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">Si një kontroll shtesë sigurie, lutemi shkruanij detajet për kartën tënde që mbarojnë me %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">Shto numrin e plotë të kartës për %1$s • %2$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">Konfirmo detajet e kartës</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Konfirmo</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">Konfirmo kodin e sigurisë për %1$s • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">Kjo mund të ketë ndodhur për shkak të një problemi teknik për të cilin po punojmë. Provo ta ringarkosh këtë faqe.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Rifresko</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">Faqja nuk është e disponueshme për momentin</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Mbiemri</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">Faqja nuk mund të ngarkohet</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">Hap me…</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">Hape në %1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Më shumë opsione</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Emri</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">Emri</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">Kodi postar</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">Telefon</string>
+</resources>

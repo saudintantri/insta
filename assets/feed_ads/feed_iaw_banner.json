@@ -1,0 +1,775 @@
+{
+  "media_or_ad": {
+    "id": "2688291763147548563_2288267",
+    "taken_at": 1634694845,
+    "pk": 2688291763147548700,
+    "media_type": 8,
+    "dynamic_item_id": 4811490602256830,
+    "user": {
+      "pk": 2288267,
+      "username": "verabradley",
+      "full_name": "",
+      "is_private": false,
+      "profile_pic_url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200",
+      "profile_pic_id": "2666881644845200300_2288267",
+      "friendship_status": {
+        "following": false,
+        "followed_by": false,
+        "blocking": false,
+        "muting": false,
+        "is_private": false,
+        "incoming_request": false,
+        "outgoing_request": false,
+        "is_bestie": false,
+        "is_restricted": false,
+        "is_feed_favorite": false
+      },
+      "is_verified": true,
+      "follow_friction_type": 0,
+      "has_anonymous_profile_picture": false,
+      "is_unpublished": false,
+      "is_favorite": false,
+      "account_badges": [],
+      "latest_reel_media": 0
+    },
+    "caption": {
+      "content_type": "comment",
+      "user": {
+        "pk": 2288267,
+        "username": "verabradley",
+        "full_name": "",
+        "is_private": false,
+        "profile_pic_url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200",
+        "profile_pic_id": "2666881644845200300_2288267",
+        "is_verified": true,
+        "follow_friction_type": -1
+      },
+      "user_id": 2288267,
+      "pk": "2688291763147548563_caption",
+      "text": "Beautiful bags & accessories that add brightness and fun wherever you carry them!",
+      "type": 1,
+      "created_at": 1634694845,
+      "created_at_utc": 1634669645,
+      "media_id": 2688291763147548700,
+      "bit_flags": 0,
+      "status": "Active",
+      "hide_username": false
+    },
+    "can_viewer_save": true,
+    "like_count": 0,
+    "has_liked": false,
+    "has_more_comments": false,
+    "comment_count": 0,
+    "max_num_visible_preview_comments": 2,
+    "comments": [],
+    "caption_is_edited": false,
+    "photo_of_you": false,
+    "liker_config": {
+      "is_daisy": true,
+      "hide_view_count": false,
+      "show_count_in_likers_list": false,
+      "show_view_count_in_likers_list": false,
+      "show_daisy_liker_list_header": false,
+      "show_learn_more": false,
+      "ads_display_mode": 1,
+      "display_mode": 0,
+      "disable_liker_list_navigation": false,
+      "show_author_view_likes_button": false,
+      "is_in_daisy_controls": false
+    },
+    "injected": {
+      "label": "Sponsored",
+      "show_icon": true,
+      "hide_label": "Hide this",
+      "is_demo": true,
+      "view_tags": [],
+      "is_holdout": false,
+      "tracking_token": "AQIjB7qyFYGfQqLhRCCj3Teoys_uEJIizptAAs_Fq1wRk-G6kjTE_foZNnDUZaN6vNl2s1jWVR7cUgG6COXniXY5fRM7v1V-fPwfz6kX6wZsxRrk136AoYXQw1cWrgWKCxJJ1MWKRZIAHhJIvrn6OUE4DyX58BaZFhgNVBvHfpxRFzWPRVI3o_kdxWB61mwcd001S8CVh4ZSKSMIepBTJAO5Y5H2Cr_Y8jy_AjE1tjnCFtbBViLW3RME25pH3uV-v-6GO5_ysrTa8H8TuWjs6JAcCsnwIf61uODeEqjrPvLMKu95pKZeyLyg-y89-Tidwe7wIEwLKie4ITDm6sXmEm-Y4ZaFkV4t_co4MUq2mkSXFG6QeYYk-mTQhQIc3MKoaVH9UUH69I5qzNWUIUhlcTm87JggSuvDeY4hKafnHP1UBV2yoMZPkw_IFfoaukZoPiPvFw_byL446KTv6fA0odgtZpLx4bGdRrCCKrVjiKLdRGv3oR58dhPUr76SQTdv4itTe-EhXQAcfMVGb-iRuGCMEm5tb9alPwqxj-SSaumpt373JcYw8dszeyLpCKs64PU-_4c6JY4OA8upOZqO4qKkp1q06M-n93GQH310bZRBx0d00Sq5d3c-ofvteV4V8ZXbAr5-3lI3xTjJFaLDjbJB5JrlYoZJe48hnIAHS5434-i7EjRjeqk50G96L-qwLK8iJ0r5Mm_-UXVmTvzOKFIIzSp59VkpBUk19JtgNL2KVh3tDqrYobpYp2L4ghXKG4v1mSYBu-Zj_3v7VdSu5mjSZqJUysC57o87shIJUYmzxY-I8Gou4ZYhOXykWYK37QhZX5K1s6sO4QwQbDjxkJY7_Hh-Kk0ir8KLV7xdp_fgl7BhL1S2ufgeMB2xJOTCDOtqlZAtUcfJabIISvtHD2NX2Gcg7UTPBX0smTZ97Ce3ttTSuTRU2YZulmc8_nAug2-mxcWAoZ54EgiDlTBsEPJBM582NUUf5jhBj6q48nbJ25OcXeF-yYhSsZl0N6mnKqrELptKykn0urJOFGLBpFIBtDeq3pXlMlGFEGFwDQyyEQWtuDMx4qhhiQB-L29DXHYCrXzNDZaoJ3rUgC6tjXwiEK4seMZiQIJ1j5iS47fxBjTt5o0dH6JGnyBiYr5lXfN8iSsEgsBiuedwOahu8ABnFWOpZVAFhL8ZtPFY05iycCS7vnbcuXhmbgB0Hq-Mlrr5VHgHMYIuZdEXxDrpUvOC4LxyEQZ6cdehJ68QcHfewTTugIJDs5ZnC9RVXKz8d8vFNMmLGtF1NPaPv0ms2-diIhxjqxfWcpJLuKejJckfHyyJMfJD2OKOFN1c5vp0fpuPWVSH5xam2MLnPd7VZc4JHeS4dgAZ_Pk5utugWxQfr5-bwL8IyOAGorKWLS8iRMRQrGUVIg9fAqr4tMavv3oOAckae9g5H3jTRCWHRjffi-VSH_rrgQzNMWgytO9aPrBRvD2uocikadSvytocfyNjID6gWJZNurkN5UEuO6LmZANSE-s11x8P6jtRxXGv-hWFjuGixtW2aiuzXEmMVR2ce3A6tL5aNtU7-s4z2oBCOzCW2-oIO1WtMrpssPn29nj5qyk4-5Feo0d5dGFaVpn_9895YakFbDyJilYW_AEHqQ16zM0bugh1sDY9Q85CO3f2s_K6CyCNQCnegMG_05uWjJYR5iq9K1I_AQpoPCz4SGyZyRh-Xkld6dDwgSim9JDOIJFGqD3LMvXUILkWfVbxJxVPNmanVsgLc1bKS8mqQ_ggnWUOLm0g1kc3OuYeffWvLknolrKaECY77P1ccn6933_MugvLlB782J2Seo-g2jtSxIUHppMFDexzPVGrj02xoOsbvtmErAtN4AXV53fcy82sdUiFMzFsfSnGdFe3hUZkYW-yW0AR6m1zJZhJvif3C6OS_A2Uhf0O38narc2tsHMubwv9ZyhZczvB_QkAOh4LOwLp4YVVoZtIurusQOOZzmaX0B4ZpXQ3bC-VAD9LTtJMvCPrAHKS5O2OrF4MxutQ7cFZrm3Rq55JVewWt3X8ixPJS7_xC9accXdtSKmPSVD_9NVtl8APkZ4ORwYQaf7rFt46VtfhmiO-bAfzSRVCTWGZ-HBlTiBa-G1NsSaWyY0qhO6mRjNNfuEDBS4q2ZxnDyFMxiIP-vztlT0IOhjzrVZ_P4cy24cLDV9TAW9nwLN7ju9eWjrw9JmVT3uAdZ5wP61pxKTowA_peL3latViBbxrne8jNpJfbtqq5SSJBOFibCSHcFYUapIdGeSqj7sNQwk35P_v_m1kZrOxHyXI2kR-UHQbb5n6wplqLBSepbfx8BCmlea-yt8mmHxerkvBIlqoHcSZPWzkPqMmoD8-QE19jlSyV59Nre226CVvrzzBm1Y4HQvWVql4pdt-HmgU-q0ROZVnBmfXb4PFr-PiFt-aISc2FhXUFfetp6Wqa2Dz1tF8dugvP-NjYHVwIpHbdVcCkupP3kEBxffoXKr8xzJsyCm1CZFytPmuYJjDd9GsYEjFPH_Xwbehuy4w_XUXK2_urPM-nj8V53W-9qq2RHkw_tD9rD8xnt4VTJcI7FstoF7RuiM3Nu_xZ3TDel1NezLz8we0YnAeBm3iNYbx6a4yDHAshPE7p0F63epn2sddvW8pq8uoUvx5LB7vMS9WquPA992yeOQgxs2jNXNZ8YZATtSrFr_g3ue096QsB345OT_2aMzrM8IFi-YTrSbHkyZxahEbLUYlqZqMc5RAb4Jpq_exO5MYjrrGyL1QCtMCJFtIUTXza0R6bashuHVj4yncxB5Z5giyLP7E03xDoKIl_0Iv7e6-0_YJ1PLmEHWy-LmB6RrvseskbnR_t5Y5QysCfVofw91ulrnGospXBAGtWAkP100EAfa09eWIJAG3A8dV8DNkk_Q4UyY6HS13T0vmRhRIlCVf_Ax4edMYukurE5knbf1GueqmCcw1UtuCW2IwpgQYVcMYSGKBGlwxhhgfTSjqa5DQj_ViKTvZx47mFYCtBTpZO-ALRsRTI2-VlTqYT-Csl837NqKjVT1jNXGm8vZ4Fa3DZU1CA6fHg4xp6Q3zkjg4hkDef-H-jSSyG8NWVPbomnLpQyj7VoT6VXisxTfELTu0vOEspRkk9HtAT-yg5td58tatRAFAaJIeivlorvZntNuy1JympMmEQk6-16dFwbBC8LlkCXZNfzZeYVjvWQtw-3mGSOGAFtTtfkJR_2KzxFYYUXJP2JRdUOuqtcBv3n8sfiEQtKHeHBepEDrXvOXNZL4RTow5PvlYgc_jHoKSWQObc2RBUV-nU5ln8yHWt_E_RHXM99dwzYevPmkcDMBXYKNFXKKgNXNiFZgcBg5vmBqHl1ZS0TdPM1qXOu77D0DbvvTP9_2b4PJ3xKcUQoiCmKgudYup5ktCidiTULVVyMYOe_LBaVNyZWQc70_Bm7Igmv9q8q1u-STLMc98HpncJdKkUk5u9Uy49aXx2YfkvTPqQqiG3X_v_HLQ6YYCUnQzGaXQuKdpkl7Uxq6B9eyRD91aLFdDr9B799VVmzu3dAvn3eg_Kl9vQHP2rax0bsXXhvF6NxkAfmJ8kl7J2H7abBRaMqT-_uEkCUCfHmqgjXGDJOiQ0uGbO5ipSH9xmm4lygYI0HbJk-7qnRnEry8IqgWkRdzdV0efBPF3C6mUjGEI_D5kXbYiQI39ScqhJgZ2tFeLP97P-fWBqqkK2sXIPIyx8MCR1i_dytWuDjqYmWnKlALDfbckhf04VUAcQDHmjxpSbXZSQjiaq5L15BXFbJfDbQxyQCRkpyvkQElRB3toHOf0dPYUxZfAX32_VD_pzkjCsgfGDfer-fhR6p9nCPwDyU-Y-2xdsy2FxNYUVJXDDco7sOLiRe4qmm2eyMgITtg2By4ZRAHcxkuoNjpyNh-ipQeeO-vwUXbqS37mS29DUJdZPKeW2cdmjNGKACUn_g96s-3QHhgCmOYWcLuX7TBv07z9UPBnq0ak_G_HtmZs3vXV31f6HbzCSlhWxjwsIPaTLxTZKj_J-_tVWT7fZG2eux7oFZHY4Jk34MQWTU2BKt9m6PCX9eZ_ZvnAj-3Lc_77abnuQymwpqXP9BR0JGyteO5s_Mdhsg8TwJQ0qoOZDoW8ajdPZhiEqJpLARNgsx92cUOShtzP9RRSwHWQ0lhrheXd",
+      "show_ad_choices": false,
+      "ad_title": "Vera Bradley",
+      "about_ad_params": "",
+      "direct_share": true,
+      "ad_id": 238752772381,
+      "display_viewability_eligible": true,
+      "ads_debug_info": {
+        "adsBidInfo": {
+          "ecpmBid": 0,
+          "ecpmPrice": 0,
+          "ectr": 0,
+          "ecvr": 0,
+          "postImpEcvr": null,
+          "organicBidInfo": {
+            "organicBidCpm": 0,
+            "userDollarValue": 0,
+            "serializedPacedOrganicBidMap": "{}",
+            "serializedOrganicEventProbMap": "{}",
+            "serializedEventQualityMap": "{}",
+            "serializedImpOrganicBidMap": "{}",
+            "serializedImpOrganicCoeffMap": null,
+            "serializedImpOrganicScoreMap": null
+          }
+        },
+        "adsRankingInfo": {
+          "organicRank": 0,
+          "ecpsBidRank": 0,
+          "totalBidRank": 0
+        }
+      },
+      "should_show_secondary_cta_on_profile": false,
+      "hide_reasons_v2": [{
+        "text": "It's not relevant",
+        "reason": "NOT_RELEVANT"
+      }, {
+        "text": "I see it too often",
+        "reason": "KEEP_SEEING_THIS"
+      }, {
+        "text": "It's inappropriate",
+        "reason": null
+      }, {
+        "text": "[Employee only] Send ad for review",
+        "reason": "EMPLOYEE_REPORT"
+      }],
+      "hide_flow_type": 2,
+      "cookies": ["fr=0umGuPUfFyKUYmAoq.AWWu0z8hOKPbi7iuC_IJTC0Snuo.Bhb3a9..AAA.0.0.Bhb3a9.AWU7zc_h-bI; expires=Tue, 18 Jan 2022 01:54:05 GMT; Max-Age=7776000; path=/; domain=.facebook.com; httponly"],
+      "ctd_ads_info": {
+        "business_responsiveness_time_text": null,
+        "welcome_message_text": null,
+        "business_response_time_in_sec": null
+      },
+      "is_multi_ads_eligible": true,
+      "ads_iaw_rating_info": {
+        "banner_display_text": "(1,043 ratings on Instagram)",
+        "is_detail_page_enabled": true,
+        "rating_score": 4.800000095367432,
+        "review_count": 1043
+      },
+      "cop_render_output": null
+    },
+    "is_sensitive_vertical_ad": false,
+    "collapse_comments": false,
+    "carousel_media": [{
+      "dynamic_item_id": 4811490602256830,
+      "media_type": 1,
+      "id": "4811490602256830_2288267_card",
+      "pk": 4811490602256830,
+      "image_versions2": {
+        "candidates": [{
+          "url": "https://images.pexels.com/photos/3808229/pexels-photo-3808229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=600&w=600",
+          "width": 600,
+          "height": 600
+        }]
+      },
+      "original_width": 600,
+      "original_height": 600,
+      "carousel_parent_id": "2688291763147548563_2288267",
+      "headline": {
+        "content_type": "comment",
+        "user": {
+          "pk": 2288267,
+          "username": "verabradley",
+          "full_name": "",
+          "is_private": false,
+          "profile_pic_url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200",
+          "profile_pic_id": "2666881644845200300_2288267",
+          "is_verified": true,
+          "follow_friction_type": -1
+        },
+        "user_id": 2288267,
+        "pk": "4811490602256830_headline",
+        "text": "Vera Bradley RFID Small Convertible Crossbody Bag in Ikat Island White",
+        "type": 1,
+        "created_at": 1634694845,
+        "created_at_utc": 1634669645,
+        "media_id": 2688291763147548700,
+        "bit_flags": 0,
+        "status": "Active"
+      },
+      "link": "https://www.verabradley.com/products/rfid-small-convertible-crossbody-bag-26956u44?variant=34785744486444&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+      "link_text": "Shop Now",
+      "link_secondary_texts": null,
+      "link_hint_text": "Tap Photo to Open Page",
+      "android_links": [{
+        "linkType": 1,
+        "webUri": "https://www.verabradley.com/products/rfid-small-convertible-crossbody-bag-26956u44?variant=34785744486444&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+        "androidClass": "",
+        "package": "",
+        "deeplinkUri": "",
+        "callToActionTitle": "",
+        "redirectUri": "https://www.facebook.com/ads/ig_redirect/?d=Ad9J7q3NcoIarw6c08JnTEY6De8wlhNkkrYIlYKofhjwFq4ZRy0ZpYlLTjMYzwx1gkbAeV7JsrAl3x-RI84b2Ekh-LbsfG_E25KzXqtPux0OwSDllLp0jeEEibgXI3h5-MN2BlNe00DCj7rFlUTSyvC80E7RRmrpGd2KcUxIgwNEsjhxcAZSbOxw5jXkoD6iub4wfxosfc9cPQVORTnu5yUHjL-5HAdgnbqYZuAesqFG1IM35MtEMNOSavsoXk6b_8xLcFiCePYjdIR_VylEDlc9_D7P9rtAK8c-NPdU7xxmE3hylEs9mEvD_cU8GWWRj4kbaDEwzXq7r25zpLeQ3yMi_bYdWavzS2roOXcuOZYAQBp7fRonEGUX6NaqmLWh5G7TDX7xnf57rbvIbykc79oQbpWVXzFv9P_Ceshhz-82m5pLMzJ7AzoFPAW4MDZL-7_MqX3dZOKgZRjx0phvIWgVQbEuAOGZgErDPJo7m8GeaYqL1jpVA1LPFUtXq9MilEeceFX7WPq5o41tD-1oaF12XmdSceXg5MWI2_SHLlSj80sf7HrEtO__gcP3vVq3kBo&a=1&hash=Ad_FTAt4zcKhZRooMKM",
+        "leadGenFormId": null,
+        "igUserId": null,
+        "appInstallObjectiveInvalidationBehavior": null
+      }],
+      "ad_action": "webclick",
+      "ad_link_type": 0,
+      "force_overlay": true,
+      "hide_nux_text": true,
+      "overlay_text": "Go to Website",
+      "overlay_title": "Vera Bradley",
+      "overlay_subtitle": "Go to Website",
+      "dominant_color": "#2A3158"
+    }, {
+      "dynamic_item_id": 5909116019161825,
+      "media_type": 1,
+      "id": "5909116019161825_2288267_card",
+      "pk": 5909116019161825,
+      "image_versions2": {
+        "candidates": [{
+          "url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=600",
+          "width": 600,
+          "height": 600
+        }]
+      },
+      "original_width": 600,
+      "original_height": 600,
+      "carousel_parent_id": "2688291763147548563_2288267",
+      "headline": {
+        "content_type": "comment",
+        "user": {
+          "pk": 2288267,
+          "username": "verabradley",
+          "full_name": "",
+          "is_private": false,
+          "profile_pic_url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200",
+          "profile_pic_id": "2666881644845200300_2288267",
+          "is_verified": true,
+          "follow_friction_type": -1
+        },
+        "user_id": 2288267,
+        "pk": "5909116019161825_headline",
+        "text": "Vera Bradley Zip ID Case in Island Tie-Dye White",
+        "type": 1,
+        "created_at": 1634694845,
+        "created_at_utc": 1634669645,
+        "media_id": 2688291763147548700,
+        "bit_flags": 0,
+        "status": "Active"
+      },
+      "link": "https://www.verabradley.com/products/zip-id-case-26695u46?variant=34785749336108&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+      "link_text": "Shop Now",
+      "link_secondary_texts": null,
+      "link_hint_text": "Tap Photo to Open Page",
+      "android_links": [{
+        "linkType": 1,
+        "webUri": "https://www.verabradley.com/products/zip-id-case-26695u46?variant=34785749336108&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+        "androidClass": "",
+        "package": "",
+        "deeplinkUri": "",
+        "callToActionTitle": "",
+        "redirectUri": "https://www.facebook.com/ads/ig_redirect/?d=Ad9ftOMUGZQfuu0a7UD8ndoxQWZbfq9WLPFF_FlYwxej-JzKb_RqH95aRUO9Foz4DFJCUszm2rnXVCzVH1ieuYDBcEp-SCkqDe8OjAlOusrVt80NKY-qJWzXUiqKjYZXgYIBvA0LykpDW0NhLhdvRcT3hPpYmL3gtO7mgmx41fyN_iH0IJ401NaAyMhM7yptmLel9e0DlFCZL-t5PMupvHnUwNK6N45wuQJQi1Bpu-7CoMpbS2JeZAbe4HLlX9bzhqtsUNTmBUgGgXkAw1iUIK6Cm6TYK6zOY3ZtLUKVcJGMO1b4owb_aEtLbkvwsv02LK_RNohDWQf2t6bJrhpWEtrXhj7ptJrP0WQJoxSWBeWoQheBaIdtAfwX5vzdwe1u3HazLTt4zXec8Zd96Z05YuL1mLWCdcJnXeentdRkPI6GyFjhgRxNl50opG-QSW7X3Dtzb2LjjXWSP0m6UCI6QKdDM03ZGUSsFdDFAPVkqLDouKevQgYNI8KApq5fpNptcPa2n_oS9K8EXpONZwZn9Wsq&a=1&hash=Ad_ISB68SnGogRDSa9A",
+        "leadGenFormId": null,
+        "igUserId": null,
+        "appInstallObjectiveInvalidationBehavior": null
+      }],
+      "ad_action": "webclick",
+      "ad_link_type": 0,
+      "force_overlay": true,
+      "hide_nux_text": true,
+      "overlay_text": "Go to Website",
+      "overlay_title": "Vera Bradley",
+      "overlay_subtitle": "Go to Website",
+      "dominant_color": "#2F3356"
+    }, {
+      "dynamic_item_id": 5569881106385466,
+      "media_type": 1,
+      "id": "5569881106385466_2288267_card",
+      "pk": 5569881106385466,
+      "image_versions2": {
+        "candidates": [{
+          "url": "https://images.pexels.com/photos/3808229/pexels-photo-3808229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=600&w=600",
+          "width": 600,
+          "height": 600
+        }]
+      },
+      "original_width": 600,
+      "original_height": 600,
+      "carousel_parent_id": "2688291763147548563_2288267",
+      "headline": {
+        "content_type": "comment",
+        "user": {
+          "pk": 2288267,
+          "username": "verabradley",
+          "full_name": "",
+          "is_private": false,
+          "profile_pic_url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200",
+          "profile_pic_id": "2666881644845200300_2288267",
+          "is_verified": true,
+          "follow_friction_type": -1
+        },
+        "user_id": 2288267,
+        "pk": "5569881106385466_headline",
+        "text": "Vera Bradley RFID Turnlock Wallet in Hummingbird Park Gray",
+        "type": 1,
+        "created_at": 1634694845,
+        "created_at_utc": 1634669645,
+        "media_id": 2688291763147548700,
+        "bit_flags": 0,
+        "status": "Active"
+      },
+      "link": "https://www.verabradley.com/products/rfid-turnlock-wallet-24155q31?variant=39305685106732&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+      "link_text": "Shop Now",
+      "link_secondary_texts": null,
+      "link_hint_text": "Tap Photo to Open Page",
+      "android_links": [{
+        "linkType": 1,
+        "webUri": "https://www.verabradley.com/products/rfid-turnlock-wallet-24155q31?variant=39305685106732&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+        "androidClass": "",
+        "package": "",
+        "deeplinkUri": "",
+        "callToActionTitle": "",
+        "redirectUri": "https://www.facebook.com/ads/ig_redirect/?d=Ad9wquVVZ78YNLFKlaxSZ5mtVtviwTbEY2BvETUkMtZsBMI7O94YTM-MwnjZWf-cyPxWEiEEoWwVVpVGJ2E5nJaXcr2wq_D5CPSHthlv4t6zK63nEwcqSRjxTdLPuYFfN8Kl5qhett0gDMEMMFNeR7jZ-9na7pLPz-bofAvU2M85KFxE7YGbIrnfM9gjSJlN9O92jWpJ6CFFpbrJOl4yabbNtWdBVo47G6PlQt42STCMcYaPTRaJGU5sRn6fvJszPSrd9OmH8ZA9ZRyaiEZ-Td5ln2AArggbuZSHowp-qibQOOWu-UTNpHnhHuAR4HpThtGB9ijFYrZGcNNGQQd7C2OvomUisIHOElO93q2Zj7iv_5iIkKZ_d_02bxBZbVFiMOeQogYEo_fM_qMnJa3o_kwMyIonqqcrqS0SJ7PXPQnpjRJ09hvlEH6w4or4BBHqPN0cSy7HiXErfEGRAzOHbNpYtiqtTXdGXhOTLfEcT3KHtB8QROJNJD5jPzi6pkPMm6HXS32Ai2ikF76K7cLy-tFm9-sVo1WWF2pe6H5LB3Oxng&a=1&hash=Ad9jjD3qYex1AqVKTbo",
+        "leadGenFormId": null,
+        "igUserId": null,
+        "appInstallObjectiveInvalidationBehavior": null
+      }],
+      "ad_action": "webclick",
+      "ad_link_type": 0,
+      "force_overlay": true,
+      "hide_nux_text": true,
+      "overlay_text": "Go to Website",
+      "overlay_title": "Vera Bradley",
+      "overlay_subtitle": "Go to Website",
+      "dominant_color": "#783654"
+    }, {
+      "dynamic_item_id": 4307724729309916,
+      "media_type": 1,
+      "id": "4307724729309916_2288267_card",
+      "pk": 4307724729309916,
+      "image_versions2": {
+        "candidates": [{
+          "url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=600",
+          "width": 600,
+          "height": 600
+        }]
+      },
+      "original_width": 600,
+      "original_height": 600,
+      "carousel_parent_id": "2688291763147548563_2288267",
+      "headline": {
+        "content_type": "comment",
+        "user": {
+          "pk": 2288267,
+          "username": "verabradley",
+          "full_name": "",
+          "is_private": false,
+          "profile_pic_url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200",
+          "profile_pic_id": "2666881644845200300_2288267",
+          "is_verified": true,
+          "follow_friction_type": -1
+        },
+        "user_id": 2288267,
+        "pk": "4307724729309916_headline",
+        "text": "Vera Bradley Harry Potter™ Crew Socks in Forbidden Forest Purple",
+        "type": 1,
+        "created_at": 1634694845,
+        "created_at_utc": 1634669645,
+        "media_id": 2688291763147548700,
+        "bit_flags": 0,
+        "status": "Active"
+      },
+      "link": "https://www.verabradley.com/products/harry-potter-crew-socks-28704u70?variant=39553380745260&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+      "link_text": "Shop Now",
+      "link_secondary_texts": null,
+      "link_hint_text": "Tap Photo to Open Page",
+      "android_links": [{
+        "linkType": 1,
+        "webUri": "https://www.verabradley.com/products/harry-potter-crew-socks-28704u70?variant=39553380745260&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+        "androidClass": "",
+        "package": "",
+        "deeplinkUri": "",
+        "callToActionTitle": "",
+        "redirectUri": "https://www.facebook.com/ads/ig_redirect/?d=Ad_Ehsw6VlbM7v5KvYKTq4eTrdTJiXnWhy_zBa65w2evD87mmBJxUN31jHN-U590J8MDqxzQOwqWcZLT-6VpHQqDu4FKVKC2c6vVCKPh_zFDUPL7AY39HMbQrJxUK-ENpyGqPK1LaSHButgavD4pe4NLFBth3i1nTC4d0caj2cVKDxEf1Nl-gwTS1HB49gy4mQEqGjAyvHfAhPE1WKm2W927oh5KYt_8x4u1ZJvMShO9-PQg1-U470VjJvlAbmlHznbGmxl-9vRYVM69edJoz1QDdtUJgtoWDjoH_z-639ta_Sb8kK8pTWQZC2eFqLlAvKMkEsxkuNWV1scDoN14rqyKsaqyErdotaSbS_CwTM5sgJz_S1g1deIjq-wf3rAo5vWMePHIBK1WMMgzC5eDcNcKu2Twv89FP4vH10Nf99w1mfAcwkpXhll1x5JQ-pX35DGjJ-AOBjNOHdSGShZSxcuOCDzOuOBku1hQNbosSARr0V10ivfheO_hbPVbPgCuNDZGP9eVFHcfH0I7GHuB75ZdzJx43CXJHXIE4dm_atSi6Q&a=1&hash=Ad-rpQdoF5K8ivexqU0",
+        "leadGenFormId": null,
+        "igUserId": null,
+        "appInstallObjectiveInvalidationBehavior": null
+      }],
+      "ad_action": "webclick",
+      "ad_link_type": 0,
+      "force_overlay": true,
+      "hide_nux_text": true,
+      "overlay_text": "Go to Website",
+      "overlay_title": "Vera Bradley",
+      "overlay_subtitle": "Go to Website",
+      "dominant_color": "#B7526E"
+    }, {
+      "dynamic_item_id": 3877537135601924,
+      "media_type": 1,
+      "id": "3877537135601924_2288267_card",
+      "pk": 3877537135601924,
+      "image_versions2": {
+        "candidates": [{
+          "url": "https://images.pexels.com/photos/3808229/pexels-photo-3808229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=600&w=600",
+          "width": 600,
+          "height": 600
+        }]
+      },
+      "original_width": 600,
+      "original_height": 600,
+      "carousel_parent_id": "2688291763147548563_2288267",
+      "headline": {
+        "content_type": "comment",
+        "user": {
+          "pk": 2288267,
+          "username": "verabradley",
+          "full_name": "",
+          "is_private": false,
+          "profile_pic_url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200",
+          "profile_pic_id": "2666881644845200300_2288267",
+          "is_verified": true,
+          "follow_friction_type": -1
+        },
+        "user_id": 2288267,
+        "pk": "3877537135601924_headline",
+        "text": "Vera Bradley XL Journey Backpack in Belle Paisley Purple",
+        "type": 1,
+        "created_at": 1634694845,
+        "created_at_utc": 1634669645,
+        "media_id": 2688291763147548700,
+        "bit_flags": 0,
+        "status": "Active"
+      },
+      "link": "https://www.verabradley.com/products/xl-journey-backpack-26996r35?variant=34471103365164&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+      "link_text": "Shop Now",
+      "link_secondary_texts": null,
+      "link_hint_text": "Tap Photo to Open Page",
+      "android_links": [{
+        "linkType": 1,
+        "webUri": "https://www.verabradley.com/products/xl-journey-backpack-26996r35?variant=34471103365164&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+        "androidClass": "",
+        "package": "",
+        "deeplinkUri": "",
+        "callToActionTitle": "",
+        "redirectUri": "https://www.facebook.com/ads/ig_redirect/?d=Ad-SO47yzhYXodJvCUnAqKEL2XM6DW3NlfUTpZhpovMNe3jp5bsi3AeszgPbs5nS8-6n_xNB4Jh58PqOCC0GPnu0JduDloAIRHCxP-BINwcgb33tITjcnyUuHreCWev97vQcB2RVYblRmtYMyITcg9tecENN4-tkjPvTlb-HMwh3DbS0hjxu3N3-wqEWksCUnISQBcoFnQoTTb3b0YbBAtSF13zFxTL3BiN9DdT3irbXplvIBfUQsMkt5EhLknFD6MIX_5DJc3qB8ctpe7DzEsKi91YU7a_LmtvKrY0TqtsPzVI026yWTO0sdfj8G4LrQTbt9E7BkAHih72msNEhm3ErYe9oqupH3iEbw0n2RSEZDovMlgie210C_K3J9IQB-SqR8tE-cmPS6ikjc7HIpK0uoV6W5lCmb7zPtGUpvdtOEP-s42nQsmcl5z5qXk6vqvWd9fYqYhUSkndhnWbKC5zOu88yCUk_6HXEOJ2qo3oZWMY8_J08quigJT1ViHgZlyEjD8YvwZ3W6dY4fQyx8WsblxdGgm91VnjRW-ANJHlqNw&a=1&hash=Ad8mHH2ViFVtiiIdQD8",
+        "leadGenFormId": null,
+        "igUserId": null,
+        "appInstallObjectiveInvalidationBehavior": null
+      }],
+      "ad_action": "webclick",
+      "ad_link_type": 0,
+      "force_overlay": true,
+      "hide_nux_text": true,
+      "overlay_text": "Go to Website",
+      "overlay_title": "Vera Bradley",
+      "overlay_subtitle": "Go to Website",
+      "dominant_color": "#1E2642"
+    }, {
+      "dynamic_item_id": 6940199192672491,
+      "media_type": 1,
+      "id": "6940199192672491_2288267_card",
+      "pk": 6940199192672491,
+      "image_versions2": {
+        "candidates": [{
+          "url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=600",
+          "width": 600,
+          "height": 600
+        }]
+      },
+      "original_width": 600,
+      "original_height": 600,
+      "carousel_parent_id": "2688291763147548563_2288267",
+      "headline": {
+        "content_type": "comment",
+        "user": {
+          "pk": 2288267,
+          "username": "verabradley",
+          "full_name": "",
+          "is_private": false,
+          "profile_pic_url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200",
+          "profile_pic_id": "2666881644845200300_2288267",
+          "is_verified": true,
+          "follow_friction_type": -1
+        },
+        "user_id": 2288267,
+        "pk": "6940199192672491_headline",
+        "text": "Vera Bradley Harry Potter™ Lanyard in Forbidden Forest Ditsy Black",
+        "type": 1,
+        "created_at": 1634694845,
+        "created_at_utc": 1634669645,
+        "media_id": 2688291763147548700,
+        "bit_flags": 0,
+        "status": "Active"
+      },
+      "link": "https://www.verabradley.com/products/harry-potter-lanyard-28502u71?variant=39553376518188&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+      "link_text": "Shop Now",
+      "link_secondary_texts": null,
+      "link_hint_text": "Tap Photo to Open Page",
+      "android_links": [{
+        "linkType": 1,
+        "webUri": "https://www.verabradley.com/products/harry-potter-lanyard-28502u71?variant=39553376518188&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+        "androidClass": "",
+        "package": "",
+        "deeplinkUri": "",
+        "callToActionTitle": "",
+        "redirectUri": "https://www.facebook.com/ads/ig_redirect/?d=Ad_pZph8RgJtTmXzeP2Ds9Bx0dfdyg-8rIfxYRkNtVf8qsuDXi1r_7UUhp_L6KynfH7DK2SrnbYpPS3ZDxMfGe9dDZa4bt1zNRAEg0XJXmn32XCNl7muJBkFWJVyt2V7M3vkAyUs6XEMABmABEzw7sKWsLx3PRMjNirC4Ki_2pWO0an4Nq8KkSbkNS_RCrD-cnIZTmOijHNGHCfycpah_mHPpGPInNk1T9oW8CFQt47pHSzQ4M9B3bRdvj0YmKNs87M8j40KMLVbvc213FxvnMpdJ4nBykh62W5Ii-jFQ6bOz8oNIqdJg2X0b_hYJCLDWDniOjGJJuThQEOU3mjvLd599agUFkSaQqP0J-9UdeAwKTj_eXWgnKPghQseXmXr9uRPakFllxuzLznNYmw-AX9m7ER3TxoyfueeNTl_uzb2lCs5Y3VbpTMXTh2jqSP1fNWvSzA5gdwHo21iqLSb5t8ApRsZK7dOPBoexAO2QZIjkyqbpJOl1mjm7Vn37njIEvau_vEjFYEdeAd-3JDxDB15Fc8gD6ONNRt2dXxTNxbrWQ&a=1&hash=Ad-gPNbarGODv9sB5u4",
+        "leadGenFormId": null,
+        "igUserId": null,
+        "appInstallObjectiveInvalidationBehavior": null
+      }],
+      "ad_action": "webclick",
+      "ad_link_type": 0,
+      "force_overlay": true,
+      "hide_nux_text": true,
+      "overlay_text": "Go to Website",
+      "overlay_title": "Vera Bradley",
+      "overlay_subtitle": "Go to Website",
+      "dominant_color": "#2E293E"
+    }, {
+      "dynamic_item_id": 2318287891628151,
+      "media_type": 1,
+      "id": "2318287891628151_2288267_card",
+      "pk": 2318287891628151,
+      "image_versions2": {
+        "candidates": [{
+          "url": "https://images.pexels.com/photos/3808229/pexels-photo-3808229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=600&w=600",
+          "width": 600,
+          "height": 600
+        }]
+      },
+      "original_width": 600,
+      "original_height": 600,
+      "carousel_parent_id": "2688291763147548563_2288267",
+      "headline": {
+        "content_type": "comment",
+        "user": {
+          "pk": 2288267,
+          "username": "verabradley",
+          "full_name": "",
+          "is_private": false,
+          "profile_pic_url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200",
+          "profile_pic_id": "2666881644845200300_2288267",
+          "is_verified": true,
+          "follow_friction_type": -1
+        },
+        "user_id": 2288267,
+        "pk": "2318287891628151_headline",
+        "text": "Vera Bradley Correspondence Cards in Hummingbird Park Gray",
+        "type": 1,
+        "created_at": 1634694845,
+        "created_at_utc": 1634669645,
+        "media_id": 2688291763147548700,
+        "bit_flags": 0,
+        "status": "Active"
+      },
+      "link": "https://www.verabradley.com/products/correspondence-cards-28290q31?variant=34830073266220&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+      "link_text": "Shop Now",
+      "link_secondary_texts": null,
+      "link_hint_text": "Tap Photo to Open Page",
+      "android_links": [{
+        "linkType": 1,
+        "webUri": "https://www.verabradley.com/products/correspondence-cards-28290q31?variant=34830073266220&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+        "androidClass": "",
+        "package": "",
+        "deeplinkUri": "",
+        "callToActionTitle": "",
+        "redirectUri": "https://www.facebook.com/ads/ig_redirect/?d=Ad-Mv2c4xHmSDyomhMmHHUcWJfEa8Xbi9YZAT3-K_fOy5ZM-PJO5Qch9wkxNKMCN1XaX-ggbMUsKM71wnBBQ8KMfCJbz7Mel3XH9JFczPeDJIgy8C6BceBmEGp697SErEMCvNNTgT7hfCRqE7G37Ci3nKJjAGVGw5w3JCugb21w4z_FDtf-CW7h_987AEKC1eBD5ykjWtaJaemxD79pSc4jRvIuDWTYywIqjfIzXt6dHxI7WL-luhOfEhdyBXf7cK8vTX6_6tCf06ABmlqRy8kgSOrr6tmwNcqOCmDD1nEwaWJY0MG2ytpJskuR5seVILlMShz5sP-8eXlguvzU9CQv6tapPbb8noKGxw6bNIKBmUB9Wb2O3pPdurIGwtRmhsMxm44FCBInNtghkncqCCMeMZraHDUXepymAeRTrsxCaOmo4IZbHsC0XyzVdHRYayHiESdoSbqZB-X2Ll24gWfOBfjPHkW_wLGtNtyfmot0FG1gTI3lSfJQB9AWdVcaIgNM6z_sReSJ6e_stsbJ3VGzDv4lkpYk1iTPvSZQXCNvJ9w&a=1&hash=Ad_fAgUPydptEZPtvII",
+        "leadGenFormId": null,
+        "igUserId": null,
+        "appInstallObjectiveInvalidationBehavior": null
+      }],
+      "ad_action": "webclick",
+      "ad_link_type": 0,
+      "force_overlay": true,
+      "hide_nux_text": true,
+      "overlay_text": "Go to Website",
+      "overlay_title": "Vera Bradley",
+      "overlay_subtitle": "Go to Website",
+      "dominant_color": "#B86199"
+    }, {
+      "dynamic_item_id": 4128667213919819,
+      "media_type": 1,
+      "id": "4128667213919819_2288267_card",
+      "pk": 4128667213919819,
+      "image_versions2": {
+        "candidates": [{
+          "url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=600",
+          "width": 600,
+          "height": 600
+        }]
+      },
+      "original_width": 600,
+      "original_height": 600,
+      "carousel_parent_id": "2688291763147548563_2288267",
+      "headline": {
+        "content_type": "comment",
+        "user": {
+          "pk": 2288267,
+          "username": "verabradley",
+          "full_name": "",
+          "is_private": false,
+          "profile_pic_url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200",
+          "profile_pic_id": "2666881644845200300_2288267",
+          "is_verified": true,
+          "follow_friction_type": -1
+        },
+        "user_id": 2288267,
+        "pk": "4128667213919819_headline",
+        "text": "Vera Bradley RFID Riley Compact Wallet in Rosa Floral White",
+        "type": 1,
+        "created_at": 1634694845,
+        "created_at_utc": 1634669645,
+        "media_id": 2688291763147548700,
+        "bit_flags": 0,
+        "status": "Active"
+      },
+      "link": "https://www.verabradley.com/products/rfid-riley-compact-wallet-28429x50?variant=39497228615724&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+      "link_text": "Shop Now",
+      "link_secondary_texts": null,
+      "link_hint_text": "Tap Photo to Open Page",
+      "android_links": [{
+        "linkType": 1,
+        "webUri": "https://www.verabradley.com/products/rfid-riley-compact-wallet-28429x50?variant=39497228615724&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+        "androidClass": "",
+        "package": "",
+        "deeplinkUri": "",
+        "callToActionTitle": "",
+        "redirectUri": "https://www.facebook.com/ads/ig_redirect/?d=Ad84aQTM_YfS8TyJxH-qwoIwDfGJFHFK6ki48CR_U2DPo67LMuR6KONY8SAuy3qUoK0J_L-k461WcG04xQ6gsnwSeXFv-A4NBhwLKaO2vCLHN41SRMfGL_slbyqIaeRbSp0J17BxoXzqz8tt4brb5mYKpOajswdPR-JgTyU92t9sD6SuDp0EZtsSecUBq7-DkU2eY0dsqTNHDDFBvEaZlwHyhWUZfhVTi-SCMLSv7BiaulTFSIo3urCrm4s3_Q8LlBdQJ-7noSgUI0cTByS-T6GhKF7BEopn6op1cFlpw-8PRp3bWNAnZkXZVg0peSU3LvkCCTEXEDhHS3WdVt3Z3DyWnydRaI5AsNqu-nTSbsFFuXNa6KYHNdfxCVUwrnYGz9LI6GDpRjazMCM9gSYmvQSbHFTDh0KFSKqGORmWVHtFpwu-Jc4l42WEcOnvLFUkQoKg-7jhV-2Um0gKPaeJEp-8Sry7rGB876x-m3G3Y53ldXvlicAdtxcRb8EBzctZOGDTz9ofDnD03C6EU6FBYiM1BGDLUKvZ7eVk5qTl3UCTAA&a=1&hash=Ad-gQNZWX8DY75PLao4",
+        "leadGenFormId": null,
+        "igUserId": null,
+        "appInstallObjectiveInvalidationBehavior": null
+      }],
+      "ad_action": "webclick",
+      "ad_link_type": 0,
+      "force_overlay": true,
+      "hide_nux_text": true,
+      "overlay_text": "Go to Website",
+      "overlay_title": "Vera Bradley",
+      "overlay_subtitle": "Go to Website",
+      "dominant_color": "#B35B64"
+    }, {
+      "dynamic_item_id": 3669574189789969,
+      "media_type": 1,
+      "id": "3669574189789969_2288267_card",
+      "pk": 3669574189789969,
+      "image_versions2": {
+        "candidates": [{
+          "url": "https://images.pexels.com/photos/3808229/pexels-photo-3808229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=600&w=600",
+          "width": 600,
+          "height": 600
+        }]
+      },
+      "original_width": 600,
+      "original_height": 600,
+      "carousel_parent_id": "2688291763147548563_2288267",
+      "headline": {
+        "content_type": "comment",
+        "user": {
+          "pk": 2288267,
+          "username": "verabradley",
+          "full_name": "",
+          "is_private": false,
+          "profile_pic_url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200",
+          "profile_pic_id": "2666881644845200300_2288267",
+          "is_verified": true,
+          "follow_friction_type": -1
+        },
+        "user_id": 2288267,
+        "pk": "3669574189789969_headline",
+        "text": "Vera Bradley Mini Notebook with Pocket in Ikat Island White",
+        "type": 1,
+        "created_at": 1634694845,
+        "created_at_utc": 1634669645,
+        "media_id": 2688291763147548700,
+        "bit_flags": 0,
+        "status": "Active"
+      },
+      "link": "https://www.verabradley.com/products/mini-notebook-with-pocket-22961u44?variant=34808291295276&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+      "link_text": "Shop Now",
+      "link_secondary_texts": null,
+      "link_hint_text": "Tap Photo to Open Page",
+      "android_links": [{
+        "linkType": 1,
+        "webUri": "https://www.verabradley.com/products/mini-notebook-with-pocket-22961u44?variant=34808291295276&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+        "androidClass": "",
+        "package": "",
+        "deeplinkUri": "",
+        "callToActionTitle": "",
+        "redirectUri": "https://www.facebook.com/ads/ig_redirect/?d=Ad_wHHgCub5CH-obP1hCJBVSOV2PjS0iv0mjhXYXbWOIAEKnREX3bXgUDprDonuwKBB5q2EFXJKCJOzODccvTdLizHaPgxk23gy92oJ3pRV2naZjteg9wcs5j1o42mbfnUPvu3c8tqA2VLn7JbKr93sTs-9h6z6OzAxPD7IycIX7UVgsqhIxaKRge2w-1Vw75kjzaIfYsFe_WKRGiV-WY8g1r9-DaWD6R8nRhQWHIi1ghxMsRrqE0dOL95VehcgmuRkxnoKgqGPqysQlirxJHbOJ3a7OrBkmSSuuuLoU2x_yGUxD2d6q69s-_RegDjMiqD52vqXlIWxeJRJcMvyyvQri2PBaYydjUgUDoOARMil9L2GGK5VAtI-Rhrn7kSTA8OWs-TzlQar4KgO9yQswavT33eUF9Rs1E9yuRThlgtDDkrOD_XiGN6ECe07DIxy9p1m-O5FX5OQhl4ks_2ivRjTVO-zlFZntlpLv26ka3yU7C14LaKXB7jwSsbr_4_pL1wsDYzj9lTlJPMQ5ZVXdQs6mi13w7wtt4q_xOgZX63RAvg&a=1&hash=Ad8foLlMXILXzmGYva4",
+        "leadGenFormId": null,
+        "igUserId": null,
+        "appInstallObjectiveInvalidationBehavior": null
+      }],
+      "ad_action": "webclick",
+      "ad_link_type": 0,
+      "force_overlay": true,
+      "hide_nux_text": true,
+      "overlay_text": "Go to Website",
+      "overlay_title": "Vera Bradley",
+      "overlay_subtitle": "Go to Website",
+      "dominant_color": "#334582"
+    }, {
+      "dynamic_item_id": 3999728096792664,
+      "media_type": 1,
+      "id": "3999728096792664_2288267_card",
+      "pk": 3999728096792664,
+      "image_versions2": {
+        "candidates": [{
+          "url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=600",
+          "width": 600,
+          "height": 600
+        }]
+      },
+      "original_width": 600,
+      "original_height": 600,
+      "carousel_parent_id": "2688291763147548563_2288267",
+      "headline": {
+        "content_type": "comment",
+        "user": {
+          "pk": 2288267,
+          "username": "verabradley",
+          "full_name": "",
+          "is_private": false,
+          "profile_pic_url": "https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200",
+          "profile_pic_id": "2666881644845200300_2288267",
+          "is_verified": true,
+          "follow_friction_type": -1
+        },
+        "user_id": 2288267,
+        "pk": "3999728096792664_headline",
+        "text": "Vera Bradley Maybe Navy Sham Standard in Santiago Floral",
+        "type": 1,
+        "created_at": 1634694845,
+        "created_at_utc": 1634669645,
+        "media_id": 2688291763147548700,
+        "bit_flags": 0,
+        "status": "Active"
+      },
+      "link": "https://www.verabradley.com/products/navy-sham-standard-23232g75?variant=34490994720812&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+      "link_text": "Shop Now",
+      "link_secondary_texts": null,
+      "link_hint_text": "Tap Photo to Open Page",
+      "android_links": [{
+        "linkType": 1,
+        "webUri": "https://www.verabradley.com/products/navy-sham-standard-23232g75?variant=34490994720812&utm_source=Instagram_Feed&utm_medium=paidsocial&utm_campaign=FY22-VB-FBIG-Upper-DABA-Traffic&utm_content=fbig-upper-daba-car-all-0416-FP&fbclid=PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+        "androidClass": "",
+        "package": "",
+        "deeplinkUri": "",
+        "callToActionTitle": "",
+        "redirectUri": "https://www.facebook.com/ads/ig_redirect/?d=Ad-IEaxLic6PIpxFskT0R19OASP9cYnwy-Bb4zOuGDvO0NrHcyPFiIkRst23IlYsSK6XMK_lTVAD5it4JxR2KhI_r8i1PP0xY2ggAZHx0UyDErU52WbbLNoSDWPZfYHqpyRF52ssynmgDfTugJn1YI1nzFtEBNA6ybLHGcXr0cMoz-Y9OHuettUizXALzqhfrk7HQJc37EdL3Eps6HYDRWEtIX45KTzss4j5FTpY2OuqaCM3z6OE49TWU19Fd1K9R5dr6haubRPiCV-qHhysx9ufAhVeW8HyAHBT82rL9kev0ePYroNpVKmg9ehRVm1FuVHxI8RT2xWkN_GNHqQrs0ve2cmUEVzxELxukxtYLxYAFSvD9C9EagWM7AkUpAv7HJphHkqxflfDkErer1Q6es2_Owp3Qch08A5ozTP6U8Nx20R_ML7GBbg80zlNFnOyWDmqpfWw2DBFlAKlh6xzQGAx__1QBxHS47YVICX4NE2x2yQsT46u2GsWjftvteFOBRGnB3R6p6vhbbmvtT-ulap68nsgq4MT_S2Os2artZV7Sw&a=1&hash=Ad_LnwpQSjTbKkjrqPE",
+        "leadGenFormId": null,
+        "igUserId": null,
+        "appInstallObjectiveInvalidationBehavior": null
+      }],
+      "ad_action": "webclick",
+      "ad_link_type": 0,
+      "force_overlay": true,
+      "hide_nux_text": true,
+      "overlay_text": "Go to Website",
+      "overlay_title": "Vera Bradley",
+      "overlay_subtitle": "Go to Website",
+      "dominant_color": "#14253F"
+    }],
+    "carousel_media_type": 4,
+    "iTunesItem": null,
+    "ad_header_style": 0,
+    "dr_ad_type": 1,
+    "click_id": "PAAaa5TrKzJA7btmUbQODSbGLnni6Ber0dEa63jfccHLJJvknX33Zje-FaYfE",
+    "follower_count": 559043,
+    "post_count": 4896,
+    "fb_page_url": "https://www.facebook.com/verabradley/",
+    "inventory_source": "media_or_ad",
+    "is_seen": true,
+    "is_eof": false,
+    "enable_feed_waist_in_menu": false,
+    "waist_data": ""
+  }
+}

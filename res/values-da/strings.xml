@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">Delstat</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">By</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">Adresse</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">Lejlighed/værelse (valgfrit)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Luk browser</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s vil gerne bruge din enheds kamera.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s vil bruge din enheds placering.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Tillad</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Bloker</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">Der er problemer med sikkerhedscertifikatet for dette website</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">Gå tilbage</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">Sikkerhedsfejl</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Sikkerhedskode</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">Kortnummer</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">Indtast sikkerhedskoden på 3 eller 4 cifre på dit kort %1$s • %2$s for at udfylde denne formular automatisk.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">Som et ekstra sikkerhedstjek skal du indtaste oplysningerne på dit kort, der ender på %1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">Som en ekstra sikkerhedskontrol skal du indtaste hele nummeret på det kort, der ender på %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">Tilføj hele kortnummeret for %1$s • %2$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">Bekræft kortoplysninger</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Bekræft</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">Bekræft sikkerhedskoden for %1$s • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120039">Der gik noget galt.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">E-mail</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">Dette kan skyldes en teknisk fejl, som vi arbejder på at rette. Prøv at indlæse siden igen.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Opdater</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">Side er ikke tilgængelig lige nu</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Efternavn</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">Siden kan ikke indlæses</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">Åbn med …</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">Åbn i %1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Flere indstillinger</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Fornavn</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120051">Vi har problemer med at opsætte %2$s på %1$s lige nu. Du kan prøve igen eller bruge %2$s på engelsk (USA) for nu.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120052">Vent et øjeblik, mens vi opsætter %1$s ...</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120053">Prøv igen</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120054">Fortsæt på engelsk (USA)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">Navn</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">Postnummer</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a1">Et link til et ark, der forklarer, hvordan denne betaling fungerer, og hvordan Meta vil anvende brugerens oplysninger, med links til de relevante politikker om beskyttelse af personoplysninger.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">Telefon</string>
+</resources>

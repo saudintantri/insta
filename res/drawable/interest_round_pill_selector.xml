@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape>
+            <solid android:color="@color/igds_bio_pill_active_background" />
+            <corners android:radius="25.0dip" />
+            <stroke android:width="1.0dip" android:color="@color/igds_bio_pill_active_stroke" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/igds_bio_pill_background" />
+            <corners android:radius="25.0dip" />
+            <stroke android:width="1.0dip" android:color="@color/igds_bio_pill_stroke" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/igds_separator" />
+    <size android:height="@dimen/action_sheet_divider_margin_top" />
+</shape>

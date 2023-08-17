@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">מדינה</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">עיר</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">כתובת</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">"מס' דירה/סוויטה (לא חובה)"</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">סגור/סגרי דפדפן</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s רוצה להשתמש במצלמה של המכשיר שלך.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s רוצה להשתמש במיקום של המכשיר שלך.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">אפשר/י</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">חסום/חסמי</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">יש בעיות באישור האבטחה של אתר זה</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">חזרה</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">שגיאת אבטחה</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">קוד אבטחה</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">מספר כרטיס</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">הזן/הזיני את קוד אבטחה בין 3 או 4 ספרות על %1$s • %2$s כדי למלא את הטופס אוטומטית.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">בתור בדיקת אבטחה נוספת, יש להזין את פרטי הכרטיס שלך המסתיים ב-%1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">כאמצעי בטיחות נוסף עליך להזין בשלמותו את מספר הכרטיס המסתיים בספרות %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">הוספת מספר הכרטיס של %1$s בשלמותו • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">אישור פרטי הכרטיס</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">אשר/י</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">אישור קוד האבטחה של %1$s • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002e">אישור</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120039">משהו השתבש.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">דוא\"ל</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">ייתכן שזה נגרם בשל שגיאה טכנית שאנחנו עובדים כדי לתקן. יש לנסות לטעון מחדש את הדף.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">רענון</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">הדף אינו זמין כרגע</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">שם משפחה</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">לא ניתן לטעון את הדף</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">לפתוח עם...</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">פתיחה ב-%1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">אפשרויות נוספות</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">שם פרטי</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120051">נתקלנו בבעיה בהגדרת %2$s ב%1$s. ניתן לנסות שוב או להשתמש ב-%1$s באנגלית (ארה\"ב) בינתיים.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120052">יקח לנו עוד רגע לשנות את השפה ל%1$s...</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120053">לנסות שוב</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120054">להמשיך באנגלית (ארה\"ב)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">שם</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">מיקוד</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a1">קישור לגיליון שמסביר איך עובד תהליך התשלום הזה ואיך Meta תשתמש בפרטים של המשתמשים, עם קישורים למדיניות הפרטיות הרלוונטית.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">טלפון</string>
+</resources>

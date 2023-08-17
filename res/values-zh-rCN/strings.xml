@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">州/省</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">城市</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">地址</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">房间号/门牌号（非必填）</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">关闭浏览器</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s想使用设备的相机。</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s想要访问你的设备位置信息。</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">允许</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">阻止</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">网站的安全证书有问题</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">返回</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">安全错误</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">安全码</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">卡号</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">输入%1$s • %2$s上的 3 或 4 位数安全码，自动填写此表单。</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">请输入尾号为%1$s的支付卡上的信息，完成额外的安全验证。</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">请输入尾号为%1$s的卡的完整卡号，作为额外的安全验证。</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">请添加%1$s • %2$s的完整卡号。</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">确认支付卡信息</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">确认</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">确认%1$s • %2$s的安全码</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002e">确定</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120039">矮油，出错啦！</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">邮箱</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">这可能是技术错误导致的，我们正在全力修复，请重新加载页面。</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">刷新</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">页面目前无法显示</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">姓</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">无法加载页面</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">用下列应用打开…</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">在%1$s中打开</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">更多选项</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">名</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120051">我们目前无法设置%1$s版%2$s。你可以再试一次，或暂时使用美式英语版%2$s。</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120052">正在设为%1$s，请稍等。</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120053">重试</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120054">继续使用美式英语</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">姓名</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">邮编</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a1">前往电子表格的链接，电子表格详细说明了结账流程以及 Meta 如何使用用户信息，并提供相关隐私权政策的链接。</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">电话</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">Osariik</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">Linn</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">Aadress</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">Korter (valikuline)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Sule brauser</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s soovib kasutada seadme kaamerat.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s soovib kasutada sinu seadme asukohateavet.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Luba</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Blokeeri</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">Selle saidi turbesertifikaadiga on probleeme</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">Mine tagasi</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">Turbetõrge</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Turvakood</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">Kaardi number</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">Sisesta %1$s • %2$s 3- või 4-kohaline turvakood, et täita vorm automaatselt.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">Täiendava turvakontrollina sisesta numbritega %1$s lõppeva kaardi andmed.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">Täiendava turvakontrollina sisesta numbritega %1$s lõppeva kaardi täielik kaardinumber.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">Lisa kaardi täielik number: %1$s • %2$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">Kinnita kaardi üksikasjad</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Kinnita</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">Kinnita %1$s turvakood • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">Meiliaadress</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">Selle põhjuseks võib olla tehniline viga, mille parandamise nimel töötame. Proovi lehte uuesti laadida.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Värskenda</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">Leht pole praegu saadaval</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Perekonnanimi</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">Lehte ei saa laadida</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">Ava rakendusega …</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">Ava rakenduses %1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Rohkem valikuid</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Eesnimi</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">Nimi</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">Sihtnumber</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a1">Link lehele, mis selgitab, kuidas see maksmine töötab ja kuidas Meta kasutaja teavet kasutab, koos linkidega asjakohastele privaatsuspõhimõtetele.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">Telefon</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="ring" android:innerRadiusRatio="2.0" android:thicknessRatio="1.0" android:useLevel="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:endColor="@color/design_dark_default_color_on_background" android:angle="0.0" android:type="radial" android:gradientRadius="8.0dip" />
+    <stroke android:width="0.30000007dip" android:color="@color/igds_elevated_background" />
+</shape>

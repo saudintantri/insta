@@ -1,0 +1,21 @@
+.class public abstract LX/GiZ;
+.super LX/HGz;
+.source ""
+
+
+# instance fields
+.field public A00:Z
+
+
+# direct methods
+.method public constructor <init>(II)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0, p1, p2}, LX/HGz;-><init>(II)V
+
+    .line 1
+    .line 2
+    .line 3
+    return-void
+.end method

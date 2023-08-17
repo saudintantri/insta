@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">Bundesland</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">Stadt</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">Anschrift</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">Whg./Suite (optional)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Browser schließen</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s möchte deine Gerätekamera verwenden.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s möchte den Standort deines Geräts verwenden.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Zulassen</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Blockieren</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">Mit dem Sicherheitszertifikat für diese Website sind Probleme aufgetreten</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">Zurück</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">Sicherheitsfehler</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Sicherheitscode</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">Kartennummer</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">Gib den 3- oder 4-stelligen Sicherheitscode auf deiner Karte von %1$s • %2$s ein, um dieses Formular automatisch auszufüllen.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">Gib bitte als zusätzlichen Sicherheits-Check deine Kartendaten für die Kreditkarte ein, die auf %1$s endet.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">Gib bitte als zusätzlichen Sicherheits-Check die vollständige Kartennummer der Karte ein, die auf %1$s endet.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">Füge die vollständige Kartennummer für %1$s • %2$s hinzu.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">Bestätige deine Kartendaten</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Bestätigen</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">Sicherheitscode der Karte von %1$s • %2$s bestätigen</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120039">Etwas ist schiefgelaufen.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">E-Mail-Adresse</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">Möglicherweise liegt ein technischer Fehler vor. Wir arbeiten daran, diesen zu beheben. Bitte versuche, die Seite erneut zu laden.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Aktualisieren</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">Die Seite ist gerade nicht verfügbar</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Nachname</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">Seite kann nicht geladen werden</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">Öffnen mit …</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">In %1$s öffnen</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Weitere Optionen</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Vorname</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120051">Leider können wir %2$s momentan nicht auf %1$s einrichten. Du kannst später noch einmal versuchen oder %2$s auf Englisch (US) verwenden.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120052">Einen Moment, %1$s wird eingestellt ...</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120053">Erneut versuchen</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120054">AUF ENGLISCH (USA) FORTFAHREN</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">Postleitzahl</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a1">Ein Link zu einem Dokument, in dem erklärt wird, wie dieser Checkout funktioniert und wie Meta die Informationen des Nutzers verwendet, inklusive Links zu den entsprechenden Datenschutzrichtlinien.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">Telefonnummer</string>
+</resources>

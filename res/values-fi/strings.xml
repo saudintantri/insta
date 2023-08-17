@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">Lääni</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">Paikkakunta</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">Osoite</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">Asunto/huoneisto (valinnainen)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Sulje selain</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s haluaa käyttää laitteesi kameraa.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s haluaa käyttää laitteesi sijaintia.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Salli</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Estä</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">Tämän sivuston suojausvarmenteessa on ongelmia</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">Takaisin</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">Turvallisuusvirhe</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Turvakoodi</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">Kortin numero</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">Täytä tämä lomake automaattisesti syöttämällä 3- tai 4-numeroinen turvakoodi kortillesi %1$s • %2$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">Syötä lisäturvatoimena sen kortin tiedot, jonka viimeiset numerot ovat %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">Syötä lisäturvatoimena sen kortin koko numero, jonka viimeiset numerot ovat %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">Lisää koko kortin numero kortille %1$s • %2$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">Vahvista kortin tiedot</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Vahvista</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">Vahvista turvakoodi kortille %1$s • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120039">Jokin meni pieleen.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">Sähköposti</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">Syynä voi olla tekninen virhe, jota korjaamme parhaillaan. Yritä ladata sivu uudelleen.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Päivitä</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">Sivu ei juuri nyt ole saatavilla</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Sukunimi</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">Sivua ei voi ladata</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">Avaa sovelluksella …</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">Avaa sovelluksessa %1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Lisää vaihtoehtoja</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Etunimi</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120051">Sovelluksen %2$s vaihtaminen kielelle %1$s ei tällä hetkellä onnistu. Voit yrittää uudelleen tai käyttää sovellusta %2$s englanniksi (Yhdysvallat).</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120052">%1$s ladataan. Odota hetki…</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120053">Yritä uudelleen</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120054">Jatka englannin kielellä (Yhdysvallat)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">Nimi</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">Postinumero</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a1">Linkki tämän kassatoiminnon toimintaohjeisiin ja siihen, miten Meta käyttää käyttäjien tietoja, sekä linkit asiaankuuluviin tietosuojakäytäntöihin.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">Puhelinnumero</string>
+</resources>

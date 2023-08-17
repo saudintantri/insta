@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <objectAnimator android:duration="@integer/collectible_quantity_max_valid_value" android:valueTo="@dimen/ad_stories_pause_button_bottom_margin" android:valueType="floatType" android:propertyName="translationZ" />
+    </item>
+    <item android:state_enabled="true">
+        <objectAnimator android:duration="@integer/collectible_quantity_max_valid_value" android:valueTo="0" android:valueType="floatType" android:propertyName="translationZ" />
+    </item>
+    <item>
+        <objectAnimator android:duration="0" android:valueTo="0" android:valueType="floatType" android:propertyName="translationZ" />
+    </item>
+</selector>

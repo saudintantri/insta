@@ -1,0 +1,286 @@
+{
+  "id": "story_ad_collection_with_native_fragment_2",
+  "latest_reel_media": null,
+  "expiring_at": 9604164910,
+  "seen": null,
+  "can_reply": false,
+  "can_gif_quick_reply": true,
+  "can_reshare": false,
+  "reel_type": "ads_reel",
+  "is_sensitive_vertical_ad": false,
+  "user": {
+    "pk": 5455235553,
+    "username": "agave_girl_boutique",
+    "full_name": "Agave Girl Boutique",
+    "is_private": false,
+    "profile_pic_url":"https://i.ibb.co/g4G5vcQ/IG-Logo.png",
+    "profile_pic_id": "1927868219348452135_5455235553",
+    "is_verified": false
+  },
+  "items": [
+    {
+      "id": "2431379603680403996_5455235553",
+      "taken_at": 1604078510,
+      "pk": 2431379603680404000,
+      "media_type": 10,
+      "dynamic_item_id": 3285401988211975,
+      "user": {
+        "pk": 5455235553,
+        "username": "agave_girl_boutique",
+        "full_name": "Agave Girl Boutique",
+        "is_private": false,
+        "profile_pic_url": "https://i.pinimg.com/236x/10/a6/ad/10a6ad654123113b610ad87815203613.jpg",
+        "profile_pic_id": "1927868219348452135_5455235553",
+        "friendship_status": {
+          "following": false,
+          "followed_by": false,
+          "blocking": false,
+          "muting": false,
+          "is_private": false,
+          "incoming_request": false,
+          "outgoing_request": false,
+          "is_bestie": false,
+          "is_restricted": false
+        },
+        "is_verified": false,
+        "has_anonymous_profile_picture": false,
+        "is_unpublished": false,
+        "is_favorite": false,
+        "account_badges": []
+      },
+      "caption": null,
+      "headline": {},
+      "can_viewer_save": true,
+      "like_count": 0,
+      "has_liked": false,
+      "has_more_comments": false,
+      "comment_count": 0,
+      "max_num_visible_preview_comments": 2,
+      "comments": [],
+      "caption_is_edited": false,
+      "photo_of_you": false,
+      "injected": {
+        "label": "Sponsored",
+        "hide_label": "Hide this",
+        "is_demo": true,
+        "tracking_token": "AI@AQLawJu_OGuMNQ1SUC9TmDjCi4r-098SC8d7qTtVZR96mSsqcuxzFntH3NYJEQKpIenQyuviT5ZDDF_AhpN78SHc",
+        "show_ad_choices": false,
+        "ad_title": "Agave Girl Boutique",
+        "hide_reasons_v2": [
+          {
+            "text": "It's not relevant",
+            "reason": "NOT_RELEVANT"
+          },
+          {
+            "text": "I see it too often",
+            "reason": "KEEP_SEEING_THIS"
+          },
+          {
+            "text": "It's inappropriate",
+            "reason": null
+          },
+          {
+            "text": "[Employee only] Send ad for review",
+            "reason": "EMPLOYEE_REPORT"
+          }
+        ],
+        "hide_flow_type": 2,
+        "ad_id": 6199771646537,
+        "direct_share": true,
+        "ads_debug_info": {
+          "adsBidInfo": {
+            "ecpmBid": 0,
+            "ecpmPrice": 0,
+            "ectr": 0,
+            "ecvr": 0,
+            "postImpEcvr": null,
+            "organicBidInfo": {
+              "organicBidCpm": 0,
+              "userDollarValue": 0,
+              "serializedPacedOrganicBidMap": "{}",
+              "serializedOrganicEventProbMap": "{}",
+              "serializedEventQualityMap": "{}",
+              "serializedImpOrganicBidMap": "{}",
+              "serializedImpOrganicCoeffMap": null,
+              "serializedImpOrganicScoreMap": null
+            }
+          },
+          "adsRankingInfo": {
+            "organicRank": 0,
+            "ecpsBidRank": 0,
+            "totalBidRank": 0
+          }
+        },
+        "cookies": [
+          "fr=32Mf4cBLXdv3B0xw3.AWX-29WMVzitFn0y9N6DuNZSDYQ.BfnEut..AAA.0.0.BfnEut.AWUSUmoYwCQ; expires=Thu, 28 Jan 2021 17:21:49 GMT; Max-Age=7776000; path=/; domain=.facebook.com; httponly"
+        ]
+      },
+      "collapse_comments": false,
+      "link": null,
+      "link_text": "hello w0rld",
+      "ad_action": "appinstall",
+      "link_hint_text": "Tap Photo to Open App",
+      "iTunesItem": 0,
+      "ad_link_type": 1,
+      "ad_header_style": 0,
+      "dr_ad_type": 1,
+      "android_links": [
+        {
+          "linkType": 1,
+          "webUri": "",
+          "androidClass": "",
+          "package": "",
+          "deeplinkUri": "",
+          "callToActionTitle": "",
+          "redirectUri": null,
+          "leadGenFormId": null,
+          "igUserId": null,
+          "appInstallObjectiveInvalidationBehavior": null,
+          "destinationContext": "Visit Website",
+          "tapAndHoldContext": "Swipe up to view website"
+        }
+      ],
+      "force_overlay": true,
+      "hide_nux_text": true,
+      "overlay_text": "Open App",
+      "overlay_title": "Agave Girl Boutique",
+      "overlay_subtitle": "Open App",
+      "follower_count": 127811,
+      "post_count": 642,
+      "collection_media_type": 5,
+      "collection_media": [
+        {
+          "showreel_native_animation":{
+            "client_name":"dynamic_ads_ig_fa_rendering",
+            "content":"{\"caption\":\"Take IELTS for UKVI.\\nThe Secure English Language Test trusted by UK.\",\"image\":{\"url\":\"https://i.ibb.co/jZrLpJh/pusheen-square-media.jpg\",\"height\":504,\"width\":504},\"color_info\":{\"top_color\":\"#E7ECF2\",\"bottom_color\":\"#F5F1E5\",\"caption_background_color\":\"#000000\",\"caption_color\":\"#000000FF\",\"caption_background_alpha_color\":\"00\",\"background_overlay\":\"#FFFFFF\"},\"has_cta\":true,\"is_political\":false,\"mention_user_list\":{}}",
+            "template_name":"dpa_retail_with_page"
+          },
+          "original_height": 1080,
+          "original_width": 1080,
+          "media_type": 12,
+          "id": "2431379603680403996_5455235553_main",
+          "pk": 2431379603680404000,
+          "collection_parent_id": "2431379603680403996_5455235553",
+          "collection_media_role": 1
+        },
+        {
+          "collection_parent_id": "2431379603680403996_5455235553",
+          "collection_media_role": 2,
+          "id": "3285401988211975_5455235553",
+          "pk": 3285401988211975,
+          "media_type": 1,
+          "image_versions2": {
+            "candidates": [
+              {
+                "url": "https://i.pinimg.com/236x/82/36/4a/82364a6b44d8ae38e24d6b4e796398bc.jpg",
+                "width": 320,
+                "height": 320
+              }
+            ]
+          }
+        },
+        {
+          "collection_parent_id": "2431379603680403996_5455235553",
+          "collection_media_role": 2,
+          "id": "3115165541880363_5455235553",
+          "pk": 3115165541880363,
+          "media_type": 1,
+          "image_versions2": {
+            "candidates": [
+              {
+                "url": "https://i.pinimg.com/236x/e2/21/a4/e221a4aed0ede751e330a934268ae66b.jpg",
+                "width": 320,
+                "height": 320
+              }
+            ]
+          }
+        },
+        {
+          "collection_parent_id": "2431379603680403996_5455235553",
+          "collection_media_role": 2,
+          "id": "4822289011122474_5455235553",
+          "pk": 4822289011122474,
+          "media_type": 1,
+          "image_versions2": {
+            "candidates": [
+              {
+                "url": "https://i.pinimg.com/236x/e7/1f/f6/e71ff60d1d0ff42c2651d2961d1a2657.jpg",
+                "width": 320,
+                "height": 320
+              }
+            ]
+          }
+        }
+      ],
+      "fb_page_url": "https://www.facebook.com/AgaveGirlBoutique/",
+      "can_reshare": false,
+      "can_reply": false,
+      "can_see_insights_as_brand": false,
+      "story_cta":[
+        {
+          "links":[
+            {
+              "linkType":17,
+              "webUri":"",
+              "contentId":0,
+              "deeplinkUri":"instagram://mini_shop_collection_page/?business_user_id=2296734071&business_username=thortful&collection_type=seller_curated",
+              "callToActionTitle":"",
+              "redirectUri":null,
+              "leadGenFormId":null,
+              "igUserId":null,
+              "appInstallObjectiveInvalidationBehavior":null,
+              "skAdNetworkMetadata":null
+            }
+          ]
+        }
+      ],
+      "is_reel_media": true
+    }
+  ],
+  "ranked_position": 1,
+  "seen_ranked_position": 1,
+  "muted": false,
+  "prefetch_count": 0,
+  "carousel_rendering_type": "dpa",
+  "client_gap_rules": {
+    "reel_gap_to_previous_ad": 1,
+    "reel_gap_to_previous_netego": 1,
+    "consumed_media_gap_to_previous_ad": 4,
+    "consumed_media_gap_to_previous_netego": 4,
+    "max_reel_gap_to_previous_item": 4,
+    "min_media_gap_to_previous_item": 2,
+    "time_gap_to_previous_item_in_sec": 5.0,
+    "highest_position_rule": 2,
+    "dnf": [
+      {
+        "exp": [
+          {
+            "op": 2,
+            "p": 1,
+            "v": 1
+          },
+          {
+            "op": 2,
+            "p": 2,
+            "v": 4
+          }
+        ]
+      },
+      {
+        "exp": [
+          {
+            "op": 2,
+            "p": 1,
+            "v": 5.0
+          },
+          {
+            "op": 2,
+            "p": 2,
+            "v": 2
+          }
+        ]
+      }
+    ]
+  },
+  "priority_index": 0
+}

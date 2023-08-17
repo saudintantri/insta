@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">ප්‍රාන්තය</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">නගරය</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">ලිපිනය</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">බද්ධ නිවස/මහළ (අත්‍යවශ්‍ය නොවේ)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">බ්‍රව්සරය වසන්න</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s හට ඔබේ උපාංගයේ කැමරාව භාවිත කිරීමට අවශ්‍ය වේ.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s හට ඔබේ උපාංගයේ ස්ථානය භාවිත කිරීමට අවශ්‍ය වේ.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">ඉඩ දෙන්න</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">අවහිර කරන්න</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">මෙම අඩවියට ආරක්ෂක සහතිකය සමග ගැටලු තිබේ</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">ආපස්සට යන්න</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">ආරක්ෂක දෝෂය</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">ආරක්ෂක කේතය</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">කාඩ්පත් අංකය</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">මෙම ‍ආකෘති පත්‍රය ස්වයංක්‍රීයව පිරවීමට ඔබේ %1$s • %2$s හි ඇති අංක-3 හෝ 4 ආරක්ෂක කේතය ඇතුළත් කරන්න.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">කරුණාකර අමතර ආරක්ෂක පරික්ෂාවක් %1$s සමගින් අවසන් වන ඔබේ කාඩ්පතේ විස්තර ඇතුළත් කරන්න</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">අමතර ආරක්ෂක පරීක්ෂාවක් ලෙස, කරුණාකර %1$s වලින් අවසන් වන කාඩ්පත සඳහා සම්පූර්ණ කාඩ්පත් අංකය ඇතුළත් කරන්න.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">%1$s • %2$s සඳහා සම්පූර්ණ කාඩ්පත් අංකය එක් කරන්න.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">කාඩ්පත් විස්තර තහවුරු කරන්න</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">තහවුරු කරන්න</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">%1$s • %2$s සඳහා ආරක්ෂක කේතය තහවුරු කරන්න</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002e">හරි</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">ඊමේල් ලිපිනය</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">මෙය අප නිවැරදි කිරීමට කටයුතු කරමින් සිටින තාක්ෂණික දෝෂයක් නිසා විය හැකි ය. මෙම පිටුව නැවත ප්‍රවේශනය කිරීමට උත්සාහ කරන්න.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">යළි නැවුම් කරන්න</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">පිටුව දැන් ලබා ගත නොහැකි ය</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">අග නම</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">පිටුව ප්‍රවේශනය කිරීමට නොහැකිය</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">මෙය සමග විවෘත කරන්න …</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">%1$s තුළ විවෘත කරන්න</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">තවත් විකල්ප</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">මුල් නම</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">නම</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">ZIP කේතය</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a1">මෙම ගෙවා පිටවීම ක්‍රියා කරන ආකාරය පිළිබඳ හා Meta විසින් අදාළ පෞද්ගලිකත්ව ප්‍රතිපත්තිවලට සබැඳි සහිතව පරිශීලකයාගේ තොරතුරු භාවිතා කරන ආකාරය විස්තර කරන පත්‍රිකාවකට සබැඳියක්.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">දුරකථන අංකය</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/activator_card_progress_bad" android:endColor="@color/igds_creation_tools_purple" android:angle="45.0" />
+</shape>

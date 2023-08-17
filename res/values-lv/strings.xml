@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">Štats</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">Adrese</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">Dzīvokļa nr. (neobligāti)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Aizvērt pārlūku</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s vēlas izmantot tavu ierīces atrašanās vietu.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Atļaut</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Bloķēt</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">Radās problēmas ar šīs vietnes drošības sertifikātu</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">Atpakaļ</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Drošības kods</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">Kartes numurs</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">Ievadi 3 vai 4 ciparu drošības kodu savā %1$s • %2$s, lai automātiski aizpildītu šo veidlapu.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">Papildu drošības pārbaudes nolūkos ievadi informāciju par karti, kuras numura pēdējie cipari ir %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">Papildu drošības pārbaudei, lūdzu, ievadi pilnu kartes numuru kartei, kas beidzas ar %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">Pievienot pilno %1$s kartes numuru • %2$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">Apstiprini kartes informāciju</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Apstiprināt</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">Apstiprini kartes %1$s drošības kodu • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002e">Labi</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">E-pasta adrese</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">To, iespējams, izraisīja tehniska kļūme, kuru pašlaik cenšamies labot. Mēģini atkārtoti ielādēt šo lapu.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Atsvaidzināt</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">Lapa pašlaik nav pieejama</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Uzvārds</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">Lapu nevar ielādēt</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">Atvērt lietotnē...</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">Atvērt lietotnē %1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Vairāk iespēju</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Vārds</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">Nosaukums</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">Pasta indekss</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">Telefona numurs</string>
+</resources>

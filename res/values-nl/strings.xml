@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">Staat</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">Plaats</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">Adres</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">Appartement/kantoor (optioneel)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Browser sluiten</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s wil de camera van je apparaat gebruiken.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s wil de locatie van je apparaat gebruiken.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Toestaan</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Blokkeren</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">Er zijn problemen met het beveiligingscertificaat voor deze website.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">Ga terug</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">Beveiligingsfout</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Beveiligingscode</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">Kaartnummer</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">Voer de 3- of 4-cijferige code op je %1$s • %2$s in om dit formulier automatisch in te vullen.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">Voer als een extra beveiligingscontrole de gegevens in van de kaart die eindigt op %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">Voer als extra beveiligingscontrole het volledige kaartnummer in van de kaart die eindigt op %1$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">Voeg het volledige kaartnummer toe van %1$s • %2$s.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">Kaartgegevens bevestigen</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Bevestigen</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">De beveiligingscode voor %1$s • %2$s bevestigen</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120039">Er is een fout opgetreden.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">E-mail</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">Dit kan komen door een technische fout waarvoor we al aan een oplossing werken. Laad de pagina opnieuw.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Vernieuwen</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">Pagina is momenteel niet beschikbaar</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Achternaam</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">Pagina kan niet worden geladen</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">Openen met …</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">Openen in %1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Meer opties</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Voornaam</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120051">We ondervinden momenteel problemen bij het instellen van %2$s in het %1$s. Je kunt het opnieuw proberen of %2$s in het Engels (VS) gebruiken.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120052">Een ogenblik geduld. %1$s wordt ingesteld…</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120053">Opnieuw</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120054">Doorgaan in het Engels (VS)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">Naam</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">Postcode</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a1">Een link naar een sheet dat uitlegt hoe deze betaalfunctie werkt en hoe Meta de gegevens van de gebruiker gebruikt, inclusief links naar relevante privacybeleidslijnen.</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">Telefoon</string>
+</resources>

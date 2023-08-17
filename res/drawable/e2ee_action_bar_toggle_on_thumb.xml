@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/add_account_icon_circle_radius" android:width="@dimen/add_account_icon_circle_radius" />
+            <solid android:color="@color/igds_cta_banner_background" />
+            <stroke android:width="@dimen/ad_viewer_video_progress_layout_bottom_padding" android:color="@color/ads_ratings_and_reviews_banner_color_fill" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/instagram_lock_pano_filled_16" android:tint="@color/ads_ratings_and_reviews_banner_color_fill" />
+    </item>
+</layer-list>

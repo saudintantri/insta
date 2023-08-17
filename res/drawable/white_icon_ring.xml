@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/abc_control_corner_material" android:color="@color/igds_icon_on_color" />
+    <size android:height="@dimen/achievement_about_main_image_height" android:width="@dimen/achievement_about_main_image_height" />
+</shape>

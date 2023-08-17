@@ -1,0 +1,359 @@
+{
+  "ARClassBenchmarkCountQuery": {
+    "operation_name": "ARClassBenchmarkCountQuery",
+    "operation_name_hash": "1187638160",
+    "operation_text_hash": "2543598069687061827",
+    "client_doc_id": "11876381602543598069687061827",
+    "schema": "facebook"
+  },
+  "AdminedPagesQuery": {
+    "operation_name": "AdminedPagesQuery",
+    "operation_name_hash": "144296183",
+    "operation_text_hash": "3948589742979858649",
+    "client_doc_id": "1442961833948589742979858649",
+    "schema": "facebook"
+  },
+  "AdsManagerAdDetailQuery": {
+    "operation_name": "AdsManagerAdDetailQuery",
+    "operation_name_hash": "911938630",
+    "operation_text_hash": "15722521277877457823",
+    "client_doc_id": "91193863015722521277877457823",
+    "schema": "facebook"
+  },
+  "CameraEffectShare": {
+    "operation_name": "CameraEffectShare",
+    "operation_name_hash": "862342781",
+    "operation_text_hash": "16409243467328763938",
+    "client_doc_id": "86234278116409243467328763938",
+    "schema": "facebook"
+  },
+  "CityQuery": {
+    "operation_name": "CityQuery",
+    "operation_name_hash": "4046276610",
+    "operation_text_hash": "13123976398059488506",
+    "client_doc_id": "404627661013123976398059488506",
+    "schema": "facebook"
+  },
+  "EndRoomAndCall": {
+    "operation_name": "EndRoomAndCall",
+    "operation_name_hash": "194168759",
+    "operation_text_hash": "12448830018684303163",
+    "client_doc_id": "19416875912448830018684303163",
+    "schema": "facebook"
+  },
+  "FbAdditionalProfilePlusCreationMutation": {
+    "operation_name": "FbAdditionalProfilePlusCreationMutation",
+    "operation_name_hash": "1691619884",
+    "operation_text_hash": "6985119091889363362",
+    "client_doc_id": "16916198846985119091889363362",
+    "schema": "facebook"
+  },
+  "FbAutoFillQuery": {
+    "operation_name": "FbAutoFillQuery",
+    "operation_name_hash": "893091519",
+    "operation_text_hash": "5026231677014144259",
+    "client_doc_id": "8930915195026231677014144259",
+    "schema": "facebook"
+  },
+  "FbLocationUpdateMutation": {
+    "operation_name": "FbLocationUpdateMutation",
+    "operation_name_hash": "3242995900",
+    "operation_text_hash": "10579541862682375990",
+    "client_doc_id": "324299590010579541862682375990",
+    "schema": "facebook"
+  },
+  "FbPageCreateMutation": {
+    "operation_name": "FbPageCreateMutation",
+    "operation_name_hash": "1734511801",
+    "operation_text_hash": "13873788030516241001",
+    "client_doc_id": "173451180113873788030516241001",
+    "schema": "facebook"
+  },
+  "FbPageTitleCheckQuery": {
+    "operation_name": "FbPageTitleCheckQuery",
+    "operation_name_hash": "3747469949",
+    "operation_text_hash": "8674074461106257583",
+    "client_doc_id": "37474699498674074461106257583",
+    "schema": "facebook"
+  },
+  "FbPageUnpublishedStatusQuery": {
+    "operation_name": "FbPageUnpublishedStatusQuery",
+    "operation_name_hash": "4002225519",
+    "operation_text_hash": "5487278793798563696",
+    "client_doc_id": "40022255195487278793798563696",
+    "schema": "facebook"
+  },
+  "FetchCmsQuery": {
+    "operation_name": "FetchCmsQuery",
+    "operation_name_hash": "416148177",
+    "operation_text_hash": "16308961458735571564",
+    "client_doc_id": "41614817716308961458735571564",
+    "schema": "facebook"
+  },
+  "GetMessengerRooms": {
+    "operation_name": "GetMessengerRooms",
+    "operation_name_hash": "2030720508",
+    "operation_text_hash": "4098387862011092437",
+    "client_doc_id": "20307205084098387862011092437",
+    "schema": "facebook"
+  },
+  "IGAPIRewriteCamera": {
+    "operation_name": "IGAPIRewriteCamera",
+    "operation_name_hash": "2196802824",
+    "operation_text_hash": "8875392644277603413",
+    "client_doc_id": "21968028248875392644277603413",
+    "schema": "facebook"
+  },
+  "IGAvatarAddons": {
+    "operation_name": "IGAvatarAddons",
+    "operation_name_hash": "3194227936",
+    "operation_text_hash": "12504585016587132921",
+    "client_doc_id": "319422793612504585016587132921",
+    "schema": "facebook"
+  },
+  "IGAvatarEffects": {
+    "operation_name": "IGAvatarEffects",
+    "operation_name_hash": "2887578141",
+    "operation_text_hash": "7433241415726875326",
+    "client_doc_id": "28875781417433241415726875326",
+    "schema": "facebook"
+  },
+  "IGAvatarStatus": {
+    "operation_name": "IGAvatarStatus",
+    "operation_name_hash": "831151671",
+    "operation_text_hash": "1414039006368664145",
+    "client_doc_id": "8311516711414039006368664145",
+    "schema": "facebook"
+  },
+  "IGCameraEffects": {
+    "operation_name": "IGCameraEffects",
+    "operation_name_hash": "2132446651",
+    "operation_text_hash": "954610408509101693",
+    "client_doc_id": "2132446651954610408509101693",
+    "schema": "facebook"
+  },
+  "IGCanvasDocumentQuery": {
+    "operation_name": "IGCanvasDocumentQuery",
+    "operation_name_hash": "334697938",
+    "operation_text_hash": "14781879539216337872",
+    "client_doc_id": "33469793814781879539216337872",
+    "schema": "facebook"
+  },
+  "IGInsightsProductInsightsCreatorsListSurfaceQuery": {
+    "operation_name": "IGInsightsProductInsightsCreatorsListSurfaceQuery",
+    "operation_name_hash": "3371905379",
+    "operation_text_hash": "11192492825578840133",
+    "client_doc_id": "337190537911192492825578840133",
+    "schema": "facebook"
+  },
+  "IGInsightsProductInsightsPageViewsFromPostsGridSurfaceQuery": {
+    "operation_name": "IGInsightsProductInsightsPageViewsFromPostsGridSurfaceQuery",
+    "operation_name_hash": "780989414",
+    "operation_text_hash": "6164889977637538967",
+    "client_doc_id": "7809894146164889977637538967",
+    "schema": "facebook"
+  },
+  "IGInsightsProductInsightsPageViewsFromStoriesGridSurfaceQuery": {
+    "operation_name": "IGInsightsProductInsightsPageViewsFromStoriesGridSurfaceQuery",
+    "operation_name_hash": "3570074558",
+    "operation_text_hash": "11617975759790331415",
+    "client_doc_id": "357007455811617975759790331415",
+    "schema": "facebook"
+  },
+  "IGMonetizationEligibilityAppeal": {
+    "operation_name": "IGMonetizationEligibilityAppeal",
+    "operation_name_hash": "1050656359",
+    "operation_text_hash": "7558631477275471516",
+    "client_doc_id": "10506563597558631477275471516",
+    "schema": "facebook"
+  },
+  "IgInsightProductItemInsightsQuery": {
+    "operation_name": "IgInsightProductItemInsightsQuery",
+    "operation_name_hash": "4292784711",
+    "operation_text_hash": "10111090891611815254",
+    "client_doc_id": "429278471110111090891611815254",
+    "schema": "facebook"
+  },
+  "IgInsightsAccountInsightsSurfaceQuery": {
+    "operation_name": "IgInsightsAccountInsightsSurfaceQuery",
+    "operation_name_hash": "2951211156",
+    "operation_text_hash": "6144071222223756992",
+    "client_doc_id": "29512111566144071222223756992",
+    "schema": "facebook"
+  },
+  "IgInsightsCombinedMediaGridSurfaceQuery": {
+    "operation_name": "IgInsightsCombinedMediaGridSurfaceQuery",
+    "operation_name_hash": "3961089879",
+    "operation_text_hash": "4176772169966259637",
+    "client_doc_id": "39610898794176772169966259637",
+    "schema": "facebook"
+  },
+  "IgInsightsPostGridSurfaceQuery": {
+    "operation_name": "IgInsightsPostGridSurfaceQuery",
+    "operation_name_hash": "805824873",
+    "operation_text_hash": "419779989549671346",
+    "client_doc_id": "805824873419779989549671346",
+    "schema": "facebook"
+  },
+  "IgInsightsPostInsightsQuery": {
+    "operation_name": "IgInsightsPostInsightsQuery",
+    "operation_name_hash": "2949537571",
+    "operation_text_hash": "6770222377277532415",
+    "client_doc_id": "29495375716770222377277532415",
+    "schema": "facebook"
+  },
+  "IgInsightsStoryGridSurfaceQuery": {
+    "operation_name": "IgInsightsStoryGridSurfaceQuery",
+    "operation_name_hash": "2305120294",
+    "operation_text_hash": "1674368616629759681",
+    "client_doc_id": "23051202941674368616629759681",
+    "schema": "facebook"
+  },
+  "IgInsightsStoryInsightsAppQuery": {
+    "operation_name": "IgInsightsStoryInsightsAppQuery",
+    "operation_name_hash": "1476577668",
+    "operation_text_hash": "13207111420618173833",
+    "client_doc_id": "147657766813207111420618173833",
+    "schema": "facebook"
+  },
+  "ImportFbPageMediaMutation": {
+    "operation_name": "ImportFbPageMediaMutation",
+    "operation_name_hash": "790037494",
+    "operation_text_hash": "17068781602783569710",
+    "client_doc_id": "79003749417068781602783569710",
+    "schema": "facebook"
+  },
+  "ImportIGProfilePhotoToPage": {
+    "operation_name": "ImportIGProfilePhotoToPage",
+    "operation_name_hash": "3471910641",
+    "operation_text_hash": "10206637558356574458",
+    "client_doc_id": "347191064110206637558356574458",
+    "schema": "facebook"
+  },
+  "LeadGenDeepLinkQuery": {
+    "operation_name": "LeadGenDeepLinkQuery",
+    "operation_name_hash": "2555047311",
+    "operation_text_hash": "6893541104835861806",
+    "client_doc_id": "25550473116893541104835861806",
+    "schema": "facebook"
+  },
+  "LeadGenDeepLinkUserInfoCreateMutation": {
+    "operation_name": "LeadGenDeepLinkUserInfoCreateMutation",
+    "operation_name_hash": "3665730175",
+    "operation_text_hash": "18360923375547283993",
+    "client_doc_id": "366573017518360923375547283993",
+    "schema": "facebook"
+  },
+  "MessengerRoomsCreateMutation": {
+    "operation_name": "MessengerRoomsCreateMutation",
+    "operation_name_hash": "3578609241",
+    "operation_text_hash": "6106051597098626206",
+    "client_doc_id": "35786092416106051597098626206",
+    "schema": "facebook"
+  },
+  "PagePhotosQuery": {
+    "operation_name": "PagePhotosQuery",
+    "operation_name_hash": "2174892232",
+    "operation_text_hash": "9002709324820205084",
+    "client_doc_id": "21748922329002709324820205084",
+    "schema": "facebook"
+  },
+  "PageSetVisibility": {
+    "operation_name": "PageSetVisibility",
+    "operation_name_hash": "235138348",
+    "operation_text_hash": "7159916200960946491",
+    "client_doc_id": "2351383487159916200960946491",
+    "schema": "facebook"
+  },
+  "ProDisclosureGetOrCreateAdAccountForHardlinkAdAccountSelectMutation": {
+    "operation_name": "ProDisclosureGetOrCreateAdAccountForHardlinkAdAccountSelectMutation",
+    "operation_name_hash": "3282536940",
+    "operation_text_hash": "13888949679170438280",
+    "client_doc_id": "328253694013888949679170438280",
+    "schema": "facebook"
+  },
+  "ProDisclosureGetOrCreateAdAccountForHardlinkMutation": {
+    "operation_name": "ProDisclosureGetOrCreateAdAccountForHardlinkMutation",
+    "operation_name_hash": "3368369546",
+    "operation_text_hash": "707678636617632732",
+    "client_doc_id": "3368369546707678636617632732",
+    "schema": "facebook"
+  },
+  "ProDisclosureQuery": {
+    "operation_name": "ProDisclosureQuery",
+    "operation_name_hash": "49314047",
+    "operation_text_hash": "15820426994840720861",
+    "client_doc_id": "4931404715820426994840720861",
+    "schema": "facebook"
+  },
+  "ProTokenlessPromoteQuery": {
+    "operation_name": "ProTokenlessPromoteQuery",
+    "operation_name_hash": "1713005390",
+    "operation_text_hash": "17224590695580967304",
+    "client_doc_id": "171300539017224590695580967304",
+    "schema": "facebook"
+  },
+  "PublicPageInfoQuery": {
+    "operation_name": "PublicPageInfoQuery",
+    "operation_name_hash": "809064200",
+    "operation_text_hash": "7603923925706452084",
+    "client_doc_id": "8090642007603923925706452084",
+    "schema": "facebook"
+  },
+  "ShowreelNativeInteractiveAnimationQuery": {
+    "operation_name": "ShowreelNativeInteractiveAnimationQuery",
+    "operation_name_hash": "4277967367",
+    "operation_text_hash": "17087095793309799567",
+    "client_doc_id": "427796736717087095793309799567",
+    "schema": "facebook"
+  },
+  "StructuredSurveyEventLoggingMutation": {
+    "operation_name": "StructuredSurveyEventLoggingMutation",
+    "operation_name_hash": "1888601085",
+    "operation_text_hash": "10957721697496731407",
+    "client_doc_id": "188860108510957721697496731407",
+    "schema": "facebook"
+  },
+  "StructuredSurveyQuery": {
+    "operation_name": "StructuredSurveyQuery",
+    "operation_name_hash": "1229041783",
+    "operation_text_hash": "9639686402008036088",
+    "client_doc_id": "12290417839639686402008036088",
+    "schema": "facebook"
+  },
+  "StructuredSurveySubmitResponseMutation": {
+    "operation_name": "StructuredSurveySubmitResponseMutation",
+    "operation_name_hash": "950664672",
+    "operation_text_hash": "2842076587112053398",
+    "client_doc_id": "9506646722842076587112053398",
+    "schema": "facebook"
+  },
+  "SurveyIntegrationPointQuery": {
+    "operation_name": "SurveyIntegrationPointQuery",
+    "operation_name_hash": "482777907",
+    "operation_text_hash": "5402051399037557420",
+    "client_doc_id": "4827779075402051399037557420",
+    "schema": "facebook"
+  },
+  "TokenlessPromoteQuery": {
+    "operation_name": "TokenlessPromoteQuery",
+    "operation_name_hash": "1128973151",
+    "operation_text_hash": "12067373390297941422",
+    "client_doc_id": "112897315112067373390297941422",
+    "schema": "facebook"
+  },
+  "UpdatePromoteAdAccountLinkPreference": {
+    "operation_name": "UpdatePromoteAdAccountLinkPreference",
+    "operation_name_hash": "3805380970",
+    "operation_text_hash": "3120404460568891468",
+    "client_doc_id": "38053809703120404460568891468",
+    "schema": "facebook"
+  },
+  "VideoLicenseProvisioningQuery": {
+    "operation_name": "VideoLicenseProvisioningQuery",
+    "operation_name_hash": "768218800",
+    "operation_text_hash": "145402293144499109",
+    "client_doc_id": "768218800145402293144499109",
+    "schema": "facebook"
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke />
+    <corners android:radius="@dimen/ad_stories_pause_button_bottom_margin" />
+</shape>

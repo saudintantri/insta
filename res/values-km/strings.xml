@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120002">រដ្ឋ</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">ទី​ក្រុង</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">អាសយដ្ឋាន</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">ខុនដូ (ជា​ជម្រើស)</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">បិទកម្មវិធីរុករក</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s ចង់​ប្រើប្រាស់​កាមេរ៉ា​ឧបករណ៍​របស​់​អ្នក។</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s ចង់ប្រើ​ទីតាំងរបស់ឧបករណ៍របស់អ្នក។</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">អនុញ្ញាត</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">ទប់ស្កាត់</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">មានបញ្ហា​ជាមួយវិញ្ញាបនបត្រសន្តិសុខ​សម្រាប់គេហទំព័រនេះ</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">ថយក្រោយ</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">កំហុសសន្តិសុខ</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">លេខកូដសុវត្ថិភាព</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120016">លេខកាត</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120027">បញ្ចូល​លេខ​កូដ​មាន​ 3 ឬ​ 4 ខ្ទង់​នៅ​លើ %1$s • %2$s ដើម្បី​បំពេញ​ទម្រង់​នេះ​ដោយ​ស្វ័យ​ប្រវត្តិ។</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120028">ជា​ការពិនិត្យសន្តិសុខបន្ថែម​ទៀត សូមបញ្ចូល​ព័ត៌មានលម្អិត​សម្រាប់កាតដែលបញ្ចប់ខាងចុងដោយលេខ %1$s។</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120029">ជាការពិនិត្យសន្តិសុខបន្ថែមទៀត សូមបញ្ចូល​លេខកាតពេញ​សម្រាប់កាតដែលបញ្ចប់ខាងចុងដោយលេខ %1$s។</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002a">បញ្ចូល​លេខកាតពេញសម្រាប់ %1$s • %2$s។</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002b">បញ្ជាក់ព័ត៌មានលម្អិតរបស់កាត</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">បញ្ជាក់</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002d">បញ្ជាក់​លេខកូដ​សុវត្ថិភាព​សម្រាប់ %1$s • %2$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002e">យល់ព្រម</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">អ៊ីមែល</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">វា​អាច​ដោយ​សារ​តែ​កំហុស​បច្ចេកទេសដែលយើង​កំពុង​ធ្វើការដើម្បី​ដោះស្រាយ។ ព្យាយាម​ផ្ទុក​ទំព័រ​នេះ​ឡើងវិញ។</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">ផ្ទុក​ឡើងវិញ</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">ទំព័រ​មិន​អាច​ប្រើបាននៅ​ពេលនេះ​ទេ</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">នាមត្រកូល</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">មិនអាចផ្ទុកទំព័រ</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120040">បើកជាមួយ …</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">បើកក្នុង %1$s</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">ជម្រើសច្រើនទៀត</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">នាមខ្លួន​</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">ឈ្មោះ​</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">លេខ​កូដ​តំបន់</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a1">តំណ​ទៅកាន់​សន្លឹក​មួយ​ពន្យល់​អំពី​វិធី​ដេល​ការបង់ប្រាក់នេះ​ដំណើរការ និង​វិធី​ដែល Meta នឹង​ប្រើប្រាស់​ព័ត៌មាន​របស់​អ្នកប្រើប្រាស់​ ជា​មួ​យ​តំណ​ទៅ​កាន់​គោលការណ៍​ឯកជនភាព​ដែល​ពាក់ព័ន្ធ។</string>
+    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">ទូរសព្ទ</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="comments_sorting_options">
+        <item>Топ комментариев</item>
+        <item>Сначала новые</item>
+    </string-array>
+    <string-array name="direct_emoji_quick_reply_items_v2_emoji_2">
+        <item>Очень нравится!</item>
+        <item>Спасибо!</item>
+        <item>Очень весело!</item>
+    </string-array>
+    <string-array name="quiz_sticker_answer_row_hint_text">
+        <item>Вариант 1</item>
+        <item>Вариант 2</item>
+        <item>Вариант 3</item>
+        <item>Вариант 4</item>
+    </string-array>
+    <string-array name="quiz_sticker_answer_row_options">
+        <item>А</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+</resources>

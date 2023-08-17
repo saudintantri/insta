@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/clips_gradient_redesign_color_4" />
+        </shape>
+    </item>
+    <item android:left="8.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip">
+        <bitmap android:src="@drawable/instagram_nft_filled_32" android:tint="@color/canvas_bottom_sheet_description_text_color" />
+    </item>
+</layer-list>

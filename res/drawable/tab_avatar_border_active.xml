@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/account_recs_header_image_margin" android:color="@color/ads_ratings_and_reviews_banner_color_fill" />
+    <solid android:color="@color/fds_transparent" />
+    <padding android:left="@dimen/ad_stories_pause_button_bottom_margin" android:top="@dimen/ad_stories_pause_button_bottom_margin" android:right="@dimen/ad_stories_pause_button_bottom_margin" android:bottom="@dimen/ad_stories_pause_button_bottom_margin" />
+</shape>

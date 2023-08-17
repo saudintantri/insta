@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/ad_stories_pause_button_bottom_margin" android:topRightRadius="@dimen/ad_stories_pause_button_bottom_margin" android:bottomLeftRadius="@dimen/ad_stories_pause_button_bottom_margin" android:bottomRightRadius="@dimen/ad_stories_pause_button_bottom_margin" />
+    <solid android:color="@color/black_60_transparent" />
+    <size android:height="@dimen/achievement_details_description_bottom_padding" android:width="@dimen/accent_edge_thickness" />
+</shape>
