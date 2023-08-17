@@ -352,7 +352,7 @@
 
     .line 1
     .line 2
-    invoke-static {v3}, LX/Chf;->A0M(Landroid/view/View;)Landroid/view/ViewGroup$MarginLayoutParams;
+    invoke-static {v3}, LX/Chf;->A0N(Landroid/view/View;)Landroid/view/ViewGroup$MarginLayoutParams;
 
     .line 3
     .line 4

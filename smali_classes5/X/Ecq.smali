@@ -523,7 +523,7 @@
     move-result v1
 
     .line 242
-    invoke-static {v8, v1}, LX/Chf;->A0B(Landroid/view/View;I)I
+    invoke-static {v8, v1}, LX/Chf;->A0C(Landroid/view/View;I)I
 
     .line 243
     .line 244
@@ -531,7 +531,7 @@
     move-result v7
 
     .line 246
-    invoke-static {v8}, LX/Chf;->A0M(Landroid/view/View;)Landroid/view/ViewGroup$MarginLayoutParams;
+    invoke-static {v8}, LX/Chf;->A0N(Landroid/view/View;)Landroid/view/ViewGroup$MarginLayoutParams;
 
     .line 247
     .line 248

@@ -226,41 +226,41 @@
 
     const/16 v4, 0xa
 
-    .line 2004708
+    .line 2004729
     const/4 v0, 0x0
 
-    .line 2004709
+    .line 2004730
     const/4 v3, 0x0
 
-    .line 2004710
+    .line 2004731
     move-object/from16 v7, p0
 
     move-object/from16 v10, p1
 
     invoke-direct {v7, v10, v0, v3}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 2004711
+    .line 2004732
     invoke-static {}, LX/5Wd;->A15()Ljava/util/HashSet;
 
     move-result-object v1
 
-    .line 2004712
+    .line 2004733
     iput-object v1, v7, LX/FoQ;->A1D:Ljava/util/Set;
 
-    .line 2004713
+    .line 2004734
     sget-object v1, LX/1he;->A3o:LX/1he;
 
     iput-object v1, v7, LX/FoQ;->A05:LX/1he;
 
-    .line 2004714
+    .line 2004735
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 2004715
+    .line 2004736
     iput-object v1, v7, LX/FoQ;->A1A:Ljava/util/ArrayList;
 
-    .line 2004716
+    .line 2004737
     const/4 v6, 0x2
 
     new-instance v1, Lcom/facebook/redex/IDxSListenerShape42S0100000_5_I1;
@@ -269,7 +269,7 @@
 
     iput-object v1, v7, LX/FoQ;->A1N:LX/3Bw;
 
-    .line 2004717
+    .line 2004738
     const/4 v5, 0x1
 
     new-instance v1, Lcom/facebook/redex/IDxPredicateShape293S0100000_4_I1;
@@ -278,27 +278,27 @@
 
     iput-object v1, v7, LX/FoQ;->A1S:LX/1Ak;
 
-    .line 2004718
+    .line 2004739
     move/from16 v1, p9
 
     iput-boolean v1, v7, LX/FoQ;->A1F:Z
 
-    .line 2004719
+    .line 2004740
     move-object/from16 v1, p6
 
     iput-object v1, v7, LX/FoQ;->A0D:LX/6Xh;
 
-    .line 2004720
+    .line 2004741
     move-object/from16 v29, p3
 
     move-object/from16 v1, v29
 
     iput-object v1, v7, LX/FoQ;->A06:LX/1dt;
 
-    .line 2004721
+    .line 2004742
     invoke-virtual {v7, v5}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    .line 2004722
+    .line 2004743
     invoke-static {v10}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
@@ -311,152 +311,152 @@
 
     iput-object v1, v7, LX/FoQ;->A1J:Landroid/view/View;
 
-    .line 2004723
+    .line 2004744
     invoke-static {v10}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
 
     invoke-virtual {v1, v2, v7}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    .line 2004724
+    .line 2004745
     iput v4, v7, LX/FoQ;->A0l:I
 
-    .line 2004725
+    .line 2004746
     invoke-virtual {v7, v5}, Landroid/view/View;->setSaveEnabled(Z)V
 
-    .line 2004726
+    .line 2004747
     invoke-static {}, LX/Chb;->A09()Landroid/graphics/Rect;
 
     move-result-object v1
 
-    .line 2004727
+    .line 2004748
     iput-object v1, v7, LX/FoQ;->A1H:Landroid/graphics/Rect;
 
-    .line 2004728
+    .line 2004749
     move/from16 v1, p8
 
     iput-boolean v1, v7, LX/FoQ;->A1E:Z
 
-    .line 2004729
+    .line 2004750
     move-object/from16 v1, p2
 
     iput-object v1, v7, LX/FoQ;->A05:LX/1he;
 
-    .line 2004730
+    .line 2004751
     move-object/from16 v1, p4
 
     iput-object v1, v7, LX/FoQ;->A0w:Lcom/instagram/creation/base/CreationSession;
 
-    .line 2004731
+    .line 2004752
     move-object/from16 v11, p7
 
     iput-object v11, v7, LX/FoQ;->A14:Lcom/instagram/service/session/UserSession;
 
-    .line 2004732
+    .line 2004753
     invoke-static {v11}, LX/1A2;->A00(LX/0SF;)LX/1A2;
 
     move-result-object v1
 
     iput-object v1, v7, LX/FoQ;->A1T:LX/1A2;
 
-    .line 2004733
+    .line 2004754
     move-object/from16 v1, p5
 
     iput-object v1, v7, LX/FoQ;->A0b:LX/6Xj;
 
-    .line 2004734
+    .line 2004755
     iget-object v4, v7, LX/FoQ;->A0w:Lcom/instagram/creation/base/CreationSession;
 
-    .line 2004735
+    .line 2004756
     iget-object v2, v4, Lcom/instagram/creation/base/CreationSession;->A0A:LX/276;
 
-    .line 2004736
+    .line 2004757
     sget-object v13, LX/276;->A03:LX/276;
 
     if-eq v2, v13, :cond_0
 
-    .line 2004737
+    .line 2004758
     sget-object v1, LX/276;->A04:LX/276;
 
     if-eq v2, v1, :cond_0
 
-    .line 2004738
+    .line 2004759
     sget-object v1, LX/276;->A02:LX/276;
 
     if-eq v2, v1, :cond_0
 
-    .line 2004739
+    .line 2004760
     iget-object v2, v4, Lcom/instagram/creation/base/CreationSession;->A09:Lcom/instagram/model/creation/MediaCaptureConfig;
 
     if-eqz v2, :cond_1
 
-    .line 2004740
+    .line 2004761
     iget-object v1, v2, Lcom/instagram/model/creation/MediaCaptureConfig;->A00:Lcom/instagram/music/common/config/MusicAttributionConfig;
 
-    .line 2004741
+    .line 2004762
     if-nez v1, :cond_0
 
-    .line 2004742
+    .line 2004763
     iget-boolean v1, v2, Lcom/instagram/model/creation/MediaCaptureConfig;->A07:Z
 
-    .line 2004743
+    .line 2004764
     if-eqz v1, :cond_1
 
-    .line 2004744
+    .line 2004765
     :cond_0
     const/4 v3, 0x1
 
-    .line 2004745
+    .line 2004766
     :cond_1
     invoke-static {}, LX/0Qn;->A00()LX/2gE;
 
     move-result-object v4
 
-    .line 2004746
+    .line 2004767
     invoke-virtual {v4}, LX/2gF;->A02()LX/2gG;
 
     move-result-object v1
 
-    .line 2004747
+    .line 2004768
     iput-boolean v5, v1, LX/2gG;->A06:Z
 
-    .line 2004748
+    .line 2004769
     iput-object v1, v7, LX/FoQ;->A1Q:LX/2gG;
 
-    .line 2004749
+    .line 2004770
     invoke-virtual {v4}, LX/2gF;->A02()LX/2gG;
 
     move-result-object v1
 
-    .line 2004750
+    .line 2004771
     iput-boolean v5, v1, LX/2gG;->A06:Z
 
-    .line 2004751
+    .line 2004772
     iput-object v1, v7, LX/FoQ;->A1R:LX/2gG;
 
-    .line 2004752
+    .line 2004773
     invoke-virtual {v4}, LX/2gF;->A02()LX/2gG;
 
     move-result-object v1
 
-    .line 2004753
+    .line 2004774
     iput-boolean v5, v1, LX/2gG;->A06:Z
 
-    .line 2004754
+    .line 2004775
     iput-object v1, v7, LX/FoQ;->A1O:LX/2gG;
 
-    .line 2004755
+    .line 2004776
     invoke-virtual {v4}, LX/2gF;->A02()LX/2gG;
 
     move-result-object v1
 
-    .line 2004756
+    .line 2004777
     iput-boolean v5, v1, LX/2gG;->A06:Z
 
-    .line 2004757
+    .line 2004778
     iput-object v1, v7, LX/FoQ;->A1P:LX/2gG;
 
-    .line 2004758
+    .line 2004779
     invoke-virtual {v4}, LX/2gF;->A02()LX/2gG;
 
     move-result-object v1
@@ -467,33 +467,33 @@
 
     iput-object v1, v7, LX/FoQ;->A0t:LX/2gG;
 
-    .line 2004759
+    .line 2004780
     invoke-virtual {v4}, LX/2gF;->A02()LX/2gG;
 
     move-result-object v1
 
-    .line 2004760
+    .line 2004781
     invoke-virtual {v1, v2}, LX/2gG;->A06(LX/3BR;)V
 
-    .line 2004761
+    .line 2004782
     iput-boolean v5, v1, LX/2gG;->A06:Z
 
-    .line 2004762
+    .line 2004783
     iput-object v1, v7, LX/FoQ;->A0s:LX/2gG;
 
-    .line 2004763
+    .line 2004784
     new-instance v1, Landroid/view/GestureDetector;
 
     invoke-direct {v1, v10, v7}, Landroid/view/GestureDetector;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
 
     iput-object v1, v7, LX/FoQ;->A1I:Landroid/view/GestureDetector;
 
-    .line 2004764
+    .line 2004785
     const/4 v12, 0x0
 
     invoke-virtual {v1, v12}, Landroid/view/GestureDetector;->setIsLongpressEnabled(Z)V
 
-    .line 2004765
+    .line 2004786
     invoke-virtual {v7}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v4
@@ -502,107 +502,107 @@
 
     check-cast v9, Landroidx/fragment/app/FragmentActivity;
 
-    .line 2004766
+    .line 2004787
     const v1, 0x7f0a1365
 
-    .line 2004767
+    .line 2004788
     invoke-static {v7, v1}, LX/5Wd;->A0K(Landroid/view/View;I)Landroid/view/ViewStub;
 
     move-result-object v14
 
-    .line 2004768
+    .line 2004789
     iget-object v15, v7, LX/FoQ;->A14:Lcom/instagram/service/session/UserSession;
 
-    .line 2004769
+    .line 2004790
     sget-object v8, LX/0Sq;->A05:LX/0Sq;
 
     const-wide v1, 0x810458000207b3L
 
-    .line 2004770
+    .line 2004791
     invoke-static {v8, v15, v1, v2}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v2
 
-    .line 2004771
+    .line 2004792
     const v1, 0x7f0d05f8
 
     if-eqz v2, :cond_2
 
-    .line 2004772
+    .line 2004793
     const v1, 0x7f0d05f7
 
-    .line 2004773
+    .line 2004794
     :cond_2
     invoke-static {v14, v1}, LX/Chd;->A0E(Landroid/view/ViewStub;I)Landroid/view/View;
 
     move-result-object v2
 
-    .line 2004774
+    .line 2004795
     check-cast v2, Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/GalleryMediaGridView;
 
     iput-object v2, v7, LX/FoQ;->A10:Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/GalleryMediaGridView;
 
-    .line 2004775
+    .line 2004796
     invoke-static {v4, v11}, LX/Foc;->A04(Landroid/content/Context;Lcom/instagram/service/session/UserSession;)Z
 
     move-result v1
 
-    .line 2004776
+    .line 2004797
     iput-boolean v1, v2, Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/GalleryMediaGridView;->A01:Z
 
-    .line 2004777
+    .line 2004798
     iget-object v1, v7, LX/FoQ;->A10:Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/GalleryMediaGridView;
 
-    .line 2004778
+    .line 2004799
     iget v2, v1, Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/GalleryMediaGridView;->A05:I
 
-    .line 2004779
+    .line 2004800
     new-instance v1, LX/4pq;
 
     invoke-direct {v1, v9, v2, v2, v12}, LX/4pq;-><init>(Landroid/content/Context;IIZ)V
 
     iput-object v1, v7, LX/FoQ;->A1U:LX/4pq;
 
-    .line 2004780
+    .line 2004801
     move-object v1, v10
 
     check-cast v1, Landroidx/core/app/ComponentActivity;
 
-    .line 2004781
+    .line 2004802
     invoke-static {v1}, LX/05o;->A00(LX/05g;)LX/05o;
 
     move-result-object v15
 
-    .line 2004782
+    .line 2004803
     iget-object v14, v7, LX/FoQ;->A1U:LX/4pq;
 
-    .line 2004783
+    .line 2004804
     sget-object v17, LX/4jU;->A01:LX/4jU;
 
-    .line 2004784
+    .line 2004805
     invoke-static/range {v16 .. v16}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v21
 
-    .line 2004785
+    .line 2004806
     if-eqz v3, :cond_3
 
-    .line 2004786
+    .line 2004807
     sget-object v17, LX/4jU;->A02:LX/4jU;
 
-    .line 2004787
+    .line 2004808
     :cond_3
     iget-object v1, v7, LX/FoQ;->A10:Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/GalleryMediaGridView;
 
-    .line 2004788
+    .line 2004809
     iget v1, v1, Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/GalleryMediaGridView;->A05:I
 
-    .line 2004789
+    .line 2004810
     new-instance v2, LX/Fod;
 
     invoke-direct {v2, v1}, LX/Fod;-><init>(I)V
 
-    .line 2004790
+    .line 2004811
     const/4 v3, 0x0
 
     new-instance v1, LX/4aQ;
@@ -629,32 +629,32 @@
 
     invoke-direct/range {v14 .. v26}, LX/4aQ;-><init>(LX/05o;LX/Fod;LX/4jU;LX/4pq;Lcom/instagram/service/session/UserSession;LX/52v;Ljava/lang/Integer;IZZZZ)V
 
-    .line 2004791
+    .line 2004812
     sget-object v14, LX/01Q;->A06:LX/01Q;
 
-    .line 2004792
+    .line 2004813
     const v2, 0x1170001
 
-    .line 2004793
+    .line 2004814
     invoke-virtual {v14, v2}, LX/06L;->markerStart(I)V
 
-    .line 2004794
+    .line 2004815
     sget-object v14, LX/01Q;->A06:LX/01Q;
 
-    .line 2004795
+    .line 2004816
     const v2, 0x1170002
 
     invoke-virtual {v14, v2}, LX/06L;->markerStart(I)V
 
-    .line 2004796
+    .line 2004817
     invoke-static {}, LX/4AN;->A01()LX/4AN;
 
     move-result-object v2
 
-    .line 2004797
+    .line 2004818
     iput-boolean v5, v2, LX/4AN;->A0N:Z
 
-    .line 2004798
+    .line 2004819
     iget-object v2, v7, LX/FoQ;->A1U:LX/4pq;
 
     move-object/from16 v28, v2
@@ -665,20 +665,20 @@
 
     iget-object v14, v7, LX/FoQ;->A10:Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/GalleryMediaGridView;
 
-    .line 2004799
+    .line 2004820
     iget-object v2, v14, Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/GalleryMediaGridView;->A06:Landroidx/recyclerview/widget/GridLayoutManager;
 
-    .line 2004800
+    .line 2004821
     iget v2, v2, Landroidx/recyclerview/widget/GridLayoutManager;->A01:I
 
     move/from16 v18, v2
 
-    .line 2004801
+    .line 2004822
     iget v2, v14, Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/GalleryMediaGridView;->A05:I
 
     move/from16 v17, v2
 
-    .line 2004802
+    .line 2004823
     iget v2, v7, LX/FoQ;->A0l:I
 
     move/from16 v16, v2
@@ -719,115 +719,115 @@
 
     iput-object v14, v7, LX/FoQ;->A0x:LX/Foe;
 
-    .line 2004803
+    .line 2004824
     new-instance v2, LX/Fof;
 
     invoke-direct {v2, v7}, LX/Fof;-><init>(LX/FoQ;)V
 
-    .line 2004804
+    .line 2004825
     iput-object v2, v14, LX/Foe;->A01:LX/Fof;
 
-    .line 2004805
+    .line 2004826
     new-instance v2, LX/57T;
 
     invoke-direct {v2, v10, v14, v1}, LX/57T;-><init>(Landroid/content/Context;LX/6JS;LX/4aQ;)V
 
     iput-object v2, v7, LX/FoQ;->A16:LX/57T;
 
-    .line 2004806
+    .line 2004827
     iget-object v2, v7, LX/FoQ;->A10:Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/GalleryMediaGridView;
 
     iget-object v1, v7, LX/FoQ;->A0x:LX/Foe;
 
     invoke-virtual {v2, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(LX/3Ax;)V
 
-    .line 2004807
+    .line 2004828
     const v1, 0x7f0a1ae6
 
-    .line 2004808
+    .line 2004829
     invoke-virtual {v7, v1}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     move-result-object v15
 
-    .line 2004809
+    .line 2004830
     iput-object v15, v7, LX/FoQ;->A1K:Landroid/view/View;
 
-    .line 2004810
+    .line 2004831
     iget-object v1, v7, LX/FoQ;->A10:Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/GalleryMediaGridView;
 
-    .line 2004811
+    .line 2004832
     iget v1, v1, Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/GalleryMediaGridView;->A02:I
 
-    .line 2004812
+    .line 2004833
     int-to-float v1, v1
 
     iput v1, v7, LX/FoQ;->A1G:F
 
-    .line 2004813
+    .line 2004834
     iget-boolean v1, v7, LX/FoQ;->A1F:Z
 
     if-eqz v1, :cond_4
 
-    .line 2004814
+    .line 2004835
     invoke-virtual {v15}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v14
 
     iget-object v1, v7, LX/FoQ;->A1K:Landroid/view/View;
 
-    .line 2004815
+    .line 2004836
     invoke-virtual {v1}, Landroid/view/View;->getPaddingRight()I
 
     move-result v2
 
     iget-object v1, v7, LX/FoQ;->A1K:Landroid/view/View;
 
-    .line 2004816
+    .line 2004837
     invoke-virtual {v1}, Landroid/view/View;->getPaddingBottom()I
 
     move-result v1
 
-    .line 2004817
+    .line 2004838
     invoke-virtual {v15, v14, v12, v2, v1}, Landroid/view/View;->setPadding(IIII)V
 
-    .line 2004818
+    .line 2004839
     :cond_4
     iget-object v2, v7, LX/FoQ;->A14:Lcom/instagram/service/session/UserSession;
 
-    .line 2004819
+    .line 2004840
     new-instance v1, LX/Fog;
 
     invoke-direct {v1, v4, v2}, LX/Fog;-><init>(Landroid/content/Context;Lcom/instagram/service/session/UserSession;)V
 
-    .line 2004820
+    .line 2004841
     iput-object v1, v7, LX/FoQ;->A12:LX/Fog;
 
-    .line 2004821
+    .line 2004842
     const v1, 0x7f0a0b89
 
-    .line 2004822
+    .line 2004843
     invoke-virtual {v7, v1}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     move-result-object v14
 
-    .line 2004823
+    .line 2004844
     check-cast v14, Lcom/instagram/creation/photo/crop/CropImageView;
 
     iput-object v14, v7, LX/FoQ;->A13:Lcom/instagram/creation/photo/crop/CropImageView;
 
-    .line 2004824
+    .line 2004845
     iget-object v1, v7, LX/FoQ;->A0w:Lcom/instagram/creation/base/CreationSession;
 
-    .line 2004825
+    .line 2004846
     iget-object v1, v1, Lcom/instagram/creation/base/CreationSession;->A09:Lcom/instagram/model/creation/MediaCaptureConfig;
 
-    .line 2004826
+    .line 2004847
     if-eqz v1, :cond_5
 
-    .line 2004827
+    .line 2004848
     iget-boolean v2, v1, Lcom/instagram/model/creation/MediaCaptureConfig;->A05:Z
 
-    .line 2004828
+    .line 2004849
     const/4 v1, 0x1
 
     if-nez v2, :cond_6
@@ -835,131 +835,131 @@
     :cond_5
     const/4 v1, 0x0
 
-    .line 2004829
+    .line 2004850
     :cond_6
     iput-boolean v1, v14, Lcom/instagram/creation/photo/crop/CropImageView;->A05:Z
 
-    .line 2004830
+    .line 2004851
     const v1, 0x7f0a0b8b
 
-    .line 2004831
+    .line 2004852
     invoke-virtual {v7, v1}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    .line 2004832
+    .line 2004853
     check-cast v1, Lcom/instagram/common/ui/colorfilter/ColorFilterAlphaImageView;
 
     iput-object v1, v7, LX/FoQ;->A1V:Lcom/instagram/common/ui/colorfilter/ColorFilterAlphaImageView;
 
-    .line 2004833
+    .line 2004854
     const/16 v14, 0x8
 
-    .line 2004834
+    .line 2004855
     invoke-static {v1, v14, v7}, LX/92n;->A0q(Landroid/view/View;ILjava/lang/Object;)V
 
-    .line 2004835
+    .line 2004856
     const v1, 0x7f0a0eaa
 
-    .line 2004836
+    .line 2004857
     invoke-static {v7, v1}, LX/5Wd;->A0R(Landroid/view/View;I)Lcom/instagram/common/ui/base/IgTextView;
 
     move-result-object v1
 
-    .line 2004837
+    .line 2004858
     iput-object v1, v7, LX/FoQ;->A0u:Lcom/instagram/common/ui/base/IgTextView;
 
-    .line 2004838
+    .line 2004859
     const v1, 0x7f0a29c3
 
-    .line 2004839
+    .line 2004860
     invoke-static {v7, v1}, LX/5Wd;->A0R(Landroid/view/View;I)Lcom/instagram/common/ui/base/IgTextView;
 
     move-result-object v1
 
-    .line 2004840
+    .line 2004861
     iput-object v1, v7, LX/FoQ;->A0v:Lcom/instagram/common/ui/base/IgTextView;
 
-    .line 2004841
+    .line 2004862
     iput-boolean v12, v7, LX/FoQ;->A0S:Z
 
-    .line 2004842
+    .line 2004863
     new-instance v1, LX/Foh;
 
     invoke-direct {v1}, LX/Foh;-><init>()V
 
     iput-object v1, v7, LX/FoQ;->A0K:LX/Foh;
 
-    .line 2004843
+    .line 2004864
     new-instance v1, LX/6JF;
 
     invoke-direct {v1}, LX/6JF;-><init>()V
 
     iput-object v1, v7, LX/FoQ;->A0z:LX/6JF;
 
-    .line 2004844
+    .line 2004865
     iget-object v1, v7, LX/FoQ;->A0w:Lcom/instagram/creation/base/CreationSession;
 
-    .line 2004845
+    .line 2004866
     iget-boolean v1, v1, Lcom/instagram/creation/base/CreationSession;->A0J:Z
 
-    .line 2004846
+    .line 2004867
     const/16 v16, 0x0
 
     if-eqz v1, :cond_10
 
-    .line 2004847
+    .line 2004868
     const v1, 0x7f0a31d2
 
-    .line 2004848
+    .line 2004869
     invoke-virtual {v7, v1}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    .line 2004849
+    .line 2004870
     check-cast v1, Landroid/widget/LinearLayout;
 
     iput-object v1, v7, LX/FoQ;->A1L:Landroid/widget/LinearLayout;
 
-    .line 2004850
+    .line 2004871
     invoke-virtual {v1, v12}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2004851
+    .line 2004872
     const v1, 0x7f0a31d1
 
-    .line 2004852
+    .line 2004873
     invoke-virtual {v7, v1}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     move-result-object v15
 
-    .line 2004853
+    .line 2004874
     iget-boolean v1, v7, LX/FoQ;->A1E:Z
 
     if-nez v1, :cond_7
 
-    .line 2004854
+    .line 2004875
     iget-object v1, v7, LX/FoQ;->A0w:Lcom/instagram/creation/base/CreationSession;
 
-    .line 2004855
+    .line 2004876
     iget-object v1, v1, Lcom/instagram/creation/base/CreationSession;->A09:Lcom/instagram/model/creation/MediaCaptureConfig;
 
     if-eqz v1, :cond_8
 
-    .line 2004856
+    .line 2004877
     iget-object v1, v1, Lcom/instagram/model/creation/MediaCaptureConfig;->A00:Lcom/instagram/music/common/config/MusicAttributionConfig;
 
-    .line 2004857
+    .line 2004878
     if-eqz v1, :cond_8
 
-    .line 2004858
+    .line 2004879
     :cond_7
     const/16 v12, 0x8
 
-    .line 2004859
+    .line 2004880
     :cond_8
     invoke-virtual {v15, v12}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2004860
+    .line 2004881
     const/4 v2, 0x7
 
     new-instance v1, Lcom/facebook/redex/AnonCListenerShape72S0100000_I1_34;
@@ -968,45 +968,45 @@
 
     invoke-virtual {v15, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2004861
+    .line 2004882
     const v1, 0x7f0a1cfe    # 1.83584E38f
 
-    .line 2004862
+    .line 2004883
     invoke-virtual {v7, v1}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    .line 2004863
+    .line 2004884
     check-cast v1, Lcom/instagram/ui/widget/slideouticon/SlideInAndOutIconView;
 
     iput-object v1, v7, LX/FoQ;->A17:Lcom/instagram/ui/widget/slideouticon/SlideInAndOutIconView;
 
-    .line 2004864
+    .line 2004885
     const v1, 0x7f0a2aba
 
-    .line 2004865
+    .line 2004886
     invoke-static {v7, v1}, LX/5Wd;->A0K(Landroid/view/View;I)Landroid/view/ViewStub;
 
     move-result-object v1
 
-    .line 2004866
+    .line 2004887
     iput-object v1, v7, LX/FoQ;->A0p:Landroid/view/ViewStub;
 
-    .line 2004867
+    .line 2004888
     iget-object v12, v7, LX/FoQ;->A14:Lcom/instagram/service/session/UserSession;
 
-    .line 2004868
+    .line 2004889
     const-wide v1, 0x810db900001ce4L
 
-    .line 2004869
+    .line 2004890
     invoke-static {v8, v12, v1, v2}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v12
 
-    .line 2004870
+    .line 2004891
     if-eqz v12, :cond_f
 
-    .line 2004871
+    .line 2004892
     invoke-virtual {v7}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v12
@@ -1015,96 +1015,96 @@
 
     invoke-direct {v15, v12, v7}, LX/G1f;-><init>(Landroid/content/res/Resources;LX/Iux;)V
 
-    .line 2004872
+    .line 2004893
     :goto_0
     iput-object v15, v7, LX/FoQ;->A1M:Landroid/widget/SpinnerAdapter;
 
-    .line 2004873
+    .line 2004894
     const v12, 0x7f0a131f
 
-    .line 2004874
+    .line 2004895
     invoke-virtual {v7, v12}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     move-result-object v15
 
-    .line 2004875
+    .line 2004896
     check-cast v15, Lcom/instagram/ui/widget/trianglespinner/TriangleSpinner;
 
     iput-object v15, v7, LX/FoQ;->A1Y:Lcom/instagram/ui/widget/trianglespinner/TriangleSpinner;
 
-    .line 2004876
+    .line 2004897
     iget-object v12, v7, LX/FoQ;->A1M:Landroid/widget/SpinnerAdapter;
 
     invoke-virtual {v15, v12}, Landroid/widget/AbsSpinner;->setAdapter(Landroid/widget/SpinnerAdapter;)V
 
-    .line 2004877
+    .line 2004898
     iget-object v15, v7, LX/FoQ;->A1Y:Lcom/instagram/ui/widget/trianglespinner/TriangleSpinner;
 
     const/4 v12, 0x4
 
-    .line 2004878
+    .line 2004899
     invoke-static {v15, v12, v7}, LX/FnC;->A0w(Landroid/view/View;ILjava/lang/Object;)V
 
-    .line 2004879
+    .line 2004900
     iget-object v15, v7, LX/FoQ;->A1Y:Lcom/instagram/ui/widget/trianglespinner/TriangleSpinner;
 
     new-instance v12, Lcom/facebook/redex/IDxSBuilderShape635S0100000_5_I1;
 
     invoke-direct {v12, v7, v3}, Lcom/facebook/redex/IDxSBuilderShape635S0100000_5_I1;-><init>(Ljava/lang/Object;I)V
 
-    .line 2004880
+    .line 2004901
     iput-object v12, v15, Lcom/instagram/ui/widget/trianglespinner/TriangleSpinner;->A00:LX/8zl;
 
-    .line 2004881
+    .line 2004902
     iget-object v12, v7, LX/FoQ;->A14:Lcom/instagram/service/session/UserSession;
 
-    .line 2004882
+    .line 2004903
     invoke-static {v8, v12, v1, v2}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v1
 
-    .line 2004883
+    .line 2004904
     if-eqz v1, :cond_9
 
-    .line 2004884
+    .line 2004905
     new-instance v1, LX/I3I;
 
     invoke-direct {v1, v7}, LX/I3I;-><init>(LX/FoQ;)V
 
     invoke-virtual {v7, v1}, LX/FoQ;->A0a(LX/IkZ;)V
 
-    .line 2004885
+    .line 2004906
     :cond_9
     iget-object v1, v7, LX/FoQ;->A0w:Lcom/instagram/creation/base/CreationSession;
 
-    .line 2004886
+    .line 2004907
     iget-object v1, v1, Lcom/instagram/creation/base/CreationSession;->A09:Lcom/instagram/model/creation/MediaCaptureConfig;
 
     if-eqz v1, :cond_e
 
-    .line 2004887
+    .line 2004908
     iget-object v1, v1, Lcom/instagram/model/creation/MediaCaptureConfig;->A00:Lcom/instagram/music/common/config/MusicAttributionConfig;
 
-    .line 2004888
+    .line 2004909
     if-eqz v1, :cond_e
 
-    .line 2004889
+    .line 2004910
     :cond_a
     :goto_1
     iget-object v1, v7, LX/FoQ;->A0w:Lcom/instagram/creation/base/CreationSession;
 
-    .line 2004890
+    .line 2004911
     iget-object v1, v1, Lcom/instagram/creation/base/CreationSession;->A09:Lcom/instagram/model/creation/MediaCaptureConfig;
 
     if-eqz v1, :cond_d
 
-    .line 2004891
+    .line 2004912
     iget-object v1, v1, Lcom/instagram/model/creation/MediaCaptureConfig;->A00:Lcom/instagram/music/common/config/MusicAttributionConfig;
 
-    .line 2004892
+    .line 2004913
     if-eqz v1, :cond_d
 
-    .line 2004893
+    .line 2004914
     :cond_b
     :goto_2
     new-instance v1, LX/37B;
@@ -1113,137 +1113,137 @@
 
     iput-object v1, v7, LX/FoQ;->A15:LX/37B;
 
-    .line 2004894
+    .line 2004915
     new-instance v2, LX/Foj;
 
     invoke-direct {v2}, LX/Foj;-><init>()V
 
     iput-object v2, v7, LX/FoQ;->A1X:LX/Foj;
 
-    .line 2004895
+    .line 2004916
     iput-object v9, v2, LX/Foj;->A02:Landroidx/fragment/app/FragmentActivity;
 
-    .line 2004896
+    .line 2004917
     iput-object v7, v2, LX/Foj;->A03:LX/Inp;
 
-    .line 2004897
+    .line 2004918
     iget-object v1, v7, LX/FoQ;->A13:Lcom/instagram/creation/photo/crop/CropImageView;
 
     iput-object v1, v2, LX/Foj;->A04:Lcom/instagram/creation/photo/crop/CropImageView;
 
-    .line 2004898
+    .line 2004919
     iget-object v1, v7, LX/FoQ;->A14:Lcom/instagram/service/session/UserSession;
 
-    .line 2004899
+    .line 2004920
     invoke-static {v1}, LX/FoS;->A00(Lcom/instagram/service/session/UserSession;)LX/FoS;
 
     move-result-object v1
 
-    .line 2004900
+    .line 2004921
     iget-object v1, v1, LX/FoS;->A02:Ljava/util/Map;
 
-    .line 2004901
+    .line 2004922
     iput-object v1, v7, LX/FoQ;->A1C:Ljava/util/Map;
 
-    .line 2004902
+    .line 2004923
     const v1, 0x7f0a3301
 
-    .line 2004903
+    .line 2004924
     invoke-virtual {v7, v1}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    .line 2004904
+    .line 2004925
     iput-object v1, v7, LX/FoQ;->A0n:Landroid/view/View;
 
-    .line 2004905
+    .line 2004926
     const v1, 0x7f0a3302
 
-    .line 2004906
+    .line 2004927
     invoke-virtual {v7, v1}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    .line 2004907
+    .line 2004928
     check-cast v2, Lcom/instagram/creation/capture/video/view/IgCaptureVideoPreviewView;
 
     iput-object v2, v7, LX/FoQ;->A11:Lcom/instagram/creation/capture/video/view/IgCaptureVideoPreviewView;
 
-    .line 2004908
+    .line 2004929
     iget-object v1, v7, LX/FoQ;->A0w:Lcom/instagram/creation/base/CreationSession;
 
-    .line 2004909
+    .line 2004930
     iput-object v1, v2, Lcom/instagram/creation/capture/video/view/IgCaptureVideoPreviewView;->A01:Lcom/instagram/creation/base/CreationSession;
 
-    .line 2004910
+    .line 2004931
     invoke-static {v2, v14, v7}, LX/92q;->A18(Landroid/view/View;ILjava/lang/Object;)V
 
-    .line 2004911
+    .line 2004932
     iget-object v2, v7, LX/FoQ;->A11:Lcom/instagram/creation/capture/video/view/IgCaptureVideoPreviewView;
 
     const/high16 v1, 0x3f100000    # 0.5625f
 
-    .line 2004912
+    .line 2004933
     iput v1, v2, Lcom/instagram/creation/capture/video/view/IgCaptureVideoPreviewView;->A00:F
 
-    .line 2004913
+    .line 2004934
     const v1, 0x7f0a0ea2
 
-    .line 2004914
+    .line 2004935
     invoke-static {v7, v1}, LX/5Wd;->A0L(Landroid/view/View;I)Landroid/widget/ImageView;
 
     move-result-object v1
 
-    .line 2004915
+    .line 2004936
     iput-object v1, v7, LX/FoQ;->A0r:Landroid/widget/ImageView;
 
-    .line 2004916
+    .line 2004937
     const v1, 0x7f0a0ea5
 
-    .line 2004917
+    .line 2004938
     invoke-virtual {v7, v1}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    .line 2004918
+    .line 2004939
     check-cast v1, Landroid/widget/FrameLayout;
 
     iput-object v1, v7, LX/FoQ;->A0q:Landroid/widget/FrameLayout;
 
-    .line 2004919
+    .line 2004940
     const v1, 0x7f0a2181
 
-    .line 2004920
+    .line 2004941
     invoke-static {v7, v1}, LX/92m;->A09(Landroid/view/View;I)Landroid/view/ViewGroup;
 
     move-result-object v1
 
-    .line 2004921
+    .line 2004942
     iput-object v1, v7, LX/FoQ;->A0o:Landroid/view/ViewGroup;
 
-    .line 2004922
+    .line 2004943
     invoke-static {}, LX/5We;->A0C()Landroid/os/Handler;
 
     move-result-object v1
 
-    .line 2004923
+    .line 2004944
     iput-object v1, v7, LX/FoQ;->A0m:Landroid/os/Handler;
 
-    .line 2004924
+    .line 2004945
     new-instance v1, LX/94V;
 
     invoke-direct {v1, v7}, LX/94V;-><init>(LX/FoQ;)V
 
     iput-object v1, v7, LX/FoQ;->A18:Ljava/lang/Runnable;
 
-    .line 2004925
+    .line 2004946
     new-instance v1, LX/94W;
 
     invoke-direct {v1, v7}, LX/94W;-><init>(LX/FoQ;)V
 
     iput-object v1, v7, LX/FoQ;->A19:Ljava/lang/Runnable;
 
-    .line 2004926
+    .line 2004947
     iget-object v1, v7, LX/FoQ;->A14:Lcom/instagram/service/session/UserSession;
 
     new-instance v2, LX/FoB;
@@ -1264,7 +1264,7 @@
 
     iput-object v2, v7, LX/FoQ;->A0F:LX/FoB;
 
-    .line 2004927
+    .line 2004948
     new-instance v1, LX/FoA;
 
     move-object/from16 v17, v1
@@ -1279,87 +1279,87 @@
 
     iput-object v1, v7, LX/FoQ;->A0E:LX/FoA;
 
-    .line 2004928
+    .line 2004949
     iput-object v1, v2, LX/FoB;->A04:LX/4uq;
 
-    .line 2004929
+    .line 2004950
     const v1, 0x7f0a0b85
 
-    .line 2004930
+    .line 2004951
     invoke-static {v7, v1}, LX/5Wd;->A0K(Landroid/view/View;I)Landroid/view/ViewStub;
 
     move-result-object v2
 
-    .line 2004931
+    .line 2004952
     new-instance v1, LX/Fok;
 
     invoke-direct {v1, v2}, LX/Fok;-><init>(Landroid/view/ViewStub;)V
 
     iput-object v1, v7, LX/FoQ;->A0y:LX/Fok;
 
-    .line 2004932
+    .line 2004953
     iget-object v1, v7, LX/FoQ;->A14:Lcom/instagram/service/session/UserSession;
 
-    .line 2004933
+    .line 2004954
     invoke-static {v1}, LX/FoS;->A00(Lcom/instagram/service/session/UserSession;)LX/FoS;
 
     move-result-object v1
 
-    .line 2004934
+    .line 2004955
     iget v1, v1, LX/FoS;->A00:F
 
-    .line 2004935
+    .line 2004956
     iput v1, v7, LX/FoQ;->A03:F
 
-    .line 2004936
+    .line 2004957
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v1
 
-    .line 2004937
+    .line 2004958
     iput-object v1, v7, LX/FoQ;->A1B:Ljava/util/Map;
 
-    .line 2004938
+    .line 2004959
     iget-boolean v1, v7, LX/FoQ;->A1E:Z
 
     if-eqz v1, :cond_11
 
-    .line 2004939
+    .line 2004960
     iget-object v2, v7, LX/FoQ;->A0w:Lcom/instagram/creation/base/CreationSession;
 
-    .line 2004940
+    .line 2004961
     iget-object v1, v2, Lcom/instagram/creation/base/CreationSession;->A0C:Ljava/lang/String;
 
-    .line 2004941
+    .line 2004962
     if-eqz v1, :cond_11
 
-    .line 2004942
+    .line 2004963
     move-object v11, v4
 
     check-cast v11, LX/Io2;
 
-    .line 2004943
+    .line 2004964
     invoke-interface {v11, v1}, LX/Io2;->B2t(Ljava/lang/String;)Lcom/instagram/pendingmedia/model/PendingMedia;
 
     move-result-object v10
 
     if-eqz v10, :cond_11
 
-    .line 2004944
+    .line 2004965
     iget-boolean v1, v10, Lcom/instagram/pendingmedia/model/PendingMedia;->A47:Z
 
-    .line 2004945
+    .line 2004966
     if-eqz v1, :cond_11
 
-    .line 2004946
+    .line 2004967
     iget-object v1, v2, Lcom/instagram/creation/base/CreationSession;->A0F:Ljava/util/List;
 
-    .line 2004947
+    .line 2004968
     invoke-static {v1}, LX/Chd;->A0i(Ljava/util/List;)Ljava/util/Iterator;
 
     move-result-object v12
 
-    .line 2004948
+    .line 2004969
     :cond_c
     :goto_3
     invoke-interface {v12}, Ljava/util/Iterator;->hasNext()Z
@@ -1374,14 +1374,14 @@
 
     check-cast v1, Lcom/instagram/creation/base/MediaSession;
 
-    .line 2004949
+    .line 2004970
     invoke-interface {v1}, Lcom/instagram/creation/base/MediaSession;->B2v()Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_c
 
-    .line 2004950
+    .line 2004971
     invoke-virtual {v10}, Lcom/instagram/pendingmedia/model/PendingMedia;->A0O()Ljava/util/List;
 
     move-result-object v1
@@ -1392,39 +1392,39 @@
 
     if-eqz v1, :cond_c
 
-    .line 2004951
+    .line 2004972
     invoke-interface {v11, v2}, LX/Io2;->B2t(Ljava/lang/String;)Lcom/instagram/pendingmedia/model/PendingMedia;
 
     move-result-object v8
 
     invoke-static {v8}, LX/0yH;->A08(Ljava/lang/Object;)V
 
-    .line 2004952
+    .line 2004973
     iget-object v2, v7, LX/FoQ;->A1B:Ljava/util/Map;
 
-    .line 2004953
+    .line 2004974
     iget-object v1, v8, Lcom/instagram/pendingmedia/model/PendingMedia;->A2L:Ljava/lang/String;
 
-    .line 2004954
+    .line 2004975
     invoke-interface {v2, v1, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2004955
+    .line 2004976
     iget-object v2, v8, Lcom/instagram/pendingmedia/model/PendingMedia;->A0y:LX/3BK;
 
-    .line 2004956
+    .line 2004977
     sget-object v1, LX/3BK;->A0K:LX/3BK;
 
     if-ne v2, v1, :cond_c
 
-    .line 2004957
+    .line 2004978
     iget-object v1, v8, Lcom/instagram/pendingmedia/model/PendingMedia;->A2L:Ljava/lang/String;
 
-    .line 2004958
+    .line 2004979
     invoke-direct {v7, v8, v1}, LX/FoQ;->A0Q(Lcom/instagram/pendingmedia/model/PendingMedia;Ljava/lang/String;)V
 
     goto :goto_3
 
-    .line 2004959
+    .line 2004980
     :cond_d
     invoke-direct {v7}, LX/FoQ;->getDrafts()Ljava/util/List;
 
@@ -1436,12 +1436,12 @@
 
     if-lez v1, :cond_b
 
-    .line 2004960
+    .line 2004981
     invoke-direct {v7, v10}, LX/FoQ;->setFolderMenuClickInterceptListener(Landroid/content/Context;)V
 
     goto/16 :goto_2
 
-    .line 2004961
+    .line 2004982
     :cond_e
     invoke-direct {v7}, LX/FoQ;->getDrafts()Ljava/util/List;
 
@@ -1453,17 +1453,17 @@
 
     if-lez v1, :cond_a
 
-    .line 2004962
+    .line 2004983
     iget-object v1, v7, LX/FoQ;->A0u:Lcom/instagram/common/ui/base/IgTextView;
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2004963
+    .line 2004984
     iget-object v1, v7, LX/FoQ;->A0u:Lcom/instagram/common/ui/base/IgTextView;
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setSelected(Z)V
 
-    .line 2004964
+    .line 2004985
     iget-object v8, v7, LX/FoQ;->A0u:Lcom/instagram/common/ui/base/IgTextView;
 
     const/4 v2, 0x5
@@ -1476,7 +1476,7 @@
 
     goto/16 :goto_1
 
-    .line 2004965
+    .line 2004986
     :cond_f
     invoke-virtual {v7}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
@@ -1488,43 +1488,43 @@
 
     goto/16 :goto_0
 
-    .line 2004966
+    .line 2004987
     :cond_10
     iput-object v0, v7, LX/FoQ;->A1L:Landroid/widget/LinearLayout;
 
-    .line 2004967
+    .line 2004988
     iput-object v0, v7, LX/FoQ;->A1M:Landroid/widget/SpinnerAdapter;
 
-    .line 2004968
+    .line 2004989
     iput-object v0, v7, LX/FoQ;->A1Y:Lcom/instagram/ui/widget/trianglespinner/TriangleSpinner;
 
-    .line 2004969
+    .line 2004990
     const v1, 0x7f0a1cfd
 
-    .line 2004970
+    .line 2004991
     invoke-virtual {v7, v1}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    .line 2004971
+    .line 2004992
     check-cast v1, Lcom/instagram/ui/widget/slideouticon/SlideInAndOutIconView;
 
     iput-object v1, v7, LX/FoQ;->A17:Lcom/instagram/ui/widget/slideouticon/SlideInAndOutIconView;
 
-    .line 2004972
+    .line 2004993
     const v1, 0x7f0a2abb
 
-    .line 2004973
+    .line 2004994
     invoke-static {v7, v1}, LX/5Wd;->A0K(Landroid/view/View;I)Landroid/view/ViewStub;
 
     move-result-object v1
 
-    .line 2004974
+    .line 2004995
     iput-object v1, v7, LX/FoQ;->A0p:Landroid/view/ViewStub;
 
     goto/16 :goto_2
 
-    .line 2004975
+    .line 2004996
     :cond_11
     sget-object v1, LX/4WD;->A00:Landroid/content/SharedPreferences;
 
@@ -1536,38 +1536,38 @@
 
     move-result-object v1
 
-    .line 2004976
+    .line 2004997
     invoke-static {v1}, LX/09U;->A01(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v1
 
     sput-object v1, LX/4WD;->A00:Landroid/content/SharedPreferences;
 
-    .line 2004977
+    .line 2004998
     :cond_12
     iget-object v12, v7, LX/FoQ;->A14:Lcom/instagram/service/session/UserSession;
 
-    .line 2004978
+    .line 2004999
     invoke-static {v9}, LX/05o;->A00(LX/05g;)LX/05o;
 
     move-result-object v18
 
-    .line 2004979
+    .line 2005000
     iget-object v11, v7, LX/FoQ;->A0w:Lcom/instagram/creation/base/CreationSession;
 
     iget-object v10, v7, LX/FoQ;->A05:LX/1he;
 
-    .line 2004980
+    .line 2005001
     instance-of v1, v4, LX/Io2;
 
     if-eqz v1, :cond_17
 
-    .line 2004981
+    .line 2005002
     move-object v8, v4
 
     check-cast v8, LX/Io2;
 
-    .line 2004982
+    .line 2005003
     :goto_4
     instance-of v1, v4, LX/Iuv;
 
@@ -1577,20 +1577,20 @@
 
     check-cast v0, LX/Iuv;
 
-    .line 2004983
+    .line 2005004
     :cond_13
     instance-of v1, v4, LX/IiR;
 
     if-eqz v1, :cond_14
 
-    .line 2004984
+    .line 2005005
     move-object v1, v4
 
     check-cast v1, LX/IiR;
 
     move-object/from16 v16, v1
 
-    .line 2004985
+    .line 2005006
     :cond_14
     iget-object v2, v7, LX/FoQ;->A0y:LX/Fok;
 
@@ -1618,12 +1618,12 @@
 
     iput-object v1, v7, LX/FoQ;->A1W:LX/Fol;
 
-    .line 2004986
+    .line 2005007
     move-object/from16 v0, v29
 
     invoke-direct {v7, v9, v0}, LX/FoQ;->setupDestinationSwitchViewModel(Landroidx/fragment/app/FragmentActivity;LX/1dt;)V
 
-    .line 2004987
+    .line 2005008
     invoke-static {}, LX/1Q4;->A00()LX/2qk;
 
     move-result-object v0
@@ -1638,26 +1638,26 @@
 
     iget-object v0, v7, LX/FoQ;->A0w:Lcom/instagram/creation/base/CreationSession;
 
-    .line 2004988
+    .line 2005009
     iget-object v0, v0, Lcom/instagram/creation/base/CreationSession;->A0A:LX/276;
 
-    .line 2004989
+    .line 2005010
     if-eq v0, v13, :cond_15
 
-    .line 2004990
+    .line 2005011
     sget-object v2, LX/0Sq;->A06:LX/0Sq;
 
     const-wide v0, 0x8106f800010d0dL
 
-    .line 2004991
+    .line 2005012
     invoke-static {v2, v8, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v0
 
-    .line 2004992
+    .line 2005013
     if-eqz v0, :cond_15
 
-    .line 2004993
+    .line 2005014
     iget-object v0, v7, LX/FoQ;->A0p:Landroid/view/ViewStub;
 
     invoke-virtual {v0}, Landroid/view/ViewStub;->inflate()Landroid/view/View;
@@ -1666,73 +1666,73 @@
 
     check-cast v1, Lcom/instagram/ui/widget/slideouticon/SlideInAndOutIconView;
 
-    .line 2004994
+    .line 2005015
     const v0, 0x7f08083e
 
-    .line 2004995
+    .line 2005016
     invoke-virtual {v4, v0}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    .line 2004996
+    .line 2005017
     invoke-virtual {v1, v0}, Lcom/instagram/ui/widget/slideouticon/SlideInAndOutIconView;->setIcon(Landroid/graphics/drawable/Drawable;)V
 
     const/high16 v0, 0x3f400000    # 0.75f
 
-    .line 2004997
+    .line 2005018
     invoke-virtual {v1, v0}, Lcom/instagram/ui/widget/slideouticon/SlideInAndOutIconView;->setIconScale(F)V
 
-    .line 2004998
+    .line 2005019
     const v0, 0x7f0601ac
 
-    .line 2004999
+    .line 2005020
     invoke-virtual {v4, v0}, Landroid/content/Context;->getColor(I)I
 
     move-result v0
 
-    .line 2005000
+    .line 2005021
     invoke-virtual {v1, v0}, Lcom/instagram/ui/widget/slideouticon/SlideInAndOutIconView;->setIconColor(I)V
 
-    .line 2005001
+    .line 2005022
     sget-object v0, LX/2Or;->A02:LX/2Or;
 
-    .line 2005002
+    .line 2005023
     iput-object v0, v1, Lcom/instagram/ui/widget/slideouticon/SlideInAndOutIconView;->A03:LX/2Or;
 
-    .line 2005003
+    .line 2005024
     const v0, 0x7f06016e
 
-    .line 2005004
+    .line 2005025
     invoke-virtual {v4, v0}, Landroid/content/Context;->getColor(I)I
 
     move-result v0
 
-    .line 2005005
+    .line 2005026
     invoke-virtual {v1, v0, v0}, Lcom/instagram/ui/widget/slideouticon/SlideInAndOutIconView;->A02(II)V
 
-    .line 2005006
+    .line 2005027
     new-instance v0, Lcom/facebook/redex/AnonCListenerShape23S0200000_I1_11;
 
     invoke-direct {v0, v6, v4, v7}, Lcom/facebook/redex/AnonCListenerShape23S0200000_I1_11;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2005007
+    .line 2005028
     invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2005008
+    .line 2005029
     iget-object v4, v7, LX/FoQ;->A0m:Landroid/os/Handler;
 
     iget-object v2, v7, LX/FoQ;->A19:Ljava/lang/Runnable;
 
     invoke-virtual {v4, v2}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 2005009
+    .line 2005030
     const-wide/16 v0, 0x1f4
 
     invoke-virtual {v4, v2, v0, v1}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 2005010
+    .line 2005031
     :cond_15
     iget-object v9, v7, LX/FoQ;->A14:Lcom/instagram/service/session/UserSession;
 
@@ -1742,41 +1742,41 @@
 
     if-nez v0, :cond_18
 
-    .line 2005011
+    .line 2005032
     invoke-static {v9, v3}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2005012
+    .line 2005033
     invoke-static {v9}, LX/4up;->A07(LX/0SF;)Z
 
     move-result v0
 
     if-eqz v0, :cond_16
 
-    .line 2005013
+    .line 2005034
     sget-object v2, LX/0Sq;->A06:LX/0Sq;
 
-    .line 2005014
+    .line 2005035
     const-wide v0, 0x810bb0000217e9L
 
-    .line 2005015
+    .line 2005036
     invoke-static {v2, v9, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v0
 
-    .line 2005016
+    .line 2005037
     if-nez v0, :cond_18
 
-    .line 2005017
+    .line 2005038
     :cond_16
     return-void
 
-    .line 2005018
+    .line 2005039
     :cond_17
     move-object v8, v0
 
     goto/16 :goto_4
 
-    .line 2005019
+    .line 2005040
     :cond_18
     iget-object v8, v7, LX/FoQ;->A06:LX/1dt;
 
@@ -1788,34 +1788,34 @@
 
     invoke-static {v8, v5}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2005020
+    .line 2005041
     invoke-static {v9}, LX/92o;->A0M(LX/0SF;)LX/19z;
 
     move-result-object v2
 
-    .line 2005021
+    .line 2005042
     const/16 v0, 0x2ac
 
     invoke-static {v0}, LX/92j;->A00(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2005022
+    .line 2005043
     invoke-virtual {v2, v0}, LX/19z;->A0G(Ljava/lang/String;)V
 
     const-class v1, LX/98D;
 
     const-class v0, LX/98C;
 
-    .line 2005023
+    .line 2005044
     invoke-static {v2, v1, v0}, LX/92l;->A0P(LX/19z;Ljava/lang/Class;Ljava/lang/Class;)LX/1HO;
 
     move-result-object v0
 
-    .line 2005024
+    .line 2005045
     iput-object v4, v0, LX/1HO;->A00:LX/3GE;
 
-    .line 2005025
+    .line 2005046
     invoke-interface {v8, v0}, LX/10z;->schedule(LX/113;)V
 
     return-void
@@ -12476,7 +12476,7 @@
 
     .line 27
     .line 28
-    invoke-static {v0, v2}, LX/Chf;->A1C(LX/0AP;LX/0AX;)V
+    invoke-static {v0, v2}, LX/Chf;->A1D(LX/0AP;LX/0AX;)V
 
     .line 29
     .line 30

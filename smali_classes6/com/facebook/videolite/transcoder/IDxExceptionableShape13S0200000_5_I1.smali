@@ -17,36 +17,36 @@
 
     const/4 v0, 0x4
 
-    .line 2442618
+    .line 2442639
     iput v0, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A02:I
 
-    .line 2442619
+    .line 2442640
     iput-object p1, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A00:Ljava/lang/Object;
 
     iput-object p2, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A01:Ljava/lang/Object;
 
-    .line 2442620
+    .line 2442641
     invoke-direct {p0, p1}, LX/HS9;-><init>(LX/Fs4;)V
 
-    .line 2442621
+    .line 2442642
     return-void
 .end method
 
 .method public constructor <init>(LX/Fs4;LX/Fxo;I)V
     .locals 0
 
-    .line 2442594
+    .line 2442615
     iput p3, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A02:I
 
-    .line 2442595
+    .line 2442616
     iput-object p1, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A00:Ljava/lang/Object;
 
     iput-object p2, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A01:Ljava/lang/Object;
 
-    .line 2442596
+    .line 2442617
     invoke-direct {p0, p1}, LX/HS9;-><init>(LX/Fs4;)V
 
-    .line 2442597
+    .line 2442618
     return-void
 .end method
 
@@ -55,36 +55,36 @@
 
     const/16 v0, 0xc
 
-    .line 2442602
+    .line 2442623
     iput v0, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A02:I
 
-    .line 2442603
+    .line 2442624
     iput-object p1, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A00:Ljava/lang/Object;
 
     iput-object p2, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A01:Ljava/lang/Object;
 
-    .line 2442604
+    .line 2442625
     invoke-direct {p0, p1}, LX/HS9;-><init>(LX/Fs4;)V
 
-    .line 2442605
+    .line 2442626
     return-void
 .end method
 
 .method public constructor <init>(LX/Fs4;LX/IpH;I)V
     .locals 0
 
-    .line 2442598
+    .line 2442619
     iput p3, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A02:I
 
-    .line 2442599
+    .line 2442620
     iput-object p1, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A00:Ljava/lang/Object;
 
     iput-object p2, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A01:Ljava/lang/Object;
 
-    .line 2442600
+    .line 2442621
     invoke-direct {p0, p1}, LX/HS9;-><init>(LX/Fs4;)V
 
-    .line 2442601
+    .line 2442622
     return-void
 .end method
 
@@ -93,18 +93,18 @@
 
     const/16 v0, 0x9
 
-    .line 2442606
+    .line 2442627
     iput v0, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A02:I
 
-    .line 2442607
+    .line 2442628
     iput-object p1, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A00:Ljava/lang/Object;
 
     iput-object p2, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A01:Ljava/lang/Object;
 
-    .line 2442608
+    .line 2442629
     invoke-direct {p0, p1}, LX/HS9;-><init>(LX/Fs4;)V
 
-    .line 2442609
+    .line 2442630
     return-void
 .end method
 
@@ -113,18 +113,18 @@
 
     const/4 v0, 0x7
 
-    .line 2442622
+    .line 2442643
     iput v0, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A02:I
 
-    .line 2442623
+    .line 2442644
     iput-object p1, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A00:Ljava/lang/Object;
 
     iput-object p2, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A01:Ljava/lang/Object;
 
-    .line 2442624
+    .line 2442645
     invoke-direct {p0, p1}, LX/HS9;-><init>(LX/Fs4;)V
 
-    .line 2442625
+    .line 2442646
     return-void
 .end method
 
@@ -133,18 +133,18 @@
 
     const/16 v0, 0x8
 
-    .line 2442610
+    .line 2442631
     iput v0, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A02:I
 
-    .line 2442611
+    .line 2442632
     iput-object p1, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A00:Ljava/lang/Object;
 
     iput-object p2, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A01:Ljava/lang/Object;
 
-    .line 2442612
+    .line 2442633
     invoke-direct {p0, p1}, LX/HS9;-><init>(LX/Fs4;)V
 
-    .line 2442613
+    .line 2442634
     return-void
 .end method
 
@@ -153,18 +153,18 @@
 
     const/16 v0, 0xb
 
-    .line 2442614
+    .line 2442635
     iput v0, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A02:I
 
-    .line 2442615
+    .line 2442636
     iput-object p1, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A00:Ljava/lang/Object;
 
     iput-object p2, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A01:Ljava/lang/Object;
 
-    .line 2442616
+    .line 2442637
     invoke-direct {p0, p1}, LX/HS9;-><init>(LX/Fs4;)V
 
-    .line 2442617
+    .line 2442638
     return-void
 .end method
 
@@ -173,36 +173,36 @@
 
     const/4 v0, 0x5
 
-    .line 2442626
+    .line 2442647
     iput v0, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A02:I
 
-    .line 2442627
+    .line 2442648
     iput-object p1, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A00:Ljava/lang/Object;
 
     iput-object p2, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A01:Ljava/lang/Object;
 
-    .line 2442628
+    .line 2442649
     invoke-direct {p0, p1}, LX/HS9;-><init>(LX/Fs4;)V
 
-    .line 2442629
+    .line 2442650
     return-void
 .end method
 
 .method public constructor <init>(Landroid/media/MediaCodec;LX/Fs4;I)V
     .locals 0
 
-    .line 2442590
+    .line 2442611
     iput p3, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A02:I
 
-    .line 2442591
+    .line 2442612
     iput-object p2, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A00:Ljava/lang/Object;
 
     iput-object p1, p0, Lcom/facebook/videolite/transcoder/IDxExceptionableShape13S0200000_5_I1;->A01:Ljava/lang/Object;
 
-    .line 2442592
+    .line 2442613
     invoke-direct {p0, p2}, LX/HS9;-><init>(LX/Fs4;)V
 
-    .line 2442593
+    .line 2442614
     return-void
 .end method
 

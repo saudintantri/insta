@@ -208,7 +208,7 @@
 
     .line 15
     .line 16
-    const v0, 0x7f070105
+    const v0, 0x7f070103
 
     .line 17
     .line 18
@@ -221,7 +221,7 @@
     move-result v4
 
     .line 23
-    const v0, 0x7f0700f6
+    const v0, 0x7f070031
 
     .line 24
     .line 25

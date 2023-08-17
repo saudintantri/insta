@@ -415,7 +415,7 @@
 
     .line 162
     .line 163
-    invoke-static {v10}, LX/Chf;->A0I(Landroid/content/Context;)Landroid/graphics/Typeface;
+    invoke-static {v10}, LX/Chf;->A0J(Landroid/content/Context;)Landroid/graphics/Typeface;
 
     .line 164
     .line 165

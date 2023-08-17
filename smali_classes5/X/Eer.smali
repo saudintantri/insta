@@ -344,30 +344,30 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 1344175542
+    .line 1344175563
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 1344175543
+    .line 1344175564
     iput v0, p0, LX/Eer;->A01:I
 
-    .line 1344175544
+    .line 1344175565
     iput-object p2, p0, LX/Eer;->A03:Ljava/lang/String;
 
-    .line 1344175545
+    .line 1344175566
     iput-object p1, p0, LX/Eer;->A07:Landroid/view/View$OnClickListener;
 
-    .line 1344175546
+    .line 1344175567
     iput p3, p0, LX/Eer;->A05:I
 
-    .line 1344175547
+    .line 1344175568
     iput v1, p0, LX/Eer;->A04:F
 
-    .line 1344175548
+    .line 1344175569
     iput p4, p0, LX/Eer;->A00:I
 
-    .line 1344175549
+    .line 1344175570
     iput p5, p0, LX/Eer;->A06:I
 
     return-void

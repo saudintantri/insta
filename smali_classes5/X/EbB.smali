@@ -368,7 +368,7 @@
     .locals 5
 
     .line 0
-    invoke-static {p1}, LX/Chf;->A0n(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
+    invoke-static {p1}, LX/Chf;->A0p(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     .line 1
     .line 2
@@ -868,7 +868,7 @@
 
     .line 85
     .line 86
-    invoke-static {v10}, LX/Chf;->A0n(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
+    invoke-static {v10}, LX/Chf;->A0p(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     .line 87
     .line 88

@@ -163,7 +163,6 @@
     invoke-virtual {v1, v0}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
-    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_3
 
     .line 65
     .line 66
@@ -213,7 +212,6 @@
     monitor-enter v2
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_3
 
     .line 88
     :try_start_5
@@ -245,7 +243,6 @@
     if-lez v0, :cond_3
     :try_end_6
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_3
 
     .line 99
     .line 100
@@ -301,7 +298,6 @@
     throw v0
     :try_end_a
     .catch Ljava/lang/Exception; {:try_start_a .. :try_end_a} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_a .. :try_end_a} :catch_3
 
     .line 117
     :catch_1

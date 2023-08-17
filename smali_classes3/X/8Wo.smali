@@ -67,7 +67,7 @@
     move-result-object v1
 
     .line 18
-    const v0, 0x7f0701d0
+    const v0, 0x7f0701c7
 
     .line 19
     .line 20
@@ -83,7 +83,7 @@
     int-to-float v5, v0
 
     .line 26
-    const v0, 0x7f0701ce
+    const v0, 0x7f0701c5
 
     .line 27
     .line 28
@@ -115,7 +115,7 @@
     int-to-float v7, v0
 
     .line 42
-    const v0, 0x7f0701cf
+    const v0, 0x7f0701c6
 
     .line 43
     .line 44

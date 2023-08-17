@@ -262,7 +262,7 @@
     move-result-object v0
 
     .line 32
-    invoke-static {v0}, LX/Chf;->A0N(Landroid/view/View;)Landroid/view/ViewPropertyAnimator;
+    invoke-static {v0}, LX/Chf;->A0O(Landroid/view/View;)Landroid/view/ViewPropertyAnimator;
 
     .line 33
     .line 34

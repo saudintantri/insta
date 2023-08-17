@@ -422,7 +422,7 @@
 
     .line 23
     .line 24
-    invoke-static {p0, v2, v0}, LX/Chg;->A0B(Landroidx/fragment/app/Fragment;LX/05m;Lcom/instagram/service/session/UserSession;)LX/3Ib;
+    invoke-static {p0, v2, v0}, LX/Chg;->A0A(Landroidx/fragment/app/Fragment;LX/05m;Lcom/instagram/service/session/UserSession;)LX/3Ib;
 
     .line 25
     .line 26
@@ -933,7 +933,7 @@
     move-result-object v1
 
     .line 133
-    const v0, 0x7f0700bc
+    const v0, 0x7f0700bb
 
     .line 134
     .line 135

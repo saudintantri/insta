@@ -87,14 +87,14 @@
 
     and-int/lit8 v0, p21, 0x10
 
-    .line 1667813
+    .line 1667811
     move/from16 v1, p22
 
     invoke-static {v0, v1}, LX/Chc;->A1a(IZ)Z
 
     move-result v1
 
-    .line 1667814
+    .line 1667812
     and-int/lit8 v0, p21, 0x20
 
     const/16 v16, 0x0
@@ -131,7 +131,7 @@
 
     move-object/from16 v14, v16
 
-    .line 1667815
+    .line 1667813
     :cond_4
     and-int/lit16 v0, v13, 0x800
 
@@ -223,90 +223,90 @@
 
     move-object/from16 v12, v16
 
-    .line 1667816
+    .line 1667814
     :cond_f
     move-object/from16 v13, p0
 
     invoke-direct {v13}, LX/0SY;-><init>()V
 
-    .line 1667817
+    .line 1667815
     move-object/from16 v0, p10
 
     iput-object v0, v13, LX/DB8;->A0E:Ljava/lang/String;
 
-    .line 1667818
+    .line 1667816
     move-object/from16 v0, p9
 
     iput-object v0, v13, LX/DB8;->A09:Ljava/lang/Integer;
 
-    .line 1667819
+    .line 1667817
     move-object/from16 v0, p15
 
     iput-object v0, v13, LX/DB8;->A0G:Ljava/util/List;
 
-    .line 1667820
+    .line 1667818
     move/from16 v0, p20
 
     iput v0, v13, LX/DB8;->A00:I
 
-    .line 1667821
+    .line 1667819
     iput-boolean v1, v13, LX/DB8;->A0K:Z
 
-    .line 1667822
+    .line 1667820
     iput-object v5, v13, LX/DB8;->A0J:Ljava/util/List;
 
-    .line 1667823
+    .line 1667821
     iput-object v15, v13, LX/DB8;->A06:LX/1OO;
 
-    .line 1667824
+    .line 1667822
     iput-object v9, v13, LX/DB8;->A0C:Ljava/lang/String;
 
-    .line 1667825
+    .line 1667823
     iput-object v4, v13, LX/DB8;->A0F:Ljava/util/List;
 
-    .line 1667826
+    .line 1667824
     iput-object v14, v13, LX/DB8;->A07:Lcom/instagram/model/hashtag/Hashtag;
 
-    .line 1667827
+    .line 1667825
     iput-object v8, v13, LX/DB8;->A0D:Ljava/lang/String;
 
-    .line 1667828
+    .line 1667826
     iput-object v3, v13, LX/DB8;->A0H:Ljava/util/List;
 
-    .line 1667829
+    .line 1667827
     iput-object v10, v13, LX/DB8;->A08:Lcom/instagram/music/common/model/AudioOverlayTrack;
 
-    .line 1667830
+    .line 1667828
     iput-object v2, v13, LX/DB8;->A0I:Ljava/util/List;
 
-    .line 1667831
+    .line 1667829
     iput-object v7, v13, LX/DB8;->A0B:Ljava/lang/String;
 
-    .line 1667832
+    .line 1667830
     iput-object v6, v13, LX/DB8;->A0A:Ljava/lang/String;
 
-    .line 1667833
+    .line 1667831
     move-object/from16 v0, v19
 
     iput-object v0, v13, LX/DB8;->A02:Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S2200000_I1;
 
-    .line 1667834
+    .line 1667832
     move-object/from16 v0, v17
 
     iput-object v0, v13, LX/DB8;->A03:Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S3100000_I1;
 
-    .line 1667835
+    .line 1667833
     iput-object v11, v13, LX/DB8;->A05:LX/DAP;
 
-    .line 1667836
+    .line 1667834
     move-object/from16 v0, v18
 
     iput-object v0, v13, LX/DB8;->A01:Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S2200000_I1;
 
-    .line 1667837
+    .line 1667835
     iput-object v12, v13, LX/DB8;->A04:Lcom/instagram/api/schemas/ClipsACRMidCardSubType;
 
-    .line 1667838
+    .line 1667836
     return-void
 .end method
 

@@ -642,7 +642,7 @@
 
     .line 188
     .line 189
-    invoke-static {v3, v1, p0, v0, v2}, LX/Chi;->A1M(LX/6hm;LX/1M5;LX/1qw;Lcom/instagram/service/session/UserSession;Ljava/lang/Object;)V
+    invoke-static {v3, v1, p0, v0, v2}, LX/Chi;->A1N(LX/6hm;LX/1M5;LX/1qw;Lcom/instagram/service/session/UserSession;Ljava/lang/Object;)V
 
     .line 190
     .line 191
@@ -760,7 +760,7 @@
     move-result-object v2
 
     .line 249
-    invoke-static {v2, p0, v4}, LX/Chg;->A16(Landroid/os/Bundle;LX/0YK;LX/1M5;)V
+    invoke-static {v2, p0, v4}, LX/Chg;->A15(Landroid/os/Bundle;LX/0YK;LX/1M5;)V
 
     .line 250
     .line 251

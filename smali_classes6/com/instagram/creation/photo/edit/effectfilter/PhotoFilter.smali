@@ -378,15 +378,15 @@
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 3
 
-    .line 270876439
+    .line 270876460
     invoke-direct {p0, p1}, Lcom/instagram/filterkit/filter/BaseSimpleFilter;-><init>(Landroid/os/Parcel;)V
 
     const/4 v2, 0x0
 
-    .line 270876440
+    .line 270876461
     iput-boolean v2, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A06:Z
 
-    .line 270876441
+    .line 270876462
     new-instance v0, Lcom/instagram/common/math/Matrix3;
 
     invoke-direct {v0}, Lcom/instagram/common/math/Matrix3;-><init>()V
@@ -395,49 +395,49 @@
 
     const/4 v0, 0x0
 
-    .line 270876442
+    .line 270876463
     iput-object v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A04:LX/Hcv;
 
-    .line 270876443
+    .line 270876464
     const-class v0, Lcom/facebook/cameracore/litecamera/mediapipeline/iglu/filter/model/basic/ColorFilter;
 
-    .line 270876444
+    .line 270876465
     invoke-static {p1, v0}, LX/5We;->A0D(Landroid/os/Parcel;Ljava/lang/Class;)Landroid/os/Parcelable;
 
     move-result-object v0
 
-    .line 270876445
+    .line 270876466
     invoke-static {v0}, LX/0yH;->A08(Ljava/lang/Object;)V
 
     check-cast v0, Lcom/facebook/cameracore/litecamera/mediapipeline/iglu/filter/model/basic/ColorFilter;
 
     iput-object v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A0K:Lcom/facebook/cameracore/litecamera/mediapipeline/iglu/filter/model/basic/ColorFilter;
 
-    .line 270876446
+    .line 270876467
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A0J:I
 
-    .line 270876447
+    .line 270876468
     invoke-static {}, LX/FnA;->A14()Ljava/util/LinkedList;
 
     move-result-object v1
 
-    .line 270876448
+    .line 270876469
     sget-object v0, Lcom/instagram/model/filterkit/TextureAsset;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-virtual {p1, v1, v0}, Landroid/os/Parcel;->readTypedList(Ljava/util/List;Landroid/os/Parcelable$Creator;)V
 
-    .line 270876449
+    .line 270876470
     invoke-static {v1}, Lcom/google/common/collect/ImmutableList;->copyOf(Ljava/util/Collection;)Lcom/google/common/collect/ImmutableList;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A0L:Lcom/google/common/collect/ImmutableList;
 
-    .line 270876450
+    .line 270876471
     invoke-virtual {v0}, Ljava/util/AbstractCollection;->size()I
 
     move-result v0
@@ -446,122 +446,122 @@
 
     iput-object v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A0U:[LX/6nu;
 
-    .line 270876451
+    .line 270876472
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A0P:Ljava/lang/String;
 
-    .line 270876452
+    .line 270876473
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     const/4 v1, 0x1
 
-    .line 270876453
-    invoke-static {v0, v1}, LX/5We;->A1M(II)Z
-
-    move-result v0
-
-    .line 270876454
-    iput-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A0Q:Z
-
-    .line 270876455
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
-
-    move-result v0
-
-    .line 270876456
-    iput v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A02:I
-
-    .line 270876457
-    iput-boolean v1, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A08:Z
-
-    .line 270876458
-    iget-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A09:Z
-
-    .line 270876459
-    iput-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A09:Z
-
-    .line 270876460
-    invoke-virtual {p0}, Lcom/instagram/filterkit/filter/BaseFilter;->invalidate()V
-
-    .line 270876461
-    invoke-virtual {p0}, Lcom/instagram/filterkit/filter/BaseFilter;->invalidate()V
-
-    .line 270876462
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
-
-    move-result v0
-
-    .line 270876463
-    iput v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A03:I
-
-    .line 270876464
-    iput-boolean v1, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A08:Z
-
-    .line 270876465
-    invoke-virtual {p0}, Lcom/instagram/filterkit/filter/BaseFilter;->invalidate()V
-
-    .line 270876466
-    invoke-virtual {p1}, Landroid/os/Parcel;->readFloat()F
-
-    move-result v0
-
-    .line 270876467
-    iput v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A01:F
-
-    .line 270876468
-    iput-boolean v1, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A08:Z
-
-    .line 270876469
-    invoke-virtual {p0}, Lcom/instagram/filterkit/filter/BaseFilter;->invalidate()V
-
-    .line 270876470
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
-
-    move-result v0
-
-    .line 270876471
-    invoke-static {v0, v1}, LX/5We;->A1M(II)Z
-
-    move-result v0
-
-    .line 270876472
-    iput-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A09:Z
-
-    .line 270876473
-    invoke-virtual {p0}, Lcom/instagram/filterkit/filter/BaseFilter;->invalidate()V
-
     .line 270876474
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    invoke-static {v0, v1}, LX/5We;->A1M(II)Z
 
     move-result v0
 
     .line 270876475
-    invoke-static {v0, v1}, LX/5We;->A1M(II)Z
-
-    move-result v0
+    iput-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A0Q:Z
 
     .line 270876476
-    iput-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A06:Z
-
-    .line 270876477
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
+    .line 270876477
+    iput v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A02:I
+
     .line 270876478
+    iput-boolean v1, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A08:Z
+
+    .line 270876479
+    iget-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A09:Z
+
+    .line 270876480
+    iput-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A09:Z
+
+    .line 270876481
+    invoke-virtual {p0}, Lcom/instagram/filterkit/filter/BaseFilter;->invalidate()V
+
+    .line 270876482
+    invoke-virtual {p0}, Lcom/instagram/filterkit/filter/BaseFilter;->invalidate()V
+
+    .line 270876483
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
+    .line 270876484
+    iput v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A03:I
+
+    .line 270876485
+    iput-boolean v1, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A08:Z
+
+    .line 270876486
+    invoke-virtual {p0}, Lcom/instagram/filterkit/filter/BaseFilter;->invalidate()V
+
+    .line 270876487
+    invoke-virtual {p1}, Landroid/os/Parcel;->readFloat()F
+
+    move-result v0
+
+    .line 270876488
+    iput v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A01:F
+
+    .line 270876489
+    iput-boolean v1, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A08:Z
+
+    .line 270876490
+    invoke-virtual {p0}, Lcom/instagram/filterkit/filter/BaseFilter;->invalidate()V
+
+    .line 270876491
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
+    .line 270876492
     invoke-static {v0, v1}, LX/5We;->A1M(II)Z
 
     move-result v0
 
-    .line 270876479
+    .line 270876493
+    iput-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A09:Z
+
+    .line 270876494
+    invoke-virtual {p0}, Lcom/instagram/filterkit/filter/BaseFilter;->invalidate()V
+
+    .line 270876495
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
+    .line 270876496
+    invoke-static {v0, v1}, LX/5We;->A1M(II)Z
+
+    move-result v0
+
+    .line 270876497
+    iput-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A06:Z
+
+    .line 270876498
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
+    .line 270876499
+    invoke-static {v0, v1}, LX/5We;->A1M(II)Z
+
+    move-result v0
+
+    .line 270876500
     iput-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A0I:Z
 
-    .line 270876480
+    .line 270876501
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
@@ -572,46 +572,46 @@
 
     iput-object v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A0O:Ljava/lang/Integer;
 
-    .line 270876481
+    .line 270876502
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
-    .line 270876482
+    .line 270876503
     invoke-static {v0, v1}, LX/5We;->A1M(II)Z
 
     move-result v0
 
-    .line 270876483
+    .line 270876504
     iput-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A0S:Z
 
-    .line 270876484
+    .line 270876505
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
-    .line 270876485
+    .line 270876506
     invoke-static {v0, v1}, LX/5We;->A1M(II)Z
 
     move-result v0
 
-    .line 270876486
+    .line 270876507
     iput-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A0T:Z
 
-    .line 270876487
+    .line 270876508
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
-    .line 270876488
+    .line 270876509
     invoke-static {v0, v1}, LX/5We;->A1M(II)Z
 
     move-result v0
 
-    .line 270876489
+    .line 270876510
     iput-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A07:Z
 
-    .line 270876490
+    .line 270876511
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result v0
@@ -623,30 +623,30 @@
     :cond_0
     iput-boolean v2, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A0R:Z
 
-    .line 270876491
+    .line 270876512
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 270876492
+    .line 270876513
     invoke-static {}, LX/5Wd;->A0D()Landroid/os/Bundle;
 
     move-result-object v1
 
-    .line 270876493
+    .line 270876514
     const-string v0, "IgSessionManager.SESSION_TOKEN_KEY"
 
-    .line 270876494
+    .line 270876515
     invoke-virtual {v1, v0, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 270876495
+    .line 270876516
     invoke-static {v1}, LX/0xg;->A06(Landroid/os/Bundle;)Lcom/instagram/service/session/UserSession;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A0N:Lcom/instagram/service/session/UserSession;
 
-    .line 270876496
+    .line 270876517
     invoke-static {v0}, LX/1FX;->A01(Lcom/instagram/service/session/UserSession;)LX/1FX;
 
     move-result-object v1
@@ -659,33 +659,33 @@
 
     if-eqz v2, :cond_1
 
-    .line 270876497
+    .line 270876518
     new-instance v1, LX/HDO;
 
-    .line 270876498
+    .line 270876519
     invoke-direct {v1}, LX/HDO;-><init>()V
 
-    .line 270876499
+    .line 270876520
     iget-boolean v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A0R:Z
 
-    .line 270876500
+    .line 270876521
     iput-boolean v0, v1, LX/HDO;->A00:Z
 
-    .line 270876501
+    .line 270876522
     invoke-static {v1, v2}, LX/H3K;->A00(LX/HDO;LX/Fxe;)LX/HUr;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A05:LX/HUr;
 
-    .line 270876502
+    .line 270876523
     :cond_1
     iget-object v0, p0, Lcom/instagram/creation/photo/edit/effectfilter/PhotoFilter;->A05:LX/HUr;
 
-    .line 270876503
+    .line 270876524
     iput-object v0, p0, Lcom/instagram/filterkit/filter/BaseSimpleFilter;->A01:LX/HUr;
 
-    .line 270876504
+    .line 270876525
     return-void
 .end method
 

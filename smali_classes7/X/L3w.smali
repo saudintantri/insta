@@ -170,7 +170,7 @@
     .line 46
     .line 47
     .line 48
-    invoke-static {p1, v0}, LX/Che;->A05(Landroid/content/Context;I)Landroid/graphics/drawable/ColorDrawable;
+    invoke-static {p1, v0}, LX/Che;->A06(Landroid/content/Context;I)Landroid/graphics/drawable/ColorDrawable;
 
     .line 49
     .line 50

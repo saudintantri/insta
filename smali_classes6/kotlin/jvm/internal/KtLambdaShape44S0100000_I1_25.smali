@@ -1840,7 +1840,7 @@
 
     .line 895
     .line 896
-    invoke-static {v0}, LX/Chg;->A09(LX/01o;)Landroid/view/ViewGroup;
+    invoke-static {v0}, LX/Chg;->A08(LX/01o;)Landroid/view/ViewGroup;
 
     .line 897
     .line 898
@@ -4489,7 +4489,7 @@
 
     .line 2196
     .line 2197
-    invoke-static {v0}, LX/Chi;->A0I(Ljava/lang/Object;)LX/05l;
+    invoke-static {v0}, LX/Chi;->A0J(Ljava/lang/Object;)LX/05l;
 
     .line 2198
     .line 2199

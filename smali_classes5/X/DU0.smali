@@ -74,7 +74,7 @@
     .line 26
     :cond_0
     :goto_0
-    invoke-static {v1}, LX/Chh;->A00(I)I
+    invoke-static {v1}, LX/Chh;->A01(I)I
 
     .line 27
     .line 28

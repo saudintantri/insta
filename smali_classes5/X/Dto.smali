@@ -82,7 +82,7 @@
 
     .line 35
     .line 36
-    invoke-static {p0}, LX/Che;->A0I(LX/0zD;)Lcom/instagram/model/direct/DirectThreadKey;
+    invoke-static {p0}, LX/Chf;->A0a(LX/0zD;)Lcom/instagram/model/direct/DirectThreadKey;
 
     .line 37
     .line 38
@@ -212,7 +212,7 @@
 
     .line 97
     .line 98
-    invoke-static {p0, v2}, LX/Chi;->A1L(LX/0zD;Ljava/util/AbstractCollection;)V
+    invoke-static {p0, v2}, LX/Chi;->A1M(LX/0zD;Ljava/util/AbstractCollection;)V
 
     .line 99
     .line 100

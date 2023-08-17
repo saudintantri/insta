@@ -38,7 +38,7 @@
 
     .line 4
     .line 5
-    invoke-static {p0, v0}, LX/Chf;->A0T(Ljava/lang/Object;I)LX/1F1;
+    invoke-static {p0, v0}, LX/Chf;->A0U(Ljava/lang/Object;I)LX/1F1;
 
     .line 6
     .line 7
@@ -143,7 +143,7 @@
 
     .line 17
     .line 18
-    invoke-static {p0, v0, v1, v2, v3}, LX/Chj;->A0h(Landroidx/fragment/app/Fragment;Ljava/lang/String;Ljava/util/ArrayList;ZZ)V
+    invoke-static {p0, v0, v1, v2, v3}, LX/Chj;->A0g(Landroidx/fragment/app/Fragment;Ljava/lang/String;Ljava/util/ArrayList;ZZ)V
 
     .line 19
     .line 20

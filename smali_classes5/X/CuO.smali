@@ -420,7 +420,7 @@
     move-result-object v0
 
     .line 174
-    invoke-static {p0, v0, v1, v2}, LX/Chf;->A1J(LX/130;LX/13R;Lcom/instagram/common/typedurl/ImageUrl;Ljava/lang/String;)V
+    invoke-static {p0, v0, v1, v2}, LX/Chf;->A1K(LX/130;LX/13R;Lcom/instagram/common/typedurl/ImageUrl;Ljava/lang/String;)V
 
     .line 175
     .line 176

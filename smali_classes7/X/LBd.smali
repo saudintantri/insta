@@ -886,7 +886,7 @@
 
     .line 14
     .line 15
-    invoke-static {v1, v0}, LX/Chg;->A03(FF)F
+    invoke-static {v1, v0}, LX/Chh;->A00(FF)F
 
     .line 16
     .line 17

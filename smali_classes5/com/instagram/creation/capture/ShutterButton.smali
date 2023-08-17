@@ -60,28 +60,28 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 4
 
-    .line 270428757
+    .line 270428778
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 270428758
+    .line 270428779
     new-instance v0, Landroid/animation/ArgbEvaluator;
 
     invoke-direct {v0}, Landroid/animation/ArgbEvaluator;-><init>()V
 
     iput-object v0, p0, Lcom/instagram/creation/capture/ShutterButton;->A0G:Landroid/animation/ArgbEvaluator;
 
-    .line 270428759
+    .line 270428780
     const/4 v0, 0x1
 
-    .line 270428760
+    .line 270428781
     invoke-static {v0}, LX/Chb;->A08(I)Landroid/graphics/Paint;
 
     move-result-object v0
 
-    .line 270428761
+    .line 270428782
     iput-object v0, p0, Lcom/instagram/creation/capture/ShutterButton;->A0H:Landroid/graphics/Paint;
 
-    .line 270428762
+    .line 270428783
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -94,7 +94,7 @@
 
     iput v0, p0, Lcom/instagram/creation/capture/ShutterButton;->A0F:I
 
-    .line 270428763
+    .line 270428784
     const v0, 0x7f040106
 
     const v3, 0x7f040106
@@ -105,7 +105,7 @@
 
     iput v0, p0, Lcom/instagram/creation/capture/ShutterButton;->A09:I
 
-    .line 270428764
+    .line 270428785
     const v0, 0x7f040104
 
     const v2, 0x7f040104
@@ -116,7 +116,7 @@
 
     iput v0, p0, Lcom/instagram/creation/capture/ShutterButton;->A0C:I
 
-    .line 270428765
+    .line 270428786
     const v0, 0x7f040107
 
     invoke-static {v1, v0}, LX/2fm;->A00(Landroid/content/Context;I)I
@@ -125,7 +125,7 @@
 
     iput v0, p0, Lcom/instagram/creation/capture/ShutterButton;->A0B:I
 
-    .line 270428766
+    .line 270428787
     const v0, 0x7f040105
 
     invoke-static {v1, v0}, LX/2fm;->A00(Landroid/content/Context;I)I
@@ -134,21 +134,21 @@
 
     iput v0, p0, Lcom/instagram/creation/capture/ShutterButton;->A0E:I
 
-    .line 270428767
+    .line 270428788
     invoke-static {v1, v3}, LX/2fm;->A00(Landroid/content/Context;I)I
 
     move-result v0
 
     iput v0, p0, Lcom/instagram/creation/capture/ShutterButton;->A0A:I
 
-    .line 270428768
+    .line 270428789
     invoke-static {v1, v2}, LX/2fm;->A00(Landroid/content/Context;I)I
 
     move-result v0
 
     iput v0, p0, Lcom/instagram/creation/capture/ShutterButton;->A0D:I
 
-    .line 270428769
+    .line 270428790
     const v0, 0x7f0400ff
 
     invoke-static {v1, v0}, LX/2fm;->A00(Landroid/content/Context;I)I
@@ -157,7 +157,7 @@
 
     iput v0, p0, Lcom/instagram/creation/capture/ShutterButton;->A03:I
 
-    .line 270428770
+    .line 270428791
     const v0, 0x7f0400fc
 
     invoke-static {v1, v0}, LX/2fm;->A00(Landroid/content/Context;I)I
@@ -166,7 +166,7 @@
 
     iput v0, p0, Lcom/instagram/creation/capture/ShutterButton;->A06:I
 
-    .line 270428771
+    .line 270428792
     const v0, 0x7f040101
 
     invoke-static {v1, v0}, LX/2fm;->A00(Landroid/content/Context;I)I
@@ -175,7 +175,7 @@
 
     iput v0, p0, Lcom/instagram/creation/capture/ShutterButton;->A05:I
 
-    .line 270428772
+    .line 270428793
     const v0, 0x7f0400fe
 
     invoke-static {v1, v0}, LX/2fm;->A00(Landroid/content/Context;I)I
@@ -184,7 +184,7 @@
 
     iput v0, p0, Lcom/instagram/creation/capture/ShutterButton;->A08:I
 
-    .line 270428773
+    .line 270428794
     const v0, 0x7f040100
 
     invoke-static {v1, v0}, LX/2fm;->A00(Landroid/content/Context;I)I
@@ -193,7 +193,7 @@
 
     iput v0, p0, Lcom/instagram/creation/capture/ShutterButton;->A04:I
 
-    .line 270428774
+    .line 270428795
     const v0, 0x7f0400fd
 
     invoke-static {v1, v0}, LX/2fm;->A00(Landroid/content/Context;I)I
@@ -204,13 +204,13 @@
 
     const/4 v0, 0x0
 
-    .line 270428775
+    .line 270428796
     invoke-virtual {p0, v0}, Lcom/instagram/creation/capture/ShutterButton;->A00(F)V
 
-    .line 270428776
+    .line 270428797
     invoke-static {p0}, LX/92k;->A0t(Landroid/view/View;)V
 
-    .line 270428777
+    .line 270428798
     return-void
 .end method
 

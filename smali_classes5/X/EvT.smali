@@ -1187,7 +1187,7 @@
     .line 205
     .line 206
     :goto_1
-    invoke-static {v8}, LX/Chf;->A0n(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
+    invoke-static {v8}, LX/Chf;->A0p(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     .line 207
     .line 208

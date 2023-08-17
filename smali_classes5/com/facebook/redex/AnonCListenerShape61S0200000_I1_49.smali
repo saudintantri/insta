@@ -1235,7 +1235,7 @@
 
     .line 595
     .line 596
-    invoke-static {v6}, LX/Chf;->A0n(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
+    invoke-static {v6}, LX/Chf;->A0p(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     .line 597
     .line 598
@@ -1433,7 +1433,7 @@
 
     .line 694
     .line 695
-    invoke-static {v6}, LX/Chf;->A0n(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
+    invoke-static {v6}, LX/Chf;->A0p(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     .line 696
     .line 697

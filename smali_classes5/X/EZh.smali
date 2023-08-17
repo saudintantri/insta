@@ -622,7 +622,7 @@
     .line 287
     .line 288
     .line 289
-    invoke-static {v2}, LX/Chg;->A0U(Landroid/widget/TextView;)LX/Jb2;
+    invoke-static {v2}, LX/Chg;->A0S(Landroid/widget/TextView;)LX/Jb2;
 
     .line 290
     .line 291

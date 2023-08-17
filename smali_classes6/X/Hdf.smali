@@ -85,80 +85,80 @@
 
     invoke-static {v0, v2}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2254425
+    .line 2254446
     move-object/from16 v1, p0
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
-    .line 2254426
+    .line 2254447
     iput-object v0, v1, LX/Hdf;->A0Q:Landroid/view/ViewGroup;
 
-    .line 2254427
+    .line 2254448
     move-object/from16 v0, p2
 
     iput-object v0, v1, LX/Hdf;->A0B:LX/1dt;
 
-    .line 2254428
+    .line 2254449
     move-object/from16 v3, p5
 
     iput-object v3, v1, LX/Hdf;->A0F:Lcom/instagram/service/session/UserSession;
 
-    .line 2254429
+    .line 2254450
     move-object/from16 v0, p6
 
     iput-object v0, v1, LX/Hdf;->A0R:Lcom/instagram/user/model/User;
 
-    .line 2254430
+    .line 2254451
     move-object/from16 v0, p16
 
     iput-object v0, v1, LX/Hdf;->A05:LX/48C;
 
-    .line 2254431
+    .line 2254452
     move-object/from16 v0, p3
 
     iput-object v0, v1, LX/Hdf;->A0D:LX/68e;
 
-    .line 2254432
+    .line 2254453
     move-object/from16 v0, p4
 
     iput-object v0, v1, LX/Hdf;->A0E:LX/6Bl;
 
-    .line 2254433
+    .line 2254454
     move-object/from16 v0, p15
 
     iput-object v0, v1, LX/Hdf;->A0J:LX/65d;
 
-    .line 2254434
+    .line 2254455
     move-object/from16 v0, p10
 
     iput-object v0, v1, LX/Hdf;->A0H:LX/65c;
 
-    .line 2254435
+    .line 2254456
     move-object/from16 v0, p9
 
     iput-object v0, v1, LX/Hdf;->A0T:LX/5dA;
 
-    .line 2254436
+    .line 2254457
     move-object/from16 v0, p7
 
     iput-object v0, v1, LX/Hdf;->A0G:LX/5Fj;
 
-    .line 2254437
+    .line 2254458
     move-object/from16 v0, p13
 
     iput-object v0, v1, LX/Hdf;->A0U:LX/5i0;
 
-    .line 2254438
+    .line 2254459
     move-object/from16 v0, p14
 
     iput-object v0, v1, LX/Hdf;->A0V:LX/5hw;
 
-    .line 2254439
+    .line 2254460
     move-object/from16 v0, p12
 
     iput-object v0, v1, LX/Hdf;->A0I:LX/5iG;
 
-    .line 2254440
+    .line 2254461
     sget-object v4, LX/0Y4;->A01:LX/01D;
 
     invoke-virtual {v4, v3}, LX/01D;->A01(Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
@@ -167,15 +167,15 @@
 
     iput-object v0, v1, LX/Hdf;->A0S:Lcom/instagram/user/model/User;
 
-    .line 2254441
+    .line 2254462
     invoke-static {}, LX/5We;->A0C()Landroid/os/Handler;
 
     move-result-object v0
 
-    .line 2254442
+    .line 2254463
     iput-object v0, v1, LX/Hdf;->A0P:Landroid/os/Handler;
 
-    .line 2254443
+    .line 2254464
     iget-object v0, v1, LX/Hdf;->A0Q:Landroid/view/ViewGroup;
 
     invoke-virtual {v0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
@@ -186,98 +186,98 @@
 
     invoke-virtual {v3, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
-    .line 2254444
+    .line 2254465
     iget-object v0, v1, LX/Hdf;->A0Q:Landroid/view/ViewGroup;
 
     invoke-virtual {v0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
-    .line 2254445
+    .line 2254466
     const v0, 0x7f07000c
 
-    .line 2254446
+    .line 2254467
     invoke-virtual {v3, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
-    .line 2254447
+    .line 2254468
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 2254448
+    .line 2254469
     iput-object v0, v1, LX/Hdf;->A09:Ljava/util/List;
 
-    .line 2254449
+    .line 2254470
     const/16 v0, 0x27
 
-    .line 2254450
+    .line 2254471
     invoke-static {v1, v0}, LX/92r;->A0a(Ljava/lang/Object;I)LX/01o;
 
     move-result-object v0
 
-    .line 2254451
+    .line 2254472
     iput-object v0, v1, LX/Hdf;->A0M:LX/01o;
 
-    .line 2254452
+    .line 2254473
     const/16 v0, 0x26
 
-    .line 2254453
+    .line 2254474
     invoke-static {v1, v0}, LX/92r;->A0a(Ljava/lang/Object;I)LX/01o;
 
     move-result-object v0
 
-    .line 2254454
+    .line 2254475
     iput-object v0, v1, LX/Hdf;->A0L:LX/01o;
 
-    .line 2254455
+    .line 2254476
     const/16 v3, 0x29
 
     new-instance v0, Lkotlin/jvm/internal/KtLambdaShape57S0100000_I1_38;
 
     invoke-direct {v0, v1, v3}, Lkotlin/jvm/internal/KtLambdaShape57S0100000_I1_38;-><init>(Ljava/lang/Object;I)V
 
-    .line 2254456
+    .line 2254477
     invoke-static {v0}, LX/92k;->A0S(LX/0Xg;)LX/1F1;
 
     move-result-object v0
 
-    .line 2254457
+    .line 2254478
     iput-object v0, v1, LX/Hdf;->A0O:LX/01o;
 
-    .line 2254458
+    .line 2254479
     const/16 v3, 0x28
 
     new-instance v0, Lkotlin/jvm/internal/KtLambdaShape57S0100000_I1_38;
 
     invoke-direct {v0, v1, v3}, Lkotlin/jvm/internal/KtLambdaShape57S0100000_I1_38;-><init>(Ljava/lang/Object;I)V
 
-    .line 2254459
+    .line 2254480
     invoke-static {v0}, LX/92k;->A0S(LX/0Xg;)LX/1F1;
 
     move-result-object v0
 
-    .line 2254460
+    .line 2254481
     iput-object v0, v1, LX/Hdf;->A0N:LX/01o;
 
-    .line 2254461
+    .line 2254482
     iget-object v6, v1, LX/Hdf;->A0F:Lcom/instagram/service/session/UserSession;
 
-    .line 2254462
+    .line 2254483
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v5
 
-    .line 2254463
+    .line 2254484
     sget-object v3, Lcom/instagram/quickpromotion/intf/QPTooltipAnchor;->A0c:Lcom/instagram/quickpromotion/intf/QPTooltipAnchor;
 
-    .line 2254464
+    .line 2254485
     new-instance v0, LX/ICz;
 
     invoke-direct {v0}, LX/ICz;-><init>()V
 
     invoke-virtual {v5, v3, v0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2254465
+    .line 2254486
     sget-object v3, Lcom/instagram/quickpromotion/intf/QPTooltipAnchor;->A0b:Lcom/instagram/quickpromotion/intf/QPTooltipAnchor;
 
     new-instance v0, LX/ICy;
@@ -286,171 +286,171 @@
 
     invoke-virtual {v5, v3, v0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2254466
+    .line 2254487
     new-instance v10, LX/1vR;
 
     invoke-direct {v10, v6, v5}, LX/1vR;-><init>(Lcom/instagram/service/session/UserSession;Ljava/util/Map;)V
 
-    .line 2254467
+    .line 2254488
     iput-object v10, v1, LX/Hdf;->A0C:LX/1vR;
 
-    .line 2254468
+    .line 2254489
     new-instance v0, LX/Gs1;
 
     invoke-direct {v0, v1}, LX/Gs1;-><init>(LX/Hdf;)V
 
     iput-object v0, v1, LX/Hdf;->A0K:LX/HOj;
 
-    .line 2254469
+    .line 2254490
     new-instance v0, LX/DmH;
 
     invoke-direct {v0, v1}, LX/DmH;-><init>(LX/Hdf;)V
 
     iput-object v0, v1, LX/Hdf;->A0X:LX/HUz;
 
-    .line 2254470
+    .line 2254491
     new-instance v0, LX/DmG;
 
     invoke-direct {v0, v1}, LX/DmG;-><init>(LX/Hdf;)V
 
     iput-object v0, v1, LX/Hdf;->A0W:LX/HS6;
 
-    .line 2254471
+    .line 2254492
     new-instance v0, LX/Grw;
 
     invoke-direct {v0, v1}, LX/Grw;-><init>(LX/Hdf;)V
 
     iput-object v0, v1, LX/Hdf;->A0Y:LX/NFb;
 
-    .line 2254472
+    .line 2254493
     sget-object v9, LX/37L;->A00:LX/37L;
 
-    .line 2254473
+    .line 2254494
     iget-object v8, v1, LX/Hdf;->A0B:LX/1dt;
 
-    .line 2254474
+    .line 2254495
     iget-object v7, v1, LX/Hdf;->A0F:Lcom/instagram/service/session/UserSession;
 
-    .line 2254475
+    .line 2254496
     sget-object v6, Lcom/instagram/quickpromotion/intf/QuickPromotionSlot;->A0R:Lcom/instagram/quickpromotion/intf/QuickPromotionSlot;
 
-    .line 2254476
+    .line 2254497
     new-instance v5, LX/07Q;
 
     invoke-direct {v5}, LX/07Q;-><init>()V
 
-    .line 2254477
+    .line 2254498
     const/4 v3, 0x3
 
     new-instance v0, Lcom/facebook/redex/IDxTListenerShape321S0100000_5_I1;
 
     invoke-direct {v0, v1, v3}, Lcom/facebook/redex/IDxTListenerShape321S0100000_5_I1;-><init>(Ljava/lang/Object;I)V
 
-    .line 2254478
+    .line 2254499
     invoke-virtual {v5, v0, v10}, LX/07Q;->A01(LX/1vc;LX/1vR;)V
 
-    .line 2254479
+    .line 2254500
     invoke-static {v8, v5, v9, v6, v7}, LX/Chd;->A0Q(LX/1dt;LX/07Q;LX/37L;Lcom/instagram/quickpromotion/intf/QuickPromotionSlot;Lcom/instagram/service/session/UserSession;)LX/1w3;
 
     move-result-object v5
 
-    .line 2254480
+    .line 2254501
     iput-object v5, v1, LX/Hdf;->A03:LX/1w3;
 
-    .line 2254481
+    .line 2254502
     iget-object v3, v1, LX/Hdf;->A0V:LX/5hw;
 
     const/16 v37, 0x0
 
     if-eqz v3, :cond_0
 
-    .line 2254482
+    .line 2254503
     iget-object v0, v1, LX/Hdf;->A0C:LX/1vR;
 
-    .line 2254483
+    .line 2254504
     invoke-static {v0, v2}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2254484
+    .line 2254505
     iput-object v5, v3, LX/5hw;->A00:LX/1w3;
 
-    .line 2254485
+    .line 2254506
     iput-object v0, v3, LX/5hw;->A01:LX/1vR;
 
-    .line 2254486
+    .line 2254507
     :cond_0
     iget-object v3, v1, LX/Hdf;->A0B:LX/1dt;
 
-    .line 2254487
+    .line 2254508
     iget-object v0, v1, LX/Hdf;->A03:LX/1w3;
 
     invoke-virtual {v3, v0}, LX/1dt;->registerLifecycleListener(LX/1r8;)V
 
-    .line 2254488
+    .line 2254509
     iget-object v0, v1, LX/Hdf;->A0C:LX/1vR;
 
     invoke-virtual {v3, v0}, LX/1dt;->registerLifecycleListener(LX/1r8;)V
 
-    .line 2254489
+    .line 2254510
     iget-object v0, v1, LX/Hdf;->A03:LX/1w3;
 
     invoke-virtual {v0}, LX/1w3;->onResume()V
 
-    .line 2254490
+    .line 2254511
     iget-object v8, v1, LX/Hdf;->A0Q:Landroid/view/ViewGroup;
 
-    .line 2254491
+    .line 2254512
     iget-object v5, v1, LX/Hdf;->A0B:LX/1dt;
 
-    .line 2254492
+    .line 2254513
     iget-object v0, v1, LX/Hdf;->A0F:Lcom/instagram/service/session/UserSession;
 
-    .line 2254493
+    .line 2254514
     iget-object v3, v1, LX/Hdf;->A0R:Lcom/instagram/user/model/User;
 
     move-object/from16 v20, v3
 
-    .line 2254494
+    .line 2254515
     iget-object v9, v1, LX/Hdf;->A0H:LX/65c;
 
-    .line 2254495
+    .line 2254516
     const v7, 0x7f0d0716
 
-    .line 2254496
+    .line 2254517
     sget-object v14, LX/65l;->A04:LX/65l;
 
-    .line 2254497
+    .line 2254518
     iget-object v3, v1, LX/Hdf;->A0U:LX/5i0;
 
     move-object/from16 v17, v3
 
-    .line 2254498
+    .line 2254519
     sget-object v3, LX/6Bo;->A0H:LX/6Bp;
 
     invoke-virtual {v3, v0, v14}, LX/6Bp;->A00(Lcom/instagram/service/session/UserSession;LX/65l;)LX/6Bo;
 
     move-result-object v13
 
-    .line 2254499
+    .line 2254520
     iget-object v15, v1, LX/Hdf;->A0I:LX/5iG;
 
-    .line 2254500
+    .line 2254521
     const/4 v3, 0x0
 
     const/16 v6, 0x12
 
     invoke-static {v13, v6}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2254501
+    .line 2254522
     invoke-virtual {v5}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
 
     move-result-object v23
 
-    .line 2254502
+    .line 2254523
     invoke-static {v5}, LX/05o;->A00(LX/05g;)LX/05o;
 
     move-result-object v24
 
-    .line 2254503
+    .line 2254524
     new-instance v22, LX/HMr;
 
     move-object/from16 v27, p8
@@ -465,19 +465,19 @@
 
     invoke-direct/range {v22 .. v29}, LX/HMr;-><init>(Landroid/content/Context;LX/05o;LX/1dt;Lcom/instagram/service/session/UserSession;LX/HUn;LX/65l;LX/65c;)V
 
-    .line 2254504
+    .line 2254525
     new-instance v12, LX/HNi;
 
     move-object/from16 v6, p11
 
     invoke-direct {v12, v0, v6}, LX/HNi;-><init>(Lcom/instagram/service/session/UserSession;LX/65c;)V
 
-    .line 2254505
+    .line 2254526
     new-instance v6, LX/HLN;
 
     invoke-direct {v6, v5, v0, v9}, LX/HLN;-><init>(LX/1dt;Lcom/instagram/service/session/UserSession;LX/65c;)V
 
-    .line 2254506
+    .line 2254527
     invoke-virtual {v8}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v10
@@ -486,54 +486,54 @@
 
     invoke-virtual {v10, v9}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
-    .line 2254507
+    .line 2254528
     sget-object v16, LX/HxA;->A00:LX/HxA;
 
-    .line 2254508
+    .line 2254529
     invoke-virtual/range {v27 .. v27}, LX/HUn;->A08()Z
 
     move-result v35
 
-    .line 2254509
+    .line 2254530
     invoke-static {v8, v7}, LX/FnE;->A0A(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v11
 
-    .line 2254510
+    .line 2254531
     invoke-static {v11}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 2254511
+    .line 2254532
     new-instance v7, LX/HO0;
 
     invoke-direct {v7, v8}, LX/HO0;-><init>(Landroid/view/View;)V
 
-    .line 2254512
+    .line 2254533
     invoke-static {v8}, LX/5Wd;->A0A(Landroid/view/View;)Landroid/content/Context;
 
     move-result-object v10
 
-    .line 2254513
+    .line 2254534
     iget-object v9, v7, LX/HO0;->A02:Landroid/view/View;
 
-    .line 2254514
+    .line 2254535
     iget-object v8, v7, LX/HO0;->A07:Landroid/view/View;
 
-    .line 2254515
+    .line 2254536
     invoke-static {v10, v11, v9, v8}, LX/5i2;->A00(Landroid/content/Context;Landroid/view/View;Landroid/view/View;Landroid/view/View;)LX/5i3;
 
     move-result-object v31
 
-    .line 2254516
+    .line 2254537
     new-instance v33, LX/5hz;
 
     invoke-direct/range {v33 .. v33}, LX/5hz;-><init>()V
 
-    .line 2254517
+    .line 2254538
     new-instance v32, LX/5hz;
 
     invoke-direct/range {v32 .. v32}, LX/5hz;-><init>()V
 
-    .line 2254518
+    .line 2254539
     new-instance v28, LX/I27;
 
     move/from16 v36, p18
@@ -546,41 +546,41 @@
 
     invoke-direct/range {v28 .. v36}, LX/I27;-><init>(Lcom/instagram/service/session/UserSession;LX/65l;LX/5i3;LX/5hz;LX/5hz;LX/HO0;ZZ)V
 
-    .line 2254519
+    .line 2254540
     invoke-virtual {v5}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
 
     move-result-object v7
 
-    .line 2254520
+    .line 2254541
     invoke-static {v7, v5}, LX/92o;->A0S(Landroid/content/Context;LX/05g;)LX/1si;
 
     move-result-object v38
 
-    .line 2254521
+    .line 2254542
     const/4 v8, 0x5
 
     new-instance v7, Lcom/facebook/redex/IDxDelegateShape462S0100000_4_I1;
 
     invoke-direct {v7, v0, v8}, Lcom/facebook/redex/IDxDelegateShape462S0100000_4_I1;-><init>(Ljava/lang/Object;I)V
 
-    .line 2254522
+    .line 2254543
     invoke-virtual {v4, v0}, LX/01D;->A01(Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
 
     move-result-object v4
 
-    .line 2254523
+    .line 2254544
     invoke-static {v4}, LX/5Wd;->A17(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v42
 
-    .line 2254524
+    .line 2254545
     const/16 v4, 0xc
 
     invoke-static {v4}, LX/000;->A00(I)Ljava/lang/String;
 
     move-result-object v41
 
-    .line 2254525
+    .line 2254546
     move-object/from16 v39, v7
 
     move-object/from16 v40, v0
@@ -591,7 +591,7 @@
 
     move-result-object v18
 
-    .line 2254526
+    .line 2254547
     new-instance v2, LX/Hec;
 
     move/from16 v29, p17
@@ -616,44 +616,44 @@
 
     invoke-direct/range {v15 .. v29}, LX/Hec;-><init>(LX/0yM;LX/1dt;LX/4bH;Lcom/instagram/service/session/UserSession;Lcom/instagram/user/model/User;LX/HLN;LX/HMr;LX/65l;LX/6Bo;LX/5iH;LX/5i0;LX/HNi;LX/I27;Z)V
 
-    .line 2254527
+    .line 2254548
     iget-object v4, v1, LX/Hdf;->A0K:LX/HOj;
 
     invoke-static {v4, v3}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2254528
+    .line 2254549
     iget-object v0, v2, LX/Hec;->A0H:LX/I27;
 
-    .line 2254529
+    .line 2254550
     iput-object v4, v0, LX/I27;->A01:LX/HOj;
 
-    .line 2254530
+    .line 2254551
     iget-object v4, v1, LX/Hdf;->A0X:LX/HUz;
 
     invoke-static {v4, v3}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2254531
+    .line 2254552
     iget-object v0, v2, LX/Hec;->A0C:LX/HMr;
 
-    .line 2254532
+    .line 2254553
     iput-object v4, v0, LX/HMr;->A00:LX/HUz;
 
-    .line 2254533
+    .line 2254554
     iput-object v2, v1, LX/Hdf;->A04:LX/Hec;
 
-    .line 2254534
+    .line 2254555
     iget-object v0, v1, LX/Hdf;->A0W:LX/HS6;
 
-    .line 2254535
+    .line 2254556
     iput-object v0, v2, LX/Hec;->A01:LX/HS6;
 
-    .line 2254536
+    .line 2254557
     iget-object v0, v1, LX/Hdf;->A0Y:LX/NFb;
 
-    .line 2254537
+    .line 2254558
     iput-object v0, v2, LX/Hec;->A02:LX/NFb;
 
-    .line 2254538
+    .line 2254559
     return-void
 .end method
 

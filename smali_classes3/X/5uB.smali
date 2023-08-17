@@ -2499,7 +2499,7 @@
     move-result-object v4
 
     .line 1221
-    const v3, 0x7f0700ed
+    const v3, 0x7f0700ec
 
     .line 1222
     .line 1223
@@ -2647,7 +2647,7 @@
     move-result-object v4
 
     .line 1292
-    const v3, 0x7f0700ed
+    const v3, 0x7f0700ec
 
     .line 1293
     .line 1294

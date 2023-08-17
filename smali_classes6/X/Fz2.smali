@@ -97,7 +97,7 @@
 
     .line 30
     .line 31
-    const v0, 0x7f0700ea
+    const v0, 0x7f0700e9
 
     .line 32
     .line 33
@@ -635,7 +635,7 @@
     int-to-float v1, v0
 
     .line 57
-    const v0, 0x7f070143
+    const v0, 0x7f07013d
 
     .line 58
     .line 59

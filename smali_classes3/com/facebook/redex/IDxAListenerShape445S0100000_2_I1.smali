@@ -1122,7 +1122,6 @@
     invoke-static {v0}, LX/7xj;->A02(Ljava/lang/String;)V
     :try_end_4
     .catch Ljava/lang/RuntimeException; {:try_start_4 .. :try_end_4} :catch_0
-    .catch Ljava/lang/RuntimeException; {:try_start_4 .. :try_end_4} :catch_1
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
     .line 471

@@ -343,50 +343,50 @@
 .method public constructor <init>(Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZZZ)V
     .locals 1
 
-    .line 270429987
+    .line 270430008
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 270429988
+    .line 270430009
     iput-object p2, p0, Lcom/instagram/guides/intf/model/MinimalGuide;->A05:Ljava/lang/String;
 
-    .line 270429989
+    .line 270430010
     iput-object p3, p0, Lcom/instagram/guides/intf/model/MinimalGuide;->A06:Ljava/lang/String;
 
-    .line 270429990
+    .line 270430011
     iput-object p4, p0, Lcom/instagram/guides/intf/model/MinimalGuide;->A07:Ljava/lang/String;
 
-    .line 270429991
+    .line 270430012
     iput-object p5, p0, Lcom/instagram/guides/intf/model/MinimalGuide;->A08:Ljava/lang/String;
 
-    .line 270429992
+    .line 270430013
     iput-object p6, p0, Lcom/instagram/guides/intf/model/MinimalGuide;->A09:Ljava/lang/String;
 
-    .line 270429993
+    .line 270430014
     iput-object p7, p0, Lcom/instagram/guides/intf/model/MinimalGuide;->A03:Ljava/lang/String;
 
-    .line 270429994
+    .line 270430015
     iput-object p8, p0, Lcom/instagram/guides/intf/model/MinimalGuide;->A02:Ljava/lang/String;
 
-    .line 270429995
+    .line 270430016
     iput-object p9, p0, Lcom/instagram/guides/intf/model/MinimalGuide;->A04:Ljava/lang/String;
 
-    .line 270429996
+    .line 270430017
     invoke-static {p10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/instagram/guides/intf/model/MinimalGuide;->A00:Ljava/lang/Integer;
 
-    .line 270429997
+    .line 270430018
     iput-boolean p11, p0, Lcom/instagram/guides/intf/model/MinimalGuide;->A0C:Z
 
-    .line 270429998
+    .line 270430019
     iput-object p1, p0, Lcom/instagram/guides/intf/model/MinimalGuide;->A01:Ljava/lang/Long;
 
-    .line 270429999
+    .line 270430020
     iput-boolean p12, p0, Lcom/instagram/guides/intf/model/MinimalGuide;->A0D:Z
 
-    .line 270430000
+    .line 270430021
     iput-boolean p13, p0, Lcom/instagram/guides/intf/model/MinimalGuide;->A0E:Z
 
     return-void

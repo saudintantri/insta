@@ -261,7 +261,7 @@
     move-result v13
 
     .line 49
-    invoke-static {v1}, LX/Chj;->A1C(Landroid/graphics/RectF;)[Ljava/lang/Float;
+    invoke-static {v1}, LX/Chj;->A1D(Landroid/graphics/RectF;)[Ljava/lang/Float;
 
     .line 50
     .line 51

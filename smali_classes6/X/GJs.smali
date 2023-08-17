@@ -3648,7 +3648,7 @@
 
     .line 1437
     :goto_a
-    invoke-static {v2}, LX/Chh;->A00(I)I
+    invoke-static {v2}, LX/Chh;->A01(I)I
 
     .line 1438
     .line 1439

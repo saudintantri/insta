@@ -17,17 +17,17 @@
 
     move-result-object v0
 
-    .line 2876164
+    .line 2876185
     invoke-static {v0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 2876165
+    .line 2876186
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v4
 
-    .line 2876166
+    .line 2876187
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v8
@@ -45,164 +45,164 @@
 
     check-cast v0, Lcom/instagram/model/shopping/Product;
 
-    .line 2876167
+    .line 2876188
     iget-object v6, v0, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
-    .line 2876168
+    .line 2876189
     iget-object v0, v6, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0E:Lcom/instagram/model/shopping/ProductCheckoutProperties;
 
-    .line 2876169
+    .line 2876190
     invoke-static {v0}, LX/0yH;->A08(Ljava/lang/Object;)V
 
-    .line 2876170
+    .line 2876191
     iget-object v3, v0, Lcom/instagram/model/shopping/ProductCheckoutProperties;->A00:Lcom/instagram/model/payments/CurrencyAmountInfo;
 
-    .line 2876171
+    .line 2876192
     iget-object v0, v6, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0H:Lcom/instagram/model/shopping/ProductLaunchInformation;
 
-    .line 2876172
+    .line 2876193
     if-eqz v0, :cond_0
 
-    .line 2876173
+    .line 2876194
     iget-object v0, v0, Lcom/instagram/model/shopping/ProductLaunchInformation;->A02:Ljava/lang/Long;
 
-    .line 2876174
+    .line 2876195
     invoke-static {v0}, LX/5We;->A0A(Ljava/lang/Number;)J
 
     move-result-wide v0
 
-    .line 2876175
+    .line 2876196
     invoke-static {v0, v1}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 2876176
+    .line 2876197
     :goto_1
     iget-object v1, v6, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0j:Ljava/lang/String;
 
-    .line 2876177
+    .line 2876198
     new-instance v0, Lcom/instagram/model/payments/common/ProductItem;
 
     invoke-direct {v0, v3, v1, v2, v5}, Lcom/instagram/model/payments/common/ProductItem;-><init>(Lcom/instagram/model/payments/CurrencyAmountInfo;Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 2876178
+    .line 2876199
     invoke-virtual {v4, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 2876179
+    .line 2876200
     :cond_0
     const/4 v2, 0x0
 
     goto :goto_1
 
-    .line 2876180
+    .line 2876201
     :cond_1
     iget-object v0, v7, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
-    .line 2876181
+    .line 2876202
     iget-object v1, v0, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0E:Lcom/instagram/model/shopping/ProductCheckoutProperties;
 
-    .line 2876182
+    .line 2876203
     invoke-static {v1}, LX/0yH;->A08(Ljava/lang/Object;)V
 
-    .line 2876183
+    .line 2876204
     iget-object v0, v1, Lcom/instagram/model/shopping/ProductCheckoutProperties;->A0H:Ljava/lang/String;
 
-    .line 2876184
+    .line 2876205
     const/16 v16, 0x0
 
     move-object/from16 v12, v16
 
     if-eqz v0, :cond_2
 
-    .line 2876185
+    .line 2876206
     move-object v12, v0
 
-    .line 2876186
+    .line 2876207
     :cond_2
     iget-object v0, v1, Lcom/instagram/model/shopping/ProductCheckoutProperties;->A0G:Ljava/lang/String;
 
-    .line 2876187
+    .line 2876208
     move-object/from16 v13, v16
 
     if-eqz v0, :cond_3
 
-    .line 2876188
+    .line 2876209
     move-object v13, v0
 
-    .line 2876189
+    .line 2876210
     :cond_3
     iget-object v0, v1, Lcom/instagram/model/shopping/ProductCheckoutProperties;->A09:Ljava/lang/Boolean;
 
-    .line 2876190
+    .line 2876211
     if-eqz v0, :cond_4
 
-    .line 2876191
+    .line 2876212
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v0
 
     if-eqz v0, :cond_4
 
-    .line 2876192
+    .line 2876213
     :goto_2
     invoke-static {}, LX/3zl;->A0D()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2876193
+    .line 2876214
     new-instance v8, LX/Mqe;
 
     invoke-direct {v8}, LX/Mqe;-><init>()V
 
-    .line 2876194
+    .line 2876215
     move-object/from16 v1, p6
 
     iput-object v1, v8, LX/Mqe;->A04:Ljava/lang/String;
 
-    .line 2876195
+    .line 2876216
     move-object/from16 v9, p1
 
     iput-object v9, v8, LX/Mqe;->A06:Ljava/lang/String;
 
-    .line 2876196
+    .line 2876217
     move-object/from16 v1, p4
 
     iput-object v1, v8, LX/Mqe;->A07:Ljava/lang/String;
 
-    .line 2876197
+    .line 2876218
     move-object/from16 v1, p7
 
     iput-object v1, v8, LX/Mqe;->A08:Ljava/lang/String;
 
-    .line 2876198
+    .line 2876219
     move-object/from16 v1, p5
 
     iput-object v1, v8, LX/Mqe;->A00:Ljava/lang/String;
 
-    .line 2876199
+    .line 2876220
     move-object/from16 v1, p8
 
     iput-object v1, v8, LX/Mqe;->A0B:Ljava/lang/String;
 
-    .line 2876200
+    .line 2876221
     move-object/from16 v6, p10
 
     iput-object v6, v8, LX/Mqe;->A0A:Ljava/lang/String;
 
-    .line 2876201
+    .line 2876222
     iput-object v0, v8, LX/Mqe;->A09:Ljava/lang/String;
 
     goto :goto_3
 
-    .line 2876202
+    .line 2876223
     :cond_4
     const/4 v5, 0x0
 
     goto :goto_2
 
-    .line 2876203
+    .line 2876224
     :goto_3
     :try_start_0
     move/from16 v22, p15
@@ -211,7 +211,7 @@
 
     move-result-object v10
 
-    .line 2876204
+    .line 2876225
     invoke-interface {v4}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v11
@@ -229,35 +229,35 @@
 
     check-cast v0, Lcom/instagram/model/payments/common/ProductItem;
 
-    .line 2876205
+    .line 2876226
     iget-object v7, v0, Lcom/instagram/model/payments/common/ProductItem;->A03:Ljava/lang/String;
 
-    .line 2876206
+    .line 2876227
     iget v3, v0, Lcom/instagram/model/payments/common/ProductItem;->A00:I
 
-    .line 2876207
+    .line 2876228
     iget-object v2, v0, Lcom/instagram/model/payments/common/ProductItem;->A01:Lcom/instagram/model/payments/CurrencyAmountInfo;
 
-    .line 2876208
+    .line 2876229
     iget-object v1, v0, Lcom/instagram/model/payments/common/ProductItem;->A02:Ljava/lang/String;
 
-    .line 2876209
+    .line 2876230
     new-instance v0, LX/Muw;
 
     invoke-direct {v0, v2, v7, v1, v3}, LX/Muw;-><init>(Lcom/instagram/model/payments/CurrencyAmountInfo;Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 2876210
+    .line 2876231
     invoke-virtual {v10, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_4
 
-    .line 2876211
+    .line 2876232
     :cond_5
     new-instance v0, LX/N5A;
 
     invoke-direct {v0, v10}, LX/N5A;-><init>(Ljava/util/List;)V
 
-    .line 2876212
+    .line 2876233
     new-instance v19, LX/Mv3;
 
     move-object/from16 v23, v19
@@ -272,14 +272,14 @@
 
     invoke-direct/range {v23 .. v28}, LX/Mv3;-><init>(LX/Mqe;LX/N5A;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2876213
+    .line 2876234
     sget-object v1, LX/AQN;->A03:LX/AQN;
 
     new-instance v0, LX/Mub;
 
     invoke-direct {v0, v1}, LX/Mub;-><init>(LX/AQN;)V
 
-    .line 2876214
+    .line 2876235
     new-instance v17, LX/Muc;
 
     move-object/from16 v20, p11
@@ -290,7 +290,7 @@
 
     invoke-direct/range {v17 .. v23}, LX/Muc;-><init>(LX/Mub;LX/Mv3;Ljava/lang/String;ZZZ)V
 
-    .line 2876215
+    .line 2876236
     invoke-static/range {v17 .. v17}, LX/MjZ;->A00(LX/Muc;)Ljava/lang/String;
 
     move-result-object v16
@@ -302,12 +302,12 @@
     :catch_0
     const-string v0, "Unable to launch checkout"
 
-    .line 2876216
+    .line 2876237
     move-object/from16 v1, p3
 
     invoke-static {v1, v0}, LX/0Ud;->A02(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2876217
+    .line 2876238
     :goto_5
     new-instance v11, Lcom/instagram/model/payments/checkout/CheckoutLaunchParams;
 
@@ -335,12 +335,12 @@
 .method public static A01(Lcom/instagram/model/shopping/ProductCheckoutProperties;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/Set;)Lcom/instagram/model/payments/checkout/CheckoutLaunchParams;
     .locals 32
 
-    .line 2876218
+    .line 2876239
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v2
 
-    .line 2876219
+    .line 2876240
     invoke-interface/range {p13 .. p13}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -358,7 +358,7 @@
 
     check-cast v0, LX/EbJ;
 
-    .line 2876220
+    .line 2876241
     invoke-static {v0}, LX/Mxs;->A02(LX/EbJ;)Lcom/instagram/model/payments/common/ProductItem;
 
     move-result-object v0
@@ -367,42 +367,42 @@
 
     goto :goto_0
 
-    .line 2876221
+    .line 2876242
     :cond_0
     move-object/from16 v1, p0
 
     iget-object v0, v1, Lcom/instagram/model/shopping/ProductCheckoutProperties;->A0H:Ljava/lang/String;
 
-    .line 2876222
+    .line 2876243
     const/16 v16, 0x0
 
     move-object/from16 v10, v16
 
     if-eqz v0, :cond_1
 
-    .line 2876223
+    .line 2876244
     move-object v10, v0
 
-    .line 2876224
+    .line 2876245
     :cond_1
     iget-object v0, v1, Lcom/instagram/model/shopping/ProductCheckoutProperties;->A0G:Ljava/lang/String;
 
-    .line 2876225
+    .line 2876246
     move-object/from16 v11, v16
 
     if-eqz v0, :cond_2
 
-    .line 2876226
+    .line 2876247
     move-object v11, v0
 
-    .line 2876227
+    .line 2876248
     :cond_2
     iget-object v0, v1, Lcom/instagram/model/shopping/ProductCheckoutProperties;->A09:Ljava/lang/Boolean;
 
-    .line 2876228
+    .line 2876249
     if-eqz v0, :cond_3
 
-    .line 2876229
+    .line 2876250
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v0
@@ -414,64 +414,64 @@
     :cond_3
     const/16 v21, 0x0
 
-    .line 2876230
+    .line 2876251
     :cond_4
     new-instance v6, LX/Mqe;
 
     invoke-direct {v6}, LX/Mqe;-><init>()V
 
-    .line 2876231
+    .line 2876252
     move-object/from16 v7, p1
 
     iput-object v7, v6, LX/Mqe;->A06:Ljava/lang/String;
 
-    .line 2876232
+    .line 2876253
     move-object/from16 v0, p6
 
     iput-object v0, v6, LX/Mqe;->A01:Ljava/lang/String;
 
-    .line 2876233
+    .line 2876254
     move-object/from16 v0, p7
 
     iput-object v0, v6, LX/Mqe;->A03:Ljava/lang/String;
 
-    .line 2876234
+    .line 2876255
     move-object/from16 v0, p8
 
     iput-object v0, v6, LX/Mqe;->A00:Ljava/lang/String;
 
-    .line 2876235
+    .line 2876256
     move-object/from16 v0, p9
 
     iput-object v0, v6, LX/Mqe;->A07:Ljava/lang/String;
 
-    .line 2876236
+    .line 2876257
     move-object/from16 v0, p10
 
     iput-object v0, v6, LX/Mqe;->A02:Ljava/lang/String;
 
-    .line 2876237
+    .line 2876258
     move-object/from16 v0, p11
 
     iput-object v0, v6, LX/Mqe;->A05:Ljava/lang/String;
 
-    .line 2876238
+    .line 2876259
     move-object/from16 v0, p4
 
     iput-object v0, v6, LX/Mqe;->A0B:Ljava/lang/String;
 
-    .line 2876239
+    .line 2876260
     move-object/from16 v15, p12
 
     iput-object v15, v6, LX/Mqe;->A0A:Ljava/lang/String;
 
-    .line 2876240
+    .line 2876261
     :try_start_0
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v8
 
-    .line 2876241
+    .line 2876262
     invoke-interface/range {p13 .. p13}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v9
@@ -489,48 +489,48 @@
 
     check-cast v0, LX/EbJ;
 
-    .line 2876242
+    .line 2876263
     invoke-static {v0}, LX/Mxs;->A02(LX/EbJ;)Lcom/instagram/model/payments/common/ProductItem;
 
     move-result-object v0
 
-    .line 2876243
+    .line 2876264
     iget-object v5, v0, Lcom/instagram/model/payments/common/ProductItem;->A03:Ljava/lang/String;
 
-    .line 2876244
+    .line 2876265
     iget v4, v0, Lcom/instagram/model/payments/common/ProductItem;->A00:I
 
-    .line 2876245
+    .line 2876266
     iget-object v3, v0, Lcom/instagram/model/payments/common/ProductItem;->A01:Lcom/instagram/model/payments/CurrencyAmountInfo;
 
-    .line 2876246
+    .line 2876267
     iget-object v1, v0, Lcom/instagram/model/payments/common/ProductItem;->A02:Ljava/lang/String;
 
-    .line 2876247
+    .line 2876268
     new-instance v0, LX/Muw;
 
     invoke-direct {v0, v3, v5, v1, v4}, LX/Muw;-><init>(Lcom/instagram/model/payments/CurrencyAmountInfo;Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 2876248
+    .line 2876269
     invoke-virtual {v8, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 2876249
+    .line 2876270
     :cond_5
     const-string v25, "cart"
 
-    .line 2876250
+    .line 2876271
     const/16 v26, 0x1
 
     const/16 v27, 0x0
 
-    .line 2876251
+    .line 2876272
     new-instance v0, LX/N5A;
 
     invoke-direct {v0, v8}, LX/N5A;-><init>(Ljava/util/List;)V
 
-    .line 2876252
+    .line 2876273
     new-instance v24, LX/Mv3;
 
     move-object/from16 v28, v24
@@ -545,14 +545,14 @@
 
     invoke-direct/range {v28 .. v33}, LX/Mv3;-><init>(LX/Mqe;LX/N5A;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2876253
+    .line 2876274
     sget-object v1, LX/AQN;->A03:LX/AQN;
 
     new-instance v0, LX/Mub;
 
     invoke-direct {v0, v1}, LX/Mub;-><init>(LX/AQN;)V
 
-    .line 2876254
+    .line 2876275
     new-instance v22, LX/Muc;
 
     move-object/from16 v23, v0
@@ -561,7 +561,7 @@
 
     invoke-direct/range {v22 .. v28}, LX/Muc;-><init>(LX/Mub;LX/Mv3;Ljava/lang/String;ZZZ)V
 
-    .line 2876255
+    .line 2876276
     invoke-static/range {v22 .. v22}, LX/MjZ;->A00(LX/Muc;)Ljava/lang/String;
 
     move-result-object v14
@@ -573,14 +573,14 @@
     :catch_0
     const-string v0, "Unable to launch checkout"
 
-    .line 2876256
+    .line 2876277
     move-object/from16 v1, p3
 
     invoke-static {v1, v0}, LX/0Ud;->A02(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object/from16 v14, v16
 
-    .line 2876257
+    .line 2876278
     :goto_2
     const/16 v20, 0x0
 

@@ -116,7 +116,7 @@
     sub-int/2addr v4, v0
 
     .line 33
-    const v1, 0x7f0701cb
+    const v1, 0x7f0701c2
 
     .line 34
     .line 35

@@ -1471,7 +1471,7 @@
 
     .line 273
     .line 274
-    invoke-static {v5, v0}, LX/Chg;->A03(FF)F
+    invoke-static {v5, v0}, LX/Chh;->A00(FF)F
 
     .line 275
     .line 276
@@ -1503,7 +1503,7 @@
 
     .line 289
     .line 290
-    invoke-static {v4, v0}, LX/Chg;->A03(FF)F
+    invoke-static {v4, v0}, LX/Chh;->A00(FF)F
 
     .line 291
     .line 292

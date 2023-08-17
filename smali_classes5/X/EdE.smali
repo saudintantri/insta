@@ -693,7 +693,7 @@
     move-result-object v5
 
     .line 125
-    invoke-static {v5, v3}, LX/Chi;->A1C(LX/0AX;Lcom/instagram/model/shopping/Product;)V
+    invoke-static {v5, v3}, LX/Chi;->A1D(LX/0AX;Lcom/instagram/model/shopping/Product;)V
 
     .line 126
     .line 127
@@ -1345,7 +1345,7 @@
     .line 185
     .line 186
     :cond_2
-    invoke-static {v4}, LX/Chf;->A1D(LX/0AX;)V
+    invoke-static {v4}, LX/Chf;->A1E(LX/0AX;)V
 
     .line 187
     .line 188
@@ -1740,7 +1740,7 @@
     .line 389
     .line 390
     .line 391
-    invoke-static {v3, v10}, LX/Chg;->A1S(LX/19z;Ljava/lang/String;)V
+    invoke-static {v3, v10}, LX/Chg;->A1R(LX/19z;Ljava/lang/String;)V
 
     .line 392
     .line 393

@@ -306,7 +306,7 @@
 
     .line 27
     .line 28
-    const v2, 0x7f0700e3
+    const v2, 0x7f0700e2
 
     .line 29
     .line 30

@@ -813,7 +813,7 @@
     .line 411
     .line 412
     .line 413
-    invoke-static {v6, v0}, LX/Che;->A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+    invoke-static {v6, v0}, LX/Che;->A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
 
     .line 414
     .line 415

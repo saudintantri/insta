@@ -281,7 +281,7 @@
 
     .line 48
     .line 49
-    invoke-static {v0}, LX/Chh;->A0P(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
+    invoke-static {v0}, LX/Chh;->A0Q(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
 
     .line 50
     .line 51

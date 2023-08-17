@@ -156,7 +156,7 @@
 
     .line 47
     .line 48
-    const v0, 0x7f070120
+    const v0, 0x7f07011a
 
     .line 49
     .line 50
@@ -565,7 +565,7 @@
     .line 262
     .line 263
     .line 264
-    const v0, 0x7f0700f9
+    const v0, 0x7f0700f7
 
     .line 265
     .line 266

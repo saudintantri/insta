@@ -1004,7 +1004,7 @@
 
     .line 449
     .line 450
-    invoke-static {v2, v1}, LX/Chf;->A15(Landroid/widget/EditText;Ljava/lang/String;)V
+    invoke-static {v2, v1}, LX/Chf;->A16(Landroid/widget/EditText;Ljava/lang/String;)V
 
     .line 451
     .line 452
@@ -1276,7 +1276,7 @@
     const/4 v1, 0x1
 
     .line 586
-    invoke-static {v3, v2, v1}, LX/Che;->A02(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
+    invoke-static {v3, v2, v1}, LX/Che;->A03(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
 
     .line 587
     .line 588
@@ -1722,7 +1722,7 @@
 
     .line 810
     .line 811
-    invoke-static {v1}, LX/Chg;->A0O(LX/01o;)LX/Cy5;
+    invoke-static {v1}, LX/Chg;->A0N(LX/01o;)LX/Cy5;
 
     .line 812
     .line 813
@@ -1750,7 +1750,7 @@
 
     .line 824
     .line 825
-    invoke-static {v1, v2}, LX/Chf;->A0K(Ljava/lang/Object;Ljava/lang/Object;)Landroid/os/Bundle;
+    invoke-static {v1, v2}, LX/Chf;->A0L(Ljava/lang/Object;Ljava/lang/Object;)Landroid/os/Bundle;
 
     .line 826
     .line 827
@@ -1766,7 +1766,7 @@
 
     .line 832
     .line 833
-    invoke-static {v3, v6, v4, v2, v1}, LX/Chg;->A17(Landroid/os/Bundle;LX/ChQ;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v6, v4, v2, v1}, LX/Chg;->A16(Landroid/os/Bundle;LX/ChQ;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 834
     .line 835
@@ -1984,7 +1984,7 @@
     .line 945
     .line 946
     :goto_4
-    invoke-static {v1}, LX/Chh;->A00(I)I
+    invoke-static {v1}, LX/Chh;->A01(I)I
 
     .line 947
     .line 948

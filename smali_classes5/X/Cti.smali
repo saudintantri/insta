@@ -385,7 +385,7 @@
 
     .line 53
     .line 54
-    invoke-static {v5, v2, v1, v0, v0}, LX/Chg;->A13(Landroid/graphics/RectF;Landroid/graphics/drawable/Drawable;FFF)V
+    invoke-static {v5, v2, v1, v0, v0}, LX/Chg;->A12(Landroid/graphics/RectF;Landroid/graphics/drawable/Drawable;FFF)V
 
     .line 55
     .line 56

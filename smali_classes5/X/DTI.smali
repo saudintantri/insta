@@ -226,7 +226,7 @@
     .line 99
     .line 100
     .line 101
-    invoke-static {v1, v0}, LX/Che;->A01(Landroid/content/Context;I)I
+    invoke-static {v1, v0}, LX/Che;->A02(Landroid/content/Context;I)I
 
     .line 102
     .line 103

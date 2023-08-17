@@ -21,15 +21,15 @@
 
     const-string v0, "REPORT"
 
-    .line 1828235
+    .line 1828255
     invoke-static {v0}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v21
 
-    .line 1828236
+    .line 1828256
     invoke-interface/range {v22 .. v22}, Ljava/util/List;->clear()V
 
-    .line 1828237
+    .line 1828257
     :cond_0
     move-object/from16 v0, p6
 
@@ -41,7 +41,7 @@
 
     if-nez v0, :cond_1
 
-    .line 1828238
+    .line 1828258
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
@@ -52,40 +52,40 @@
 
     move-result-object v6
 
-    .line 1828239
+    .line 1828259
     :cond_1
     move-object/from16 v4, p5
 
     if-eqz p5, :cond_5
 
-    .line 1828240
+    .line 1828260
     const/4 v1, 0x0
 
-    .line 1828241
+    .line 1828261
     invoke-static {v4}, LX/Chb;->A0W(Lcom/instagram/model/shopping/ProductItemWithAR;)Lcom/instagram/model/shopping/Product;
 
     move-result-object v0
 
-    .line 1828242
+    .line 1828262
     invoke-static {v0, v1}, LX/DqZ;->A00(Lcom/instagram/model/shopping/Product;Z)Ljava/lang/String;
 
     move-result-object v13
 
-    .line 1828243
+    .line 1828263
     invoke-static {v4}, LX/Chb;->A0W(Lcom/instagram/model/shopping/ProductItemWithAR;)Lcom/instagram/model/shopping/Product;
 
     move-result-object v0
 
-    .line 1828244
+    .line 1828264
     invoke-static {v0}, LX/Chb;->A0i(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     move-result-object v14
 
-    .line 1828245
+    .line 1828265
     :goto_0
     const/4 v10, 0x0
 
-    .line 1828246
+    .line 1828266
     new-instance v7, Lcom/instagram/model/effect/AttributedAREffect;
 
     move-object/from16 v15, p10
@@ -118,131 +118,131 @@
 
     invoke-direct/range {v7 .. v25}, Lcom/instagram/model/effect/AttributedAREffect;-><init>(Lcom/instagram/common/typedurl/ImageUrl;Lcom/instagram/common/typedurl/ImageUrl;LX/2mG;Lcom/instagram/model/shopping/ProductAREffectContainer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;IZ)V
 
-    .line 1828247
+    .line 1828267
     if-eqz p5, :cond_2
 
-    .line 1828248
+    .line 1828268
     invoke-static {v4}, LX/Chb;->A0W(Lcom/instagram/model/shopping/ProductItemWithAR;)Lcom/instagram/model/shopping/Product;
 
     move-result-object v0
 
-    .line 1828249
+    .line 1828269
     invoke-static {v0}, LX/Chb;->A0i(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 1828250
+    .line 1828270
     :cond_2
     invoke-static {v5}, LX/0yH;->A08(Ljava/lang/Object;)V
 
-    .line 1828251
+    .line 1828271
     new-instance v2, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/model/EffectInfoAttributionConfiguration;
 
-    .line 1828252
+    .line 1828272
     invoke-direct {v2, v7, v5}, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/model/EffectInfoAttributionConfiguration;-><init>(Lcom/instagram/model/effect/AREffect;Ljava/lang/String;)V
 
-    .line 1828253
+    .line 1828273
     move-object/from16 v0, p12
 
     iput-object v0, v2, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/model/EffectInfoAttributionConfiguration;->A08:Ljava/lang/String;
 
-    .line 1828254
+    .line 1828274
     iput-object v6, v2, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/model/EffectInfoAttributionConfiguration;->A09:Ljava/lang/String;
 
-    .line 1828255
+    .line 1828275
     move-object/from16 v0, p3
 
     iput-object v0, v2, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/model/EffectInfoAttributionConfiguration;->A02:LX/2uj;
 
-    .line 1828256
+    .line 1828276
     if-eqz p5, :cond_4
 
-    .line 1828257
+    .line 1828277
     sget-object v0, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/model/EffectInfoBottomSheetMode;->A02:Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/model/EffectInfoBottomSheetMode;
 
-    .line 1828258
+    .line 1828278
     :goto_1
     iput-object v0, v2, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/model/EffectInfoAttributionConfiguration;->A01:Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/model/EffectInfoBottomSheetMode;
 
-    .line 1828259
+    .line 1828279
     if-eqz p5, :cond_3
 
-    .line 1828260
+    .line 1828280
     iget-object v0, v4, Lcom/instagram/model/shopping/ProductItemWithAR;->A01:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
     invoke-static {v0}, LX/43p;->A00(Lcom/instagram/model/shopping/ProductDetailsProductItemDict;)Lcom/instagram/model/shopping/Product;
 
-    .line 1828261
+    .line 1828281
     const/4 v1, 0x0
 
     new-instance v0, Lcom/instagram/model/shopping/ProductAREffectContainer;
 
     invoke-direct {v0, v4, v1}, Lcom/instagram/model/shopping/ProductAREffectContainer;-><init>(Lcom/instagram/model/shopping/ProductItemWithAR;Z)V
 
-    .line 1828262
+    .line 1828282
     :goto_2
     iput-object v0, v2, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/model/EffectInfoAttributionConfiguration;->A05:Lcom/instagram/model/shopping/ProductAREffectContainer;
 
-    .line 1828263
+    .line 1828283
     move-object/from16 v0, p4
 
     iput-object v0, v2, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/model/EffectInfoAttributionConfiguration;->A03:LX/2mG;
 
-    .line 1828264
+    .line 1828284
     move-object/from16 v0, p14
 
     iput-object v0, v2, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/model/EffectInfoAttributionConfiguration;->A0A:Ljava/lang/String;
 
-    .line 1828265
+    .line 1828285
     new-instance v1, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/EffectInfoBottomSheetConfiguration;
 
-    .line 1828266
+    .line 1828286
     invoke-direct {v1}, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/EffectInfoBottomSheetConfiguration;-><init>()V
 
-    .line 1828267
+    .line 1828287
     invoke-static {v2}, Lcom/google/common/collect/ImmutableList;->of(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
 
     move-result-object v0
 
-    .line 1828268
+    .line 1828288
     iput-object v0, v1, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/EffectInfoBottomSheetConfiguration;->A02:Lcom/google/common/collect/ImmutableList;
 
-    .line 1828269
+    .line 1828289
     iput v3, v1, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/EffectInfoBottomSheetConfiguration;->A00:I
 
-    .line 1828270
+    .line 1828290
     sget-object v0, LX/1he;->A3T:LX/1he;
 
-    .line 1828271
+    .line 1828291
     iput-object v0, v1, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/EffectInfoBottomSheetConfiguration;->A01:LX/1he;
 
-    .line 1828272
+    .line 1828292
     const/4 v0, 0x0
 
-    .line 1828273
+    .line 1828293
     iput-boolean v0, v1, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/EffectInfoBottomSheetConfiguration;->A05:Z
 
-    .line 1828274
+    .line 1828294
     move-object/from16 v0, p13
 
     iput-object v0, v1, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/EffectInfoBottomSheetConfiguration;->A03:Ljava/lang/String;
 
-    .line 1828275
+    .line 1828295
     return-object v1
 
-    .line 1828276
+    .line 1828296
     :cond_3
     const/4 v0, 0x0
 
     goto :goto_2
 
-    .line 1828277
+    .line 1828297
     :cond_4
     sget-object v0, Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/model/EffectInfoBottomSheetMode;->A01:Lcom/instagram/creation/capture/quickcapture/effectinfobottomsheet/model/EffectInfoBottomSheetMode;
 
     goto :goto_1
 
-    .line 1828278
+    .line 1828298
     :cond_5
     move-object v14, v5
 

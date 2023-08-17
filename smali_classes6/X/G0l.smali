@@ -613,7 +613,7 @@
     int-to-float v3, v1
 
     .line 156
-    invoke-static {v3, v7}, LX/Chg;->A03(FF)F
+    invoke-static {v3, v7}, LX/Chh;->A00(FF)F
 
     .line 157
     .line 158
@@ -742,7 +742,7 @@
     int-to-float v3, v3
 
     .line 217
-    invoke-static {v3, v7}, LX/Chg;->A03(FF)F
+    invoke-static {v3, v7}, LX/Chh;->A00(FF)F
 
     .line 218
     .line 219
@@ -867,7 +867,7 @@
     int-to-float v6, v3
 
     .line 276
-    invoke-static {v6, v8}, LX/Chg;->A03(FF)F
+    invoke-static {v6, v8}, LX/Chh;->A00(FF)F
 
     .line 277
     .line 278
@@ -994,7 +994,7 @@
     int-to-float v6, v3
 
     .line 335
-    invoke-static {v6, v8}, LX/Chg;->A03(FF)F
+    invoke-static {v6, v8}, LX/Chh;->A00(FF)F
 
     .line 336
     .line 337
@@ -1388,7 +1388,7 @@
     .line 101
     .line 102
     .line 103
-    invoke-static {v5, v0}, LX/Che;->A01(Landroid/content/Context;I)I
+    invoke-static {v5, v0}, LX/Che;->A02(Landroid/content/Context;I)I
 
     .line 104
     .line 105

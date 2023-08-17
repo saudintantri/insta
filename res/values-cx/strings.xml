@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">Kini lagmit nga tungod sa teknikal nga sayop nga gipaningkamotan namong matarong. Sulayi sa pag-reload kini nga pahina.</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">I-refresh</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003b">Kini lagmit nga tungod sa teknikal nga sayop nga gipaningkamotan namong matarong. Sulayi sa pag-reload kini nga pahina.</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003c">I-refresh</string>
 </resources>

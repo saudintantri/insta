@@ -699,7 +699,7 @@
     .line 342
     .line 343
     .line 344
-    invoke-static {v1}, LX/Chg;->A0Q(LX/01o;)Lcom/instagram/model/shopping/Product;
+    invoke-static {v1}, LX/Chg;->A0P(LX/01o;)Lcom/instagram/model/shopping/Product;
 
     .line 345
     .line 346
@@ -766,7 +766,7 @@
     const/4 v11, 0x0
 
     .line 377
-    invoke-static {v1}, LX/Chg;->A0Q(LX/01o;)Lcom/instagram/model/shopping/Product;
+    invoke-static {v1}, LX/Chg;->A0P(LX/01o;)Lcom/instagram/model/shopping/Product;
 
     .line 378
     .line 379

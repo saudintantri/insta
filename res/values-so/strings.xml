@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">Magaalo</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120005">Guriga/nambarka qolka (ikhtiyaari ah)</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Daalacdaha xidh</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s ayaa rabo inuu isticmaalo goobta aaladaada.</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Oggolow</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Xannib</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">Dib u noqo</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Xaqiiji</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">Tani waxa laga yaabaa inay sabab u tahay cilad farsamo oo aanu ka shaqaynayno sidii aanu u hagaajin lahayn. Isku day inaad dib u soo kiciso boggan.</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Dib u cusboonaysii</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">Bogga hadda lama heli kadho</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Magaca Labaad</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">Bogga lama soo muujin karo</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">Ku fur %1$s</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Ikhtiyaaro badan</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Magaca Koowaad</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">Magac</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120003">Magaalo</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120005">Guriga/nambarka qolka (ikhtiyaari ah)</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120009">Daalacdaha xidh</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12000b">%1$s ayaa rabo inuu isticmaalo goobta aaladaada.</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12000c">Oggolow</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12000d">Xannib</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12000f">Dib u noqo</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12002c">Xaqiiji</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003b">Tani waxa laga yaabaa inay sabab u tahay cilad farsamo oo aanu ka shaqaynayno sidii aanu u hagaajin lahayn. Isku day inaad dib u soo kiciso boggan.</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003c">Dib u cusboonaysii</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003d">Bogga hadda lama heli kadho</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003e">Magaca Labaad</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003f">Bogga lama soo muujin karo</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120041">Ku fur %1$s</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120042">Ikhtiyaaro badan</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120043">Magaca Koowaad</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120058">Magac</string>
 </resources>

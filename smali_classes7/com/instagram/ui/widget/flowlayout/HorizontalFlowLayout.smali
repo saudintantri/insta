@@ -631,7 +631,7 @@
     move-object v4, p0
 
     .line 6
-    invoke-static {p0, v0}, LX/Chf;->A0B(Landroid/view/View;I)I
+    invoke-static {p0, v0}, LX/Chf;->A0C(Landroid/view/View;I)I
 
     .line 7
     .line 8

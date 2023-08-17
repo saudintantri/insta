@@ -1048,7 +1048,7 @@
     int-to-float v0, v0
 
     .line 5
-    invoke-static {p2, v0}, LX/Chg;->A03(FF)F
+    invoke-static {p2, v0}, LX/Chh;->A00(FF)F
 
     .line 6
     .line 7

@@ -42,7 +42,7 @@
 
     .line 4
     .line 5
-    invoke-static {p0, v0}, LX/Chi;->A0L(Ljava/lang/Object;I)LX/1F1;
+    invoke-static {p0, v0}, LX/Chi;->A0M(Ljava/lang/Object;I)LX/1F1;
 
     .line 6
     .line 7
@@ -58,7 +58,7 @@
 
     .line 12
     .line 13
-    invoke-static {p0, v0}, LX/Chi;->A0L(Ljava/lang/Object;I)LX/1F1;
+    invoke-static {p0, v0}, LX/Chi;->A0M(Ljava/lang/Object;I)LX/1F1;
 
     .line 14
     .line 15
@@ -74,7 +74,7 @@
 
     .line 20
     .line 21
-    invoke-static {p0, v0}, LX/Chi;->A0L(Ljava/lang/Object;I)LX/1F1;
+    invoke-static {p0, v0}, LX/Chi;->A0M(Ljava/lang/Object;I)LX/1F1;
 
     .line 22
     .line 23

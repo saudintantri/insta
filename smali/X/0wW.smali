@@ -5183,23 +5183,6 @@
 
     .line 89765
     :sswitch_56
-    const-string/jumbo v0, "jni-mcpintegration-mcp_integration_inst-1102327479PluginRegistry"
-
-    invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_16
-
-    .line 89766
-    invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libjni_mcpintegration_mcp_integration_inst_1102327479PluginRegistry_so()I
-
-    move-result v0
-
-    goto/16 :goto_f
-
-    .line 89767
-    :sswitch_57
     const-string/jumbo v0, "graphbase"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5208,15 +5191,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89768
+    .line 89766
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgraphbase_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89769
-    :sswitch_58
+    .line 89767
+    :sswitch_57
     const-string/jumbo v0, "graphutil"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5225,15 +5208,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89770
+    .line 89768
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgraphutil_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89771
-    :sswitch_59
+    .line 89769
+    :sswitch_58
     const-string v0, "android-video-protocol-eventlog"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5242,15 +5225,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89772
+    .line 89770
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libandroid_video_protocol_eventlog_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89773
-    :sswitch_5a
+    .line 89771
+    :sswitch_59
     const-string/jumbo v0, "securethreadlistchildresultsetutils"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5259,15 +5242,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89774
+    .line 89772
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libsecurethreadlistchildresultsetutils_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89775
-    :sswitch_5b
+    .line 89773
+    :sswitch_5a
     const-string/jumbo v0, "yogacore"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5276,15 +5259,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89776
+    .line 89774
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libyogacore_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89777
-    :sswitch_5c
+    .line 89775
+    :sswitch_5b
     const-string/jumbo v0, "rsysdolbymodulejni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5293,15 +5276,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89778
+    .line 89776
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysdolbymodulejni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89779
-    :sswitch_5d
+    .line 89777
+    :sswitch_5c
     const-string/jumbo v0, "mailboxadvancedcryptodualsendjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5310,15 +5293,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89780
+    .line 89778
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxadvancedcryptodualsendjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89781
-    :sswitch_5e
+    .line 89779
+    :sswitch_5d
     const-string/jumbo v0, "graphservice-jni-nativeconfigloader"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5327,15 +5310,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89782
+    .line 89780
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgraphservice_jni_nativeconfigloader_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89783
-    :sswitch_5f
+    .line 89781
+    :sswitch_5e
     const-string/jumbo v0, "pando-serialize"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5344,15 +5327,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89784
+    .line 89782
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libpando_serialize_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89785
-    :sswitch_60
+    .line 89783
+    :sswitch_5f
     const-string/jumbo v0, "featureconfig"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5361,15 +5344,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89786
+    .line 89784
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libfeatureconfig_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89787
-    :sswitch_61
+    .line 89785
+    :sswitch_60
     const-string/jumbo v0, "mediastreaming-sessionlog"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5378,15 +5361,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89788
+    .line 89786
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmediastreaming_sessionlog_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89789
-    :sswitch_62
+    .line 89787
+    :sswitch_61
     const-string/jumbo v0, "mailboxtypingindicatorjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5395,15 +5378,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89790
+    .line 89788
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxtypingindicatorjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89791
-    :sswitch_63
+    .line 89789
+    :sswitch_62
     const-string v0, "arpersistenceservice"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5412,15 +5395,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89792
+    .line 89790
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libarpersistenceservice_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89793
-    :sswitch_64
+    .line 89791
+    :sswitch_63
     const-string/jumbo v0, "mnscertificateverifier"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5429,15 +5412,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89794
+    .line 89792
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmnscertificateverifier_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89795
-    :sswitch_65
+    .line 89793
+    :sswitch_64
     const-string/jumbo v0, "rsysconnectfunneljni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5446,15 +5429,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89796
+    .line 89794
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysconnectfunneljni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89797
-    :sswitch_66
+    .line 89795
+    :sswitch_65
     const-string/jumbo v0, "mailboxinstagramsearchjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5463,15 +5446,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89798
+    .line 89796
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxinstagramsearchjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89799
-    :sswitch_67
+    .line 89797
+    :sswitch_66
     const-string/jumbo v0, "mailboxrtccalleventsjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5480,15 +5463,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89800
+    .line 89798
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxrtccalleventsjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89801
-    :sswitch_68
+    .line 89799
+    :sswitch_67
     const-string v0, "ard-scripting-downloader"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5497,15 +5480,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89802
+    .line 89800
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libard_scripting_downloader_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89803
-    :sswitch_69
+    .line 89801
+    :sswitch_68
     const-string/jumbo v0, "profilo_mapping_logger"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5514,15 +5497,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89804
+    .line 89802
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_mapping_logger_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89805
-    :sswitch_6a
+    .line 89803
+    :sswitch_69
     const-string/jumbo v0, "profilo_atrace"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5531,15 +5514,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89806
+    .line 89804
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_atrace_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89807
-    :sswitch_6b
+    .line 89805
+    :sswitch_6a
     const-string/jumbo v0, "mailboxsearchjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5548,15 +5531,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89808
+    .line 89806
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxsearchjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89809
-    :sswitch_6c
+    .line 89807
+    :sswitch_6b
     const-string v0, "ard-connection-info"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5565,15 +5548,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89810
+    .line 89808
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libard_connection_info_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89811
-    :sswitch_6d
+    .line 89809
+    :sswitch_6c
     const-string/jumbo v0, "rsysendedjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5582,15 +5565,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89812
+    .line 89810
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysendedjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89813
-    :sswitch_6e
+    .line 89811
+    :sswitch_6d
     const-string v0, "ard-android-effect-manager"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5599,15 +5582,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89814
+    .line 89812
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libard_android_effect_manager_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89815
-    :sswitch_6f
+    .line 89813
+    :sswitch_6e
     const-string/jumbo v0, "profilo_perfevents"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5616,15 +5599,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89816
+    .line 89814
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_perfevents_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89817
-    :sswitch_70
+    .line 89815
+    :sswitch_6f
     const-string/jumbo v0, "rsysvideorenderjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5633,15 +5616,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89818
+    .line 89816
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysvideorenderjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89819
-    :sswitch_71
+    .line 89817
+    :sswitch_70
     const-string/jumbo v0, "openh264v211libdecoderAndroid"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5650,15 +5633,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89820
+    .line 89818
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libopenh264v211libdecoderAndroid_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89821
-    :sswitch_72
+    .line 89819
+    :sswitch_71
     const-string/jumbo v0, "instagramDatabaseSchemaDeployer-acg"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5667,15 +5650,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89822
+    .line 89820
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libinstagramDatabaseSchemaDeployer_acg_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89823
-    :sswitch_73
+    .line 89821
+    :sswitch_72
     const-string/jumbo v0, "instagramDatabaseSchemaDeployer-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5684,15 +5667,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89824
+    .line 89822
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libinstagramDatabaseSchemaDeployer_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89825
-    :sswitch_74
+    .line 89823
+    :sswitch_73
     const-string/jumbo v0, "instagramDatabaseSchemaDeployerMDMS"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5701,15 +5684,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89826
+    .line 89824
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libinstagramDatabaseSchemaDeployerMDMS_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89827
-    :sswitch_75
+    .line 89825
+    :sswitch_74
     const-string/jumbo v0, "instagramDatabaseSchemaDeployernovt"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5718,15 +5701,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89828
+    .line 89826
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libinstagramDatabaseSchemaDeployernovt_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89829
-    :sswitch_76
+    .line 89827
+    :sswitch_75
     const-string/jumbo v0, "sodium"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5735,15 +5718,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89830
+    .line 89828
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libsodium_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89831
-    :sswitch_77
+    .line 89829
+    :sswitch_76
     const-string/jumbo v0, "graphservice-jni-nativeconfig"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5752,15 +5735,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89832
+    .line 89830
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgraphservice_jni_nativeconfig_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89833
-    :sswitch_78
+    .line 89831
+    :sswitch_77
     const-string/jumbo v0, "profilo_config"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5769,15 +5752,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89834
+    .line 89832
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_config_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89835
-    :sswitch_79
+    .line 89833
+    :sswitch_78
     const-string/jumbo v0, "profilo_configjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5786,15 +5769,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89836
+    .line 89834
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_configjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89837
-    :sswitch_7a
+    .line 89835
+    :sswitch_79
     const-string/jumbo v0, "glcommon"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5803,15 +5786,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89838
+    .line 89836
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libglcommon_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89839
-    :sswitch_7b
+    .line 89837
+    :sswitch_7a
     const-string/jumbo v0, "fbandroid_java_com_facebook_cameracore_mediapipeline_arclass_benchmark_interfaces_jni_jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5820,15 +5803,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89840
+    .line 89838
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libfbandroid_java_com_facebook_cameracore_mediapipeline_arclass_benchmark_interfaces_jni_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89841
-    :sswitch_7c
+    .line 89839
+    :sswitch_7b
     const-string/jumbo v0, "mem_alloc_marker"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5837,15 +5820,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89842
+    .line 89840
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmem_alloc_marker_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89843
-    :sswitch_7d
+    .line 89841
+    :sswitch_7c
     const-string/jumbo v0, "profilo_mmapbuf_buffer_jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5854,15 +5837,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89844
+    .line 89842
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_mmapbuf_buffer_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89845
-    :sswitch_7e
+    .line 89843
+    :sswitch_7d
     const-string/jumbo v0, "portalaudiocontrol"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5871,15 +5854,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89846
+    .line 89844
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libportalaudiocontrol_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89847
-    :sswitch_7f
+    .line 89845
+    :sswitch_7e
     const-string/jumbo v0, "rsysdatachanneljni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5888,15 +5871,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89848
+    .line 89846
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysdatachanneljni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89849
-    :sswitch_80
+    .line 89847
+    :sswitch_7f
     const-string/jumbo v0, "proxygen_lib_utils_compression"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5905,15 +5888,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89850
+    .line 89848
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libproxygen_lib_utils_compression_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89851
-    :sswitch_81
+    .line 89849
+    :sswitch_80
     const-string/jumbo v0, "pando-regionhint-jni-instagram"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5922,15 +5905,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89852
+    .line 89850
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libpando_regionhint_jni_instagram_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89853
-    :sswitch_82
+    .line 89851
+    :sswitch_81
     const-string/jumbo v0, "streamid_jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5939,15 +5922,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89854
+    .line 89852
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libstreamid_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89855
-    :sswitch_83
+    .line 89853
+    :sswitch_82
     const-string/jumbo v0, "mailboxfeaturelimitsjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5956,15 +5939,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89856
+    .line 89854
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxfeaturelimitsjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89857
-    :sswitch_84
+    .line 89855
+    :sswitch_83
     const-string/jumbo v0, "webrtc"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5973,15 +5956,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89858
+    .line 89856
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libwebrtc_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89859
-    :sswitch_85
+    .line 89857
+    :sswitch_84
     const-string/jumbo v0, "instagramTableToCqlProcRegistration-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -5990,15 +5973,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89860
+    .line 89858
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libinstagramTableToCqlProcRegistration_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89861
-    :sswitch_86
+    .line 89859
+    :sswitch_85
     const-string/jumbo v0, "rsysvideoeffectcommunicationjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6007,15 +5990,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89862
+    .line 89860
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysvideoeffectcommunicationjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89863
-    :sswitch_87
+    .line 89861
+    :sswitch_86
     const-string v0, "arclass"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6024,15 +6007,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89864
+    .line 89862
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libarclass_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89865
-    :sswitch_88
+    .line 89863
+    :sswitch_87
     const-string/jumbo v0, "xxhash"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6041,15 +6024,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89866
+    .line 89864
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libxxhash_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89867
-    :sswitch_89
+    .line 89865
+    :sswitch_88
     const-string v0, "arthook"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6058,15 +6041,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89868
+    .line 89866
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libarthook_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89869
-    :sswitch_8a
+    .line 89867
+    :sswitch_89
     const-string/jumbo v0, "mediastreaming"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6075,15 +6058,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89870
+    .line 89868
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmediastreaming_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89871
-    :sswitch_8b
+    .line 89869
+    :sswitch_8a
     const-string/jumbo v0, "profilo_signal_handler"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6092,15 +6075,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89872
+    .line 89870
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_signal_handler_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89873
-    :sswitch_8c
+    .line 89871
+    :sswitch_8b
     const-string/jumbo v0, "pando-graphql-instagram-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6109,15 +6092,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89874
+    .line 89872
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libpando_graphql_instagram_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89875
-    :sswitch_8d
+    .line 89873
+    :sswitch_8c
     const-string/jumbo v0, "graphservice-jni-tree"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6126,15 +6109,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89876
+    .line 89874
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgraphservice_jni_tree_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89877
-    :sswitch_8e
+    .line 89875
+    :sswitch_8d
     const-string/jumbo v0, "graphqlrealtimeservice-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6143,15 +6126,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89878
+    .line 89876
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgraphqlrealtimeservice_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89879
-    :sswitch_8f
+    .line 89877
+    :sswitch_8e
     const-string/jumbo v0, "tigonobserver"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6160,15 +6143,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89880
+    .line 89878
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libtigonobserver_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89881
-    :sswitch_90
+    .line 89879
+    :sswitch_8f
     const-string/jumbo v0, "profilo_libcio"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6177,15 +6160,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89882
+    .line 89880
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_libcio_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89883
-    :sswitch_91
+    .line 89881
+    :sswitch_90
     const-string/jumbo v0, "profilo_logger"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6194,15 +6177,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89884
+    .line 89882
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_logger_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89885
-    :sswitch_92
+    .line 89883
+    :sswitch_91
     const-string/jumbo v0, "rsysgridjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6211,15 +6194,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89886
+    .line 89884
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysgridjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89887
-    :sswitch_93
+    .line 89885
+    :sswitch_92
     const-string v0, "distribgw-mns-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6228,15 +6211,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89888
+    .line 89886
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libdistribgw_mns_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89889
-    :sswitch_94
+    .line 89887
+    :sswitch_93
     const-string/jumbo v0, "profilo_memory"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6245,15 +6228,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89890
+    .line 89888
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_memory_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89891
-    :sswitch_95
+    .line 89889
+    :sswitch_94
     const-string/jumbo v0, "messengermcppluginregistryintegrationjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6262,15 +6245,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89892
+    .line 89890
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmessengermcppluginregistryintegrationjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89893
-    :sswitch_96
+    .line 89891
+    :sswitch_95
     const-string/jumbo v0, "profilo_jmulti_buffer_logger"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6279,15 +6262,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89894
+    .line 89892
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_jmulti_buffer_logger_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89895
-    :sswitch_97
+    .line 89893
+    :sswitch_96
     const-string/jumbo v0, "profilo_stacktrace"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6296,15 +6279,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89896
+    .line 89894
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_stacktrace_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89897
-    :sswitch_98
+    .line 89895
+    :sswitch_97
     const-string/jumbo v0, "mediastreaming-livetrace"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6313,15 +6296,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89898
+    .line 89896
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmediastreaming_livetrace_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89899
-    :sswitch_99
+    .line 89897
+    :sswitch_98
     const-string/jumbo v0, "profilo_mmapbuf_rdr"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6330,15 +6313,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89900
+    .line 89898
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_mmapbuf_rdr_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89901
-    :sswitch_9a
+    .line 89899
+    :sswitch_99
     const-string/jumbo v0, "mediastreaming-transport"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6347,15 +6330,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89902
+    .line 89900
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmediastreaming_transport_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89903
-    :sswitch_9b
+    .line 89901
+    :sswitch_9a
     const-string/jumbo v0, "torch-code-gen"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6364,15 +6347,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89904
+    .line 89902
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libtorch_code_gen_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89905
-    :sswitch_9c
+    .line 89903
+    :sswitch_9b
     const-string/jumbo v0, "mailboxinstagramuserjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6381,15 +6364,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89906
+    .line 89904
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxinstagramuserjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89907
-    :sswitch_9d
+    .line 89905
+    :sswitch_9c
     const-string/jumbo v0, "ig-distribgw-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6398,15 +6381,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89908
+    .line 89906
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libig_distribgw_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89909
-    :sswitch_9e
+    .line 89907
+    :sswitch_9d
     const-string/jumbo v0, "unifiedfilter"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6415,15 +6398,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89910
+    .line 89908
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libunifiedfilter_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89911
-    :sswitch_9f
+    .line 89909
+    :sswitch_9e
     const-string/jumbo v0, "messengerarmadilloinstagram_jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6432,15 +6415,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89912
+    .line 89910
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmessengerarmadilloinstagram_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89913
-    :sswitch_a0
+    .line 89911
+    :sswitch_9f
     const-string v0, "audiograph-native"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6449,15 +6432,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89914
+    .line 89912
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libaudiograph_native_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89915
-    :sswitch_a1
+    .line 89913
+    :sswitch_a0
     const-string/jumbo v0, "rsyscryptocontextfactoryjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6466,15 +6449,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89916
+    .line 89914
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsyscryptocontextfactoryjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89917
-    :sswitch_a2
+    .line 89915
+    :sswitch_a1
     const-string/jumbo v0, "postmlp"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6483,15 +6466,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89918
+    .line 89916
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libpostmlp_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89919
-    :sswitch_a3
+    .line 89917
+    :sswitch_a2
     const-string/jumbo v0, "fbacore-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6500,15 +6483,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89920
+    .line 89918
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libfbacore_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89921
-    :sswitch_a4
+    .line 89919
+    :sswitch_a3
     const-string/jumbo v0, "target-recognition-android"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6517,15 +6500,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89922
+    .line 89920
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libtarget_recognition_android_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89923
-    :sswitch_a5
+    .line 89921
+    :sswitch_a4
     const-string/jumbo v0, "rsyscalljni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6534,15 +6517,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89924
+    .line 89922
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsyscalljni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89925
-    :sswitch_a6
+    .line 89923
+    :sswitch_a5
     const-string/jumbo v0, "mailboxtamreportingjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6551,15 +6534,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89926
+    .line 89924
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxtamreportingjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89927
-    :sswitch_a7
+    .line 89925
+    :sswitch_a6
     const-string/jumbo v0, "profilo"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6568,15 +6551,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89928
+    .line 89926
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89929
-    :sswitch_a8
+    .line 89927
+    :sswitch_a7
     const-string/jumbo v0, "fb_mozjpeg"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6585,15 +6568,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89930
+    .line 89928
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libfb_mozjpeg_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89931
-    :sswitch_a9
+    .line 89929
+    :sswitch_a8
     const-string v0, "classid800"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6602,15 +6585,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89932
+    .line 89930
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libclassid800_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89933
-    :sswitch_aa
+    .line 89931
+    :sswitch_a9
     const-string v0, "classid810"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6619,15 +6602,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89934
+    .line 89932
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libclassid810_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89935
-    :sswitch_ab
+    .line 89933
+    :sswitch_aa
     const-string v0, "classid900"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6636,15 +6619,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89936
+    .line 89934
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libclassid900_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89937
-    :sswitch_ac
+    .line 89935
+    :sswitch_ab
     const-string/jumbo v0, "mediapipeline-iglufilter-holder"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6653,15 +6636,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89938
+    .line 89936
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmediapipeline_iglufilter_holder_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89939
-    :sswitch_ad
+    .line 89937
+    :sswitch_ac
     const-string/jumbo v0, "rtgqlsdk"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6670,15 +6653,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89940
+    .line 89938
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librtgqlsdk_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89941
-    :sswitch_ae
+    .line 89939
+    :sswitch_ad
     const-string/jumbo v0, "profiloextapi"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6687,15 +6670,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89942
+    .line 89940
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofiloextapi_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89943
-    :sswitch_af
+    .line 89941
+    :sswitch_ae
     const-string/jumbo v0, "graphservice-jni-factory"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6704,15 +6687,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89944
+    .line 89942
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgraphservice_jni_factory_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89945
-    :sswitch_b0
+    .line 89943
+    :sswitch_af
     const-string v0, "domaininfoutils_jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6721,15 +6704,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89946
+    .line 89944
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libdomaininfoutils_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89947
-    :sswitch_b1
+    .line 89945
+    :sswitch_b0
     const-string/jumbo v0, "profilo_jni_helpers"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6738,15 +6721,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89948
+    .line 89946
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_jni_helpers_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89949
-    :sswitch_b2
+    .line 89947
+    :sswitch_b1
     const-string/jumbo v0, "profilo_native_memory"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6755,15 +6738,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89950
+    .line 89948
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_native_memory_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89951
-    :sswitch_b3
+    .line 89949
+    :sswitch_b2
     const-string/jumbo v0, "pando-graphql-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6772,15 +6755,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89952
+    .line 89950
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libpando_graphql_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89953
-    :sswitch_b4
+    .line 89951
+    :sswitch_b3
     const-string/jumbo v0, "regionhint-jni-instagram"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6789,15 +6772,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89954
+    .line 89952
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libregionhint_jni_instagram_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89955
-    :sswitch_b5
+    .line 89953
+    :sswitch_b4
     const-string/jumbo v0, "rsystslogjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6806,15 +6789,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89956
+    .line 89954
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsystslogjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89957
-    :sswitch_b6
+    .line 89955
+    :sswitch_b5
     const-string/jumbo v0, "javamemtracking500"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6823,15 +6806,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89958
+    .line 89956
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libjavamemtracking500_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89959
-    :sswitch_b7
+    .line 89957
+    :sswitch_b6
     const-string/jumbo v0, "javamemtracking511"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6840,15 +6823,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89960
+    .line 89958
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libjavamemtracking511_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89961
-    :sswitch_b8
+    .line 89959
+    :sswitch_b7
     const-string/jumbo v0, "javamemtracking601"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6857,15 +6840,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89962
+    .line 89960
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libjavamemtracking601_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89963
-    :sswitch_b9
+    .line 89961
+    :sswitch_b8
     const-string/jumbo v0, "javamemtracking700"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6874,15 +6857,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89964
+    .line 89962
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libjavamemtracking700_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89965
-    :sswitch_ba
+    .line 89963
+    :sswitch_b9
     const-string/jumbo v0, "javamemtracking712"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6891,15 +6874,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89966
+    .line 89964
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libjavamemtracking712_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89967
-    :sswitch_bb
+    .line 89965
+    :sswitch_ba
     const-string/jumbo v0, "javamemtracking800"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6908,15 +6891,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89968
+    .line 89966
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libjavamemtracking800_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89969
-    :sswitch_bc
+    .line 89967
+    :sswitch_bb
     const-string/jumbo v0, "javamemtracking810"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6925,15 +6908,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89970
+    .line 89968
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libjavamemtracking810_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89971
-    :sswitch_bd
+    .line 89969
+    :sswitch_bc
     const-string/jumbo v0, "javamemtracking900"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6942,15 +6925,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89972
+    .line 89970
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libjavamemtracking900_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89973
-    :sswitch_be
+    .line 89971
+    :sswitch_bd
     const-string v0, "classid1000"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6959,15 +6942,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89974
+    .line 89972
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libclassid1000_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89975
-    :sswitch_bf
+    .line 89973
+    :sswitch_be
     const-string v0, "classid1100"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6976,15 +6959,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89976
+    .line 89974
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libclassid1100_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89977
-    :sswitch_c0
+    .line 89975
+    :sswitch_bf
     const-string/jumbo v0, "instagramDatabaseSchemaDeployerMDMS_DEFERRED"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -6993,15 +6976,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89978
+    .line 89976
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libinstagramDatabaseSchemaDeployerMDMS_DEFERRED_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89979
-    :sswitch_c1
+    .line 89977
+    :sswitch_c0
     const-string/jumbo v0, "rsysdevicestatsjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7010,15 +6993,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89980
+    .line 89978
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysdevicestatsjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89981
-    :sswitch_c2
+    .line 89979
+    :sswitch_c1
     const-string/jumbo v0, "rsysaudiomodulejni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7027,15 +7010,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89982
+    .line 89980
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysaudiomodulejni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89983
-    :sswitch_c3
+    .line 89981
+    :sswitch_c2
     const-string/jumbo v0, "profilo_block_logger"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7044,15 +7027,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89984
+    .line 89982
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_block_logger_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89985
-    :sswitch_c4
+    .line 89983
+    :sswitch_c3
     const-string/jumbo v0, "messagechannel"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7061,15 +7044,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89986
+    .line 89984
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmessagechannel_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89987
-    :sswitch_c5
+    .line 89985
+    :sswitch_c4
     const-string v0, "asyncexecutor"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7078,15 +7061,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89988
+    .line 89986
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libasyncexecutor_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89989
-    :sswitch_c6
+    .line 89987
+    :sswitch_c5
     const-string v0, "distract-common-museum-funcs-500"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7095,15 +7078,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89990
+    .line 89988
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libdistract_common_museum_funcs_500_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89991
-    :sswitch_c7
+    .line 89989
+    :sswitch_c6
     const-string v0, "distract-common-museum-funcs-511"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7112,15 +7095,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89992
+    .line 89990
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libdistract_common_museum_funcs_511_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89993
-    :sswitch_c8
+    .line 89991
+    :sswitch_c7
     const-string v0, "distract-common-museum-funcs-601"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7129,15 +7112,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89994
+    .line 89992
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libdistract_common_museum_funcs_601_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89995
-    :sswitch_c9
+    .line 89993
+    :sswitch_c8
     const-string v0, "distract-common-museum-funcs-700"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7146,15 +7129,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89996
+    .line 89994
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libdistract_common_museum_funcs_700_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89997
-    :sswitch_ca
+    .line 89995
+    :sswitch_c9
     const-string v0, "distract-common-museum-funcs-712"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7163,15 +7146,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 89998
+    .line 89996
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libdistract_common_museum_funcs_712_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 89999
-    :sswitch_cb
+    .line 89997
+    :sswitch_ca
     const-string v0, "distract-common-museum-funcs-800"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7180,15 +7163,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90000
+    .line 89998
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libdistract_common_museum_funcs_800_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90001
-    :sswitch_cc
+    .line 89999
+    :sswitch_cb
     const-string v0, "distract-common-museum-funcs-810"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7197,15 +7180,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90002
+    .line 90000
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libdistract_common_museum_funcs_810_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90003
-    :sswitch_cd
+    .line 90001
+    :sswitch_cc
     const-string/jumbo v0, "mailboxtamjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7214,15 +7197,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90004
+    .line 90002
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxtamjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90005
-    :sswitch_ce
+    .line 90003
+    :sswitch_cd
     const-string/jumbo v0, "instagram-libliger"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7231,15 +7214,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90006
+    .line 90004
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libinstagram_libliger_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90007
-    :sswitch_cf
+    .line 90005
+    :sswitch_ce
     const-string/jumbo v0, "rsysoutgoingcallconfigjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7248,15 +7231,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90008
+    .line 90006
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysoutgoingcallconfigjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90009
-    :sswitch_d0
+    .line 90007
+    :sswitch_cf
     const-string/jumbo v0, "igrequeststream-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7265,15 +7248,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90010
+    .line 90008
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libigrequeststream_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90011
-    :sswitch_d1
+    .line 90009
+    :sswitch_d0
     const-string/jumbo v0, "rsyslogjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7282,15 +7265,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90012
+    .line 90010
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsyslogjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90013
-    :sswitch_d2
+    .line 90011
+    :sswitch_d1
     const-string/jumbo v0, "graphservice-jni-instagram"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7299,15 +7282,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90014
+    .line 90012
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgraphservice_jni_instagram_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90015
-    :sswitch_d3
+    .line 90013
+    :sswitch_d2
     const-string/jumbo v0, "mediastreaming-config"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7316,15 +7299,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90016
+    .line 90014
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmediastreaming_config_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90017
-    :sswitch_d4
+    .line 90015
+    :sswitch_d3
     const-string/jumbo v0, "pando-graphstore"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7333,15 +7316,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90018
+    .line 90016
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libpando_graphstore_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90019
-    :sswitch_d5
+    .line 90017
+    :sswitch_d4
     const-string/jumbo v0, "fittedexpressiontracking"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7350,15 +7333,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90020
+    .line 90018
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libfittedexpressiontracking_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90021
-    :sswitch_d6
+    .line 90019
+    :sswitch_d5
     const-string/jumbo v0, "fmt"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7367,15 +7350,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90022
+    .line 90020
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libfmt_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90023
-    :sswitch_d7
+    .line 90021
+    :sswitch_d6
     const-string/jumbo v0, "fizz"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7384,15 +7367,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90024
+    .line 90022
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libfizz_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90025
-    :sswitch_d8
+    .line 90023
+    :sswitch_d7
     const-string/jumbo v0, "sslx"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7401,15 +7384,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90026
+    .line 90024
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libsslx_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90027
-    :sswitch_d9
+    .line 90025
+    :sswitch_d8
     const-string/jumbo v0, "zopt"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7418,15 +7401,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90028
+    .line 90026
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libzopt_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90029
-    :sswitch_da
+    .line 90027
+    :sswitch_d9
     const-string/jumbo v0, "scrambler"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7435,15 +7418,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90030
+    .line 90028
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libscrambler_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90031
-    :sswitch_db
+    .line 90029
+    :sswitch_da
     const-string/jumbo v0, "maskrcnn-ops-xplat"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7452,15 +7435,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90032
+    .line 90030
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmaskrcnn_ops_xplat_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90033
-    :sswitch_dc
+    .line 90031
+    :sswitch_db
     const-string v0, "ard-async-downloader"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7469,15 +7452,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90034
+    .line 90032
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libard_async_downloader_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90035
-    :sswitch_dd
+    .line 90033
+    :sswitch_dc
     const-string/jumbo v0, "rsysvideoeffectjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7486,15 +7469,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90036
+    .line 90034
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysvideoeffectjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90037
-    :sswitch_de
+    .line 90035
+    :sswitch_dd
     const-string v0, "ard-android-network-consent-manager-impl"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7503,15 +7486,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90038
+    .line 90036
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libard_android_network_consent_manager_impl_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90039
-    :sswitch_df
+    .line 90037
+    :sswitch_de
     const-string/jumbo v0, "liger"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7520,15 +7503,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90040
+    .line 90038
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libliger_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90041
-    :sswitch_e0
+    .line 90039
+    :sswitch_df
     const-string/jumbo v0, "locationdataprovider"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7537,15 +7520,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90042
+    .line 90040
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->liblocationdataprovider_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90043
-    :sswitch_e1
+    .line 90041
+    :sswitch_e0
     const-string v0, "ard-android-listener"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7554,15 +7537,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90044
+    .line 90042
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libard_android_listener_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90045
-    :sswitch_e2
+    .line 90043
+    :sswitch_e1
     const-string/jumbo v0, "tigonmns-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7571,15 +7554,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90046
+    .line 90044
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libtigonmns_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90047
-    :sswitch_e3
+    .line 90045
+    :sswitch_e2
     const-string v0, "ard-cacheprovider"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7588,15 +7571,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90048
+    .line 90046
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libard_cacheprovider_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90049
-    :sswitch_e4
+    .line 90047
+    :sswitch_e3
     const-string/jumbo v0, "openh264v211libencoderAndroid"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7605,15 +7588,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90050
+    .line 90048
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libopenh264v211libencoderAndroid_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90051
-    :sswitch_e5
+    .line 90049
+    :sswitch_e4
     const-string/jumbo v0, "mailboxinstagrampresencejni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7622,15 +7605,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90052
+    .line 90050
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxinstagrampresencejni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90053
-    :sswitch_e6
+    .line 90051
+    :sswitch_e5
     const-string/jumbo v0, "igrequeststream-dgw-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7639,15 +7622,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90054
+    .line 90052
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libigrequeststream_dgw_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90055
-    :sswitch_e7
+    .line 90053
+    :sswitch_e6
     const-string/jumbo v0, "mailboxproactivewarningsnoncorejni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7656,15 +7639,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90056
+    .line 90054
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxproactivewarningsnoncorejni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90057
-    :sswitch_e8
+    .line 90055
+    :sswitch_e7
     const-string v0, "ard-android-async-asset-fetcher"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7673,15 +7656,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90058
+    .line 90056
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libard_android_async_asset_fetcher_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90059
-    :sswitch_e9
+    .line 90057
+    :sswitch_e8
     const-string/jumbo v0, "pando-graphql-network"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7690,15 +7673,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90060
+    .line 90058
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libpando_graphql_network_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90061
-    :sswitch_ea
+    .line 90059
+    :sswitch_e9
     const-string/jumbo v0, "instagram-libeffectservicehostmerged"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7707,15 +7690,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90062
+    .line 90060
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libinstagram_libeffectservicehostmerged_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90063
-    :sswitch_eb
+    .line 90061
+    :sswitch_ea
     const-string/jumbo v0, "graphqlsubscriptionssdk"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7724,15 +7707,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90064
+    .line 90062
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgraphqlsubscriptionssdk_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90065
-    :sswitch_ec
+    .line 90063
+    :sswitch_eb
     const-string/jumbo v0, "rs-client-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7741,15 +7724,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90066
+    .line 90064
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librs_client_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90067
-    :sswitch_ed
+    .line 90065
+    :sswitch_ec
     const-string/jumbo v0, "pando-core"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7758,15 +7741,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90068
+    .line 90066
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libpando_core_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90069
-    :sswitch_ee
+    .line 90067
+    :sswitch_ed
     const-string/jumbo v0, "pando-data"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7775,15 +7758,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90070
+    .line 90068
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libpando_data_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90071
-    :sswitch_ef
+    .line 90069
+    :sswitch_ee
     const-string/jumbo v0, "jniexecutors"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7792,15 +7775,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90072
+    .line 90070
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libjniexecutors_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90073
-    :sswitch_f0
+    .line 90071
+    :sswitch_ef
     const-string/jumbo v0, "profiloprofilerunwindc500"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7809,15 +7792,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90074
+    .line 90072
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofiloprofilerunwindc500_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90075
-    :sswitch_f1
+    .line 90073
+    :sswitch_f0
     const-string/jumbo v0, "profiloprofilerunwindc510"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7826,15 +7809,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90076
+    .line 90074
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofiloprofilerunwindc510_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90077
-    :sswitch_f2
+    .line 90075
+    :sswitch_f1
     const-string/jumbo v0, "profiloprofilerunwindc600"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7843,15 +7826,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90078
+    .line 90076
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofiloprofilerunwindc600_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90079
-    :sswitch_f3
+    .line 90077
+    :sswitch_f2
     const-string/jumbo v0, "profiloprofilerunwindc700"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7860,15 +7843,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90080
+    .line 90078
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofiloprofilerunwindc700_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90081
-    :sswitch_f4
+    .line 90079
+    :sswitch_f3
     const-string/jumbo v0, "profiloprofilerunwindc710"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7877,15 +7860,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90082
+    .line 90080
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofiloprofilerunwindc710_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90083
-    :sswitch_f5
+    .line 90081
+    :sswitch_f4
     const-string/jumbo v0, "profiloprofilerunwindc711"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7894,15 +7877,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90084
+    .line 90082
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofiloprofilerunwindc711_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90085
-    :sswitch_f6
+    .line 90083
+    :sswitch_f5
     const-string/jumbo v0, "profiloprofilerunwindc712"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7911,15 +7894,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90086
+    .line 90084
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofiloprofilerunwindc712_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90087
-    :sswitch_f7
+    .line 90085
+    :sswitch_f6
     const-string/jumbo v0, "profiloprofilerunwindc800"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7928,15 +7911,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90088
+    .line 90086
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofiloprofilerunwindc800_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90089
-    :sswitch_f8
+    .line 90087
+    :sswitch_f7
     const-string/jumbo v0, "profiloprofilerunwindc810"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7945,15 +7928,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90090
+    .line 90088
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofiloprofilerunwindc810_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90091
-    :sswitch_f9
+    .line 90089
+    :sswitch_f8
     const-string/jumbo v0, "profiloprofilerunwindc900"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7962,15 +7945,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90092
+    .line 90090
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofiloprofilerunwindc900_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90093
-    :sswitch_fa
+    .line 90091
+    :sswitch_f9
     const-string/jumbo v0, "rsyscallmanagerjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7979,15 +7962,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90094
+    .line 90092
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsyscallmanagerjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90095
-    :sswitch_fb
+    .line 90093
+    :sswitch_fa
     const-string/jumbo v0, "recognitionservice"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -7996,15 +7979,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90096
+    .line 90094
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librecognitionservice_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90097
-    :sswitch_fc
+    .line 90095
+    :sswitch_fb
     const-string/jumbo v0, "pando-graphql-service"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8013,15 +7996,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90098
+    .line 90096
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libpando_graphql_service_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90099
-    :sswitch_fd
+    .line 90097
+    :sswitch_fc
     const-string/jumbo v0, "pando-analytics-data"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8030,15 +8013,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90100
+    .line 90098
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libpando_analytics_data_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90101
-    :sswitch_fe
+    .line 90099
+    :sswitch_fd
     const-string/jumbo v0, "rsysvideosubscriptionsjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8047,15 +8030,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90102
+    .line 90100
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysvideosubscriptionsjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90103
-    :sswitch_ff
+    .line 90101
+    :sswitch_fe
     const-string/jumbo v0, "graphicsengine-arengineservices-igeffectservicehost-native"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8064,15 +8047,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90104
+    .line 90102
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgraphicsengine_arengineservices_igeffectservicehost_native_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90105
-    :sswitch_100
+    .line 90103
+    :sswitch_ff
     const-string/jumbo v0, "graphservice-jni-serialization"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8081,15 +8064,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90106
+    .line 90104
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgraphservice_jni_serialization_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90107
-    :sswitch_101
+    .line 90105
+    :sswitch_100
     const-string/jumbo v0, "rsyscowatchjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8098,15 +8081,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90108
+    .line 90106
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsyscowatchjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90109
-    :sswitch_102
+    .line 90107
+    :sswitch_101
     const-string v0, "android-reachability-announcer"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8115,15 +8098,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90110
+    .line 90108
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libandroid_reachability_announcer_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90111
-    :sswitch_103
+    .line 90109
+    :sswitch_102
     const-string/jumbo v0, "rsysappstatejni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8132,15 +8115,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90112
+    .line 90110
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysappstatejni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90113
-    :sswitch_104
+    .line 90111
+    :sswitch_103
     const-string/jumbo v0, "fb_jpegturbo"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8149,15 +8132,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90114
+    .line 90112
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libfb_jpegturbo_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90115
-    :sswitch_105
+    .line 90113
+    :sswitch_104
     const-string v0, "avatarsdataprovider"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8166,15 +8149,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90116
+    .line 90114
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libavatarsdataprovider_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90117
-    :sswitch_106
+    .line 90115
+    :sswitch_105
     const-string v0, "double-conversion"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8183,15 +8166,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90118
+    .line 90116
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libdouble_conversion_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90119
-    :sswitch_107
+    .line 90117
+    :sswitch_106
     const-string/jumbo v0, "rsyscryptojni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8200,15 +8183,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90120
+    .line 90118
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsyscryptojni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90121
-    :sswitch_108
+    .line 90119
+    :sswitch_107
     const-string/jumbo v0, "profilo_apiimpl"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8217,15 +8200,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90122
+    .line 90120
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_apiimpl_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90123
-    :sswitch_109
+    .line 90121
+    :sswitch_108
     const-string/jumbo v0, "fbbacktrace"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8234,15 +8217,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90124
+    .line 90122
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libfbbacktrace_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90125
-    :sswitch_10a
+    .line 90123
+    :sswitch_109
     const-string/jumbo v0, "profilo_multi_buffer_logger"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8251,15 +8234,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90126
+    .line 90124
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_multi_buffer_logger_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90127
-    :sswitch_10b
+    .line 90125
+    :sswitch_10a
     const-string/jumbo v0, "single-model-cache-native-android"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8268,15 +8251,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90128
+    .line 90126
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libsingle_model_cache_native_android_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90129
-    :sswitch_10c
+    .line 90127
+    :sswitch_10b
     const-string v0, "cancalljavautils"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8285,15 +8268,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90130
+    .line 90128
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libcancalljavautils_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90131
-    :sswitch_10d
+    .line 90129
+    :sswitch_10c
     const-string/jumbo v0, "profilo_mmap_file_writer"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8302,15 +8285,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90132
+    .line 90130
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_mmap_file_writer_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90133
-    :sswitch_10e
+    .line 90131
+    :sswitch_10d
     const-string/jumbo v0, "rsysmediajni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8319,15 +8302,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90134
+    .line 90132
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysmediajni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90135
-    :sswitch_10f
+    .line 90133
+    :sswitch_10e
     const-string/jumbo v0, "graphstorecache"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8336,15 +8319,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90136
+    .line 90134
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgraphstorecache_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90137
-    :sswitch_110
+    .line 90135
+    :sswitch_10f
     const-string/jumbo v0, "fbandroid_java_com_facebook_cameracore_mediapipeline_dataproviders_shadercachemanager_implementation_jni_jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8353,15 +8336,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90138
+    .line 90136
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libfbandroid_java_com_facebook_cameracore_mediapipeline_dataproviders_shadercachemanager_implementation_jni_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90139
-    :sswitch_111
+    .line 90137
+    :sswitch_110
     const-string/jumbo v0, "unet-106-ops-xplat"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8370,15 +8353,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90140
+    .line 90138
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libunet_106_ops_xplat_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90141
-    :sswitch_112
+    .line 90139
+    :sswitch_111
     const-string/jumbo v0, "proxygen_lib_utils_crypt"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8387,15 +8370,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90142
+    .line 90140
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libproxygen_lib_utils_crypt_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90143
-    :sswitch_113
+    .line 90141
+    :sswitch_112
     const-string/jumbo v0, "liger-multiconnector"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8404,15 +8387,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90144
+    .line 90142
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libliger_multiconnector_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90145
-    :sswitch_114
+    .line 90143
+    :sswitch_113
     const-string/jumbo v0, "profilo_systemcounters"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8421,15 +8404,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90146
+    .line 90144
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_systemcounters_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90147
-    :sswitch_115
+    .line 90145
+    :sswitch_114
     const-string v0, "ard-remote-model-fetch-callback"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8438,15 +8421,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90148
+    .line 90146
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libard_remote_model_fetch_callback_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90149
-    :sswitch_116
+    .line 90147
+    :sswitch_115
     const-string/jumbo v0, "igtigon-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8455,15 +8438,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90150
+    .line 90148
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libigtigon_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90151
-    :sswitch_117
+    .line 90149
+    :sswitch_116
     const-string v0, "classid"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8472,15 +8455,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90152
+    .line 90150
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libclassid_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90153
-    :sswitch_118
+    .line 90151
+    :sswitch_117
     const-string v0, "bundled-input-image-decoder-ops-xplat"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8489,15 +8472,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90154
+    .line 90152
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libbundled_input_image_decoder_ops_xplat_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90155
-    :sswitch_119
+    .line 90153
+    :sswitch_118
     const-string/jumbo v0, "fbandroid_libraries_profilo_cpp_providers"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8506,15 +8489,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90156
+    .line 90154
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libfbandroid_libraries_profilo_cpp_providers_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90157
-    :sswitch_11a
+    .line 90155
+    :sswitch_119
     const-string/jumbo v0, "graphqlrt-subscription-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8523,15 +8506,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90158
+    .line 90156
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgraphqlrt_subscription_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90159
-    :sswitch_11b
+    .line 90157
+    :sswitch_11a
     const-string/jumbo v0, "gans-ops-xplat"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8540,15 +8523,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90160
+    .line 90158
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgans_ops_xplat_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90161
-    :sswitch_11c
+    .line 90159
+    :sswitch_11b
     const-string/jumbo v0, "zopt-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8557,15 +8540,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90162
+    .line 90160
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libzopt_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90163
-    :sswitch_11d
+    .line 90161
+    :sswitch_11c
     const-string/jumbo v0, "profilo_memory_mapping_actions"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8574,15 +8557,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90164
+    .line 90162
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_memory_mapping_actions_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90165
-    :sswitch_11e
+    .line 90163
+    :sswitch_11d
     const-string v0, "ard-models"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8591,15 +8574,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90166
+    .line 90164
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libard_models_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90167
-    :sswitch_11f
+    .line 90165
+    :sswitch_11e
     const-string/jumbo v0, "rs-streameventhandler-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8608,15 +8591,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90168
+    .line 90166
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librs_streameventhandler_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90169
-    :sswitch_120
+    .line 90167
+    :sswitch_11f
     const-string/jumbo v0, "graphservice-jni-asset"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8625,15 +8608,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90170
+    .line 90168
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libgraphservice_jni_asset_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90171
-    :sswitch_121
+    .line 90169
+    :sswitch_120
     const-string/jumbo v0, "slamfactoryprovider"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8642,15 +8625,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90172
+    .line 90170
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libslamfactoryprovider_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90173
-    :sswitch_122
+    .line 90171
+    :sswitch_121
     const-string/jumbo v0, "instagramDatabaseSchemaDeployerMDMS_DEFERRED-acg"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8659,15 +8642,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90174
+    .line 90172
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libinstagramDatabaseSchemaDeployerMDMS_DEFERRED_acg_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90175
-    :sswitch_123
+    .line 90173
+    :sswitch_122
     const-string/jumbo v0, "instagramDatabaseSchemaDeployerMDMS_DEFERREDnovt"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8676,15 +8659,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90176
+    .line 90174
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libinstagramDatabaseSchemaDeployerMDMS_DEFERREDnovt_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90177
-    :sswitch_124
+    .line 90175
+    :sswitch_123
     const-string/jumbo v0, "mailboxsecureconsentframeworkjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8693,15 +8676,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90178
+    .line 90176
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxsecureconsentframeworkjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90179
-    :sswitch_125
+    .line 90177
+    :sswitch_124
     const-string/jumbo v0, "xplat_mantle_apps_instagram_mantle_helperAndroid"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8710,15 +8693,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90180
+    .line 90178
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libxplat_mantle_apps_instagram_mantle_helperAndroid_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90181
-    :sswitch_126
+    .line 90179
+    :sswitch_125
     const-string/jumbo v0, "mailboxcorejni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8727,15 +8710,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90182
+    .line 90180
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxcorejni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90183
-    :sswitch_127
+    .line 90181
+    :sswitch_126
     const-string/jumbo v0, "mediapipeline-iglufilter-impl-basic"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8744,15 +8727,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90184
+    .line 90182
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmediapipeline_iglufilter_impl_basic_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90185
-    :sswitch_128
+    .line 90183
+    :sswitch_127
     const-string v0, "cryptox"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8761,15 +8744,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90186
+    .line 90184
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libcryptox_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90187
-    :sswitch_129
+    .line 90185
+    :sswitch_128
     const-string/jumbo v0, "mailboxglobaldeletesettingsjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8778,15 +8761,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90188
+    .line 90186
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxglobaldeletesettingsjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90189
-    :sswitch_12a
+    .line 90187
+    :sswitch_129
     const-string/jumbo v0, "rsysmessagequeuejni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8795,15 +8778,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90190
+    .line 90188
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysmessagequeuejni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90191
-    :sswitch_12b
+    .line 90189
+    :sswitch_12a
     const-string/jumbo v0, "mediastreaming-stalldetector"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8812,15 +8795,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90192
+    .line 90190
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmediastreaming_stalldetector_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90193
-    :sswitch_12c
+    .line 90191
+    :sswitch_12b
     const-string/jumbo v0, "mediastreaming-dvr"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8829,15 +8812,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90194
+    .line 90192
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmediastreaming_dvr_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90195
-    :sswitch_12d
+    .line 90193
+    :sswitch_12c
     const-string/jumbo v0, "mediastreaming-videoqualityquery"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8846,15 +8829,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90196
+    .line 90194
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmediastreaming_videoqualityquery_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90197
-    :sswitch_12e
+    .line 90195
+    :sswitch_12d
     const-string/jumbo v0, "nativeutil-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8863,15 +8846,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90198
+    .line 90196
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libnativeutil_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90199
-    :sswitch_12f
+    .line 90197
+    :sswitch_12e
     const-string/jumbo v0, "pando-livequery-service"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8880,15 +8863,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90200
+    .line 90198
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libpando_livequery_service_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90201
-    :sswitch_130
+    .line 90199
+    :sswitch_12f
     const-string v0, "ard-upload"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8897,15 +8880,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90202
+    .line 90200
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libard_upload_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90203
-    :sswitch_131
+    .line 90201
+    :sswitch_130
     const-string/jumbo v0, "pando-graphql"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8914,15 +8897,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90204
+    .line 90202
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libpando_graphql_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90205
-    :sswitch_132
+    .line 90203
+    :sswitch_131
     const-string/jumbo v0, "xplat_arfx_services_impl_avatars_avatarsAndroid"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8931,15 +8914,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90206
+    .line 90204
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libxplat_arfx_services_impl_avatars_avatarsAndroid_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90207
-    :sswitch_133
+    .line 90205
+    :sswitch_132
     const-string/jumbo v0, "mailboxtamreportingshimjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8948,15 +8931,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90208
+    .line 90206
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxtamreportingshimjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90209
-    :sswitch_134
+    .line 90207
+    :sswitch_133
     const-string v0, "audiographservice"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8965,15 +8948,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90210
+    .line 90208
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libaudiographservice_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90211
-    :sswitch_135
+    .line 90209
+    :sswitch_134
     const-string/jumbo v0, "pando-pando-response-cache"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8982,15 +8965,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90212
+    .line 90210
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libpando_pando_response_cache_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90213
-    :sswitch_136
+    .line 90211
+    :sswitch_135
     const-string/jumbo v0, "fbandroid_java_com_facebook_cameracore_ardelivery_xplat_assetmanager_jni_jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -8999,15 +8982,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90214
+    .line 90212
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libfbandroid_java_com_facebook_cameracore_ardelivery_xplat_assetmanager_jni_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90215
-    :sswitch_137
+    .line 90213
+    :sswitch_136
     const-string/jumbo v0, "rsysreactionsjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9016,15 +8999,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90216
+    .line 90214
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysreactionsjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90217
-    :sswitch_138
+    .line 90215
+    :sswitch_137
     const-string/jumbo v0, "msysjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9033,15 +9016,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90218
+    .line 90216
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmsysjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90219
-    :sswitch_139
+    .line 90217
+    :sswitch_138
     const-string/jumbo v0, "rsyscallintentjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9050,15 +9033,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90220
+    .line 90218
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsyscallintentjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90221
-    :sswitch_13a
+    .line 90219
+    :sswitch_139
     const-string/jumbo v0, "tigonligerlite-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9067,15 +9050,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90222
+    .line 90220
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libtigonligerlite_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90223
-    :sswitch_13b
+    .line 90221
+    :sswitch_13a
     const-string/jumbo v0, "proxygen-http"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9084,15 +9067,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90224
+    .line 90222
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libproxygen_http_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90225
-    :sswitch_13c
+    .line 90223
+    :sswitch_13b
     const-string/jumbo v0, "mailboxbusinessinboxjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9101,15 +9084,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90226
+    .line 90224
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libmailboxbusinessinboxjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90227
-    :sswitch_13d
+    .line 90225
+    :sswitch_13c
     const-string/jumbo v0, "rsysroomsjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9118,15 +9101,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90228
+    .line 90226
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysroomsjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90229
-    :sswitch_13e
+    .line 90227
+    :sswitch_13d
     const-string/jumbo v0, "profilo_dalvik_tracer"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9135,15 +9118,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90230
+    .line 90228
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_dalvik_tracer_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90231
-    :sswitch_13f
+    .line 90229
+    :sswitch_13e
     const-string/jumbo v0, "rsysaudioeventsjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9152,15 +9135,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90232
+    .line 90230
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysaudioeventsjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90233
-    :sswitch_140
+    .line 90231
+    :sswitch_13f
     const-string/jumbo v0, "rsysroomslobbyjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9169,15 +9152,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90234
+    .line 90232
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsysroomslobbyjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90235
-    :sswitch_141
+    .line 90233
+    :sswitch_140
     const-string/jumbo v0, "instagramDatabaseSchemaDeployer-jniMDMSnovt"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9186,15 +9169,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90236
+    .line 90234
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libinstagramDatabaseSchemaDeployer_jniMDMSnovt_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90237
-    :sswitch_142
+    .line 90235
+    :sswitch_141
     const-string/jumbo v0, "rsystransportjni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9203,15 +9186,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90238
+    .line 90236
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->librsystransportjni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90239
-    :sswitch_143
+    .line 90237
+    :sswitch_142
     const-string/jumbo v0, "profilo_util"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9220,15 +9203,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90240
+    .line 90238
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_util_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90241
-    :sswitch_144
+    .line 90239
+    :sswitch_143
     const-string v0, "ctaudioprocessor-native"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9237,15 +9220,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90242
+    .line 90240
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libctaudioprocessor_native_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90243
-    :sswitch_145
+    .line 90241
+    :sswitch_144
     const-string/jumbo v0, "profilo_stacktrace_artcompat"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9254,15 +9237,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90244
+    .line 90242
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libprofilo_stacktrace_artcompat_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90245
-    :sswitch_146
+    .line 90243
+    :sswitch_145
     const-string/jumbo v0, "xanalyticsadapter-jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9271,15 +9254,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90246
+    .line 90244
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libxanalyticsadapter_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90247
-    :sswitch_147
+    .line 90245
+    :sswitch_146
     const-string/jumbo v0, "fbandroid_java_com_facebook_cameracore_mediapipeline_dataproviders_javascriptmodules_implementation_jni_jni"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9288,15 +9271,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90248
+    .line 90246
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libfbandroid_java_com_facebook_cameracore_mediapipeline_dataproviders_javascriptmodules_implementation_jni_jni_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90249
-    :sswitch_148
+    .line 90247
+    :sswitch_147
     const-string/jumbo v0, "native_mem_tracing"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9305,15 +9288,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90250
+    .line 90248
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libnative_mem_tracing_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90251
-    :sswitch_149
+    .line 90249
+    :sswitch_148
     const-string/jumbo v0, "jniuserflow"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9322,15 +9305,15 @@
 
     if-eqz v0, :cond_16
 
-    .line 90252
+    .line 90250
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libjniuserflow_so()I
 
     move-result v0
 
     goto/16 :goto_f
 
-    .line 90253
-    :sswitch_14a
+    .line 90251
+    :sswitch_149
     const-string v0, "classtracing"
 
     invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -9339,8 +9322,25 @@
 
     if-eqz v0, :cond_16
 
-    .line 90254
+    .line 90252
     invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libclasstracing_so()I
+
+    move-result v0
+
+    goto/16 :goto_f
+
+    .line 90253
+    :sswitch_14a
+    const-string/jumbo v0, "jni-mcpintegration-mcp_integration_inst813427447PluginRegistry"
+
+    invoke-virtual {v12, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_16
+
+    .line 90254
+    invoke-static {}, Lcom/facebook/soloader/MergedSoMapping$Invoke_JNI_OnLoad;->libjni_mcpintegration_mcp_integration_inst813427447PluginRegistry_so()I
 
     move-result v0
 
@@ -10353,251 +10353,251 @@
         -0x4a7e1e47 -> :sswitch_53
         -0x49a18fc3 -> :sswitch_54
         -0x492a8eef -> :sswitch_55
-        -0x46017aa4 -> :sswitch_56
-        -0x45ee8ee1 -> :sswitch_57
-        -0x45e5a5b0 -> :sswitch_58
-        -0x45e1ac31 -> :sswitch_59
-        -0x45b65df7 -> :sswitch_5a
-        -0x417559f1 -> :sswitch_5b
-        -0x41136ec4 -> :sswitch_5c
-        -0x401af656 -> :sswitch_5d
-        -0x3fcc0e86 -> :sswitch_5e
-        -0x3f62eec5 -> :sswitch_5f
-        -0x3f249248 -> :sswitch_60
-        -0x3f0fb6e3 -> :sswitch_61
-        -0x3ecd821f -> :sswitch_62
-        -0x3ec41ad9 -> :sswitch_63
-        -0x3e96e6c5 -> :sswitch_64
-        -0x3d9bd660 -> :sswitch_65
-        -0x3cf0c6c1 -> :sswitch_66
-        -0x3b92acbf -> :sswitch_67
-        -0x3b3f393b -> :sswitch_68
-        -0x3a2421d3 -> :sswitch_69
-        -0x384a4670 -> :sswitch_6a
-        -0x37ed8937 -> :sswitch_6b
-        -0x37a1e93d -> :sswitch_6c
-        -0x378c9b3a -> :sswitch_6d
-        -0x375d00b7 -> :sswitch_6e
-        -0x368e70b2 -> :sswitch_6f
-        -0x362149f1 -> :sswitch_70
-        -0x35d409de -> :sswitch_71
-        -0x35a10e86 -> :sswitch_72
-        -0x35a0eb66 -> :sswitch_73
-        -0x3592f241 -> :sswitch_74
-        -0x35834b7f -> :sswitch_75
-        -0x357771c7 -> :sswitch_76
-        -0x35766559 -> :sswitch_77
-        -0x3528c8b2 -> :sswitch_78
-        -0x35118669 -> :sswitch_79
-        -0x3406c8f0 -> :sswitch_7a
-        -0x32ce9e16 -> :sswitch_7b
-        -0x32c18152 -> :sswitch_7c
-        -0x316a01f3 -> :sswitch_7d
-        -0x30e3cccd -> :sswitch_7e
-        -0x30debb39 -> :sswitch_7f
-        -0x30d842bf -> :sswitch_80
-        -0x30c06703 -> :sswitch_81
-        -0x30a97dff -> :sswitch_82
-        -0x2ff80cf5 -> :sswitch_83
-        -0x2f31c173 -> :sswitch_84
-        -0x2e007df2 -> :sswitch_85
-        -0x2de18820 -> :sswitch_86
-        -0x2c956c19 -> :sswitch_87
-        -0x2c6eaff2 -> :sswitch_88
-        -0x2ba779fa -> :sswitch_89
-        -0x2aa9b702 -> :sswitch_8a
-        -0x2a7bd341 -> :sswitch_8b
-        -0x291f7dff -> :sswitch_8c
-        -0x2768a9d4 -> :sswitch_8d
-        -0x270eb047 -> :sswitch_8e
-        -0x26b93c39 -> :sswitch_8f
-        -0x262737d0 -> :sswitch_90
-        -0x25d05664 -> :sswitch_91
-        -0x2589f2dc -> :sswitch_92
-        -0x24e71a2e -> :sswitch_93
-        -0x24a58ef3 -> :sswitch_94
-        -0x24802518 -> :sswitch_95
-        -0x2457e7b5 -> :sswitch_96
-        -0x242fae37 -> :sswitch_97
-        -0x22c68636 -> :sswitch_98
-        -0x21c22087 -> :sswitch_99
-        -0x214e82e6 -> :sswitch_9a
-        -0x2114a1df -> :sswitch_9b
-        -0x20eafb44 -> :sswitch_9c
-        -0x207b3742 -> :sswitch_9d
-        -0x1ed86876 -> :sswitch_9e
-        -0x1d74e55a -> :sswitch_9f
-        -0x1a30efb4 -> :sswitch_a0
-        -0x18a398d2 -> :sswitch_a1
-        -0x175135ef -> :sswitch_a2
-        -0x16bf9164 -> :sswitch_a3
-        -0x16955fe3 -> :sswitch_a4
-        -0x15f758f4 -> :sswitch_a5
-        -0x149138dd -> :sswitch_a6
-        -0x1271764d -> :sswitch_a7
-        -0x11a08d03 -> :sswitch_a8
-        -0x10c88d3b -> :sswitch_a9
-        -0x10c88d1c -> :sswitch_aa
-        -0x10c8897a -> :sswitch_ab
-        -0x10c43dad -> :sswitch_ac
-        -0xf38cf06 -> :sswitch_ad
-        -0xf161834 -> :sswitch_ae
-        -0xe786444 -> :sswitch_af
-        -0xdb8dc1b -> :sswitch_b0
-        -0xd8358a1 -> :sswitch_b1
-        -0xc6aa763 -> :sswitch_b2
-        -0xbe7d8a4 -> :sswitch_b3
-        -0xac55b48 -> :sswitch_b4
-        -0xaa6c4c5 -> :sswitch_b5
-        -0xa1ac775 -> :sswitch_b6
-        -0xa1ac755 -> :sswitch_b7
-        -0xa1ac3b3 -> :sswitch_b8
-        -0xa1abff3 -> :sswitch_b9
-        -0xa1abfd2 -> :sswitch_ba
-        -0xa1abc32 -> :sswitch_bb
-        -0xa1abc13 -> :sswitch_bc
-        -0xa1ab871 -> :sswitch_bd
-        -0x84c488e -> :sswitch_be
-        -0x84c44cd -> :sswitch_bf
-        -0x799dda1 -> :sswitch_c0
-        -0x734f329 -> :sswitch_c1
-        -0x5c55782 -> :sswitch_c2
-        -0x5431f72 -> :sswitch_c3
-        -0x41748e4 -> :sswitch_c4
-        -0x3a940b1 -> :sswitch_c5
-        -0x3a46949 -> :sswitch_c6
-        -0x3a46929 -> :sswitch_c7
-        -0x3a46587 -> :sswitch_c8
-        -0x3a461c7 -> :sswitch_c9
-        -0x3a461a6 -> :sswitch_ca
-        -0x3a45e06 -> :sswitch_cb
-        -0x3a45de7 -> :sswitch_cc
-        -0x2e09647 -> :sswitch_cd
-        -0x19d9ef3 -> :sswitch_ce
-        -0x197fda2 -> :sswitch_cf
-        -0x12c01b7 -> :sswitch_d0
-        -0x11aed44 -> :sswitch_d1
-        -0x11a721c -> :sswitch_d2
-        -0x54d50f -> :sswitch_d3
-        -0x4186a8 -> :sswitch_d4
-        -0x140ccf -> :sswitch_d5
-        0x18c8d -> :sswitch_d6
-        0x2ff743 -> :sswitch_d7
-        0x3603ec -> :sswitch_d8
-        0x3923f9 -> :sswitch_d9
-        0x10cdf45 -> :sswitch_da
-        0x3de8b9c -> :sswitch_db
-        0x4723360 -> :sswitch_dc
-        0x4adf834 -> :sswitch_dd
-        0x580872a -> :sswitch_de
-        0x62334b7 -> :sswitch_df
-        0x6e263d0 -> :sswitch_e0
-        0xb5afa8c -> :sswitch_e1
-        0xc6d1b39 -> :sswitch_e2
-        0xe69f179 -> :sswitch_e3
-        0xea4fa4a -> :sswitch_e4
-        0x11c8548c -> :sswitch_e5
-        0x142dbb50 -> :sswitch_e6
-        0x15e147cf -> :sswitch_e7
-        0x178dc8a1 -> :sswitch_e8
-        0x17cd3265 -> :sswitch_e9
-        0x186420ae -> :sswitch_ea
-        0x18db476d -> :sswitch_eb
-        0x18fdc1af -> :sswitch_ec
-        0x1ad2b864 -> :sswitch_ed
-        0x1ad2f86f -> :sswitch_ee
-        0x1aebcffb -> :sswitch_ef
-        0x1c46deef -> :sswitch_f0
-        0x1c46df0e -> :sswitch_f1
-        0x1c46e2b0 -> :sswitch_f2
-        0x1c46e671 -> :sswitch_f3
-        0x1c46e690 -> :sswitch_f4
-        0x1c46e691 -> :sswitch_f5
-        0x1c46e692 -> :sswitch_f6
-        0x1c46ea32 -> :sswitch_f7
-        0x1c46ea51 -> :sswitch_f8
-        0x1c46edf3 -> :sswitch_f9
-        0x1d587391 -> :sswitch_fa
-        0x1e5e7b1e -> :sswitch_fb
-        0x202f9eec -> :sswitch_fc
-        0x205c5016 -> :sswitch_fd
-        0x20afe12f -> :sswitch_fe
-        0x20b36372 -> :sswitch_ff
-        0x213b0922 -> :sswitch_100
-        0x21e47c3d -> :sswitch_101
-        0x21ec6c51 -> :sswitch_102
-        0x225e4a9a -> :sswitch_103
-        0x23a0faf3 -> :sswitch_104
-        0x256b8ed5 -> :sswitch_105
-        0x27225892 -> :sswitch_106
-        0x2780e489 -> :sswitch_107
-        0x27b30cae -> :sswitch_108
-        0x27f86b82 -> :sswitch_109
-        0x2841e55d -> :sswitch_10a
-        0x28991d2d -> :sswitch_10b
-        0x2a3f6d61 -> :sswitch_10c
-        0x2afc2f32 -> :sswitch_10d
-        0x2b9bb75c -> :sswitch_10e
-        0x2d75130f -> :sswitch_10f
-        0x2d8054dc -> :sswitch_110
-        0x2e5eb871 -> :sswitch_111
-        0x2ed8e189 -> :sswitch_112
-        0x2ee2830a -> :sswitch_113
-        0x30c72532 -> :sswitch_114
-        0x31be7bc9 -> :sswitch_115
-        0x31e7766b -> :sswitch_116
-        0x32e13893 -> :sswitch_117
-        0x32ebd123 -> :sswitch_118
-        0x33427c48 -> :sswitch_119
-        0x33622097 -> :sswitch_11a
-        0x3511d89e -> :sswitch_11b
-        0x36ba8fd1 -> :sswitch_11c
-        0x36cf675a -> :sswitch_11d
-        0x3706a724 -> :sswitch_11e
-        0x37203454 -> :sswitch_11f
-        0x39485a22 -> :sswitch_120
-        0x39887216 -> :sswitch_121
-        0x39d5c817 -> :sswitch_122
-        0x39f38b1e -> :sswitch_123
-        0x3b1e3ef6 -> :sswitch_124
-        0x3b9d817b -> :sswitch_125
-        0x3babd872 -> :sswitch_126
-        0x3e507b68 -> :sswitch_127
-        0x3e6f27d7 -> :sswitch_128
-        0x3e8b5da0 -> :sswitch_129
-        0x3e9a5b80 -> :sswitch_12a
-        0x3ec060d7 -> :sswitch_12b
-        0x3f0394d1 -> :sswitch_12c
-        0x3f665815 -> :sswitch_12d
-        0x3f897871 -> :sswitch_12e
-        0x421cc89f -> :sswitch_12f
-        0x44bf4abb -> :sswitch_130
-        0x478e3904 -> :sswitch_131
-        0x4bb8e37c -> :sswitch_132
-        0x4caea74a -> :sswitch_133
-        0x4e581c7d -> :sswitch_134
-        0x4f7b5840 -> :sswitch_135
-        0x4fbc330a -> :sswitch_136
-        0x50fb4096 -> :sswitch_137
-        0x51238865 -> :sswitch_138
-        0x53b831b0 -> :sswitch_139
-        0x5485c56c -> :sswitch_13a
-        0x552c2953 -> :sswitch_13b
-        0x5688c3d3 -> :sswitch_13c
-        0x5705c3c8 -> :sswitch_13d
-        0x577d2517 -> :sswitch_13e
-        0x58aad2b1 -> :sswitch_13f
-        0x58b99dcc -> :sswitch_140
-        0x59428dd6 -> :sswitch_141
-        0x598fa877 -> :sswitch_142
-        0x5a04370e -> :sswitch_143
-        0x5a9789b7 -> :sswitch_144
-        0x5af67caf -> :sswitch_145
-        0x5bcc9d59 -> :sswitch_146
-        0x5c121574 -> :sswitch_147
-        0x5d69bc30 -> :sswitch_148
-        0x5e78361e -> :sswitch_149
-        0x5f48104a -> :sswitch_14a
+        -0x45ee8ee1 -> :sswitch_56
+        -0x45e5a5b0 -> :sswitch_57
+        -0x45e1ac31 -> :sswitch_58
+        -0x45b65df7 -> :sswitch_59
+        -0x417559f1 -> :sswitch_5a
+        -0x41136ec4 -> :sswitch_5b
+        -0x401af656 -> :sswitch_5c
+        -0x3fcc0e86 -> :sswitch_5d
+        -0x3f62eec5 -> :sswitch_5e
+        -0x3f249248 -> :sswitch_5f
+        -0x3f0fb6e3 -> :sswitch_60
+        -0x3ecd821f -> :sswitch_61
+        -0x3ec41ad9 -> :sswitch_62
+        -0x3e96e6c5 -> :sswitch_63
+        -0x3d9bd660 -> :sswitch_64
+        -0x3cf0c6c1 -> :sswitch_65
+        -0x3b92acbf -> :sswitch_66
+        -0x3b3f393b -> :sswitch_67
+        -0x3a2421d3 -> :sswitch_68
+        -0x384a4670 -> :sswitch_69
+        -0x37ed8937 -> :sswitch_6a
+        -0x37a1e93d -> :sswitch_6b
+        -0x378c9b3a -> :sswitch_6c
+        -0x375d00b7 -> :sswitch_6d
+        -0x368e70b2 -> :sswitch_6e
+        -0x362149f1 -> :sswitch_6f
+        -0x35d409de -> :sswitch_70
+        -0x35a10e86 -> :sswitch_71
+        -0x35a0eb66 -> :sswitch_72
+        -0x3592f241 -> :sswitch_73
+        -0x35834b7f -> :sswitch_74
+        -0x357771c7 -> :sswitch_75
+        -0x35766559 -> :sswitch_76
+        -0x3528c8b2 -> :sswitch_77
+        -0x35118669 -> :sswitch_78
+        -0x3406c8f0 -> :sswitch_79
+        -0x32ce9e16 -> :sswitch_7a
+        -0x32c18152 -> :sswitch_7b
+        -0x316a01f3 -> :sswitch_7c
+        -0x30e3cccd -> :sswitch_7d
+        -0x30debb39 -> :sswitch_7e
+        -0x30d842bf -> :sswitch_7f
+        -0x30c06703 -> :sswitch_80
+        -0x30a97dff -> :sswitch_81
+        -0x2ff80cf5 -> :sswitch_82
+        -0x2f31c173 -> :sswitch_83
+        -0x2e007df2 -> :sswitch_84
+        -0x2de18820 -> :sswitch_85
+        -0x2c956c19 -> :sswitch_86
+        -0x2c6eaff2 -> :sswitch_87
+        -0x2ba779fa -> :sswitch_88
+        -0x2aa9b702 -> :sswitch_89
+        -0x2a7bd341 -> :sswitch_8a
+        -0x291f7dff -> :sswitch_8b
+        -0x2768a9d4 -> :sswitch_8c
+        -0x270eb047 -> :sswitch_8d
+        -0x26b93c39 -> :sswitch_8e
+        -0x262737d0 -> :sswitch_8f
+        -0x25d05664 -> :sswitch_90
+        -0x2589f2dc -> :sswitch_91
+        -0x24e71a2e -> :sswitch_92
+        -0x24a58ef3 -> :sswitch_93
+        -0x24802518 -> :sswitch_94
+        -0x2457e7b5 -> :sswitch_95
+        -0x242fae37 -> :sswitch_96
+        -0x22c68636 -> :sswitch_97
+        -0x21c22087 -> :sswitch_98
+        -0x214e82e6 -> :sswitch_99
+        -0x2114a1df -> :sswitch_9a
+        -0x20eafb44 -> :sswitch_9b
+        -0x207b3742 -> :sswitch_9c
+        -0x1ed86876 -> :sswitch_9d
+        -0x1d74e55a -> :sswitch_9e
+        -0x1a30efb4 -> :sswitch_9f
+        -0x18a398d2 -> :sswitch_a0
+        -0x175135ef -> :sswitch_a1
+        -0x16bf9164 -> :sswitch_a2
+        -0x16955fe3 -> :sswitch_a3
+        -0x15f758f4 -> :sswitch_a4
+        -0x149138dd -> :sswitch_a5
+        -0x1271764d -> :sswitch_a6
+        -0x11a08d03 -> :sswitch_a7
+        -0x10c88d3b -> :sswitch_a8
+        -0x10c88d1c -> :sswitch_a9
+        -0x10c8897a -> :sswitch_aa
+        -0x10c43dad -> :sswitch_ab
+        -0xf38cf06 -> :sswitch_ac
+        -0xf161834 -> :sswitch_ad
+        -0xe786444 -> :sswitch_ae
+        -0xdb8dc1b -> :sswitch_af
+        -0xd8358a1 -> :sswitch_b0
+        -0xc6aa763 -> :sswitch_b1
+        -0xbe7d8a4 -> :sswitch_b2
+        -0xac55b48 -> :sswitch_b3
+        -0xaa6c4c5 -> :sswitch_b4
+        -0xa1ac775 -> :sswitch_b5
+        -0xa1ac755 -> :sswitch_b6
+        -0xa1ac3b3 -> :sswitch_b7
+        -0xa1abff3 -> :sswitch_b8
+        -0xa1abfd2 -> :sswitch_b9
+        -0xa1abc32 -> :sswitch_ba
+        -0xa1abc13 -> :sswitch_bb
+        -0xa1ab871 -> :sswitch_bc
+        -0x84c488e -> :sswitch_bd
+        -0x84c44cd -> :sswitch_be
+        -0x799dda1 -> :sswitch_bf
+        -0x734f329 -> :sswitch_c0
+        -0x5c55782 -> :sswitch_c1
+        -0x5431f72 -> :sswitch_c2
+        -0x41748e4 -> :sswitch_c3
+        -0x3a940b1 -> :sswitch_c4
+        -0x3a46949 -> :sswitch_c5
+        -0x3a46929 -> :sswitch_c6
+        -0x3a46587 -> :sswitch_c7
+        -0x3a461c7 -> :sswitch_c8
+        -0x3a461a6 -> :sswitch_c9
+        -0x3a45e06 -> :sswitch_ca
+        -0x3a45de7 -> :sswitch_cb
+        -0x2e09647 -> :sswitch_cc
+        -0x19d9ef3 -> :sswitch_cd
+        -0x197fda2 -> :sswitch_ce
+        -0x12c01b7 -> :sswitch_cf
+        -0x11aed44 -> :sswitch_d0
+        -0x11a721c -> :sswitch_d1
+        -0x54d50f -> :sswitch_d2
+        -0x4186a8 -> :sswitch_d3
+        -0x140ccf -> :sswitch_d4
+        0x18c8d -> :sswitch_d5
+        0x2ff743 -> :sswitch_d6
+        0x3603ec -> :sswitch_d7
+        0x3923f9 -> :sswitch_d8
+        0x10cdf45 -> :sswitch_d9
+        0x3de8b9c -> :sswitch_da
+        0x4723360 -> :sswitch_db
+        0x4adf834 -> :sswitch_dc
+        0x580872a -> :sswitch_dd
+        0x62334b7 -> :sswitch_de
+        0x6e263d0 -> :sswitch_df
+        0xb5afa8c -> :sswitch_e0
+        0xc6d1b39 -> :sswitch_e1
+        0xe69f179 -> :sswitch_e2
+        0xea4fa4a -> :sswitch_e3
+        0x11c8548c -> :sswitch_e4
+        0x142dbb50 -> :sswitch_e5
+        0x15e147cf -> :sswitch_e6
+        0x178dc8a1 -> :sswitch_e7
+        0x17cd3265 -> :sswitch_e8
+        0x186420ae -> :sswitch_e9
+        0x18db476d -> :sswitch_ea
+        0x18fdc1af -> :sswitch_eb
+        0x1ad2b864 -> :sswitch_ec
+        0x1ad2f86f -> :sswitch_ed
+        0x1aebcffb -> :sswitch_ee
+        0x1c46deef -> :sswitch_ef
+        0x1c46df0e -> :sswitch_f0
+        0x1c46e2b0 -> :sswitch_f1
+        0x1c46e671 -> :sswitch_f2
+        0x1c46e690 -> :sswitch_f3
+        0x1c46e691 -> :sswitch_f4
+        0x1c46e692 -> :sswitch_f5
+        0x1c46ea32 -> :sswitch_f6
+        0x1c46ea51 -> :sswitch_f7
+        0x1c46edf3 -> :sswitch_f8
+        0x1d587391 -> :sswitch_f9
+        0x1e5e7b1e -> :sswitch_fa
+        0x202f9eec -> :sswitch_fb
+        0x205c5016 -> :sswitch_fc
+        0x20afe12f -> :sswitch_fd
+        0x20b36372 -> :sswitch_fe
+        0x213b0922 -> :sswitch_ff
+        0x21e47c3d -> :sswitch_100
+        0x21ec6c51 -> :sswitch_101
+        0x225e4a9a -> :sswitch_102
+        0x23a0faf3 -> :sswitch_103
+        0x256b8ed5 -> :sswitch_104
+        0x27225892 -> :sswitch_105
+        0x2780e489 -> :sswitch_106
+        0x27b30cae -> :sswitch_107
+        0x27f86b82 -> :sswitch_108
+        0x2841e55d -> :sswitch_109
+        0x28991d2d -> :sswitch_10a
+        0x2a3f6d61 -> :sswitch_10b
+        0x2afc2f32 -> :sswitch_10c
+        0x2b9bb75c -> :sswitch_10d
+        0x2d75130f -> :sswitch_10e
+        0x2d8054dc -> :sswitch_10f
+        0x2e5eb871 -> :sswitch_110
+        0x2ed8e189 -> :sswitch_111
+        0x2ee2830a -> :sswitch_112
+        0x30c72532 -> :sswitch_113
+        0x31be7bc9 -> :sswitch_114
+        0x31e7766b -> :sswitch_115
+        0x32e13893 -> :sswitch_116
+        0x32ebd123 -> :sswitch_117
+        0x33427c48 -> :sswitch_118
+        0x33622097 -> :sswitch_119
+        0x3511d89e -> :sswitch_11a
+        0x36ba8fd1 -> :sswitch_11b
+        0x36cf675a -> :sswitch_11c
+        0x3706a724 -> :sswitch_11d
+        0x37203454 -> :sswitch_11e
+        0x39485a22 -> :sswitch_11f
+        0x39887216 -> :sswitch_120
+        0x39d5c817 -> :sswitch_121
+        0x39f38b1e -> :sswitch_122
+        0x3b1e3ef6 -> :sswitch_123
+        0x3b9d817b -> :sswitch_124
+        0x3babd872 -> :sswitch_125
+        0x3e507b68 -> :sswitch_126
+        0x3e6f27d7 -> :sswitch_127
+        0x3e8b5da0 -> :sswitch_128
+        0x3e9a5b80 -> :sswitch_129
+        0x3ec060d7 -> :sswitch_12a
+        0x3f0394d1 -> :sswitch_12b
+        0x3f665815 -> :sswitch_12c
+        0x3f897871 -> :sswitch_12d
+        0x421cc89f -> :sswitch_12e
+        0x44bf4abb -> :sswitch_12f
+        0x478e3904 -> :sswitch_130
+        0x4bb8e37c -> :sswitch_131
+        0x4caea74a -> :sswitch_132
+        0x4e581c7d -> :sswitch_133
+        0x4f7b5840 -> :sswitch_134
+        0x4fbc330a -> :sswitch_135
+        0x50fb4096 -> :sswitch_136
+        0x51238865 -> :sswitch_137
+        0x53b831b0 -> :sswitch_138
+        0x5485c56c -> :sswitch_139
+        0x552c2953 -> :sswitch_13a
+        0x5688c3d3 -> :sswitch_13b
+        0x5705c3c8 -> :sswitch_13c
+        0x577d2517 -> :sswitch_13d
+        0x58aad2b1 -> :sswitch_13e
+        0x58b99dcc -> :sswitch_13f
+        0x59428dd6 -> :sswitch_140
+        0x598fa877 -> :sswitch_141
+        0x5a04370e -> :sswitch_142
+        0x5a9789b7 -> :sswitch_143
+        0x5af67caf -> :sswitch_144
+        0x5bcc9d59 -> :sswitch_145
+        0x5c121574 -> :sswitch_146
+        0x5d69bc30 -> :sswitch_147
+        0x5e78361e -> :sswitch_148
+        0x5f48104a -> :sswitch_149
+        0x6064c067 -> :sswitch_14a
         0x60ea767f -> :sswitch_14b
         0x612c6acd -> :sswitch_14c
         0x61c5167e -> :sswitch_14d
@@ -11408,115 +11408,115 @@
     .line 339
     .line 340
     :sswitch_2f
-    const-string v0, "classtracing"
+    const-string/jumbo v0, "jni-mcpintegration-mcp_integration_inst813427447PluginRegistry"
 
     .line 341
     .line 342
-    goto/16 :goto_c
-
     .line 343
-    .line 344
-    :sswitch_30
-    const-string/jumbo v0, "jniuserflow"
+    goto/16 :goto_f
 
+    .line 344
     .line 345
+    :sswitch_30
+    const-string v0, "classtracing"
+
     .line 346
     .line 347
-    goto/16 :goto_f
+    goto/16 :goto_c
 
     .line 348
     .line 349
     :sswitch_31
-    const-string/jumbo v0, "native_mem_tracing"
+    const-string/jumbo v0, "jniuserflow"
 
     .line 350
     .line 351
     .line 352
-    goto/16 :goto_14
+    goto/16 :goto_f
 
     .line 353
     .line 354
     :sswitch_32
-    const-string/jumbo v0, "fbandroid_java_com_facebook_cameracore_mediapipeline_dataproviders_javascriptmodules_implementation_jni_jni"
+    const-string/jumbo v0, "native_mem_tracing"
 
     .line 355
     .line 356
     .line 357
-    goto/16 :goto_d
+    goto/16 :goto_14
 
     .line 358
     .line 359
     :sswitch_33
-    const-string/jumbo v0, "xanalyticsadapter-jni"
+    const-string/jumbo v0, "fbandroid_java_com_facebook_cameracore_mediapipeline_dataproviders_javascriptmodules_implementation_jni_jni"
 
     .line 360
     .line 361
     .line 362
-    goto/16 :goto_12
+    goto/16 :goto_d
 
     .line 363
     .line 364
     :sswitch_34
-    const-string/jumbo v0, "profilo_stacktrace_artcompat"
+    const-string/jumbo v0, "xanalyticsadapter-jni"
 
     .line 365
     .line 366
     .line 367
-    goto/16 :goto_14
+    goto/16 :goto_12
 
     .line 368
     .line 369
     :sswitch_35
-    const-string v0, "ctaudioprocessor-native"
+    const-string/jumbo v0, "profilo_stacktrace_artcompat"
 
     .line 370
     .line 371
-    goto/16 :goto_a
-
     .line 372
-    .line 373
-    :sswitch_36
-    const-string/jumbo v0, "profilo_util"
+    goto/16 :goto_14
 
+    .line 373
     .line 374
+    :sswitch_36
+    const-string v0, "ctaudioprocessor-native"
+
     .line 375
     .line 376
-    goto/16 :goto_14
+    goto/16 :goto_a
 
     .line 377
     .line 378
     :sswitch_37
-    const-string/jumbo v0, "rsystransportjni"
+    const-string/jumbo v0, "profilo_util"
 
     .line 379
     .line 380
     .line 381
-    goto/16 :goto_11
+    goto/16 :goto_14
 
     .line 382
     .line 383
     :sswitch_38
-    const-string/jumbo v0, "instagramDatabaseSchemaDeployer-jniMDMSnovt"
+    const-string/jumbo v0, "rsystransportjni"
 
     .line 384
     .line 385
     .line 386
-    goto/16 :goto_f
+    goto/16 :goto_11
 
     .line 387
     .line 388
     :sswitch_39
-    const-string/jumbo v0, "rsysroomslobbyjni"
+    const-string/jumbo v0, "instagramDatabaseSchemaDeployer-jniMDMSnovt"
 
     .line 389
     .line 390
     .line 391
-    goto/16 :goto_11
+    goto/16 :goto_f
 
     .line 392
     .line 393
     :sswitch_3a
-    const-string/jumbo v0, "rsysaudioeventsjni"
+    const-string/jumbo v0, "rsysroomslobbyjni"
 
     .line 394
     .line 395
@@ -11526,165 +11526,165 @@
     .line 397
     .line 398
     :sswitch_3b
-    const-string/jumbo v0, "profilo_dalvik_tracer"
+    const-string/jumbo v0, "rsysaudioeventsjni"
 
     .line 399
     .line 400
     .line 401
-    goto/16 :goto_14
+    goto/16 :goto_11
 
     .line 402
     .line 403
     :sswitch_3c
-    const-string/jumbo v0, "rsysroomsjni"
+    const-string/jumbo v0, "profilo_dalvik_tracer"
 
     .line 404
     .line 405
     .line 406
-    goto/16 :goto_11
+    goto/16 :goto_14
 
     .line 407
     .line 408
     :sswitch_3d
-    const-string/jumbo v0, "mailboxbusinessinboxjni"
+    const-string/jumbo v0, "rsysroomsjni"
 
     .line 409
     .line 410
     .line 411
-    goto/16 :goto_f
+    goto/16 :goto_11
 
     .line 412
     .line 413
     :sswitch_3e
-    const-string/jumbo v0, "proxygen-http"
+    const-string/jumbo v0, "mailboxbusinessinboxjni"
 
     .line 414
     .line 415
     .line 416
-    goto/16 :goto_7
+    goto/16 :goto_f
 
     .line 417
     .line 418
     :sswitch_3f
-    const-string/jumbo v0, "tigonligerlite-jni"
+    const-string/jumbo v0, "proxygen-http"
 
     .line 419
     .line 420
     .line 421
-    goto/16 :goto_2
+    goto/16 :goto_7
 
     .line 422
     .line 423
     :sswitch_40
-    const-string/jumbo v0, "rsyscallintentjni"
+    const-string/jumbo v0, "tigonligerlite-jni"
 
     .line 424
     .line 425
     .line 426
-    goto/16 :goto_11
+    goto/16 :goto_2
 
     .line 427
     .line 428
     :sswitch_41
-    const-string/jumbo v0, "msysjni"
+    const-string/jumbo v0, "rsyscallintentjni"
 
     .line 429
     .line 430
     .line 431
-    goto/16 :goto_f
+    goto/16 :goto_11
 
     .line 432
     .line 433
     :sswitch_42
-    const-string/jumbo v0, "rsysreactionsjni"
+    const-string/jumbo v0, "msysjni"
 
     .line 434
     .line 435
     .line 436
-    goto/16 :goto_11
+    goto/16 :goto_f
 
     .line 437
     .line 438
     :sswitch_43
-    const-string/jumbo v0, "fbandroid_java_com_facebook_cameracore_ardelivery_xplat_assetmanager_jni_jni"
+    const-string/jumbo v0, "rsysreactionsjni"
 
     .line 439
     .line 440
     .line 441
-    goto/16 :goto_10
+    goto/16 :goto_11
 
     .line 442
     .line 443
     :sswitch_44
-    const-string/jumbo v0, "pando-pando-response-cache"
+    const-string/jumbo v0, "fbandroid_java_com_facebook_cameracore_ardelivery_xplat_assetmanager_jni_jni"
 
     .line 444
     .line 445
     .line 446
-    goto/16 :goto_12
+    goto/16 :goto_10
 
     .line 447
     .line 448
     :sswitch_45
-    const-string v0, "audiographservice"
+    const-string/jumbo v0, "pando-pando-response-cache"
 
     .line 449
     .line 450
-    goto/16 :goto_d
-
     .line 451
-    .line 452
-    :sswitch_46
-    const-string/jumbo v0, "mailboxtamreportingshimjni"
+    goto/16 :goto_12
 
+    .line 452
     .line 453
+    :sswitch_46
+    const-string v0, "audiographservice"
+
     .line 454
     .line 455
-    goto/16 :goto_f
+    goto/16 :goto_d
 
     .line 456
     .line 457
     :sswitch_47
-    const-string/jumbo v0, "xplat_arfx_services_impl_avatars_avatarsAndroid"
+    const-string/jumbo v0, "mailboxtamreportingshimjni"
 
     .line 458
     .line 459
     .line 460
-    goto/16 :goto_d
+    goto/16 :goto_f
 
     .line 461
     .line 462
     :sswitch_48
-    const-string/jumbo v0, "pando-graphql"
+    const-string/jumbo v0, "xplat_arfx_services_impl_avatars_avatarsAndroid"
 
     .line 463
     .line 464
     .line 465
-    goto/16 :goto_12
+    goto/16 :goto_d
 
     .line 466
     .line 467
     :sswitch_49
-    const-string v0, "ard-upload"
+    const-string/jumbo v0, "pando-graphql"
 
     .line 468
     .line 469
-    goto/16 :goto_10
-
     .line 470
-    .line 471
-    :sswitch_4a
-    const-string/jumbo v0, "pando-livequery-service"
+    goto/16 :goto_12
 
+    .line 471
     .line 472
+    :sswitch_4a
+    const-string v0, "ard-upload"
+
     .line 473
     .line 474
-    goto/16 :goto_12
+    goto/16 :goto_10
 
     .line 475
     .line 476
     :sswitch_4b
-    const-string/jumbo v0, "nativeutil-jni"
+    const-string/jumbo v0, "pando-livequery-service"
 
     .line 477
     .line 478
@@ -11694,17 +11694,17 @@
     .line 480
     .line 481
     :sswitch_4c
-    const-string/jumbo v0, "mediastreaming-videoqualityquery"
+    const-string/jumbo v0, "nativeutil-jni"
 
     .line 482
     .line 483
     .line 484
-    goto/16 :goto_a
+    goto/16 :goto_12
 
     .line 485
     .line 486
     :sswitch_4d
-    const-string/jumbo v0, "mediastreaming-dvr"
+    const-string/jumbo v0, "mediastreaming-videoqualityquery"
 
     .line 487
     .line 488
@@ -11714,7 +11714,7 @@
     .line 490
     .line 491
     :sswitch_4e
-    const-string/jumbo v0, "mediastreaming-stalldetector"
+    const-string/jumbo v0, "mediastreaming-dvr"
 
     .line 492
     .line 493
@@ -11724,56 +11724,56 @@
     .line 495
     .line 496
     :sswitch_4f
-    const-string/jumbo v0, "rsysmessagequeuejni"
+    const-string/jumbo v0, "mediastreaming-stalldetector"
 
     .line 497
     .line 498
     .line 499
-    goto/16 :goto_11
+    goto/16 :goto_a
 
     .line 500
     .line 501
     :sswitch_50
-    const-string/jumbo v0, "mailboxglobaldeletesettingsjni"
+    const-string/jumbo v0, "rsysmessagequeuejni"
 
     .line 502
     .line 503
     .line 504
-    goto/16 :goto_f
+    goto/16 :goto_11
 
     .line 505
     .line 506
     :sswitch_51
-    const-string v0, "cryptox"
+    const-string/jumbo v0, "mailboxglobaldeletesettingsjni"
 
     .line 507
     .line 508
-    goto/16 :goto_7
-
     .line 509
-    .line 510
-    :sswitch_52
-    const-string/jumbo v0, "mediapipeline-iglufilter-impl-basic"
+    goto/16 :goto_f
 
+    .line 510
     .line 511
+    :sswitch_52
+    const-string v0, "cryptox"
+
     .line 512
     .line 513
-    goto/16 :goto_8
+    goto/16 :goto_7
 
     .line 514
     .line 515
     :sswitch_53
-    const-string/jumbo v0, "mailboxcorejni"
+    const-string/jumbo v0, "mediapipeline-iglufilter-impl-basic"
 
     .line 516
     .line 517
     .line 518
-    goto/16 :goto_f
+    goto/16 :goto_8
 
     .line 519
     .line 520
     :sswitch_54
-    const-string/jumbo v0, "xplat_mantle_apps_instagram_mantle_helperAndroid"
+    const-string/jumbo v0, "mailboxcorejni"
 
     .line 521
     .line 522
@@ -11783,7 +11783,7 @@
     .line 524
     .line 525
     :sswitch_55
-    const-string/jumbo v0, "mailboxsecureconsentframeworkjni"
+    const-string/jumbo v0, "xplat_mantle_apps_instagram_mantle_helperAndroid"
 
     .line 526
     .line 527
@@ -11793,7 +11793,7 @@
     .line 529
     .line 530
     :sswitch_56
-    const-string/jumbo v0, "instagramDatabaseSchemaDeployerMDMS_DEFERREDnovt"
+    const-string/jumbo v0, "mailboxsecureconsentframeworkjni"
 
     .line 531
     .line 532
@@ -11803,7 +11803,7 @@
     .line 534
     .line 535
     :sswitch_57
-    const-string/jumbo v0, "instagramDatabaseSchemaDeployerMDMS_DEFERRED-acg"
+    const-string/jumbo v0, "instagramDatabaseSchemaDeployerMDMS_DEFERREDnovt"
 
     .line 536
     .line 537
@@ -11813,27 +11813,27 @@
     .line 539
     .line 540
     :sswitch_58
-    const-string/jumbo v0, "slamfactoryprovider"
+    const-string/jumbo v0, "instagramDatabaseSchemaDeployerMDMS_DEFERRED-acg"
 
     .line 541
     .line 542
     .line 543
-    goto/16 :goto_d
+    goto/16 :goto_f
 
     .line 544
     .line 545
     :sswitch_59
-    const-string/jumbo v0, "graphservice-jni-asset"
+    const-string/jumbo v0, "slamfactoryprovider"
 
     .line 546
     .line 547
     .line 548
-    goto/16 :goto_12
+    goto/16 :goto_d
 
     .line 549
     .line 550
     :sswitch_5a
-    const-string/jumbo v0, "rs-streameventhandler-jni"
+    const-string/jumbo v0, "graphservice-jni-asset"
 
     .line 551
     .line 552
@@ -11843,212 +11843,212 @@
     .line 554
     .line 555
     :sswitch_5b
-    const-string v0, "ard-models"
+    const-string/jumbo v0, "rs-streameventhandler-jni"
 
     .line 556
     .line 557
-    goto/16 :goto_10
-
     .line 558
-    .line 559
-    :sswitch_5c
-    const-string/jumbo v0, "profilo_memory_mapping_actions"
+    goto/16 :goto_12
 
+    .line 559
     .line 560
+    :sswitch_5c
+    const-string v0, "ard-models"
+
     .line 561
     .line 562
-    goto/16 :goto_14
+    goto/16 :goto_10
 
     .line 563
     .line 564
     :sswitch_5d
-    const-string/jumbo v0, "zopt-jni"
+    const-string/jumbo v0, "profilo_memory_mapping_actions"
 
     .line 565
     .line 566
     .line 567
-    goto/16 :goto_c
+    goto/16 :goto_14
 
     .line 568
     .line 569
     :sswitch_5e
-    const-string/jumbo v0, "gans-ops-xplat"
+    const-string/jumbo v0, "zopt-jni"
 
     .line 570
     .line 571
     .line 572
-    goto/16 :goto_9
+    goto/16 :goto_c
 
     .line 573
     .line 574
     :sswitch_5f
-    const-string/jumbo v0, "graphqlrt-subscription-jni"
+    const-string/jumbo v0, "gans-ops-xplat"
 
     .line 575
     .line 576
     .line 577
-    goto/16 :goto_12
+    goto/16 :goto_9
 
     .line 578
     .line 579
     :sswitch_60
-    const-string/jumbo v0, "fbandroid_libraries_profilo_cpp_providers"
+    const-string/jumbo v0, "graphqlrt-subscription-jni"
 
     .line 580
     .line 581
     .line 582
-    goto/16 :goto_14
+    goto/16 :goto_12
 
     .line 583
     .line 584
     :sswitch_61
-    const-string v0, "bundled-input-image-decoder-ops-xplat"
+    const-string/jumbo v0, "fbandroid_libraries_profilo_cpp_providers"
 
     .line 585
     .line 586
+    .line 587
+    goto/16 :goto_14
+
+    .line 588
+    .line 589
+    :sswitch_62
+    const-string v0, "bundled-input-image-decoder-ops-xplat"
+
+    .line 590
+    .line 591
     goto/16 :goto_9
 
-    .line 587
-    .line 588
-    :sswitch_62
+    .line 592
+    .line 593
+    :sswitch_63
     const-string v0, "classid"
 
-    .line 589
-    .line 590
-    goto/16 :goto_c
-
-    .line 591
-    .line 592
-    :sswitch_63
-    const-string/jumbo v0, "igtigon-jni"
-
-    .line 593
     .line 594
     .line 595
-    goto/16 :goto_2
+    goto/16 :goto_c
 
     .line 596
     .line 597
     :sswitch_64
-    const-string v0, "ard-remote-model-fetch-callback"
+    const-string/jumbo v0, "igtigon-jni"
 
     .line 598
     .line 599
-    goto/16 :goto_10
-
     .line 600
-    .line 601
-    :sswitch_65
-    const-string/jumbo v0, "profilo_systemcounters"
+    goto/16 :goto_2
 
+    .line 601
     .line 602
+    :sswitch_65
+    const-string v0, "ard-remote-model-fetch-callback"
+
     .line 603
     .line 604
-    goto/16 :goto_14
+    goto/16 :goto_10
 
     .line 605
     .line 606
     :sswitch_66
-    const-string/jumbo v0, "liger-multiconnector"
+    const-string/jumbo v0, "profilo_systemcounters"
 
     .line 607
     .line 608
     .line 609
-    goto/16 :goto_7
+    goto/16 :goto_14
 
     .line 610
     .line 611
     :sswitch_67
-    const-string/jumbo v0, "proxygen_lib_utils_crypt"
+    const-string/jumbo v0, "liger-multiconnector"
 
     .line 612
     .line 613
     .line 614
-    goto/16 :goto_3
+    goto/16 :goto_7
 
     .line 615
     .line 616
     :sswitch_68
-    const-string/jumbo v0, "unet-106-ops-xplat"
+    const-string/jumbo v0, "proxygen_lib_utils_crypt"
 
     .line 617
     .line 618
     .line 619
-    goto/16 :goto_9
+    goto/16 :goto_3
 
     .line 620
     .line 621
     :sswitch_69
-    const-string/jumbo v0, "fbandroid_java_com_facebook_cameracore_mediapipeline_dataproviders_shadercachemanager_implementation_jni_jni"
+    const-string/jumbo v0, "unet-106-ops-xplat"
 
     .line 622
     .line 623
     .line 624
-    goto/16 :goto_d
+    goto/16 :goto_9
 
     .line 625
     .line 626
     :sswitch_6a
-    const-string/jumbo v0, "graphstorecache"
+    const-string/jumbo v0, "fbandroid_java_com_facebook_cameracore_mediapipeline_dataproviders_shadercachemanager_implementation_jni_jni"
 
     .line 627
     .line 628
     .line 629
-    goto/16 :goto_12
+    goto/16 :goto_d
 
     .line 630
     .line 631
     :sswitch_6b
-    const-string/jumbo v0, "rsysmediajni"
+    const-string/jumbo v0, "graphstorecache"
 
     .line 632
     .line 633
     .line 634
-    goto/16 :goto_11
+    goto/16 :goto_12
 
     .line 635
     .line 636
     :sswitch_6c
-    const-string/jumbo v0, "profilo_mmap_file_writer"
+    const-string/jumbo v0, "rsysmediajni"
 
     .line 637
     .line 638
     .line 639
-    goto/16 :goto_14
+    goto/16 :goto_11
 
     .line 640
     .line 641
     :sswitch_6d
-    const-string v0, "cancalljavautils"
+    const-string/jumbo v0, "profilo_mmap_file_writer"
 
     .line 642
     .line 643
-    goto/16 :goto_c
-
     .line 644
-    .line 645
-    :sswitch_6e
-    const-string/jumbo v0, "single-model-cache-native-android"
+    goto/16 :goto_14
 
+    .line 645
     .line 646
+    :sswitch_6e
+    const-string v0, "cancalljavautils"
+
     .line 647
     .line 648
-    goto/16 :goto_10
+    goto/16 :goto_c
 
     .line 649
     .line 650
     :sswitch_6f
-    const-string/jumbo v0, "profilo_multi_buffer_logger"
+    const-string/jumbo v0, "single-model-cache-native-android"
 
     .line 651
     .line 652
     .line 653
-    goto/16 :goto_14
+    goto/16 :goto_10
 
     .line 654
     .line 655
     :sswitch_70
-    const-string/jumbo v0, "fbbacktrace"
+    const-string/jumbo v0, "profilo_multi_buffer_logger"
 
     .line 656
     .line 657
@@ -12058,7 +12058,7 @@
     .line 659
     .line 660
     :sswitch_71
-    const-string/jumbo v0, "profilo_apiimpl"
+    const-string/jumbo v0, "fbbacktrace"
 
     .line 661
     .line 662
@@ -12068,147 +12068,147 @@
     .line 664
     .line 665
     :sswitch_72
-    const-string/jumbo v0, "rsyscryptojni"
+    const-string/jumbo v0, "profilo_apiimpl"
 
     .line 666
     .line 667
     .line 668
-    goto/16 :goto_11
+    goto/16 :goto_14
 
     .line 669
     .line 670
     :sswitch_73
-    const-string v0, "double-conversion"
+    const-string/jumbo v0, "rsyscryptojni"
 
     .line 671
     .line 672
+    .line 673
+    goto/16 :goto_11
+
+    .line 674
+    .line 675
+    :sswitch_74
+    const-string v0, "double-conversion"
+
+    .line 676
+    .line 677
     goto/16 :goto_7
 
-    .line 673
-    .line 674
-    :sswitch_74
+    .line 678
+    .line 679
+    :sswitch_75
     const-string v0, "avatarsdataprovider"
 
-    .line 675
-    .line 676
-    goto/16 :goto_d
-
-    .line 677
-    .line 678
-    :sswitch_75
-    const-string/jumbo v0, "fb_jpegturbo"
-
-    .line 679
     .line 680
     .line 681
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    goto/16 :goto_d
 
     .line 682
     .line 683
+    :sswitch_76
+    const-string/jumbo v0, "fb_jpegturbo"
+
     .line 684
-    move-result v0
-
     .line 685
-    if-eqz v0, :cond_5
-
     .line 686
-    .line 687
-    const-string/jumbo v7, "msysxplatmerged_2"
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
+    .line 687
     .line 688
     .line 689
+    move-result v0
+
     .line 690
-    goto/16 :goto_15
+    if-eqz v0, :cond_5
 
     .line 691
     .line 692
-    :sswitch_76
-    const-string/jumbo v0, "rsysappstatejni"
+    const-string/jumbo v7, "msysxplatmerged_2"
 
     .line 693
     .line 694
     .line 695
-    goto/16 :goto_11
+    goto/16 :goto_15
 
     .line 696
     .line 697
     :sswitch_77
-    const-string v0, "android-reachability-announcer"
+    const-string/jumbo v0, "rsysappstatejni"
 
     .line 698
     .line 699
-    goto/16 :goto_a
-
     .line 700
-    .line 701
-    :sswitch_78
-    const-string/jumbo v0, "rsyscowatchjni"
+    goto/16 :goto_11
 
+    .line 701
     .line 702
+    :sswitch_78
+    const-string v0, "android-reachability-announcer"
+
     .line 703
     .line 704
-    goto/16 :goto_11
+    goto/16 :goto_a
 
     .line 705
     .line 706
     :sswitch_79
-    const-string/jumbo v0, "graphservice-jni-serialization"
+    const-string/jumbo v0, "rsyscowatchjni"
 
     .line 707
     .line 708
     .line 709
-    goto/16 :goto_12
+    goto/16 :goto_11
 
     .line 710
     .line 711
     :sswitch_7a
-    const-string/jumbo v0, "graphicsengine-arengineservices-igeffectservicehost-native"
+    const-string/jumbo v0, "graphservice-jni-serialization"
 
     .line 712
     .line 713
     .line 714
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    goto/16 :goto_12
 
     .line 715
     .line 716
+    :sswitch_7b
+    const-string/jumbo v0, "graphicsengine-arengineservices-igeffectservicehost-native"
+
     .line 717
-    move-result v0
-
     .line 718
-    if-eqz v0, :cond_5
-
     .line 719
-    .line 720
-    const-string v7, "effectservicehostmerged"
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
+    .line 720
     .line 721
     .line 722
-    goto/16 :goto_15
+    move-result v0
 
     .line 723
-    .line 724
-    :sswitch_7b
-    const-string/jumbo v0, "rsysvideosubscriptionsjni"
+    if-eqz v0, :cond_5
 
+    .line 724
     .line 725
+    const-string v7, "effectservicehostmerged"
+
     .line 726
     .line 727
-    goto/16 :goto_11
+    goto/16 :goto_15
 
     .line 728
     .line 729
     :sswitch_7c
-    const-string/jumbo v0, "pando-analytics-data"
+    const-string/jumbo v0, "rsysvideosubscriptionsjni"
 
     .line 730
     .line 731
     .line 732
-    goto/16 :goto_12
+    goto/16 :goto_11
 
     .line 733
     .line 734
     :sswitch_7d
-    const-string/jumbo v0, "pando-graphql-service"
+    const-string/jumbo v0, "pando-analytics-data"
 
     .line 735
     .line 736
@@ -12218,53 +12218,53 @@
     .line 738
     .line 739
     :sswitch_7e
-    const-string/jumbo v0, "recognitionservice"
+    const-string/jumbo v0, "pando-graphql-service"
 
     .line 740
     .line 741
     .line 742
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    goto/16 :goto_12
 
     .line 743
     .line 744
+    :sswitch_7f
+    const-string/jumbo v0, "recognitionservice"
+
     .line 745
-    move-result v0
-
     .line 746
-    if-eqz v0, :cond_5
-
     .line 747
-    .line 748
-    const-string v7, "effectservicehostmerged_1"
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
+    .line 748
     .line 749
     .line 750
-    goto/16 :goto_15
+    move-result v0
 
     .line 751
-    .line 752
-    :sswitch_7f
-    const-string/jumbo v0, "rsyscallmanagerjni"
+    if-eqz v0, :cond_5
 
+    .line 752
     .line 753
+    const-string v7, "effectservicehostmerged_1"
+
     .line 754
     .line 755
-    goto/16 :goto_11
+    goto/16 :goto_15
 
     .line 756
     .line 757
     :sswitch_80
-    const-string/jumbo v0, "profiloprofilerunwindc900"
+    const-string/jumbo v0, "rsyscallmanagerjni"
 
     .line 758
     .line 759
     .line 760
-    goto/16 :goto_14
+    goto/16 :goto_11
 
     .line 761
     .line 762
     :sswitch_81
-    const-string/jumbo v0, "profiloprofilerunwindc810"
+    const-string/jumbo v0, "profiloprofilerunwindc900"
 
     .line 763
     .line 764
@@ -12274,7 +12274,7 @@
     .line 766
     .line 767
     :sswitch_82
-    const-string/jumbo v0, "profiloprofilerunwindc800"
+    const-string/jumbo v0, "profiloprofilerunwindc810"
 
     .line 768
     .line 769
@@ -12284,7 +12284,7 @@
     .line 771
     .line 772
     :sswitch_83
-    const-string/jumbo v0, "profiloprofilerunwindc712"
+    const-string/jumbo v0, "profiloprofilerunwindc800"
 
     .line 773
     .line 774
@@ -12294,7 +12294,7 @@
     .line 776
     .line 777
     :sswitch_84
-    const-string/jumbo v0, "profiloprofilerunwindc711"
+    const-string/jumbo v0, "profiloprofilerunwindc712"
 
     .line 778
     .line 779
@@ -12304,7 +12304,7 @@
     .line 781
     .line 782
     :sswitch_85
-    const-string/jumbo v0, "profiloprofilerunwindc710"
+    const-string/jumbo v0, "profiloprofilerunwindc711"
 
     .line 783
     .line 784
@@ -12314,7 +12314,7 @@
     .line 786
     .line 787
     :sswitch_86
-    const-string/jumbo v0, "profiloprofilerunwindc700"
+    const-string/jumbo v0, "profiloprofilerunwindc710"
 
     .line 788
     .line 789
@@ -12324,7 +12324,7 @@
     .line 791
     .line 792
     :sswitch_87
-    const-string/jumbo v0, "profiloprofilerunwindc600"
+    const-string/jumbo v0, "profiloprofilerunwindc700"
 
     .line 793
     .line 794
@@ -12334,7 +12334,7 @@
     .line 796
     .line 797
     :sswitch_88
-    const-string/jumbo v0, "profiloprofilerunwindc510"
+    const-string/jumbo v0, "profiloprofilerunwindc600"
 
     .line 798
     .line 799
@@ -12344,7 +12344,7 @@
     .line 801
     .line 802
     :sswitch_89
-    const-string/jumbo v0, "profiloprofilerunwindc500"
+    const-string/jumbo v0, "profiloprofilerunwindc510"
 
     .line 803
     .line 804
@@ -12354,27 +12354,27 @@
     .line 806
     .line 807
     :sswitch_8a
-    const-string/jumbo v0, "jniexecutors"
+    const-string/jumbo v0, "profiloprofilerunwindc500"
 
     .line 808
     .line 809
     .line 810
-    goto/16 :goto_7
+    goto/16 :goto_14
 
     .line 811
     .line 812
     :sswitch_8b
-    const-string/jumbo v0, "pando-data"
+    const-string/jumbo v0, "jniexecutors"
 
     .line 813
     .line 814
     .line 815
-    goto/16 :goto_12
+    goto/16 :goto_7
 
     .line 816
     .line 817
     :sswitch_8c
-    const-string/jumbo v0, "pando-core"
+    const-string/jumbo v0, "pando-data"
 
     .line 818
     .line 819
@@ -12384,7 +12384,7 @@
     .line 821
     .line 822
     :sswitch_8d
-    const-string/jumbo v0, "rs-client-jni"
+    const-string/jumbo v0, "pando-core"
 
     .line 823
     .line 824
@@ -12394,7 +12394,7 @@
     .line 826
     .line 827
     :sswitch_8e
-    const-string/jumbo v0, "graphqlsubscriptionssdk"
+    const-string/jumbo v0, "rs-client-jni"
 
     .line 828
     .line 829
@@ -12404,195 +12404,195 @@
     .line 831
     .line 832
     :sswitch_8f
-    const-string/jumbo v0, "instagram-libeffectservicehostmerged"
+    const-string/jumbo v0, "graphqlsubscriptionssdk"
 
     .line 833
     .line 834
     .line 835
-    goto/16 :goto_d
+    goto/16 :goto_12
 
     .line 836
     .line 837
     :sswitch_90
-    const-string/jumbo v0, "pando-graphql-network"
+    const-string/jumbo v0, "instagram-libeffectservicehostmerged"
 
     .line 838
     .line 839
     .line 840
-    goto/16 :goto_12
+    goto/16 :goto_d
 
     .line 841
     .line 842
     :sswitch_91
-    const-string v0, "ard-android-async-asset-fetcher"
+    const-string/jumbo v0, "pando-graphql-network"
 
     .line 843
     .line 844
-    goto/16 :goto_10
-
     .line 845
-    .line 846
-    :sswitch_92
-    const-string/jumbo v0, "mailboxproactivewarningsnoncorejni"
+    goto/16 :goto_12
 
+    .line 846
     .line 847
+    :sswitch_92
+    const-string v0, "ard-android-async-asset-fetcher"
+
     .line 848
     .line 849
-    goto/16 :goto_f
+    goto/16 :goto_10
 
     .line 850
     .line 851
     :sswitch_93
-    const-string/jumbo v0, "igrequeststream-dgw-jni"
+    const-string/jumbo v0, "mailboxproactivewarningsnoncorejni"
 
     .line 852
     .line 853
     .line 854
-    goto/16 :goto_12
+    goto/16 :goto_f
 
     .line 855
     .line 856
     :sswitch_94
-    const-string/jumbo v0, "mailboxinstagrampresencejni"
+    const-string/jumbo v0, "igrequeststream-dgw-jni"
 
     .line 857
     .line 858
     .line 859
-    goto/16 :goto_f
+    goto/16 :goto_12
 
     .line 860
     .line 861
     :sswitch_95
-    const-string/jumbo v0, "openh264v211libencoderAndroid"
+    const-string/jumbo v0, "mailboxinstagrampresencejni"
 
     .line 862
     .line 863
     .line 864
-    goto/16 :goto_11
+    goto/16 :goto_f
 
     .line 865
     .line 866
     :sswitch_96
-    const-string v0, "ard-cacheprovider"
+    const-string/jumbo v0, "openh264v211libencoderAndroid"
 
     .line 867
     .line 868
-    goto/16 :goto_10
-
     .line 869
-    .line 870
-    :sswitch_97
-    const-string/jumbo v0, "tigonmns-jni"
+    goto/16 :goto_11
 
+    .line 870
     .line 871
+    :sswitch_97
+    const-string v0, "ard-cacheprovider"
+
     .line 872
     .line 873
-    goto/16 :goto_2
+    goto/16 :goto_10
 
     .line 874
     .line 875
     :sswitch_98
-    const-string v0, "ard-android-listener"
+    const-string/jumbo v0, "tigonmns-jni"
 
     .line 876
     .line 877
-    goto/16 :goto_10
-
     .line 878
-    .line 879
-    :sswitch_99
-    const-string/jumbo v0, "locationdataprovider"
+    goto/16 :goto_2
 
+    .line 879
     .line 880
+    :sswitch_99
+    const-string v0, "ard-android-listener"
+
     .line 881
     .line 882
-    goto/16 :goto_d
+    goto/16 :goto_10
 
     .line 883
     .line 884
     :sswitch_9a
-    invoke-virtual {p0, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string/jumbo v0, "locationdataprovider"
 
     .line 885
     .line 886
     .line 887
-    move-result v0
+    goto/16 :goto_d
 
     .line 888
-    goto/16 :goto_4
-
     .line 889
-    .line 890
     :sswitch_9b
-    const-string v0, "ard-android-network-consent-manager-impl"
+    invoke-virtual {p0, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
+    .line 890
     .line 891
     .line 892
-    goto/16 :goto_10
+    move-result v0
 
     .line 893
-    .line 894
-    :sswitch_9c
-    const-string/jumbo v0, "rsysvideoeffectjni"
+    goto/16 :goto_4
 
+    .line 894
     .line 895
+    :sswitch_9c
+    const-string v0, "ard-android-network-consent-manager-impl"
+
     .line 896
     .line 897
-    goto/16 :goto_11
+    goto/16 :goto_10
 
     .line 898
     .line 899
     :sswitch_9d
-    const-string v0, "ard-async-downloader"
+    const-string/jumbo v0, "rsysvideoeffectjni"
 
     .line 900
     .line 901
-    goto/16 :goto_10
-
     .line 902
-    .line 903
-    :sswitch_9e
-    const-string/jumbo v0, "maskrcnn-ops-xplat"
+    goto/16 :goto_11
 
+    .line 903
     .line 904
+    :sswitch_9e
+    const-string v0, "ard-async-downloader"
+
     .line 905
     .line 906
-    goto/16 :goto_9
+    goto/16 :goto_10
 
     .line 907
     .line 908
     :sswitch_9f
-    const-string/jumbo v0, "scrambler"
+    const-string/jumbo v0, "maskrcnn-ops-xplat"
 
     .line 909
     .line 910
     .line 911
-    goto/16 :goto_8
+    goto/16 :goto_9
 
     .line 912
     .line 913
     :sswitch_a0
-    const-string/jumbo v0, "zopt"
+    const-string/jumbo v0, "scrambler"
 
     .line 914
     .line 915
     .line 916
-    goto/16 :goto_c
+    goto/16 :goto_8
 
     .line 917
     .line 918
     :sswitch_a1
-    const-string/jumbo v0, "sslx"
+    const-string/jumbo v0, "zopt"
 
     .line 919
     .line 920
     .line 921
-    goto/16 :goto_7
+    goto/16 :goto_c
 
     .line 922
     .line 923
     :sswitch_a2
-    const-string/jumbo v0, "fizz"
+    const-string/jumbo v0, "sslx"
 
     .line 924
     .line 925
@@ -12602,209 +12602,209 @@
     .line 927
     .line 928
     :sswitch_a3
-    const-string/jumbo v0, "fmt"
+    const-string/jumbo v0, "fizz"
 
     .line 929
     .line 930
     .line 931
-    goto/16 :goto_c
+    goto/16 :goto_7
 
     .line 932
     .line 933
     :sswitch_a4
-    const-string/jumbo v0, "fittedexpressiontracking"
+    const-string/jumbo v0, "fmt"
 
     .line 934
     .line 935
     .line 936
-    goto/16 :goto_d
+    goto/16 :goto_c
 
     .line 937
     .line 938
     :sswitch_a5
-    const-string/jumbo v0, "pando-graphstore"
+    const-string/jumbo v0, "fittedexpressiontracking"
 
     .line 939
     .line 940
     .line 941
-    goto/16 :goto_12
+    goto/16 :goto_d
 
     .line 942
     .line 943
     :sswitch_a6
-    const-string/jumbo v0, "mediastreaming-config"
+    const-string/jumbo v0, "pando-graphstore"
 
     .line 944
     .line 945
     .line 946
-    goto/16 :goto_a
+    goto/16 :goto_12
 
     .line 947
     .line 948
     :sswitch_a7
-    const-string/jumbo v0, "graphservice-jni-instagram"
+    const-string/jumbo v0, "mediastreaming-config"
 
     .line 949
     .line 950
     .line 951
-    goto/16 :goto_12
+    goto/16 :goto_a
 
     .line 952
     .line 953
     :sswitch_a8
-    const-string/jumbo v0, "rsyslogjni"
+    const-string/jumbo v0, "graphservice-jni-instagram"
 
     .line 954
     .line 955
     .line 956
-    goto/16 :goto_11
+    goto/16 :goto_12
 
     .line 957
     .line 958
     :sswitch_a9
-    const-string/jumbo v0, "igrequeststream-jni"
+    const-string/jumbo v0, "rsyslogjni"
 
     .line 959
     .line 960
     .line 961
-    goto/16 :goto_12
+    goto/16 :goto_11
 
     .line 962
     .line 963
     :sswitch_aa
-    const-string/jumbo v0, "rsysoutgoingcallconfigjni"
+    const-string/jumbo v0, "igrequeststream-jni"
 
     .line 964
     .line 965
     .line 966
-    goto/16 :goto_11
+    goto/16 :goto_12
 
     .line 967
     .line 968
     :sswitch_ab
-    const-string/jumbo v0, "instagram-libliger"
+    const-string/jumbo v0, "rsysoutgoingcallconfigjni"
 
     .line 969
     .line 970
     .line 971
-    goto/16 :goto_3
+    goto/16 :goto_11
 
     .line 972
     .line 973
     :sswitch_ac
-    const-string/jumbo v0, "mailboxtamjni"
+    const-string/jumbo v0, "instagram-libliger"
 
     .line 974
     .line 975
     .line 976
-    goto/16 :goto_f
+    goto/16 :goto_3
 
     .line 977
     .line 978
     :sswitch_ad
-    const-string v0, "distract-common-museum-funcs-810"
+    const-string/jumbo v0, "mailboxtamjni"
 
     .line 979
     .line 980
+    .line 981
+    goto/16 :goto_f
+
+    .line 982
+    .line 983
+    :sswitch_ae
+    const-string v0, "distract-common-museum-funcs-810"
+
+    .line 984
+    .line 985
     goto/16 :goto_c
 
-    .line 981
-    .line 982
-    :sswitch_ae
+    .line 986
+    .line 987
+    :sswitch_af
     const-string v0, "distract-common-museum-funcs-800"
 
-    .line 983
-    .line 984
+    .line 988
+    .line 989
     goto/16 :goto_c
 
-    .line 985
-    .line 986
-    :sswitch_af
+    .line 990
+    .line 991
+    :sswitch_b0
     const-string v0, "distract-common-museum-funcs-712"
 
-    .line 987
-    .line 988
+    .line 992
+    .line 993
     goto/16 :goto_c
 
-    .line 989
-    .line 990
-    :sswitch_b0
+    .line 994
+    .line 995
+    :sswitch_b1
     const-string v0, "distract-common-museum-funcs-700"
 
-    .line 991
-    .line 992
+    .line 996
+    .line 997
     goto/16 :goto_c
 
-    .line 993
-    .line 994
-    :sswitch_b1
+    .line 998
+    .line 999
+    :sswitch_b2
     const-string v0, "distract-common-museum-funcs-601"
 
-    .line 995
-    .line 996
+    .line 1000
+    .line 1001
     goto/16 :goto_c
 
-    .line 997
-    .line 998
-    :sswitch_b2
+    .line 1002
+    .line 1003
+    :sswitch_b3
     const-string v0, "distract-common-museum-funcs-511"
 
-    .line 999
-    .line 1000
+    .line 1004
+    .line 1005
     goto/16 :goto_c
 
-    .line 1001
-    .line 1002
-    :sswitch_b3
+    .line 1006
+    .line 1007
+    :sswitch_b4
     const-string v0, "distract-common-museum-funcs-500"
 
-    .line 1003
-    .line 1004
+    .line 1008
+    .line 1009
     goto/16 :goto_c
 
-    .line 1005
-    .line 1006
-    :sswitch_b4
+    .line 1010
+    .line 1011
+    :sswitch_b5
     const-string v0, "asyncexecutor"
 
-    .line 1007
-    .line 1008
-    goto/16 :goto_7
-
-    .line 1009
-    .line 1010
-    :sswitch_b5
-    const-string/jumbo v0, "messagechannel"
-
-    .line 1011
     .line 1012
     .line 1013
-    goto/16 :goto_d
+    goto/16 :goto_7
 
     .line 1014
     .line 1015
     :sswitch_b6
-    const-string/jumbo v0, "profilo_block_logger"
+    const-string/jumbo v0, "messagechannel"
 
     .line 1016
     .line 1017
     .line 1018
-    goto/16 :goto_14
+    goto/16 :goto_d
 
     .line 1019
     .line 1020
     :sswitch_b7
-    const-string/jumbo v0, "rsysaudiomodulejni"
+    const-string/jumbo v0, "profilo_block_logger"
 
     .line 1021
     .line 1022
     .line 1023
-    goto/16 :goto_11
+    goto/16 :goto_14
 
     .line 1024
     .line 1025
     :sswitch_b8
-    const-string/jumbo v0, "rsysdevicestatsjni"
+    const-string/jumbo v0, "rsysaudiomodulejni"
 
     .line 1026
     .line 1027
@@ -12814,45 +12814,45 @@
     .line 1029
     .line 1030
     :sswitch_b9
-    const-string/jumbo v0, "instagramDatabaseSchemaDeployerMDMS_DEFERRED"
+    const-string/jumbo v0, "rsysdevicestatsjni"
 
     .line 1031
     .line 1032
     .line 1033
-    goto/16 :goto_f
+    goto/16 :goto_11
 
     .line 1034
     .line 1035
     :sswitch_ba
-    const-string v0, "classid1100"
+    const-string/jumbo v0, "instagramDatabaseSchemaDeployerMDMS_DEFERRED"
 
     .line 1036
     .line 1037
+    .line 1038
+    goto/16 :goto_f
+
+    .line 1039
+    .line 1040
+    :sswitch_bb
+    const-string v0, "classid1100"
+
+    .line 1041
+    .line 1042
     goto/16 :goto_c
 
-    .line 1038
-    .line 1039
-    :sswitch_bb
+    .line 1043
+    .line 1044
+    :sswitch_bc
     const-string v0, "classid1000"
 
-    .line 1040
-    .line 1041
-    goto/16 :goto_c
-
-    .line 1042
-    .line 1043
-    :sswitch_bc
-    const-string/jumbo v0, "javamemtracking900"
-
-    .line 1044
     .line 1045
     .line 1046
-    goto/16 :goto_14
+    goto/16 :goto_c
 
     .line 1047
     .line 1048
     :sswitch_bd
-    const-string/jumbo v0, "javamemtracking810"
+    const-string/jumbo v0, "javamemtracking900"
 
     .line 1049
     .line 1050
@@ -12862,7 +12862,7 @@
     .line 1052
     .line 1053
     :sswitch_be
-    const-string/jumbo v0, "javamemtracking800"
+    const-string/jumbo v0, "javamemtracking810"
 
     .line 1054
     .line 1055
@@ -12872,7 +12872,7 @@
     .line 1057
     .line 1058
     :sswitch_bf
-    const-string/jumbo v0, "javamemtracking712"
+    const-string/jumbo v0, "javamemtracking800"
 
     .line 1059
     .line 1060
@@ -12882,7 +12882,7 @@
     .line 1062
     .line 1063
     :sswitch_c0
-    const-string/jumbo v0, "javamemtracking700"
+    const-string/jumbo v0, "javamemtracking712"
 
     .line 1064
     .line 1065
@@ -12892,7 +12892,7 @@
     .line 1067
     .line 1068
     :sswitch_c1
-    const-string/jumbo v0, "javamemtracking601"
+    const-string/jumbo v0, "javamemtracking700"
 
     .line 1069
     .line 1070
@@ -12902,7 +12902,7 @@
     .line 1072
     .line 1073
     :sswitch_c2
-    const-string/jumbo v0, "javamemtracking511"
+    const-string/jumbo v0, "javamemtracking601"
 
     .line 1074
     .line 1075
@@ -12912,7 +12912,7 @@
     .line 1077
     .line 1078
     :sswitch_c3
-    const-string/jumbo v0, "javamemtracking500"
+    const-string/jumbo v0, "javamemtracking511"
 
     .line 1079
     .line 1080
@@ -12922,27 +12922,27 @@
     .line 1082
     .line 1083
     :sswitch_c4
-    const-string/jumbo v0, "rsystslogjni"
+    const-string/jumbo v0, "javamemtracking500"
 
     .line 1084
     .line 1085
     .line 1086
-    goto/16 :goto_11
+    goto/16 :goto_14
 
     .line 1087
     .line 1088
     :sswitch_c5
-    const-string/jumbo v0, "regionhint-jni-instagram"
+    const-string/jumbo v0, "rsystslogjni"
 
     .line 1089
     .line 1090
     .line 1091
-    goto/16 :goto_12
+    goto/16 :goto_11
 
     .line 1092
     .line 1093
     :sswitch_c6
-    const-string/jumbo v0, "pando-graphql-jni"
+    const-string/jumbo v0, "regionhint-jni-instagram"
 
     .line 1094
     .line 1095
@@ -12952,17 +12952,17 @@
     .line 1097
     .line 1098
     :sswitch_c7
-    const-string/jumbo v0, "profilo_native_memory"
+    const-string/jumbo v0, "pando-graphql-jni"
 
     .line 1099
     .line 1100
     .line 1101
-    goto/16 :goto_14
+    goto/16 :goto_12
 
     .line 1102
     .line 1103
     :sswitch_c8
-    const-string/jumbo v0, "profilo_jni_helpers"
+    const-string/jumbo v0, "profilo_native_memory"
 
     .line 1104
     .line 1105
@@ -12972,279 +12972,279 @@
     .line 1107
     .line 1108
     :sswitch_c9
-    const-string v0, "domaininfoutils_jni"
+    const-string/jumbo v0, "profilo_jni_helpers"
 
     .line 1109
     .line 1110
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
     .line 1111
+    goto/16 :goto_14
+
     .line 1112
     .line 1113
-    move-result v0
+    :sswitch_ca
+    const-string v0, "domaininfoutils_jni"
 
     .line 1114
-    if-eqz v0, :cond_5
-
     .line 1115
-    .line 1116
-    const-string/jumbo v7, "fbdomains"
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
+    .line 1116
     .line 1117
     .line 1118
+    move-result v0
+
     .line 1119
-    goto/16 :goto_15
+    if-eqz v0, :cond_5
 
     .line 1120
     .line 1121
-    :sswitch_ca
-    const-string/jumbo v0, "graphservice-jni-factory"
+    const-string/jumbo v7, "fbdomains"
 
     .line 1122
     .line 1123
     .line 1124
-    goto/16 :goto_12
+    goto/16 :goto_15
 
     .line 1125
     .line 1126
     :sswitch_cb
-    const-string/jumbo v0, "profiloextapi"
+    const-string/jumbo v0, "graphservice-jni-factory"
 
     .line 1127
     .line 1128
     .line 1129
-    goto/16 :goto_c
+    goto/16 :goto_12
 
     .line 1130
     .line 1131
     :sswitch_cc
-    const-string/jumbo v0, "rtgqlsdk"
+    const-string/jumbo v0, "profiloextapi"
 
     .line 1132
     .line 1133
     .line 1134
-    goto/16 :goto_12
+    goto/16 :goto_c
 
     .line 1135
     .line 1136
     :sswitch_cd
-    const-string/jumbo v0, "mediapipeline-iglufilter-holder"
+    const-string/jumbo v0, "rtgqlsdk"
 
     .line 1137
     .line 1138
     .line 1139
-    goto/16 :goto_8
+    goto/16 :goto_12
 
     .line 1140
     .line 1141
     :sswitch_ce
-    const-string v0, "classid900"
+    const-string/jumbo v0, "mediapipeline-iglufilter-holder"
 
     .line 1142
     .line 1143
+    .line 1144
+    goto/16 :goto_8
+
+    .line 1145
+    .line 1146
+    :sswitch_cf
+    const-string v0, "classid900"
+
+    .line 1147
+    .line 1148
     goto/16 :goto_c
 
-    .line 1144
-    .line 1145
-    :sswitch_cf
+    .line 1149
+    .line 1150
+    :sswitch_d0
     const-string v0, "classid810"
 
-    .line 1146
-    .line 1147
+    .line 1151
+    .line 1152
     goto/16 :goto_c
 
-    .line 1148
-    .line 1149
-    :sswitch_d0
+    .line 1153
+    .line 1154
+    :sswitch_d1
     const-string v0, "classid800"
 
-    .line 1150
-    .line 1151
-    goto/16 :goto_c
-
-    .line 1152
-    .line 1153
-    :sswitch_d1
-    const-string/jumbo v0, "fb_mozjpeg"
-
-    .line 1154
     .line 1155
     .line 1156
-    goto/16 :goto_8
+    goto/16 :goto_c
 
     .line 1157
     .line 1158
     :sswitch_d2
-    const-string/jumbo v0, "profilo"
+    const-string/jumbo v0, "fb_mozjpeg"
 
     .line 1159
     .line 1160
     .line 1161
-    goto/16 :goto_14
+    goto/16 :goto_8
 
     .line 1162
     .line 1163
     :sswitch_d3
-    const-string/jumbo v0, "mailboxtamreportingjni"
+    const-string/jumbo v0, "profilo"
 
     .line 1164
     .line 1165
     .line 1166
-    goto/16 :goto_f
+    goto/16 :goto_14
 
     .line 1167
     .line 1168
     :sswitch_d4
-    const-string/jumbo v0, "rsyscalljni"
+    const-string/jumbo v0, "mailboxtamreportingjni"
 
     .line 1169
     .line 1170
     .line 1171
-    goto/16 :goto_11
+    goto/16 :goto_f
 
     .line 1172
     .line 1173
     :sswitch_d5
-    const-string/jumbo v0, "target-recognition-android"
+    const-string/jumbo v0, "rsyscalljni"
 
     .line 1174
     .line 1175
     .line 1176
-    goto/16 :goto_d
+    goto/16 :goto_11
 
     .line 1177
     .line 1178
     :sswitch_d6
-    const-string/jumbo v0, "fbacore-jni"
+    const-string/jumbo v0, "target-recognition-android"
 
     .line 1179
     .line 1180
     .line 1181
-    goto/16 :goto_7
+    goto/16 :goto_d
 
     .line 1182
     .line 1183
     :sswitch_d7
-    const-string/jumbo v0, "postmlp"
+    const-string/jumbo v0, "fbacore-jni"
 
     .line 1184
     .line 1185
     .line 1186
-    goto/16 :goto_d
+    goto/16 :goto_7
 
     .line 1187
     .line 1188
     :sswitch_d8
-    const-string/jumbo v0, "rsyscryptocontextfactoryjni"
+    const-string/jumbo v0, "postmlp"
 
     .line 1189
     .line 1190
     .line 1191
-    goto/16 :goto_11
+    goto/16 :goto_d
 
     .line 1192
     .line 1193
     :sswitch_d9
-    const-string v0, "audiograph-native"
+    const-string/jumbo v0, "rsyscryptocontextfactoryjni"
 
     .line 1194
     .line 1195
-    goto/16 :goto_d
-
     .line 1196
-    .line 1197
-    :sswitch_da
-    const-string/jumbo v0, "messengerarmadilloinstagram_jni"
+    goto/16 :goto_11
 
+    .line 1197
     .line 1198
+    :sswitch_da
+    const-string v0, "audiograph-native"
+
     .line 1199
     .line 1200
-    goto/16 :goto_f
+    goto/16 :goto_d
 
     .line 1201
     .line 1202
     :sswitch_db
-    const-string/jumbo v0, "unifiedfilter"
+    const-string/jumbo v0, "messengerarmadilloinstagram_jni"
 
     .line 1203
     .line 1204
     .line 1205
-    goto/16 :goto_8
+    goto/16 :goto_f
 
     .line 1206
     .line 1207
     :sswitch_dc
-    const-string/jumbo v0, "ig-distribgw-jni"
+    const-string/jumbo v0, "unifiedfilter"
 
     .line 1208
     .line 1209
     .line 1210
-    goto/16 :goto_12
+    goto/16 :goto_8
 
     .line 1211
     .line 1212
     :sswitch_dd
-    const-string/jumbo v0, "mailboxinstagramuserjni"
+    const-string/jumbo v0, "ig-distribgw-jni"
 
     .line 1213
     .line 1214
     .line 1215
-    goto/16 :goto_f
+    goto/16 :goto_12
 
     .line 1216
     .line 1217
     :sswitch_de
-    const-string/jumbo v0, "torch-code-gen"
+    const-string/jumbo v0, "mailboxinstagramuserjni"
 
     .line 1218
     .line 1219
     .line 1220
-    goto/16 :goto_9
+    goto/16 :goto_f
 
     .line 1221
     .line 1222
     :sswitch_df
-    const-string/jumbo v0, "mediastreaming-transport"
+    const-string/jumbo v0, "torch-code-gen"
 
     .line 1223
     .line 1224
     .line 1225
-    goto/16 :goto_a
+    goto/16 :goto_9
 
     .line 1226
     .line 1227
     :sswitch_e0
-    const-string/jumbo v0, "profilo_mmapbuf_rdr"
+    const-string/jumbo v0, "mediastreaming-transport"
 
     .line 1228
     .line 1229
     .line 1230
-    goto/16 :goto_14
+    goto/16 :goto_a
 
     .line 1231
     .line 1232
     :sswitch_e1
-    const-string/jumbo v0, "mediastreaming-livetrace"
+    const-string/jumbo v0, "profilo_mmapbuf_rdr"
 
     .line 1233
     .line 1234
     .line 1235
-    goto/16 :goto_a
+    goto/16 :goto_14
 
     .line 1236
     .line 1237
     :sswitch_e2
-    const-string/jumbo v0, "profilo_stacktrace"
+    const-string/jumbo v0, "mediastreaming-livetrace"
 
     .line 1238
     .line 1239
     .line 1240
-    goto/16 :goto_14
+    goto/16 :goto_a
 
     .line 1241
     .line 1242
     :sswitch_e3
-    const-string/jumbo v0, "profilo_jmulti_buffer_logger"
+    const-string/jumbo v0, "profilo_stacktrace"
 
     .line 1243
     .line 1244
@@ -13254,56 +13254,56 @@
     .line 1246
     .line 1247
     :sswitch_e4
-    const-string/jumbo v0, "messengermcppluginregistryintegrationjni"
+    const-string/jumbo v0, "profilo_jmulti_buffer_logger"
 
     .line 1248
     .line 1249
     .line 1250
-    goto/16 :goto_f
+    goto/16 :goto_14
 
     .line 1251
     .line 1252
     :sswitch_e5
-    const-string/jumbo v0, "profilo_memory"
+    const-string/jumbo v0, "messengermcppluginregistryintegrationjni"
 
     .line 1253
     .line 1254
     .line 1255
-    goto/16 :goto_14
+    goto/16 :goto_f
 
     .line 1256
     .line 1257
     :sswitch_e6
-    const-string v0, "distribgw-mns-jni"
+    const-string/jumbo v0, "profilo_memory"
 
     .line 1258
     .line 1259
-    goto/16 :goto_12
-
     .line 1260
-    .line 1261
-    :sswitch_e7
-    const-string/jumbo v0, "rsysgridjni"
+    goto/16 :goto_14
 
+    .line 1261
     .line 1262
+    :sswitch_e7
+    const-string v0, "distribgw-mns-jni"
+
     .line 1263
     .line 1264
-    goto/16 :goto_11
+    goto/16 :goto_12
 
     .line 1265
     .line 1266
     :sswitch_e8
-    const-string/jumbo v0, "profilo_logger"
+    const-string/jumbo v0, "rsysgridjni"
 
     .line 1267
     .line 1268
     .line 1269
-    goto/16 :goto_14
+    goto/16 :goto_11
 
     .line 1270
     .line 1271
     :sswitch_e9
-    const-string/jumbo v0, "profilo_libcio"
+    const-string/jumbo v0, "profilo_logger"
 
     .line 1272
     .line 1273
@@ -13313,45 +13313,45 @@
     .line 1275
     .line 1276
     :sswitch_ea
-    const-string/jumbo v0, "tigonobserver"
+    const-string/jumbo v0, "profilo_libcio"
 
     .line 1277
     .line 1278
     .line 1279
-    :goto_2
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    goto/16 :goto_14
 
     .line 1280
     .line 1281
+    :sswitch_eb
+    const-string/jumbo v0, "tigonobserver"
+
     .line 1282
-    move-result v0
-
     .line 1283
-    if-eqz v0, :cond_5
-
     .line 1284
-    .line 1285
-    const-string/jumbo v7, "tigon"
+    :goto_2
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
+    .line 1285
     .line 1286
     .line 1287
+    move-result v0
+
     .line 1288
-    goto/16 :goto_15
+    if-eqz v0, :cond_5
 
     .line 1289
     .line 1290
-    :sswitch_eb
-    const-string/jumbo v0, "graphqlrealtimeservice-jni"
+    const-string/jumbo v7, "tigon"
 
     .line 1291
     .line 1292
     .line 1293
-    goto/16 :goto_12
+    goto/16 :goto_15
 
     .line 1294
     .line 1295
     :sswitch_ec
-    const-string/jumbo v0, "graphservice-jni-tree"
+    const-string/jumbo v0, "graphqlrealtimeservice-jni"
 
     .line 1296
     .line 1297
@@ -13361,7 +13361,7 @@
     .line 1299
     .line 1300
     :sswitch_ed
-    const-string/jumbo v0, "pando-graphql-instagram-jni"
+    const-string/jumbo v0, "graphservice-jni-tree"
 
     .line 1301
     .line 1302
@@ -13371,104 +13371,104 @@
     .line 1304
     .line 1305
     :sswitch_ee
-    const-string/jumbo v0, "profilo_signal_handler"
+    const-string/jumbo v0, "pando-graphql-instagram-jni"
 
     .line 1306
     .line 1307
     .line 1308
-    goto/16 :goto_14
+    goto/16 :goto_12
 
     .line 1309
     .line 1310
     :sswitch_ef
-    const-string/jumbo v0, "mediastreaming"
+    const-string/jumbo v0, "profilo_signal_handler"
 
     .line 1311
     .line 1312
     .line 1313
-    goto/16 :goto_a
+    goto/16 :goto_14
 
     .line 1314
     .line 1315
     :sswitch_f0
-    const-string v0, "arthook"
+    const-string/jumbo v0, "mediastreaming"
 
     .line 1316
     .line 1317
-    goto/16 :goto_c
-
     .line 1318
-    .line 1319
-    :sswitch_f1
-    const-string/jumbo v0, "xxhash"
+    goto/16 :goto_a
 
+    .line 1319
     .line 1320
+    :sswitch_f1
+    const-string v0, "arthook"
+
     .line 1321
     .line 1322
-    goto :goto_3
+    goto/16 :goto_c
 
     .line 1323
-    :sswitch_f2
-    const-string v0, "arclass"
-
     .line 1324
-    .line 1325
-    goto/16 :goto_5
+    :sswitch_f2
+    const-string/jumbo v0, "xxhash"
 
+    .line 1325
     .line 1326
     .line 1327
-    :sswitch_f3
-    const-string/jumbo v0, "rsysvideoeffectcommunicationjni"
+    goto :goto_3
 
     .line 1328
+    :sswitch_f3
+    const-string v0, "arclass"
+
     .line 1329
     .line 1330
-    goto/16 :goto_11
+    goto/16 :goto_5
 
     .line 1331
     .line 1332
     :sswitch_f4
-    const-string/jumbo v0, "instagramTableToCqlProcRegistration-jni"
+    const-string/jumbo v0, "rsysvideoeffectcommunicationjni"
 
     .line 1333
     .line 1334
     .line 1335
-    goto/16 :goto_f
+    goto/16 :goto_11
 
     .line 1336
     .line 1337
     :sswitch_f5
-    const-string/jumbo v0, "webrtc"
+    const-string/jumbo v0, "instagramTableToCqlProcRegistration-jni"
 
     .line 1338
     .line 1339
     .line 1340
-    goto/16 :goto_11
+    goto/16 :goto_f
 
     .line 1341
     .line 1342
     :sswitch_f6
-    const-string/jumbo v0, "mailboxfeaturelimitsjni"
+    const-string/jumbo v0, "webrtc"
 
     .line 1343
     .line 1344
     .line 1345
-    goto/16 :goto_f
+    goto/16 :goto_11
 
     .line 1346
     .line 1347
     :sswitch_f7
-    const-string/jumbo v0, "streamid_jni"
+    const-string/jumbo v0, "mailboxfeaturelimitsjni"
 
     .line 1348
     .line 1349
     .line 1350
-    goto/16 :goto_12
+    goto/16 :goto_f
 
     .line 1351
     .line 1352
     :sswitch_f8
-    const-string/jumbo v0, "pando-regionhint-jni-instagram"
+    const-string/jumbo v0, "streamid_jni"
 
     .line 1353
     .line 1354
@@ -13478,41 +13478,41 @@
     .line 1356
     .line 1357
     :sswitch_f9
-    const-string/jumbo v0, "proxygen_lib_utils_compression"
+    const-string/jumbo v0, "pando-regionhint-jni-instagram"
 
     .line 1358
     .line 1359
     .line 1360
-    :goto_3
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    goto/16 :goto_12
 
     .line 1361
     .line 1362
+    :sswitch_fa
+    const-string/jumbo v0, "proxygen_lib_utils_compression"
+
     .line 1363
+    .line 1364
+    .line 1365
+    :goto_3
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 1366
+    .line 1367
+    .line 1368
     move-result v0
 
-    .line 1364
+    .line 1369
     :goto_4
     if-eqz v0, :cond_5
 
-    .line 1365
-    .line 1366
-    goto/16 :goto_15
-
-    .line 1367
-    .line 1368
-    :sswitch_fa
-    const-string/jumbo v0, "rsysdatachanneljni"
-
-    .line 1369
     .line 1370
     .line 1371
-    goto/16 :goto_11
+    goto/16 :goto_15
 
     .line 1372
     .line 1373
     :sswitch_fb
-    const-string/jumbo v0, "portalaudiocontrol"
+    const-string/jumbo v0, "rsysdatachanneljni"
 
     .line 1374
     .line 1375
@@ -13522,17 +13522,17 @@
     .line 1377
     .line 1378
     :sswitch_fc
-    const-string/jumbo v0, "profilo_mmapbuf_buffer_jni"
+    const-string/jumbo v0, "portalaudiocontrol"
 
     .line 1379
     .line 1380
     .line 1381
-    goto/16 :goto_14
+    goto/16 :goto_11
 
     .line 1382
     .line 1383
     :sswitch_fd
-    const-string/jumbo v0, "mem_alloc_marker"
+    const-string/jumbo v0, "profilo_mmapbuf_buffer_jni"
 
     .line 1384
     .line 1385
@@ -13542,37 +13542,37 @@
     .line 1387
     .line 1388
     :sswitch_fe
-    const-string/jumbo v0, "fbandroid_java_com_facebook_cameracore_mediapipeline_arclass_benchmark_interfaces_jni_jni"
+    const-string/jumbo v0, "mem_alloc_marker"
 
     .line 1389
     .line 1390
     .line 1391
-    goto/16 :goto_5
+    goto/16 :goto_14
 
     .line 1392
     .line 1393
     :sswitch_ff
-    const-string/jumbo v0, "glcommon"
+    const-string/jumbo v0, "fbandroid_java_com_facebook_cameracore_mediapipeline_arclass_benchmark_interfaces_jni_jni"
 
     .line 1394
     .line 1395
     .line 1396
-    goto/16 :goto_8
+    goto/16 :goto_5
 
     .line 1397
     .line 1398
     :sswitch_100
-    const-string/jumbo v0, "profilo_configjni"
+    const-string/jumbo v0, "glcommon"
 
     .line 1399
     .line 1400
     .line 1401
-    goto/16 :goto_14
+    goto/16 :goto_8
 
     .line 1402
     .line 1403
     :sswitch_101
-    const-string/jumbo v0, "profilo_config"
+    const-string/jumbo v0, "profilo_configjni"
 
     .line 1404
     .line 1405
@@ -13582,37 +13582,37 @@
     .line 1407
     .line 1408
     :sswitch_102
-    const-string/jumbo v0, "graphservice-jni-nativeconfig"
+    const-string/jumbo v0, "profilo_config"
 
     .line 1409
     .line 1410
     .line 1411
-    goto/16 :goto_12
+    goto/16 :goto_14
 
     .line 1412
     .line 1413
     :sswitch_103
-    const-string/jumbo v0, "sodium"
+    const-string/jumbo v0, "graphservice-jni-nativeconfig"
 
     .line 1414
     .line 1415
     .line 1416
-    goto/16 :goto_7
+    goto/16 :goto_12
 
     .line 1417
     .line 1418
     :sswitch_104
-    const-string/jumbo v0, "instagramDatabaseSchemaDeployernovt"
+    const-string/jumbo v0, "sodium"
 
     .line 1419
     .line 1420
     .line 1421
-    goto/16 :goto_f
+    goto/16 :goto_7
 
     .line 1422
     .line 1423
     :sswitch_105
-    const-string/jumbo v0, "instagramDatabaseSchemaDeployerMDMS"
+    const-string/jumbo v0, "instagramDatabaseSchemaDeployernovt"
 
     .line 1424
     .line 1425
@@ -13622,7 +13622,7 @@
     .line 1427
     .line 1428
     :sswitch_106
-    const-string/jumbo v0, "instagramDatabaseSchemaDeployer-jni"
+    const-string/jumbo v0, "instagramDatabaseSchemaDeployerMDMS"
 
     .line 1429
     .line 1430
@@ -13632,7 +13632,7 @@
     .line 1432
     .line 1433
     :sswitch_107
-    const-string/jumbo v0, "instagramDatabaseSchemaDeployer-acg"
+    const-string/jumbo v0, "instagramDatabaseSchemaDeployer-jni"
 
     .line 1434
     .line 1435
@@ -13642,17 +13642,17 @@
     .line 1437
     .line 1438
     :sswitch_108
-    const-string/jumbo v0, "openh264v211libdecoderAndroid"
+    const-string/jumbo v0, "instagramDatabaseSchemaDeployer-acg"
 
     .line 1439
     .line 1440
     .line 1441
-    goto/16 :goto_11
+    goto/16 :goto_f
 
     .line 1442
     .line 1443
     :sswitch_109
-    const-string/jumbo v0, "rsysvideorenderjni"
+    const-string/jumbo v0, "openh264v211libdecoderAndroid"
 
     .line 1444
     .line 1445
@@ -13662,65 +13662,65 @@
     .line 1447
     .line 1448
     :sswitch_10a
-    const-string/jumbo v0, "profilo_perfevents"
+    const-string/jumbo v0, "rsysvideorenderjni"
 
     .line 1449
     .line 1450
     .line 1451
-    goto/16 :goto_14
+    goto/16 :goto_11
 
     .line 1452
     .line 1453
     :sswitch_10b
-    const-string v0, "ard-android-effect-manager"
+    const-string/jumbo v0, "profilo_perfevents"
 
     .line 1454
     .line 1455
-    goto/16 :goto_10
-
     .line 1456
-    .line 1457
-    :sswitch_10c
-    const-string/jumbo v0, "rsysendedjni"
+    goto/16 :goto_14
 
+    .line 1457
     .line 1458
+    :sswitch_10c
+    const-string v0, "ard-android-effect-manager"
+
     .line 1459
     .line 1460
-    goto/16 :goto_11
+    goto/16 :goto_10
 
     .line 1461
     .line 1462
     :sswitch_10d
-    const-string v0, "ard-connection-info"
+    const-string/jumbo v0, "rsysendedjni"
 
     .line 1463
     .line 1464
-    goto/16 :goto_10
-
     .line 1465
-    .line 1466
-    :sswitch_10e
-    const-string/jumbo v0, "mailboxsearchjni"
+    goto/16 :goto_11
 
+    .line 1466
     .line 1467
+    :sswitch_10e
+    const-string v0, "ard-connection-info"
+
     .line 1468
     .line 1469
-    goto/16 :goto_f
+    goto/16 :goto_10
 
     .line 1470
     .line 1471
     :sswitch_10f
-    const-string/jumbo v0, "profilo_atrace"
+    const-string/jumbo v0, "mailboxsearchjni"
 
     .line 1472
     .line 1473
     .line 1474
-    goto/16 :goto_14
+    goto/16 :goto_f
 
     .line 1475
     .line 1476
     :sswitch_110
-    const-string/jumbo v0, "profilo_mapping_logger"
+    const-string/jumbo v0, "profilo_atrace"
 
     .line 1477
     .line 1478
@@ -13730,26 +13730,26 @@
     .line 1480
     .line 1481
     :sswitch_111
-    const-string v0, "ard-scripting-downloader"
+    const-string/jumbo v0, "profilo_mapping_logger"
 
     .line 1482
     .line 1483
-    goto/16 :goto_10
-
     .line 1484
-    .line 1485
-    :sswitch_112
-    const-string/jumbo v0, "mailboxrtccalleventsjni"
+    goto/16 :goto_14
 
+    .line 1485
     .line 1486
+    :sswitch_112
+    const-string v0, "ard-scripting-downloader"
+
     .line 1487
     .line 1488
-    goto/16 :goto_f
+    goto/16 :goto_10
 
     .line 1489
     .line 1490
     :sswitch_113
-    const-string/jumbo v0, "mailboxinstagramsearchjni"
+    const-string/jumbo v0, "mailboxrtccalleventsjni"
 
     .line 1491
     .line 1492
@@ -13759,94 +13759,94 @@
     .line 1494
     .line 1495
     :sswitch_114
-    const-string/jumbo v0, "rsysconnectfunneljni"
+    const-string/jumbo v0, "mailboxinstagramsearchjni"
 
     .line 1496
     .line 1497
     .line 1498
-    goto/16 :goto_11
+    goto/16 :goto_f
 
     .line 1499
     .line 1500
     :sswitch_115
-    const-string/jumbo v0, "mnscertificateverifier"
+    const-string/jumbo v0, "rsysconnectfunneljni"
 
     .line 1501
     .line 1502
     .line 1503
-    goto/16 :goto_13
+    goto/16 :goto_11
 
     .line 1504
     .line 1505
     :sswitch_116
-    const-string v0, "arpersistenceservice"
+    const-string/jumbo v0, "mnscertificateverifier"
 
     .line 1506
     .line 1507
-    goto/16 :goto_d
-
     .line 1508
-    .line 1509
-    :sswitch_117
-    const-string/jumbo v0, "mailboxtypingindicatorjni"
+    goto/16 :goto_13
 
+    .line 1509
     .line 1510
+    :sswitch_117
+    const-string v0, "arpersistenceservice"
+
     .line 1511
     .line 1512
-    goto/16 :goto_f
+    goto/16 :goto_d
 
     .line 1513
     .line 1514
     :sswitch_118
-    const-string/jumbo v0, "mediastreaming-sessionlog"
+    const-string/jumbo v0, "mailboxtypingindicatorjni"
 
     .line 1515
     .line 1516
     .line 1517
-    goto/16 :goto_a
+    goto/16 :goto_f
 
     .line 1518
     .line 1519
     :sswitch_119
-    const-string/jumbo v0, "featureconfig"
+    const-string/jumbo v0, "mediastreaming-sessionlog"
 
     .line 1520
     .line 1521
     .line 1522
-    :goto_5
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    goto/16 :goto_a
 
     .line 1523
     .line 1524
+    :sswitch_11a
+    const-string/jumbo v0, "featureconfig"
+
     .line 1525
-    move-result v0
-
     .line 1526
-    if-eqz v0, :cond_5
-
     .line 1527
-    .line 1528
-    const-string/jumbo v7, "mediapipeline"
+    :goto_5
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
+    .line 1528
     .line 1529
     .line 1530
+    move-result v0
+
     .line 1531
-    goto/16 :goto_15
+    if-eqz v0, :cond_5
 
     .line 1532
     .line 1533
-    :sswitch_11a
-    const-string/jumbo v0, "pando-serialize"
+    const-string/jumbo v7, "mediapipeline"
 
     .line 1534
     .line 1535
     .line 1536
-    goto/16 :goto_12
+    goto/16 :goto_15
 
     .line 1537
     .line 1538
     :sswitch_11b
-    const-string/jumbo v0, "graphservice-jni-nativeconfigloader"
+    const-string/jumbo v0, "pando-serialize"
 
     .line 1539
     .line 1540
@@ -13856,66 +13856,66 @@
     .line 1542
     .line 1543
     :sswitch_11c
-    const-string/jumbo v0, "mailboxadvancedcryptodualsendjni"
+    const-string/jumbo v0, "graphservice-jni-nativeconfigloader"
 
     .line 1544
     .line 1545
     .line 1546
-    goto/16 :goto_f
+    goto/16 :goto_12
 
     .line 1547
     .line 1548
     :sswitch_11d
-    const-string/jumbo v0, "rsysdolbymodulejni"
+    const-string/jumbo v0, "mailboxadvancedcryptodualsendjni"
 
     .line 1549
     .line 1550
     .line 1551
-    goto/16 :goto_11
+    goto/16 :goto_f
 
     .line 1552
     .line 1553
     :sswitch_11e
-    const-string/jumbo v0, "yogacore"
+    const-string/jumbo v0, "rsysdolbymodulejni"
 
     .line 1554
     .line 1555
     .line 1556
-    goto/16 :goto_e
+    goto/16 :goto_11
 
     .line 1557
     .line 1558
     :sswitch_11f
-    const-string/jumbo v0, "securethreadlistchildresultsetutils"
+    const-string/jumbo v0, "yogacore"
 
     .line 1559
     .line 1560
     .line 1561
-    goto/16 :goto_f
+    goto/16 :goto_e
 
     .line 1562
     .line 1563
     :sswitch_120
-    const-string v0, "android-video-protocol-eventlog"
+    const-string/jumbo v0, "securethreadlistchildresultsetutils"
 
     .line 1564
     .line 1565
-    goto/16 :goto_a
-
     .line 1566
-    .line 1567
-    :sswitch_121
-    const-string/jumbo v0, "graphutil"
+    goto/16 :goto_f
 
+    .line 1567
     .line 1568
+    :sswitch_121
+    const-string v0, "android-video-protocol-eventlog"
+
     .line 1569
     .line 1570
-    goto/16 :goto_12
+    goto/16 :goto_a
 
     .line 1571
     .line 1572
     :sswitch_122
-    const-string/jumbo v0, "graphbase"
+    const-string/jumbo v0, "graphutil"
 
     .line 1573
     .line 1574
@@ -13925,12 +13925,12 @@
     .line 1576
     .line 1577
     :sswitch_123
-    const-string/jumbo v0, "jni-mcpintegration-mcp_integration_inst-1102327479PluginRegistry"
+    const-string/jumbo v0, "graphbase"
 
     .line 1578
     .line 1579
     .line 1580
-    goto/16 :goto_f
+    goto/16 :goto_12
 
     .line 1581
     .line 1582
@@ -15444,251 +15444,251 @@
         -0x4a7e1e47 -> :sswitch_126
         -0x49a18fc3 -> :sswitch_125
         -0x492a8eef -> :sswitch_124
-        -0x46017aa4 -> :sswitch_123
-        -0x45ee8ee1 -> :sswitch_122
-        -0x45e5a5b0 -> :sswitch_121
-        -0x45e1ac31 -> :sswitch_120
-        -0x45b65df7 -> :sswitch_11f
-        -0x417559f1 -> :sswitch_11e
-        -0x41136ec4 -> :sswitch_11d
-        -0x401af656 -> :sswitch_11c
-        -0x3fcc0e86 -> :sswitch_11b
-        -0x3f62eec5 -> :sswitch_11a
-        -0x3f249248 -> :sswitch_119
-        -0x3f0fb6e3 -> :sswitch_118
-        -0x3ecd821f -> :sswitch_117
-        -0x3ec41ad9 -> :sswitch_116
-        -0x3e96e6c5 -> :sswitch_115
-        -0x3d9bd660 -> :sswitch_114
-        -0x3cf0c6c1 -> :sswitch_113
-        -0x3b92acbf -> :sswitch_112
-        -0x3b3f393b -> :sswitch_111
-        -0x3a2421d3 -> :sswitch_110
-        -0x384a4670 -> :sswitch_10f
-        -0x37ed8937 -> :sswitch_10e
-        -0x37a1e93d -> :sswitch_10d
-        -0x378c9b3a -> :sswitch_10c
-        -0x375d00b7 -> :sswitch_10b
-        -0x368e70b2 -> :sswitch_10a
-        -0x362149f1 -> :sswitch_109
-        -0x35d409de -> :sswitch_108
-        -0x35a10e86 -> :sswitch_107
-        -0x35a0eb66 -> :sswitch_106
-        -0x3592f241 -> :sswitch_105
-        -0x35834b7f -> :sswitch_104
-        -0x357771c7 -> :sswitch_103
-        -0x35766559 -> :sswitch_102
-        -0x3528c8b2 -> :sswitch_101
-        -0x35118669 -> :sswitch_100
-        -0x3406c8f0 -> :sswitch_ff
-        -0x32ce9e16 -> :sswitch_fe
-        -0x32c18152 -> :sswitch_fd
-        -0x316a01f3 -> :sswitch_fc
-        -0x30e3cccd -> :sswitch_fb
-        -0x30debb39 -> :sswitch_fa
-        -0x30d842bf -> :sswitch_f9
-        -0x30c06703 -> :sswitch_f8
-        -0x30a97dff -> :sswitch_f7
-        -0x2ff80cf5 -> :sswitch_f6
-        -0x2f31c173 -> :sswitch_f5
-        -0x2e007df2 -> :sswitch_f4
-        -0x2de18820 -> :sswitch_f3
-        -0x2c956c19 -> :sswitch_f2
-        -0x2c6eaff2 -> :sswitch_f1
-        -0x2ba779fa -> :sswitch_f0
-        -0x2aa9b702 -> :sswitch_ef
-        -0x2a7bd341 -> :sswitch_ee
-        -0x291f7dff -> :sswitch_ed
-        -0x2768a9d4 -> :sswitch_ec
-        -0x270eb047 -> :sswitch_eb
-        -0x26b93c39 -> :sswitch_ea
-        -0x262737d0 -> :sswitch_e9
-        -0x25d05664 -> :sswitch_e8
-        -0x2589f2dc -> :sswitch_e7
-        -0x24e71a2e -> :sswitch_e6
-        -0x24a58ef3 -> :sswitch_e5
-        -0x24802518 -> :sswitch_e4
-        -0x2457e7b5 -> :sswitch_e3
-        -0x242fae37 -> :sswitch_e2
-        -0x22c68636 -> :sswitch_e1
-        -0x21c22087 -> :sswitch_e0
-        -0x214e82e6 -> :sswitch_df
-        -0x2114a1df -> :sswitch_de
-        -0x20eafb44 -> :sswitch_dd
-        -0x207b3742 -> :sswitch_dc
-        -0x1ed86876 -> :sswitch_db
-        -0x1d74e55a -> :sswitch_da
-        -0x1a30efb4 -> :sswitch_d9
-        -0x18a398d2 -> :sswitch_d8
-        -0x175135ef -> :sswitch_d7
-        -0x16bf9164 -> :sswitch_d6
-        -0x16955fe3 -> :sswitch_d5
-        -0x15f758f4 -> :sswitch_d4
-        -0x149138dd -> :sswitch_d3
-        -0x1271764d -> :sswitch_d2
-        -0x11a08d03 -> :sswitch_d1
-        -0x10c88d3b -> :sswitch_d0
-        -0x10c88d1c -> :sswitch_cf
-        -0x10c8897a -> :sswitch_ce
-        -0x10c43dad -> :sswitch_cd
-        -0xf38cf06 -> :sswitch_cc
-        -0xf161834 -> :sswitch_cb
-        -0xe786444 -> :sswitch_ca
-        -0xdb8dc1b -> :sswitch_c9
-        -0xd8358a1 -> :sswitch_c8
-        -0xc6aa763 -> :sswitch_c7
-        -0xbe7d8a4 -> :sswitch_c6
-        -0xac55b48 -> :sswitch_c5
-        -0xaa6c4c5 -> :sswitch_c4
-        -0xa1ac775 -> :sswitch_c3
-        -0xa1ac755 -> :sswitch_c2
-        -0xa1ac3b3 -> :sswitch_c1
-        -0xa1abff3 -> :sswitch_c0
-        -0xa1abfd2 -> :sswitch_bf
-        -0xa1abc32 -> :sswitch_be
-        -0xa1abc13 -> :sswitch_bd
-        -0xa1ab871 -> :sswitch_bc
-        -0x84c488e -> :sswitch_bb
-        -0x84c44cd -> :sswitch_ba
-        -0x799dda1 -> :sswitch_b9
-        -0x734f329 -> :sswitch_b8
-        -0x5c55782 -> :sswitch_b7
-        -0x5431f72 -> :sswitch_b6
-        -0x41748e4 -> :sswitch_b5
-        -0x3a940b1 -> :sswitch_b4
-        -0x3a46949 -> :sswitch_b3
-        -0x3a46929 -> :sswitch_b2
-        -0x3a46587 -> :sswitch_b1
-        -0x3a461c7 -> :sswitch_b0
-        -0x3a461a6 -> :sswitch_af
-        -0x3a45e06 -> :sswitch_ae
-        -0x3a45de7 -> :sswitch_ad
-        -0x2e09647 -> :sswitch_ac
-        -0x19d9ef3 -> :sswitch_ab
-        -0x197fda2 -> :sswitch_aa
-        -0x12c01b7 -> :sswitch_a9
-        -0x11aed44 -> :sswitch_a8
-        -0x11a721c -> :sswitch_a7
-        -0x54d50f -> :sswitch_a6
-        -0x4186a8 -> :sswitch_a5
-        -0x140ccf -> :sswitch_a4
-        0x18c8d -> :sswitch_a3
-        0x2ff743 -> :sswitch_a2
-        0x3603ec -> :sswitch_a1
-        0x3923f9 -> :sswitch_a0
-        0x10cdf45 -> :sswitch_9f
-        0x3de8b9c -> :sswitch_9e
-        0x4723360 -> :sswitch_9d
-        0x4adf834 -> :sswitch_9c
-        0x580872a -> :sswitch_9b
-        0x62334b7 -> :sswitch_9a
-        0x6e263d0 -> :sswitch_99
-        0xb5afa8c -> :sswitch_98
-        0xc6d1b39 -> :sswitch_97
-        0xe69f179 -> :sswitch_96
-        0xea4fa4a -> :sswitch_95
-        0x11c8548c -> :sswitch_94
-        0x142dbb50 -> :sswitch_93
-        0x15e147cf -> :sswitch_92
-        0x178dc8a1 -> :sswitch_91
-        0x17cd3265 -> :sswitch_90
-        0x186420ae -> :sswitch_8f
-        0x18db476d -> :sswitch_8e
-        0x18fdc1af -> :sswitch_8d
-        0x1ad2b864 -> :sswitch_8c
-        0x1ad2f86f -> :sswitch_8b
-        0x1aebcffb -> :sswitch_8a
-        0x1c46deef -> :sswitch_89
-        0x1c46df0e -> :sswitch_88
-        0x1c46e2b0 -> :sswitch_87
-        0x1c46e671 -> :sswitch_86
-        0x1c46e690 -> :sswitch_85
-        0x1c46e691 -> :sswitch_84
-        0x1c46e692 -> :sswitch_83
-        0x1c46ea32 -> :sswitch_82
-        0x1c46ea51 -> :sswitch_81
-        0x1c46edf3 -> :sswitch_80
-        0x1d587391 -> :sswitch_7f
-        0x1e5e7b1e -> :sswitch_7e
-        0x202f9eec -> :sswitch_7d
-        0x205c5016 -> :sswitch_7c
-        0x20afe12f -> :sswitch_7b
-        0x20b36372 -> :sswitch_7a
-        0x213b0922 -> :sswitch_79
-        0x21e47c3d -> :sswitch_78
-        0x21ec6c51 -> :sswitch_77
-        0x225e4a9a -> :sswitch_76
-        0x23a0faf3 -> :sswitch_75
-        0x256b8ed5 -> :sswitch_74
-        0x27225892 -> :sswitch_73
-        0x2780e489 -> :sswitch_72
-        0x27b30cae -> :sswitch_71
-        0x27f86b82 -> :sswitch_70
-        0x2841e55d -> :sswitch_6f
-        0x28991d2d -> :sswitch_6e
-        0x2a3f6d61 -> :sswitch_6d
-        0x2afc2f32 -> :sswitch_6c
-        0x2b9bb75c -> :sswitch_6b
-        0x2d75130f -> :sswitch_6a
-        0x2d8054dc -> :sswitch_69
-        0x2e5eb871 -> :sswitch_68
-        0x2ed8e189 -> :sswitch_67
-        0x2ee2830a -> :sswitch_66
-        0x30c72532 -> :sswitch_65
-        0x31be7bc9 -> :sswitch_64
-        0x31e7766b -> :sswitch_63
-        0x32e13893 -> :sswitch_62
-        0x32ebd123 -> :sswitch_61
-        0x33427c48 -> :sswitch_60
-        0x33622097 -> :sswitch_5f
-        0x3511d89e -> :sswitch_5e
-        0x36ba8fd1 -> :sswitch_5d
-        0x36cf675a -> :sswitch_5c
-        0x3706a724 -> :sswitch_5b
-        0x37203454 -> :sswitch_5a
-        0x39485a22 -> :sswitch_59
-        0x39887216 -> :sswitch_58
-        0x39d5c817 -> :sswitch_57
-        0x39f38b1e -> :sswitch_56
-        0x3b1e3ef6 -> :sswitch_55
-        0x3b9d817b -> :sswitch_54
-        0x3babd872 -> :sswitch_53
-        0x3e507b68 -> :sswitch_52
-        0x3e6f27d7 -> :sswitch_51
-        0x3e8b5da0 -> :sswitch_50
-        0x3e9a5b80 -> :sswitch_4f
-        0x3ec060d7 -> :sswitch_4e
-        0x3f0394d1 -> :sswitch_4d
-        0x3f665815 -> :sswitch_4c
-        0x3f897871 -> :sswitch_4b
-        0x421cc89f -> :sswitch_4a
-        0x44bf4abb -> :sswitch_49
-        0x478e3904 -> :sswitch_48
-        0x4bb8e37c -> :sswitch_47
-        0x4caea74a -> :sswitch_46
-        0x4e581c7d -> :sswitch_45
-        0x4f7b5840 -> :sswitch_44
-        0x4fbc330a -> :sswitch_43
-        0x50fb4096 -> :sswitch_42
-        0x51238865 -> :sswitch_41
-        0x53b831b0 -> :sswitch_40
-        0x5485c56c -> :sswitch_3f
-        0x552c2953 -> :sswitch_3e
-        0x5688c3d3 -> :sswitch_3d
-        0x5705c3c8 -> :sswitch_3c
-        0x577d2517 -> :sswitch_3b
-        0x58aad2b1 -> :sswitch_3a
-        0x58b99dcc -> :sswitch_39
-        0x59428dd6 -> :sswitch_38
-        0x598fa877 -> :sswitch_37
-        0x5a04370e -> :sswitch_36
-        0x5a9789b7 -> :sswitch_35
-        0x5af67caf -> :sswitch_34
-        0x5bcc9d59 -> :sswitch_33
-        0x5c121574 -> :sswitch_32
-        0x5d69bc30 -> :sswitch_31
-        0x5e78361e -> :sswitch_30
-        0x5f48104a -> :sswitch_2f
+        -0x45ee8ee1 -> :sswitch_123
+        -0x45e5a5b0 -> :sswitch_122
+        -0x45e1ac31 -> :sswitch_121
+        -0x45b65df7 -> :sswitch_120
+        -0x417559f1 -> :sswitch_11f
+        -0x41136ec4 -> :sswitch_11e
+        -0x401af656 -> :sswitch_11d
+        -0x3fcc0e86 -> :sswitch_11c
+        -0x3f62eec5 -> :sswitch_11b
+        -0x3f249248 -> :sswitch_11a
+        -0x3f0fb6e3 -> :sswitch_119
+        -0x3ecd821f -> :sswitch_118
+        -0x3ec41ad9 -> :sswitch_117
+        -0x3e96e6c5 -> :sswitch_116
+        -0x3d9bd660 -> :sswitch_115
+        -0x3cf0c6c1 -> :sswitch_114
+        -0x3b92acbf -> :sswitch_113
+        -0x3b3f393b -> :sswitch_112
+        -0x3a2421d3 -> :sswitch_111
+        -0x384a4670 -> :sswitch_110
+        -0x37ed8937 -> :sswitch_10f
+        -0x37a1e93d -> :sswitch_10e
+        -0x378c9b3a -> :sswitch_10d
+        -0x375d00b7 -> :sswitch_10c
+        -0x368e70b2 -> :sswitch_10b
+        -0x362149f1 -> :sswitch_10a
+        -0x35d409de -> :sswitch_109
+        -0x35a10e86 -> :sswitch_108
+        -0x35a0eb66 -> :sswitch_107
+        -0x3592f241 -> :sswitch_106
+        -0x35834b7f -> :sswitch_105
+        -0x357771c7 -> :sswitch_104
+        -0x35766559 -> :sswitch_103
+        -0x3528c8b2 -> :sswitch_102
+        -0x35118669 -> :sswitch_101
+        -0x3406c8f0 -> :sswitch_100
+        -0x32ce9e16 -> :sswitch_ff
+        -0x32c18152 -> :sswitch_fe
+        -0x316a01f3 -> :sswitch_fd
+        -0x30e3cccd -> :sswitch_fc
+        -0x30debb39 -> :sswitch_fb
+        -0x30d842bf -> :sswitch_fa
+        -0x30c06703 -> :sswitch_f9
+        -0x30a97dff -> :sswitch_f8
+        -0x2ff80cf5 -> :sswitch_f7
+        -0x2f31c173 -> :sswitch_f6
+        -0x2e007df2 -> :sswitch_f5
+        -0x2de18820 -> :sswitch_f4
+        -0x2c956c19 -> :sswitch_f3
+        -0x2c6eaff2 -> :sswitch_f2
+        -0x2ba779fa -> :sswitch_f1
+        -0x2aa9b702 -> :sswitch_f0
+        -0x2a7bd341 -> :sswitch_ef
+        -0x291f7dff -> :sswitch_ee
+        -0x2768a9d4 -> :sswitch_ed
+        -0x270eb047 -> :sswitch_ec
+        -0x26b93c39 -> :sswitch_eb
+        -0x262737d0 -> :sswitch_ea
+        -0x25d05664 -> :sswitch_e9
+        -0x2589f2dc -> :sswitch_e8
+        -0x24e71a2e -> :sswitch_e7
+        -0x24a58ef3 -> :sswitch_e6
+        -0x24802518 -> :sswitch_e5
+        -0x2457e7b5 -> :sswitch_e4
+        -0x242fae37 -> :sswitch_e3
+        -0x22c68636 -> :sswitch_e2
+        -0x21c22087 -> :sswitch_e1
+        -0x214e82e6 -> :sswitch_e0
+        -0x2114a1df -> :sswitch_df
+        -0x20eafb44 -> :sswitch_de
+        -0x207b3742 -> :sswitch_dd
+        -0x1ed86876 -> :sswitch_dc
+        -0x1d74e55a -> :sswitch_db
+        -0x1a30efb4 -> :sswitch_da
+        -0x18a398d2 -> :sswitch_d9
+        -0x175135ef -> :sswitch_d8
+        -0x16bf9164 -> :sswitch_d7
+        -0x16955fe3 -> :sswitch_d6
+        -0x15f758f4 -> :sswitch_d5
+        -0x149138dd -> :sswitch_d4
+        -0x1271764d -> :sswitch_d3
+        -0x11a08d03 -> :sswitch_d2
+        -0x10c88d3b -> :sswitch_d1
+        -0x10c88d1c -> :sswitch_d0
+        -0x10c8897a -> :sswitch_cf
+        -0x10c43dad -> :sswitch_ce
+        -0xf38cf06 -> :sswitch_cd
+        -0xf161834 -> :sswitch_cc
+        -0xe786444 -> :sswitch_cb
+        -0xdb8dc1b -> :sswitch_ca
+        -0xd8358a1 -> :sswitch_c9
+        -0xc6aa763 -> :sswitch_c8
+        -0xbe7d8a4 -> :sswitch_c7
+        -0xac55b48 -> :sswitch_c6
+        -0xaa6c4c5 -> :sswitch_c5
+        -0xa1ac775 -> :sswitch_c4
+        -0xa1ac755 -> :sswitch_c3
+        -0xa1ac3b3 -> :sswitch_c2
+        -0xa1abff3 -> :sswitch_c1
+        -0xa1abfd2 -> :sswitch_c0
+        -0xa1abc32 -> :sswitch_bf
+        -0xa1abc13 -> :sswitch_be
+        -0xa1ab871 -> :sswitch_bd
+        -0x84c488e -> :sswitch_bc
+        -0x84c44cd -> :sswitch_bb
+        -0x799dda1 -> :sswitch_ba
+        -0x734f329 -> :sswitch_b9
+        -0x5c55782 -> :sswitch_b8
+        -0x5431f72 -> :sswitch_b7
+        -0x41748e4 -> :sswitch_b6
+        -0x3a940b1 -> :sswitch_b5
+        -0x3a46949 -> :sswitch_b4
+        -0x3a46929 -> :sswitch_b3
+        -0x3a46587 -> :sswitch_b2
+        -0x3a461c7 -> :sswitch_b1
+        -0x3a461a6 -> :sswitch_b0
+        -0x3a45e06 -> :sswitch_af
+        -0x3a45de7 -> :sswitch_ae
+        -0x2e09647 -> :sswitch_ad
+        -0x19d9ef3 -> :sswitch_ac
+        -0x197fda2 -> :sswitch_ab
+        -0x12c01b7 -> :sswitch_aa
+        -0x11aed44 -> :sswitch_a9
+        -0x11a721c -> :sswitch_a8
+        -0x54d50f -> :sswitch_a7
+        -0x4186a8 -> :sswitch_a6
+        -0x140ccf -> :sswitch_a5
+        0x18c8d -> :sswitch_a4
+        0x2ff743 -> :sswitch_a3
+        0x3603ec -> :sswitch_a2
+        0x3923f9 -> :sswitch_a1
+        0x10cdf45 -> :sswitch_a0
+        0x3de8b9c -> :sswitch_9f
+        0x4723360 -> :sswitch_9e
+        0x4adf834 -> :sswitch_9d
+        0x580872a -> :sswitch_9c
+        0x62334b7 -> :sswitch_9b
+        0x6e263d0 -> :sswitch_9a
+        0xb5afa8c -> :sswitch_99
+        0xc6d1b39 -> :sswitch_98
+        0xe69f179 -> :sswitch_97
+        0xea4fa4a -> :sswitch_96
+        0x11c8548c -> :sswitch_95
+        0x142dbb50 -> :sswitch_94
+        0x15e147cf -> :sswitch_93
+        0x178dc8a1 -> :sswitch_92
+        0x17cd3265 -> :sswitch_91
+        0x186420ae -> :sswitch_90
+        0x18db476d -> :sswitch_8f
+        0x18fdc1af -> :sswitch_8e
+        0x1ad2b864 -> :sswitch_8d
+        0x1ad2f86f -> :sswitch_8c
+        0x1aebcffb -> :sswitch_8b
+        0x1c46deef -> :sswitch_8a
+        0x1c46df0e -> :sswitch_89
+        0x1c46e2b0 -> :sswitch_88
+        0x1c46e671 -> :sswitch_87
+        0x1c46e690 -> :sswitch_86
+        0x1c46e691 -> :sswitch_85
+        0x1c46e692 -> :sswitch_84
+        0x1c46ea32 -> :sswitch_83
+        0x1c46ea51 -> :sswitch_82
+        0x1c46edf3 -> :sswitch_81
+        0x1d587391 -> :sswitch_80
+        0x1e5e7b1e -> :sswitch_7f
+        0x202f9eec -> :sswitch_7e
+        0x205c5016 -> :sswitch_7d
+        0x20afe12f -> :sswitch_7c
+        0x20b36372 -> :sswitch_7b
+        0x213b0922 -> :sswitch_7a
+        0x21e47c3d -> :sswitch_79
+        0x21ec6c51 -> :sswitch_78
+        0x225e4a9a -> :sswitch_77
+        0x23a0faf3 -> :sswitch_76
+        0x256b8ed5 -> :sswitch_75
+        0x27225892 -> :sswitch_74
+        0x2780e489 -> :sswitch_73
+        0x27b30cae -> :sswitch_72
+        0x27f86b82 -> :sswitch_71
+        0x2841e55d -> :sswitch_70
+        0x28991d2d -> :sswitch_6f
+        0x2a3f6d61 -> :sswitch_6e
+        0x2afc2f32 -> :sswitch_6d
+        0x2b9bb75c -> :sswitch_6c
+        0x2d75130f -> :sswitch_6b
+        0x2d8054dc -> :sswitch_6a
+        0x2e5eb871 -> :sswitch_69
+        0x2ed8e189 -> :sswitch_68
+        0x2ee2830a -> :sswitch_67
+        0x30c72532 -> :sswitch_66
+        0x31be7bc9 -> :sswitch_65
+        0x31e7766b -> :sswitch_64
+        0x32e13893 -> :sswitch_63
+        0x32ebd123 -> :sswitch_62
+        0x33427c48 -> :sswitch_61
+        0x33622097 -> :sswitch_60
+        0x3511d89e -> :sswitch_5f
+        0x36ba8fd1 -> :sswitch_5e
+        0x36cf675a -> :sswitch_5d
+        0x3706a724 -> :sswitch_5c
+        0x37203454 -> :sswitch_5b
+        0x39485a22 -> :sswitch_5a
+        0x39887216 -> :sswitch_59
+        0x39d5c817 -> :sswitch_58
+        0x39f38b1e -> :sswitch_57
+        0x3b1e3ef6 -> :sswitch_56
+        0x3b9d817b -> :sswitch_55
+        0x3babd872 -> :sswitch_54
+        0x3e507b68 -> :sswitch_53
+        0x3e6f27d7 -> :sswitch_52
+        0x3e8b5da0 -> :sswitch_51
+        0x3e9a5b80 -> :sswitch_50
+        0x3ec060d7 -> :sswitch_4f
+        0x3f0394d1 -> :sswitch_4e
+        0x3f665815 -> :sswitch_4d
+        0x3f897871 -> :sswitch_4c
+        0x421cc89f -> :sswitch_4b
+        0x44bf4abb -> :sswitch_4a
+        0x478e3904 -> :sswitch_49
+        0x4bb8e37c -> :sswitch_48
+        0x4caea74a -> :sswitch_47
+        0x4e581c7d -> :sswitch_46
+        0x4f7b5840 -> :sswitch_45
+        0x4fbc330a -> :sswitch_44
+        0x50fb4096 -> :sswitch_43
+        0x51238865 -> :sswitch_42
+        0x53b831b0 -> :sswitch_41
+        0x5485c56c -> :sswitch_40
+        0x552c2953 -> :sswitch_3f
+        0x5688c3d3 -> :sswitch_3e
+        0x5705c3c8 -> :sswitch_3d
+        0x577d2517 -> :sswitch_3c
+        0x58aad2b1 -> :sswitch_3b
+        0x58b99dcc -> :sswitch_3a
+        0x59428dd6 -> :sswitch_39
+        0x598fa877 -> :sswitch_38
+        0x5a04370e -> :sswitch_37
+        0x5a9789b7 -> :sswitch_36
+        0x5af67caf -> :sswitch_35
+        0x5bcc9d59 -> :sswitch_34
+        0x5c121574 -> :sswitch_33
+        0x5d69bc30 -> :sswitch_32
+        0x5e78361e -> :sswitch_31
+        0x5f48104a -> :sswitch_30
+        0x6064c067 -> :sswitch_2f
         0x60ea767f -> :sswitch_2e
         0x612c6acd -> :sswitch_2d
         0x61c5167e -> :sswitch_2c

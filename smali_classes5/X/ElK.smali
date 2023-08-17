@@ -92,7 +92,7 @@
 
     .line 16
     .line 17
-    invoke-static {v0}, LX/Chf;->A0o(Lcom/instagram/user/model/User;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chf;->A0q(Lcom/instagram/user/model/User;)Ljava/lang/String;
 
     .line 18
     .line 19

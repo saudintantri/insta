@@ -359,7 +359,6 @@
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_3
     .catch Ljava/lang/SecurityException; {:try_start_4 .. :try_end_4} :catch_3
-    .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
     .line 157

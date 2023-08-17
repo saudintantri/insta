@@ -442,7 +442,7 @@
 
     .line 28
     .line 29
-    invoke-static {v2, v1, v0, v3}, LX/Che;->A0C(LX/19z;Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)LX/1HO;
+    invoke-static {v2, v1, v0, v3}, LX/Che;->A0D(LX/19z;Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)LX/1HO;
 
     .line 30
     .line 31

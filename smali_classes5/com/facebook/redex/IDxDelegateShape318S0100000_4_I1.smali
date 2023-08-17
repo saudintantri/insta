@@ -1212,7 +1212,7 @@
     .line 144
     .line 145
     .line 146
-    invoke-static {v4, p1}, LX/Chj;->A0Y(Landroid/content/Intent;LX/1M5;)V
+    invoke-static {v4, p1}, LX/Chj;->A0X(Landroid/content/Intent;LX/1M5;)V
 
     .line 147
     .line 148

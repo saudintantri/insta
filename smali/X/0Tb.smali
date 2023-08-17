@@ -4082,7 +4082,6 @@
     aget-object v0, v0, v1
     :try_end_0
     .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
-    .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_1
 
     .line 24
     .line 25

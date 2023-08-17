@@ -279,7 +279,7 @@
     const/4 v0, 0x5
 
     .line 132
-    invoke-static {v1, p0, v0}, LX/Chf;->A1M(LX/3E7;Ljava/lang/Object;I)V
+    invoke-static {v1, p0, v0}, LX/Chf;->A1N(LX/3E7;Ljava/lang/Object;I)V
 
     .line 133
     .line 134
@@ -322,7 +322,7 @@
 
     .line 1
     .line 2
-    invoke-static {v0}, LX/Chf;->A0N(Landroid/view/View;)Landroid/view/ViewPropertyAnimator;
+    invoke-static {v0}, LX/Chf;->A0O(Landroid/view/View;)Landroid/view/ViewPropertyAnimator;
 
     .line 3
     .line 4

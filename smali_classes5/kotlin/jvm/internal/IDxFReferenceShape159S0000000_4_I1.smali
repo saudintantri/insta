@@ -662,7 +662,7 @@
     .line 285
     .line 286
     .line 287
-    invoke-static {v9, v7}, LX/Chi;->A1C(LX/0AX;Lcom/instagram/model/shopping/Product;)V
+    invoke-static {v9, v7}, LX/Chi;->A1D(LX/0AX;Lcom/instagram/model/shopping/Product;)V
 
     .line 288
     .line 289
@@ -671,7 +671,7 @@
 
     .line 291
     .line 292
-    invoke-static {v9, v0}, LX/Chf;->A1F(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/instagram/model/shopping/productfeed/ShoppingRankingLoggingInfo;)V
+    invoke-static {v9, v0}, LX/Chf;->A1G(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/instagram/model/shopping/productfeed/ShoppingRankingLoggingInfo;)V
 
     .line 293
     .line 294

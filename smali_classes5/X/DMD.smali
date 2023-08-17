@@ -376,7 +376,7 @@
     .line 55
     .line 56
     :goto_0
-    invoke-static {p0}, LX/Chf;->A0C(Landroidx/fragment/app/Fragment;)I
+    invoke-static {p0}, LX/Chf;->A0D(Landroidx/fragment/app/Fragment;)I
 
     .line 57
     .line 58
@@ -388,7 +388,7 @@
 
     .line 61
     .line 62
-    invoke-static {p0}, LX/Che;->A0A(Landroidx/fragment/app/Fragment;)LX/1rI;
+    invoke-static {p0}, LX/Che;->A0B(Landroidx/fragment/app/Fragment;)LX/1rI;
 
     .line 63
     .line 64

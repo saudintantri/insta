@@ -542,7 +542,7 @@
     move-result-object v0
 
     .line 259
-    invoke-static {v0, v1}, LX/Chj;->A0W(Landroid/content/Context;Landroid/view/View;)V
+    invoke-static {v0, v1}, LX/Chj;->A0V(Landroid/content/Context;Landroid/view/View;)V
 
     .line 260
     .line 261
@@ -1328,7 +1328,7 @@
 
     .line 665
     .line 666
-    invoke-static {v1, v2, v0, v4}, LX/Chg;->A0Z(Lcom/instagram/common/kotlindelegate/lifecycle/AutoCleanup;Ljava/lang/Object;[LX/08G;I)Ljava/lang/Object;
+    invoke-static {v1, v2, v0, v4}, LX/Chg;->A0X(Lcom/instagram/common/kotlindelegate/lifecycle/AutoCleanup;Ljava/lang/Object;[LX/08G;I)Ljava/lang/Object;
 
     .line 667
     .line 668
@@ -2516,7 +2516,7 @@
 
     .line 484
     .line 485
-    invoke-static {v2, v0, v1}, LX/Chf;->A1I(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0, v1}, LX/Chf;->A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 486
     .line 487
@@ -2872,7 +2872,7 @@
 
     .line 666
     :cond_9
-    invoke-static {v10, v9}, LX/Chg;->A04(II)I
+    invoke-static {v10, v9}, LX/Chg;->A03(II)I
 
     .line 667
     .line 668

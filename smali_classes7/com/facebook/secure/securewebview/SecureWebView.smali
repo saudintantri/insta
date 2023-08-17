@@ -19,32 +19,32 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 5
 
-    .line 1076553128
+    .line 1076553149
     invoke-direct {p0, p1}, Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V
 
-    .line 1076553129
+    .line 1076553150
     new-instance v0, LX/KXs;
 
     invoke-direct {v0, p0}, LX/KXs;-><init>(Lcom/facebook/secure/securewebview/SecureWebView;)V
 
     iput-object v0, p0, Lcom/facebook/secure/securewebview/SecureWebView;->A04:LX/KXs;
 
-    .line 1076553130
+    .line 1076553151
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 1076553131
+    .line 1076553152
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 1076553132
+    .line 1076553153
     new-instance v2, LX/Kkb;
 
     invoke-direct {v2}, LX/Kkb;-><init>()V
 
-    .line 1076553133
+    .line 1076553154
     const-string v1, "http"
 
     const-string v0, "https"
@@ -59,33 +59,33 @@
 
     move-result-object v0
 
-    .line 1076553134
+    .line 1076553155
     invoke-interface {v4, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 1076553135
+    .line 1076553156
     new-instance v1, LX/0nI;
 
     invoke-direct {v1}, LX/0nI;-><init>()V
 
-    .line 1076553136
+    .line 1076553157
     new-instance v0, LX/KlC;
 
-    .line 1076553137
+    .line 1076553158
     invoke-direct {v0, v1, v3, v4}, LX/KlC;-><init>(LX/0LR;Ljava/util/List;Ljava/util/List;)V
 
-    .line 1076553138
+    .line 1076553159
     iput-object v0, p0, Lcom/facebook/secure/securewebview/SecureWebView;->A01:LX/KlC;
 
-    .line 1076553139
+    .line 1076553160
     const-string v0, "SecureWebView"
 
-    .line 1076553140
+    .line 1076553161
     iput-object v0, p0, Lcom/facebook/secure/securewebview/SecureWebView;->A00:Ljava/lang/String;
 
-    .line 1076553141
+    .line 1076553162
     iput-object p1, p0, Lcom/facebook/secure/securewebview/SecureWebView;->A02:Landroid/content/Context;
 
-    .line 1076553142
+    .line 1076553163
     invoke-direct {p0}, Lcom/facebook/secure/securewebview/SecureWebView;->A00()V
 
     return-void
@@ -556,32 +556,32 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IZ)V
     .locals 5
 
-    .line 808117449
+    .line 808117470
     invoke-direct {p0, p1, p2, p3, p4}, Landroid/webkit/WebView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IZ)V
 
-    .line 808117450
+    .line 808117471
     new-instance v0, LX/KXs;
 
     invoke-direct {v0, p0}, LX/KXs;-><init>(Lcom/facebook/secure/securewebview/SecureWebView;)V
 
     iput-object v0, p0, Lcom/facebook/secure/securewebview/SecureWebView;->A04:LX/KXs;
 
-    .line 808117451
+    .line 808117472
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 808117452
+    .line 808117473
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 808117453
+    .line 808117474
     new-instance v2, LX/Kkb;
 
     invoke-direct {v2}, LX/Kkb;-><init>()V
 
-    .line 808117454
+    .line 808117475
     const-string v1, "http"
 
     const-string v0, "https"
@@ -596,33 +596,33 @@
 
     move-result-object v0
 
-    .line 808117455
+    .line 808117476
     invoke-interface {v4, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 808117456
+    .line 808117477
     new-instance v1, LX/0nI;
 
     invoke-direct {v1}, LX/0nI;-><init>()V
 
-    .line 808117457
+    .line 808117478
     new-instance v0, LX/KlC;
 
-    .line 808117458
+    .line 808117479
     invoke-direct {v0, v1, v3, v4}, LX/KlC;-><init>(LX/0LR;Ljava/util/List;Ljava/util/List;)V
 
-    .line 808117459
+    .line 808117480
     iput-object v0, p0, Lcom/facebook/secure/securewebview/SecureWebView;->A01:LX/KlC;
 
-    .line 808117460
+    .line 808117481
     const-string v0, "SecureWebView"
 
-    .line 808117461
+    .line 808117482
     iput-object v0, p0, Lcom/facebook/secure/securewebview/SecureWebView;->A00:Ljava/lang/String;
 
-    .line 808117462
+    .line 808117483
     iput-object p1, p0, Lcom/facebook/secure/securewebview/SecureWebView;->A02:Landroid/content/Context;
 
-    .line 808117463
+    .line 808117484
     invoke-direct {p0}, Lcom/facebook/secure/securewebview/SecureWebView;->A00()V
 
     return-void

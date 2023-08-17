@@ -991,7 +991,7 @@
 
     .line 406
     .line 407
-    invoke-static {v5, v3}, LX/Chg;->A03(FF)F
+    invoke-static {v5, v3}, LX/Chh;->A00(FF)F
 
     .line 408
     .line 409
@@ -3463,7 +3463,7 @@
     .line 1604
     .line 1605
     :pswitch_3d
-    invoke-static {v14}, LX/Chi;->A0D(Ljava/lang/Object;)LX/Cc6;
+    invoke-static {v14}, LX/Chi;->A0E(Ljava/lang/Object;)LX/Cc6;
 
     .line 1606
     .line 1607

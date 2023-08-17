@@ -90,7 +90,7 @@
     move-result-object v1
 
     .line 21
-    invoke-static {v1, v7}, LX/Chg;->A14(Landroid/os/BaseBundle;Ljava/lang/String;)V
+    invoke-static {v1, v7}, LX/Chg;->A13(Landroid/os/BaseBundle;Ljava/lang/String;)V
 
     .line 22
     .line 23

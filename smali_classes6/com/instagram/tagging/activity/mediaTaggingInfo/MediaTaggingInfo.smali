@@ -430,97 +430,97 @@
 .method public constructor <init>(Lcom/instagram/common/typedurl/ImageUrl;LX/3BK;Lcom/instagram/pendingmedia/model/ClipInfo;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/List;Ljava/util/List;)V
     .locals 2
 
-    .line 270876942
+    .line 270876963
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 270876943
+    .line 270876964
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 270876944
+    .line 270876965
     iput-object v1, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A07:Ljava/util/ArrayList;
 
-    .line 270876945
+    .line 270876966
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 270876946
+    .line 270876967
     iput-object v0, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A0B:Ljava/util/List;
 
-    .line 270876947
+    .line 270876968
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 270876948
+    .line 270876969
     iput-object v0, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A09:Ljava/util/ArrayList;
 
-    .line 270876949
+    .line 270876970
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 270876950
+    .line 270876971
     iput-object v0, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A0A:Ljava/util/ArrayList;
 
-    .line 270876951
+    .line 270876972
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 270876952
+    .line 270876973
     iput-object v0, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A0C:Ljava/util/List;
 
-    .line 270876953
+    .line 270876974
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 270876954
+    .line 270876975
     iput-object v0, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A08:Ljava/util/ArrayList;
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 270876955
+    .line 270876976
     iput v0, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A00:F
 
-    .line 270876956
+    .line 270876977
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 270876957
+    .line 270876978
     iput-object v0, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A0D:Ljava/util/List;
 
-    .line 270876958
+    .line 270876979
     iput-object p4, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A05:Ljava/lang/String;
 
-    .line 270876959
+    .line 270876980
     iput-object p1, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A02:Lcom/instagram/common/typedurl/ImageUrl;
 
-    .line 270876960
+    .line 270876981
     iput-object p5, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A0F:Ljava/lang/String;
 
-    .line 270876961
+    .line 270876982
     iput-object p2, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A03:LX/3BK;
 
     if-eqz p7, :cond_0
 
-    .line 270876962
+    .line 270876983
     invoke-virtual {v1, p7}, Ljava/util/AbstractCollection;->addAll(Ljava/util/Collection;)Z
 
     :cond_0
     if-eqz p12, :cond_1
 
-    .line 270876963
+    .line 270876984
     iput-object p12, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A0B:Ljava/util/List;
 
     :cond_1
     if-eqz p8, :cond_2
 
-    .line 270876964
+    .line 270876985
     iget-object v0, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A09:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p8}, Ljava/util/AbstractCollection;->addAll(Ljava/util/Collection;)Z
@@ -528,7 +528,7 @@
     :cond_2
     if-eqz p9, :cond_3
 
-    .line 270876965
+    .line 270876986
     iget-object v0, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A0A:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p9}, Ljava/util/AbstractCollection;->addAll(Ljava/util/Collection;)Z
@@ -536,13 +536,13 @@
     :cond_3
     if-eqz p13, :cond_4
 
-    .line 270876966
+    .line 270876987
     iput-object p13, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A0C:Ljava/util/List;
 
     :cond_4
     if-eqz p10, :cond_5
 
-    .line 270876967
+    .line 270876988
     iget-object v0, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A08:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p10}, Ljava/util/AbstractCollection;->addAll(Ljava/util/Collection;)Z
@@ -550,16 +550,16 @@
     :cond_5
     if-eqz p11, :cond_6
 
-    .line 270876968
+    .line 270876989
     iget-object v0, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A0D:Ljava/util/List;
 
     invoke-interface {v0, p11}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 270876969
+    .line 270876990
     :cond_6
     iput-object p3, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A04:Lcom/instagram/pendingmedia/model/ClipInfo;
 
-    .line 270876970
+    .line 270876991
     iput-object p6, p0, Lcom/instagram/tagging/activity/mediaTaggingInfo/MediaTaggingInfo;->A06:Ljava/lang/String;
 
     return-void

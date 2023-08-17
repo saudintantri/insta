@@ -610,7 +610,7 @@
 
     .line 128
     .line 129
-    invoke-static {v3}, LX/Chf;->A0O(Landroid/view/View;)LX/2gw;
+    invoke-static {v3}, LX/Chf;->A0P(Landroid/view/View;)LX/2gw;
 
     .line 130
     .line 131
@@ -786,7 +786,7 @@
 
     .line 15
     .line 16
-    invoke-static {v0}, LX/Chf;->A0D(Ljava/util/List;)I
+    invoke-static {v0}, LX/Chf;->A0E(Ljava/util/List;)I
 
     .line 17
     .line 18
@@ -935,7 +935,7 @@
 
     .line 1
     .line 2
-    invoke-static {v0}, LX/Chf;->A0D(Ljava/util/List;)I
+    invoke-static {v0}, LX/Chf;->A0E(Ljava/util/List;)I
 
     .line 3
     .line 4

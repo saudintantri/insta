@@ -423,7 +423,7 @@
     .line 107
     .line 108
     .line 109
-    invoke-static {v5, v4}, LX/Chg;->A1B(LX/0AX;LX/4Qd;)V
+    invoke-static {v5, v4}, LX/Chg;->A1A(LX/0AX;LX/4Qd;)V
 
     .line 110
     .line 111
@@ -468,7 +468,7 @@
     .line 132
     .line 133
     .line 134
-    invoke-static {v5, v4}, LX/Chf;->A1E(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/4Qd;)V
+    invoke-static {v5, v4}, LX/Chf;->A1F(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/4Qd;)V
 
     .line 135
     .line 136

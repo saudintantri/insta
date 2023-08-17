@@ -885,50 +885,50 @@
 .method public static final A0A(Lcom/instagram/camera/effect/models/CameraAREffect;LX/HaO;Lcom/instagram/creation/capture/quickcapture/analytics/MediaTransformation;Lcom/instagram/creation/capture/quickcapture/aspectratioutil/TargetViewSizeProvider;LX/52J;Lcom/instagram/music/common/model/MusicBrowseCategory;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/HashMap;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;IIIJZZZZZZ)Lcom/instagram/creation/capture/quickcapture/analytics/ShareMediaLoggingInfo;
     .locals 33
 
-    .line 2286814
+    .line 2286835
     move-object/from16 v21, p13
 
     move-object/from16 v30, p17
 
     const/4 v0, 0x6
 
-    .line 2286815
+    .line 2286836
     move-object/from16 v7, p4
 
     move-object/from16 v2, p1
 
     invoke-static {v7, v0, v2}, LX/Che;->A1T(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 2286816
+    .line 2286837
     const/16 v0, 0x21
 
     move-object/from16 v11, p3
 
     invoke-static {v11, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2286817
+    .line 2286838
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v6
 
-    .line 2286818
+    .line 2286839
     invoke-static {}, LX/92k;->A0e()Ljava/util/LinkedHashMap;
 
     move-result-object v4
 
-    .line 2286819
+    .line 2286840
     move/from16 p1, p21
 
     move-object/from16 v3, p0
 
     if-eqz p16, :cond_3
 
-    .line 2286820
+    .line 2286841
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v5
 
-    .line 2286821
+    .line 2286842
     invoke-interface/range {p16 .. p16}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -940,13 +940,13 @@
 
     if-eqz v0, :cond_0
 
-    .line 2286822
+    .line 2286843
     invoke-static {v5, v1}, LX/HkL;->A0I(Ljava/util/AbstractCollection;Ljava/util/Iterator;)V
 
-    .line 2286823
+    .line 2286844
     goto :goto_0
 
-    .line 2286824
+    .line 2286845
     :cond_0
     invoke-interface {v5}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -968,31 +968,31 @@
 
     if-eqz v8, :cond_1
 
-    .line 2286825
+    .line 2286846
     iget-object v0, v8, Lcom/instagram/camera/effect/models/CameraAREffect;->A0K:Ljava/lang/String;
 
-    .line 2286826
+    .line 2286847
     invoke-static {v0}, LX/02K;->A05(Ljava/lang/Object;)V
 
     invoke-virtual {v6, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 2286827
+    .line 2286848
     iget-object v0, v8, Lcom/instagram/camera/effect/models/CameraAREffect;->A0I:Ljava/lang/String;
 
-    .line 2286828
+    .line 2286849
     invoke-interface {v7, v0}, LX/52J;->Aiq(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object v0
 
     if-nez v0, :cond_2
 
-    .line 2286829
+    .line 2286850
     const-string v1, "Unable to find effect index for: "
 
-    .line 2286830
+    .line 2286851
     iget-object v0, v8, Lcom/instagram/camera/effect/models/CameraAREffect;->A0I:Ljava/lang/String;
 
-    .line 2286831
+    .line 2286852
     invoke-static {v1, v0}, LX/00t;->A0L(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -1003,11 +1003,11 @@
 
     goto :goto_1
 
-    .line 2286832
+    .line 2286853
     :cond_2
     iget-object v1, v8, Lcom/instagram/camera/effect/models/CameraAREffect;->A0I:Ljava/lang/String;
 
-    .line 2286833
+    .line 2286854
     invoke-static {v1}, LX/02K;->A05(Ljava/lang/Object;)V
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -1018,24 +1018,24 @@
 
     goto :goto_1
 
-    .line 2286834
+    .line 2286855
     :cond_3
     const/4 v5, 0x0
 
-    .line 2286835
+    .line 2286856
     if-nez p0, :cond_5
 
-    .line 2286836
+    .line 2286857
     sget-object v1, LX/11W;->A00:LX/11W;
 
-    .line 2286837
+    .line 2286858
     :goto_2
     if-gtz p21, :cond_a
 
-    .line 2286838
+    .line 2286859
     sget-object v0, LX/11W;->A00:LX/11W;
 
-    .line 2286839
+    .line 2286860
     :cond_4
     :goto_3
     move-object/from16 v5, p7
@@ -1046,35 +1046,35 @@
 
     move-result p0
 
-    .line 2286840
+    .line 2286861
     const/16 v22, 0x0
 
-    .line 2286841
+    .line 2286862
     new-instance v5, Landroid/os/Bundle;
 
     invoke-direct {v5}, Landroid/os/Bundle;-><init>()V
 
-    .line 2286842
+    .line 2286863
     invoke-static/range {p6 .. p6}, LX/HkL;->A03(Ljava/lang/Integer;)I
 
     move-result p3
 
-    .line 2286843
+    .line 2286864
     invoke-static/range {p8 .. p8}, LX/HkL;->A04(Ljava/lang/String;)I
 
     move-result v32
 
-    .line 2286844
+    .line 2286865
     invoke-static {}, LX/5Wd;->A0D()Landroid/os/Bundle;
 
     move-result-object v9
 
-    .line 2286845
+    .line 2286866
     invoke-static {v4}, LX/5We;->A0m(Ljava/util/Map;)Ljava/util/Iterator;
 
     move-result-object v8
 
-    .line 2286846
+    .line 2286867
     :goto_4
     invoke-interface {v8}, Ljava/util/Iterator;->hasNext()Z
 
@@ -1082,17 +1082,17 @@
 
     if-eqz v4, :cond_e
 
-    .line 2286847
+    .line 2286868
     invoke-static {v8}, LX/5Wd;->A19(Ljava/util/Iterator;)Ljava/util/Map$Entry;
 
     move-result-object v4
 
-    .line 2286848
+    .line 2286869
     invoke-static {v4}, LX/5Wd;->A0w(Ljava/util/Map$Entry;)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 2286849
+    .line 2286870
     invoke-interface {v4}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v4
@@ -1103,21 +1103,21 @@
 
     goto :goto_4
 
-    .line 2286850
+    .line 2286871
     :cond_5
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 2286851
+    .line 2286872
     if-eqz v5, :cond_8
 
-    .line 2286852
+    .line 2286873
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v8
 
-    .line 2286853
+    .line 2286874
     invoke-interface {v5}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v7
@@ -1129,13 +1129,13 @@
 
     if-eqz v0, :cond_6
 
-    .line 2286854
+    .line 2286875
     invoke-static {v8, v7}, LX/HkL;->A0I(Ljava/util/AbstractCollection;Ljava/util/Iterator;)V
 
-    .line 2286855
+    .line 2286876
     goto :goto_5
 
-    .line 2286856
+    .line 2286877
     :cond_6
     invoke-interface {v8}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -1153,64 +1153,64 @@
 
     move-result-object v0
 
-    .line 2286857
+    .line 2286878
     check-cast v0, Lcom/instagram/camera/effect/models/CameraAREffect;
 
     if-eqz v0, :cond_7
 
-    .line 2286858
+    .line 2286879
     iget-object v0, v0, Lcom/instagram/camera/effect/models/CameraAREffect;->A0B:Ljava/lang/String;
 
-    .line 2286859
+    .line 2286880
     if-eqz v0, :cond_7
 
-    .line 2286860
+    .line 2286881
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_6
 
-    .line 2286861
+    .line 2286882
     :cond_8
     const/4 v7, 0x1
 
     if-eqz p0, :cond_9
 
-    .line 2286862
+    .line 2286883
     invoke-virtual {v3}, Lcom/instagram/model/effect/AREffect;->A09()Z
 
     move-result v0
 
     if-ne v0, v7, :cond_9
 
-    .line 2286863
+    .line 2286884
     iget-object v0, v3, Lcom/instagram/camera/effect/models/CameraAREffect;->A0B:Ljava/lang/String;
 
-    .line 2286864
+    .line 2286885
     if-eqz v0, :cond_9
 
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 2286865
+    .line 2286886
     :cond_9
     if-nez v5, :cond_a
 
     goto :goto_2
 
-    .line 2286866
+    .line 2286887
     :cond_a
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 2286867
+    .line 2286888
     if-eqz v5, :cond_d
 
-    .line 2286868
+    .line 2286889
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v8
 
-    .line 2286869
+    .line 2286890
     invoke-interface {v5}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v7
@@ -1222,13 +1222,13 @@
 
     if-eqz v5, :cond_b
 
-    .line 2286870
+    .line 2286891
     invoke-static {v8, v7}, LX/HkL;->A0I(Ljava/util/AbstractCollection;Ljava/util/Iterator;)V
 
-    .line 2286871
+    .line 2286892
     goto :goto_7
 
-    .line 2286872
+    .line 2286893
     :cond_b
     invoke-interface {v8}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -1246,27 +1246,27 @@
 
     move-result-object v5
 
-    .line 2286873
+    .line 2286894
     check-cast v5, Lcom/instagram/camera/effect/models/CameraAREffect;
 
     if-eqz v5, :cond_c
 
-    .line 2286874
+    .line 2286895
     iget-object v5, v5, Lcom/instagram/camera/effect/models/CameraAREffect;->A0I:Ljava/lang/String;
 
-    .line 2286875
+    .line 2286896
     if-eqz v5, :cond_c
 
-    .line 2286876
+    .line 2286897
     invoke-virtual {v0, v5}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_8
 
-    .line 2286877
+    .line 2286898
     :cond_d
     if-lez p21, :cond_4
 
-    .line 2286878
+    .line 2286899
     invoke-static/range {p1 .. p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v5
@@ -1275,74 +1275,74 @@
 
     goto/16 :goto_3
 
-    .line 2286879
+    .line 2286900
     :cond_e
     if-nez p13, :cond_f
 
-    .line 2286880
+    .line 2286901
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v21
 
-    .line 2286881
+    .line 2286902
     :cond_f
     if-eqz v3, :cond_11
 
-    .line 2286882
+    .line 2286903
     iget-object v4, v3, Lcom/instagram/camera/effect/models/CameraAREffect;->A0I:Ljava/lang/String;
 
-    .line 2286883
+    .line 2286904
     if-eqz v4, :cond_11
 
-    .line 2286884
+    .line 2286905
     invoke-static {v4}, LX/5Wd;->A17(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v28
 
-    .line 2286885
+    .line 2286906
     :goto_9
     iget-object v3, v3, Lcom/instagram/camera/effect/models/CameraAREffect;->A0K:Ljava/lang/String;
 
-    .line 2286886
+    .line 2286907
     if-eqz v3, :cond_12
 
-    .line 2286887
+    .line 2286908
     invoke-static {v3}, LX/5Wd;->A17(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v29
 
-    .line 2286888
+    .line 2286909
     :goto_a
     if-nez p17, :cond_10
 
-    .line 2286889
+    .line 2286910
     sget-object v30, LX/11W;->A00:LX/11W;
 
-    .line 2286890
+    .line 2286911
     :cond_10
     iget-object v5, v2, LX/HaO;->A01:Ljava/lang/String;
 
-    .line 2286891
+    .line 2286912
     iget-object v4, v2, LX/HaO;->A00:Ljava/lang/String;
 
-    .line 2286892
+    .line 2286913
     const/4 v2, 0x0
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v13
 
-    .line 2286893
+    .line 2286914
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v14
 
-    .line 2286894
+    .line 2286915
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v3
 
-    .line 2286895
+    .line 2286916
     invoke-interface/range {p14 .. p14}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v8
@@ -1358,7 +1358,7 @@
 
     move-result-object v2
 
-    .line 2286896
+    .line 2286917
     invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -1367,7 +1367,7 @@
 
     goto :goto_b
 
-    .line 2286897
+    .line 2286918
     :cond_11
     const/16 v28, 0x0
 
@@ -1375,20 +1375,20 @@
 
     goto :goto_9
 
-    .line 2286898
+    .line 2286919
     :cond_12
     const/16 v29, 0x0
 
     goto :goto_a
 
-    .line 2286899
+    .line 2286920
     :cond_13
     if-eqz p15, :cond_14
 
-    .line 2286900
+    .line 2286921
     move-object/from16 v22, p15
 
-    .line 2286901
+    .line 2286922
     :cond_14
     new-instance v8, Lcom/instagram/creation/capture/quickcapture/analytics/ShareMediaLoggingInfo;
 
@@ -1440,7 +1440,7 @@
 
     invoke-direct/range {v8 .. v45}, Lcom/instagram/creation/capture/quickcapture/analytics/ShareMediaLoggingInfo;-><init>(Landroid/os/Bundle;Lcom/instagram/creation/capture/quickcapture/analytics/MediaTransformation;Lcom/instagram/creation/capture/quickcapture/aspectratioutil/TargetViewSizeProvider;Lcom/instagram/music/common/model/MusicBrowseCategory;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/HashMap;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;IIIIIIJZZZZZZ)V
 
-    .line 2286902
+    .line 2286923
     return-object v8
 .end method
 
@@ -2345,12 +2345,12 @@
 
     const/4 v5, 0x0
 
-    .line 2286990
+    .line 2287011
     move-object/from16 v4, p3
 
     invoke-static {v4, v5, p1}, LX/Che;->A1R(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 2286991
+    .line 2287012
     move-object/from16 v10, p7
 
     if-eqz p7, :cond_0
@@ -2373,14 +2373,14 @@
 
     const-string v0, "Unable to log effect applied with missing effect id"
 
-    .line 2286992
+    .line 2287013
     :goto_0
     invoke-static {v1, v0}, LX/0Ud;->A02(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2286993
+    .line 2287014
     return-void
 
-    .line 2286994
+    .line 2287015
     :cond_2
     invoke-interface {p1, v10}, LX/52J;->Aiq(Ljava/lang/String;)Ljava/lang/Integer;
 
@@ -2388,15 +2388,15 @@
 
     if-nez v7, :cond_3
 
-    .line 2286995
+    .line 2287016
     const-string v0, "Could not find effect position for effect id: "
 
-    .line 2286996
+    .line 2287017
     invoke-static {v0}, LX/5Wd;->A0z(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    .line 2286997
+    .line 2287018
     invoke-virtual {v0, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :goto_1
@@ -2411,15 +2411,15 @@
 
     if-nez p2, :cond_4
 
-    .line 2286998
+    .line 2287019
     const-string v0, "Source is invalid value: "
 
-    .line 2286999
+    .line 2287020
     invoke-static {v0}, LX/5Wd;->A0z(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    .line 2287000
+    .line 2287021
     invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     goto :goto_1
@@ -2427,20 +2427,20 @@
     :cond_4
     if-nez p0, :cond_5
 
-    .line 2287001
+    .line 2287022
     const-string v0, "Camera Destination is invalid value : "
 
-    .line 2287002
+    .line 2287023
     invoke-static {v0}, LX/5Wd;->A0z(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    .line 2287003
+    .line 2287024
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
-    .line 2287004
+    .line 2287025
     :cond_5
     move/from16 v0, p13
 
@@ -2456,94 +2456,94 @@
 
     if-eqz p4, :cond_8
 
-    .line 2287005
+    .line 2287026
     invoke-virtual {v6}, LX/EvT;->A03()Lcom/instagram/model/shopping/Product;
 
     move-result-object v0
 
     if-eqz v0, :cond_9
 
-    .line 2287006
+    .line 2287027
     iget-object v1, v0, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
-    .line 2287007
+    .line 2287028
     iget-object v0, v1, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0C:Lcom/instagram/model/shopping/Merchant;
 
-    .line 2287008
+    .line 2287029
     if-eqz v0, :cond_6
 
-    .line 2287009
+    .line 2287030
     iget-object p1, v0, Lcom/instagram/model/shopping/Merchant;->A07:Ljava/lang/String;
 
-    .line 2287010
+    .line 2287031
     :cond_6
     iget-object p2, v1, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0j:Ljava/lang/String;
 
-    .line 2287011
+    .line 2287032
     invoke-virtual {v6}, LX/EvT;->A03()Lcom/instagram/model/shopping/Product;
 
     move-result-object v0
 
     if-eqz v0, :cond_7
 
-    .line 2287012
+    .line 2287033
     invoke-virtual {v6}, LX/EvT;->A03()Lcom/instagram/model/shopping/Product;
 
     move-result-object v0
 
-    .line 2287013
+    .line 2287034
     iget-object v0, v0, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
-    .line 2287014
+    .line 2287035
     iget-object v1, v0, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0j:Ljava/lang/String;
 
-    .line 2287015
+    .line 2287036
     :goto_2
     iget-object v0, v6, LX/EvT;->A01:Lcom/instagram/model/shopping/ProductItemWithAR;
 
-    .line 2287016
+    .line 2287037
     iget-object v0, v0, Lcom/instagram/model/shopping/ProductItemWithAR;->A01:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
     invoke-static {v0, v5}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2287017
+    .line 2287038
     iget-object v0, v0, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0j:Ljava/lang/String;
 
-    .line 2287018
+    .line 2287039
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
-    .line 2287019
+    .line 2287040
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v9
 
-    .line 2287020
+    .line 2287041
     :goto_3
     invoke-static/range {p5 .. p5}, LX/HkL;->A02(Ljava/lang/Integer;)I
 
     move-result p4
 
-    .line 2287021
+    .line 2287042
     invoke-static {v4}, LX/4vh;->A01(Lcom/instagram/service/session/UserSession;)LX/4Qd;
 
     move-result-object v6
 
-    .line 2287022
+    .line 2287043
     invoke-virtual {v7}, Ljava/lang/Number;->intValue()I
 
     move-result p5
 
-    .line 2287023
+    .line 2287044
     invoke-static {p0}, LX/6KS;->A00(LX/3qJ;)LX/6KE;
 
-    .line 2287024
+    .line 2287045
     invoke-static {v2}, LX/H0l;->A00(LX/4lZ;)LX/6ZJ;
 
     move-result-object v7
 
-    .line 2287025
+    .line 2287046
     move/from16 p6, p12
 
     move/from16 p7, p14
@@ -2560,13 +2560,13 @@
 
     return-void
 
-    .line 2287026
+    .line 2287047
     :cond_7
     const/4 v1, 0x0
 
     goto :goto_2
 
-    .line 2287027
+    .line 2287048
     :cond_8
     move-object p2, p1
 
@@ -2574,7 +2574,7 @@
 
     goto :goto_3
 
-    .line 2287028
+    .line 2287049
     :cond_9
     const/16 v0, 0x16a
 
@@ -2702,7 +2702,7 @@
 
     .line 57
     .line 58
-    invoke-static {v0, v2}, LX/Chf;->A1C(LX/0AP;LX/0AX;)V
+    invoke-static {v0, v2}, LX/Chf;->A1D(LX/0AP;LX/0AX;)V
 
     .line 59
     .line 60

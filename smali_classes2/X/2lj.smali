@@ -307,7 +307,6 @@
     goto :goto_0
     :try_end_3
     .catch Ljava/lang/NullPointerException; {:try_start_3 .. :try_end_3} :catch_1
-    .catch Ljava/lang/NullPointerException; {:try_start_3 .. :try_end_3} :catch_3
 
     .line 118
     :catch_0

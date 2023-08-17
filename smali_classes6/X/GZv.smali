@@ -92,7 +92,7 @@
 
     .line 31
     .line 32
-    invoke-static {v0}, LX/Che;->A03(Z)I
+    invoke-static {v0}, LX/Che;->A04(Z)I
 
     .line 33
     .line 34

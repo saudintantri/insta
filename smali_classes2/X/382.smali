@@ -644,7 +644,6 @@
     .catch Ljava/security/UnrecoverableEntryException; {:try_start_7 .. :try_end_7} :catch_4
     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_7 .. :try_end_7} :catch_4
     .catch Ljava/security/ProviderException; {:try_start_7 .. :try_end_7} :catch_4
-    .catch Ljava/lang/NullPointerException; {:try_start_7 .. :try_end_7} :catch_4
 
     .line 247
     :catch_3

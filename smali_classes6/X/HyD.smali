@@ -2297,7 +2297,6 @@
     invoke-virtual {v0}, LX/2er;->A02()V
     :try_end_8
     .catch Ljava/lang/Exception; {:try_start_8 .. :try_end_8} :catch_6
-    .catch Ljava/lang/Exception; {:try_start_8 .. :try_end_8} :catch_7
 
     .line 918
     .line 919
@@ -2319,7 +2318,6 @@
     :try_end_9
     .catch Ljava/lang/InterruptedException; {:try_start_9 .. :try_end_9} :catch_2
     .catch Ljava/lang/Exception; {:try_start_9 .. :try_end_9} :catch_6
-    .catch Ljava/lang/Exception; {:try_start_9 .. :try_end_9} :catch_7
 
     .line 927
     .line 928
@@ -2342,7 +2340,6 @@
     rem-int/lit16 v5, v5, 0xb4
     :try_end_a
     .catch Ljava/lang/Exception; {:try_start_a .. :try_end_a} :catch_6
-    .catch Ljava/lang/Exception; {:try_start_a .. :try_end_a} :catch_7
 
     .line 936
     .line 937
@@ -2791,7 +2788,6 @@
     goto/16 :goto_b
     :try_end_b
     .catch Ljava/lang/Exception; {:try_start_b .. :try_end_b} :catch_6
-    .catch Ljava/lang/Exception; {:try_start_b .. :try_end_b} :catch_7
 
     .line 1147
     .line 1148
@@ -3537,7 +3533,6 @@
     goto :goto_16
     :try_end_12
     .catch Ljava/lang/Exception; {:try_start_12 .. :try_end_12} :catch_6
-    .catch Ljava/lang/Exception; {:try_start_12 .. :try_end_12} :catch_7
 
     .line 1509
     :cond_25
@@ -3578,7 +3573,6 @@
     throw v0
     :try_end_14
     .catch Ljava/lang/Exception; {:try_start_14 .. :try_end_14} :catch_6
-    .catch Ljava/lang/Exception; {:try_start_14 .. :try_end_14} :catch_7
 
     .line 1524
     :catch_6

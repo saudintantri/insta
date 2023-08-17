@@ -3792,7 +3792,7 @@
 
     .line 1804
     .line 1805
-    invoke-static {v0}, LX/Chi;->A0H(Ljava/lang/Object;)LX/05l;
+    invoke-static {v0}, LX/Chi;->A0I(Ljava/lang/Object;)LX/05l;
 
     .line 1806
     .line 1807

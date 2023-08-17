@@ -118,7 +118,7 @@
 
     .line 42
     .line 43
-    invoke-static {v1, v0, v10}, LX/Chf;->A0Y(LX/AYq;Lcom/instagram/guides/intf/GuideCreationType;Ljava/lang/String;)Lcom/instagram/guides/intf/GuideCreationLoggerState;
+    invoke-static {v1, v0, v10}, LX/Chf;->A0Z(LX/AYq;Lcom/instagram/guides/intf/GuideCreationType;Ljava/lang/String;)Lcom/instagram/guides/intf/GuideCreationLoggerState;
 
     .line 44
     .line 45

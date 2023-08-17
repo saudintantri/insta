@@ -202,7 +202,7 @@
     .line 43
     .line 44
     .line 45
-    invoke-static {v0}, LX/Chh;->A04(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
+    invoke-static {v0}, LX/Chh;->A05(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
 
     .line 46
     .line 47

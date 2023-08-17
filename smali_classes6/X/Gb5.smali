@@ -393,7 +393,7 @@
 
     .line 146
     .line 147
-    invoke-static {v6, v15}, LX/Chh;->A0O(LX/1M5;Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
+    invoke-static {v6, v15}, LX/Chh;->A0P(LX/1M5;Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
 
     .line 148
     .line 149

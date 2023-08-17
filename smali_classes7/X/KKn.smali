@@ -104,7 +104,7 @@
     .line 44
     .line 45
     .line 46
-    invoke-static {p0, v0}, LX/Chg;->A03(FF)F
+    invoke-static {p0, v0}, LX/Chh;->A00(FF)F
 
     .line 47
     .line 48
@@ -188,7 +188,7 @@
 
     .line 80
     .line 81
-    invoke-static {p0, v0}, LX/Chg;->A03(FF)F
+    invoke-static {p0, v0}, LX/Chh;->A00(FF)F
 
     .line 82
     .line 83

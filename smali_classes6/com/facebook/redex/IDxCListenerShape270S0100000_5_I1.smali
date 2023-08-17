@@ -38,43 +38,43 @@
 .method public final onLayoutChange(Landroid/view/View;IIIIIIII)V
     .locals 13
 
-    .line 2424747
+    .line 2424768
     iget v0, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A01:I
 
     packed-switch v0, :pswitch_data_0
 
-    .line 2424748
+    .line 2424769
     sub-int v2, p5, p3
 
     sub-int v1, p9, p7
 
     if-eq v2, v1, :cond_0
 
-    .line 2424749
+    .line 2424770
     iget-object v0, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
     check-cast v0, LX/I27;
 
-    .line 2424750
+    .line 2424771
     iget-object v3, v0, LX/I27;->A00:LX/Hec;
 
-    .line 2424751
+    .line 2424772
     if-eqz v3, :cond_0
 
-    .line 2424752
+    .line 2424773
     iget-object v2, v3, LX/Hec;->A0H:LX/I27;
 
-    .line 2424753
+    .line 2424774
     iget-object v1, v3, LX/Hec;->A0D:LX/65l;
 
     sget-object v0, LX/65l;->A04:LX/65l;
 
     if-ne v1, v0, :cond_0
 
-    .line 2424754
+    .line 2424775
     iget-object v0, v3, LX/Hec;->A0G:LX/5cy;
 
-    .line 2424755
+    .line 2424776
     iget-object v0, v0, LX/5cy;->A00:LX/1NY;
 
     invoke-virtual {v0}, LX/1NY;->A0X()Ljava/lang/Object;
@@ -85,52 +85,52 @@
 
     if-ne v1, v0, :cond_0
 
-    .line 2424756
+    .line 2424777
     const/4 v1, 0x1
 
-    .line 2424757
+    .line 2424778
     iget-object v2, v2, LX/I27;->A05:LX/HjQ;
 
-    .line 2424758
+    .line 2424779
     iget-boolean v0, v2, LX/HjQ;->A02:Z
 
     if-eq v0, v1, :cond_0
 
-    .line 2424759
+    .line 2424780
     iput-boolean v1, v2, LX/HjQ;->A02:Z
 
-    .line 2424760
+    .line 2424781
     invoke-static {v2, v1}, LX/HjQ;->A04(LX/HjQ;Z)V
 
-    .line 2424761
+    .line 2424782
     :goto_0
     invoke-static {v2}, LX/HjQ;->A02(LX/HjQ;)V
 
-    .line 2424762
+    .line 2424783
     :cond_0
     return-void
 
-    .line 2424763
+    .line 2424784
     :pswitch_0
     iget-object v2, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
     check-cast v2, LX/HjQ;
 
-    .line 2424764
+    .line 2424785
     iget-object v0, v2, LX/HjQ;->A0A:LX/HO0;
 
-    .line 2424765
+    .line 2424786
     iget-object v0, v0, LX/HO0;->A08:Landroid/view/View;
 
-    .line 2424766
+    .line 2424787
     invoke-virtual {v0}, Landroid/view/View;->getBottom()I
 
     move-result v1
 
-    .line 2424767
+    .line 2424788
     iget-object v0, v2, LX/HjQ;->A04:Landroid/content/Context;
 
-    .line 2424768
+    .line 2424789
     invoke-static {v0}, LX/0Oc;->A07(Landroid/content/Context;)I
 
     move-result v0
@@ -139,63 +139,63 @@
 
     goto :goto_0
 
-    .line 2424769
+    .line 2424790
     :pswitch_1
     invoke-static {p0, p1}, LX/FnF;->A12(Landroid/view/View$OnLayoutChangeListener;Landroid/view/View;)V
 
-    .line 2424770
+    .line 2424791
     iget-object v12, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
     check-cast v12, LX/IFK;
 
-    .line 2424771
+    .line 2424792
     iget-object v2, v12, LX/IFK;->A09:LX/01o;
 
-    .line 2424772
+    .line 2424793
     invoke-static {v2}, LX/5Wd;->A0J(LX/01o;)Landroid/view/View;
 
     move-result-object v0
 
-    .line 2424773
+    .line 2424794
     invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v9
 
-    .line 2424774
+    .line 2424795
     const v1, 0x7f0a04a3
 
-    .line 2424775
+    .line 2424796
     iget-object v0, v12, LX/IFK;->A04:Landroid/view/View;
 
-    .line 2424776
+    .line 2424797
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
 
-    .line 2424777
+    .line 2424798
     iget-object v10, v12, LX/IFK;->A05:LX/0BY;
 
-    .line 2424778
+    .line 2424799
     invoke-virtual {v10, v1}, LX/0BY;->A0J(I)Landroidx/fragment/app/Fragment;
 
     move-result-object v7
 
-    .line 2424779
+    .line 2424800
     iget-object v0, v10, LX/0BY;->A0U:LX/04v;
 
     invoke-virtual {v0}, LX/04v;->A03()Ljava/util/List;
 
     move-result-object v11
 
-    .line 2424780
+    .line 2424801
     invoke-static {v11}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 2424781
+    .line 2424802
     invoke-virtual {v10}, LX/0BY;->A0G()I
 
     move-result v6
 
-    .line 2424782
+    .line 2424803
     invoke-interface {v11}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -218,7 +218,7 @@
 
     check-cast v1, Landroidx/fragment/app/Fragment;
 
-    .line 2424783
+    .line 2424804
     instance-of v0, v1, LX/2Cu;
 
     if-eqz v0, :cond_1
@@ -227,7 +227,7 @@
 
     goto :goto_1
 
-    .line 2424784
+    .line 2424805
     :cond_2
     :try_start_0
     iget-object v1, v12, LX/IFK;->A07:LX/01o;
@@ -236,62 +236,62 @@
 
     move-result-object v0
 
-    .line 2424785
+    .line 2424806
     invoke-static {v7, v0}, LX/02K;->A0H(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2424786
+    .line 2424807
     invoke-static {v10, v1}, LX/FnE;->A1A(LX/0BY;LX/01o;)V
 
-    .line 2424787
+    .line 2424808
     invoke-static {v2}, LX/5Wd;->A0J(LX/01o;)Landroid/view/View;
 
     move-result-object v1
 
-    .line 2424788
+    .line 2424809
     const/4 v0, 0x1
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setFitsSystemWindows(Z)V
 
-    .line 2424789
+    .line 2424810
     invoke-static {v2}, LX/5Wd;->A0J(LX/01o;)Landroid/view/View;
 
     move-result-object v1
 
-    .line 2424790
+    .line 2424811
     sget-object v0, LX/Hr6;->A00:LX/Hr6;
 
-    .line 2424791
+    .line 2424812
     invoke-static {v1, v0}, LX/02O;->A00(Landroid/view/View;LX/029;)V
 
     goto/16 :goto_8
     :try_end_0
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2424792
+    .line 2424813
     :pswitch_2
     invoke-static {p0, p1}, LX/FnF;->A12(Landroid/view/View$OnLayoutChangeListener;Landroid/view/View;)V
 
-    .line 2424793
+    .line 2424814
     const v0, 0x7f0a04a3
 
-    .line 2424794
+    .line 2424815
     iget-object v4, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
     check-cast v4, LX/IFG;
 
-    .line 2424795
+    .line 2424816
     iget-object v3, v4, LX/IFG;->A01:LX/0BY;
 
-    .line 2424796
+    .line 2424817
     invoke-virtual {v3, v0}, LX/0BY;->A0J(I)Landroidx/fragment/app/Fragment;
 
     move-result-object v2
 
-    .line 2424797
+    .line 2424818
     :try_start_1
     iget-object v1, v4, LX/IFG;->A03:LX/01o;
 
@@ -299,63 +299,63 @@
 
     move-result-object v0
 
-    .line 2424798
+    .line 2424819
     invoke-static {v2, v0}, LX/02K;->A0H(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2424799
+    .line 2424820
     invoke-static {v3, v1}, LX/FnE;->A1A(LX/0BY;LX/01o;)V
 
-    .line 2424800
+    .line 2424821
     iget-object v2, v4, LX/IFG;->A05:LX/01o;
 
-    .line 2424801
+    .line 2424822
     invoke-static {v2}, LX/5Wd;->A0J(LX/01o;)Landroid/view/View;
 
     move-result-object v1
 
-    .line 2424802
+    .line 2424823
     const/4 v0, 0x1
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setFitsSystemWindows(Z)V
 
-    .line 2424803
+    .line 2424824
     invoke-static {v2}, LX/5Wd;->A0J(LX/01o;)Landroid/view/View;
 
     move-result-object v1
 
-    .line 2424804
+    .line 2424825
     sget-object v0, LX/Hr5;->A00:LX/Hr5;
 
-    .line 2424805
+    .line 2424826
     invoke-static {v1, v0}, LX/02O;->A00(Landroid/view/View;LX/029;)V
 
     goto/16 :goto_a
     :try_end_1
     .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 2424806
+    .line 2424827
     :pswitch_3
     invoke-static {p0, p1}, LX/FnF;->A12(Landroid/view/View$OnLayoutChangeListener;Landroid/view/View;)V
 
-    .line 2424807
+    .line 2424828
     iget-object v4, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
     check-cast v4, LX/GTK;
 
-    .line 2424808
+    .line 2424829
     iget-object v3, v4, LX/GTK;->A00:Landroid/graphics/Rect;
 
-    .line 2424809
+    .line 2424830
     if-eqz v3, :cond_0
 
-    .line 2424810
+    .line 2424831
     iget-object v2, v4, LX/GTK;->A02:Landroid/view/ViewGroup;
 
-    .line 2424811
+    .line 2424832
     const-string v5, "menuContainer"
 
     if-eqz v2, :cond_d
@@ -364,20 +364,20 @@
 
     int-to-float v1, v0
 
-    .line 2424812
+    .line 2424833
     invoke-static {v2}, LX/FnA;->A01(Landroid/view/View;)F
 
     move-result v0
 
-    .line 2424813
+    .line 2424834
     sub-float/2addr v1, v0
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setX(F)V
 
-    .line 2424814
+    .line 2424835
     iget-object v1, v4, LX/GTK;->A02:Landroid/view/ViewGroup;
 
-    .line 2424815
+    .line 2424836
     if-eqz v1, :cond_d
 
     iget v0, v3, Landroid/graphics/Rect;->bottom:I
@@ -386,10 +386,10 @@
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setY(F)V
 
-    .line 2424816
+    .line 2424837
     iget-object v0, v4, LX/GTK;->A02:Landroid/view/ViewGroup;
 
-    .line 2424817
+    .line 2424838
     if-eqz v0, :cond_d
 
     invoke-virtual {v0}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
@@ -404,72 +404,72 @@
 
     if-eqz v2, :cond_0
 
-    .line 2424818
+    .line 2424839
     invoke-virtual {v3}, Landroid/graphics/Rect;->exactCenterX()F
 
     move-result v1
 
-    .line 2424819
+    .line 2424840
     iget-object v0, v4, LX/GTK;->A02:Landroid/view/ViewGroup;
 
-    .line 2424820
+    .line 2424841
     if-eqz v0, :cond_d
 
-    .line 2424821
+    .line 2424842
     invoke-virtual {v0}, Landroid/view/View;->getX()F
 
     move-result v0
 
     sub-float/2addr v1, v0
 
-    .line 2424822
+    .line 2424843
     iput v1, v2, LX/Fz7;->A00:F
 
-    .line 2424823
+    .line 2424844
     invoke-static {v2}, LX/Fz7;->A00(LX/Fz7;)V
 
-    .line 2424824
+    .line 2424845
     invoke-virtual {v2}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
 
-    .line 2424825
+    .line 2424846
     :pswitch_4
     invoke-static {p0, p1}, LX/FnF;->A12(Landroid/view/View$OnLayoutChangeListener;Landroid/view/View;)V
 
-    .line 2424826
+    .line 2424847
     iget-object v1, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
     check-cast v1, LX/GU2;
 
     const/4 v0, 0x1
 
-    .line 2424827
+    .line 2424848
     iput-boolean v0, v1, LX/GU2;->A0L:Z
 
-    .line 2424828
+    .line 2424849
     iget-boolean v0, v1, LX/GU2;->A0M:Z
 
     if-eqz v0, :cond_0
 
-    .line 2424829
+    .line 2424850
     iget-object v1, v1, LX/GU2;->A03:LX/Iuk;
 
     goto :goto_2
 
-    .line 2424830
+    .line 2424851
     :pswitch_5
     invoke-static {p0, p1}, LX/FnF;->A12(Landroid/view/View$OnLayoutChangeListener;Landroid/view/View;)V
 
-    .line 2424831
+    .line 2424852
     iget-object v0, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
     check-cast v0, LX/GVF;
 
-    .line 2424832
+    .line 2424853
     iget-object v1, v0, LX/GVF;->A02:LX/Iuk;
 
-    .line 2424833
+    .line 2424854
     :goto_2
     if-eqz v1, :cond_0
 
@@ -479,7 +479,7 @@
 
     return-void
 
-    .line 2424834
+    .line 2424855
     :pswitch_6
     iget-object v2, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
@@ -487,34 +487,34 @@
 
     const/4 v0, 0x1
 
-    .line 2424835
+    .line 2424856
     iput-boolean v0, v2, Lcom/instagram/creation/base/ui/degreelabel/PillDegreeLabelManager;->A02:Z
 
-    .line 2424836
+    .line 2424857
     invoke-static {v2}, Lcom/instagram/creation/base/ui/degreelabel/PillDegreeLabelManager;->A04(Lcom/instagram/creation/base/ui/degreelabel/PillDegreeLabelManager;)V
 
-    .line 2424837
+    .line 2424858
     iget v1, v2, Lcom/instagram/creation/base/ui/degreelabel/PillDegreeLabelManager;->A00:F
 
-    .line 2424838
+    .line 2424859
     invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2424839
+    .line 2424860
     invoke-virtual {v2, v1}, Lcom/instagram/creation/base/ui/degreelabel/PillDegreeLabelManager;->setDegree(F)V
 
-    .line 2424840
+    .line 2424861
     const/high16 v0, 0x7fc00000    # Float.NaN
 
-    .line 2424841
+    .line 2424862
     iput v0, v2, Lcom/instagram/creation/base/ui/degreelabel/PillDegreeLabelManager;->A00:F
 
     return-void
 
-    .line 2424842
+    .line 2424863
     :pswitch_7
     sub-int v3, p4, p2
 
@@ -522,12 +522,12 @@
 
     const v0, 0x3f4ccccd    # 0.8f
 
-    .line 2424843
+    .line 2424864
     invoke-static {v6, v0}, LX/FnF;->A01(FF)I
 
     move-result v5
 
-    .line 2424844
+    .line 2424865
     shr-int/lit8 v4, p5, 0x1
 
     shr-int/lit8 v1, v5, 0x1
@@ -536,7 +536,7 @@
 
     add-int/2addr v4, v1
 
-    .line 2424845
+    .line 2424866
     iget-object v3, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
     check-cast v3, LX/GUi;
@@ -547,18 +547,18 @@
 
     const/4 v0, 0x0
 
-    .line 2424846
+    .line 2424867
     invoke-static {v0, v2, v6, v1}, LX/FnA;->A0K(FFFF)Landroid/graphics/RectF;
 
     move-result-object v2
 
-    .line 2424847
+    .line 2424868
     iput-object v2, v3, LX/GUi;->A02:Landroid/graphics/RectF;
 
-    .line 2424848
+    .line 2424869
     iget-object v1, v3, LX/GUi;->A07:Lcom/instagram/common/ui/widget/imageview/PunchedOverlayView;
 
-    .line 2424849
+    .line 2424870
     if-nez v1, :cond_3
 
     const-string v5, "punchedOverlayView"
@@ -572,10 +572,10 @@
 
     invoke-virtual {v1, v0}, Lcom/instagram/common/ui/widget/imageview/PunchedOverlayView;->A00(LX/EMg;)V
 
-    .line 2424850
+    .line 2424871
     iget-object v0, v3, LX/GUi;->A09:Lcom/instagram/creation/base/ui/grid/GridLinesView;
 
-    .line 2424851
+    .line 2424872
     if-nez v0, :cond_4
 
     const-string v5, "gridLinesView"
@@ -587,49 +587,49 @@
 
     return-void
 
-    .line 2424852
+    .line 2424873
     :pswitch_8
     iget-object v4, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
     check-cast v4, LX/HRm;
 
-    .line 2424853
+    .line 2424874
     iget v0, v4, LX/HRm;->A02:I
 
-    .line 2424854
+    .line 2424875
     if-eqz v0, :cond_6
 
-    .line 2424855
+    .line 2424876
     iget v0, v4, LX/HRm;->A01:I
 
-    .line 2424856
+    .line 2424877
     if-eqz v0, :cond_6
 
-    .line 2424857
+    .line 2424878
     iget-object v3, v4, LX/HRm;->A06:Landroid/view/View;
 
-    .line 2424858
+    .line 2424879
     invoke-static {v3}, LX/FnA;->A01(Landroid/view/View;)F
 
     move-result v2
 
-    .line 2424859
+    .line 2424880
     iget v0, v4, LX/HRm;->A02:I
 
-    .line 2424860
+    .line 2424881
     int-to-float v0, v0
 
     div-float/2addr v2, v0
 
-    .line 2424861
+    .line 2424882
     invoke-static {v3}, LX/Chb;->A02(Landroid/view/View;)F
 
     move-result v1
 
-    .line 2424862
+    .line 2424883
     iget v0, v4, LX/HRm;->A01:I
 
-    .line 2424863
+    .line 2424884
     int-to-float v0, v0
 
     div-float/2addr v1, v0
@@ -638,11 +638,11 @@
 
     move-result v0
 
-    .line 2424864
+    .line 2424885
     :goto_3
     iput v0, v4, LX/HRm;->A00:F
 
-    .line 2424865
+    .line 2424886
     iget-object v0, v4, LX/HRm;->A03:LX/HUb;
 
     const/4 v8, 0x1
@@ -655,17 +655,17 @@
 
     if-ne v0, v8, :cond_5
 
-    .line 2424866
+    .line 2424887
     invoke-virtual {v3}, Landroid/view/View;->getOverlay()Landroid/view/ViewOverlay;
 
     move-result-object v0
 
     invoke-virtual {v0}, Landroid/view/ViewOverlay;->clear()V
 
-    .line 2424867
+    .line 2424888
     const/high16 v0, 0x41200000    # 10.0f
 
-    .line 2424868
+    .line 2424889
     invoke-virtual {v3}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -678,7 +678,7 @@
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 2424869
+    .line 2424890
     invoke-static {v2}, LX/02K;->A05(Ljava/lang/Object;)V
 
     invoke-static {v2, v0}, LX/0Pt;->A00(Landroid/content/Context;F)F
@@ -689,7 +689,7 @@
 
     mul-float/2addr v6, v0
 
-    .line 2424870
+    .line 2424891
     new-instance v7, Landroid/graphics/RectF;
 
     invoke-direct {v7, v6, v6, v6, v6}, Landroid/graphics/RectF;-><init>(FFFF)V
@@ -728,7 +728,7 @@
 
     aput v1, v2, v0
 
-    .line 2424871
+    .line 2424892
     const/4 v1, 0x0
 
     new-instance v0, Landroid/graphics/drawable/shapes/RoundRectShape;
@@ -739,7 +739,7 @@
 
     invoke-direct {v2, v0}, Landroid/graphics/drawable/ShapeDrawable;-><init>(Landroid/graphics/drawable/shapes/Shape;)V
 
-    .line 2424872
+    .line 2424893
     invoke-virtual {v2}, Landroid/graphics/drawable/ShapeDrawable;->getPaint()Landroid/graphics/Paint;
 
     move-result-object v1
@@ -748,14 +748,14 @@
 
     invoke-virtual {v1, v0}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 2424873
+    .line 2424894
     invoke-virtual {v2}, Landroid/graphics/drawable/ShapeDrawable;->getPaint()Landroid/graphics/Paint;
 
     move-result-object v0
 
     invoke-virtual {v0, v6}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 2424874
+    .line 2424895
     invoke-virtual {v3}, Landroid/view/View;->getWidth()I
 
     move-result v1
@@ -766,16 +766,16 @@
 
     invoke-virtual {v2, v5, v5, v1, v0}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 2424875
+    .line 2424896
     const/16 v0, 0x77
 
     invoke-virtual {v3, v0}, Landroid/view/View;->setForegroundGravity(I)V
 
-    .line 2424876
+    .line 2424897
     :goto_4
     invoke-virtual {v3, v2}, Landroid/view/View;->setForeground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2424877
+    .line 2424898
     return-void
 
     :cond_5
@@ -783,124 +783,124 @@
 
     goto :goto_4
 
-    .line 2424878
+    .line 2424899
     :cond_6
     iget-object v3, v4, LX/HRm;->A06:Landroid/view/View;
 
-    .line 2424879
+    .line 2424900
     invoke-virtual {v3}, Landroid/view/View;->getWidth()I
 
     move-result v0
 
-    .line 2424880
+    .line 2424901
     iput v0, v4, LX/HRm;->A02:I
 
-    .line 2424881
+    .line 2424902
     invoke-virtual {v3}, Landroid/view/View;->getHeight()I
 
     move-result v0
 
-    .line 2424882
+    .line 2424903
     iput v0, v4, LX/HRm;->A01:I
 
-    .line 2424883
+    .line 2424904
     const/high16 v0, 0x3f800000    # 1.0f
 
     goto/16 :goto_3
 
-    .line 2424884
+    .line 2424905
     :pswitch_9
     invoke-static {p0, p1}, LX/FnF;->A12(Landroid/view/View$OnLayoutChangeListener;Landroid/view/View;)V
 
-    .line 2424885
+    .line 2424906
     iget-object v2, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
     check-cast v2, LX/GU8;
 
-    .line 2424886
+    .line 2424907
     iget-object v4, v2, LX/GU8;->A02:LX/HcT;
 
-    .line 2424887
+    .line 2424908
     if-nez v4, :cond_7
 
     const-string v5, "positionPersistentStore"
 
     goto/16 :goto_b
 
-    .line 2424888
+    .line 2424909
     :cond_7
     iget-object v1, v2, LX/GU8;->A0K:Ljava/lang/String;
 
-    .line 2424889
+    .line 2424910
     if-nez v1, :cond_8
 
     const-string v5, "canvasId"
 
     goto/16 :goto_b
 
-    .line 2424890
+    .line 2424911
     :cond_8
     const/16 v0, 0xa
 
-    .line 2424891
+    .line 2424912
     invoke-static {v2, v0}, LX/FnE;->A0p(Ljava/lang/Object;I)Lkotlin/jvm/internal/KtLambdaShape64S0100000_I1_4;
 
     move-result-object v0
 
-    .line 2424892
+    .line 2424913
     invoke-static {}, LX/0OO;->A00()LX/0OS;
 
     move-result-object v3
 
-    .line 2424893
+    .line 2424914
     new-instance v2, LX/IUM;
 
     invoke-direct {v2, v4, v1, v0}, LX/IUM;-><init>(LX/HcT;Ljava/lang/String;LX/0Vv;)V
 
     const v1, 0x5ca2aac8
 
-    .line 2424894
+    .line 2424915
     new-instance v0, LX/0kM;
 
     invoke-direct {v0, v2, v1}, LX/0kM;-><init>(Ljava/lang/Runnable;I)V
 
-    .line 2424895
+    .line 2424916
     invoke-interface {v3, v0}, LX/0OS;->AQB(LX/0Nr;)V
 
-    .line 2424896
+    .line 2424917
     return-void
 
-    .line 2424897
+    .line 2424918
     :pswitch_a
     const/4 v0, 0x0
 
     invoke-static {p1, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2424898
+    .line 2424919
     iget-object v0, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
     check-cast v0, LX/GVQ;
 
-    .line 2424899
+    .line 2424920
     iget-object v1, v0, LX/GVQ;->A00:LX/Iuj;
 
     goto :goto_5
 
-    .line 2424900
+    .line 2424921
     :pswitch_b
     const/4 v0, 0x0
 
     invoke-static {p1, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2424901
+    .line 2424922
     iget-object v0, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
     check-cast v0, LX/GTY;
 
-    .line 2424902
+    .line 2424923
     iget-object v1, v0, LX/GTY;->A01:LX/Iuj;
 
-    .line 2424903
+    .line 2424924
     :goto_5
     if-eqz v1, :cond_a
 
@@ -910,7 +910,7 @@
 
     goto :goto_7
 
-    .line 2424904
+    .line 2424925
     :pswitch_c
     iget-object v0, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
@@ -918,23 +918,23 @@
 
     iget-object v1, v0, LX/Hnu;->A00:LX/5LP;
 
-    .line 2424905
+    .line 2424926
     iget-object v0, v1, LX/5LP;->A0D:Lcom/instagram/ui/text/ConstrainedEditText;
 
-    .line 2424906
+    .line 2424927
     invoke-virtual {v0, p0}, Landroid/view/View;->removeOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
-    .line 2424907
+    .line 2424928
     invoke-static {v1}, LX/5LP;->A04(LX/5LP;)V
 
-    .line 2424908
+    .line 2424929
     return-void
 
-    .line 2424909
+    .line 2424930
     :pswitch_d
     sget-object v5, LX/H9Q;->A00:LX/Fxc;
 
-    .line 2424910
+    .line 2424931
     iget-object v0, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
     check-cast v0, Lcom/instagram/common/ui/widget/draggable/DraggableContainer;
@@ -949,13 +949,13 @@
 
     monitor-enter v5
 
-    .line 2424911
+    .line 2424932
     :try_start_2
     iget-object v0, v5, LX/Fxc;->A00:LX/HSa;
 
     if-eqz v0, :cond_9
 
-    .line 2424912
+    .line 2424933
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -964,7 +964,7 @@
 
     move-result-object v0
 
-    .line 2424913
+    .line 2424934
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -982,7 +982,7 @@
 
     check-cast v1, LX/IoL;
 
-    .line 2424914
+    .line 2424935
     iget-object v0, v5, LX/Fxc;->A00:LX/HSa;
 
     invoke-virtual {v0}, LX/HSa;->A00()Ljava/lang/ref/WeakReference;
@@ -1001,18 +1001,18 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 2424915
+    .line 2424936
     :cond_9
     monitor-exit v5
 
-    .line 2424916
+    .line 2424937
     :cond_a
     :goto_7
     invoke-virtual {p1, p0}, Landroid/view/View;->removeOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
     return-void
 
-    .line 2424917
+    .line 2424938
     :catchall_0
     move-exception v0
 
@@ -1020,23 +1020,23 @@
 
     throw v0
 
-    .line 2424918
+    .line 2424939
     :goto_8
     return-void
 
-    .line 2424919
+    .line 2424940
     :catch_0
     move-exception v3
 
-    .line 2424920
+    .line 2424941
     const-string v0, "isViewInflated: "
 
-    .line 2424921
+    .line 2424942
     invoke-static {v0}, LX/5Wd;->A0z(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
-    .line 2424922
+    .line 2424943
     invoke-virtual {v2, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string v0, " \nfoundContainerBefore: "
@@ -1061,7 +1061,7 @@
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2424923
+    .line 2424944
     invoke-interface {v11}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1077,23 +1077,23 @@
 
     move-result-object v0
 
-    .line 2424924
+    .line 2424945
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     goto :goto_9
 
-    .line 2424925
+    .line 2424946
     :cond_b
     sget-object v0, Lkotlin/Unit;->A00:Lkotlin/Unit;
 
-    .line 2424926
+    .line 2424947
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string v0, " \nBloksSreenFragment: "
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2424927
+    .line 2424948
     check-cast v4, LX/2Cu;
 
     if-eqz v4, :cond_c
@@ -1102,78 +1102,78 @@
 
     move-result-object v5
 
-    .line 2424928
+    .line 2424949
     :cond_c
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v0, " \n"
 
-    .line 2424929
+    .line 2424950
     invoke-static {v0, v2}, LX/5Wd;->A0s(Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2424930
+    .line 2424951
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
     invoke-direct {v1, v0, v3}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const-string v0, "RtcCoWatchBloksContentPickerViewHolder"
 
-    .line 2424931
+    .line 2424952
     invoke-static {v0, v1}, LX/0Ud;->A06(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
 
-    .line 2424932
+    .line 2424953
     :goto_a
     return-void
 
-    .line 2424933
+    .line 2424954
     :catch_1
     move-exception v1
 
-    .line 2424934
+    .line 2424955
     const-string v0, "ClipsTogetherContentPickerViewHolder"
 
     invoke-static {v0, v1}, LX/0Ud;->A06(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
 
-    .line 2424935
+    .line 2424956
     :pswitch_e
     invoke-static {p0, p1}, LX/FnF;->A12(Landroid/view/View$OnLayoutChangeListener;Landroid/view/View;)V
 
-    .line 2424936
+    .line 2424957
     const/4 v1, 0x2
 
     new-array v2, v1, [I
 
-    .line 2424937
+    .line 2424958
     fill-array-data v2, :array_0
 
-    .line 2424938
+    .line 2424959
     iget-object v3, p0, Lcom/facebook/redex/IDxCListenerShape270S0100000_5_I1;->A00:Ljava/lang/Object;
 
     check-cast v3, LX/GTs;
 
-    .line 2424939
+    .line 2424960
     iget-object v0, v3, LX/GTs;->A0A:LX/01o;
 
-    .line 2424940
+    .line 2424961
     invoke-static {v0}, LX/5We;->A0I(LX/01o;)Landroid/view/View;
 
     move-result-object v0
 
-    .line 2424941
+    .line 2424962
     invoke-virtual {v0, v2}, Landroid/view/View;->getLocationOnScreen([I)V
 
     new-array v4, v1, [I
 
-    .line 2424942
+    .line 2424963
     fill-array-data v4, :array_1
 
-    .line 2424943
+    .line 2424964
     invoke-virtual {v3}, Landroidx/fragment/app/Fragment;->requireView()Landroid/view/View;
 
     move-result-object v1
@@ -1184,35 +1184,35 @@
 
     move-result-object v1
 
-    .line 2424944
+    .line 2424965
     invoke-virtual {v1, v4}, Landroid/view/View;->getLocationOnScreen([I)V
 
     const/4 v0, 0x1
 
-    .line 2424945
+    .line 2424966
     aget v2, v2, v0
 
-    .line 2424946
+    .line 2424967
     aget v0, v4, v0
 
     sub-int/2addr v2, v0
 
-    .line 2424947
+    .line 2424968
     invoke-virtual {v1}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v0
 
     sub-int/2addr v2, v0
 
-    .line 2424948
+    .line 2424969
     invoke-static {v3}, LX/92n;->A08(Landroidx/fragment/app/Fragment;)Landroid/content/res/Resources;
 
     move-result-object v1
 
-    .line 2424949
+    .line 2424970
     const v0, 0x7f070014
 
-    .line 2424950
+    .line 2424971
     invoke-virtual {v1, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
     move-result v0
@@ -1229,15 +1229,15 @@
 
     float-to-int v2, v1
 
-    .line 2424951
+    .line 2424972
     iget-object v1, v3, LX/GTs;->A00:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 2424952
+    .line 2424973
     if-nez v1, :cond_e
 
     const-string v5, "recyclerView"
 
-    .line 2424953
+    .line 2424974
     :cond_d
     :goto_b
     invoke-static {v5}, LX/02K;->A0D(Ljava/lang/String;)V
@@ -1246,7 +1246,7 @@
 
     throw v0
 
-    .line 2424954
+    .line 2424975
     :cond_e
     new-instance v0, LX/9E8;
 

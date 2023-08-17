@@ -1,5 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" android:installLocation="auto" package="com.instagram.android" platformBuildVersionCode="33" platformBuildVersionName="13">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" android:installLocation="auto" package="com.instagram.android" platformBuildVersionCode="33" platformBuildVersionName="13">
     <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <compatible-screens>
+        <screen android:screenDensity="560" android:screenSize="small"/>
+        <screen android:screenDensity="560" android:screenSize="normal"/>
+        <screen android:screenDensity="560" android:screenSize="large"/>
+        <screen android:screenDensity="560" android:screenSize="xlarge"/>
+        <screen android:screenDensity="xxxhdpi" android:screenSize="small"/>
+        <screen android:screenDensity="xxxhdpi" android:screenSize="normal"/>
+        <screen android:screenDensity="xxxhdpi" android:screenSize="large"/>
+        <screen android:screenDensity="xxxhdpi" android:screenSize="xlarge"/>
+    </compatible-screens>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
@@ -54,7 +64,6 @@
     <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
     <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
     <supports-gl-texture android:name="GL_OES_compressed_ETC1_RGB8_texture"/>
-    <supports-screens android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
     <permission android:name="com.instagram.android.permission.SYSTEM_ONLY" android:protectionLevel="signatureOrSystem"/>
     <permission android:name=".permission.RECEIVE_ADM_MESSAGE" android:protectionLevel="signature"/>
     <uses-permission android:name=".permission.RECEIVE_ADM_MESSAGE"/>
@@ -81,24 +90,26 @@
     </queries>
     <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
     <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
-    <application android:allowBackup="true" android:allowTaskReparenting="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:backupAgent="com.instagram.backup.KeyValueBackupAgent" android:debuggable="false" android:fullBackupContent="@xml/backup_rules" android:fullBackupOnly="true" android:hardwareAccelerated="true" android:icon="@mipmap/icon" android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f120006" android:largeHeap="true" android:name="com.instagram.app.InstagramAppShell" android:networkSecurityConfig="@xml/fb_network_security_config" android:requestLegacyExternalStorage="true" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/Theme.Instagram.Splash">
+    <application android:allowBackup="true" android:allowTaskReparenting="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:backupAgent="com.instagram.backup.KeyValueBackupAgent" android:debuggable="false" android:fullBackupContent="@xml/backup_rules" android:fullBackupOnly="true" android:hardwareAccelerated="true" android:icon="@mipmap/icon" android:label="@string/APKTOOL_DUPLICATE_string_0x7f120006" android:largeHeap="true" android:name="com.instagram.app.InstagramAppShell" android:networkSecurityConfig="@xml/fb_network_security_config" android:requestLegacyExternalStorage="true" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/Theme.Instagram.Splash">
         <meta-data android:name="com.instagram.android.channel" android:value="playstore"/>
         <meta-data android:name="com.google.android.backup.api_key" android:value="unused"/>
         <meta-data android:name="com.google.android.ALLOW_PHISHING_DETECTION" android:value="false"/>
-        <meta-data android:name="com.facebook.build_rule" android:value="instagram_multi_bytecode_dextr_splitarsc_dlstr_zstdso_arm64_release_fbsign"/>
+        <meta-data android:name="com.facebook.build_rule" android:value="instagram_multi_bytecode_dextr_splitarsc_dlstr_zstdso_xxxhdpi_arm64_release_fbsign"/>
         <meta-data android:name="com.facebook.package_type" android:value="release"/>
-        <meta-data android:name="com.facebook.build_time" android:value="1670902699000L"/>
+        <meta-data android:name="com.facebook.build_time" android:value="1670902738000L"/>
         <meta-data android:name="com.facebook.versioncontrol.branch" android:value="master"/>
         <meta-data android:name="com.facebook.versioncontrol.revision" android:value="MASTER"/>
-        <meta-data android:name="com.facebook.build_id" android:value="428413009"/>
+        <meta-data android:name="com.facebook.build_id" android:value="428413100"/>
         <meta-data android:name="android.splashscreen.exception_opt_out" android:value="true"/>
-        <activity android:alwaysRetainTaskState="true" android:clearTaskOnLaunch="false" android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f120006" android:launchMode="singleTop" android:name="com.instagram.mainactivity.LauncherActivity" android:screenOrientation="portrait" android:theme="@style/Base.Theme.Launcher" android:windowSoftInputMode="adjustNothing">
+        <activity android:alwaysRetainTaskState="true" android:clearTaskOnLaunch="false" android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/APKTOOL_DUPLICATE_string_0x7f120006" android:launchMode="singleTop" android:name="com.instagram.mainactivity.LauncherActivity" android:screenOrientation="portrait" android:theme="@style/Base.Theme.Launcher" android:windowSoftInputMode="adjustNothing">
             <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
         </activity>
-        <activity android:alwaysRetainTaskState="true" android:clearTaskOnLaunch="false" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f120006" android:launchMode="singleTop" android:name="com.instagram.mainactivity.MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing">
+        <activity android:name="com.dfinstagram.IconChoose" android:theme="@style/DfInstagramPreference"/>
+        <activity android:name="com.dfinstagram.preference.Preference" android:screenOrientation="portrait" android:theme="@style/DfInstagramPreference"/>
+        <activity android:alwaysRetainTaskState="true" android:clearTaskOnLaunch="false" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/APKTOOL_DUPLICATE_string_0x7f120006" android:launchMode="singleTop" android:name="com.instagram.mainactivity.MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing">
             <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
         </activity>
-        <activity-alias android:alwaysRetainTaskState="true" android:clearTaskOnLaunch="false" android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f120006" android:launchMode="singleTop" android:name="com.instagram.android.activity.MainTabActivity" android:targetActivity="com.instagram.mainactivity.LauncherActivity" android:windowSoftInputMode="adjustNothing">
+        <activity-alias android:alwaysRetainTaskState="true" android:clearTaskOnLaunch="false" android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/APKTOOL_DUPLICATE_string_0x7f120006" android:launchMode="singleTop" android:name="com.instagram.android.activity.MainTabActivity" android:targetActivity="com.instagram.mainactivity.LauncherActivity" android:windowSoftInputMode="adjustNothing">
             <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -444,7 +455,7 @@
         <meta-data android:name="android.max_aspect" android:value="3.0"/>
         <meta-data android:name="android.supports_size_changes" android:value="true"/>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
-        <meta-data android:name="asset_statements" android:resource="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12004f"/>
+        <meta-data android:name="asset_statements" android:resource="@string/APKTOOL_DUPLICATE_string_0x7f12004f"/>
         <meta-data android:name="com.facebook.katana.fbpermission.SSO_ACCESS" android:value=""/>
         <meta-data android:name="com.instagram.threadsapp.fbpermission.PROVIDER_READ_TOP_THREADS" android:value=""/>
         <meta-data android:name="com.instagram.fbpermission.PROVIDER_TRIGGER_REALTIME_KEEPALIVE" android:value=""/>
@@ -817,7 +828,7 @@
         </receiver>
         <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.instagram.share.handleractivity.ShareHandlerActivity" android:taskAffinity="com.instagram.share.handleractivity.ShareHandlerActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12009e">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f12009e">
                 <action android:name="android.intent.action.SEND"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="image/*"/>
@@ -832,7 +843,7 @@
         </activity>
         <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.instagram.share.handleractivity.StoryShareHandlerActivity" android:noHistory="true" android:taskAffinity="com.instagram.share.handleractivity.StoryShareHandlerActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a0">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f1200a0">
                 <action android:name="android.intent.action.SEND"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="image/*"/>
@@ -841,7 +852,7 @@
         </activity>
         <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.instagram.share.handleractivity.ReelShareHandlerActivity" android:noHistory="true" android:taskAffinity="com.instagram.share.handleractivity.ReelShareHandlerActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12009f">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f12009f">
                 <action android:name="android.intent.action.SEND"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="video/*"/>
@@ -849,7 +860,7 @@
         </activity>
         <activity-alias android:exported="true" android:icon="@mipmap/ig_reels_icon" android:launchMode="singleInstance" android:name="com.instagram.share.handleractivity.ReelShareHandlerActivityNewIconAlias" android:noHistory="true" android:targetActivity="com.instagram.share.handleractivity.ReelShareHandlerActivity" android:taskAffinity="com.instagram.share.handleractivity.ReelShareHandlerActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12009f">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f12009f">
                 <action android:name="android.intent.action.SEND"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="video/*"/>
@@ -857,7 +868,7 @@
         </activity-alias>
         <activity-alias android:exported="true" android:launchMode="singleInstance" android:name="com.instagram.share.handleractivity.ReelShareHandlerActivityMultiMediaAlias" android:noHistory="true" android:targetActivity="com.instagram.share.handleractivity.ReelShareHandlerActivity" android:taskAffinity="com.instagram.share.handleractivity.ReelShareHandlerActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12009f">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f12009f">
                 <action android:name="android.intent.action.SEND"/>
                 <action android:name="android.intent.action.SEND_MULTIPLE"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -867,7 +878,7 @@
         </activity-alias>
         <activity-alias android:exported="true" android:icon="@mipmap/ig_reels_icon" android:launchMode="singleInstance" android:name="com.instagram.share.handleractivity.ReelShareHandlerActivityMultiMediaWithNewIconAlias" android:noHistory="true" android:targetActivity="com.instagram.share.handleractivity.ReelShareHandlerActivity" android:taskAffinity="com.instagram.share.handleractivity.ReelShareHandlerActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12009f">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f12009f">
                 <action android:name="android.intent.action.SEND"/>
                 <action android:name="android.intent.action.SEND_MULTIPLE"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -877,7 +888,7 @@
         </activity-alias>
         <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.instagram.share.handleractivity.MultiStoryShareHandlerActivity" android:noHistory="true" android:taskAffinity="com.instagram.share.handleractivity.StoryShareHandlerActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a0">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f1200a0">
                 <action android:name="android.intent.action.SEND_MULTIPLE"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="image/*"/>
@@ -895,7 +906,7 @@
         </activity>
         <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.instagram.share.handleractivity.ClipsShareHandlerActivity" android:noHistory="true" android:taskAffinity="com.instagram.share.handleractivity.ClipsShareHandlerActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12009f">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f12009f">
                 <action android:name="com.instagram.share.ADD_TO_REEL"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="video/*"/>
@@ -1144,7 +1155,7 @@
         <service android:exported="false" android:foregroundServiceType="mediaProjection|phoneCall" android:name="com.instagram.rtc.service.OngoingCallServiceWithMic"/>
         <activity android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.instagram.direct.share.handler.DirectShareHandlerActivity" android:screenOrientation="portrait" android:taskAffinity="com.instagram.android.DirectShareHandlerActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <meta-data android:name="default-state" android:value="false"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12002f">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f12002f">
                 <action android:name="android.intent.action.SEND"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="text/plain"/>
@@ -1153,7 +1164,7 @@
         </activity>
         <activity-alias android:enabled="false" android:exported="true" android:name="com.instagram.direct.share.handler.DirectShareHandlerActivityInterop" android:targetActivity="com.instagram.direct.share.handler.DirectShareHandlerActivity">
             <meta-data android:name="default-state" android:value="false"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12001e">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f12001e">
                 <action android:name="android.intent.action.SEND"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="text/plain"/>
@@ -1162,7 +1173,7 @@
         </activity-alias>
         <activity android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.instagram.direct.share.handler.DirectExternalMediaShareActivity" android:screenOrientation="portrait" android:taskAffinity="com.instagram.android.DirectExternalPhotoShareActivity"/>
         <activity-alias android:enabled="false" android:exported="true" android:name="com.instagram.direct.share.handler.DirectExternalMediaShareActivityPhoto" android:targetActivity="com.instagram.direct.share.handler.DirectExternalMediaShareActivity">
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12002f">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f12002f">
                 <action android:name="android.intent.action.SEND"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="image/*"/>
@@ -1171,7 +1182,7 @@
         </activity-alias>
         <activity-alias android:enabled="false" android:exported="true" android:name="com.instagram.direct.share.handler.DirectExternalMediaShareActivityPhotoInterop" android:targetActivity="com.instagram.direct.share.handler.DirectExternalMediaShareActivity">
             <meta-data android:name="default-state" android:value="false"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12001e">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f12001e">
                 <action android:name="android.intent.action.SEND"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="image/*"/>
@@ -1180,7 +1191,7 @@
         </activity-alias>
         <activity-alias android:enabled="false" android:exported="true" android:name="com.instagram.direct.share.handler.DirectExternalMediaShareActivityVideo" android:targetActivity="com.instagram.direct.share.handler.DirectExternalMediaShareActivity">
             <meta-data android:name="default-state" android:value="false"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12002f">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f12002f">
                 <action android:name="android.intent.action.SEND"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="video/*"/>
@@ -1189,7 +1200,7 @@
         </activity-alias>
         <activity-alias android:enabled="false" android:exported="true" android:name="com.instagram.direct.share.handler.DirectExternalMediaShareActivityVideoInterop" android:targetActivity="com.instagram.direct.share.handler.DirectExternalMediaShareActivity">
             <meta-data android:name="default-state" android:value="false"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12001e">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f12001e">
                 <action android:name="android.intent.action.SEND"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="video/*"/>
@@ -1198,7 +1209,7 @@
         </activity-alias>
         <activity android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.instagram.direct.share.handler.DirectMultipleExternalMediaShareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <meta-data android:name="default-state" android:value="false"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12002f">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f12002f">
                 <action android:name="android.intent.action.SEND_MULTIPLE"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="image/*"/>
@@ -1208,7 +1219,7 @@
         </activity>
         <activity-alias android:enabled="false" android:exported="true" android:name="com.instagram.direct.share.handler.DirectMultipleExternalMediaShareActivityInterop" android:targetActivity="com.instagram.direct.share.handler.DirectMultipleExternalMediaShareActivity">
             <meta-data android:name="default-state" android:value="false"/>
-            <intent-filter android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12001e">
+            <intent-filter android:label="@string/APKTOOL_DUPLICATE_string_0x7f12001e">
                 <action android:name="android.intent.action.SEND_MULTIPLE"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="image/*"/>
@@ -1216,16 +1227,16 @@
             </intent-filter>
             <meta-data android:name="android.service.chooser.chooser_target_service" android:value="com.instagram.direct.share.choosertarget.DirectChooserTargetService"/>
         </activity-alias>
-        <service android:enabled="false" android:exported="true" android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12004d" android:name="com.instagram.direct.share.choosertarget.DirectChooserTargetService" android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
+        <service android:enabled="false" android:exported="true" android:label="@string/APKTOOL_DUPLICATE_string_0x7f12004d" android:name="com.instagram.direct.share.choosertarget.DirectChooserTargetService" android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
             <intent-filter>
                 <action android:name="android.service.chooser.ChooserTargetService"/>
             </intent-filter>
         </service>
         <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
         <meta-data android:name="com.google.ar.core.min_apk_version" android:value="212840000"/>
-        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f1200b6" android:launchMode="singleTask" android:name="com.instagram.rtc.activity.RtcCallActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:showOnLockScreen="true" android:showWhenLocked="true" android:supportsPictureInPicture="true" android:taskAffinity="com.instagram.android.RtcCallActivity" android:theme="@style/CallTheme" android:turnScreenOn="true" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:label="@string/APKTOOL_DUPLICATE_string_0x7f1200b6" android:launchMode="singleTask" android:name="com.instagram.rtc.activity.RtcCallActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:showOnLockScreen="true" android:showWhenLocked="true" android:supportsPictureInPicture="true" android:taskAffinity="com.instagram.android.RtcCallActivity" android:theme="@style/CallTheme" android:turnScreenOn="true" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="com.instagram.rtc.activity.RtcCallIntentHandlerActivity" android:noHistory="true" android:showWhenLocked="true" android:taskAffinity="com.instagram.android.RtcCallIntentHandlerActivity" android:theme="@style/CallHandlerTheme" android:turnScreenOn="true"/>
-        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f1200b6" android:launchMode="singleTask" android:name="com.instagram.rtc.activity.ClipsTogetherActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:showOnLockScreen="true" android:supportsPictureInPicture="true" android:theme="@style/CallTheme" android:turnScreenOn="true" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/APKTOOL_DUPLICATE_string_0x7f1200b6" android:launchMode="singleTask" android:name="com.instagram.rtc.activity.ClipsTogetherActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:showOnLockScreen="true" android:supportsPictureInPicture="true" android:theme="@style/CallTheme" android:turnScreenOn="true" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"/>
         <service android:exported="false" android:name="com.instagram.rtc.signaling.notifications.service.RtcCallActionIntentHandlerService"/>
         <service android:exported="false" android:name="androidx.work.multiprocess.RemoteWorkManagerService"/>
         <activity android:enabled="false" android:exported="true" android:name="androidx.compose.ui.tooling.PreviewActivity"/>

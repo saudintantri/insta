@@ -53,7 +53,7 @@
 
     .line 13
     .line 14
-    invoke-static {v0}, LX/Chi;->A0x(Landroid/view/View;)V
+    invoke-static {v0}, LX/Chi;->A0z(Landroid/view/View;)V
 
     .line 15
     .line 16
@@ -386,7 +386,7 @@
 
     .line 183
     .line 184
-    invoke-static {v0}, LX/Chi;->A0x(Landroid/view/View;)V
+    invoke-static {v0}, LX/Chi;->A0z(Landroid/view/View;)V
 
     .line 185
     .line 186

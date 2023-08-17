@@ -1268,7 +1268,7 @@
     move-result-object v0
 
     .line 588
-    invoke-static {v0}, LX/Chf;->A0J(LX/6cT;)Landroid/os/Bundle;
+    invoke-static {v0}, LX/Chf;->A0K(LX/6cT;)Landroid/os/Bundle;
 
     .line 589
     .line 590
@@ -1284,7 +1284,7 @@
     move-result-object v0
 
     .line 596
-    invoke-static {v0, v1, v8, v5, v3}, LX/Chi;->A0u(Landroid/app/Activity;Landroid/os/Bundle;Landroidx/fragment/app/Fragment;LX/0SF;Ljava/lang/Class;)V
+    invoke-static {v0, v1, v8, v5, v3}, LX/Chi;->A0w(Landroid/app/Activity;Landroid/os/Bundle;Landroidx/fragment/app/Fragment;LX/0SF;Ljava/lang/Class;)V
 
     .line 597
     .line 598
@@ -1433,7 +1433,7 @@
     .line 669
     .line 670
     .line 671
-    invoke-static {v6, v5}, LX/Chh;->A0O(LX/1M5;Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
+    invoke-static {v6, v5}, LX/Chh;->A0P(LX/1M5;Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
 
     .line 672
     .line 673
@@ -1467,7 +1467,7 @@
     .line 687
     .line 688
     .line 689
-    invoke-static {v6, v5}, LX/Chh;->A0O(LX/1M5;Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
+    invoke-static {v6, v5}, LX/Chh;->A0P(LX/1M5;Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
 
     .line 690
     .line 691
@@ -2776,7 +2776,7 @@
 
     .line 1334
     .line 1335
-    invoke-static {v0}, LX/Chi;->A0r(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v0}, LX/Chi;->A0t(Ljava/util/List;)Ljava/util/List;
 
     .line 1336
     .line 1337
@@ -4353,7 +4353,7 @@
     .line 2138
     .line 2139
     .line 2140
-    invoke-static {v2, v5}, LX/Chg;->A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/4Qd;)V
+    invoke-static {v2, v5}, LX/Chg;->A1I(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/4Qd;)V
 
     .line 2141
     .line 2142

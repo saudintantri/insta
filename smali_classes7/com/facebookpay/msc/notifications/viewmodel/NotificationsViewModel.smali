@@ -215,16 +215,16 @@
 
     if-nez v0, :cond_b
 
-    .line 2556260
+    .line 2556281
     move-object/from16 v3, p11
 
-    .line 2556261
+    .line 2556282
     :cond_b
     invoke-static {}, LX/Ko0;->A02()LX/1Sq;
 
     move-result-object v2
 
-    .line 2556262
+    .line 2556283
     iget-object v0, p0, Lcom/facebookpay/msc/notifications/viewmodel/NotificationsViewModel;->A01:Lcom/facebookpay/msc/logging/LoggingData;
 
     if-nez v0, :cond_c
@@ -243,7 +243,7 @@
 
     move-result-object v1
 
-    .line 2556263
+    .line 2556284
     iget-object v0, p0, Lcom/facebookpay/msc/notifications/viewmodel/NotificationsViewModel;->A03:Ljava/lang/String;
 
     if-nez v0, :cond_d
@@ -252,11 +252,11 @@
 
     goto :goto_0
 
-    .line 2556264
+    .line 2556285
     :cond_d
     invoke-static {v0, v14, v1}, LX/IzM;->A1Q(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/AbstractMap;)V
 
-    .line 2556265
+    .line 2556286
     iget-object v0, p0, Lcom/facebookpay/msc/notifications/viewmodel/NotificationsViewModel;->A00:LX/3BP;
 
     if-eqz v0, :cond_e
@@ -267,16 +267,16 @@
 
     if-eqz v0, :cond_e
 
-    .line 2556266
+    .line 2556287
     invoke-static {v0, v1}, LX/IzK;->A1L(Ljava/lang/Object;Ljava/util/AbstractMap;)V
 
-    .line 2556267
+    .line 2556288
     :cond_e
     if-eqz v13, :cond_f
 
     const-string v0, "notification_identifier"
 
-    .line 2556268
+    .line 2556289
     invoke-virtual {v1, v0, v13}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_f
@@ -284,7 +284,7 @@
 
     const-string v0, "notification_source"
 
-    .line 2556269
+    .line 2556290
     invoke-virtual {v1, v0, v12}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_10
@@ -292,7 +292,7 @@
 
     const-string v0, "cta_text"
 
-    .line 2556270
+    .line 2556291
     invoke-virtual {v1, v0, v11}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_11
@@ -300,7 +300,7 @@
 
     const-string v0, "cta_uri"
 
-    .line 2556271
+    .line 2556292
     invoke-virtual {v1, v0, v10}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_12
@@ -308,7 +308,7 @@
 
     const-string v0, "holds_list"
 
-    .line 2556272
+    .line 2556293
     invoke-virtual {v1, v0, v9}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_13
@@ -316,7 +316,7 @@
 
     const-string v0, "notification_id_list"
 
-    .line 2556273
+    .line 2556294
     invoke-virtual {v1, v0, v8}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_14
@@ -324,7 +324,7 @@
 
     const-string v0, "error_message"
 
-    .line 2556274
+    .line 2556295
     invoke-virtual {v1, v0, v7}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_15
@@ -332,7 +332,7 @@
 
     const-string v0, "error_stacktrace"
 
-    .line 2556275
+    .line 2556296
     invoke-virtual {v1, v0, v6}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_16
@@ -340,7 +340,7 @@
 
     const-string v0, "exception_class"
 
-    .line 2556276
+    .line 2556297
     invoke-virtual {v1, v0, v5}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_17
@@ -348,7 +348,7 @@
 
     const-string v0, "endpoint"
 
-    .line 2556277
+    .line 2556298
     invoke-virtual {v1, v0, v4}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_18
@@ -356,16 +356,16 @@
 
     const-string v0, "cta_title"
 
-    .line 2556278
+    .line 2556299
     invoke-virtual {v1, v0, v3}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2556279
+    .line 2556300
     :cond_19
     move-object/from16 v0, p1
 
     invoke-interface {v2, v0, v1}, LX/1Sq;->BcN(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 2556280
+    .line 2556301
     return-void
 .end method
 

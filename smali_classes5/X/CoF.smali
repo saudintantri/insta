@@ -387,7 +387,7 @@
     .locals 1
 
     .line 0
-    invoke-static {p1}, LX/Chj;->A0L(Lcom/instagram/model/hashtag/Hashtag;)Lcom/instagram/model/hashtag/Hashtag;
+    invoke-static {p1}, LX/Chj;->A0K(Lcom/instagram/model/hashtag/Hashtag;)Lcom/instagram/model/hashtag/Hashtag;
 
     .line 1
     .line 2
@@ -403,7 +403,7 @@
     .locals 1
 
     .line 0
-    invoke-static {p1}, LX/Chj;->A0K(Lcom/instagram/model/hashtag/Hashtag;)Lcom/instagram/model/hashtag/Hashtag;
+    invoke-static {p1}, LX/Chj;->A0J(Lcom/instagram/model/hashtag/Hashtag;)Lcom/instagram/model/hashtag/Hashtag;
 
     .line 1
     .line 2

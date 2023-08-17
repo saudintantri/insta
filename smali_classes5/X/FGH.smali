@@ -74,7 +74,7 @@
 
     .line 3
     .line 4
-    invoke-static {v0, v1}, LX/Chi;->A0W(Ljava/lang/Object;Ljava/util/Map;)LX/3t2;
+    invoke-static {v0, v1}, LX/Chi;->A0X(Ljava/lang/Object;Ljava/util/Map;)LX/3t2;
 
     .line 5
     .line 6
@@ -101,7 +101,7 @@
     .locals 3
 
     .line 0
-    invoke-static {}, LX/Chf;->A0c()LX/3t2;
+    invoke-static {}, LX/Chf;->A0e()LX/3t2;
 
     .line 1
     .line 2

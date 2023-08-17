@@ -202,7 +202,7 @@
     move-result-object v0
 
     .line 34
-    invoke-static {v0}, LX/Chj;->A1C(Landroid/graphics/RectF;)[Ljava/lang/Float;
+    invoke-static {v0}, LX/Chj;->A1D(Landroid/graphics/RectF;)[Ljava/lang/Float;
 
     .line 35
     .line 36
@@ -226,7 +226,7 @@
 
     .line 45
     .line 46
-    invoke-static {p1, v2, v0}, LX/Chi;->A12(Landroidx/fragment/app/Fragment;LX/Ecb;Lcom/instagram/service/session/UserSession;)V
+    invoke-static {p1, v2, v0}, LX/Chi;->A14(Landroidx/fragment/app/Fragment;LX/Ecb;Lcom/instagram/service/session/UserSession;)V
 
     .line 47
     .line 48
@@ -397,7 +397,7 @@
 
     .line 32
     .line 33
-    invoke-static {p1, v1, v0}, LX/Chi;->A12(Landroidx/fragment/app/Fragment;LX/Ecb;Lcom/instagram/service/session/UserSession;)V
+    invoke-static {p1, v1, v0}, LX/Chi;->A14(Landroidx/fragment/app/Fragment;LX/Ecb;Lcom/instagram/service/session/UserSession;)V
 
     .line 34
     .line 35

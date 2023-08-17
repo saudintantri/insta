@@ -160,7 +160,7 @@
 .method public constructor <init>(FFFII)V
     .locals 7
 
-    .line 539313123
+    .line 539313144
     move-object v1, p0
 
     move v5, p3
@@ -176,7 +176,7 @@
     :pswitch_0
     const/4 v2, 0x0
 
-    .line 539313124
+    .line 539313145
     const/4 v6, 0x4
 
     move v3, v2
@@ -185,14 +185,14 @@
 
     move v5, v2
 
-    .line 539313125
+    .line 539313146
     :goto_0
     invoke-direct/range {v1 .. v6}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S0000004_I1;-><init>(FFFFI)V
 
-    .line 539313126
+    .line 539313147
     return-void
 
-    .line 539313127
+    .line 539313148
     :pswitch_1
     const/4 v4, 0x0
 
@@ -216,13 +216,13 @@
 
     const/4 v5, 0x0
 
-    .line 539313128
+    .line 539313149
     :cond_2
     const/4 v6, 0x0
 
     goto :goto_0
 
-    .line 539313129
+    .line 539313150
     :pswitch_2
     const/4 v4, 0x0
 
@@ -253,7 +253,7 @@
 
     const/4 v5, 0x0
 
-    .line 539313130
+    .line 539313151
     :cond_6
     const/4 v6, 0x2
 

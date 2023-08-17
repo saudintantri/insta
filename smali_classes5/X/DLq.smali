@@ -1008,7 +1008,7 @@
     .line 197
     .line 198
     .line 199
-    invoke-static {v4, v7}, LX/Chg;->A1S(LX/19z;Ljava/lang/String;)V
+    invoke-static {v4, v7}, LX/Chg;->A1R(LX/19z;Ljava/lang/String;)V
 
     .line 200
     .line 201
@@ -2323,7 +2323,7 @@
 
     .line 296
     .line 297
-    invoke-static {v2, v12, v0}, LX/Che;->A0G(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
+    invoke-static {v2, v12, v0}, LX/Che;->A0H(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
 
     .line 298
     .line 299
@@ -2468,7 +2468,7 @@
 
     .line 367
     .line 368
-    invoke-static {v0}, LX/Chi;->A0K(Ljava/lang/Object;)Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0200000_I1;
+    invoke-static {v0}, LX/Chi;->A0L(Ljava/lang/Object;)Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0200000_I1;
 
     .line 369
     .line 370

@@ -1901,7 +1901,7 @@
 
     .line 851
     .line 852
-    invoke-static {v0}, LX/Chf;->A0k(Lcom/instagram/common/typedurl/ImageUrl;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chf;->A0m(Lcom/instagram/common/typedurl/ImageUrl;)Ljava/lang/String;
 
     .line 853
     .line 854

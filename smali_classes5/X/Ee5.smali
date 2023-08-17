@@ -780,7 +780,7 @@
 
     .line 55
     .line 56
-    invoke-static {v0}, LX/Chf;->A0p(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chg;->A0s(Ljava/lang/String;)Ljava/lang/String;
 
     .line 57
     .line 58
@@ -788,7 +788,7 @@
     move-result-object v2
 
     .line 60
-    invoke-static {p1}, LX/Chf;->A0p(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, LX/Chg;->A0s(Ljava/lang/String;)Ljava/lang/String;
 
     .line 61
     .line 62

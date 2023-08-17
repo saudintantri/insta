@@ -1060,7 +1060,7 @@
     move-result-object v0
 
     .line 203
-    invoke-static {v0}, LX/Chf;->A0J(LX/6cT;)Landroid/os/Bundle;
+    invoke-static {v0}, LX/Chf;->A0K(LX/6cT;)Landroid/os/Bundle;
 
     .line 204
     .line 205
@@ -3296,7 +3296,7 @@
     move-result-object v5
 
     .line 510
-    invoke-static {v5}, LX/Chf;->A0M(Landroid/view/View;)Landroid/view/ViewGroup$MarginLayoutParams;
+    invoke-static {v5}, LX/Chf;->A0N(Landroid/view/View;)Landroid/view/ViewGroup$MarginLayoutParams;
 
     .line 511
     .line 512
@@ -4266,7 +4266,7 @@
     move-result v2
 
     .line 1009
-    invoke-static {v6, v10, v2}, LX/Chi;->A0y(Landroid/view/View;LX/0SF;I)V
+    invoke-static {v6, v10, v2}, LX/Chi;->A10(Landroid/view/View;LX/0SF;I)V
 
     .line 1010
     .line 1011

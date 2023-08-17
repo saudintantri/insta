@@ -1365,7 +1365,7 @@
     move-result-object v0
 
     .line 275
-    invoke-static {v0, v4, v15, v1}, LX/Chj;->A0A(Landroid/util/JsonWriter;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/util/JsonWriter;
+    invoke-static {v0, v4, v15, v1}, LX/Chj;->A09(Landroid/util/JsonWriter;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/util/JsonWriter;
 
     .line 276
     .line 277
@@ -1377,7 +1377,7 @@
 
     .line 280
     .line 281
-    invoke-static {v4, v1, v10}, LX/Chj;->A09(Landroid/content/Context;Landroid/util/JsonWriter;Ljava/lang/String;)Landroid/util/JsonWriter;
+    invoke-static {v4, v1, v10}, LX/Chj;->A08(Landroid/content/Context;Landroid/util/JsonWriter;Ljava/lang/String;)Landroid/util/JsonWriter;
 
     .line 282
     .line 283
@@ -1385,7 +1385,7 @@
     move-result-object v0
 
     .line 285
-    invoke-static {v0, v5}, LX/Chj;->A0B(Landroid/util/JsonWriter;Z)Landroid/util/JsonWriter;
+    invoke-static {v0, v5}, LX/Chj;->A0A(Landroid/util/JsonWriter;Z)Landroid/util/JsonWriter;
 
     .line 286
     .line 287
@@ -4187,7 +4187,7 @@
 
     .line 848
     .line 849
-    invoke-static {v15, v2, v4, v1}, LX/Chj;->A0A(Landroid/util/JsonWriter;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/util/JsonWriter;
+    invoke-static {v15, v2, v4, v1}, LX/Chj;->A09(Landroid/util/JsonWriter;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/util/JsonWriter;
 
     .line 850
     .line 851
@@ -4199,7 +4199,7 @@
 
     .line 854
     .line 855
-    invoke-static {v9, v2, v1}, LX/Chj;->A09(Landroid/content/Context;Landroid/util/JsonWriter;Ljava/lang/String;)Landroid/util/JsonWriter;
+    invoke-static {v9, v2, v1}, LX/Chj;->A08(Landroid/content/Context;Landroid/util/JsonWriter;Ljava/lang/String;)Landroid/util/JsonWriter;
 
     .line 856
     .line 857
@@ -4207,7 +4207,7 @@
     move-result-object v1
 
     .line 859
-    invoke-static {v1, v13}, LX/Chj;->A0B(Landroid/util/JsonWriter;Z)Landroid/util/JsonWriter;
+    invoke-static {v1, v13}, LX/Chj;->A0A(Landroid/util/JsonWriter;Z)Landroid/util/JsonWriter;
 
     .line 860
     .line 861

@@ -66,7 +66,7 @@
     .locals 1
 
     .line 0
-    invoke-static {p1}, LX/Chg;->A05(Landroid/content/Context;)I
+    invoke-static {p1}, LX/Chg;->A04(Landroid/content/Context;)I
 
     .line 1
     .line 2
@@ -472,7 +472,7 @@
     .line 103
     .line 104
     .line 105
-    invoke-static {v4}, LX/Chg;->A09(LX/01o;)Landroid/view/ViewGroup;
+    invoke-static {v4}, LX/Chg;->A08(LX/01o;)Landroid/view/ViewGroup;
 
     .line 106
     .line 107
@@ -531,7 +531,7 @@
     .line 134
     .line 135
     .line 136
-    invoke-static {v9}, LX/Chg;->A09(LX/01o;)Landroid/view/ViewGroup;
+    invoke-static {v9}, LX/Chg;->A08(LX/01o;)Landroid/view/ViewGroup;
 
     .line 137
     .line 138
@@ -617,7 +617,7 @@
 
     .line 178
     .line 179
-    invoke-static {v9}, LX/Chg;->A09(LX/01o;)Landroid/view/ViewGroup;
+    invoke-static {v9}, LX/Chg;->A08(LX/01o;)Landroid/view/ViewGroup;
 
     .line 180
     .line 181
@@ -634,7 +634,7 @@
     .line 186
     .line 187
     .line 188
-    invoke-static {v9}, LX/Chg;->A09(LX/01o;)Landroid/view/ViewGroup;
+    invoke-static {v9}, LX/Chg;->A08(LX/01o;)Landroid/view/ViewGroup;
 
     .line 189
     .line 190
@@ -807,7 +807,7 @@
     .line 276
     .line 277
     .line 278
-    invoke-static {v4}, LX/Chg;->A09(LX/01o;)Landroid/view/ViewGroup;
+    invoke-static {v4}, LX/Chg;->A08(LX/01o;)Landroid/view/ViewGroup;
 
     .line 279
     .line 280
@@ -828,7 +828,7 @@
     .line 287
     .line 288
     .line 289
-    invoke-static {v8}, LX/Chg;->A09(LX/01o;)Landroid/view/ViewGroup;
+    invoke-static {v8}, LX/Chg;->A08(LX/01o;)Landroid/view/ViewGroup;
 
     .line 290
     .line 291
@@ -903,7 +903,7 @@
 
     .line 326
     .line 327
-    invoke-static {v8}, LX/Chg;->A09(LX/01o;)Landroid/view/ViewGroup;
+    invoke-static {v8}, LX/Chg;->A08(LX/01o;)Landroid/view/ViewGroup;
 
     .line 328
     .line 329
@@ -920,7 +920,7 @@
     .line 334
     .line 335
     .line 336
-    invoke-static {v8}, LX/Chg;->A09(LX/01o;)Landroid/view/ViewGroup;
+    invoke-static {v8}, LX/Chg;->A08(LX/01o;)Landroid/view/ViewGroup;
 
     .line 337
     .line 338

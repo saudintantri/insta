@@ -1605,7 +1605,6 @@
     invoke-virtual {p1, v1, v2}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_2
 
     .line 88
     .line 89
@@ -1632,7 +1631,6 @@
     :try_end_2
     .catch Ljava/lang/RuntimeException; {:try_start_2 .. :try_end_2} :catch_0
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
 
     .line 100
     :cond_2
@@ -1644,7 +1642,6 @@
     invoke-direct {v2, v3, v1}, LX/HM7;-><init>(Landroid/media/MediaCodec;Z)V
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_2
 
     .line 103
     .line 104
@@ -1714,7 +1711,6 @@
     throw v1
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_2
 
     .line 135
     :catch_1

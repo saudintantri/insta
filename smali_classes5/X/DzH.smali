@@ -12,7 +12,7 @@
 
     .line 1
     .line 2
-    invoke-static {v0, p1}, LX/Chh;->A0O(LX/1M5;Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
+    invoke-static {v0, p1}, LX/Chh;->A0P(LX/1M5;Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
 
     .line 3
     .line 4

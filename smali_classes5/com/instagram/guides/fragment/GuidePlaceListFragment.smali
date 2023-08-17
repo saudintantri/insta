@@ -411,7 +411,7 @@
 
     .line 35
     .line 36
-    invoke-static {v1, p0, v0}, LX/Che;->A0G(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
+    invoke-static {v1, p0, v0}, LX/Che;->A0H(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
 
     .line 37
     .line 38

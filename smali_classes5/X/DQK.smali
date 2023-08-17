@@ -2125,7 +2125,7 @@
 
     const/4 v1, 0x2
 
-    .line 1739891
+    .line 1739889
     move-object/from16 v17, p4
 
     move-object/from16 v0, v17
@@ -2134,43 +2134,43 @@
 
     move-result v23
 
-    .line 1739892
+    .line 1739890
     check-cast v2, LX/1M6;
 
-    .line 1739893
+    .line 1739891
     invoke-interface {v2}, LX/1M6;->AvY()LX/1M5;
 
     move-result-object v0
 
-    .line 1739894
+    .line 1739892
     const/16 v2, 0x2b
 
     move/from16 v7, p1
 
     if-eq v7, v2, :cond_0
 
-    .line 1739895
+    .line 1739893
     const/16 v2, 0x2c
 
     if-eq v7, v2, :cond_0
 
-    .line 1739896
+    .line 1739894
     const/16 v2, 0x2e
 
     if-eq v7, v2, :cond_0
 
-    .line 1739897
+    .line 1739895
     const/16 v2, 0x2d
 
     const/4 v3, 0x0
 
     if-ne v7, v2, :cond_1
 
-    .line 1739898
+    .line 1739896
     :cond_0
     const/4 v3, 0x1
 
-    .line 1739899
+    .line 1739897
     :cond_1
     const-string v16, "delegate"
 
@@ -2180,36 +2180,36 @@
 
     if-eqz v3, :cond_48
 
-    .line 1739900
+    .line 1739898
     iget-object v3, v2, LX/DQK;->A01:LX/21V;
 
     if-eqz v3, :cond_47
 
-    .line 1739901
+    .line 1739899
     iget-object v3, v3, LX/21V;->A0M:LX/21a;
 
-    .line 1739902
+    .line 1739900
     invoke-virtual {v3}, LX/21a;->A0P()LX/1M5;
 
     move-result-object v3
 
-    .line 1739903
+    .line 1739901
     invoke-static {v3}, LX/Che;->A0K(LX/1M5;)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 1739904
+    .line 1739902
     iget-object v9, v0, LX/1M5;->A0d:LX/1MC;
 
-    .line 1739905
+    .line 1739903
     iget-object v3, v9, LX/1MC;->A3s:Ljava/lang/String;
 
-    .line 1739906
+    .line 1739904
     invoke-static {v5, v3}, LX/02K;->A0H(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v27
 
-    .line 1739907
+    .line 1739905
     invoke-virtual/range {v45 .. v45}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v19
@@ -2224,10 +2224,10 @@
 
     move-object/from16 v19, v3
 
-    .line 1739908
+    .line 1739906
     invoke-static {v3, v5}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1739909
+    .line 1739907
     iget-object v14, v2, LX/DQK;->A04:LX/EM7;
 
     if-nez v14, :cond_2
@@ -2237,14 +2237,26 @@
     :goto_0
     invoke-static {v0}, LX/02K;->A0D(Ljava/lang/String;)V
 
-    .line 1739910
+    .line 1739908
     throw v18
 
-    .line 1739911
+    .line 1739909
     :cond_2
     move-object/from16 v3, v17
 
     check-cast v3, LX/2KZ;
+
+    .line 1739910
+    iget-object v5, v2, LX/DQK;->A01:LX/21V;
+
+    if-eqz v5, :cond_69
+
+    .line 1739911
+    invoke-virtual {v5, v0}, LX/21V;->A01(LX/1M5;)LX/2Og;
+
+    move-result-object v36
+
+    invoke-static/range {v36 .. v36}, LX/02K;->A05(Ljava/lang/Object;)V
 
     .line 1739912
     iget-object v5, v2, LX/DQK;->A01:LX/21V;
@@ -2252,65 +2264,53 @@
     if-eqz v5, :cond_69
 
     .line 1739913
-    invoke-virtual {v5, v0}, LX/21V;->A01(LX/1M5;)LX/2Og;
-
-    move-result-object v36
-
-    invoke-static/range {v36 .. v36}, LX/02K;->A05(Ljava/lang/Object;)V
-
-    .line 1739914
-    iget-object v5, v2, LX/DQK;->A01:LX/21V;
-
-    if-eqz v5, :cond_69
-
-    .line 1739915
     invoke-virtual {v5, v0}, LX/21V;->A02(LX/1M5;)Ljava/lang/Integer;
 
     move-result-object v37
 
     invoke-static/range {v37 .. v37}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1739916
+    .line 1739914
     iget-object v5, v2, LX/DQK;->A0I:LX/1yC;
 
     move-object/from16 v35, v5
 
-    .line 1739917
+    .line 1739915
     iget-object v5, v2, LX/DQK;->A0F:LX/14O;
 
     move-object/from16 v34, v5
 
-    .line 1739918
+    .line 1739916
     const v5, -0x1772a869
 
     invoke-static {v5}, LX/0rF;->A03(I)I
 
     move-result v20
 
-    .line 1739919
+    .line 1739917
     move-object/from16 v5, v19
 
     invoke-static {v1, v5, v3}, LX/Che;->A1X(ILjava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
-    .line 1739920
+    .line 1739918
     invoke-virtual {v3}, LX/2KZ;->BaE()Z
 
     move-result v22
 
     if-eqz v22, :cond_44
 
-    .line 1739921
+    .line 1739919
     iget-object v8, v5, LX/2Pd;->A06:LX/F8I;
 
-    .line 1739922
+    .line 1739920
     const-wide/16 v5, 0x0
 
-    .line 1739923
+    .line 1739921
     invoke-static {v8, v5, v6, v1, v4}, LX/F8I;->A02(LX/F8I;DZZ)V
 
-    .line 1739924
+    .line 1739922
     iget-object v6, v8, LX/F8I;->A0D:LX/0VH;
 
     iget-object v5, v8, LX/F8I;->A00:LX/1M5;
@@ -2319,21 +2319,21 @@
 
     invoke-interface {v6, v5, v8}, LX/0VH;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1739925
+    .line 1739923
     move-object/from16 v5, v19
 
     iget-object v5, v5, LX/2Pd;->A09:LX/D7t;
 
-    .line 1739926
+    .line 1739924
     if-eqz v5, :cond_3
 
-    .line 1739927
+    .line 1739925
     iget-object v6, v14, LX/EM7;->A03:LX/EMF;
 
-    .line 1739928
+    .line 1739926
     iget-object v11, v6, LX/EMF;->A0B:LX/3DC;
 
-    .line 1739929
+    .line 1739927
     iget-object v10, v14, LX/EM7;->A07:Lcom/instagram/service/session/UserSession;
 
     const v6, 0x3cbefd40
@@ -2342,80 +2342,80 @@
 
     move-result v6
 
-    .line 1739930
+    .line 1739928
     iget-object v5, v5, LX/3E3;->itemView:Landroid/view/View;
 
     invoke-virtual {v11, v5, v0, v10, v3}, LX/3DC;->A0F(Landroid/view/View;LX/1M7;Lcom/instagram/service/session/UserSession;Ljava/lang/Object;)V
 
     const v5, 0x19e7910e
 
-    .line 1739931
+    .line 1739929
     invoke-static {v5, v6}, LX/0rF;->A0A(II)V
 
-    .line 1739932
+    .line 1739930
     :cond_3
     move-object/from16 v5, v19
 
     iget-object v11, v5, LX/2Pd;->A0A:LX/2wK;
 
-    .line 1739933
+    .line 1739931
     iget v5, v3, LX/2KZ;->A05:I
 
-    .line 1739934
+    .line 1739932
     invoke-virtual {v0, v5}, LX/1M5;->A0o(I)LX/1M5;
 
     move-result-object v5
 
     if-eqz v5, :cond_4
 
-    .line 1739935
+    .line 1739933
     iget-object v5, v5, LX/1M5;->A0d:LX/1MC;
 
-    .line 1739936
+    .line 1739934
     iget-object v5, v5, LX/1MC;->A3s:Ljava/lang/String;
 
-    .line 1739937
+    .line 1739935
     if-nez v5, :cond_5
 
-    .line 1739938
+    .line 1739936
     :cond_4
     iget-object v5, v9, LX/1MC;->A3s:Ljava/lang/String;
 
-    .line 1739939
+    .line 1739937
     :cond_5
     invoke-static {v5}, LX/02K;->A08(Ljava/lang/Object;)V
 
-    .line 1739940
+    .line 1739938
     invoke-virtual {v11}, LX/2wK;->A00()V
 
-    .line 1739941
+    .line 1739939
     iget-object v6, v11, LX/2wK;->A01:Landroid/widget/FrameLayout;
 
-    .line 1739942
+    .line 1739940
     if-eqz v6, :cond_6
 
-    .line 1739943
+    .line 1739941
     invoke-virtual {v6, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 1739944
+    .line 1739942
     :cond_6
     iget-object v6, v11, LX/2wK;->A08:Lcom/instagram/igds/components/mediabutton/IgdsMediaButton;
 
-    .line 1739945
+    .line 1739943
     invoke-static {v6}, LX/92o;->A12(Landroid/view/View;)V
 
-    .line 1739946
+    .line 1739944
     iget-object v10, v11, LX/2wK;->A07:Lcom/instagram/feed/widget/IgProgressImageView;
 
-    .line 1739947
+    .line 1739945
     if-eqz v10, :cond_7
 
-    .line 1739948
+    .line 1739946
     move-object/from16 v6, v19
 
     iget-object v6, v6, LX/2Pd;->A02:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    .line 1739949
+    .line 1739947
     sget-object v15, LX/His;->A03:LX/1BX;
 
     const/16 v33, 0x17
@@ -2424,47 +2424,47 @@
 
     move-object/from16 v28, v13
 
-    .line 1739950
+    .line 1739948
     move-object/from16 v29, v10
 
-    .line 1739951
+    .line 1739949
     move-object/from16 v30, v6
 
-    .line 1739952
+    .line 1739950
     move-object/from16 v31, v5
 
     move-object/from16 v32, v18
 
-    .line 1739953
+    .line 1739951
     invoke-direct/range {v28 .. v33}, Lkotlin/coroutines/jvm/internal/KtSLambdaShape1S1201000_I1;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;LX/1Br;I)V
 
     move-object/from16 v12, v18
 
     move/from16 v5, v23
 
-    .line 1739954
+    .line 1739952
     invoke-static {v12, v12, v13, v15, v5}, LX/2ZG;->A02(Ljava/lang/Integer;LX/1B4;LX/0VH;LX/1BX;I)LX/1BJ;
 
-    .line 1739955
+    .line 1739953
     invoke-virtual {v10, v1}, Lcom/instagram/feed/widget/IgProgressImageView;->setEnableProgressBar(Z)V
 
-    .line 1739956
+    .line 1739954
     :cond_7
     iget-object v5, v11, LX/2wK;->A02:Landroid/widget/ImageView;
 
-    .line 1739957
+    .line 1739955
     invoke-static {v5}, LX/92o;->A12(Landroid/view/View;)V
 
-    .line 1739958
-    .line 1739959
+    .line 1739956
+    .line 1739957
     iget-object v6, v14, LX/EM7;->A02:LX/242;
 
-    .line 1739960
+    .line 1739958
     const/16 v5, 0xf
 
     invoke-interface {v6, v5}, LX/245;->A8T(I)V
 
-    .line 1739961
+    .line 1739959
     :cond_8
     :goto_1
     move-object/from16 v5, v19
@@ -2473,17 +2473,17 @@
 
     if-eqz v5, :cond_9
 
-    .line 1739962
+    .line 1739960
     iget-object v6, v5, LX/2PX;->A0B:Lcom/instagram/common/ui/widget/reboundviewpager/ReboundViewPager;
 
     if-eqz v6, :cond_9
 
-    .line 1739963
+    .line 1739961
     xor-int/lit8 v5, v22, 0x1
 
     iput-boolean v5, v6, Lcom/instagram/common/ui/widget/reboundviewpager/ReboundViewPager;->A0Q:Z
 
-    .line 1739964
+    .line 1739962
     :cond_9
     if-eqz v22, :cond_c
 
@@ -2494,37 +2494,37 @@
 
     invoke-static {v4, v1}, LX/0rF;->A0A(II)V
 
-    .line 1739965
+    .line 1739963
     move-object/from16 v1, v19
 
-    .line 1739966
+    .line 1739964
     iget-object v4, v1, LX/2Pd;->A05:LX/F8H;
 
-    .line 1739967
+    .line 1739965
     iget-boolean v1, v4, LX/F8H;->A05:Z
 
-    .line 1739968
+    .line 1739966
     if-eqz v1, :cond_b
 
     iget-object v1, v4, LX/F8H;->A01:LX/2PX;
 
-    .line 1739969
+    .line 1739967
     const/4 v4, 0x0
 
     if-eqz v1, :cond_a
 
     invoke-virtual {v1}, LX/2PX;->A01()Ljava/lang/Object;
 
-    .line 1739970
+    .line 1739968
     move-result-object v4
 
     :cond_a
     instance-of v1, v4, LX/4Fv;
 
-    .line 1739971
+    .line 1739969
     if-eqz v1, :cond_49
 
-    .line 1739972
+    .line 1739970
     check-cast v4, LX/2Oz;
 
     :goto_3
@@ -2532,35 +2532,35 @@
 
     iget-object v1, v2, LX/DQK;->A01:LX/21V;
 
-    .line 1739973
+    .line 1739971
     if-eqz v1, :cond_69
 
-    .line 1739974
+    .line 1739972
     invoke-virtual {v1, v0, v4, v3}, LX/21V;->A08(LX/1M5;LX/2Oz;LX/2KZ;)V
 
-    .line 1739975
+    .line 1739973
     goto/16 :goto_1a
 
     :cond_b
     iget-object v4, v4, LX/F8H;->A03:LX/2Oy;
 
-    .line 1739976
+    .line 1739974
     goto :goto_3
 
     :cond_c
     iget-object v10, v14, LX/EM7;->A00:Landroid/content/Context;
 
-    .line 1739977
+    .line 1739975
     iget-object v5, v14, LX/EM7;->A04:LX/EOx;
 
     invoke-virtual {v5, v0}, LX/EOx;->A00(LX/1M5;)Z
 
     move-result v6
 
-    .line 1739978
+    .line 1739976
     iget-object v5, v14, LX/EM7;->A06:LX/EJh;
 
-    .line 1739979
+    .line 1739977
     invoke-static {v10, v5, v0, v3, v6}, LX/2zN;->A01(Landroid/content/Context;LX/EJh;LX/1M5;LX/2KZ;Z)LX/EKH;
 
     move-result-object v26
@@ -2569,23 +2569,23 @@
 
     move-object/from16 v30, v5
 
-    .line 1739980
+    .line 1739978
     iget-object v12, v5, LX/EMF;->A03:LX/EZE;
 
-    .line 1739981
+    .line 1739979
     const v5, -0x44bd07a5
 
-    .line 1739982
+    .line 1739980
     invoke-static {v5}, LX/0rF;->A03(I)I
 
-    .line 1739983
+    .line 1739981
     move-result v25
 
     iput-object v0, v8, LX/F8I;->A00:LX/1M5;
 
     iget-object v5, v8, LX/F8I;->A01:LX/2KZ;
 
-    .line 1739984
+    .line 1739982
     if-eqz v5, :cond_d
 
     invoke-virtual {v5, v8, v4}, LX/2KZ;->A0J(LX/21Y;Z)V
@@ -2593,65 +2593,65 @@
     :cond_d
     iput-object v3, v8, LX/F8I;->A01:LX/2KZ;
 
-    .line 1739985
+    .line 1739983
     invoke-virtual {v3, v8, v4}, LX/2KZ;->A0I(LX/21Y;Z)V
 
-    .line 1739986
+    .line 1739984
     iget-object v5, v8, LX/F8I;->A09:LX/Ef6;
 
-    .line 1739987
+    .line 1739985
     iget-object v5, v5, LX/Ef6;->A0R:Ljava/util/ArrayList;
 
-    .line 1739988
+    .line 1739986
     move-object/from16 v29, v5
 
     invoke-virtual/range {v29 .. v29}, Ljava/util/AbstractCollection;->clear()V
 
     iget-object v5, v12, LX/EZE;->A01:Landroid/content/Context;
 
-    .line 1739989
+    .line 1739987
     invoke-static {v5, v12, v0}, LX/EZE;->A00(Landroid/content/Context;LX/EZE;LX/1M5;)LX/2mv;
 
-    .line 1739990
+    .line 1739988
     move-result-object v22
 
-    .line 1739991
+    .line 1739989
     invoke-virtual {v0}, LX/1M5;->Ban()Z
 
-    .line 1739992
+    .line 1739990
     move-result v5
 
     if-nez v5, :cond_3e
 
-    .line 1739993
+    .line 1739991
     iget-object v5, v8, LX/F8I;->A07:LX/3E3;
 
-    .line 1739994
+    .line 1739992
     iget-object v6, v5, LX/3E3;->itemView:Landroid/view/View;
 
     const/16 v5, 0x8
 
-    .line 1739995
+    .line 1739993
     invoke-virtual {v6, v5}, Landroid/view/View;->setVisibility(I)V
 
-    .line 1739996
-    .line 1739997
+    .line 1739994
+    .line 1739995
     :cond_e
     :goto_4
     iget-object v9, v8, LX/F8I;->A0A:LX/2Oy;
 
-    .line 1739998
+    .line 1739996
     if-eqz v9, :cond_f
 
-    .line 1739999
+    .line 1739997
     iget-object v6, v8, LX/F8I;->A08:LX/2On;
 
     move-object/from16 v5, v18
 
-    .line 1740000
+    .line 1739998
     iput-object v5, v6, LX/2On;->A01:LX/24P;
 
-    .line 1740001
+    .line 1739999
     iput-boolean v1, v6, LX/2On;->A02:Z
 
     invoke-static {v6}, LX/2xK;->A00(LX/2On;)V
@@ -2664,13 +2664,13 @@
 
     iput-boolean v4, v6, LX/2On;->A02:Z
 
-    .line 1740002
+    .line 1740000
     :cond_f
     iget-object v5, v12, LX/EZE;->A00:LX/EMF;
 
     if-eqz v5, :cond_63
 
-    .line 1740003
+    .line 1740001
     iget-object v5, v8, LX/F8I;->A06:LX/3E3;
 
     iget-object v9, v5, LX/3E3;->itemView:Landroid/view/View;
@@ -2683,21 +2683,21 @@
 
     invoke-static {v9, v5}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1740004
+    .line 1740002
     check-cast v9, Lcom/facebook/litho/LithoView;
 
     invoke-static {v9, v4}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1740005
+    .line 1740003
     iget-object v10, v3, LX/2KZ;->A26:Ljava/util/HashMap;
 
-    .line 1740006
+    .line 1740004
     const/16 v5, 0x38
 
-    .line 1740007
+    .line 1740005
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    .line 1740008
+    .line 1740006
     move-result-object v5
 
     invoke-virtual {v10, v5}, Ljava/util/AbstractMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -2716,30 +2716,30 @@
 
     invoke-virtual {v9, v5}, Lcom/facebook/litho/LithoView;->setComponentTree(Lcom/facebook/litho/ComponentTree;)V
 
-    .line 1740009
+    .line 1740007
     :cond_10
     const v5, 0x7fcca6
 
-    .line 1740010
+    .line 1740008
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    .line 1740011
+    .line 1740009
     move-result-object v9
 
     invoke-virtual {v10, v9}, Ljava/util/AbstractMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1740012
-    .line 1740013
+    .line 1740010
+    .line 1740011
     move-result-object v6
 
     instance-of v5, v6, LX/DDN;
 
-    .line 1740014
+    .line 1740012
     if-eqz v5, :cond_11
 
     check-cast v6, LX/DDN;
 
-    .line 1740015
+    .line 1740013
     if-eqz v6, :cond_11
 
     iget-object v5, v6, LX/DDN;->A0B:Ljava/lang/Integer;
@@ -2748,88 +2748,88 @@
 
     if-eqz v5, :cond_3d
 
-    .line 1740016
+    .line 1740014
     if-eqz v13, :cond_3d
 
     iget-object v11, v8, LX/F8I;->A05:Landroid/view/View;
 
     invoke-virtual {v11, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 1740017
-    invoke-static {v11}, LX/Chf;->A0O(Landroid/view/View;)LX/2gw;
+    .line 1740015
+    invoke-static {v11}, LX/Chf;->A0P(Landroid/view/View;)LX/2gw;
 
-    .line 1740018
+    .line 1740016
     move-result-object v6
 
     invoke-virtual {v5}, Ljava/lang/Number;->intValue()I
 
-    .line 1740019
-    .line 1740020
+    .line 1740017
+    .line 1740018
     move-result v5
 
     invoke-virtual {v6, v1, v1, v1, v5}, Landroid/view/ViewGroup$MarginLayoutParams;->setMargins(IIII)V
 
-    .line 1740021
+    .line 1740019
     invoke-virtual {v13}, Ljava/lang/Number;->intValue()I
 
-    .line 1740022
+    .line 1740020
     move-result v5
 
-    .line 1740023
+    .line 1740021
     iput v5, v6, LX/2gw;->height:I
 
     invoke-virtual {v11, v6}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 1740024
+    .line 1740022
     :cond_11
     :goto_5
     iget-boolean v5, v12, LX/EZE;->A09:Z
 
-    .line 1740025
+    .line 1740023
     if-eqz v5, :cond_12
 
     iget-object v6, v8, LX/F8I;->A04:Landroid/view/View;
 
-    .line 1740026
+    .line 1740024
     if-eqz v6, :cond_12
 
     iget-object v5, v12, LX/EZE;->A00:LX/EMF;
 
     if-eqz v5, :cond_63
 
-    .line 1740027
+    .line 1740025
     iget-object v5, v5, LX/EMF;->A01:LX/2iY;
 
-    .line 1740028
+    .line 1740026
     invoke-virtual {v5, v6, v0, v3}, LX/2iY;->A00(Landroid/view/View;LX/1M5;LX/2KZ;)V
 
-    .line 1740029
+    .line 1740027
     :cond_12
     iget-object v6, v12, LX/EZE;->A06:LX/38i;
 
     iget-object v5, v12, LX/EZE;->A05:LX/1qw;
 
-    .line 1740030
+    .line 1740028
     invoke-static {v5}, LX/5Wd;->A0n(LX/0YK;)Ljava/lang/String;
 
     move-result-object v5
 
     invoke-virtual {v6, v5}, LX/38i;->A0L(Ljava/lang/String;)Z
 
-    .line 1740031
+    .line 1740029
     move-result v5
 
     if-eqz v5, :cond_13
 
-    .line 1740032
+    .line 1740030
     iget-object v6, v3, LX/2KZ;->A0h:Ljava/lang/Integer;
 
-    .line 1740033
+    .line 1740031
     invoke-static {v6}, LX/02K;->A05(Ljava/lang/Object;)V
 
     sget-object v5, LX/001;->A01:Ljava/lang/Integer;
 
-    .line 1740034
+    .line 1740032
     if-eq v6, v5, :cond_13
 
     sget-object v5, LX/001;->A0C:Ljava/lang/Integer;
@@ -2841,20 +2841,20 @@
     :goto_6
     invoke-static {v8, v5, v6, v1, v1}, LX/F8I;->A02(LX/F8I;DZZ)V
 
-    .line 1740035
+    .line 1740033
     :cond_13
     const v6, -0x4fe5df2f
 
-    .line 1740036
+    .line 1740034
     move/from16 v5, v25
 
-    .line 1740037
+    .line 1740035
     invoke-static {v6, v5}, LX/0rF;->A0A(II)V
 
-    .line 1740038
+    .line 1740036
     invoke-virtual {v10, v9}, Ljava/util/AbstractMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1740039
+    .line 1740037
     move-result-object v10
 
     instance-of v5, v10, LX/DDN;
@@ -2866,10 +2866,10 @@
     :goto_7
     move-object/from16 v5, v19
 
-    .line 1740040
+    .line 1740038
     iget-object v6, v5, LX/2Pd;->A05:LX/F8H;
 
-    .line 1740041
+    .line 1740039
     if-eqz v10, :cond_3a
 
     iget-object v9, v10, LX/DDN;->A0A:Ljava/lang/Float;
@@ -2877,27 +2877,27 @@
     :goto_8
     move-object/from16 v5, v30
 
-    .line 1740042
+    .line 1740040
     iget-object v5, v5, LX/EMF;->A02:LX/EYy;
 
-    .line 1740043
+    .line 1740041
     const v8, -0x69a1a7e2
 
-    .line 1740044
+    .line 1740042
     invoke-static {v8}, LX/0rF;->A03(I)I
 
-    .line 1740045
+    .line 1740043
     move-result v15
 
     const/16 v25, 0x0
 
-    .line 1740046
+    .line 1740044
     iget-object v8, v5, LX/EYy;->A05:Lcom/instagram/service/session/UserSession;
 
-    .line 1740047
+    .line 1740045
     invoke-static {v0, v8}, LX/7tH;->A01(LX/1M5;Lcom/instagram/service/session/UserSession;)Z
 
-    .line 1740048
+    .line 1740046
     move-result v11
 
     if-eqz v11, :cond_32
@@ -2914,15 +2914,15 @@
 
     iget-object v9, v8, LX/EMF;->A08:LX/25x;
 
-    .line 1740049
+    .line 1740047
     iget v8, v3, LX/2KZ;->A04:I
 
     move-object/from16 v27, v9
 
-    .line 1740050
+    .line 1740048
     move-object/from16 v28, v34
 
-    .line 1740051
+    .line 1740049
     move-object/from16 v29, v12
 
     move-object/from16 v30, v11
@@ -2933,26 +2933,26 @@
 
     move/from16 v33, v8
 
-    .line 1740052
+    .line 1740050
     invoke-virtual/range {v27 .. v33}, LX/25x;->A00(LX/14O;LX/24h;LX/2nc;LX/1M5;LX/2KZ;I)V
 
     :cond_14
     :goto_9
     invoke-static {v6, v5, v0, v3}, LX/EYy;->A00(LX/F8H;LX/EYy;LX/1M5;LX/2KZ;)V
 
-    .line 1740053
+    .line 1740051
     :goto_a
     iget-object v11, v6, LX/F8H;->A00:Lcom/instagram/common/ui/widget/imageview/IgImageView;
 
     invoke-virtual {v11}, Landroid/view/View;->getContext()Landroid/content/Context;
 
-    .line 1740054
+    .line 1740052
     move-result-object v8
 
-    .line 1740055
+    .line 1740053
     invoke-static {v8}, LX/2t8;->A01(Landroid/content/Context;)Z
 
-    .line 1740056
+    .line 1740054
     move-result v8
 
     if-eqz v8, :cond_15
@@ -2961,16 +2961,16 @@
 
     const-wide v8, 0x410cae00001a3eL
 
-    .line 1740057
-    .line 1740058
+    .line 1740055
+    .line 1740056
     invoke-static {v12, v8, v9}, LX/92n;->A1X(LX/0Sq;J)Z
 
-    .line 1740059
+    .line 1740057
     move-result v8
 
     if-eqz v8, :cond_15
 
-    .line 1740060
+    .line 1740058
     invoke-static {v11, v0, v3}, LX/DvQ;->A00(Landroid/view/View;LX/1M5;LX/2KZ;)V
 
     invoke-virtual {v0}, LX/1M5;->Ban()Z
@@ -2989,23 +2989,23 @@
 
     const/16 v28, 0x13
 
-    .line 1740061
+    .line 1740059
     new-instance v8, Lcom/facebook/redex/AnonCListenerShape3S0400000_I1_2;
 
-    .line 1740062
+    .line 1740060
     move-object/from16 v27, v8
 
     move-object/from16 v29, v5
 
-    .line 1740063
+    .line 1740061
     move-object/from16 v30, v0
 
-    .line 1740064
+    .line 1740062
     move-object/from16 v31, v3
 
     move-object/from16 v32, v6
 
-    .line 1740065
+    .line 1740063
     invoke-direct/range {v27 .. v32}, Lcom/facebook/redex/AnonCListenerShape3S0400000_I1_2;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     :goto_b
@@ -3014,55 +3014,55 @@
     :cond_15
     const v5, 0x5a32f91e
 
-    .line 1740066
-    .line 1740067
+    .line 1740064
+    .line 1740065
     invoke-static {v5, v15}, LX/0rF;->A0A(II)V
 
-    .line 1740068
+    .line 1740066
     iget-object v9, v14, LX/EM7;->A07:Lcom/instagram/service/session/UserSession;
 
-    .line 1740069
+    .line 1740067
     move-object/from16 v5, v26
 
     iget v8, v5, LX/EKH;->A01:I
 
     invoke-static {v0, v9}, LX/7tH;->A01(LX/1M5;Lcom/instagram/service/session/UserSession;)Z
 
-    .line 1740070
-    .line 1740071
+    .line 1740068
+    .line 1740069
     move-result v5
 
     const-string v12, "Required value was null."
 
-    .line 1740072
+    .line 1740070
     if-eqz v5, :cond_2f
 
-    .line 1740073
+    .line 1740071
     iget-object v5, v6, LX/F8H;->A02:LX/2nc;
 
     if-eqz v5, :cond_62
 
-    .line 1740074
+    .line 1740072
     iget-object v11, v5, LX/2nc;->A01:Landroid/view/View;
 
-    .line 1740075
+    .line 1740073
     :goto_c
     invoke-static {v0, v9}, LX/7tH;->A01(LX/1M5;Lcom/instagram/service/session/UserSession;)Z
 
-    .line 1740076
-    .line 1740077
+    .line 1740074
+    .line 1740075
     move-result v5
 
     if-eqz v5, :cond_2d
 
     iget-object v5, v6, LX/F8H;->A02:LX/2nc;
 
-    .line 1740078
+    .line 1740076
     if-eqz v5, :cond_62
 
     iget-object v6, v5, LX/2nc;->A06:Lcom/instagram/ui/widget/framelayout/MediaFrameLayout;
 
-    .line 1740079
+    .line 1740077
     :goto_d
     move-object/from16 v5, v19
 
@@ -3072,7 +3072,7 @@
 
     iput-object v6, v5, LX/Ef6;->A05:Landroid/view/View;
 
-    .line 1740080
+    .line 1740078
     iput-object v3, v5, LX/Ef6;->A06:LX/2KZ;
 
     invoke-virtual {v3}, LX/2KZ;->getPosition()I
@@ -3099,12 +3099,12 @@
     :cond_17
     invoke-static {v13}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
-    .line 1740081
+    .line 1740079
     move-result-object v12
 
     invoke-static {v0, v9}, LX/3IT;->A03(LX/1M5;Lcom/instagram/service/session/UserSession;)Z
 
-    .line 1740082
+    .line 1740080
     move-result v11
 
     invoke-static {v11}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -3113,14 +3113,14 @@
 
     filled-new-array {v0, v12, v11}, [Ljava/lang/Object;
 
-    .line 1740083
-    .line 1740084
+    .line 1740081
+    .line 1740082
     move-result-object v11
 
     invoke-static {v11}, Ljava/util/Objects;->hash([Ljava/lang/Object;)I
 
-    .line 1740085
-    .line 1740086
+    .line 1740083
+    .line 1740084
     move-result v11
 
     invoke-static {v11}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -3133,7 +3133,7 @@
 
     move-result v11
 
-    .line 1740087
+    .line 1740085
     if-nez v11, :cond_1f
 
     iput-object v12, v5, LX/Ef6;->A07:Ljava/lang/String;
@@ -3142,14 +3142,14 @@
 
     iput-boolean v13, v5, LX/Ef6;->A08:Z
 
-    .line 1740088
+    .line 1740086
     if-eqz v13, :cond_18
 
     invoke-virtual {v0}, LX/1M5;->Ban()Z
 
     move-result v11
 
-    .line 1740089
+    .line 1740087
     if-nez v11, :cond_18
 
     const/4 v14, 0x1
@@ -3159,17 +3159,17 @@
 
     invoke-virtual {v0}, LX/1M5;->Ban()Z
 
-    .line 1740090
+    .line 1740088
     move-result v11
 
     const/high16 v12, -0x40800000    # -1.0f
 
-    .line 1740091
+    .line 1740089
     if-eqz v11, :cond_29
 
     invoke-virtual {v0}, LX/1M5;->A0e()LX/2LF;
 
-    .line 1740092
+    .line 1740090
     move-result-object v11
 
     :goto_e
@@ -3177,7 +3177,7 @@
 
     iget v12, v11, LX/2LF;->A01:I
 
-    .line 1740093
+    .line 1740091
     int-to-float v12, v12
 
     iget v11, v11, LX/2LF;->A00:I
@@ -3190,13 +3190,13 @@
     :goto_f
     iput v12, v5, LX/Ef6;->A00:F
 
-    .line 1740094
+    .line 1740092
     if-nez v10, :cond_28
 
-    .line 1740095
+    .line 1740093
     invoke-virtual {v0}, LX/1M5;->Ban()Z
 
-    .line 1740096
+    .line 1740094
     move-result v11
 
     if-eqz v11, :cond_1a
@@ -3214,22 +3214,22 @@
 
     sget-object v32, Landroid/text/Layout$Alignment;->ALIGN_NORMAL:Landroid/text/Layout$Alignment;
 
-    .line 1740097
+    .line 1740095
     iget-object v11, v5, LX/Ef6;->A0P:Landroid/text/TextPaint;
 
-    .line 1740098
+    .line 1740096
     const/16 v34, 0x0
 
-    .line 1740099
+    .line 1740097
     const/high16 v35, 0x3f800000    # 1.0f
 
-    .line 1740100
+    .line 1740098
     new-instance v29, LX/2ge;
 
-    .line 1740101
+    .line 1740099
     move-object/from16 v31, v29
 
-    .line 1740102
+    .line 1740100
     move-object/from16 v33, v11
 
     move/from16 v36, v8
@@ -3250,15 +3250,15 @@
 
     move-object/from16 v28, v15
 
-    .line 1740103
+    .line 1740101
     move-object/from16 v31, v0
 
-    .line 1740104
+    .line 1740102
     move-object/from16 v32, v12
 
     move-object/from16 v33, v18
 
-    .line 1740105
+    .line 1740103
     move-object/from16 v34, v9
 
     move-object/from16 v35, v13
@@ -3269,14 +3269,14 @@
 
     invoke-virtual/range {v27 .. v37}, LX/Ck1;->A02(Landroid/content/Context;LX/2ge;LX/3BJ;LX/1M5;LX/2Ki;LX/266;Lcom/instagram/service/session/UserSession;Ljava/lang/Boolean;Ljava/lang/Boolean;Z)Landroid/text/SpannableStringBuilder;
 
-    .line 1740106
+    .line 1740104
     move-result-object v13
 
     const v12, 0x3fa3d70a    # 1.28f
 
     invoke-static {v11, v13, v12, v8, v1}, LX/Ef6;->A00(Landroid/text/TextPaint;Ljava/lang/CharSequence;FII)I
 
-    .line 1740107
+    .line 1740105
     move-result v24
 
     :goto_10
@@ -3288,10 +3288,10 @@
 
     iget v11, v5, LX/Ef6;->A0G:I
 
-    .line 1740108
+    .line 1740106
     move/from16 v23, v11
 
-    .line 1740109
+    .line 1740107
     :goto_11
     invoke-static {v0, v9}, LX/3IT;->A01(LX/1M5;Lcom/instagram/service/session/UserSession;)Z
 
@@ -3305,7 +3305,7 @@
 
     shl-int/lit8 v13, v1, 0x1
 
-    .line 1740110
+    .line 1740108
     sub-int/2addr v8, v13
 
     iget v1, v5, LX/Ef6;->A0C:I
@@ -3318,36 +3318,36 @@
 
     move-result-object v1
 
-    .line 1740111
+    .line 1740109
     if-eqz v1, :cond_1c
 
     invoke-virtual {v1}, Lcom/instagram/user/model/User;->BLD()Ljava/lang/String;
 
-    .line 1740112
+    .line 1740110
     move-result-object v15
 
     if-eqz v15, :cond_1c
 
-    .line 1740113
+    .line 1740111
     sget-object v11, Lcom/instagram/model/mediatype/ProductType;->A05:Lcom/instagram/model/mediatype/ProductType;
 
     invoke-virtual {v0}, LX/1M5;->A0y()Lcom/instagram/model/mediatype/ProductType;
 
-    .line 1740114
+    .line 1740112
     move-result-object v1
 
-    .line 1740115
+    .line 1740113
     const v14, 0x7f123287
 
     if-ne v11, v1, :cond_1b
 
-    .line 1740116
+    .line 1740114
     const v14, 0x7f1238f4
 
     :cond_1b
     invoke-static {v12, v15, v14}, LX/5We;->A0b(Landroid/content/Context;Ljava/lang/Object;I)Ljava/lang/String;
 
-    .line 1740117
+    .line 1740115
     move-result-object v15
 
     if-nez v15, :cond_1d
@@ -3360,41 +3360,41 @@
 
     add-int/2addr v13, v1
 
-    .line 1740118
+    .line 1740116
     invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
-    .line 1740119
+    .line 1740117
     move-result-object v11
 
     new-instance v14, Landroid/text/TextPaint;
 
-    .line 1740120
+    .line 1740118
     invoke-direct {v14, v4}, Landroid/text/TextPaint;-><init>(I)V
 
     const v1, 0x7f070042
 
-    .line 1740121
+    .line 1740119
     invoke-virtual {v11, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
-    .line 1740122
+    .line 1740120
     move-result v1
 
     invoke-virtual {v14, v1}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    .line 1740123
+    .line 1740121
     const v1, 0x7f0601bd
 
-    .line 1740124
+    .line 1740122
     invoke-static {v12, v14, v1}, LX/5Wd;->A1B(Landroid/content/Context;Landroid/graphics/Paint;I)V
 
     sget-object v1, Landroid/graphics/Typeface;->DEFAULT_BOLD:Landroid/graphics/Typeface;
 
     invoke-virtual {v14, v1}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    .line 1740125
+    .line 1740123
     const v1, 0x3f95c28f    # 1.17f
 
-    .line 1740126
+    .line 1740124
     invoke-static {v14, v15, v1, v8, v13}, LX/Ef6;->A00(Landroid/text/TextPaint;Ljava/lang/CharSequence;FII)I
 
     move-result v11
@@ -3404,27 +3404,27 @@
 
     invoke-static {v1}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1740127
+    .line 1740125
     invoke-static {v0, v1, v9}, LX/3FP;->A04(LX/1M5;LX/2uC;Lcom/instagram/service/session/UserSession;)Z
 
-    .line 1740128
+    .line 1740126
     move-result v1
 
     if-eqz v1, :cond_21
 
-    .line 1740129
+    .line 1740127
     iget v1, v5, LX/Ef6;->A0J:I
 
-    .line 1740130
+    .line 1740128
     :goto_13
     iget v8, v5, LX/Ef6;->A0L:I
 
-    .line 1740131
+    .line 1740129
     add-int v8, v8, v24
 
     add-int/2addr v8, v11
 
-    .line 1740132
+    .line 1740130
     add-int v8, v8, v23
 
     add-int/2addr v8, v1
@@ -3437,13 +3437,13 @@
 
     iget v1, v5, LX/Ef6;->A0H:I
 
-    .line 1740133
+    .line 1740131
     add-int/2addr v8, v1
 
     :goto_14
     iput v8, v5, LX/Ef6;->A02:I
 
-    .line 1740134
+    .line 1740132
     invoke-static {v5}, LX/Ef6;->A04(LX/Ef6;)V
 
     invoke-static {v5, v10}, LX/Ef6;->A06(LX/Ef6;LX/DDN;)V
@@ -3452,7 +3452,7 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 1740135
+    .line 1740133
     if-eqz v8, :cond_1e
 
     const/4 v1, 0x0
@@ -3460,51 +3460,51 @@
     :cond_1e
     iput v1, v5, LX/Ef6;->A01:F
 
-    .line 1740136
+    .line 1740134
     invoke-static {v5, v1}, LX/Ef6;->A05(LX/Ef6;F)V
 
     new-instance v8, LX/FQ0;
 
-    .line 1740137
+    .line 1740135
     move/from16 v1, v26
 
     invoke-direct {v8, v5, v1}, LX/FQ0;-><init>(LX/Ef6;Z)V
 
-    .line 1740138
+    .line 1740136
     invoke-static {v6, v8}, LX/0Oc;->A0g(Landroid/view/View;Ljava/lang/Runnable;)V
 
-    .line 1740139
+    .line 1740137
     :cond_1f
     invoke-virtual {v3}, LX/2KZ;->getPosition()I
 
-    .line 1740140
+    .line 1740138
     move-result v1
 
     if-nez v1, :cond_20
 
-    .line 1740141
+    .line 1740139
     move-object/from16 v1, v19
 
-    .line 1740142
+    .line 1740140
     iget-object v5, v1, LX/2Pd;->A03:LX/De8;
 
     iget-boolean v1, v5, LX/De8;->A00:Z
 
     if-nez v1, :cond_20
 
-    .line 1740143
+    .line 1740141
     iget-object v1, v5, LX/De8;->A03:LX/1rx;
 
-    .line 1740144
+    .line 1740142
     invoke-interface {v1, v5}, LX/1rx;->CkJ(LX/1rK;)V
 
     iput-boolean v4, v5, LX/De8;->A00:Z
 
-    .line 1740145
+    .line 1740143
     :cond_20
     move-object/from16 v1, v19
 
-    .line 1740146
+    .line 1740144
     iput-object v0, v1, LX/2Pd;->A00:LX/1M5;
 
     iput-object v3, v1, LX/2Pd;->A01:LX/2KZ;
@@ -3521,49 +3521,49 @@
     :cond_22
     invoke-static {v0, v9}, LX/3IT;->A02(LX/1M5;Lcom/instagram/service/session/UserSession;)Z
 
-    .line 1740147
+    .line 1740145
     move-result v11
 
     if-eqz v11, :cond_25
 
-    .line 1740148
+    .line 1740146
     iget-object v12, v5, LX/Ef6;->A0O:Landroid/content/Context;
 
     invoke-virtual {v0}, LX/1M5;->A23()Ljava/util/List;
 
-    .line 1740149
+    .line 1740147
     move-result-object v11
 
     if-eqz v11, :cond_23
 
     invoke-interface {v11}, Ljava/util/Collection;->isEmpty()Z
 
-    .line 1740150
+    .line 1740148
     move-result v11
 
     if-nez v11, :cond_23
 
-    .line 1740151
+    .line 1740149
     invoke-virtual {v0}, LX/1M5;->A23()Ljava/util/List;
 
     move-result-object v11
 
-    .line 1740152
+    .line 1740150
     invoke-static {v11, v1}, LX/92l;->A0b(Ljava/util/List;I)Lcom/instagram/user/model/User;
 
     move-result-object v1
 
     const v11, 0x7f1232a8
 
-    .line 1740153
+    .line 1740151
     invoke-virtual {v1}, Lcom/instagram/user/model/User;->BLD()Ljava/lang/String;
 
-    .line 1740154
+    .line 1740152
     move-result-object v1
 
     invoke-static {v12, v1, v11}, LX/5We;->A0b(Landroid/content/Context;Ljava/lang/Object;I)Ljava/lang/String;
 
-    .line 1740155
+    .line 1740153
     move-result-object v1
 
     if-nez v1, :cond_24
@@ -3578,10 +3578,10 @@
 
     add-int/2addr v13, v11
 
-    .line 1740156
+    .line 1740154
     invoke-virtual {v12}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
-    .line 1740157
+    .line 1740155
     move-result-object v14
 
     new-instance v12, Landroid/text/TextPaint;
@@ -3590,22 +3590,22 @@
 
     const v11, 0x7f070042
 
-    .line 1740158
+    .line 1740156
     invoke-virtual {v14, v11}, Landroid/content/res/Resources;->getDimension(I)F
 
     move-result v11
 
-    .line 1740159
+    .line 1740157
     invoke-virtual {v12, v11}, Landroid/graphics/Paint;->setTextSize(F)V
 
     const v11, 0x3f95c28f    # 1.17f
 
-    .line 1740160
+    .line 1740158
     invoke-static {v12, v1, v11, v8, v13}, LX/Ef6;->A00(Landroid/text/TextPaint;Ljava/lang/CharSequence;FII)I
 
     move-result v11
 
-    .line 1740161
+    .line 1740159
     goto/16 :goto_12
 
     :cond_25
@@ -3616,7 +3616,7 @@
     :cond_26
     const/16 v23, 0x0
 
-    .line 1740162
+    .line 1740160
     goto/16 :goto_11
 
     :cond_27
@@ -3624,7 +3624,7 @@
 
     goto/16 :goto_10
 
-    .line 1740163
+    .line 1740161
     :cond_28
     invoke-virtual {v10}, LX/DDN;->A00()I
 
@@ -3635,27 +3635,27 @@
     :cond_29
     invoke-virtual {v0}, LX/1M5;->BUe()Z
 
-    .line 1740164
+    .line 1740162
     move-result v11
 
     if-eqz v11, :cond_2c
 
     invoke-virtual {v0}, LX/1M5;->A1y()Ljava/util/List;
 
-    .line 1740165
+    .line 1740163
     move-result-object v11
 
     if-eqz v11, :cond_19
 
     invoke-interface {v11}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
-    .line 1740166
+    .line 1740164
     move-result-object v14
 
     :cond_2a
     invoke-interface {v14}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 1740167
+    .line 1740165
     move-result v11
 
     if-eqz v11, :cond_19
@@ -3670,14 +3670,14 @@
 
     if-eqz v11, :cond_2b
 
-    .line 1740168
+    .line 1740166
     invoke-virtual {v13}, LX/1M5;->A0C()F
 
     move-result v12
 
     goto/16 :goto_f
 
-    .line 1740169
+    .line 1740167
     :cond_2b
     invoke-virtual {v13}, LX/1M5;->Ban()Z
 
@@ -3685,25 +3685,25 @@
 
     if-eqz v11, :cond_2a
 
-    .line 1740170
+    .line 1740168
     invoke-virtual {v13}, LX/1M5;->A0e()LX/2LF;
 
     move-result-object v11
 
     if-eqz v11, :cond_2a
 
-    .line 1740171
+    .line 1740169
     invoke-virtual {v13}, LX/1M5;->A0e()LX/2LF;
 
     move-result-object v11
 
     goto/16 :goto_e
 
-    .line 1740172
+    .line 1740170
     :cond_2c
     invoke-virtual {v0}, LX/1M5;->A3J()Z
 
-    .line 1740173
+    .line 1740171
     move-result v11
 
     if-eqz v11, :cond_19
@@ -3714,11 +3714,11 @@
 
     goto/16 :goto_f
 
-    .line 1740174
+    .line 1740172
     :cond_2d
     invoke-virtual {v0}, LX/1M5;->BUe()Z
 
-    .line 1740175
+    .line 1740173
     move-result v5
 
     if-eqz v5, :cond_2e
@@ -3727,18 +3727,18 @@
 
     if-eqz v5, :cond_62
 
-    .line 1740176
+    .line 1740174
     invoke-virtual {v5}, LX/2PX;->A00()Landroid/view/View;
 
     move-result-object v6
 
-    .line 1740177
+    .line 1740175
     if-eqz v6, :cond_62
 
-    .line 1740178
+    .line 1740176
     goto/16 :goto_d
 
-    .line 1740179
+    .line 1740177
     :cond_2e
     iget-object v5, v6, LX/F8H;->A03:LX/2Oy;
 
@@ -3748,10 +3748,10 @@
 
     invoke-static {v6}, LX/02K;->A04(Ljava/lang/Object;)V
 
-    .line 1740180
+    .line 1740178
     goto/16 :goto_d
 
-    .line 1740181
+    .line 1740179
     :cond_2f
     invoke-virtual {v0}, LX/1M5;->BUe()Z
 
@@ -3763,10 +3763,10 @@
 
     if-eqz v5, :cond_62
 
-    .line 1740182
+    .line 1740180
     iget-object v11, v5, LX/3E3;->itemView:Landroid/view/View;
 
-    .line 1740183
+    .line 1740181
     invoke-static {v11}, LX/02K;->A04(Ljava/lang/Object;)V
 
     goto/16 :goto_c
@@ -3774,30 +3774,30 @@
     :cond_30
     iget-object v5, v6, LX/F8H;->A03:LX/2Oy;
 
-    .line 1740184
+    .line 1740182
     if-eqz v5, :cond_62
 
     iget-object v11, v5, LX/3E3;->itemView:Landroid/view/View;
 
-    .line 1740185
+    .line 1740183
     invoke-static {v11}, LX/02K;->A04(Ljava/lang/Object;)V
 
-    .line 1740186
+    .line 1740184
     goto/16 :goto_c
 
-    .line 1740187
+    .line 1740185
     :cond_31
     const/4 v8, 0x0
 
     goto/16 :goto_b
 
-    .line 1740188
+    .line 1740186
     :cond_32
     invoke-virtual {v0}, LX/1M5;->BUe()Z
 
     move-result v11
 
-    .line 1740189
+    .line 1740187
     if-eqz v11, :cond_34
 
     invoke-static {v0}, LX/2uS;->A00(LX/1M5;)I
@@ -3814,33 +3814,33 @@
 
     invoke-static {v8}, Ljava/util/Objects;->hash([Ljava/lang/Object;)I
 
-    .line 1740190
+    .line 1740188
     move-result v11
 
     iget-object v9, v6, LX/F8H;->A04:Ljava/util/Map;
 
-    .line 1740191
+    .line 1740189
     invoke-interface {v9, v12}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1740192
+    .line 1740190
     move-result-object v8
 
-    .line 1740193
+    .line 1740191
     check-cast v8, Ljava/lang/Number;
 
     if-eqz v8, :cond_33
 
-    .line 1740194
+    .line 1740192
     invoke-virtual {v8}, Ljava/lang/Number;->intValue()I
 
-    .line 1740195
+    .line 1740193
     move-result v8
 
     if-ne v8, v11, :cond_33
 
     goto/16 :goto_a
 
-    .line 1740196
+    .line 1740194
     :cond_33
     invoke-static {v12, v9, v11}, LX/Chc;->A1W(Ljava/lang/Object;Ljava/util/Map;I)V
 
@@ -3856,15 +3856,15 @@
 
     invoke-virtual {v3}, LX/2KZ;->getPosition()I
 
-    .line 1740197
+    .line 1740195
     move-result v32
 
-    .line 1740198
+    .line 1740196
     iget-object v8, v5, LX/EYy;->A03:LX/1qw;
 
     move-object/from16 v27, v9
 
-    .line 1740199
+    .line 1740197
     move-object/from16 v28, v11
 
     move-object/from16 v29, v0
@@ -3877,13 +3877,13 @@
 
     goto/16 :goto_9
 
-    .line 1740200
+    .line 1740198
     :cond_34
     iget-object v13, v6, LX/F8H;->A03:LX/2Oy;
 
     if-eqz v13, :cond_64
 
-    .line 1740201
+    .line 1740199
     if-nez v9, :cond_35
 
     iget-object v11, v5, LX/EYy;->A04:LX/38i;
@@ -3892,17 +3892,17 @@
 
     invoke-virtual {v11, v9, v0}, LX/38i;->A0E(LX/0YK;LX/1M5;)Z
 
-    .line 1740202
+    .line 1740200
     move-result v9
 
     if-eqz v9, :cond_39
 
     const/high16 v9, -0x40800000    # -1.0f
 
-    .line 1740203
+    .line 1740201
     invoke-static {v9}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
-    .line 1740204
+    .line 1740202
     move-result-object v9
 
     :cond_35
@@ -3911,7 +3911,7 @@
 
     invoke-virtual {v11, v0, v8}, LX/36s;->A00(LX/1M5;Lcom/instagram/service/session/UserSession;)Z
 
-    .line 1740205
+    .line 1740203
     move-result v11
 
     xor-int/lit8 v42, v11, 0x1
@@ -3920,17 +3920,17 @@
 
     iget-object v11, v5, LX/EYy;->A03:LX/1qw;
 
-    .line 1740206
+    .line 1740204
     move-object/from16 v22, v11
 
     invoke-static/range {v22 .. v22}, LX/5Wd;->A0n(LX/0YK;)Ljava/lang/String;
 
-    .line 1740207
+    .line 1740205
     move-result-object v11
 
     invoke-virtual {v12, v11}, LX/38i;->A0M(Ljava/lang/String;)Z
 
-    .line 1740208
+    .line 1740206
     move-result v11
 
     if-nez v11, :cond_36
@@ -3943,32 +3943,32 @@
 
     const/16 v44, 0x0
 
-    .line 1740209
+    .line 1740207
     if-eqz v11, :cond_37
 
     :cond_36
     const/16 v44, 0x1
 
-    .line 1740210
+    .line 1740208
     :cond_37
     const/16 v40, -0x1
 
-    .line 1740211
+    .line 1740209
     new-instance v33, LX/3Fa;
 
     move-object/from16 v38, v33
 
-    .line 1740212
+    .line 1740210
     move-object/from16 v39, v9
 
     move/from16 v41, v1
 
-    .line 1740213
+    .line 1740211
     move/from16 v43, v4
 
     invoke-direct/range {v38 .. v44}, LX/3Fa;-><init>(Ljava/lang/Float;IZZZZ)V
 
-    .line 1740214
+    .line 1740212
     invoke-static {v0, v3, v8}, LX/0fx;->A00(LX/1M5;LX/2KZ;Lcom/instagram/service/session/UserSession;)I
 
     move-result v8
@@ -3983,40 +3983,40 @@
 
     invoke-static {v8}, Ljava/util/Objects;->hash([Ljava/lang/Object;)I
 
-    .line 1740215
-    .line 1740216
+    .line 1740213
+    .line 1740214
     move-result v11
 
     iget-object v9, v6, LX/F8H;->A04:Ljava/util/Map;
 
-    .line 1740217
+    .line 1740215
     invoke-interface {v9, v12}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
 
-    .line 1740218
+    .line 1740216
     check-cast v8, Ljava/lang/Number;
 
     if-eqz v8, :cond_38
 
-    .line 1740219
+    .line 1740217
     invoke-virtual {v8}, Ljava/lang/Number;->intValue()I
 
-    .line 1740220
+    .line 1740218
     move-result v8
 
     if-ne v8, v11, :cond_38
 
-    .line 1740221
+    .line 1740219
     :goto_16
     if-nez v27, :cond_14
 
     iget-object v8, v13, LX/2Oy;->A0I:Lcom/instagram/feed/widget/IgProgressImageView;
 
-    .line 1740222
+    .line 1740220
     invoke-virtual {v8, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 1740223
+    .line 1740221
     goto/16 :goto_9
 
     :cond_38
@@ -4034,29 +4034,29 @@
 
     iget-object v8, v5, LX/EYy;->A02:LX/1rx;
 
-    .line 1740224
+    .line 1740222
     move-object/from16 v28, v9
 
-    .line 1740225
+    .line 1740223
     move-object/from16 v29, v35
 
     move-object/from16 v30, v8
 
-    .line 1740226
+    .line 1740224
     move-object/from16 v31, v0
 
     move-object/from16 v32, v22
 
-    .line 1740227
+    .line 1740225
     move-object/from16 v34, v13
 
     move-object/from16 v35, v3
 
-    .line 1740228
+    .line 1740226
     invoke-virtual/range {v28 .. v38}, LX/0fx;->A0C(LX/1yD;LX/1rx;LX/1M5;LX/1qw;LX/3Fa;LX/2Oy;LX/2KZ;LX/2Og;Ljava/lang/Integer;I)V
 
-    .line 1740229
-    .line 1740230
+    .line 1740227
+    .line 1740228
     goto :goto_16
 
     :cond_39
@@ -4067,23 +4067,23 @@
     :cond_3a
     move-object/from16 v9, v18
 
-    .line 1740231
+    .line 1740229
     goto/16 :goto_8
 
     :cond_3b
     move-object/from16 v10, v18
 
-    .line 1740232
+    .line 1740230
     goto/16 :goto_7
 
-    .line 1740233
+    .line 1740231
     :cond_3c
     const-wide/high16 v5, 0x3ff0000000000000L    # 1.0
 
-    .line 1740234
+    .line 1740232
     goto/16 :goto_6
 
-    .line 1740235
+    .line 1740233
     :cond_3d
     iget-object v6, v8, LX/F8I;->A05:Landroid/view/View;
 
@@ -4093,18 +4093,18 @@
 
     goto/16 :goto_5
 
-    .line 1740236
+    .line 1740234
     :cond_3e
     iget-object v5, v12, LX/EZE;->A00:LX/EMF;
 
     if-eqz v5, :cond_63
 
-    .line 1740237
+    .line 1740235
     iget-object v11, v5, LX/EMF;->A05:LX/EaG;
 
     sget-object v10, LX/2tr;->A07:LX/2tr;
 
-    .line 1740238
+    .line 1740236
     iget-object v5, v9, LX/1MC;->A3s:Ljava/lang/String;
 
     filled-new-array {v5}, [Ljava/lang/Object;
@@ -4121,16 +4121,16 @@
 
     invoke-static {v5}, Ljava/util/Objects;->hash([Ljava/lang/Object;)I
 
-    .line 1740239
+    .line 1740237
     move-result v9
 
-    .line 1740240
+    .line 1740238
     iget-object v6, v8, LX/F8I;->A0B:Ljava/util/Map;
 
-    .line 1740241
+    .line 1740239
     invoke-interface {v6, v10}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1740242
+    .line 1740240
     move-result-object v5
 
     check-cast v5, Ljava/lang/Number;
@@ -4139,14 +4139,14 @@
 
     invoke-virtual {v5}, Ljava/lang/Number;->intValue()I
 
-    .line 1740243
+    .line 1740241
     move-result v5
 
     if-ne v5, v9, :cond_43
 
     const/4 v9, 0x0
 
-    .line 1740244
+    .line 1740242
     :goto_17
     iget-object v15, v8, LX/F8I;->A0A:LX/2Oy;
 
@@ -4158,35 +4158,35 @@
 
     invoke-static {v5}, LX/0rF;->A03(I)I
 
-    .line 1740245
-    .line 1740246
+    .line 1740243
+    .line 1740244
     move-result v24
 
     const/4 v6, 0x4
 
     move-object/from16 v5, v22
 
-    .line 1740247
+    .line 1740245
     invoke-static {v5, v6}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1740248
+    .line 1740246
     if-nez v9, :cond_3f
 
     const v6, 0x4320db7f
 
-    .line 1740249
+    .line 1740247
     :goto_18
     move/from16 v5, v24
 
-    .line 1740250
+    .line 1740248
     invoke-static {v6, v5}, LX/0rF;->A0A(II)V
 
     iget-object v5, v12, LX/EZE;->A08:LX/01o;
 
-    .line 1740251
+    .line 1740249
     invoke-static {v5}, LX/Che;->A1b(LX/01o;)Z
 
-    .line 1740252
+    .line 1740250
     move-result v5
 
     if-eqz v5, :cond_e
@@ -4195,106 +4195,106 @@
 
     if-eqz v5, :cond_e
 
-    .line 1740253
+    .line 1740251
     invoke-static {v13, v1}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
     move-object/from16 v5, v29
 
-    .line 1740254
+    .line 1740252
     invoke-virtual {v5, v13}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1740255
-    .line 1740256
+    .line 1740253
+    .line 1740254
     goto/16 :goto_4
 
     :cond_3f
     instance-of v5, v13, LX/D7n;
 
-    .line 1740257
+    .line 1740255
     if-eqz v5, :cond_42
 
-    .line 1740258
+    .line 1740256
     move-object v10, v13
 
     check-cast v10, LX/D7n;
 
-    .line 1740259
+    .line 1740257
     if-eqz v10, :cond_42
 
     iget-object v5, v10, LX/D7n;->A06:Landroid/widget/LinearLayout;
 
     move-object/from16 v28, v5
 
-    .line 1740260
+    .line 1740258
     iget-object v9, v10, LX/D7n;->A07:Landroid/widget/SeekBar;
 
     iget-object v6, v10, LX/D7n;->A08:Landroid/widget/TextView;
 
-    .line 1740261
+    .line 1740259
     invoke-static {v5, v1, v1}, LX/0Oc;->A0a(Landroid/view/View;II)V
 
     invoke-static {v9, v1, v1}, LX/0Oc;->A0a(Landroid/view/View;II)V
 
     invoke-static {v6, v1, v1}, LX/0Oc;->A0a(Landroid/view/View;II)V
 
-    .line 1740262
+    .line 1740260
     iget-object v5, v11, LX/EaG;->A07:Ljava/lang/Runnable;
 
-    .line 1740263
+    .line 1740261
     invoke-virtual {v9, v5}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
 
-    .line 1740264
+    .line 1740262
     move-object/from16 v5, v18
 
-    .line 1740265
+    .line 1740263
     invoke-virtual {v9, v5}, Landroid/widget/AbsSeekBar;->setThumb(Landroid/graphics/drawable/Drawable;)V
 
-    .line 1740266
+    .line 1740264
     invoke-virtual {v0}, LX/1M5;->BZh()Z
 
-    .line 1740267
+    .line 1740265
     move-result v5
 
     xor-int/lit8 v5, v5, 0x1
 
-    .line 1740268
+    .line 1740266
     if-eqz v5, :cond_41
 
     iget v5, v10, LX/D7n;->A02:I
 
+    .line 1740267
+    invoke-static {v1, v5}, LX/Che;->A05(II)Landroid/animation/ValueAnimator;
+
+    .line 1740268
+    move-result-object v5
+
     .line 1740269
-    invoke-static {v1, v5}, LX/Che;->A04(II)Landroid/animation/ValueAnimator;
+    iput-object v5, v11, LX/EaG;->A01:Landroid/animation/ValueAnimator;
+
+    iget v5, v10, LX/D7n;->A03:I
+
+    invoke-static {v1, v5}, LX/Che;->A05(II)Landroid/animation/ValueAnimator;
 
     .line 1740270
     move-result-object v5
 
     .line 1740271
-    iput-object v5, v11, LX/EaG;->A01:Landroid/animation/ValueAnimator;
-
-    iget v5, v10, LX/D7n;->A03:I
-
-    invoke-static {v1, v5}, LX/Che;->A04(II)Landroid/animation/ValueAnimator;
-
-    .line 1740272
-    move-result-object v5
-
-    .line 1740273
     iput-object v5, v11, LX/EaG;->A02:Landroid/animation/ValueAnimator;
 
-    .line 1740274
+    .line 1740272
     move-object/from16 v5, v22
 
     invoke-virtual {v10, v5}, LX/D7n;->A01(LX/2mv;)V
 
-    .line 1740275
+    .line 1740273
     iget-object v10, v15, LX/2Oy;->A0N:Lcom/instagram/ui/mediaactions/MediaActionsView;
 
     iput-boolean v1, v10, Lcom/instagram/ui/mediaactions/MediaActionsView;->A0I:Z
 
-    .line 1740276
+    .line 1740274
     new-instance v5, LX/FIj;
 
-    .line 1740277
+    .line 1740275
     invoke-direct {v5, v6, v13, v11, v0}, LX/FIj;-><init>(Landroid/widget/TextView;LX/3E3;LX/EaG;LX/1M5;)V
 
     invoke-virtual {v10, v9, v5}, Lcom/instagram/ui/mediaactions/MediaActionsView;->setProgressBar(Landroid/widget/ProgressBar;LX/4Fx;)V
@@ -4305,23 +4305,23 @@
 
     new-instance v5, LX/EoG;
 
-    .line 1740278
+    .line 1740276
     invoke-direct {v5, v9, v6, v11, v0}, LX/EoG;-><init>(Landroid/widget/SeekBar;Landroid/widget/TextView;LX/EaG;LX/1M5;)V
 
     invoke-virtual {v9, v5}, Landroid/widget/SeekBar;->setOnSeekBarChangeListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
 
-    .line 1740279
+    .line 1740277
     :goto_19
     invoke-virtual {v0}, LX/1M5;->A0R()J
 
-    .line 1740280
+    .line 1740278
     move-result-wide v22
 
     const-wide/16 v9, 0x1388
 
     cmp-long v5, v22, v9
 
-    .line 1740281
+    .line 1740279
     const/4 v9, 0x0
 
     if-gtz v5, :cond_40
@@ -4333,32 +4333,32 @@
 
     invoke-virtual {v5, v9}, Landroid/view/View;->setVisibility(I)V
 
-    .line 1740282
+    .line 1740280
     const/16 v5, 0x8
 
     invoke-virtual {v6, v5}, Landroid/view/View;->setVisibility(I)V
 
     const v6, -0x317629b8
 
-    .line 1740283
+    .line 1740281
     goto/16 :goto_18
 
     :cond_41
     iget-object v10, v15, LX/2Oy;->A0N:Lcom/instagram/ui/mediaactions/MediaActionsView;
 
-    .line 1740284
+    .line 1740282
     move-object/from16 v5, v18
 
     invoke-virtual {v10, v9, v5}, Lcom/instagram/ui/mediaactions/MediaActionsView;->setProgressBar(Landroid/widget/ProgressBar;LX/4Fx;)V
 
-    .line 1740285
+    .line 1740283
     new-instance v5, Lcom/facebook/redex/IDxTListenerShape95S0000000_4_I1;
 
-    .line 1740286
+    .line 1740284
     invoke-direct {v5, v4}, Lcom/facebook/redex/IDxTListenerShape95S0000000_4_I1;-><init>(I)V
 
-    .line 1740287
-    .line 1740288
+    .line 1740285
+    .line 1740286
     invoke-virtual {v9, v5}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     goto :goto_19
@@ -4366,57 +4366,57 @@
     :cond_42
     const v6, -0x7fd76ecf
 
-    .line 1740289
+    .line 1740287
     goto/16 :goto_18
 
     :cond_43
     invoke-static {v10, v6, v9}, LX/Chc;->A1W(Ljava/lang/Object;Ljava/util/Map;I)V
 
-    .line 1740290
+    .line 1740288
     const/4 v9, 0x1
 
-    .line 1740291
+    .line 1740289
     goto/16 :goto_17
 
     :cond_44
     iget-object v5, v5, LX/2Pd;->A09:LX/D7t;
 
-    .line 1740292
+    .line 1740290
     if-eqz v5, :cond_45
 
     iget-object v6, v5, LX/3E3;->itemView:Landroid/view/View;
 
-    .line 1740293
+    .line 1740291
     const/16 v5, 0x8
 
-    .line 1740294
+    .line 1740292
     invoke-virtual {v6, v5}, Landroid/view/View;->setVisibility(I)V
 
-    .line 1740295
+    .line 1740293
     :cond_45
     move-object/from16 v5, v19
 
-    .line 1740296
+    .line 1740294
     iget-object v8, v5, LX/2Pd;->A06:LX/F8I;
 
     const-wide/high16 v5, 0x3ff0000000000000L    # 1.0
 
-    .line 1740297
+    .line 1740295
     invoke-static {v8, v5, v6, v1, v4}, LX/F8I;->A02(LX/F8I;DZZ)V
 
     move-object/from16 v5, v19
 
-    .line 1740298
+    .line 1740296
     iget-object v5, v5, LX/2Pd;->A0A:LX/2wK;
 
     invoke-static {v5}, LX/3IZ;->A04(LX/2wK;)V
 
-    .line 1740299
+    .line 1740297
     iget-object v5, v5, LX/2wK;->A02:Landroid/widget/ImageView;
 
     if-eqz v5, :cond_8
 
-    .line 1740300
+    .line 1740298
     invoke-virtual {v5, v1}, Landroid/view/View;->setVisibility(I)V
 
     goto/16 :goto_1
@@ -4434,7 +4434,7 @@
     :cond_48
     const/16 v3, 0xf
 
-    .line 1740301
+    .line 1740299
     const-string v8, "tombstoneViewBinder"
 
     if-ne v7, v3, :cond_4a
@@ -4447,7 +4447,7 @@
 
     invoke-virtual {v1}, LX/1on;->ATp()I
 
-    .line 1740302
+    .line 1740300
     move-result v3
 
     move-object/from16 v1, v45
@@ -4462,7 +4462,7 @@
 
     move-object v3, v1
 
-    .line 1740303
+    .line 1740301
     move-object/from16 v1, v17
 
     invoke-virtual {v5, v3, v0, v4, v1}, LX/3DC;->A0F(Landroid/view/View;LX/1M7;Lcom/instagram/service/session/UserSession;Ljava/lang/Object;)V
@@ -4471,17 +4471,17 @@
     :goto_1a
     iget-object v3, v2, LX/DQK;->A00:LX/242;
 
-    .line 1740304
+    .line 1740302
     if-eqz v3, :cond_6a
 
-    .line 1740305
+    .line 1740303
     move-object/from16 v2, v45
 
     move-object/from16 v1, v17
 
     invoke-interface {v3, v2, v7, v0, v1}, LX/245;->Ckf(Landroid/view/View;ILjava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1740306
+    .line 1740304
     const v1, 0x5dabaeda
 
     :goto_1b
@@ -4489,7 +4489,7 @@
 
     invoke-static {v1, v0}, LX/0rF;->A0A(II)V
 
-    .line 1740307
+    .line 1740305
     return-void
 
     :cond_4a
@@ -4501,13 +4501,13 @@
 
     const-string v0, "shoppingMediaCTABarViewBinder"
 
-    .line 1740308
+    .line 1740306
     goto/16 :goto_0
 
     :cond_4b
     invoke-virtual/range {v45 .. v45}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
-    .line 1740309
+    .line 1740307
     move-result-object v3
 
     if-eqz v3, :cond_65
@@ -4516,7 +4516,7 @@
 
     move-object/from16 v1, v17
 
-    .line 1740310
+    .line 1740308
     check-cast v1, LX/2KZ;
 
     invoke-virtual {v4, v3, v0, v1}, LX/2iQ;->A04(LX/2nS;LX/1M5;LX/2KZ;)V
@@ -4526,28 +4526,28 @@
     :cond_4c
     const/16 v1, 0x2a
 
-    .line 1740311
+    .line 1740309
     if-ne v7, v1, :cond_50
 
-    .line 1740312
+    .line 1740310
     iget-object v6, v2, LX/DQK;->A08:LX/25z;
 
-    .line 1740313
+    .line 1740311
     if-nez v6, :cond_4d
 
     const-string v0, "shoppingIFUViewBinder"
 
-    .line 1740314
+    .line 1740312
     goto/16 :goto_0
 
-    .line 1740315
+    .line 1740313
     :cond_4d
     invoke-virtual/range {v45 .. v45}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
-    .line 1740316
+    .line 1740314
     move-result-object v3
 
-    .line 1740317
+    .line 1740315
     if-eqz v3, :cond_66
 
     check-cast v3, LX/D2F;
@@ -4564,17 +4564,17 @@
 
     iput-object v1, v6, LX/25z;->A00:Landroid/widget/FrameLayout;
 
-    .line 1740318
+    .line 1740316
     sget-object v4, LX/2C4;->A02:Ljava/util/HashMap;
 
     invoke-virtual {v4, v5}, Ljava/util/AbstractMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1740319
+    .line 1740317
     move-result-object v1
 
     check-cast v1, Landroid/view/View;
 
-    .line 1740320
+    .line 1740318
     if-eqz v1, :cond_4f
 
     invoke-virtual {v1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
@@ -4592,10 +4592,10 @@
 
     check-cast v1, Landroid/view/View;
 
-    .line 1740321
+    .line 1740319
     invoke-virtual {v3, v1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
-    .line 1740322
+    .line 1740320
     :cond_4e
     invoke-virtual {v4, v5}, Ljava/util/AbstractMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -4603,12 +4603,12 @@
 
     check-cast v3, Landroid/view/View;
 
-    .line 1740323
+    .line 1740321
     if-eqz v3, :cond_49
 
     iget-object v1, v6, LX/25z;->A00:Landroid/widget/FrameLayout;
 
-    .line 1740324
+    .line 1740322
     if-eqz v1, :cond_49
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
@@ -4623,7 +4623,7 @@
     :cond_50
     const/16 v1, 0x1a
 
-    .line 1740325
+    .line 1740323
     const-string v14, "inlineSurveyDelegate"
 
     if-ne v7, v1, :cond_57
@@ -4638,7 +4638,7 @@
 
     invoke-virtual {v6}, LX/2KZ;->getPosition()I
 
-    .line 1740326
+    .line 1740324
     move-result v1
 
     invoke-virtual {v3, v1}, LX/EQf;->A01(I)V
@@ -4649,29 +4649,29 @@
 
     invoke-interface {v1}, LX/242;->Alj()LX/1ws;
 
-    .line 1740327
+    .line 1740325
     move-result-object v28
 
     if-nez v28, :cond_51
 
     const v1, 0x4c2b4e01    # 4.49065E7f
 
-    .line 1740328
-    .line 1740329
+    .line 1740326
+    .line 1740327
     goto/16 :goto_1b
 
     :cond_51
     invoke-virtual {v0}, LX/1M5;->A0W()Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S0200000_I0;
 
-    .line 1740330
+    .line 1740328
     move-result-object v3
 
     if-nez v3, :cond_52
 
     const v1, 0x27daea4e
 
-    .line 1740331
-    .line 1740332
+    .line 1740329
+    .line 1740330
     goto/16 :goto_1b
 
     :cond_52
@@ -4679,27 +4679,27 @@
 
     check-cast v1, LX/1bN;
 
-    .line 1740333
+    .line 1740331
     if-eqz v1, :cond_56
 
     new-instance v9, LX/8aH;
 
     invoke-direct {v9, v1}, LX/8aH;-><init>(LX/1bN;)V
 
-    .line 1740334
+    .line 1740332
     iget-object v1, v3, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S0200000_I0;->A00:Ljava/lang/Object;
 
     check-cast v1, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S2800000_I1;
 
-    .line 1740335
+    .line 1740333
     if-eqz v1, :cond_55
 
-    .line 1740336
+    .line 1740334
     new-instance v11, LX/ERZ;
 
     invoke-direct {v11, v1}, LX/ERZ;-><init>(Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S2800000_I1;)V
 
-    .line 1740337
+    .line 1740335
     iget-object v1, v2, LX/DQK;->A00:LX/242;
 
     if-eqz v1, :cond_6a
@@ -4718,13 +4718,13 @@
 
     const/4 v10, 0x0
 
-    .line 1740338
+    .line 1740336
     new-instance v1, LX/Dbw;
 
-    .line 1740339
+    .line 1740337
     move-object/from16 v24, v1
 
-    .line 1740340
+    .line 1740338
     move-object/from16 v25, v3
 
     move-object/from16 v26, v0
@@ -4733,73 +4733,73 @@
 
     move-object/from16 v29, v11
 
-    .line 1740341
+    .line 1740339
     move-object/from16 v31, v9
 
     move-object/from16 v32, v5
 
-    .line 1740342
+    .line 1740340
     invoke-direct/range {v24 .. v32}, LX/Dbw;-><init>(LX/0YK;LX/1M5;LX/24E;LX/1ws;LX/ERZ;LX/28C;LX/8aH;Lcom/instagram/service/session/UserSession;)V
 
     iput-object v1, v2, LX/DQK;->A06:LX/F7s;
 
-    .line 1740343
+    .line 1740341
     iget-object v13, v2, LX/DQK;->A0C:Landroid/content/Context;
 
     invoke-virtual/range {v45 .. v45}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
-    .line 1740344
+    .line 1740342
     move-result-object v12
 
     if-eqz v12, :cond_67
 
     check-cast v12, LX/D4N;
 
-    .line 1740345
+    .line 1740343
     invoke-virtual {v6}, LX/2KZ;->A05()LX/EQf;
 
-    .line 1740346
+    .line 1740344
     move-result-object v1
 
     iget-object v1, v1, LX/EQf;->A01:LX/F8M;
 
-    .line 1740347
+    .line 1740345
     move-object/from16 v22, v1
 
-    .line 1740348
+    .line 1740346
     iget-object v9, v2, LX/DQK;->A06:LX/F7s;
 
-    .line 1740349
+    .line 1740347
     if-eqz v9, :cond_6c
 
-    .line 1740350
+    .line 1740348
     invoke-virtual {v11, v10}, LX/ERZ;->A01(I)LX/Eam;
 
-    .line 1740351
+    .line 1740349
     move-result-object v8
 
     invoke-static {v8}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1740352
+    .line 1740350
     invoke-static {v12, v4, v9}, LX/5We;->A18(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 1740353
+    .line 1740351
     iget-object v3, v12, LX/D4N;->A02:Lcom/instagram/common/ui/base/IgTextView;
 
-    .line 1740354
+    .line 1740352
     iget-object v1, v8, LX/Eam;->A03:LX/9TA;
 
     iget-object v4, v1, LX/9TA;->A07:Ljava/lang/String;
 
-    .line 1740355
+    .line 1740353
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     const v1, 0x7f122333
 
-    .line 1740356
+    .line 1740354
     invoke-static {v13, v4, v1}, LX/5We;->A0b(Landroid/content/Context;Ljava/lang/Object;I)Ljava/lang/String;
 
-    .line 1740357
+    .line 1740355
     move-result-object v1
 
     invoke-virtual {v3, v1}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
@@ -4816,17 +4816,17 @@
 
     invoke-static {v1}, LX/Chb;->A0k(Ljava/lang/Object;)Ljava/util/Iterator;
 
-    .line 1740358
-    .line 1740359
+    .line 1740356
+    .line 1740357
     move-result-object v20
 
     const/16 v25, 0x0
 
-    .line 1740360
+    .line 1740358
     :goto_1d
     invoke-interface/range {v20 .. v20}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 1740361
+    .line 1740359
     move-result v1
 
     if-eqz v1, :cond_54
@@ -4843,43 +4843,43 @@
 
     iget-object v6, v1, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S3100000_I1;->A03:Ljava/lang/String;
 
-    .line 1740362
+    .line 1740360
     if-eqz v6, :cond_53
 
     invoke-virtual {v14}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
-    .line 1740363
+    .line 1740361
     const v3, 0x7f13001e
 
-    .line 1740364
+    .line 1740362
     new-instance v1, Landroid/view/ContextThemeWrapper;
 
     invoke-direct {v1, v5, v3}, Landroid/view/ContextThemeWrapper;-><init>(Landroid/content/Context;I)V
 
-    .line 1740365
+    .line 1740363
     invoke-static {v1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
-    .line 1740366
+    .line 1740364
     move-result-object v3
 
-    .line 1740367
+    .line 1740365
     const v1, 0x7f0d0730
 
     invoke-virtual {v3, v1, v14, v10}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v4
 
-    .line 1740368
+    .line 1740366
     const v1, 0x7f0a2f30
 
     invoke-static {v4, v1}, LX/5Wd;->A0H(Landroid/view/View;I)Landroid/view/View;
 
-    .line 1740369
+    .line 1740367
     move-result-object v3
 
-    .line 1740370
+    .line 1740368
     check-cast v3, Landroid/widget/TextView;
 
     invoke-virtual {v3, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
@@ -4896,66 +4896,66 @@
 
     invoke-virtual {v3, v1}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
 
-    .line 1740371
+    .line 1740369
     new-instance v1, Lcom/facebook/redex/AnonCListenerShape0S0501000_I1;
 
     move-object/from16 v24, v1
 
-    .line 1740372
+    .line 1740370
     move/from16 v26, v23
 
     move-object/from16 v27, v22
 
     move-object/from16 v28, v11
 
-    .line 1740373
+    .line 1740371
     move-object/from16 v29, v13
 
-    .line 1740374
+    .line 1740372
     move-object/from16 v30, v9
 
-    .line 1740375
+    .line 1740373
     move-object/from16 v31, v8
 
     invoke-direct/range {v24 .. v31}, Lcom/facebook/redex/AnonCListenerShape0S0501000_I1;-><init>(IILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1740376
-    .line 1740377
+    .line 1740374
+    .line 1740375
     invoke-virtual {v4, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1740378
+    .line 1740376
     invoke-virtual {v14, v4}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 1740379
+    .line 1740377
     :cond_53
     move/from16 v25, v19
 
     goto :goto_1d
 
-    .line 1740380
+    .line 1740378
     :cond_54
     iget-object v3, v12, LX/D4N;->A01:Lcom/instagram/common/ui/base/IgTextView;
 
-    .line 1740381
+    .line 1740379
     const v1, 0x7f1220ab
 
     invoke-static {v13, v3, v1}, LX/92l;->A13(Landroid/content/Context;Landroid/widget/TextView;I)V
 
-    .line 1740382
+    .line 1740380
     const/16 v1, 0x31
 
     invoke-static {v3, v1, v9, v8}, LX/5We;->A0s(Landroid/view/View;ILjava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1740383
-    .line 1740384
+    .line 1740381
+    .line 1740382
     const v1, 0x7f122334
 
     invoke-static {v13, v3, v1}, LX/92m;->A0p(Landroid/content/Context;Landroid/view/View;I)V
 
-    .line 1740385
+    .line 1740383
     goto/16 :goto_1a
 
-    .line 1740386
+    .line 1740384
     :cond_55
     const v1, 0x4116ddd2
 
@@ -4969,7 +4969,7 @@
     :cond_57
     const/4 v9, 0x0
 
-    .line 1740387
+    .line 1740385
     const/16 v1, 0x1b
 
     if-ne v7, v1, :cond_5c
@@ -4980,28 +4980,28 @@
 
     invoke-virtual {v8}, LX/2KZ;->A05()LX/EQf;
 
-    .line 1740388
+    .line 1740386
     move-result-object v3
 
     invoke-virtual {v8}, LX/2KZ;->getPosition()I
 
-    .line 1740389
+    .line 1740387
     move-result v1
 
     invoke-virtual {v3, v1}, LX/EQf;->A01(I)V
 
-    .line 1740390
+    .line 1740388
     invoke-virtual {v0}, LX/1M5;->A0W()Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S0200000_I0;
 
-    .line 1740391
+    .line 1740389
     move-result-object v3
 
     if-nez v3, :cond_58
 
     const v1, 0x57eb8db9
 
-    .line 1740392
-    .line 1740393
+    .line 1740390
+    .line 1740391
     goto/16 :goto_1b
 
     :cond_58
@@ -5009,7 +5009,7 @@
 
     check-cast v1, LX/1bN;
 
-    .line 1740394
+    .line 1740392
     if-eqz v1, :cond_5b
 
     new-instance v6, LX/8aH;
@@ -5024,21 +5024,21 @@
 
     new-instance v9, LX/ERZ;
 
-    .line 1740395
+    .line 1740393
     invoke-direct {v9, v1}, LX/ERZ;-><init>(Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S2800000_I1;)V
 
-    .line 1740396
+    .line 1740394
     iget-object v1, v2, LX/DQK;->A00:LX/242;
 
     if-eqz v1, :cond_6a
 
-    .line 1740397
+    .line 1740395
     invoke-interface {v1}, LX/242;->Alj()LX/1ws;
 
-    .line 1740398
+    .line 1740396
     move-result-object v26
 
-    .line 1740399
+    .line 1740397
     if-nez v26, :cond_59
 
     const v1, -0x77b6249e
@@ -5058,15 +5058,15 @@
 
     iget-object v5, v2, LX/DQK;->A09:LX/1qw;
 
-    .line 1740400
+    .line 1740398
     new-instance v1, LX/F7s;
 
-    .line 1740401
+    .line 1740399
     move-object/from16 v22, v1
 
     move-object/from16 v23, v5
 
-    .line 1740402
+    .line 1740400
     move-object/from16 v24, v0
 
     move-object/from16 v25, v4
@@ -5075,40 +5075,40 @@
 
     move-object/from16 v29, v6
 
-    .line 1740403
+    .line 1740401
     move-object/from16 v30, v3
 
     invoke-direct/range {v22 .. v30}, LX/F7s;-><init>(LX/0YK;LX/1M5;LX/24E;LX/1ws;LX/ERZ;LX/28C;LX/8aH;Lcom/instagram/service/session/UserSession;)V
 
-    .line 1740404
-    .line 1740405
+    .line 1740402
+    .line 1740403
     iput-object v1, v2, LX/DQK;->A06:LX/F7s;
 
     invoke-direct {v2}, LX/DQK;->A00()V
 
-    .line 1740406
+    .line 1740404
     invoke-virtual/range {v45 .. v45}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v4
 
-    .line 1740407
+    .line 1740405
     if-eqz v4, :cond_68
 
     check-cast v4, LX/D6D;
 
     invoke-virtual {v8}, LX/2KZ;->A05()LX/EQf;
 
-    .line 1740408
+    .line 1740406
     move-result-object v1
 
     iget-object v3, v1, LX/EQf;->A02:LX/F8L;
 
-    .line 1740409
+    .line 1740407
     iget-object v1, v2, LX/DQK;->A06:LX/F7s;
 
     if-eqz v1, :cond_6c
 
-    .line 1740410
+    .line 1740408
     invoke-static {v5, v1, v4, v3, v6}, LX/EU1;->A01(LX/0YK;LX/1uM;LX/D6D;LX/F8L;LX/8aH;)V
 
     goto/16 :goto_1a
@@ -5116,20 +5116,20 @@
     :cond_5a
     const v1, -0x27790c2
 
-    .line 1740411
+    .line 1740409
     goto/16 :goto_1b
 
-    .line 1740412
+    .line 1740410
     :cond_5b
     const v1, 0x34d4facd
 
-    .line 1740413
+    .line 1740411
     goto/16 :goto_1b
 
     :cond_5c
     const/16 v1, 0x1c
 
-    .line 1740414
+    .line 1740412
     if-ne v7, v1, :cond_5e
 
     invoke-virtual {v0}, LX/1M5;->A0W()Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S0200000_I0;
@@ -5138,7 +5138,7 @@
 
     if-eqz v1, :cond_5d
 
-    .line 1740415
+    .line 1740413
     iget-object v1, v1, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S0200000_I0;->A00:Ljava/lang/Object;
 
     check-cast v1, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S2800000_I1;
@@ -5147,58 +5147,58 @@
 
     new-instance v5, LX/ERZ;
 
-    .line 1740416
+    .line 1740414
     invoke-direct {v5, v1}, LX/ERZ;-><init>(Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S2800000_I1;)V
 
-    .line 1740417
+    .line 1740415
     invoke-virtual/range {v45 .. v45}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
-    .line 1740418
+    .line 1740416
     move-result-object v4
 
     if-eqz v4, :cond_6b
 
     check-cast v4, LX/D7u;
 
-    .line 1740419
+    .line 1740417
     move-object/from16 v1, v17
 
     check-cast v1, LX/2KZ;
 
     invoke-virtual {v1}, LX/2KZ;->A05()LX/EQf;
 
-    .line 1740420
+    .line 1740418
     move-result-object v1
 
     iget-object v3, v1, LX/EQf;->A01:LX/F8M;
 
-    .line 1740421
+    .line 1740419
     iget-object v1, v2, LX/DQK;->A06:LX/F7s;
 
     if-eqz v1, :cond_6c
 
     invoke-static {v1, v4, v3, v5}, LX/EdS;->A02(LX/1uP;LX/D7u;LX/F8M;LX/ERZ;)V
 
-    .line 1740422
+    .line 1740420
     goto/16 :goto_1a
 
-    .line 1740423
+    .line 1740421
     :cond_5d
     const v1, 0x3ff3a4ac
 
-    .line 1740424
+    .line 1740422
     goto/16 :goto_1b
 
     :cond_5e
     const/16 v1, 0x1d
 
-    .line 1740425
+    .line 1740423
     if-ne v7, v1, :cond_60
 
     invoke-virtual {v0}, LX/1M5;->A0W()Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S0200000_I0;
 
-    .line 1740426
-    .line 1740427
+    .line 1740424
+    .line 1740425
     move-result-object v1
 
     if-eqz v1, :cond_5f
@@ -5209,27 +5209,27 @@
 
     if-eqz v1, :cond_5f
 
-    .line 1740428
+    .line 1740426
     new-instance v8, LX/ERZ;
 
     invoke-direct {v8, v1}, LX/ERZ;-><init>(Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S2800000_I1;)V
 
     invoke-direct {v2}, LX/DQK;->A00()V
 
-    .line 1740429
+    .line 1740427
     iget-object v6, v2, LX/DQK;->A0C:Landroid/content/Context;
 
-    .line 1740430
+    .line 1740428
     invoke-virtual/range {v45 .. v45}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
-    .line 1740431
+    .line 1740429
     move-result-object v5
 
     if-eqz v5, :cond_6d
 
     check-cast v5, LX/D5j;
 
-    .line 1740432
+    .line 1740430
     move-object/from16 v1, v17
 
     check-cast v1, LX/2KZ;
@@ -5240,19 +5240,19 @@
 
     iget-object v3, v1, LX/EQf;->A01:LX/F8M;
 
-    .line 1740433
+    .line 1740431
     iget-object v1, v2, LX/DQK;->A06:LX/F7s;
 
     if-eqz v1, :cond_6c
 
     invoke-virtual {v8, v9}, LX/ERZ;->A01(I)LX/Eam;
 
-    .line 1740434
+    .line 1740432
     move-result-object v13
 
     move-object v9, v6
 
-    .line 1740435
+    .line 1740433
     move-object v10, v1
 
     move-object v11, v5
@@ -5265,20 +5265,20 @@
 
     invoke-static/range {v9 .. v15}, LX/Eei;->A02(Landroid/content/Context;LX/1uO;LX/D5j;LX/F8M;LX/Eam;Ljava/lang/Object;Z)V
 
-    .line 1740436
+    .line 1740434
     goto/16 :goto_1a
 
-    .line 1740437
+    .line 1740435
     :cond_5f
     const v1, 0x36fa1d4a
 
-    .line 1740438
+    .line 1740436
     goto/16 :goto_1b
 
     :cond_60
     const/16 v1, 0x1e
 
-    .line 1740439
+    .line 1740437
     if-ne v7, v1, :cond_70
 
     invoke-virtual {v0}, LX/1M5;->A0W()Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S0200000_I0;
@@ -5295,10 +5295,10 @@
 
     new-instance v6, LX/8aH;
 
-    .line 1740440
+    .line 1740438
     invoke-direct {v6, v1}, LX/8aH;-><init>(LX/1bN;)V
 
-    .line 1740441
+    .line 1740439
     iget-object v1, v2, LX/DQK;->A0D:Landroidx/fragment/app/FragmentActivity;
 
     invoke-static {v1}, LX/1on;->A03(Landroid/app/Activity;)LX/1on;
@@ -5309,63 +5309,63 @@
 
     move-result v3
 
-    .line 1740442
+    .line 1740440
     move-object/from16 v1, v45
 
     invoke-static {v1, v3}, LX/0Oc;->A0X(Landroid/view/View;I)V
 
     iget-object v5, v2, LX/DQK;->A07:LX/3DC;
 
-    .line 1740443
+    .line 1740441
     if-eqz v5, :cond_6f
 
     iget-object v4, v2, LX/DQK;->A0B:Lcom/instagram/service/session/UserSession;
 
     move-object/from16 v1, v17
 
-    .line 1740444
+    .line 1740442
     check-cast v1, LX/2KZ;
 
     invoke-virtual {v1}, LX/2KZ;->A05()LX/EQf;
 
-    .line 1740445
-    .line 1740446
+    .line 1740443
+    .line 1740444
     move-result-object v3
 
     move-object/from16 v1, v45
 
-    .line 1740447
+    .line 1740445
     invoke-virtual {v5, v1, v6, v4, v3}, LX/3DC;->A0F(Landroid/view/View;LX/1M7;Lcom/instagram/service/session/UserSession;Ljava/lang/Object;)V
 
-    .line 1740448
+    .line 1740446
     goto/16 :goto_1a
 
-    .line 1740449
+    .line 1740447
     :cond_61
     const v1, 0x52099256
 
-    .line 1740450
+    .line 1740448
     goto/16 :goto_1b
 
-    .line 1740451
+    .line 1740449
     :cond_62
     invoke-static {v12}, LX/5Wd;->A0d(Ljava/lang/String;)Ljava/lang/IllegalStateException;
 
     move-result-object v0
 
-    .line 1740452
+    .line 1740450
     throw v0
 
     :cond_63
     const-string v16, "binders"
 
-    .line 1740453
+    .line 1740451
     goto :goto_1e
 
     :cond_64
     invoke-static {}, LX/5Wd;->A0c()Ljava/lang/IllegalStateException;
 
-    .line 1740454
+    .line 1740452
     move-result-object v18
 
     throw v18
@@ -5373,44 +5373,44 @@
     :cond_65
     const-string v0, "null cannot be cast to non-null type com.instagram.feed.adapter.row.mediacta.MediaCTABarViewBinder.Holder"
 
-    .line 1740455
+    .line 1740453
     invoke-static {v0}, LX/5Wd;->A0g(Ljava/lang/String;)Ljava/lang/NullPointerException;
 
-    .line 1740456
+    .line 1740454
     move-result-object v2
 
     const v1, 0x71d7cf61
 
-    .line 1740457
+    .line 1740455
     goto :goto_1f
 
     :cond_66
     const-string v0, "null cannot be cast to non-null type com.instagram.shopping.adapter.ifu.ShoppingIFUViewBinder.Holder"
 
-    .line 1740458
+    .line 1740456
     invoke-static {v0}, LX/5Wd;->A0g(Ljava/lang/String;)Ljava/lang/NullPointerException;
 
-    .line 1740459
+    .line 1740457
     move-result-object v2
 
     const v1, 0x2ee2f500
 
-    .line 1740460
+    .line 1740458
     goto :goto_1f
 
     :cond_67
     const-string v0, "null cannot be cast to non-null type com.instagram.feed.survey.ImmersiveQuestionViewBinder.Holder"
 
-    .line 1740461
+    .line 1740459
     invoke-static {v0}, LX/5Wd;->A0g(Ljava/lang/String;)Ljava/lang/NullPointerException;
 
-    .line 1740462
+    .line 1740460
     move-result-object v2
 
     const v1, 0x538ea05a
 
-    .line 1740463
-    .line 1740464
+    .line 1740461
+    .line 1740462
     goto :goto_1f
 
     :cond_68
@@ -5418,37 +5418,37 @@
 
     invoke-static {v0}, LX/5Wd;->A0g(Ljava/lang/String;)Ljava/lang/NullPointerException;
 
-    .line 1740465
+    .line 1740463
     move-result-object v2
 
     const v1, -0x27a776c3
 
-    .line 1740466
+    .line 1740464
     goto :goto_1f
 
     :cond_69
     const-string v16, "feedVideoModule"
 
-    .line 1740467
+    .line 1740465
     :cond_6a
     :goto_1e
     invoke-static/range {v16 .. v16}, LX/02K;->A0D(Ljava/lang/String;)V
 
-    .line 1740468
+    .line 1740466
     throw v18
 
     :cond_6b
     const-string v0, "null cannot be cast to non-null type com.instagram.feed.survey.QuestionTitleViewBinder.Holder"
 
-    .line 1740469
+    .line 1740467
     invoke-static {v0}, LX/5Wd;->A0g(Ljava/lang/String;)Ljava/lang/NullPointerException;
 
-    .line 1740470
+    .line 1740468
     move-result-object v2
 
     const v1, -0x2b5da399
 
-    .line 1740471
+    .line 1740469
     goto :goto_1f
 
     :cond_6c
@@ -5461,36 +5461,36 @@
 
     invoke-static {v0}, LX/5Wd;->A0g(Ljava/lang/String;)Ljava/lang/NullPointerException;
 
-    .line 1740472
+    .line 1740470
     move-result-object v2
 
     const v1, 0x707118d4
 
-    .line 1740473
+    .line 1740471
     goto :goto_1f
 
     :cond_6e
     invoke-static {v5}, LX/5Wd;->A0g(Ljava/lang/String;)Ljava/lang/NullPointerException;
 
-    .line 1740474
+    .line 1740472
     move-result-object v2
 
-    .line 1740475
+    .line 1740473
     const v1, -0x6ac936cc
 
-    .line 1740476
+    .line 1740474
     :goto_1f
     move/from16 v0, v21
 
     invoke-static {v1, v0}, LX/0rF;->A0A(II)V
 
-    .line 1740477
+    .line 1740475
     throw v2
 
     :cond_6f
     invoke-static {v8}, LX/02K;->A0D(Ljava/lang/String;)V
 
-    .line 1740478
+    .line 1740476
     throw v18
 
     :cond_70

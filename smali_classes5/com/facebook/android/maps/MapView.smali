@@ -441,10 +441,10 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 2
 
-    .line 807304336
+    .line 807304357
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 807304337
+    .line 807304358
     sget-object v0, LX/ANR;->A00:LX/ANR;
 
     invoke-static {v0}, Ljava/util/EnumSet;->of(Ljava/lang/Enum;)Ljava/util/EnumSet;
@@ -453,38 +453,38 @@
 
     iput-object v0, p0, Lcom/facebook/android/maps/MapView;->A0i:Ljava/util/EnumSet;
 
-    .line 807304338
+    .line 807304359
     const/4 v1, 0x2
 
-    .line 807304339
+    .line 807304360
     invoke-static {v1}, LX/Chb;->A08(I)Landroid/graphics/Paint;
 
     move-result-object v0
 
-    .line 807304340
+    .line 807304361
     iput-object v0, p0, Lcom/facebook/android/maps/MapView;->A0l:Landroid/graphics/Paint;
 
     const v0, -0xf121b
 
-    .line 807304341
+    .line 807304362
     iput v0, p0, Lcom/facebook/android/maps/MapView;->A0E:I
 
-    .line 807304342
+    .line 807304363
     invoke-static {}, LX/Chb;->A0A()Landroid/graphics/RectF;
 
     move-result-object v0
 
-    .line 807304343
+    .line 807304364
     iput-object v0, p0, Lcom/facebook/android/maps/MapView;->A0m:Landroid/graphics/RectF;
 
-    .line 807304344
+    .line 807304365
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v0, p0, Lcom/facebook/android/maps/MapView;->A0g:Landroid/graphics/Matrix;
 
-    .line 807304345
+    .line 807304366
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
@@ -493,32 +493,32 @@
 
     new-array v0, v1, [F
 
-    .line 807304346
+    .line 807304367
     iput-object v0, p0, Lcom/facebook/android/maps/MapView;->A0n:[F
 
     const/4 v0, 0x4
 
     new-array v0, v0, [F
 
-    .line 807304347
+    .line 807304368
     iput-object v0, p0, Lcom/facebook/android/maps/MapView;->A0o:[F
 
-    .line 807304348
+    .line 807304369
     invoke-static {p0}, LX/Efy;->A00(Lcom/facebook/android/maps/MapView;)LX/Efy;
 
     move-result-object v0
 
-    .line 807304349
+    .line 807304370
     iput-object v0, p0, Lcom/facebook/android/maps/MapView;->A0k:Landroid/content/ComponentCallbacks;
 
-    .line 807304350
+    .line 807304371
     new-instance v0, LX/CtX;
 
     invoke-direct {v0, p0}, LX/CtX;-><init>(Lcom/facebook/android/maps/MapView;)V
 
     iput-object v0, p0, Lcom/facebook/android/maps/MapView;->A0j:Landroid/content/BroadcastReceiver;
 
-    .line 807304351
+    .line 807304372
     invoke-static {p2}, LX/EaP;->A00(Landroid/util/AttributeSet;)LX/EaP;
 
     move-result-object v0
@@ -4419,7 +4419,7 @@
 
     .line 51
     .line 52
-    invoke-static {v8, v0}, LX/Chg;->A03(FF)F
+    invoke-static {v8, v0}, LX/Chh;->A00(FF)F
 
     .line 53
     .line 54
@@ -4446,7 +4446,7 @@
 
     .line 64
     .line 65
-    invoke-static {v7, v0}, LX/Chg;->A03(FF)F
+    invoke-static {v7, v0}, LX/Chh;->A00(FF)F
 
     .line 66
     .line 67
@@ -4532,7 +4532,7 @@
 
     .line 106
     .line 107
-    invoke-static {v8, v0}, LX/Chg;->A03(FF)F
+    invoke-static {v8, v0}, LX/Chh;->A00(FF)F
 
     .line 108
     .line 109
@@ -4559,7 +4559,7 @@
 
     .line 119
     .line 120
-    invoke-static {v7, v0}, LX/Chg;->A03(FF)F
+    invoke-static {v7, v0}, LX/Chh;->A00(FF)F
 
     .line 121
     .line 122
@@ -4993,7 +4993,7 @@
 
     .line 328
     .line 329
-    invoke-static {v8, v0}, LX/Chg;->A03(FF)F
+    invoke-static {v8, v0}, LX/Chh;->A00(FF)F
 
     .line 330
     .line 331
@@ -5020,7 +5020,7 @@
 
     .line 341
     .line 342
-    invoke-static {v7, v0}, LX/Chg;->A03(FF)F
+    invoke-static {v7, v0}, LX/Chh;->A00(FF)F
 
     .line 343
     .line 344
@@ -5919,7 +5919,7 @@
 
     .line 771
     .line 772
-    invoke-static {v14, v0}, LX/Chg;->A03(FF)F
+    invoke-static {v14, v0}, LX/Chh;->A00(FF)F
 
     .line 773
     .line 774
@@ -6257,7 +6257,7 @@
 
     .line 929
     .line 930
-    invoke-static {v10, v4}, LX/Chg;->A03(FF)F
+    invoke-static {v10, v4}, LX/Chh;->A00(FF)F
 
     .line 931
     .line 932
@@ -6371,7 +6371,7 @@
 
     .line 980
     .line 981
-    invoke-static {v4, v1}, LX/Chg;->A03(FF)F
+    invoke-static {v4, v1}, LX/Chh;->A00(FF)F
 
     .line 982
     .line 983
@@ -6402,7 +6402,7 @@
 
     .line 995
     .line 996
-    invoke-static {v4, v1}, LX/Chg;->A03(FF)F
+    invoke-static {v4, v1}, LX/Chh;->A00(FF)F
 
     .line 997
     .line 998

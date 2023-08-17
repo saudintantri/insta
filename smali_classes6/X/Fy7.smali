@@ -366,7 +366,7 @@
 
     .line 130
     .line 131
-    invoke-static {v0}, LX/Chi;->A0r(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v0}, LX/Chi;->A0t(Ljava/util/List;)Ljava/util/List;
 
     .line 132
     .line 133

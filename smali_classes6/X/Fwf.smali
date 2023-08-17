@@ -111,14 +111,14 @@
 
     and-int/lit16 v0, v0, 0x1000
 
-    .line 2081396
+    .line 2081417
     move/from16 v1, p28
 
     invoke-static {v0, v1}, LX/Chc;->A1a(IZ)Z
 
     move-result v1
 
-    .line 2081397
+    .line 2081418
     move/from16 v4, p22
 
     and-int/lit8 v0, p22, 0x20
@@ -157,7 +157,7 @@
 
     const/4 v2, 0x0
 
-    .line 2081398
+    .line 2081419
     :cond_4
     const/16 v0, 0x1c
 
@@ -165,249 +165,249 @@
 
     invoke-static {v4, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2081399
+    .line 2081420
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 2081400
+    .line 2081421
     iput-object p7, p0, LX/Fwf;->A0B:LX/3wU;
 
-    .line 2081401
+    .line 2081422
     iput-object p9, p0, LX/Fwf;->A0F:Ljava/lang/String;
 
-    .line 2081402
+    .line 2081423
     move/from16 v0, p17
 
     iput v0, p0, LX/Fwf;->A03:I
 
-    .line 2081403
+    .line 2081424
     move/from16 v0, p18
 
     iput v0, p0, LX/Fwf;->A01:I
 
-    .line 2081404
+    .line 2081425
     move-object/from16 v0, p10
 
     iput-object v0, p0, LX/Fwf;->A0E:Ljava/lang/String;
 
-    .line 2081405
+    .line 2081426
     iput-object p2, p0, LX/Fwf;->A05:Lcom/instagram/common/typedurl/ImageUrl;
 
-    .line 2081406
+    .line 2081427
     move-object/from16 v0, p11
 
     iput-object v0, p0, LX/Fwf;->A0C:Ljava/lang/String;
 
-    .line 2081407
+    .line 2081428
     move/from16 v0, p23
 
     iput-boolean v0, p0, LX/Fwf;->A0j:Z
 
-    .line 2081408
+    .line 2081429
     move/from16 v0, p24
 
     iput-boolean v0, p0, LX/Fwf;->A0i:Z
 
-    .line 2081409
+    .line 2081430
     move/from16 v0, p25
 
     iput-boolean v0, p0, LX/Fwf;->A0e:Z
 
-    .line 2081410
+    .line 2081431
     move/from16 v0, p26
 
     iput-boolean v0, p0, LX/Fwf;->A0d:Z
 
-    .line 2081411
+    .line 2081432
     move/from16 v0, p27
 
     iput-boolean v0, p0, LX/Fwf;->A0Y:Z
 
-    .line 2081412
+    .line 2081433
     iput-boolean v1, p0, LX/Fwf;->A0a:Z
 
-    .line 2081413
+    .line 2081434
     move/from16 v0, p29
 
     iput-boolean v0, p0, LX/Fwf;->A0X:Z
 
-    .line 2081414
+    .line 2081435
     move/from16 v0, p30
 
     iput-boolean v0, p0, LX/Fwf;->A0c:Z
 
-    .line 2081415
+    .line 2081436
     move/from16 v0, p31
 
     iput-boolean v0, p0, LX/Fwf;->A0h:Z
 
-    .line 2081416
+    .line 2081437
     move/from16 v0, p32
 
     iput-boolean v0, p0, LX/Fwf;->A0T:Z
 
-    .line 2081417
+    .line 2081438
     move/from16 v0, p33
 
     iput-boolean v0, p0, LX/Fwf;->A0V:Z
 
-    .line 2081418
+    .line 2081439
     move/from16 v0, p34
 
     iput-boolean v0, p0, LX/Fwf;->A0k:Z
 
-    .line 2081419
+    .line 2081440
     move/from16 v0, p35
 
     iput-boolean v0, p0, LX/Fwf;->A0b:Z
 
-    .line 2081420
+    .line 2081441
     move/from16 v0, p36
 
     iput-boolean v0, p0, LX/Fwf;->A0R:Z
 
-    .line 2081421
+    .line 2081442
     move/from16 v0, p37
 
     iput-boolean v0, p0, LX/Fwf;->A0Q:Z
 
-    .line 2081422
+    .line 2081443
     move/from16 v0, p38
 
     iput-boolean v0, p0, LX/Fwf;->A0P:Z
 
-    .line 2081423
+    .line 2081444
     move/from16 v0, p39
 
     iput-boolean v0, p0, LX/Fwf;->A0g:Z
 
-    .line 2081424
+    .line 2081445
     move-object/from16 v0, p16
 
     iput-object v0, p0, LX/Fwf;->A0J:Ljava/util/Map;
 
-    .line 2081425
+    .line 2081446
     iput-object p5, p0, LX/Fwf;->A08:Lcom/instagram/direct/model/messaginguser/MessagingUser;
 
-    .line 2081426
+    .line 2081447
     move-object/from16 v0, p13
 
     iput-object v0, p0, LX/Fwf;->A0I:Ljava/util/List;
 
-    .line 2081427
+    .line 2081448
     iput-object v4, p0, LX/Fwf;->A0H:Ljava/util/List;
 
-    .line 2081428
+    .line 2081449
     iput-object p1, p0, LX/Fwf;->A04:Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S4205000_I1;
 
-    .line 2081429
+    .line 2081450
     move-object/from16 v0, p15
 
     iput-object v0, p0, LX/Fwf;->A0G:Ljava/util/List;
 
-    .line 2081430
+    .line 2081451
     move/from16 v0, p40
 
     iput-boolean v0, p0, LX/Fwf;->A0U:Z
 
-    .line 2081431
+    .line 2081452
     move-object/from16 v0, p12
 
     iput-object v0, p0, LX/Fwf;->A0D:Ljava/lang/String;
 
-    .line 2081432
+    .line 2081453
     iput-object p6, p0, LX/Fwf;->A09:Lcom/instagram/direct/model/thread/CreatorSubscriberThreadInfo;
 
-    .line 2081433
+    .line 2081454
     move/from16 v0, p41
 
     iput-boolean v0, p0, LX/Fwf;->A0W:Z
 
-    .line 2081434
+    .line 2081455
     move/from16 v0, p42
 
     iput-boolean v0, p0, LX/Fwf;->A0Z:Z
 
-    .line 2081435
+    .line 2081456
     move/from16 v0, p43
 
     iput-boolean v0, p0, LX/Fwf;->A0S:Z
 
-    .line 2081436
+    .line 2081457
     move/from16 v0, p44
 
     iput-boolean v0, p0, LX/Fwf;->A0f:Z
 
-    .line 2081437
+    .line 2081458
     iput-object p8, p0, LX/Fwf;->A0A:LX/3wU;
 
-    .line 2081438
+    .line 2081459
     iput v3, p0, LX/Fwf;->A02:I
 
-    .line 2081439
+    .line 2081460
     iput-object p3, p0, LX/Fwf;->A06:LX/3tH;
 
-    .line 2081440
+    .line 2081461
     iput-object p4, p0, LX/Fwf;->A07:LX/HDA;
 
-    .line 2081441
+    .line 2081462
     iput v2, p0, LX/Fwf;->A00:I
 
-    .line 2081442
+    .line 2081463
     const/16 v0, 0x38
 
-    .line 2081443
+    .line 2081464
     invoke-static {p0, v0}, LX/Che;->A0V(Ljava/lang/Object;I)LX/01o;
 
     move-result-object v0
 
-    .line 2081444
+    .line 2081465
     iput-object v0, p0, LX/Fwf;->A0O:LX/01o;
 
-    .line 2081445
+    .line 2081466
     const/16 v0, 0x37
 
-    .line 2081446
+    .line 2081467
     invoke-static {p0, v0}, LX/Che;->A0V(Ljava/lang/Object;I)LX/01o;
 
     move-result-object v0
 
-    .line 2081447
+    .line 2081468
     iput-object v0, p0, LX/Fwf;->A0N:LX/01o;
 
-    .line 2081448
+    .line 2081469
     const/16 v0, 0x36
 
-    .line 2081449
+    .line 2081470
     invoke-static {p0, v0}, LX/Che;->A0V(Ljava/lang/Object;I)LX/01o;
 
     move-result-object v0
 
-    .line 2081450
+    .line 2081471
     iput-object v0, p0, LX/Fwf;->A0M:LX/01o;
 
-    .line 2081451
+    .line 2081472
     const/16 v0, 0x35
 
-    .line 2081452
+    .line 2081473
     invoke-static {p0, v0}, LX/Che;->A0V(Ljava/lang/Object;I)LX/01o;
 
     move-result-object v0
 
-    .line 2081453
+    .line 2081474
     iput-object v0, p0, LX/Fwf;->A0L:LX/01o;
 
-    .line 2081454
+    .line 2081475
     const/16 v0, 0x34
 
-    .line 2081455
+    .line 2081476
     invoke-static {p0, v0}, LX/Che;->A0V(Ljava/lang/Object;I)LX/01o;
 
     move-result-object v0
 
-    .line 2081456
+    .line 2081477
     iput-object v0, p0, LX/Fwf;->A0K:LX/01o;
 
-    .line 2081457
+    .line 2081478
     return-void
 .end method
 

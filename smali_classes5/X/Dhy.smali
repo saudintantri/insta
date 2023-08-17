@@ -153,7 +153,7 @@
 
     .line 20
     .line 21
-    invoke-static {v2}, LX/Chf;->A0n(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
+    invoke-static {v2}, LX/Chf;->A0p(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     .line 22
     .line 23

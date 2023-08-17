@@ -48,28 +48,28 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1075739941
+    .line 1075739962
     const/4 v1, 0x0
 
-    .line 1075739942
+    .line 1075739963
     sget-object v0, LX/Dn6;->A04:LX/Dn6;
 
-    .line 1075739943
+    .line 1075739964
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1075739944
+    .line 1075739965
     iput-object v1, p0, Lcom/instagram/guides/model/GuideItemAttachment;->A03:Lcom/instagram/user/model/User;
 
-    .line 1075739945
+    .line 1075739966
     iput-object v1, p0, Lcom/instagram/guides/model/GuideItemAttachment;->A02:Lcom/instagram/model/simpleplace/SimplePlace;
 
-    .line 1075739946
+    .line 1075739967
     iput-object v1, p0, Lcom/instagram/guides/model/GuideItemAttachment;->A01:Lcom/instagram/model/shopping/ProductContainer;
 
-    .line 1075739947
+    .line 1075739968
     iput-object v0, p0, Lcom/instagram/guides/model/GuideItemAttachment;->A00:LX/Dn6;
 
-    .line 1075739948
+    .line 1075739969
     return-void
 .end method
 
@@ -164,12 +164,12 @@
 
     invoke-static {p1, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 807304453
+    .line 807304474
     iget-object v3, p1, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
     invoke-static {v3}, LX/02K;->A04(Ljava/lang/Object;)V
 
-    .line 807304454
+    .line 807304475
     const/4 v2, 0x0
 
     const/4 v0, 0x2
@@ -180,22 +180,22 @@
 
     sget-object v0, LX/Dn6;->A03:LX/Dn6;
 
-    .line 807304455
+    .line 807304476
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 807304456
+    .line 807304477
     iput-object v2, p0, Lcom/instagram/guides/model/GuideItemAttachment;->A03:Lcom/instagram/user/model/User;
 
-    .line 807304457
+    .line 807304478
     iput-object v2, p0, Lcom/instagram/guides/model/GuideItemAttachment;->A02:Lcom/instagram/model/simpleplace/SimplePlace;
 
-    .line 807304458
+    .line 807304479
     iput-object v1, p0, Lcom/instagram/guides/model/GuideItemAttachment;->A01:Lcom/instagram/model/shopping/ProductContainer;
 
-    .line 807304459
+    .line 807304480
     iput-object v0, p0, Lcom/instagram/guides/model/GuideItemAttachment;->A00:LX/Dn6;
 
-    .line 807304460
+    .line 807304481
     return-void
 .end method
 

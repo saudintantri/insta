@@ -244,7 +244,7 @@
     .line 536871006
     .line 536871007
     .line 536871008
-    invoke-static {p1, v0}, LX/Che;->A01(Landroid/content/Context;I)I
+    invoke-static {p1, v0}, LX/Che;->A02(Landroid/content/Context;I)I
 
     .line 536871009
     .line 536871010

@@ -140,14 +140,14 @@
 
     const/4 v5, 0x1
 
-    .line 2339626
+    .line 2339647
     move-object/from16 v1, p16
 
     move-object/from16 v2, p1
 
     invoke-static {v2, v5, v1}, LX/5We;->A17(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 2339627
+    .line 2339648
     const/16 v0, 0x19
 
     move-object/from16 v4, p15
@@ -166,193 +166,193 @@
 
     invoke-static {v7, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2339628
+    .line 2339649
     move-object/from16 v3, p0
 
     invoke-direct {v3}, Ljava/lang/Object;-><init>()V
 
-    .line 2339629
+    .line 2339650
     iput-object v2, v3, LX/I6M;->A0J:Landroid/content/Context;
 
-    .line 2339630
+    .line 2339651
     move/from16 v2, p18
 
     iput v2, v3, LX/I6M;->A0I:I
 
-    .line 2339631
+    .line 2339652
     iput-object v1, v3, LX/I6M;->A0F:Lcom/instagram/service/session/UserSession;
 
-    .line 2339632
+    .line 2339653
     move/from16 v0, p20
 
     iput-boolean v0, v3, LX/I6M;->A0y:Z
 
-    .line 2339633
+    .line 2339654
     move-object/from16 v0, p2
 
     iput-object v0, v3, LX/I6M;->A0K:LX/0YK;
 
-    .line 2339634
+    .line 2339655
     move-object/from16 v0, p7
 
     iput-object v0, v3, LX/I6M;->A0D:LX/Fh7;
 
-    .line 2339635
+    .line 2339656
     move-object/from16 v0, p8
 
     iput-object v0, v3, LX/I6M;->A0Q:LX/FZg;
 
-    .line 2339636
+    .line 2339657
     move/from16 v0, p19
 
     iput v0, v3, LX/I6M;->A00:I
 
-    .line 2339637
+    .line 2339658
     move/from16 v0, p21
 
     iput-boolean v0, v3, LX/I6M;->A0z:Z
 
-    .line 2339638
+    .line 2339659
     move/from16 v0, p22
 
     iput-boolean v0, v3, LX/I6M;->A0p:Z
 
-    .line 2339639
+    .line 2339660
     move/from16 v0, p23
 
     iput-boolean v0, v3, LX/I6M;->A10:Z
 
-    .line 2339640
+    .line 2339661
     move/from16 v0, p24
 
     iput-boolean v0, v3, LX/I6M;->A0v:Z
 
-    .line 2339641
+    .line 2339662
     move/from16 v0, p25
 
     iput-boolean v0, v3, LX/I6M;->A0r:Z
 
-    .line 2339642
+    .line 2339663
     move/from16 v0, p26
 
     iput-boolean v0, v3, LX/I6M;->A0w:Z
 
-    .line 2339643
+    .line 2339664
     move/from16 v0, p27
 
     iput-boolean v0, v3, LX/I6M;->A0x:Z
 
-    .line 2339644
+    .line 2339665
     move/from16 v0, p28
 
     iput-boolean v0, v3, LX/I6M;->A0B:Z
 
-    .line 2339645
+    .line 2339666
     move/from16 v0, p29
 
     iput-boolean v0, v3, LX/I6M;->A0t:Z
 
-    .line 2339646
+    .line 2339667
     move/from16 v0, p30
 
     iput-boolean v0, v3, LX/I6M;->A0u:Z
 
-    .line 2339647
+    .line 2339668
     move/from16 v0, p31
 
     iput-boolean v0, v3, LX/I6M;->A0q:Z
 
-    .line 2339648
+    .line 2339669
     move/from16 v0, p32
 
     iput-boolean v0, v3, LX/I6M;->A0n:Z
 
-    .line 2339649
+    .line 2339670
     move/from16 v0, p33
 
     iput-boolean v0, v3, LX/I6M;->A0s:Z
 
-    .line 2339650
+    .line 2339671
     move-object/from16 v0, p13
 
     iput-object v0, v3, LX/I6M;->A0f:LX/1M5;
 
-    .line 2339651
+    .line 2339672
     move-object/from16 v0, p14
 
     iput-object v0, v3, LX/I6M;->A0g:LX/1M6;
 
-    .line 2339652
+    .line 2339673
     iput-object v4, v3, LX/I6M;->A0h:LX/3us;
 
-    .line 2339653
+    .line 2339674
     move-object/from16 v0, p3
 
     iput-object v0, v3, LX/I6M;->A0L:LX/FZR;
 
-    .line 2339654
+    .line 2339675
     iput-object v6, v3, LX/I6M;->A0m:Ljava/lang/String;
 
-    .line 2339655
+    .line 2339676
     move-object/from16 v0, p4
 
     iput-object v0, v3, LX/I6M;->A0N:LX/3Bm;
 
-    .line 2339656
+    .line 2339677
     move-object/from16 v0, p9
 
     iput-object v0, v3, LX/I6M;->A0R:LX/FZh;
 
-    .line 2339657
+    .line 2339678
     move-object/from16 v0, p11
 
     iput-object v0, v3, LX/I6M;->A0d:Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;
 
-    .line 2339658
+    .line 2339679
     move-object/from16 v0, p12
 
     iput-object v0, v3, LX/I6M;->A0c:Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;
 
-    .line 2339659
+    .line 2339680
     move-object/from16 v0, p10
 
     iput-object v0, v3, LX/I6M;->A0S:LX/Iko;
 
-    .line 2339660
+    .line 2339681
     move-object/from16 v0, p6
 
     iput-object v0, v3, LX/I6M;->A0P:LX/Ikn;
 
-    .line 2339661
+    .line 2339682
     iput-object v7, v3, LX/I6M;->A0O:LX/F5r;
 
-    .line 2339662
+    .line 2339683
     sget-object v0, LX/11W;->A00:LX/11W;
 
-    .line 2339663
+    .line 2339684
     iput-object v0, v3, LX/I6M;->A08:Ljava/util/List;
 
-    .line 2339664
+    .line 2339685
     if-eqz p18, :cond_4
 
     if-eq v2, v5, :cond_3
 
-    .line 2339665
+    .line 2339686
     sget-object v0, LX/001;->A15:Ljava/lang/Integer;
 
-    .line 2339666
+    .line 2339687
     :goto_0
     iput-object v0, v3, LX/I6M;->A0l:Ljava/lang/Integer;
 
-    .line 2339667
+    .line 2339688
     invoke-static {v1}, LX/FnC;->A1X(Lcom/instagram/service/session/UserSession;)Z
 
     move-result v0
 
-    .line 2339668
+    .line 2339689
     iput-boolean v0, v3, LX/I6M;->A0o:Z
 
-    .line 2339669
+    .line 2339690
     const/4 v7, 0x0
 
     const/16 v16, 0xff
@@ -379,7 +379,7 @@
 
     iput-object v6, v3, LX/I6M;->A0E:LX/HbX;
 
-    .line 2339670
+    .line 2339691
     iget-object v0, v3, LX/I6M;->A0F:Lcom/instagram/service/session/UserSession;
 
     invoke-static {v0}, LX/46B;->A00(Lcom/instagram/service/session/UserSession;)LX/46B;
@@ -388,7 +388,7 @@
 
     iput-object v0, v3, LX/I6M;->A0i:LX/46B;
 
-    .line 2339671
+    .line 2339692
     iget-object v0, v3, LX/I6M;->A0F:Lcom/instagram/service/session/UserSession;
 
     invoke-static {v0}, LX/46A;->A01(Lcom/instagram/service/session/UserSession;)LX/46A;
@@ -399,7 +399,7 @@
 
     iput-object v0, v3, LX/I6M;->A0j:LX/46A;
 
-    .line 2339672
+    .line 2339693
     iget-object v0, v3, LX/I6M;->A0F:Lcom/instagram/service/session/UserSession;
 
     invoke-static {v0}, LX/Ebh;->A02(Lcom/instagram/service/session/UserSession;)Z
@@ -408,26 +408,26 @@
 
     iput-boolean v0, v3, LX/I6M;->A04:Z
 
-    .line 2339673
+    .line 2339694
     iget-object v4, v3, LX/I6M;->A0F:Lcom/instagram/service/session/UserSession;
 
-    .line 2339674
+    .line 2339695
     sget-object v2, LX/0Sq;->A05:LX/0Sq;
 
     const-wide v0, 0x82027e000004acL
 
-    .line 2339675
+    .line 2339696
     invoke-static {v2, v4, v0, v1}, LX/92n;->A06(LX/0Sq;Lcom/instagram/service/session/UserSession;J)J
 
     move-result-wide v1
 
-    .line 2339676
+    .line 2339697
     long-to-int v0, v1
 
-    .line 2339677
+    .line 2339698
     iput v0, v3, LX/I6M;->A0C:I
 
-    .line 2339678
+    .line 2339699
     iget-object v0, v3, LX/I6M;->A0F:Lcom/instagram/service/session/UserSession;
 
     invoke-static {v0}, LX/2aZ;->A00(Lcom/instagram/service/session/UserSession;)LX/2aZ;
@@ -442,7 +442,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 2339679
+    .line 2339700
     iget v2, v3, LX/I6M;->A0C:I
 
     const/4 v1, 0x1
@@ -452,27 +452,27 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2339680
+    .line 2339701
     :cond_1
     iput-boolean v1, v3, LX/I6M;->A0H:Z
 
-    .line 2339681
+    .line 2339702
     invoke-static {}, LX/Chb;->A0l()Ljava/util/LinkedHashSet;
 
     move-result-object v1
 
-    .line 2339682
+    .line 2339703
     iput-object v1, v3, LX/I6M;->A0G:Ljava/util/LinkedHashSet;
 
-    .line 2339683
+    .line 2339704
     sget-object v1, LX/001;->A0C:Ljava/lang/Integer;
 
     iput-object v1, v3, LX/I6M;->A06:Ljava/lang/Integer;
 
-    .line 2339684
+    .line 2339705
     iput-boolean v5, v3, LX/I6M;->A02:Z
 
-    .line 2339685
+    .line 2339706
     iget-object v1, v3, LX/I6M;->A0F:Lcom/instagram/service/session/UserSession;
 
     invoke-static {v1}, LX/4UI;->A00(Lcom/instagram/service/session/UserSession;)LX/4Z0;
@@ -489,84 +489,84 @@
 
     iput-boolean v1, v3, LX/I6M;->A05:Z
 
-    .line 2339686
+    .line 2339707
     new-instance v1, Lcom/facebook/redex/IDxDelegateShape563S0100000_5_I1;
 
     invoke-direct {v1, v3, v5}, Lcom/facebook/redex/IDxDelegateShape563S0100000_5_I1;-><init>(Ljava/lang/Object;I)V
 
     iput-object v1, v3, LX/I6M;->A0e:LX/Imy;
 
-    .line 2339687
+    .line 2339708
     new-instance v1, LX/HCn;
 
     invoke-direct {v1, v3}, LX/HCn;-><init>(LX/I6M;)V
 
     iput-object v1, v3, LX/I6M;->A0a:LX/HCn;
 
-    .line 2339688
+    .line 2339709
     new-instance v1, LX/HCo;
 
     invoke-direct {v1, v3}, LX/HCo;-><init>(LX/I6M;)V
 
     iput-object v1, v3, LX/I6M;->A0b:LX/HCo;
 
-    .line 2339689
+    .line 2339710
     new-instance v1, LX/B2m;
 
     invoke-direct {v1, v3}, LX/B2m;-><init>(LX/I6M;)V
 
     iput-object v1, v3, LX/I6M;->A0X:LX/B2m;
 
-    .line 2339690
+    .line 2339711
     new-instance v1, LX/B2n;
 
     invoke-direct {v1, v3}, LX/B2n;-><init>(LX/I6M;)V
 
     iput-object v1, v3, LX/I6M;->A0Z:LX/B2n;
 
-    .line 2339691
+    .line 2339712
     new-instance v1, LX/HCl;
 
     invoke-direct {v1, v3}, LX/HCl;-><init>(LX/I6M;)V
 
     iput-object v1, v3, LX/I6M;->A0U:LX/HCl;
 
-    .line 2339692
+    .line 2339713
     new-instance v1, LX/HCk;
 
     invoke-direct {v1, v3}, LX/HCk;-><init>(LX/I6M;)V
 
     iput-object v1, v3, LX/I6M;->A0T:LX/HCk;
 
-    .line 2339693
+    .line 2339714
     new-instance v1, LX/I8S;
 
     invoke-direct {v1, v3}, LX/I8S;-><init>(LX/I6M;)V
 
     iput-object v1, v3, LX/I6M;->A0V:LX/I8S;
 
-    .line 2339694
+    .line 2339715
     new-instance v1, LX/HCm;
 
     invoke-direct {v1, v3}, LX/HCm;-><init>(LX/I6M;)V
 
     iput-object v1, v3, LX/I6M;->A0W:LX/HCm;
 
-    .line 2339695
+    .line 2339716
     new-instance v1, Lcom/facebook/redex/IDxDelegateShape401S0100000_5_I1;
 
     invoke-direct {v1, v3, v0}, Lcom/facebook/redex/IDxDelegateShape401S0100000_5_I1;-><init>(Ljava/lang/Object;I)V
 
     iput-object v1, v3, LX/I6M;->A0k:LX/6fA;
 
-    .line 2339696
+    .line 2339717
     new-instance v1, LX/IJk;
 
     invoke-direct {v1, v3}, LX/IJk;-><init>(LX/I6M;)V
 
     iput-object v1, v3, LX/I6M;->A0Y:LX/IJk;
 
-    .line 2339697
+    .line 2339718
     iget-object v1, v3, LX/I6M;->A0F:Lcom/instagram/service/session/UserSession;
 
     invoke-static {v1}, LX/4UI;->A00(Lcom/instagram/service/session/UserSession;)LX/4Z0;
@@ -583,112 +583,112 @@
 
     if-nez v1, :cond_2
 
-    .line 2339698
+    .line 2339719
     iget v0, v3, LX/I6M;->A00:I
 
-    .line 2339699
+    .line 2339720
     :cond_2
     iput v0, v3, LX/I6M;->A00:I
 
-    .line 2339700
+    .line 2339721
     iget-object v0, v3, LX/I6M;->A0J:Landroid/content/Context;
 
     invoke-static {v0}, LX/3Cn;->A00(Landroid/content/Context;)LX/37R;
 
     move-result-object v4
 
-    .line 2339701
+    .line 2339722
     new-instance v0, LX/GZA;
 
     invoke-direct {v0}, LX/GZA;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339702
+    .line 2339723
     new-instance v0, LX/GZB;
 
     invoke-direct {v0}, LX/GZB;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339703
+    .line 2339724
     new-instance v0, LX/GZC;
 
     invoke-direct {v0}, LX/GZC;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339704
+    .line 2339725
     new-instance v0, LX/GZE;
 
     invoke-direct {v0}, LX/GZE;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339705
+    .line 2339726
     new-instance v0, LX/AAQ;
 
     invoke-direct {v0}, LX/AAQ;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339706
+    .line 2339727
     new-instance v0, LX/GZF;
 
     invoke-direct {v0}, LX/GZF;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339707
+    .line 2339728
     new-instance v0, LX/GZM;
 
     invoke-direct {v0}, LX/GZM;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339708
+    .line 2339729
     new-instance v0, LX/DTJ;
 
     invoke-direct {v0}, LX/DTJ;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339709
+    .line 2339730
     new-instance v0, LX/DWc;
 
     invoke-direct {v0}, LX/DWc;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339710
+    .line 2339731
     new-instance v0, LX/DTK;
 
     invoke-direct {v0}, LX/DTK;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339711
+    .line 2339732
     new-instance v0, LX/GZH;
 
     invoke-direct {v0}, LX/GZH;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339712
+    .line 2339733
     new-instance v0, LX/GZI;
 
     invoke-direct {v0}, LX/GZI;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339713
+    .line 2339734
     new-instance v0, LX/GZJ;
 
     invoke-direct {v0}, LX/GZJ;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339714
+    .line 2339735
     iget-object v1, v3, LX/I6M;->A0F:Lcom/instagram/service/session/UserSession;
 
     new-instance v0, LX/GZj;
@@ -697,14 +697,14 @@
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339715
+    .line 2339736
     new-instance v0, LX/GZG;
 
     invoke-direct {v0}, LX/GZG;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339716
+    .line 2339737
     iget-object v2, v3, LX/I6M;->A0l:Ljava/lang/Integer;
 
     iget-object v1, v3, LX/I6M;->A0F:Lcom/instagram/service/session/UserSession;
@@ -715,49 +715,49 @@
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339717
+    .line 2339738
     new-instance v0, LX/GZL;
 
     invoke-direct {v0}, LX/GZL;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339718
+    .line 2339739
     new-instance v0, LX/GZf;
 
     invoke-direct {v0}, LX/GZf;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339719
+    .line 2339740
     new-instance v0, LX/GZK;
 
     invoke-direct {v0}, LX/GZK;-><init>()V
 
     invoke-virtual {v4, v0}, LX/37R;->A01(LX/3IH;)V
 
-    .line 2339720
+    .line 2339741
     new-instance v0, LX/GZD;
 
     invoke-direct {v0}, LX/GZD;-><init>()V
 
-    .line 2339721
+    .line 2339742
     invoke-static {v4, v0}, LX/92m;->A0K(LX/37R;LX/3IH;)LX/3Cn;
 
     move-result-object v0
 
-    .line 2339722
+    .line 2339743
     iput-object v0, v3, LX/I6M;->A0M:LX/3Cn;
 
     return-void
 
-    .line 2339723
+    .line 2339744
     :cond_3
     sget-object v0, LX/001;->A0j:Ljava/lang/Integer;
 
     goto/16 :goto_0
 
-    .line 2339724
+    .line 2339745
     :cond_4
     sget-object v0, LX/001;->A00:Ljava/lang/Integer;
 

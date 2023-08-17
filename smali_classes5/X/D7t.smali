@@ -658,7 +658,7 @@
     move-result-object v0
 
     .line 48
-    invoke-static {v0}, LX/Chf;->A16(Landroid/widget/TextView;)V
+    invoke-static {v0}, LX/Chf;->A17(Landroid/widget/TextView;)V
 
     .line 49
     .line 50
@@ -903,7 +903,7 @@
     move-result v0
 
     .line 112
-    invoke-static {v1, v3, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/widget/ImageView;I)V
+    invoke-static {v1, v3, v0}, LX/Chf;->A0z(Landroid/content/Context;Landroid/widget/ImageView;I)V
 
     .line 113
     .line 114

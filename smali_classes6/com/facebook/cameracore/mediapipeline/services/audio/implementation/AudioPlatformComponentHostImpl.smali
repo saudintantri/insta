@@ -1956,7 +1956,7 @@
 .method public onInputDataAvailable([BIIII)Z
     .locals 12
 
-    .line 270875860
+    .line 270875881
     move/from16 v2, p5
 
     iget-boolean v0, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mIsRecording:Z
@@ -1965,56 +1965,56 @@
 
     if-eqz v0, :cond_0
 
-    .line 270875861
+    .line 270875882
     iget-object v0, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mAudioServiceController:Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioServiceController;
 
     if-nez v0, :cond_1
 
-    .line 270875862
+    .line 270875883
     const-class v1, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;
 
     const-string v0, "Service is already destroyed but buffers are still being pumped through"
 
     invoke-static {v1, v0}, LX/0Li;->A02(Ljava/lang/Class;Ljava/lang/String;)V
 
-    .line 270875863
+    .line 270875884
     :cond_0
     return v4
 
-    .line 270875864
+    .line 270875885
     :cond_1
     if-gez p5, :cond_2
 
-    .line 270875865
+    .line 270875886
     const-class v3, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;
 
-    .line 270875866
+    .line 270875887
     invoke-static {v2}, LX/5We;->A1a(I)[Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 270875867
+    .line 270875888
     const-string v0, "Negative buffer size for input data: %d"
 
     invoke-static {v3, v0, v1}, LX/0Li;->A08(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Object;)V
 
     return v4
 
-    .line 270875868
+    .line 270875889
     :cond_2
     rem-int/lit8 v0, p5, 0x2
 
     if-lez v0, :cond_3
 
-    .line 270875869
+    .line 270875890
     const-class v3, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;
 
-    .line 270875870
+    .line 270875891
     invoke-static {v2}, LX/5We;->A1a(I)[Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 270875871
+    .line 270875892
     const-string v0, "Odd buffer size for input data: %d"
 
     invoke-static {v3, v0, v1}, LX/0Li;->A08(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Object;)V
@@ -2022,21 +2022,21 @@
     :cond_3
     const/4 v6, 0x2
 
-    .line 270875872
+    .line 270875893
     div-int v2, p5, v6
 
     move/from16 v10, p4
 
     div-int v2, v2, p4
 
-    .line 270875873
+    .line 270875894
     iget-object v0, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mMicrophoneSink:Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/MicrophoneSink;
 
     move v8, p2
 
     if-eqz v0, :cond_9
 
-    .line 270875874
+    .line 270875895
     iget-object v3, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mInputSamples:[S
 
     array-length v1, v3
@@ -2047,7 +2047,7 @@
 
     shl-int/lit8 v0, v2, 0x1
 
-    .line 270875875
+    .line 270875896
     new-array v3, v0, [S
 
     iput-object v3, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mInputSamples:[S
@@ -2057,20 +2057,20 @@
 
     mul-int v7, v7, p4
 
-    .line 270875876
+    .line 270875897
     rem-int/lit8 v0, v7, 0x2
 
     const/4 v1, 0x1
 
-    .line 270875877
+    .line 270875898
     invoke-static {v0}, LX/5We;->A1K(I)Z
 
     move-result v0
 
-    .line 270875878
+    .line 270875899
     invoke-static {v0}, LX/0Ks;->A03(Z)V
 
-    .line 270875879
+    .line 270875900
     array-length v0, v3
 
     shr-int/lit8 v5, v7, 0x1
@@ -2082,7 +2082,7 @@
     :cond_5
     invoke-static {v1}, LX/0Ks;->A03(Z)V
 
-    .line 270875880
+    .line 270875901
     invoke-static {p1}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v1
@@ -2101,21 +2101,21 @@
 
     invoke-virtual {v0, v3, v4, v5}, Ljava/nio/ShortBuffer;->get([SII)Ljava/nio/ShortBuffer;
 
-    .line 270875881
+    .line 270875902
     if-ne v10, v6, :cond_7
 
-    .line 270875882
+    .line 270875903
     iget-object v3, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mInputSamples:[S
 
     const/4 v1, 0x0
 
-    .line 270875883
+    .line 270875904
     :goto_0
     if-ge v1, v5, :cond_6
 
     shl-int/lit8 v0, v1, 0x1
 
-    .line 270875884
+    .line 270875905
     aget-short v0, v3, v0
 
     aput-short v0, v3, v1
@@ -2128,14 +2128,14 @@
     :goto_1
     if-ge v5, v7, :cond_7
 
-    .line 270875885
+    .line 270875906
     aput-short v4, v3, v5
 
     add-int/lit8 v5, v5, 0x1
 
     goto :goto_1
 
-    .line 270875886
+    .line 270875907
     :cond_7
     iget-object v0, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mMicrophoneSinkSemaphore:Ljava/util/concurrent/Semaphore;
 
@@ -2145,23 +2145,23 @@
 
     if-eqz v0, :cond_9
 
-    .line 270875887
+    .line 270875908
     iget-object v1, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mMicrophoneSink:Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/MicrophoneSink;
 
     if-eqz v1, :cond_8
 
-    .line 270875888
+    .line 270875909
     iget-object v0, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mInputSamples:[S
 
     invoke-virtual {v1, v0, v2, p2}, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/MicrophoneSink;->write([SII)V
 
-    .line 270875889
+    .line 270875910
     :cond_8
     iget-object v0, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mMicrophoneSinkSemaphore:Ljava/util/concurrent/Semaphore;
 
     invoke-virtual {v0}, Ljava/util/concurrent/Semaphore;->release()V
 
-    .line 270875890
+    .line 270875911
     :cond_9
     iget-object v3, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mRenderCallback:Lcom/facebook/cameracore/mediapipeline/services/audio/interfaces/AudioRenderCallback;
 
@@ -2175,7 +2175,7 @@
 
     invoke-static {v3, v0, v1}, LX/0Ks;->A02(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 270875891
+    .line 270875912
     iget-object v0, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mOutputSamples:[S
 
     array-length v1, v0
@@ -2188,18 +2188,18 @@
 
     mul-int v0, v0, p4
 
-    .line 270875892
+    .line 270875913
     new-array v0, v0, [S
 
     iput-object v0, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mOutputSamples:[S
 
-    .line 270875893
+    .line 270875914
     :cond_a
     iget-object v1, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mAudioServiceController:Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioServiceController;
 
     iget-object v0, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mOutputSamples:[S
 
-    .line 270875894
+    .line 270875915
     invoke-virtual {v1, v0, v2, p2}, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioServiceController;->readCaptureSamples([SII)I
 
     move-result v3
@@ -2208,16 +2208,16 @@
 
     const/4 v0, 0x0
 
-    .line 270875895
+    .line 270875916
     return v0
 
-    .line 270875896
+    .line 270875917
     :cond_b
     shl-int/lit8 v2, v3, 0x1
 
     mul-int v11, v2, p4
 
-    .line 270875897
+    .line 270875918
     iget-object v5, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mOutputBytes:[B
 
     array-length v0, v5
@@ -2226,7 +2226,7 @@
 
     shl-int/lit8 v0, v11, 0x1
 
-    .line 270875898
+    .line 270875919
     new-array v5, v0, [B
 
     iput-object v5, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mOutputBytes:[B
@@ -2234,7 +2234,7 @@
     :cond_c
     if-ne v10, v6, :cond_d
 
-    .line 270875899
+    .line 270875920
     iget-object v1, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mOutputSamples:[S
 
     :goto_2
@@ -2242,7 +2242,7 @@
 
     if-ltz v2, :cond_d
 
-    .line 270875900
+    .line 270875921
     shr-int/lit8 v0, v2, 0x1
 
     aget-short v0, v1, v0
@@ -2251,26 +2251,26 @@
 
     goto :goto_2
 
-    .line 270875901
+    .line 270875922
     :cond_d
     iget-object v2, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mOutputSamples:[S
 
     mul-int v3, v3, p4
 
-    .line 270875902
+    .line 270875923
     array-length v1, v5
 
     shl-int/lit8 v0, v3, 0x1
 
-    .line 270875903
+    .line 270875924
     invoke-static {v1, v0}, LX/Che;->A1W(II)Z
 
     move-result v0
 
-    .line 270875904
+    .line 270875925
     invoke-static {v0}, LX/0Ks;->A03(Z)V
 
-    .line 270875905
+    .line 270875926
     invoke-static {v5}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v1
@@ -2289,7 +2289,7 @@
 
     invoke-virtual {v0, v2, v4, v3}, Ljava/nio/ShortBuffer;->put([SII)Ljava/nio/ShortBuffer;
 
-    .line 270875906
+    .line 270875927
     iget-object v6, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mRenderCallback:Lcom/facebook/cameracore/mediapipeline/services/audio/interfaces/AudioRenderCallback;
 
     iget-object v7, p0, Lcom/facebook/cameracore/mediapipeline/services/audio/implementation/AudioPlatformComponentHostImpl;->mOutputBytes:[B

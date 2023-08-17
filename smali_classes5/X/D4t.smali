@@ -96,7 +96,7 @@
     .line 40
     .line 41
     .line 42
-    invoke-static {v2}, LX/Chf;->A1B(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-static {v2}, LX/Chf;->A1C(Landroidx/recyclerview/widget/RecyclerView;)V
 
     .line 43
     .line 44

@@ -71,7 +71,7 @@
     move-result-object v1
 
     .line 16
-    invoke-static {}, LX/Chf;->A0E()J
+    invoke-static {}, LX/Chf;->A0F()J
 
     .line 17
     .line 18

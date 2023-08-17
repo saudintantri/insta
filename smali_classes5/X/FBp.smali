@@ -37,7 +37,7 @@
 
     .line 1
     .line 2
-    invoke-static {v0}, LX/Chi;->A10(Landroidx/fragment/app/Fragment;)V
+    invoke-static {v0}, LX/Chi;->A12(Landroidx/fragment/app/Fragment;)V
 
     .line 3
     .line 4

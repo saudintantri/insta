@@ -475,7 +475,7 @@
 
     const-string v3, "1"
 
-    .line 271243718
+    .line 271243739
     :cond_0
     and-int/lit8 v7, p8, 0x2
 
@@ -488,7 +488,7 @@
 
     if-eqz v7, :cond_2
 
-    .line 271243719
+    .line 271243740
     const/16 v21, 0x0
 
     const-wide/16 v19, 0x0
@@ -516,16 +516,16 @@
 
     if-eqz v7, :cond_3
 
-    .line 271243720
+    .line 271243741
     sget-object v1, LX/11W;->A00:LX/11W;
 
-    .line 271243721
+    .line 271243742
     :cond_3
     and-int/lit8 v7, p8, 0x10
 
     if-eqz v7, :cond_4
 
-    .line 271243722
+    .line 271243743
     sget-object v6, Lcom/facebook/dcp/model/FeatureSource;->A02:Lcom/facebook/dcp/model/FeatureSource;
 
     :cond_4
@@ -542,7 +542,7 @@
 
     if-eqz v7, :cond_6
 
-    .line 271243723
+    .line 271243744
     new-instance v5, Lcom/facebook/dcp/model/LogLevel;
 
     invoke-direct {v5, v8}, Lcom/facebook/dcp/model/LogLevel;-><init>(I)V
@@ -554,64 +554,64 @@
 
     const-string v7, ""
 
-    .line 271243724
+    .line 271243745
     :goto_0
     invoke-static {v3, v4}, LX/5We;->A1C(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 271243725
+    .line 271243746
     const/4 v0, 0x4
 
-    .line 271243726
+    .line 271243747
     invoke-static {v1, v0, v6}, LX/5We;->A19(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 271243727
+    .line 271243748
     const/4 v0, 0x7
 
-    .line 271243728
+    .line 271243749
     invoke-static {v5, v0, v7}, LX/92n;->A1O(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 271243729
+    .line 271243750
     move-object/from16 v0, p0
 
     invoke-direct {v0}, LX/0SY;-><init>()V
 
-    .line 271243730
+    .line 271243751
     iput-object v3, v0, Lcom/facebook/dcp/model/FeatureMetadata;->A08:Ljava/lang/String;
 
-    .line 271243731
+    .line 271243752
     iput-object v4, v0, Lcom/facebook/dcp/model/FeatureMetadata;->A06:Lcom/facebook/dcp/model/Type;
 
-    .line 271243732
+    .line 271243753
     iput-object v9, v0, Lcom/facebook/dcp/model/FeatureMetadata;->A03:Lcom/facebook/dcp/model/DcpData;
 
-    .line 271243733
+    .line 271243754
     iput-object v1, v0, Lcom/facebook/dcp/model/FeatureMetadata;->A0A:Ljava/util/List;
 
-    .line 271243734
+    .line 271243755
     iput-object v6, v0, Lcom/facebook/dcp/model/FeatureMetadata;->A04:Lcom/facebook/dcp/model/FeatureSource;
 
-    .line 271243735
+    .line 271243756
     iput v2, v0, Lcom/facebook/dcp/model/FeatureMetadata;->A01:I
 
-    .line 271243736
+    .line 271243757
     iput-object v5, v0, Lcom/facebook/dcp/model/FeatureMetadata;->A05:Lcom/facebook/dcp/model/LogLevel;
 
-    .line 271243737
+    .line 271243758
     iput-object v7, v0, Lcom/facebook/dcp/model/FeatureMetadata;->A09:Ljava/lang/String;
 
-    .line 271243738
+    .line 271243759
     iput-object v10, v0, Lcom/facebook/dcp/model/FeatureMetadata;->A00:Ljava/lang/String;
 
-    .line 271243739
+    .line 271243760
     iput-object v10, v0, Lcom/facebook/dcp/model/FeatureMetadata;->A07:Ljava/lang/String;
 
-    .line 271243740
+    .line 271243761
     iput v8, v0, Lcom/facebook/dcp/model/FeatureMetadata;->A02:I
 
-    .line 271243741
+    .line 271243762
     return-void
 
-    .line 271243742
+    .line 271243763
     :cond_7
     move-object v7, v10
 

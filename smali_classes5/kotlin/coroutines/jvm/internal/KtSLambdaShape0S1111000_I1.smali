@@ -1336,7 +1336,7 @@
 
     .line 474
     .line 475
-    invoke-static {v4, v1}, LX/Chg;->A0D(Ljava/lang/Object;I)Lcom/facebook/redex/IDxFCollectorShape156S0100000_4_I1;
+    invoke-static {v4, v1}, LX/Chg;->A0C(Ljava/lang/Object;I)Lcom/facebook/redex/IDxFCollectorShape156S0100000_4_I1;
 
     .line 476
     .line 477

@@ -1100,7 +1100,7 @@
     .line 35
     .line 36
     :goto_0
-    invoke-static {v3}, LX/Chf;->A0M(Landroid/view/View;)Landroid/view/ViewGroup$MarginLayoutParams;
+    invoke-static {v3}, LX/Chf;->A0N(Landroid/view/View;)Landroid/view/ViewGroup$MarginLayoutParams;
 
     .line 37
     .line 38
@@ -1559,7 +1559,7 @@
     move-result-object v1
 
     .line 171
-    const v0, 0x7f07017f
+    const v0, 0x7f070177
 
     .line 172
     .line 173

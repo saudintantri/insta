@@ -120,7 +120,7 @@
     move-result v7
 
     .line 7
-    invoke-static {p0}, LX/Chg;->A0A(Landroidx/fragment/app/Fragment;)Landroidx/compose/ui/platform/ComposeView;
+    invoke-static {p0}, LX/Chg;->A09(Landroidx/fragment/app/Fragment;)Landroidx/compose/ui/platform/ComposeView;
 
     .line 8
     .line 9

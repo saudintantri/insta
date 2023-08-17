@@ -631,7 +631,7 @@
 
     .line 153
     .line 154
-    invoke-static {v6}, LX/Chi;->A0Y(Ljava/lang/Enum;)Ljava/lang/Integer;
+    invoke-static {v6}, LX/Chi;->A0a(Ljava/lang/Enum;)Ljava/lang/Integer;
 
     .line 155
     .line 156
@@ -829,7 +829,7 @@
 
     .line 251
     .line 252
-    invoke-static {v6}, LX/Chi;->A0Y(Ljava/lang/Enum;)Ljava/lang/Integer;
+    invoke-static {v6}, LX/Chi;->A0a(Ljava/lang/Enum;)Ljava/lang/Integer;
 
     .line 253
     .line 254

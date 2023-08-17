@@ -124,7 +124,7 @@
 
     .line 41
     .line 42
-    invoke-static {v6, v2}, LX/Chi;->A1B(LX/0AX;LX/5kj;)V
+    invoke-static {v6, v2}, LX/Chi;->A1C(LX/0AX;LX/5kj;)V
 
     .line 43
     .line 44

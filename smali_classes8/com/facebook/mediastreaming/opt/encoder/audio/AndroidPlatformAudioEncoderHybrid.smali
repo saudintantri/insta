@@ -1126,7 +1126,6 @@
     invoke-virtual {v6}, Landroid/media/MediaCodec;->release()V
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_2
-    .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_3
 
     .line 502
     .line 503

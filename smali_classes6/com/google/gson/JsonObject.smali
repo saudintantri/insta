@@ -126,7 +126,7 @@
 .method public addProperty(Ljava/lang/String;Ljava/lang/Character;)V
     .locals 1
 
-    .line 807748877
+    .line 807748898
     invoke-direct {p0, p2}, Lcom/google/gson/JsonObject;->createJsonElement(Ljava/lang/Object;)Lcom/google/gson/JsonElement;
 
     move-result-object v0

@@ -273,7 +273,7 @@
     .line 22
     .line 23
     .line 24
-    const v0, 0x7f070114
+    const v0, 0x7f07010e
 
     .line 25
     .line 26

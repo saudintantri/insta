@@ -2258,7 +2258,7 @@
     .line 1115
     .line 1116
     .line 1117
-    invoke-static {}, LX/Chf;->A0F()J
+    invoke-static {}, LX/Chf;->A0G()J
 
     .line 1118
     .line 1119

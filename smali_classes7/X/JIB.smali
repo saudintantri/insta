@@ -3580,7 +3580,7 @@
 
     .line 1704
     :cond_30
-    invoke-static {v0}, LX/Chf;->A0O(Landroid/view/View;)LX/2gw;
+    invoke-static {v0}, LX/Chf;->A0P(Landroid/view/View;)LX/2gw;
 
     .line 1705
     .line 1706
@@ -11226,7 +11226,7 @@
 
     .line 3739
     :cond_98
-    invoke-static {v0}, LX/Chf;->A0O(Landroid/view/View;)LX/2gw;
+    invoke-static {v0}, LX/Chf;->A0P(Landroid/view/View;)LX/2gw;
 
     .line 3740
     .line 3741

@@ -163,7 +163,7 @@
 .method private final A01(LX/Ipw;DDDDDDDZZ)V
     .locals 47
 
-    .line 2874757
+    .line 2874778
     move-wide/from16 v12, p4
 
     move-wide/from16 v14, p2
@@ -174,19 +174,19 @@
 
     int-to-double v0, v0
 
-    .line 2874758
+    .line 2874779
     div-double v2, p14, v0
 
     const-wide v28, 0x400921fb54442d18L    # Math.PI
 
     mul-double v2, v2, v28
 
-    .line 2874759
+    .line 2874780
     invoke-static {v2, v3}, Ljava/lang/Math;->cos(D)D
 
     move-result-wide v41
 
-    .line 2874760
+    .line 2874781
     invoke-static {v2, v3}, Ljava/lang/Math;->sin(D)D
 
     move-result-wide v39
@@ -243,12 +243,12 @@
 
     move-wide/from16 v45, v2
 
-    .line 2874761
+    .line 2874782
     div-double v43, v43, v2
 
     add-double v22, v4, v0
 
-    .line 2874762
+    .line 2874783
     div-double v22, v22, v2
 
     mul-double v20, v26, v26
@@ -279,7 +279,7 @@
 
     if-gez v2, :cond_1
 
-    .line 2874763
+    .line 2874784
     invoke-static/range {v20 .. v21}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v0
@@ -292,22 +292,22 @@
 
     float-to-double v0, v2
 
-    .line 2874764
+    .line 2874785
     mul-double v10, p10, v0
 
-    .line 2874765
+    .line 2874786
     mul-double p12, p12, v0
 
-    .line 2874766
+    .line 2874787
     move-wide/from16 p10, v10
 
     invoke-direct/range {p0 .. p17}, LX/MxV;->A01(LX/Ipw;DDDDDDDZZ)V
 
-    .line 2874767
+    .line 2874788
     :cond_0
     return-void
 
-    .line 2874768
+    .line 2874789
     :cond_1
     invoke-static/range {v16 .. v17}, Ljava/lang/Math;->sqrt(D)D
 
@@ -332,7 +332,7 @@
 
     sub-double v8, v8, v43
 
-    .line 2874769
+    .line 2874790
     invoke-static {v4, v5, v8, v9}, Ljava/lang/Math;->atan2(DD)D
 
     move-result-wide v20
@@ -341,7 +341,7 @@
 
     sub-double v6, v6, v43
 
-    .line 2874770
+    .line 2874791
     invoke-static {v0, v1, v6, v7}, Ljava/lang/Math;->atan2(DD)D
 
     move-result-wide v37
@@ -350,12 +350,12 @@
 
     cmpl-double v0, v37, v18
 
-    .line 2874771
+    .line 2874792
     invoke-static {v0}, LX/FnC;->A1R(I)Z
 
     move-result v1
 
-    .line 2874772
+    .line 2874793
     if-eq v2, v1, :cond_2
 
     const-wide v1, 0x401921fb54442d18L    # 6.283185307179586
@@ -384,12 +384,12 @@
 
     add-double v43, v43, v22
 
-    .line 2874773
+    .line 2874794
     const/4 v0, 0x4
 
     int-to-double v8, v0
 
-    .line 2874774
+    .line 2874795
     mul-double v0, v37, v8
 
     div-double v0, v0, v28
@@ -406,12 +406,12 @@
 
     move/from16 p2, v2
 
-    .line 2874775
+    .line 2874796
     invoke-static/range {v20 .. v21}, Ljava/lang/Math;->cos(D)D
 
     move-result-wide v2
 
-    .line 2874776
+    .line 2874797
     invoke-static/range {v20 .. v21}, Ljava/lang/Math;->sin(D)D
 
     move-result-wide v33
@@ -442,7 +442,7 @@
 
     int-to-double v0, v0
 
-    .line 2874777
+    .line 2874798
     div-double v37, v37, v0
 
     const/16 v28, 0x0
@@ -456,12 +456,12 @@
 
     add-double v26, v20, v37
 
-    .line 2874778
+    .line 2874799
     invoke-static/range {v26 .. v27}, Ljava/lang/Math;->sin(D)D
 
     move-result-wide v24
 
-    .line 2874779
+    .line 2874800
     invoke-static/range {v26 .. v27}, Ljava/lang/Math;->cos(D)D
 
     move-result-wide v16
@@ -500,14 +500,14 @@
 
     sub-double v16, v26, v20
 
-    .line 2874780
+    .line 2874801
     div-double v0, v16, v45
 
     invoke-static {v0, v1}, Ljava/lang/Math;->tan(D)D
 
     move-result-wide v0
 
-    .line 2874781
+    .line 2874802
     invoke-static/range {v16 .. v17}, Ljava/lang/Math;->sin(D)D
 
     move-result-wide v20
@@ -576,12 +576,12 @@
 
     double-to-float v1, v2
 
-    .line 2874782
+    .line 2874803
     move-object/from16 v0, p1
 
     check-cast v0, LX/HqD;
 
-    .line 2874783
+    .line 2874804
     iget-object v0, v0, LX/HqD;->A01:Landroid/graphics/Path;
 
     move-object v14, v0
@@ -598,7 +598,7 @@
 
     invoke-virtual/range {v14 .. v20}, Landroid/graphics/Path;->cubicTo(FFFFFF)V
 
-    .line 2874784
+    .line 2874805
     add-int/lit8 v28, v28, 0x1
 
     move-wide v12, v2
@@ -613,13 +613,13 @@
 
     goto/16 :goto_2
 
-    .line 2874785
+    .line 2874806
     :cond_3
     add-double v37, v37, v1
 
     goto/16 :goto_1
 
-    .line 2874786
+    .line 2874807
     :cond_4
     add-double v43, v43, v16
 

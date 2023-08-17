@@ -21,7 +21,7 @@
     rem-float/2addr p1, v0
 
     .line 5
-    invoke-static {p0, p1}, LX/Chg;->A03(FF)F
+    invoke-static {p0, p1}, LX/Chh;->A00(FF)F
 
     .line 6
     .line 7
@@ -99,7 +99,7 @@
 
     .line 5
     .line 6
-    invoke-static {p2, v5}, LX/Chg;->A03(FF)F
+    invoke-static {p2, v5}, LX/Chh;->A00(FF)F
 
     .line 7
     .line 8

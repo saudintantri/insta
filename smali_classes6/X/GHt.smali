@@ -107,135 +107,135 @@
 
     if-eqz v1, :cond_0
 
-    .line 270876121
+    .line 270876142
     invoke-static/range {v17 .. v17}, LX/GPe;->A00(I)LX/GPe;
 
     move-result-object v4
 
-    .line 270876122
+    .line 270876143
     :cond_0
     and-int/lit8 v1, p11, 0x2
 
     if-eqz v1, :cond_1
 
-    .line 270876123
+    .line 270876144
     invoke-static/range {v17 .. v17}, LX/GPe;->A00(I)LX/GPe;
 
     move-result-object v5
 
-    .line 270876124
+    .line 270876145
     :cond_1
     and-int/lit8 v1, p11, 0x4
 
     if-eqz v1, :cond_2
 
-    .line 270876125
+    .line 270876146
     invoke-static/range {v17 .. v17}, LX/GPe;->A00(I)LX/GPe;
 
     move-result-object v6
 
-    .line 270876126
+    .line 270876147
     :cond_2
     and-int/lit8 v1, p11, 0x8
 
     if-eqz v1, :cond_3
 
-    .line 270876127
+    .line 270876148
     invoke-static/range {v17 .. v17}, LX/GPe;->A00(I)LX/GPe;
 
     move-result-object v7
 
-    .line 270876128
+    .line 270876149
     :cond_3
     and-int/lit8 v1, p11, 0x10
 
     if-eqz v1, :cond_4
 
-    .line 270876129
+    .line 270876150
     invoke-static/range {v17 .. v17}, LX/GPe;->A00(I)LX/GPe;
 
     move-result-object v8
 
-    .line 270876130
+    .line 270876151
     :cond_4
     and-int/lit8 v1, p11, 0x20
 
     if-eqz v1, :cond_5
 
-    .line 270876131
+    .line 270876152
     invoke-static/range {v17 .. v17}, LX/GPe;->A00(I)LX/GPe;
 
     move-result-object v9
 
-    .line 270876132
+    .line 270876153
     :cond_5
     and-int/lit8 v1, p11, 0x40
 
     if-eqz v1, :cond_6
 
-    .line 270876133
+    .line 270876154
     invoke-static/range {v17 .. v17}, LX/GPe;->A00(I)LX/GPe;
 
     move-result-object v10
 
-    .line 270876134
+    .line 270876155
     :cond_6
     and-int/lit16 v1, v0, 0x80
 
     if-eqz v1, :cond_7
 
-    .line 270876135
+    .line 270876156
     invoke-static/range {v17 .. v17}, LX/GPe;->A00(I)LX/GPe;
 
     move-result-object v11
 
-    .line 270876136
+    .line 270876157
     :cond_7
     and-int/lit16 v1, v0, 0x100
 
-    .line 270876137
+    .line 270876158
     move/from16 v2, p12
 
     invoke-static {v1, v2}, LX/Chc;->A1a(IZ)Z
 
     move-result v13
 
-    .line 270876138
+    .line 270876159
     and-int/lit16 v1, v0, 0x200
 
-    .line 270876139
+    .line 270876160
     move/from16 v2, p13
 
     invoke-static {v1, v2}, LX/Chc;->A1a(IZ)Z
 
     move-result v14
 
-    .line 270876140
+    .line 270876161
     and-int/lit16 v1, v0, 0x400
 
-    .line 270876141
+    .line 270876162
     move/from16 v2, p14
 
     invoke-static {v1, v2}, LX/Chc;->A1a(IZ)Z
 
     move-result v15
 
-    .line 270876142
+    .line 270876163
     and-int/lit16 v1, v0, 0x800
 
-    .line 270876143
+    .line 270876164
     move/from16 v2, p15
 
     invoke-static {v1, v2}, LX/Chc;->A1a(IZ)Z
 
     move-result v16
 
-    .line 270876144
+    .line 270876165
     and-int/lit16 v1, v0, 0x2000
 
     if-eqz v1, :cond_8
 
-    .line 270876145
+    .line 270876166
     sget-object v3, Lcom/facebook/rtc/views/omnigrid/GridSelfViewLocation;->TOP_RIGHT:Lcom/facebook/rtc/views/omnigrid/GridSelfViewLocation;
 
     :cond_8
@@ -245,7 +245,7 @@
 
     const/4 v12, 0x0
 
-    .line 270876146
+    .line 270876167
     :cond_9
     move-object/from16 v2, p0
 

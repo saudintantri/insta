@@ -368,7 +368,7 @@
     move-result v12
 
     .line 180
-    const v0, 0x7f0700bf
+    const v0, 0x7f0700be
 
     .line 181
     .line 182
@@ -381,7 +381,7 @@
     move-result v13
 
     .line 187
-    const v0, 0x7f0700c0
+    const v0, 0x7f0700bf
 
     .line 188
     .line 189

@@ -49,17 +49,17 @@
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 2
 
-    .line 539681559
+    .line 539681580
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 539681560
+    .line 539681581
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-static {v1}, LX/0yH;->A08(Ljava/lang/Object;)V
 
-    .line 539681561
+    .line 539681582
     const-string v0, "MIN_LENGTH"
 
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -70,13 +70,13 @@
 
     sget-object v0, LX/001;->A00:Ljava/lang/Integer;
 
-    .line 539681562
+    .line 539681583
     :goto_0
     invoke-static {v0}, LX/0yH;->A08(Ljava/lang/Object;)V
 
     iput-object v0, p0, Lcom/facebookpay/form/cell/text/TextValidatorParams;->A02:Ljava/lang/Integer;
 
-    .line 539681563
+    .line 539681584
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
@@ -85,21 +85,21 @@
 
     iput-object v0, p0, Lcom/facebookpay/form/cell/text/TextValidatorParams;->A04:Ljava/lang/String;
 
-    .line 539681564
+    .line 539681585
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/facebookpay/form/cell/text/TextValidatorParams;->A03:Ljava/lang/String;
 
-    .line 539681565
+    .line 539681586
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/facebookpay/form/cell/text/TextValidatorParams;->A01:I
 
-    .line 539681566
+    .line 539681587
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
@@ -108,7 +108,7 @@
 
     return-void
 
-    .line 539681567
+    .line 539681588
     :cond_0
     const-string v0, "MAX_LENGTH"
 
@@ -226,13 +226,13 @@
 
     goto/16 :goto_0
 
-    .line 539681568
+    .line 539681589
     :cond_9
     invoke-static {v1}, LX/5Wd;->A0b(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;
 
     move-result-object v0
 
-    .line 539681569
+    .line 539681590
     throw v0
 .end method
 

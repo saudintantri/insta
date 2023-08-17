@@ -868,7 +868,6 @@
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_0
     .catch Ljava/lang/IllegalStateException; {:try_start_3 .. :try_end_3} :catch_0
-    .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_2
 
     .line 377
     :catch_0
@@ -943,7 +942,6 @@
     :try_end_5
     .catch Ljava/lang/IllegalStateException; {:try_start_5 .. :try_end_5} :catch_1
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_1
-    .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_2
 
     .line 410
     .line 411
@@ -1632,7 +1630,6 @@
     :try_end_b
     .catch Ljava/lang/IllegalStateException; {:try_start_b .. :try_end_b} :catch_1
     .catch Ljava/io/IOException; {:try_start_b .. :try_end_b} :catch_1
-    .catch Ljava/io/IOException; {:try_start_b .. :try_end_b} :catch_2
 
     .line 741
     :catch_1

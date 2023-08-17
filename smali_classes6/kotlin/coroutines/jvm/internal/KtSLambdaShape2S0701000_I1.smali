@@ -215,7 +215,7 @@
 .method public constructor <init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;LX/1Br;I)V
     .locals 1
 
-    .line 807748784
+    .line 807748805
     iput p9, p0, Lkotlin/coroutines/jvm/internal/KtSLambdaShape2S0701000_I1;->A08:I
 
     iput-object p1, p0, Lkotlin/coroutines/jvm/internal/KtSLambdaShape2S0701000_I1;->A06:Ljava/lang/Object;
@@ -704,7 +704,7 @@
 
     .line 40
     .line 41
-    invoke-static {v1}, LX/Chh;->A0P(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
+    invoke-static {v1}, LX/Chh;->A0Q(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
 
     .line 42
     .line 43

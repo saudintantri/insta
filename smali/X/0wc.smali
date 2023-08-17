@@ -893,7 +893,6 @@
     goto :goto_5
     :try_end_8
     .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_0
-    .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_11
     .catchall {:try_start_8 .. :try_end_8} :catchall_6
 
     .line 387
@@ -905,7 +904,6 @@
     invoke-virtual {v13}, Ljava/net/Socket;->close()V
     :try_end_9
     .catch Ljava/io/IOException; {:try_start_9 .. :try_end_9} :catch_1
-    .catch Ljava/io/IOException; {:try_start_9 .. :try_end_9} :catch_11
     .catchall {:try_start_9 .. :try_end_9} :catchall_6
 
     .line 389
@@ -1079,7 +1077,6 @@
     invoke-virtual {v9}, Ljava/net/Socket;->close()V
     :try_end_f
     .catch Ljava/io/IOException; {:try_start_f .. :try_end_f} :catch_3
-    .catch Ljava/io/IOException; {:try_start_f .. :try_end_f} :catch_11
     .catchall {:try_start_f .. :try_end_f} :catchall_6
 
     .line 459
@@ -2118,7 +2115,6 @@
     invoke-static {v0, v1, v7}, LX/0mE;->A01(LX/0mE;LX/0xQ;LX/0xn;)V
     :try_end_1d
     .catch Ljava/io/IOException; {:try_start_1d .. :try_end_1d} :catch_b
-    .catch Ljava/io/IOException; {:try_start_1d .. :try_end_1d} :catch_d
     .catchall {:try_start_1d .. :try_end_1d} :catchall_3
 
     .line 954
@@ -2136,7 +2132,6 @@
     .catch Ljava/io/IOException; {:try_start_1e .. :try_end_1e} :catch_9
     .catch Lorg/json/JSONException; {:try_start_1e .. :try_end_1e} :catch_8
     .catch Ljava/util/zip/DataFormatException; {:try_start_1e .. :try_end_1e} :catch_c
-    .catch Ljava/io/IOException; {:try_start_1e .. :try_end_1e} :catch_d
     .catchall {:try_start_1e .. :try_end_1e} :catchall_3
 
     .line 960

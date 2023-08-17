@@ -1302,7 +1302,7 @@
 
     .line 628
     .line 629
-    invoke-static {v1}, LX/Chf;->A0e(Ljava/util/Iterator;)Ljava/lang/Object;
+    invoke-static {v1}, LX/Chf;->A0g(Ljava/util/Iterator;)Ljava/lang/Object;
 
     .line 630
     .line 631

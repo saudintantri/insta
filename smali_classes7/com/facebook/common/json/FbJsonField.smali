@@ -169,104 +169,104 @@
 .method public static jsonField(Ljava/lang/reflect/Field;Ljava/lang/Class;LX/CSd;)Lcom/facebook/common/json/FbJsonField;
     .locals 3
 
-    .line 1076553163
+    .line 1076553184
     invoke-virtual {p0}, Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
 
     move-result-object v2
 
-    .line 1076553164
+    .line 1076553185
     const-class v0, Ljava/lang/String;
 
     const/4 v1, 0x0
 
     if-ne v2, v0, :cond_0
 
-    .line 1076553165
+    .line 1076553186
     new-instance v0, Lcom/facebook/common/json/FbJsonField$StringJsonField;
 
     invoke-direct {v0, p0, v1}, Lcom/facebook/common/json/FbJsonField$StringJsonField;-><init>(Ljava/lang/reflect/Field;Ljava/lang/reflect/Method;)V
 
     return-object v0
 
-    .line 1076553166
+    .line 1076553187
     :cond_0
     sget-object v0, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     if-ne v2, v0, :cond_1
 
-    .line 1076553167
+    .line 1076553188
     new-instance v0, Lcom/facebook/common/json/FbJsonField$IntJsonField;
 
     invoke-direct {v0, p0, v1}, Lcom/facebook/common/json/FbJsonField$IntJsonField;-><init>(Ljava/lang/reflect/Field;Ljava/lang/reflect/Method;)V
 
     return-object v0
 
-    .line 1076553168
+    .line 1076553189
     :cond_1
     sget-object v0, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
 
     if-ne v2, v0, :cond_2
 
-    .line 1076553169
+    .line 1076553190
     new-instance v0, Lcom/facebook/common/json/FbJsonField$LongJsonField;
 
     invoke-direct {v0, p0, v1}, Lcom/facebook/common/json/FbJsonField$LongJsonField;-><init>(Ljava/lang/reflect/Field;Ljava/lang/reflect/Method;)V
 
     return-object v0
 
-    .line 1076553170
+    .line 1076553191
     :cond_2
     sget-object v0, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
     if-ne v2, v0, :cond_3
 
-    .line 1076553171
+    .line 1076553192
     new-instance v0, Lcom/facebook/common/json/FbJsonField$BoolJsonField;
 
     invoke-direct {v0, p0, v1}, Lcom/facebook/common/json/FbJsonField$BoolJsonField;-><init>(Ljava/lang/reflect/Field;Ljava/lang/reflect/Method;)V
 
     return-object v0
 
-    .line 1076553172
+    .line 1076553193
     :cond_3
     sget-object v0, Ljava/lang/Float;->TYPE:Ljava/lang/Class;
 
     if-ne v2, v0, :cond_4
 
-    .line 1076553173
+    .line 1076553194
     new-instance v0, Lcom/facebook/common/json/FbJsonField$FloatJsonField;
 
     invoke-direct {v0, p0, v1}, Lcom/facebook/common/json/FbJsonField$FloatJsonField;-><init>(Ljava/lang/reflect/Field;Ljava/lang/reflect/Method;)V
 
     return-object v0
 
-    .line 1076553174
+    .line 1076553195
     :cond_4
     sget-object v0, Ljava/lang/Double;->TYPE:Ljava/lang/Class;
 
     if-ne v2, v0, :cond_5
 
-    .line 1076553175
+    .line 1076553196
     new-instance v0, Lcom/facebook/common/json/FbJsonField$DoubleJsonField;
 
     invoke-direct {v0, p0, v1}, Lcom/facebook/common/json/FbJsonField$DoubleJsonField;-><init>(Ljava/lang/reflect/Field;Ljava/lang/reflect/Method;)V
 
     return-object v0
 
-    .line 1076553176
+    .line 1076553197
     :cond_5
     const-class v0, Lcom/google/common/collect/ImmutableList;
 
     if-ne v2, v0, :cond_6
 
-    .line 1076553177
+    .line 1076553198
     new-instance v0, Lcom/facebook/common/json/FbJsonField$ImmutableListJsonField;
 
     invoke-direct {v0, p2, p1, p0, v1}, Lcom/facebook/common/json/FbJsonField$ImmutableListJsonField;-><init>(LX/CSd;Ljava/lang/Class;Ljava/lang/reflect/Field;Ljava/lang/reflect/Method;)V
 
     return-object v0
 
-    .line 1076553178
+    .line 1076553199
     :cond_6
     const-class v0, Ljava/util/List;
 
@@ -276,14 +276,14 @@
 
     if-eq v2, v0, :cond_7
 
-    .line 1076553179
+    .line 1076553200
     new-instance v0, Lcom/facebook/common/json/FbJsonField$BeanJsonField;
 
     invoke-direct {v0, p0, v1}, Lcom/facebook/common/json/FbJsonField$BeanJsonField;-><init>(Ljava/lang/reflect/Field;Ljava/lang/reflect/Method;)V
 
     return-object v0
 
-    .line 1076553180
+    .line 1076553201
     :cond_7
     new-instance v0, Lcom/facebook/common/json/FbJsonField$ListJsonField;
 

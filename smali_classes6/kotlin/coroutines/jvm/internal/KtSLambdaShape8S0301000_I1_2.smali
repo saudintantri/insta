@@ -971,7 +971,7 @@
 
     .line 132
     .line 133
-    invoke-static {v0}, LX/Chh;->A0P(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
+    invoke-static {v0}, LX/Chh;->A0Q(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
 
     .line 134
     .line 135
@@ -1275,7 +1275,7 @@
 
     .line 281
     .line 282
-    invoke-static {v0}, LX/Chh;->A0P(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
+    invoke-static {v0}, LX/Chh;->A0Q(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
 
     .line 283
     .line 284
@@ -2616,7 +2616,7 @@
 
     .line 956
     .line 957
-    invoke-static {v0}, LX/Chh;->A0P(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
+    invoke-static {v0}, LX/Chh;->A0Q(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
 
     .line 958
     .line 959

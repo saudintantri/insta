@@ -1220,7 +1220,7 @@
 
     .line 524
     .line 525
-    invoke-static {v0, v1}, LX/Chi;->A0z(Landroid/widget/TextView;F)V
+    invoke-static {v0, v1}, LX/Chi;->A11(Landroid/widget/TextView;F)V
 
     .line 526
     .line 527

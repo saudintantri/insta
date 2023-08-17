@@ -10952,7 +10952,7 @@
     .line 4441
     .line 4442
     :cond_64
-    invoke-static {}, LX/Chg;->A0v()LX/8xM;
+    invoke-static {}, LX/Chg;->A0u()LX/8xM;
 
     .line 4443
     .line 4444

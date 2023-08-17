@@ -574,7 +574,7 @@
 
     .line 154
     .line 155
-    invoke-static {v3, v1}, LX/Che;->A0H(Ljava/util/List;I)LX/1M5;
+    invoke-static {v3, v1}, LX/Che;->A0I(Ljava/util/List;I)LX/1M5;
 
     .line 156
     .line 157

@@ -67,7 +67,7 @@
 
     .line 15
     .line 16
-    invoke-static {v9}, LX/Chf;->A0e(Ljava/util/Iterator;)Ljava/lang/Object;
+    invoke-static {v9}, LX/Chf;->A0g(Ljava/util/Iterator;)Ljava/lang/Object;
 
     .line 17
     .line 18

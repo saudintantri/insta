@@ -427,7 +427,7 @@
 .method public static native libjavamemtracking900_so()I
 .end method
 
-.method public static native libjni_mcpintegration_mcp_integration_inst_1102327479PluginRegistry_so()I
+.method public static native libjni_mcpintegration_mcp_integration_inst813427447PluginRegistry_so()I
 .end method
 
 .method public static native libjniexecutors_so()I

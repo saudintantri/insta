@@ -113,7 +113,7 @@
 
     .line 44
     .line 45
-    invoke-static {v8}, LX/Che;->A0D(Lcom/instagram/service/session/UserSession;)LX/38H;
+    invoke-static {v8}, LX/Che;->A0E(Lcom/instagram/service/session/UserSession;)LX/38H;
 
     .line 46
     .line 47
@@ -150,7 +150,7 @@
 
     .line 63
     .line 64
-    invoke-static {v8}, LX/Che;->A0D(Lcom/instagram/service/session/UserSession;)LX/38H;
+    invoke-static {v8}, LX/Che;->A0E(Lcom/instagram/service/session/UserSession;)LX/38H;
 
     .line 65
     .line 66

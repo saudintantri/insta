@@ -332,30 +332,30 @@
 
     const/4 v3, 0x0
 
-    .line 271340298
+    .line 271340319
     invoke-static {p0}, LX/5We;->A1U(Ljava/lang/Object;)Z
 
     move-result v2
 
-    .line 271340299
+    .line 271340320
     new-array v1, v3, [Ljava/lang/Object;
 
     const-string v0, "Data buffer must be not null"
 
-    .line 271340300
+    .line 271340321
     invoke-static {v2, v0, v1}, Lorg/pytorch/Tensor;->checkArgument(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 271340301
+    .line 271340322
     invoke-static {p1}, Lorg/pytorch/Tensor;->checkShape([J)V
 
-    .line 271340302
+    .line 271340323
     invoke-virtual {p0}, Ljava/nio/Buffer;->capacity()I
 
     move-result v0
 
     invoke-static {v0, p1}, Lorg/pytorch/Tensor;->checkShapeAndDataCapacityConsistency(I[J)V
 
-    .line 271340303
+    .line 271340324
     invoke-virtual {p0}, Ljava/nio/Buffer;->isDirect()Z
 
     move-result v2
@@ -366,7 +366,7 @@
 
     invoke-static {v2, v0, v1}, Lorg/pytorch/Tensor;->checkArgument(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 271340304
+    .line 271340325
     invoke-virtual {p0}, Ljava/nio/FloatBuffer;->order()Ljava/nio/ByteOrder;
 
     move-result-object v1
@@ -384,10 +384,10 @@
 
     const-string v0, "Data buffer must have native byte order (java.nio.ByteOrder#nativeOrder)"
 
-    .line 271340305
+    .line 271340326
     invoke-static {v4, v0, v1}, Lorg/pytorch/Tensor;->checkArgument(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 271340306
+    .line 271340327
     new-instance v0, LX/MJZ;
 
     invoke-direct {v0, p0, p2, p1}, LX/MJZ;-><init>(Ljava/nio/FloatBuffer;LX/MJb;[J)V
@@ -527,21 +527,21 @@
 .method public static fromBlob([J[J)Lorg/pytorch/Tensor;
     .locals 8
 
-    .line 539776613
+    .line 539776634
     sget-object v4, LX/MJb;->A04:LX/MJb;
 
-    .line 539776614
+    .line 539776635
     invoke-static {p1}, Lorg/pytorch/Tensor;->checkShape([J)V
 
-    .line 539776615
+    .line 539776636
     array-length v0, p0
 
     invoke-static {v0, p1}, Lorg/pytorch/Tensor;->checkShapeAndDataCapacityConsistency(I[J)V
 
-    .line 539776616
+    .line 539776637
     invoke-static {p1}, Lorg/pytorch/Tensor;->checkShape([J)V
 
-    .line 539776617
+    .line 539776638
     array-length v7, p1
 
     const/4 v6, 0x1
@@ -566,17 +566,17 @@
     :cond_0
     int-to-long v1, v6
 
-    .line 539776618
+    .line 539776639
     long-to-int v0, v1
 
     shl-int/lit8 v0, v0, 0x3
 
-    .line 539776619
+    .line 539776640
     invoke-static {v0}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     move-result-object v1
 
-    .line 539776620
+    .line 539776641
     invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
 
     move-result-object v0
@@ -585,21 +585,21 @@
 
     move-result-object v0
 
-    .line 539776621
+    .line 539776642
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->asLongBuffer()Ljava/nio/LongBuffer;
 
     move-result-object v1
 
-    .line 539776622
+    .line 539776643
     invoke-virtual {v1, p0}, Ljava/nio/LongBuffer;->put([J)Ljava/nio/LongBuffer;
 
-    .line 539776623
+    .line 539776644
     new-instance v0, LX/NEO;
 
-    .line 539776624
+    .line 539776645
     invoke-direct {v0, v1, v4, p1}, LX/NEO;-><init>(Ljava/nio/LongBuffer;LX/MJb;[J)V
 
-    .line 539776625
+    .line 539776646
     return-object v0
 .end method
 

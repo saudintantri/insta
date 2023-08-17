@@ -187,25 +187,25 @@
 
     const/4 v0, 0x4
 
-    .line 1344175496
+    .line 1344175517
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S2110000_I1;->A04:I
 
-    .line 1344175497
+    .line 1344175518
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1344175498
+    .line 1344175519
     iput-boolean p4, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S2110000_I1;->A03:Z
 
-    .line 1344175499
+    .line 1344175520
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S2110000_I1;->A01:Ljava/lang/String;
 
-    .line 1344175500
+    .line 1344175521
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S2110000_I1;->A02:Ljava/lang/String;
 
-    .line 1344175501
+    .line 1344175522
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S2110000_I1;->A00:Ljava/lang/Object;
 
-    .line 1344175502
+    .line 1344175523
     return-void
 .end method
 

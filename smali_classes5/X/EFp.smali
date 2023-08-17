@@ -24,7 +24,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p2}, LX/Che;->A0D(Lcom/instagram/service/session/UserSession;)LX/38H;
+    invoke-static {p2}, LX/Che;->A0E(Lcom/instagram/service/session/UserSession;)LX/38H;
 
     .line 5
     .line 6

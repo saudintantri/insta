@@ -1004,7 +1004,6 @@
     invoke-direct/range {v18 .. v23}, Landroid/media/AudioRecord;-><init>(IIIII)V
     :try_end_1
     .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_1
 
     .line 100
     .line 101

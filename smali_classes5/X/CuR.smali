@@ -107,7 +107,7 @@
 
     .line 35
     .line 36
-    invoke-static {p1, v0, p3}, LX/Chg;->A10(Landroid/content/Context;Landroid/graphics/Paint;Lcom/instagram/service/session/UserSession;)V
+    invoke-static {p1, v0, p3}, LX/Chg;->A0z(Landroid/content/Context;Landroid/graphics/Paint;Lcom/instagram/service/session/UserSession;)V
 
     .line 37
     .line 38

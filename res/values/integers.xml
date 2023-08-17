@@ -31,11 +31,11 @@
     <integer name="mtrl_calendar_header_orientation">1</integer>
     <integer name="mtrl_calendar_selection_text_lines">1</integer>
     <integer name="mtrl_card_anim_duration_ms">120</integer>
+    <item type="integer" name="APKTOOL_DUMMY_1f" />
     <integer name="sc_locale_mirrored">0</integer>
     <integer name="scissors_first_frame_duration">500</integer>
     <integer name="scissors_frame_duration">17</integer>
     <integer name="series_title_max_characters">25</integer>
     <integer name="sound_picker_placeholder_shimmer_duration">700</integer>
     <integer name="sound_picker_placeholder_shimmer_item_delay_ms">60</integer>
-    <integer name="APKTOOL_DUMMY_1f" />
 </resources>

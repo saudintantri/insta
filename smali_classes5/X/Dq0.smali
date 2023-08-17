@@ -723,7 +723,7 @@
     move-result-object v11
 
     .line 356
-    invoke-static {}, LX/Chf;->A0E()J
+    invoke-static {}, LX/Chf;->A0F()J
 
     .line 357
     .line 358
@@ -749,7 +749,7 @@
 
     .line 369
     .line 370
-    invoke-static {v2, v7, v9, v0}, LX/Chf;->A1K(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
+    invoke-static {v2, v7, v9, v0}, LX/Chf;->A1L(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
 
     .line 371
     .line 372
@@ -920,7 +920,7 @@
     move-result-object v18
 
     .line 449
-    invoke-static {}, LX/Chf;->A0E()J
+    invoke-static {}, LX/Chf;->A0F()J
 
     .line 450
     .line 451
@@ -970,7 +970,7 @@
 
     .line 474
     .line 475
-    invoke-static {v7, v15, v5, v0}, LX/Chf;->A1K(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
+    invoke-static {v7, v15, v5, v0}, LX/Chf;->A1L(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
 
     .line 476
     .line 477

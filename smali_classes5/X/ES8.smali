@@ -1011,7 +1011,7 @@
 
     .line 74
     .line 75
-    invoke-static {v0}, LX/Chh;->A01(I)I
+    invoke-static {v0}, LX/Chh;->A02(I)I
 
     .line 76
     .line 77
@@ -1033,7 +1033,7 @@
 
     .line 84
     .line 85
-    invoke-static {v0}, LX/Chh;->A01(I)I
+    invoke-static {v0}, LX/Chh;->A02(I)I
 
     .line 86
     .line 87
@@ -1055,7 +1055,7 @@
 
     .line 94
     .line 95
-    invoke-static {v6}, LX/Chh;->A01(I)I
+    invoke-static {v6}, LX/Chh;->A02(I)I
 
     .line 96
     .line 97
@@ -1387,7 +1387,7 @@
 
     .line 253
     .line 254
-    invoke-static {v0}, LX/Chh;->A01(I)I
+    invoke-static {v0}, LX/Chh;->A02(I)I
 
     .line 255
     .line 256
@@ -1409,7 +1409,7 @@
 
     .line 263
     .line 264
-    invoke-static {v0}, LX/Chh;->A01(I)I
+    invoke-static {v0}, LX/Chh;->A02(I)I
 
     .line 265
     .line 266
@@ -1431,7 +1431,7 @@
 
     .line 273
     .line 274
-    invoke-static {v10}, LX/Chh;->A01(I)I
+    invoke-static {v10}, LX/Chh;->A02(I)I
 
     .line 275
     .line 276
@@ -1492,7 +1492,7 @@
 
     .line 301
     .line 302
-    invoke-static {v0}, LX/Chh;->A01(I)I
+    invoke-static {v0}, LX/Chh;->A02(I)I
 
     .line 303
     .line 304
@@ -1514,7 +1514,7 @@
 
     .line 311
     .line 312
-    invoke-static {v0}, LX/Chh;->A01(I)I
+    invoke-static {v0}, LX/Chh;->A02(I)I
 
     .line 313
     .line 314
@@ -1536,7 +1536,7 @@
 
     .line 321
     .line 322
-    invoke-static {v10}, LX/Chh;->A01(I)I
+    invoke-static {v10}, LX/Chh;->A02(I)I
 
     .line 323
     .line 324

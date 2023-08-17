@@ -365,7 +365,7 @@
 
     .line 109
     :goto_2
-    invoke-static {v4, v5, v2, v0}, LX/Chi;->A18(LX/0AP;LX/0AP;Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/2E0;)V
+    invoke-static {v4, v5, v2, v0}, LX/Chi;->A19(LX/0AP;LX/0AP;Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/2E0;)V
 
     .line 110
     .line 111
@@ -689,7 +689,7 @@
     .line 132
     .line 133
     :cond_1
-    invoke-static {v5, v6, v2, v1}, LX/Chi;->A18(LX/0AP;LX/0AP;Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/2E0;)V
+    invoke-static {v5, v6, v2, v1}, LX/Chi;->A19(LX/0AP;LX/0AP;Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/2E0;)V
 
     .line 134
     .line 135

@@ -1734,7 +1734,7 @@
     int-to-float v0, v0
 
     .line 164
-    invoke-static {v0, v8}, LX/Chg;->A03(FF)F
+    invoke-static {v0, v8}, LX/Chh;->A00(FF)F
 
     .line 165
     .line 166
@@ -1920,7 +1920,7 @@
     int-to-float v0, v0
 
     .line 250
-    invoke-static {v0, v8}, LX/Chg;->A03(FF)F
+    invoke-static {v0, v8}, LX/Chh;->A00(FF)F
 
     .line 251
     .line 252

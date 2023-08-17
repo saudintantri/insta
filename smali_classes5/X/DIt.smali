@@ -89,7 +89,7 @@
     const/4 v0, 0x7
 
     .line 10
-    invoke-static {p0, v0}, LX/Chi;->A0N(LX/05g;I)Lcom/instagram/common/kotlindelegate/lifecycle/NotNullLazyAutoCleanup;
+    invoke-static {p0, v0}, LX/Chi;->A0O(LX/05g;I)Lcom/instagram/common/kotlindelegate/lifecycle/NotNullLazyAutoCleanup;
 
     .line 11
     .line 12
@@ -758,7 +758,7 @@
     move-result v4
 
     .line 7
-    invoke-static {p0}, LX/Chg;->A0A(Landroidx/fragment/app/Fragment;)Landroidx/compose/ui/platform/ComposeView;
+    invoke-static {p0}, LX/Chg;->A09(Landroidx/fragment/app/Fragment;)Landroidx/compose/ui/platform/ComposeView;
 
     .line 8
     .line 9

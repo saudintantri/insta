@@ -1082,7 +1082,6 @@
     monitor-enter v8
     :try_end_9
     .catch Ljava/io/IOException; {:try_start_9 .. :try_end_9} :catch_1
-    .catch Ljava/io/IOException; {:try_start_9 .. :try_end_9} :catch_3
     .catchall {:try_start_9 .. :try_end_9} :catchall_8
 
     .line 498
@@ -1269,7 +1268,6 @@
     goto :goto_4
     :try_end_c
     .catch Ljava/io/IOException; {:try_start_c .. :try_end_c} :catch_1
-    .catch Ljava/io/IOException; {:try_start_c .. :try_end_c} :catch_3
     .catchall {:try_start_c .. :try_end_c} :catchall_8
 
     .line 583
@@ -1335,7 +1333,6 @@
     monitor-enter v8
     :try_end_e
     .catch Ljava/io/IOException; {:try_start_e .. :try_end_e} :catch_1
-    .catch Ljava/io/IOException; {:try_start_e .. :try_end_e} :catch_3
     .catchall {:try_start_e .. :try_end_e} :catchall_8
 
     .line 605
@@ -1453,7 +1450,6 @@
     throw v4
     :try_end_15
     .catch Ljava/io/IOException; {:try_start_15 .. :try_end_15} :catch_1
-    .catch Ljava/io/IOException; {:try_start_15 .. :try_end_15} :catch_3
     .catchall {:try_start_15 .. :try_end_15} :catchall_8
 
     .line 643

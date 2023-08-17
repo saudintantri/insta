@@ -607,7 +607,7 @@
 
     .line 30
     :goto_0
-    invoke-static {v0}, LX/Chf;->A0A(Landroid/view/View;)I
+    invoke-static {v0}, LX/Chf;->A0B(Landroid/view/View;)I
 
     .line 31
     .line 32

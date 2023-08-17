@@ -267,7 +267,7 @@
     move-result v2
 
     .line 61
-    const v1, 0x7f07010d
+    const v1, 0x7f07000d
 
     .line 62
     .line 63
@@ -287,7 +287,7 @@
 
     .line 70
     .line 71
-    const v1, 0x7f07010c
+    const v1, 0x7f070037
 
     .line 72
     .line 73

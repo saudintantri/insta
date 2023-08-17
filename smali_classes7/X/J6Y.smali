@@ -602,7 +602,6 @@
     invoke-direct/range {v3 .. v10}, LX/KdM;-><init>(Ljava/lang/String;Ljava/lang/String;IJJ)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
 
     .line 225
     .line 226

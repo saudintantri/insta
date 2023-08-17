@@ -1812,7 +1812,7 @@
     .line 803
     .line 804
     .line 805
-    invoke-static {v3, v6}, LX/Chj;->A0g(Landroidx/fragment/app/Fragment;I)V
+    invoke-static {v3, v6}, LX/Chj;->A0f(Landroidx/fragment/app/Fragment;I)V
 
     .line 806
     .line 807
@@ -2048,7 +2048,7 @@
 
     .line 922
     :cond_25
-    invoke-static {v3, v11}, LX/Chj;->A0g(Landroidx/fragment/app/Fragment;I)V
+    invoke-static {v3, v11}, LX/Chj;->A0f(Landroidx/fragment/app/Fragment;I)V
 
     .line 923
     .line 924
@@ -2319,7 +2319,7 @@
 
     .line 1053
     .line 1054
-    invoke-static {v3, v6}, LX/Chj;->A0g(Landroidx/fragment/app/Fragment;I)V
+    invoke-static {v3, v6}, LX/Chj;->A0f(Landroidx/fragment/app/Fragment;I)V
 
     .line 1055
     .line 1056

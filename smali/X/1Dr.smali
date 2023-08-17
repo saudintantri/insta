@@ -427,7 +427,6 @@
     :try_end_1
     .catch LX/1D9; {:try_start_1 .. :try_end_1} :catch_9
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_8
-    .catch LX/1D9; {:try_start_1 .. :try_end_1} :catch_a
 
     .line 185
     :try_start_2
@@ -444,7 +443,6 @@
     .catch LX/1Dt; {:try_start_2 .. :try_end_2} :catch_7
     .catch LX/1D9; {:try_start_2 .. :try_end_2} :catch_9
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_8
-    .catch LX/1D9; {:try_start_2 .. :try_end_2} :catch_a
 
     .line 190
     .line 191
@@ -948,7 +946,6 @@
     goto :goto_8
     :try_end_d
     .catch Ljava/io/IOException; {:try_start_d .. :try_end_d} :catch_4
-    .catch Ljava/io/IOException; {:try_start_d .. :try_end_d} :catch_6
     .catch LX/1D9; {:try_start_d .. :try_end_d} :catch_a
 
     .line 420
@@ -1037,7 +1034,6 @@
     invoke-interface {v15}, Ljava/io/Closeable;->close()V
     :try_end_10
     .catch Ljava/io/IOException; {:try_start_10 .. :try_end_10} :catch_2
-    .catch Ljava/io/IOException; {:try_start_10 .. :try_end_10} :catch_6
     .catch LX/1D9; {:try_start_10 .. :try_end_10} :catch_a
 
     .line 452
@@ -1958,7 +1954,6 @@
     .catch LX/1Dt; {:try_start_15 .. :try_end_15} :catch_7
     .catch LX/1D9; {:try_start_15 .. :try_end_15} :catch_9
     .catch Ljava/lang/Exception; {:try_start_15 .. :try_end_15} :catch_8
-    .catch LX/1D9; {:try_start_15 .. :try_end_15} :catch_a
 
     .line 906
     :catch_7
@@ -1991,7 +1986,6 @@
     :try_end_16
     .catch LX/1D9; {:try_start_16 .. :try_end_16} :catch_9
     .catch Ljava/lang/Exception; {:try_start_16 .. :try_end_16} :catch_8
-    .catch LX/1D9; {:try_start_16 .. :try_end_16} :catch_a
 
     .line 919
     :catch_8

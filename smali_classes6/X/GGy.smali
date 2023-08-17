@@ -67,120 +67,120 @@
 
     const/4 v0, 0x7
 
-    .line 2101822
+    .line 2101843
     invoke-static {p13, v0, p1}, LX/Che;->A1T(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 2101823
+    .line 2101844
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 2101824
+    .line 2101845
     iput-object p4, p0, LX/GGy;->A04:LX/3wU;
 
-    .line 2101825
+    .line 2101846
     iput-object p6, p0, LX/GGy;->A0A:Ljava/lang/String;
 
-    .line 2101826
+    .line 2101847
     iput-object p5, p0, LX/GGy;->A05:LX/3ty;
 
-    .line 2101827
+    .line 2101848
     iput-object p7, p0, LX/GGy;->A09:Ljava/lang/String;
 
-    .line 2101828
+    .line 2101849
     move/from16 v0, p17
 
     iput-boolean v0, p0, LX/GGy;->A0M:Z
 
-    .line 2101829
+    .line 2101850
     iput-object p12, p0, LX/GGy;->A0B:Ljava/util/List;
 
-    .line 2101830
+    .line 2101851
     iput-object p13, p0, LX/GGy;->A0C:Ljava/util/List;
 
-    .line 2101831
+    .line 2101852
     iput-object p8, p0, LX/GGy;->A0Q:Ljava/lang/String;
 
-    .line 2101832
+    .line 2101853
     iput-object p14, p0, LX/GGy;->A0R:Ljava/util/List;
 
-    .line 2101833
+    .line 2101854
     move/from16 v0, p18
 
     iput-boolean v0, p0, LX/GGy;->A0E:Z
 
-    .line 2101834
+    .line 2101855
     move/from16 v0, p15
 
     iput v0, p0, LX/GGy;->A01:I
 
-    .line 2101835
+    .line 2101856
     iput-object p1, p0, LX/GGy;->A02:Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S4205000_I1;
 
-    .line 2101836
+    .line 2101857
     iput-object p2, p0, LX/GGy;->A0P:Lcom/instagram/common/typedurl/ImageUrl;
 
-    .line 2101837
+    .line 2101858
     iput-object p9, p0, LX/GGy;->A08:Ljava/lang/String;
 
-    .line 2101838
+    .line 2101859
     move/from16 v0, p19
 
     iput-boolean v0, p0, LX/GGy;->A0L:Z
 
-    .line 2101839
+    .line 2101860
     move/from16 v0, p20
 
     iput-boolean v0, p0, LX/GGy;->A0I:Z
 
-    .line 2101840
+    .line 2101861
     move/from16 v0, p21
 
     iput-boolean v0, p0, LX/GGy;->A0H:Z
 
-    .line 2101841
+    .line 2101862
     move/from16 v0, p22
 
     iput-boolean v0, p0, LX/GGy;->A0G:Z
 
-    .line 2101842
+    .line 2101863
     move/from16 v0, p23
 
     iput-boolean v0, p0, LX/GGy;->A0K:Z
 
-    .line 2101843
+    .line 2101864
     move/from16 v0, p24
 
     iput-boolean v0, p0, LX/GGy;->A0J:Z
 
-    .line 2101844
+    .line 2101865
     move/from16 v0, p25
 
     iput-boolean v0, p0, LX/GGy;->A0N:Z
 
-    .line 2101845
+    .line 2101866
     move/from16 v0, p26
 
     iput-boolean v0, p0, LX/GGy;->A0O:Z
 
-    .line 2101846
+    .line 2101867
     move/from16 v0, p27
 
     iput-boolean v0, p0, LX/GGy;->A0D:Z
 
-    .line 2101847
+    .line 2101868
     iput-object p10, p0, LX/GGy;->A07:Ljava/lang/String;
 
-    .line 2101848
+    .line 2101869
     move/from16 v0, p28
 
     iput-boolean v0, p0, LX/GGy;->A0F:Z
 
-    .line 2101849
+    .line 2101870
     iput-object p11, p0, LX/GGy;->A06:Ljava/lang/String;
 
-    .line 2101850
+    .line 2101871
     iput-object p3, p0, LX/GGy;->A03:LX/3tH;
 
-    .line 2101851
+    .line 2101872
     move/from16 v0, p16
 
     iput v0, p0, LX/GGy;->A00:I

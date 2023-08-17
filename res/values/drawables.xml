@@ -2,8 +2,18 @@
 <resources>
     <item type="drawable" name="android13_mock_priming_screen_phone_icon">R||AQABUkQ51hH0|52|66|160</item>
     <item type="drawable" name="ar_stickers_pano_24">R||AQABHa_6NoC8|48|48|160</item>
+    <item type="drawable" name="APKTOOL_DUMMY_102" />
+    <item type="drawable" name="APKTOOL_DUMMY_143" />
+    <item type="drawable" name="APKTOOL_DUMMY_161" />
+    <item type="drawable" name="APKTOOL_DUMMY_16f" />
+    <item type="drawable" name="APKTOOL_DUMMY_172" />
     <item type="drawable" name="chalk_brush">R||AQAEH1e24i3A|512|512|160</item>
     <item type="drawable" name="circle">R||AQAAoKYEg-_S|256|255|160</item>
+    <item type="drawable" name="APKTOOL_DUMMY_1f6" />
+    <item type="drawable" name="APKTOOL_DUMMY_22c" />
+    <item type="drawable" name="APKTOOL_DUMMY_24d" />
+    <item type="drawable" name="APKTOOL_DUMMY_256" />
+    <item type="drawable" name="APKTOOL_DUMMY_258" />
     <item type="drawable" name="direct_dark_mode_inbox_reply_pill_background_gray">@drawable/direct_inbox_reply_pill_background_gray_night</item>
     <item type="drawable" name="direct_dark_mode_inline_searchbox_background">@drawable/inline_search_box_background_night</item>
     <item type="drawable" name="direct_dark_mode_input_background">@drawable/input_background_night</item>
@@ -24,6 +34,13 @@
     <item type="drawable" name="direct_light_mode_thread_gifs_place_holder_item">@drawable/direct_thread_gifs_place_holder_item</item>
     <item type="drawable" name="direct_light_mode_unified_inbox_message_mask">@drawable/unified_inbox_message_mask</item>
     <item type="drawable" name="direct_light_mode_unified_inbox_message_mask_no_border">@drawable/unified_inbox_message_mask_no_border</item>
+    <item type="drawable" name="APKTOOL_DUMMY_31b" />
+    <item type="drawable" name="APKTOOL_DUMMY_31d" />
+    <item type="drawable" name="APKTOOL_DUMMY_31e" />
+    <item type="drawable" name="APKTOOL_DUMMY_3ab" />
+    <item type="drawable" name="APKTOOL_DUMMY_3d4" />
+    <item type="drawable" name="APKTOOL_DUMMY_3d5" />
+    <item type="drawable" name="APKTOOL_DUMMY_3e6" />
     <item type="drawable" name="fr_frame">R||AQAAkUF_KkOv|1024|1024|160</item>
     <item type="drawable" name="fr_lut">R||AQAAyPlUeUNj|1024|32|160</item>
     <item type="drawable" name="frbw_frame">R||AQAAk2w7mYkq|1024|1024|160</item>
@@ -415,6 +432,9 @@
     <item type="drawable" name="instagram_wishlist_pano_outline_24">I180006</item>
     <item type="drawable" name="instagram_x_pano_filled_24">I180008</item>
     <item type="drawable" name="instagram_x_pano_outline_24">I18012A</item>
+    <item type="drawable" name="APKTOOL_DUMMY_9b7" />
+    <item type="drawable" name="APKTOOL_DUMMY_9b8" />
+    <item type="drawable" name="APKTOOL_DUMMY_9c5" />
     <item type="drawable" name="ll_font">R||AQACveI2bHlA|160|96|160</item>
     <item type="drawable" name="ll_leaks">R||AQABjmVlm-FX|1024|1024|160</item>
     <item type="drawable" name="ll_lut">R||AQADDu-9mCiw|1024|32|160</item>
@@ -424,49 +444,29 @@
     <item type="drawable" name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</item>
     <item type="drawable" name="meme_emphasis">R||AQACINpbVTEL|1301|371|160</item>
     <item type="drawable" name="neon_bulb_asset">R||AQABxh689A9n|256|256|160</item>
+    <item type="drawable" name="APKTOOL_DUMMY_a7f" />
+    <item type="drawable" name="APKTOOL_DUMMY_a84" />
     <item type="drawable" name="payment_fbp_button">T7f080ab97f080ab8</item>
     <item type="drawable" name="payment_paypal">T7f080ac27f080ac1</item>
+    <item type="drawable" name="APKTOOL_DUMMY_ae2" />
+    <item type="drawable" name="APKTOOL_DUMMY_b1a" />
+    <item type="drawable" name="APKTOOL_DUMMY_b1d" />
+    <item type="drawable" name="APKTOOL_DUMMY_b21" />
     <item type="drawable" name="ps_lut">R||AQABHygJLIb3|1024|32|160</item>
     <item type="drawable" name="radial_asset">R||AQADhGZJhKUF|256|256|160</item>
     <item type="drawable" name="rainbow_brush">R||AQAAeJIP-Nxa|256|256|160</item>
+    <item type="drawable" name="APKTOOL_DUMMY_c08" />
+    <item type="drawable" name="APKTOOL_DUMMY_c31" />
+    <item type="drawable" name="APKTOOL_DUMMY_c34" />
+    <item type="drawable" name="APKTOOL_DUMMY_c39" />
+    <item type="drawable" name="APKTOOL_DUMMY_c3b" />
+    <item type="drawable" name="APKTOOL_DUMMY_c3d" />
+    <item type="drawable" name="APKTOOL_DUMMY_c40" />
+    <item type="drawable" name="APKTOOL_DUMMY_c42" />
+    <item type="drawable" name="APKTOOL_DUMMY_c44" />
     <item type="drawable" name="unified_inbox_my_message_mask_shhmode">@drawable/unified_inbox_my_message_mask_night</item>
     <item type="drawable" name="vhs_glitch_0">R||AQADL3Xyljfu|1024|1024|160</item>
     <item type="drawable" name="vhs_glitch_1">R||AQABaRWCTW4_|1024|1024|160</item>
+    <item type="drawable" name="APKTOOL_DUMMY_df0" />
     <item type="drawable" name="vhs_lut">R||AQABd-1upOoH|1024|128|160</item>
-    <drawable name="APKTOOL_DUMMY_102" />
-    <drawable name="APKTOOL_DUMMY_143" />
-    <drawable name="APKTOOL_DUMMY_161" />
-    <drawable name="APKTOOL_DUMMY_16f" />
-    <drawable name="APKTOOL_DUMMY_172" />
-    <drawable name="APKTOOL_DUMMY_1f6" />
-    <drawable name="APKTOOL_DUMMY_22c" />
-    <drawable name="APKTOOL_DUMMY_24d" />
-    <drawable name="APKTOOL_DUMMY_256" />
-    <drawable name="APKTOOL_DUMMY_258" />
-    <drawable name="APKTOOL_DUMMY_31b" />
-    <drawable name="APKTOOL_DUMMY_31d" />
-    <drawable name="APKTOOL_DUMMY_31e" />
-    <drawable name="APKTOOL_DUMMY_3ab" />
-    <drawable name="APKTOOL_DUMMY_3d4" />
-    <drawable name="APKTOOL_DUMMY_3d5" />
-    <drawable name="APKTOOL_DUMMY_3e6" />
-    <drawable name="APKTOOL_DUMMY_9b7" />
-    <drawable name="APKTOOL_DUMMY_9b8" />
-    <drawable name="APKTOOL_DUMMY_9c5" />
-    <drawable name="APKTOOL_DUMMY_a7f" />
-    <drawable name="APKTOOL_DUMMY_a84" />
-    <drawable name="APKTOOL_DUMMY_ae2" />
-    <drawable name="APKTOOL_DUMMY_b1a" />
-    <drawable name="APKTOOL_DUMMY_b1d" />
-    <drawable name="APKTOOL_DUMMY_b21" />
-    <drawable name="APKTOOL_DUMMY_c08" />
-    <drawable name="APKTOOL_DUMMY_c31" />
-    <drawable name="APKTOOL_DUMMY_c34" />
-    <drawable name="APKTOOL_DUMMY_c39" />
-    <drawable name="APKTOOL_DUMMY_c3b" />
-    <drawable name="APKTOOL_DUMMY_c3d" />
-    <drawable name="APKTOOL_DUMMY_c40" />
-    <drawable name="APKTOOL_DUMMY_c42" />
-    <drawable name="APKTOOL_DUMMY_c44" />
-    <drawable name="APKTOOL_DUMMY_df0" />
 </resources>

@@ -188,7 +188,7 @@
 
     .line 23
     .line 24
-    invoke-static {p0, v1, p1, v0}, LX/Chf;->A1J(LX/130;LX/13R;Lcom/instagram/common/typedurl/ImageUrl;Ljava/lang/String;)V
+    invoke-static {p0, v1, p1, v0}, LX/Chf;->A1K(LX/130;LX/13R;Lcom/instagram/common/typedurl/ImageUrl;Ljava/lang/String;)V
 
     .line 25
     .line 26

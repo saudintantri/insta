@@ -41,63 +41,63 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/instagram/service/session/UserSession;Ljava/lang/String;Ljava/util/List;)V
     .locals 2
 
-    .line 539312831
+    .line 539312852
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
 
-    .line 539312832
+    .line 539312853
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArraySet;
 
     invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArraySet;-><init>()V
 
     iput-object v0, p0, LX/Fqv;->A08:Ljava/util/concurrent/CopyOnWriteArraySet;
 
-    .line 539312833
+    .line 539312854
     invoke-static {}, LX/Chb;->A09()Landroid/graphics/Rect;
 
     move-result-object v0
 
-    .line 539312834
+    .line 539312855
     iput-object v0, p0, LX/Fqv;->A0A:Landroid/graphics/Rect;
 
     const/4 v1, 0x0
 
-    .line 539312835
+    .line 539312856
     iput v1, p0, LX/Fqv;->A01:I
 
     const/4 v0, -0x1
 
-    .line 539312836
+    .line 539312857
     iput v0, p0, LX/Fqv;->A00:I
 
-    .line 539312837
+    .line 539312858
     iput-object p2, p0, LX/Fqv;->A0B:Lcom/instagram/service/session/UserSession;
 
-    .line 539312838
+    .line 539312859
     iput-object p1, p0, LX/Fqv;->A09:Landroid/content/Context;
 
-    .line 539312839
+    .line 539312860
     iput-object p3, p0, LX/Fqv;->A0C:Ljava/lang/String;
 
-    .line 539312840
+    .line 539312861
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 539312841
+    .line 539312862
     iput-object v0, p0, LX/Fqv;->A06:Ljava/util/List;
 
-    .line 539312842
+    .line 539312863
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 539312843
+    .line 539312864
     iput-object v0, p0, LX/Fqv;->A07:Ljava/util/List;
 
-    .line 539312844
+    .line 539312865
     invoke-virtual {v0, p4}, Ljava/util/AbstractCollection;->addAll(Ljava/util/Collection;)Z
 
-    .line 539312845
+    .line 539312866
     :goto_0
     invoke-interface {p4}, Ljava/util/List;->size()I
 
@@ -105,7 +105,7 @@
 
     if-ge v1, v0, :cond_0
 
-    .line 539312846
+    .line 539312867
     invoke-interface {p4, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -118,7 +118,7 @@
 
     goto :goto_0
 
-    .line 539312847
+    .line 539312868
     :cond_0
     iget-object v1, p0, LX/Fqv;->A0C:Ljava/lang/String;
 
@@ -126,12 +126,12 @@
 
     invoke-direct {v0, p1, p0, p2, v1}, LX/Ge3;-><init>(Landroid/content/Context;LX/Fqv;Lcom/instagram/service/session/UserSession;Ljava/lang/String;)V
 
-    .line 539312848
+    .line 539312869
     invoke-virtual {p0, v0}, LX/Fqv;->A0A(LX/HUo;)V
 
     const/4 v0, 0x0
 
-    .line 539312849
+    .line 539312870
     invoke-static {v0, p0}, LX/Fqv;->A01(Landroid/graphics/drawable/Drawable;LX/Fqv;)V
 
     return-void

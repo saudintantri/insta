@@ -52,7 +52,7 @@
 .method public constructor <init>(LX/2Ir;LX/1iX;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIIIIJ)V
     .locals 2
 
-    .line 2827710
+    .line 2827731
     move/from16 v0, p19
 
     iput v0, p0, Lcom/facebook/redex/IDxOSubscribeShape0S10404100_7_I1;->A0J:I

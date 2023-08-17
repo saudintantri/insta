@@ -3021,7 +3021,7 @@
     .line 39
     .line 40
     .line 41
-    invoke-static {v0, v1, v2}, LX/Chf;->A0x(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {v0, v1, v2}, LX/Chf;->A0y(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
 
     .line 42
     .line 43
@@ -3067,7 +3067,7 @@
     move-result-object v0
 
     .line 65
-    invoke-static {v0, v1, v2}, LX/Chf;->A0x(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {v0, v1, v2}, LX/Chf;->A0y(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
 
     .line 66
     .line 67

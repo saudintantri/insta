@@ -60,7 +60,6 @@
     invoke-virtual {v1, v0}, LX/LF7;->Cla(LX/Kjb;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_2
 
     .line 11
     .line 12
@@ -70,7 +69,6 @@
     invoke-virtual {v1}, LX/LF7;->flush()V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
 
     .line 14
     .line 15
@@ -96,7 +94,6 @@
     .line 25
     invoke-virtual {v1}, Landroid/webkit/WebView;->destroy()V
     :try_end_3
-    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_2
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_2
 
     .line 26

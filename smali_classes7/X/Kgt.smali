@@ -366,7 +366,6 @@
     goto/16 :goto_2
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
-    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_3
 
     .line 157
     .line 158

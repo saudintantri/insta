@@ -1308,7 +1308,7 @@
     .line 317
     .line 318
     .line 319
-    invoke-static {v3, v5}, LX/Chg;->A1C(LX/0AX;LX/4Qd;)V
+    invoke-static {v3, v5}, LX/Chg;->A1B(LX/0AX;LX/4Qd;)V
 
     .line 320
     .line 321

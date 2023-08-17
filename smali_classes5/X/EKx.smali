@@ -179,7 +179,7 @@
 
     .line 80
     .line 81
-    const v0, 0x7f0700f0
+    const v0, 0x7f0700ef
 
     .line 82
     .line 83

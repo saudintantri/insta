@@ -256,7 +256,7 @@
 
     .line 108
     .line 109
-    invoke-static {v3, v0, v4}, LX/Chf;->A1I(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0, v4}, LX/Chf;->A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 110
     .line 111
@@ -344,7 +344,7 @@
     .line 152
     .line 153
     :goto_2
-    invoke-static {v1, v0}, LX/Che;->A04(II)Landroid/animation/ValueAnimator;
+    invoke-static {v1, v0}, LX/Che;->A05(II)Landroid/animation/ValueAnimator;
 
     .line 154
     .line 155
@@ -382,7 +382,7 @@
     .line 170
     .line 171
     :goto_4
-    invoke-static {v1, v0}, LX/Che;->A04(II)Landroid/animation/ValueAnimator;
+    invoke-static {v1, v0}, LX/Che;->A05(II)Landroid/animation/ValueAnimator;
 
     .line 172
     .line 173
@@ -602,7 +602,7 @@
 
     .line 280
     .line 281
-    invoke-static {v3, v5, v0, v1}, LX/Chg;->A1D(LX/0AX;LX/4Qd;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v5, v0, v1}, LX/Chg;->A1C(LX/0AX;LX/4Qd;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 282
     .line 283
@@ -612,7 +612,7 @@
     .line 285
     .line 286
     .line 287
-    invoke-static {v3, v5}, LX/Chg;->A1C(LX/0AX;LX/4Qd;)V
+    invoke-static {v3, v5}, LX/Chg;->A1B(LX/0AX;LX/4Qd;)V
 
     .line 288
     .line 289

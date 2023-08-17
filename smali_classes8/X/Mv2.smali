@@ -31,7 +31,7 @@
 .method public static final A00(LX/Mv2;LX/McH;LX/AQs;FIIIIIIZZ)Landroid/media/MediaCodec;
     .locals 15
 
-    .line 2872995
+    .line 2873016
     :try_start_0
     move-object/from16 v0, p1
 
@@ -53,7 +53,7 @@
 
     const-string v2, "video/avc"
 
-    .line 2872996
+    .line 2873017
     invoke-static {v2, v13, v12}, Landroid/media/MediaFormat;->createVideoFormat(Ljava/lang/String;II)Landroid/media/MediaFormat;
 
     move-result-object v7
@@ -66,33 +66,33 @@
 
     const v2, 0x7f000789
 
-    .line 2872997
+    .line 2873018
     invoke-virtual {v7, v3, v2}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     const-string v2, "bitrate"
 
-    .line 2872998
+    .line 2873019
     invoke-virtual {v7, v2, v11}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     const-string v2, "frame-rate"
 
-    .line 2872999
+    .line 2873020
     invoke-virtual {v7, v2, v10}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
-    .line 2873000
+    .line 2873021
     const-string v2, "i-frame-interval"
 
-    .line 2873001
+    .line 2873022
     invoke-virtual {v7, v2, v14}, Landroid/media/MediaFormat;->setFloat(Ljava/lang/String;F)V
 
     const/4 v5, 0x1
 
     const-string v2, "channel-count"
 
-    .line 2873002
+    .line 2873023
     invoke-virtual {v7, v2, v5}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
-    .line 2873003
+    .line 2873024
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v4
@@ -108,14 +108,14 @@
     :pswitch_0
     const/16 v3, 0x8
 
-    .line 2873004
+    .line 2873025
     :goto_0
     :pswitch_1
     const-string v2, "profile"
 
     invoke-virtual {v7, v2, v3}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
-    .line 2873005
+    .line 2873026
     const/4 v3, 0x2
 
     const/16 v2, 0x200
@@ -124,7 +124,7 @@
 
     const/16 v2, 0x100
 
-    .line 2873006
+    .line 2873027
     :cond_0
     const-string v3, "level"
 
@@ -132,45 +132,45 @@
 
     const-string v2, "max-fps-to-encoder"
 
-    .line 2873007
+    .line 2873028
     invoke-virtual {v7, v2, v6}, Landroid/media/MediaFormat;->setFloat(Ljava/lang/String;F)V
 
     if-eqz p11, :cond_1
 
-    .line 2873008
+    .line 2873029
     const-string v2, "latency"
 
-    .line 2873009
+    .line 2873030
     invoke-virtual {v7, v2, v9}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     const-string v2, "priority"
 
-    .line 2873010
+    .line 2873031
     invoke-virtual {v7, v2, v8}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     :cond_1
     if-eqz p10, :cond_2
 
-    .line 2873011
+    .line 2873032
     const/4 v3, 0x3
 
     const-string v2, "color-transfer"
 
-    .line 2873012
+    .line 2873033
     invoke-virtual {v7, v2, v3}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     const-string v2, "color-standard"
 
-    .line 2873013
+    .line 2873034
     invoke-virtual {v7, v2, v5}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
-    .line 2873014
+    .line 2873035
     :cond_2
     sget-object v2, LX/McH;->A04:LX/McH;
 
     if-eq v0, v2, :cond_3
 
-    .line 2873015
+    .line 2873036
     invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
@@ -186,27 +186,27 @@
     :pswitch_2
     const/4 v3, 0x0
 
-    .line 2873016
+    .line 2873037
     :goto_1
     :pswitch_3
     const-string v2, "bitrate-mode"
 
     invoke-virtual {v7, v2, v3}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
-    .line 2873017
+    .line 2873038
     :cond_3
     invoke-virtual {v1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 2873018
+    .line 2873039
     invoke-virtual {v0}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v3
 
     const/4 v4, 0x1
 
-    .line 2873019
+    .line 2873040
     invoke-virtual {v7}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -219,16 +219,16 @@
 
     const-string v2, "Trying to get video encoder for profile: %s, bitrate mode: %s, format: %s"
 
-    .line 2873020
+    .line 2873041
     invoke-static {v3, v2, v5}, LX/MzH;->A07(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 2873021
+    .line 2873042
     :try_start_1
     const-string v2, "mime"
 
-    .line 2873022
+    .line 2873043
     invoke-virtual {v7, v2}, Landroid/media/MediaFormat;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -239,34 +239,34 @@
 
     move-result-object v3
 
-    .line 2873023
+    .line 2873044
     invoke-static {v3}, LX/02K;->A05(Ljava/lang/Object;)V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 2873024
+    .line 2873045
     :try_start_2
     const/4 v2, 0x0
 
-    .line 2873025
+    .line 2873046
     invoke-virtual {v3, v7, v2, v2, v4}, Landroid/media/MediaCodec;->configure(Landroid/media/MediaFormat;Landroid/view/Surface;Landroid/media/MediaCrypto;I)V
 
     return-object v3
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
 
-    .line 2873026
+    .line 2873047
     :cond_4
     :try_start_3
     const-string v2, "Required value was null."
 
-    .line 2873027
+    .line 2873048
     invoke-static {v2}, LX/5Wd;->A0d(Ljava/lang/String;)Ljava/lang/IllegalStateException;
 
     move-result-object v2
 
-    .line 2873028
+    .line 2873049
     throw v2
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_0
@@ -276,7 +276,7 @@
     :try_start_4
     move-exception v4
 
-    .line 2873029
+    .line 2873050
     const-string v3, "MediaCodec creation failed"
 
     new-instance v2, Ljava/lang/RuntimeException;
@@ -287,11 +287,11 @@
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_1
 
-    .line 2873030
+    .line 2873051
     :catch_1
     move-exception v7
 
-    .line 2873031
+    .line 2873052
     sget-object v2, LX/AQs;->A04:LX/AQs;
 
     const/4 v6, 0x2
@@ -302,10 +302,10 @@
 
     if-ne v1, v2, :cond_5
 
-    .line 2873032
+    .line 2873053
     const-string v2, "HIGH31"
 
-    .line 2873033
+    .line 2873054
     invoke-virtual {v0}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
@@ -316,21 +316,21 @@
 
     const-string v1, "Error getting videoencoder for profile: %s, bitrate mode: %s. Trying default high profile mode"
 
-    .line 2873034
+    .line 2873055
     invoke-static {v5, v1, v7, v2}, LX/0Li;->A0L(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
 
-    .line 2873035
+    .line 2873056
     invoke-static {v1, v5, v7, v2, v6}, LX/MzH;->A03(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;I)V
 
-    .line 2873036
+    .line 2873057
     iput-boolean v4, p0, LX/Mv2;->A04:Z
 
-    .line 2873037
+    .line 2873058
     sget-object v1, LX/AQs;->A03:LX/AQs;
 
     iput-object v1, p0, LX/Mv2;->A01:LX/AQs;
 
-    .line 2873038
+    .line 2873059
     move-object/from16 p2, v1
 
     :goto_2
@@ -340,18 +340,18 @@
 
     return-object v3
 
-    .line 2873039
+    .line 2873060
     :cond_5
     sget-object v3, LX/McH;->A04:LX/McH;
 
     if-eq v0, v3, :cond_6
 
-    .line 2873040
+    .line 2873061
     invoke-virtual {v1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 2873041
+    .line 2873062
     invoke-virtual {v0}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v0
@@ -362,36 +362,36 @@
 
     const-string v0, "Error getting videoencoder for profile: %s, bitrate mode: %s. Trying default mode"
 
-    .line 2873042
+    .line 2873063
     invoke-static {v5, v0, v7, v2}, LX/0Li;->A0L(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
 
-    .line 2873043
+    .line 2873064
     invoke-static {v0, v5, v7, v2, v6}, LX/MzH;->A03(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;I)V
 
-    .line 2873044
+    .line 2873065
     iput-boolean v4, p0, LX/Mv2;->A03:Z
 
-    .line 2873045
+    .line 2873066
     iput-object v3, p0, LX/Mv2;->A00:LX/McH;
 
-    .line 2873046
+    .line 2873067
     move-object/from16 p1, v3
 
     goto :goto_2
 
-    .line 2873047
+    .line 2873068
     :cond_6
     sget-object v2, LX/AQs;->A02:LX/AQs;
 
-    .line 2873048
+    .line 2873069
     if-eq v1, v2, :cond_7
 
-    .line 2873049
+    .line 2873070
     invoke-virtual {v1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2873050
+    .line 2873071
     const-string v0, "DEFAULT"
 
     filled-new-array {v1, v0}, [Ljava/lang/Object;
@@ -400,26 +400,26 @@
 
     const-string v0, "Error getting videoencoder for profile: %s, bitrate mode: %s. Trying baseline"
 
-    .line 2873051
+    .line 2873072
     invoke-static {v5, v0, v7, v1}, LX/0Li;->A0L(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
 
-    .line 2873052
+    .line 2873073
     invoke-static {v0, v5, v7, v1, v6}, LX/MzH;->A03(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;I)V
 
-    .line 2873053
+    .line 2873074
     iput-boolean v4, p0, LX/Mv2;->A02:Z
 
-    .line 2873054
+    .line 2873075
     iput-object v2, p0, LX/Mv2;->A01:LX/AQs;
 
-    .line 2873055
+    .line 2873076
     move-object/from16 p1, v3
 
     move-object/from16 p2, v2
 
     goto :goto_2
 
-    .line 2873056
+    .line 2873077
     :cond_7
     const-string v1, "MediaCodec creation failed"
 

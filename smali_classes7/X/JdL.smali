@@ -55,17 +55,17 @@
 .method public final A02(LX/KwK;LX/JdN;LX/JdN;LX/Jbj;LX/Jbj;LX/Jbj;)V
     .locals 28
 
-    .line 2582190
+    .line 2582211
     move-object/from16 v0, p3
 
     move-object/from16 v1, p2
 
     check-cast v1, LX/JdL;
 
-    .line 2582191
+    .line 2582212
     check-cast v0, LX/JdL;
 
-    .line 2582192
+    .line 2582213
     const/4 v10, 0x0
 
     if-nez v1, :cond_8
@@ -80,12 +80,12 @@
     :goto_1
     const/4 v2, 0x0
 
-    .line 2582193
+    .line 2582214
     if-eqz v0, :cond_0
 
     iget-object v10, v0, LX/JdL;->A03:Ljava/lang/Boolean;
 
-    .line 2582194
+    .line 2582215
     :cond_0
     move-object/from16 v3, p4
 
@@ -95,52 +95,52 @@
 
     move-result-object v0
 
-    .line 2582195
+    .line 2582216
     if-nez v0, :cond_6
 
     const/4 v0, 0x0
 
-    .line 2582196
+    .line 2582217
     :goto_2
     new-instance v7, LX/KiE;
 
-    .line 2582197
+    .line 2582218
     invoke-direct {v7, v0, v3}, LX/KiE;-><init>(LX/1gZ;LX/Jbj;)V
 
-    .line 2582198
+    .line 2582219
     new-instance v6, LX/KUB;
 
-    .line 2582199
+    .line 2582220
     move-object/from16 v0, p1
 
     invoke-direct {v6, v0}, LX/KUB;-><init>(LX/KwK;)V
 
-    .line 2582200
+    .line 2582221
     sget-object v0, Lcom/facebook/litho/ComponentsSystrace;->A00:LX/2Xl;
 
     invoke-interface {v0}, LX/2Xl;->BaG()Z
 
     move-result v5
 
-    .line 2582201
+    .line 2582222
     new-instance v4, LX/JI8;
 
     invoke-direct {v4, v3, v9, v8}, LX/JI8;-><init>(LX/Jbj;Ljava/util/List;Ljava/util/List;)V
 
-    .line 2582202
+    .line 2582223
     if-eqz v8, :cond_1
 
-    .line 2582203
+    .line 2582224
     if-nez v10, :cond_5
 
-    .line 2582204
+    .line 2582225
     sget-boolean v0, LX/2sn;->isDebugModeEnabled:Z
 
-    .line 2582205
+    .line 2582226
     :goto_3
     if-eqz v0, :cond_1
 
-    .line 2582206
+    .line 2582227
     invoke-static {v4, v8}, LX/KKg;->A00(LX/JI8;Ljava/util/List;)Ljava/lang/String;
 
     :cond_1
@@ -148,40 +148,40 @@
 
     const-string v0, "DiffUtil.calculateDiff"
 
-    .line 2582207
+    .line 2582228
     invoke-static {v0}, Lcom/facebook/litho/ComponentsSystrace;->A02(Ljava/lang/String;)V
 
-    .line 2582208
+    .line 2582229
     :cond_2
     const/4 v1, 0x1
 
-    .line 2582209
+    .line 2582230
     invoke-static {v4}, LX/2tx;->A00(LX/0oK;)LX/0no;
 
     move-result-object v0
 
     if-eqz v5, :cond_3
 
-    .line 2582210
+    .line 2582231
     invoke-static {}, Lcom/facebook/litho/ComponentsSystrace;->A00()V
 
-    .line 2582211
+    .line 2582232
     :cond_3
     new-instance v5, LX/LDQ;
 
     invoke-direct {v5, v7, v6, v9, v8}, LX/LDQ;-><init>(LX/KiE;LX/KUB;Ljava/util/List;Ljava/util/List;)V
 
-    .line 2582212
+    .line 2582233
     invoke-virtual {v0, v5}, LX/0no;->A02(LX/1xC;)V
 
-    .line 2582213
+    .line 2582234
     sget-object v0, Lcom/facebook/litho/ComponentsSystrace;->A00:LX/2Xl;
 
     invoke-interface {v0}, LX/2Xl;->BaG()Z
 
     move-result v17
 
-    .line 2582214
+    .line 2582235
     iget-object v9, v5, LX/LDQ;->A04:Ljava/util/List;
 
     const-string v8, "renderInfo:"
@@ -202,38 +202,38 @@
 
     if-eq v4, v0, :cond_f
 
-    .line 2582215
+    .line 2582236
     const-string v0, "Inconsistent size between mPlaceholders("
 
-    .line 2582216
+    .line 2582237
     invoke-static {v0}, LX/5Wd;->A0z(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v11
 
-    .line 2582217
+    .line 2582238
     invoke-static {v11, v12}, LX/IzL;->A18(Ljava/lang/StringBuilder;Ljava/util/List;)V
 
-    .line 2582218
+    .line 2582239
     const-string v0, ") and mNextData("
 
-    .line 2582219
+    .line 2582240
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2582220
+    .line 2582241
     invoke-static {v11, v9}, LX/IzL;->A18(Ljava/lang/StringBuilder;Ljava/util/List;)V
 
-    .line 2582221
+    .line 2582242
     const-string v0, "); "
 
-    .line 2582222
+    .line 2582243
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v0, "mOperations: ["
 
-    .line 2582223
+    .line 2582244
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2582224
+    .line 2582245
     iget-object v10, v5, LX/LDQ;->A05:Ljava/util/List;
 
     invoke-interface {v10}, Ljava/util/List;->size()I
@@ -249,7 +249,7 @@
 
     if-ge v4, v14, :cond_9
 
-    .line 2582225
+    .line 2582246
     invoke-interface {v10, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v15
@@ -258,55 +258,55 @@
 
     const-string v0, "[type="
 
-    .line 2582226
+    .line 2582247
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2582227
+    .line 2582248
     iget v0, v15, LX/KdT;->A02:I
 
-    .line 2582228
+    .line 2582249
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v0, ", index="
 
-    .line 2582229
+    .line 2582250
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2582230
+    .line 2582251
     iget v0, v15, LX/KdT;->A00:I
 
-    .line 2582231
+    .line 2582252
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v0, ", toIndex="
 
-    .line 2582232
+    .line 2582253
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2582233
+    .line 2582254
     iget v0, v15, LX/KdT;->A01:I
 
-    .line 2582234
+    .line 2582255
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 2582235
+    .line 2582256
     iget-object v0, v15, LX/KdT;->A03:Ljava/util/List;
 
-    .line 2582236
+    .line 2582257
     if-eqz v0, :cond_4
 
     const-string v0, ", count="
 
-    .line 2582237
+    .line 2582258
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2582238
+    .line 2582259
     iget-object v0, v15, LX/KdT;->A03:Ljava/util/List;
 
-    .line 2582239
+    .line 2582260
     invoke-static {v11, v0}, LX/IzL;->A18(Ljava/lang/StringBuilder;Ljava/util/List;)V
 
-    .line 2582240
+    .line 2582261
     :cond_4
     invoke-virtual {v11, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -314,7 +314,7 @@
 
     goto :goto_4
 
-    .line 2582241
+    .line 2582262
     :cond_5
     invoke-virtual {v10}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -322,7 +322,7 @@
 
     goto/16 :goto_3
 
-    .line 2582242
+    .line 2582263
     :cond_6
     invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
@@ -330,14 +330,14 @@
 
     check-cast v0, LX/JdN;
 
-    .line 2582243
+    .line 2582264
     check-cast v0, LX/JdL;
 
     iget-object v0, v0, LX/JdL;->A02:LX/1gZ;
 
     goto/16 :goto_2
 
-    .line 2582244
+    .line 2582265
     :cond_7
     iget-object v8, v0, LX/JdL;->A04:Ljava/util/List;
 
@@ -348,19 +348,19 @@
 
     goto/16 :goto_0
 
-    .line 2582245
+    .line 2582266
     :cond_9
     const-string v0, "]; "
 
-    .line 2582246
+    .line 2582267
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v0, "mNextData: ["
 
-    .line 2582247
+    .line 2582268
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2582248
+    .line 2582269
     invoke-interface {v9}, Ljava/util/List;->size()I
 
     move-result v4
@@ -370,7 +370,7 @@
 
     const-string v0, "["
 
-    .line 2582249
+    .line 2582270
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-interface {v9, v13}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -388,48 +388,48 @@
     :cond_a
     const-string v0, "]"
 
-    .line 2582250
+    .line 2582271
     invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2582251
+    .line 2582272
     sget-object v6, LX/001;->A01:Ljava/lang/Integer;
 
-    .line 2582252
+    .line 2582273
     invoke-virtual {v11}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v4
 
     const-string v0, "RecyclerBinderUpdateCallback:InconsistentSize"
 
-    .line 2582253
+    .line 2582274
     invoke-static {v0, v6, v4}, LX/2so;->A01(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
 
-    .line 2582254
+    .line 2582275
     invoke-interface {v10}, Ljava/util/List;->clear()V
 
-    .line 2582255
+    .line 2582276
     iget-object v11, v5, LX/LDQ;->A03:Ljava/util/List;
 
     invoke-interface {v11}, Ljava/util/List;->clear()V
 
-    .line 2582256
+    .line 2582277
     invoke-interface {v12}, Ljava/util/List;->clear()V
 
-    .line 2582257
+    .line 2582278
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v6
 
-    .line 2582258
+    .line 2582279
     const/4 v13, 0x0
 
-    .line 2582259
+    .line 2582280
     :goto_6
     iget v4, v5, LX/LDQ;->A00:I
 
     if-ge v13, v4, :cond_b
 
-    .line 2582260
+    .line 2582281
     iget-object v0, v5, LX/LDQ;->A07:Ljava/util/List;
 
     invoke-interface {v0, v13}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -446,14 +446,14 @@
 
     goto :goto_6
 
-    .line 2582261
+    .line 2582282
     :cond_b
     invoke-interface {v11, v6}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 2582262
+    .line 2582283
     const/16 v21, 0x2
 
-    .line 2582263
+    .line 2582284
     new-instance v0, LX/KdT;
 
     move/from16 v22, v7
@@ -468,25 +468,25 @@
 
     invoke-direct/range {v18 .. v23}, LX/KdT;-><init>(Ljava/util/List;Ljava/util/List;III)V
 
-    .line 2582264
+    .line 2582285
     invoke-interface {v10, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2582265
+    .line 2582286
     invoke-interface {v9}, Ljava/util/List;->size()I
 
     move-result v16
 
-    .line 2582266
+    .line 2582287
     invoke-static/range {v16 .. v16}, LX/92k;->A0d(I)Ljava/util/ArrayList;
 
     move-result-object v6
 
-    .line 2582267
+    .line 2582288
     invoke-static/range {v16 .. v16}, LX/92k;->A0d(I)Ljava/util/ArrayList;
 
     move-result-object v4
 
-    .line 2582268
+    .line 2582289
     const/4 v13, 0x0
 
     :goto_7
@@ -494,14 +494,14 @@
 
     if-ge v13, v0, :cond_14
 
-    .line 2582269
+    .line 2582290
     invoke-interface {v9, v13}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v14
 
     if-eqz v17, :cond_c
 
-    .line 2582270
+    .line 2582291
     if-nez v14, :cond_e
 
     const-string v0, ""
@@ -513,7 +513,7 @@
 
     invoke-static {v0}, Lcom/facebook/litho/ComponentsSystrace;->A02(Ljava/lang/String;)V
 
-    .line 2582271
+    .line 2582292
     :cond_c
     iget-object v0, v5, LX/LDQ;->A01:LX/KiE;
 
@@ -523,10 +523,10 @@
 
     if-eqz v17, :cond_d
 
-    .line 2582272
+    .line 2582293
     invoke-static {}, Lcom/facebook/litho/ComponentsSystrace;->A00()V
 
-    .line 2582273
+    .line 2582294
     :cond_d
     new-instance v0, LX/KXe;
 
@@ -534,7 +534,7 @@
 
     invoke-virtual {v6, v13, v0}, Ljava/util/AbstractList;->add(ILjava/lang/Object;)V
 
-    .line 2582274
+    .line 2582295
     new-instance v0, LX/1hE;
 
     invoke-direct {v0, v2, v14}, LX/1hE;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -545,16 +545,16 @@
 
     goto :goto_7
 
-    .line 2582275
+    .line 2582296
     :cond_e
     invoke-static {v14}, LX/92q;->A0e(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2582276
+    .line 2582297
     goto :goto_8
 
-    .line 2582277
+    .line 2582298
     :cond_f
     iget-object v11, v5, LX/LDQ;->A06:Ljava/util/List;
 
@@ -565,27 +565,27 @@
     :goto_9
     if-ge v7, v10, :cond_15
 
-    .line 2582278
+    .line 2582299
     invoke-interface {v11, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, LX/KXe;
 
-    .line 2582279
+    .line 2582300
     iget-boolean v0, v0, LX/KXe;->A01:Z
 
-    .line 2582280
+    .line 2582301
     if-eqz v0, :cond_12
 
-    .line 2582281
+    .line 2582302
     invoke-interface {v9, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v6
 
     if-eqz v17, :cond_10
 
-    .line 2582282
+    .line 2582303
     if-nez v6, :cond_13
 
     const-string v0, ""
@@ -597,7 +597,7 @@
 
     invoke-static {v0}, Lcom/facebook/litho/ComponentsSystrace;->A02(Ljava/lang/String;)V
 
-    .line 2582283
+    .line 2582304
     :cond_10
     invoke-interface {v11, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -611,16 +611,16 @@
 
     move-result-object v0
 
-    .line 2582284
+    .line 2582305
     iput-object v0, v4, LX/KXe;->A00:LX/M33;
 
-    .line 2582285
+    .line 2582306
     if-eqz v17, :cond_11
 
-    .line 2582286
+    .line 2582307
     invoke-static {}, Lcom/facebook/litho/ComponentsSystrace;->A00()V
 
-    .line 2582287
+    .line 2582308
     :cond_11
     iget-object v0, v5, LX/LDQ;->A03:Ljava/util/List;
 
@@ -630,35 +630,35 @@
 
     check-cast v0, LX/1hE;
 
-    .line 2582288
+    .line 2582309
     iput-object v6, v0, LX/1hE;->A00:Ljava/lang/Object;
 
-    .line 2582289
+    .line 2582310
     :cond_12
     add-int/lit8 v7, v7, 0x1
 
     goto :goto_9
 
-    .line 2582290
+    .line 2582311
     :cond_13
     invoke-static {v6}, LX/92q;->A0e(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2582291
+    .line 2582312
     goto :goto_a
 
-    .line 2582292
+    .line 2582313
     :cond_14
     invoke-interface {v12, v6}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 2582293
+    .line 2582314
     invoke-interface {v11, v4}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 2582294
+    .line 2582315
     const/16 v16, -0x1
 
-    .line 2582295
+    .line 2582316
     new-instance v0, LX/KdT;
 
     move-object v12, v6
@@ -673,19 +673,19 @@
 
     invoke-direct/range {v11 .. v16}, LX/KdT;-><init>(Ljava/util/List;Ljava/util/List;III)V
 
-    .line 2582296
+    .line 2582317
     invoke-interface {v10, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2582297
+    .line 2582318
     :cond_15
     if-eqz v17, :cond_16
 
     const-string v0, "executeOperations"
 
-    .line 2582298
+    .line 2582319
     invoke-static {v0}, Lcom/facebook/litho/ComponentsSystrace;->A02(Ljava/lang/String;)V
 
-    .line 2582299
+    .line 2582320
     :cond_16
     iget-object v6, v5, LX/LDQ;->A02:LX/KUB;
 
@@ -693,7 +693,7 @@
 
     move-object/from16 v27, v0
 
-    .line 2582300
+    .line 2582321
     invoke-interface/range {v27 .. v27}, Ljava/util/List;->size()I
 
     move-result v16
@@ -707,7 +707,7 @@
 
     if-ge v4, v0, :cond_2b
 
-    .line 2582301
+    .line 2582322
     move-object/from16 v0, v27
 
     invoke-interface {v0, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -716,22 +716,22 @@
 
     check-cast v12, LX/KdT;
 
-    .line 2582302
+    .line 2582323
     iget-object v0, v12, LX/KdT;->A03:Ljava/util/List;
 
-    .line 2582303
+    .line 2582324
     iget-object v9, v12, LX/KdT;->A04:Ljava/util/List;
 
-    .line 2582304
+    .line 2582325
     if-nez v0, :cond_2a
 
     const/4 v8, 0x1
 
-    .line 2582305
+    .line 2582326
     :goto_c
     iget v7, v12, LX/KdT;->A02:I
 
-    .line 2582306
+    .line 2582327
     if-eqz v7, :cond_22
 
     if-eq v7, v1, :cond_1b
@@ -740,34 +740,34 @@
 
     if-eq v7, v0, :cond_18
 
-    .line 2582307
+    .line 2582328
     iget-object v7, v6, LX/KUB;->A00:LX/KwK;
 
-    .line 2582308
+    .line 2582329
     iget v10, v12, LX/KdT;->A00:I
 
-    .line 2582309
+    .line 2582330
     iget v8, v12, LX/KdT;->A01:I
 
-    .line 2582310
+    .line 2582331
     invoke-interface {v9, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, LX/1hE;
 
-    .line 2582311
+    .line 2582332
     iget-object v0, v0, LX/1hE;->A00:Ljava/lang/Object;
 
-    .line 2582312
+    .line 2582333
     if-eqz v0, :cond_17
 
-    .line 2582313
+    .line 2582334
     invoke-static {v0}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v21
 
-    .line 2582314
+    .line 2582335
     :goto_d
     new-instance v0, LX/L0C;
 
@@ -789,44 +789,44 @@
 
     invoke-direct/range {v18 .. v26}, LX/L0C;-><init>(LX/M33;Ljava/util/List;Ljava/util/List;Ljava/util/List;IIII)V
 
-    .line 2582315
+    .line 2582336
     :goto_e
     invoke-virtual {v7, v0}, LX/KwK;->A01(LX/L0C;)V
 
-    .line 2582316
+    .line 2582337
     add-int/lit8 v4, v4, 0x1
 
     goto :goto_b
 
-    .line 2582317
+    .line 2582338
     :cond_17
     const/16 v21, 0x0
 
     goto :goto_d
 
-    .line 2582318
+    .line 2582339
     :cond_18
     iget v10, v12, LX/KdT;->A01:I
 
-    .line 2582319
+    .line 2582340
     iget-object v7, v6, LX/KUB;->A00:LX/KwK;
 
     if-ne v10, v1, :cond_19
 
-    .line 2582320
+    .line 2582341
     iget v10, v12, LX/KdT;->A00:I
 
-    .line 2582321
+    .line 2582342
     invoke-interface {v9, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, LX/1hE;
 
-    .line 2582322
+    .line 2582343
     iget-object v9, v0, LX/1hE;->A01:Ljava/lang/Object;
 
-    .line 2582323
+    .line 2582344
     invoke-static {}, LX/J3V;->A00()LX/M33;
 
     move-result-object v8
@@ -839,16 +839,16 @@
 
     goto :goto_e
 
-    .line 2582324
+    .line 2582345
     :cond_19
     iget v11, v12, LX/KdT;->A00:I
 
-    .line 2582325
+    .line 2582346
     invoke-static {v9}, LX/5We;->A0k(Ljava/util/List;)Ljava/util/ArrayList;
 
     move-result-object v8
 
-    .line 2582326
+    .line 2582347
     invoke-interface {v9}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v9
@@ -866,24 +866,24 @@
 
     check-cast v0, LX/1hE;
 
-    .line 2582327
+    .line 2582348
     iget-object v0, v0, LX/1hE;->A01:Ljava/lang/Object;
 
-    .line 2582328
+    .line 2582349
     invoke-virtual {v8, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_f
 
-    .line 2582329
+    .line 2582350
     :cond_1a
     sget-object v20, LX/L0C;->A08:Ljava/util/List;
 
     const/16 v23, -0x3
 
-    .line 2582330
+    .line 2582351
     const/16 v25, -0x1
 
-    .line 2582331
+    .line 2582352
     new-instance v0, LX/L0C;
 
     move-object/from16 v21, v8
@@ -902,75 +902,75 @@
 
     goto :goto_e
 
-    .line 2582332
+    .line 2582353
     :cond_1b
     if-ne v8, v1, :cond_1c
 
-    .line 2582333
+    .line 2582354
     iget-object v7, v6, LX/KUB;->A00:LX/KwK;
 
-    .line 2582334
+    .line 2582355
     iget v12, v12, LX/KdT;->A00:I
 
-    .line 2582335
+    .line 2582356
     invoke-interface {v0, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, LX/KXe;
 
-    .line 2582336
+    .line 2582357
     iget-object v13, v0, LX/KXe;->A00:LX/M33;
 
-    .line 2582337
+    .line 2582358
     iget-object v0, v3, LX/3B5;->A05:LX/1j0;
 
     invoke-static {v0}, LX/1j0;->A00(LX/1j0;)LX/1j0;
 
     move-result-object v11
 
-    .line 2582338
+    .line 2582359
     invoke-interface {v9, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, LX/1hE;
 
-    .line 2582339
+    .line 2582360
     iget-object v10, v0, LX/1hE;->A01:Ljava/lang/Object;
 
-    .line 2582340
+    .line 2582361
     invoke-interface {v9, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, LX/1hE;
 
-    .line 2582341
+    .line 2582362
     iget-object v9, v0, LX/1hE;->A00:Ljava/lang/Object;
 
-    .line 2582342
+    .line 2582363
     new-instance v8, LX/LJY;
 
     invoke-direct {v8, v11, v13}, LX/LJY;-><init>(LX/1j0;LX/M33;)V
 
-    .line 2582343
+    .line 2582364
     const/4 v0, 0x2
 
-    .line 2582344
+    .line 2582365
     invoke-static {v8, v10, v9, v0, v12}, LX/L0C;->A00(LX/M33;Ljava/lang/Object;Ljava/lang/Object;II)LX/L0C;
 
     move-result-object v0
 
     goto/16 :goto_e
 
-    .line 2582345
+    .line 2582366
     :cond_1c
     invoke-static {v8}, LX/92k;->A0d(I)Ljava/util/ArrayList;
 
     move-result-object v10
 
-    .line 2582346
+    .line 2582367
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v13
@@ -994,38 +994,38 @@
 
     if-eq v11, v8, :cond_1d
 
-    .line 2582347
+    .line 2582368
     iget-object v0, v0, LX/KXe;->A00:LX/M33;
 
-    .line 2582348
+    .line 2582369
     invoke-virtual {v10, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     move v11, v7
 
     goto :goto_10
 
-    .line 2582349
+    .line 2582370
     :cond_1d
     iget-object v7, v6, LX/KUB;->A00:LX/KwK;
 
-    .line 2582350
+    .line 2582371
     iget v0, v12, LX/KdT;->A00:I
 
     move/from16 v18, v0
 
-    .line 2582351
+    .line 2582372
     iget-object v0, v3, LX/3B5;->A05:LX/1j0;
 
     invoke-static {v0}, LX/1j0;->A00(LX/1j0;)LX/1j0;
 
     move-result-object v14
 
-    .line 2582352
+    .line 2582373
     invoke-static {v9}, LX/5We;->A0k(Ljava/util/List;)Ljava/util/ArrayList;
 
     move-result-object v12
 
-    .line 2582353
+    .line 2582374
     invoke-interface {v9}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v11
@@ -1043,21 +1043,21 @@
 
     check-cast v0, LX/1hE;
 
-    .line 2582354
+    .line 2582375
     iget-object v0, v0, LX/1hE;->A01:Ljava/lang/Object;
 
-    .line 2582355
+    .line 2582376
     invoke-virtual {v12, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_11
 
-    .line 2582356
+    .line 2582377
     :cond_1e
     invoke-static {v9}, LX/5We;->A0k(Ljava/util/List;)Ljava/util/ArrayList;
 
     move-result-object v11
 
-    .line 2582357
+    .line 2582378
     invoke-interface {v9}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v9
@@ -1075,27 +1075,27 @@
 
     check-cast v0, LX/1hE;
 
-    .line 2582358
+    .line 2582379
     iget-object v0, v0, LX/1hE;->A00:Ljava/lang/Object;
 
-    .line 2582359
+    .line 2582380
     invoke-virtual {v11, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_12
 
-    .line 2582360
+    .line 2582381
     :cond_1f
     if-eqz v14, :cond_21
 
-    .line 2582361
+    .line 2582382
     invoke-static {v10}, LX/5We;->A0k(Ljava/util/List;)Ljava/util/ArrayList;
 
     move-result-object v15
 
-    .line 2582362
+    .line 2582383
     const/4 v13, 0x0
 
-    .line 2582363
+    .line 2582384
     :goto_13
     invoke-interface {v10}, Ljava/util/List;->size()I
 
@@ -1103,7 +1103,7 @@
 
     if-ge v13, v0, :cond_20
 
-    .line 2582364
+    .line 2582385
     invoke-interface {v10, v13}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v9
@@ -1123,14 +1123,14 @@
     :cond_20
     move-object v10, v15
 
-    .line 2582365
+    .line 2582386
     :cond_21
     const/16 v23, -0x2
 
-    .line 2582366
+    .line 2582387
     const/16 v25, -0x1
 
-    .line 2582367
+    .line 2582388
     new-instance v0, LX/L0C;
 
     move-object/from16 v21, v12
@@ -1151,76 +1151,76 @@
 
     goto/16 :goto_e
 
-    .line 2582368
+    .line 2582389
     :cond_22
     if-ne v8, v1, :cond_24
 
-    .line 2582369
+    .line 2582390
     iget-object v7, v6, LX/KUB;->A00:LX/KwK;
 
-    .line 2582370
+    .line 2582391
     iget v12, v12, LX/KdT;->A00:I
 
-    .line 2582371
+    .line 2582392
     invoke-interface {v0, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, LX/KXe;
 
-    .line 2582372
+    .line 2582393
     iget-object v11, v0, LX/KXe;->A00:LX/M33;
 
-    .line 2582373
+    .line 2582394
     iget-object v0, v3, LX/3B5;->A05:LX/1j0;
 
     invoke-static {v0}, LX/1j0;->A00(LX/1j0;)LX/1j0;
 
     move-result-object v10
 
-    .line 2582374
+    .line 2582395
     invoke-interface {v9, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, LX/1hE;
 
-    .line 2582375
+    .line 2582396
     iget-object v9, v0, LX/1hE;->A00:Ljava/lang/Object;
 
-    .line 2582376
+    .line 2582397
     iget-object v0, v7, LX/KwK;->A02:LX/JdN;
 
     if-eqz v0, :cond_23
 
-    .line 2582377
+    .line 2582398
     iget-object v8, v0, LX/JdN;->A03:Ljava/lang/String;
 
-    .line 2582378
+    .line 2582399
     const-string v0, "section_global_key"
 
     invoke-interface {v11, v0, v8}, LX/M33;->A6g(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 2582379
+    .line 2582400
     :cond_23
     new-instance v0, LX/LJY;
 
     invoke-direct {v0, v10, v11}, LX/LJY;-><init>(LX/1j0;LX/M33;)V
 
-    .line 2582380
+    .line 2582401
     invoke-static {v0, v2, v9, v1, v12}, LX/L0C;->A00(LX/M33;Ljava/lang/Object;Ljava/lang/Object;II)LX/L0C;
 
     move-result-object v0
 
     goto/16 :goto_e
 
-    .line 2582381
+    .line 2582402
     :cond_24
     invoke-static {v8}, LX/92k;->A0d(I)Ljava/util/ArrayList;
 
     move-result-object v11
 
-    .line 2582382
+    .line 2582403
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v13
@@ -1244,38 +1244,38 @@
 
     if-eq v10, v8, :cond_25
 
-    .line 2582383
+    .line 2582404
     iget-object v0, v0, LX/KXe;->A00:LX/M33;
 
-    .line 2582384
+    .line 2582405
     invoke-virtual {v11, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     move v10, v7
 
     goto :goto_14
 
-    .line 2582385
+    .line 2582406
     :cond_25
     iget-object v7, v6, LX/KUB;->A00:LX/KwK;
 
-    .line 2582386
+    .line 2582407
     iget v0, v12, LX/KdT;->A00:I
 
     move/from16 v24, v0
 
-    .line 2582387
+    .line 2582408
     iget-object v0, v3, LX/3B5;->A05:LX/1j0;
 
     invoke-static {v0}, LX/1j0;->A00(LX/1j0;)LX/1j0;
 
     move-result-object v14
 
-    .line 2582388
+    .line 2582409
     invoke-static {v9}, LX/5We;->A0k(Ljava/util/List;)Ljava/util/ArrayList;
 
     move-result-object v12
 
-    .line 2582389
+    .line 2582410
     invoke-interface {v9}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v9
@@ -1293,15 +1293,15 @@
 
     check-cast v0, LX/1hE;
 
-    .line 2582390
+    .line 2582411
     iget-object v0, v0, LX/1hE;->A00:Ljava/lang/Object;
 
-    .line 2582391
+    .line 2582412
     invoke-virtual {v12, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_15
 
-    .line 2582392
+    .line 2582413
     :cond_26
     iget-object v0, v7, LX/KwK;->A02:LX/JdN;
 
@@ -1309,7 +1309,7 @@
 
     const/4 v15, 0x0
 
-    .line 2582393
+    .line 2582414
     invoke-interface {v11}, Ljava/util/List;->size()I
 
     move-result v13
@@ -1317,7 +1317,7 @@
     :goto_16
     if-ge v15, v13, :cond_27
 
-    .line 2582394
+    .line 2582415
     invoke-interface {v11, v15}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v10
@@ -1326,10 +1326,10 @@
 
     iget-object v0, v7, LX/KwK;->A02:LX/JdN;
 
-    .line 2582395
+    .line 2582416
     iget-object v9, v0, LX/JdN;->A03:Ljava/lang/String;
 
-    .line 2582396
+    .line 2582417
     const-string v0, "section_global_key"
 
     invoke-interface {v10, v0, v9}, LX/M33;->A6g(Ljava/lang/String;Ljava/lang/Object;)V
@@ -1338,19 +1338,19 @@
 
     goto :goto_16
 
-    .line 2582397
+    .line 2582418
     :cond_27
     if-eqz v14, :cond_29
 
-    .line 2582398
+    .line 2582419
     invoke-static {v11}, LX/5We;->A0k(Ljava/util/List;)Ljava/util/ArrayList;
 
     move-result-object v13
 
-    .line 2582399
+    .line 2582420
     const/4 v10, 0x0
 
-    .line 2582400
+    .line 2582421
     :goto_17
     invoke-interface {v11}, Ljava/util/List;->size()I
 
@@ -1358,7 +1358,7 @@
 
     if-ge v10, v0, :cond_28
 
-    .line 2582401
+    .line 2582422
     invoke-interface {v11, v10}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v9
@@ -1378,11 +1378,11 @@
     :cond_28
     move-object v11, v13
 
-    .line 2582402
+    .line 2582423
     :cond_29
     const/16 v23, -0x1
 
-    .line 2582403
+    .line 2582424
     new-instance v0, LX/L0C;
 
     move-object/from16 v18, v0
@@ -1403,7 +1403,7 @@
 
     goto/16 :goto_e
 
-    .line 2582404
+    .line 2582425
     :cond_2a
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -1411,14 +1411,14 @@
 
     goto/16 :goto_c
 
-    .line 2582405
+    .line 2582426
     :cond_2b
     if-eqz v17, :cond_2c
 
-    .line 2582406
+    .line 2582427
     invoke-static {}, Lcom/facebook/litho/ComponentsSystrace;->A00()V
 
-    .line 2582407
+    .line 2582428
     :cond_2c
     return-void
 .end method

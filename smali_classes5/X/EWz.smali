@@ -199,7 +199,7 @@
     .line 49
     .line 50
     .line 51
-    invoke-static {p0, v2, p3, p6, v5}, LX/Chj;->A07(Landroid/content/Context;Landroid/content/Intent;Lcom/instagram/service/session/UserSession;Ljava/io/Serializable;Ljava/lang/String;)Landroid/app/PendingIntent;
+    invoke-static {p0, v2, p3, p6, v5}, LX/Chj;->A06(Landroid/content/Context;Landroid/content/Intent;Lcom/instagram/service/session/UserSession;Ljava/io/Serializable;Ljava/lang/String;)Landroid/app/PendingIntent;
 
     .line 52
     .line 53

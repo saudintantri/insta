@@ -80,7 +80,7 @@
 
     .line 20
     .line 21
-    const-string v0, "eviction.v2"
+    const-string/jumbo v0, "eviction.v2"
 
     .line 22
     .line 23
@@ -516,7 +516,7 @@
     move-result-object v2
 
     .line 138
-    const-string v1, "eviction_type"
+    const-string/jumbo v1, "eviction_type"
 
     .line 139
     .line 140
@@ -2179,7 +2179,7 @@
     .line 627
     .line 628
     .line 629
-    const-string v1, "evictionCount"
+    const-string/jumbo v1, "evictionCount"
 
     .line 630
     .line 631

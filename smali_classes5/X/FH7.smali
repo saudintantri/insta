@@ -49,7 +49,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v0}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 9
     .line 10

@@ -16,17 +16,17 @@
 .method public constructor <init>(Lorg/webrtc/EglBase$Context;ZZ)V
     .locals 1
 
-    .line 1076647647
+    .line 1076647668
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1076647648
+    .line 1076647669
     new-instance v0, Lorg/webrtc/SoftwareVideoEncoderFactory;
 
     invoke-direct {v0}, Lorg/webrtc/SoftwareVideoEncoderFactory;-><init>()V
 
     iput-object v0, p0, Lorg/webrtc/DefaultVideoEncoderFactory;->softwareVideoEncoderFactory:Lorg/webrtc/VideoEncoderFactory;
 
-    .line 1076647649
+    .line 1076647670
     new-instance v0, Lorg/webrtc/HardwareVideoEncoderFactory;
 
     invoke-direct {v0, p1, p2, p3}, Lorg/webrtc/HardwareVideoEncoderFactory;-><init>(Lorg/webrtc/EglBase$Context;ZZ)V
@@ -39,17 +39,17 @@
 .method public constructor <init>(Lorg/webrtc/EglBase$Context;ZZZ)V
     .locals 6
 
-    .line 808212178
+    .line 808212199
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 808212179
+    .line 808212200
     new-instance v0, Lorg/webrtc/SoftwareVideoEncoderFactory;
 
     invoke-direct {v0}, Lorg/webrtc/SoftwareVideoEncoderFactory;-><init>()V
 
     iput-object v0, p0, Lorg/webrtc/DefaultVideoEncoderFactory;->softwareVideoEncoderFactory:Lorg/webrtc/VideoEncoderFactory;
 
-    .line 808212180
+    .line 808212201
     const/4 v5, 0x0
 
     new-instance v0, Lorg/webrtc/HardwareVideoEncoderFactory;

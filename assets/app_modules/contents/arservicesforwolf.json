@@ -1,8 +1,8 @@
 {
-  "AndroidManifest.xml": "e04532009d39c910331c16bc2aa215577e065bf8a19940a9b5b67dd15b6c4ab8",
+  "AndroidManifest.xml": "44d8cc9326dab31aa02210eeac4627f14c47dc8376d73c83668839cc375b019c",
   "assets/arservicesforwolf2.dex": "06977a4cb1a724f693d963a8feaeb28e3a179a8cf42697bb9b28cc4c8b8a342b",
-  "assets/libs.txt": "e486eb05fabc2126d7ea2d6ea0e03b0bb56b4f8303cf7ec89e26a69a5f103670",
-  "assets/libs.zstd": "6edbd00a708abc4a0c06636137c1d484b683047bde018fa52633afc1bf809cc4",
+  "assets/libs.txt": "7256a631d73188d54a879f855a56d067a87c7b40c1f88d4d798a17a264930486",
+  "assets/libs.zstd": "a936a57df01916ea2c6b379e95a51a42f70535d9e46ebc06a7c3b7739e309e58",
   "assets/metadata.txt": "5507016142900c7a79cbcb3ece8dfcd907526808333ec115561077f66cf31028",
   "assets/resources.arsc": "a595b90e984aad1884c40f9b4e6b921662fd4426dfc3de528e3eac42dc83a046"
 }

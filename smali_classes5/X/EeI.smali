@@ -2291,7 +2291,7 @@
 
     .line 26
     :goto_0
-    invoke-static {v3}, LX/Chf;->A0n(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
+    invoke-static {v3}, LX/Chf;->A0p(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     .line 27
     .line 28

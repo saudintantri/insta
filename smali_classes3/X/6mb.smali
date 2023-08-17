@@ -329,7 +329,7 @@
     .line 269547496
     iget-object v1, p0, LX/6mb;->A0H:Landroid/content/res/Resources;
 
-    const v0, 0x7f070210
+    const v0, 0x7f070206
 
     .line 269547497
     invoke-virtual {v1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

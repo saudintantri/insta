@@ -12,7 +12,7 @@
     .locals 1
 
     .line 0
-    invoke-static {p1}, LX/Che;->A0D(Lcom/instagram/service/session/UserSession;)LX/38H;
+    invoke-static {p1}, LX/Che;->A0E(Lcom/instagram/service/session/UserSession;)LX/38H;
 
     .line 1
     .line 2
@@ -152,7 +152,7 @@
     .line 55
     .line 56
     .line 57
-    invoke-static {v2, p1}, LX/Chi;->A1C(LX/0AX;Lcom/instagram/model/shopping/Product;)V
+    invoke-static {v2, p1}, LX/Chi;->A1D(LX/0AX;Lcom/instagram/model/shopping/Product;)V
 
     .line 58
     .line 59
@@ -161,7 +161,7 @@
 
     .line 61
     .line 62
-    invoke-static {v2, v0}, LX/Chf;->A1F(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/instagram/model/shopping/productfeed/ShoppingRankingLoggingInfo;)V
+    invoke-static {v2, v0}, LX/Chf;->A1G(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/instagram/model/shopping/productfeed/ShoppingRankingLoggingInfo;)V
 
     .line 63
     .line 64
@@ -316,7 +316,7 @@
 
     .line 49
     .line 50
-    invoke-static {v1, v0}, LX/Chf;->A1F(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/instagram/model/shopping/productfeed/ShoppingRankingLoggingInfo;)V
+    invoke-static {v1, v0}, LX/Chf;->A1G(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/instagram/model/shopping/productfeed/ShoppingRankingLoggingInfo;)V
 
     .line 51
     .line 52

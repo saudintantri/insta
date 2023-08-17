@@ -54,7 +54,7 @@
     .locals 1
 
     .line 0
-    invoke-static {p1}, LX/Chg;->A05(Landroid/content/Context;)I
+    invoke-static {p1}, LX/Chg;->A04(Landroid/content/Context;)I
 
     .line 1
     .line 2

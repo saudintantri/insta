@@ -4295,7 +4295,7 @@
     .line 1021
     .line 1022
     .line 1023
-    invoke-static {v0}, LX/Che;->A0A(Landroidx/fragment/app/Fragment;)LX/1rI;
+    invoke-static {v0}, LX/Che;->A0B(Landroidx/fragment/app/Fragment;)LX/1rI;
 
     .line 1024
     .line 1025
@@ -4328,7 +4328,7 @@
     .line 1038
     .line 1039
     .line 1040
-    invoke-static/range {v22 .. v22}, LX/Che;->A09(LX/1r8;)LX/2tM;
+    invoke-static/range {v22 .. v22}, LX/Che;->A0A(LX/1r8;)LX/2tM;
 
     .line 1041
     .line 1042

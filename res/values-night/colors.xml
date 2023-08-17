@@ -52,4 +52,11 @@
     <color name="refreshable_progress_drawable_track">@color/grey_7</color>
     <color name="splash_screen_background">#ff1a1a1a</color>
     <color name="thumbnail_tint">@color/fds_transparent</color>
+    <color name="instander_ic_color">@android:color/white</color>
+    <color name="instander_unfollowbtn_color">#ffdbdbdb</color>
+    <color name="instander_unfollowbtn_color_press">#80dbdbdb</color>
+    <color name="instander_unfollowbtn_color_bkg">@android:color/white</color>
+    <color name="instander_title_color">@android:color/white</color>
+    <color name="instander_summary_color">#ffb3b3b3</color>
+    <color name="instander_splash_bkg_color">#ff292929</color>
 </resources>

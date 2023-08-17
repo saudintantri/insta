@@ -2888,7 +2888,6 @@
     goto :goto_0
     :try_end_1
     .catch LX/1FE; {:try_start_1 .. :try_end_1} :catch_0
-    .catch LX/1FE; {:try_start_1 .. :try_end_1} :catch_1
 
     .line 48
     :catch_0

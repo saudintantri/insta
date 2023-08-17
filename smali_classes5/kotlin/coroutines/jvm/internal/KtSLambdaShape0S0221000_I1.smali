@@ -462,7 +462,7 @@
 
     .line 53
     .line 54
-    invoke-static {v0}, LX/Chh;->A0P(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
+    invoke-static {v0}, LX/Chh;->A0Q(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
 
     .line 55
     .line 56
@@ -707,7 +707,7 @@
 
     .line 173
     .line 174
-    invoke-static {v8}, LX/Chi;->A0Y(Ljava/lang/Enum;)Ljava/lang/Integer;
+    invoke-static {v8}, LX/Chi;->A0a(Ljava/lang/Enum;)Ljava/lang/Integer;
 
     .line 175
     .line 176
@@ -799,7 +799,7 @@
 
     .line 218
     .line 219
-    invoke-static {v5}, LX/Chi;->A0Y(Ljava/lang/Enum;)Ljava/lang/Integer;
+    invoke-static {v5}, LX/Chi;->A0a(Ljava/lang/Enum;)Ljava/lang/Integer;
 
     .line 220
     .line 221
@@ -951,7 +951,7 @@
 
     .line 290
     .line 291
-    invoke-static {v0}, LX/Chh;->A0P(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
+    invoke-static {v0}, LX/Chh;->A0Q(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
 
     .line 292
     .line 293

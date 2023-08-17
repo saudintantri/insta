@@ -453,7 +453,7 @@
     move-result-object v2
 
     .line 4
-    invoke-static {v2, p2, p1}, LX/Chg;->A16(Landroid/os/Bundle;LX/0YK;LX/1M5;)V
+    invoke-static {v2, p2, p1}, LX/Chg;->A15(Landroid/os/Bundle;LX/0YK;LX/1M5;)V
 
     .line 5
     .line 6
@@ -667,7 +667,7 @@
     move-result-object v4
 
     .line 4
-    invoke-static {v4, p2, p1}, LX/Chg;->A16(Landroid/os/Bundle;LX/0YK;LX/1M5;)V
+    invoke-static {v4, p2, p1}, LX/Chg;->A15(Landroid/os/Bundle;LX/0YK;LX/1M5;)V
 
     .line 5
     .line 6

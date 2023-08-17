@@ -67,7 +67,7 @@
 .method public constructor <init>(Landroid/view/View$OnClickListener;Landroidx/fragment/app/Fragment;LX/0BY;LX/48X;LX/1rI;LX/1wu;LX/EaQ;LX/25K;LX/EQu;LX/Ed7;LX/DcG;LX/ENA;LX/E6e;LX/1rQ;LX/1w5;LX/1vR;Lcom/instagram/service/session/UserSession;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 12
 
-    .line 1767515
+    .line 1767536
     sget-object v10, LX/2tk;->A0b:LX/2tk;
 
     move-object/from16 v9, p14
@@ -86,7 +86,7 @@
 
     invoke-direct/range {v4 .. v11}, LX/DeA;-><init>(Landroidx/fragment/app/Fragment;LX/1rI;LX/1wu;LX/0YK;LX/1rQ;LX/2tk;Lcom/instagram/service/session/UserSession;)V
 
-    .line 1767516
+    .line 1767537
     const/4 v1, 0x1
 
     new-instance v0, Lcom/facebook/redex/IDxDelegateShape614S0100000_4_I1;
@@ -95,14 +95,14 @@
 
     iput-object v0, p0, LX/DbM;->A04:Lcom/facebook/redex/IDxDelegateShape614S0100000_4_I1;
 
-    .line 1767517
+    .line 1767538
     new-instance v0, LX/B3k;
 
     invoke-direct {v0, p0}, LX/B3k;-><init>(LX/DbM;)V
 
     iput-object v0, p0, LX/DbM;->A0D:LX/B3k;
 
-    .line 1767518
+    .line 1767539
     const/4 v1, 0x0
 
     new-instance v0, Lcom/facebook/redex/IDxFDelegateShape531S0100000_4_I1;
@@ -111,50 +111,50 @@
 
     iput-object v0, p0, LX/DbM;->A0A:LX/1uJ;
 
-    .line 1767519
+    .line 1767540
     iput-object v11, p0, LX/DbM;->A0L:Lcom/instagram/service/session/UserSession;
 
-    .line 1767520
+    .line 1767541
     invoke-static {v8, v11}, LX/0lf;->A01(LX/0YK;LX/0SF;)LX/0lf;
 
     move-result-object v0
 
     iput-object v0, p0, LX/DbM;->A06:LX/0lf;
 
-    .line 1767521
+    .line 1767542
     invoke-virtual {p2}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
 
     move-result-object v0
 
     iput-object v0, p0, LX/DbM;->A01:Landroid/content/Context;
 
-    .line 1767522
+    .line 1767543
     iput-object p3, p0, LX/DbM;->A03:LX/0BY;
 
-    .line 1767523
+    .line 1767544
     iput-object v8, p0, LX/DbM;->A08:LX/25K;
 
-    .line 1767524
+    .line 1767545
     move-object/from16 v0, p12
 
     iput-object v0, p0, LX/DbM;->A0G:LX/ENA;
 
-    .line 1767525
+    .line 1767546
     move-object/from16 v0, p7
 
     iput-object v0, p0, LX/DbM;->A07:LX/EaQ;
 
-    .line 1767526
+    .line 1767547
     invoke-virtual {p2}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
 
     move-result-object v3
 
-    .line 1767527
+    .line 1767548
     invoke-static {p2}, LX/05o;->A00(LX/05g;)LX/05o;
 
     move-result-object v2
 
-    .line 1767528
+    .line 1767549
     iget-object v1, p0, LX/DbM;->A0L:Lcom/instagram/service/session/UserSession;
 
     new-instance v0, LX/1uG;
@@ -163,84 +163,84 @@
 
     iput-object v0, p0, LX/DbM;->A0B:LX/1uG;
 
-    .line 1767529
+    .line 1767550
     move-object/from16 v0, p15
 
     iput-object v0, p0, LX/DbM;->A0I:LX/1w5;
 
-    .line 1767530
+    .line 1767551
     move-object/from16 v0, p16
 
     iput-object v0, p0, LX/DbM;->A0J:LX/1vR;
 
-    .line 1767531
+    .line 1767552
     move-object/from16 v0, p9
 
     iput-object v0, p0, LX/DbM;->A09:LX/EQu;
 
-    .line 1767532
+    .line 1767553
     move-object/from16 v0, p10
 
     iput-object v0, p0, LX/DbM;->A0C:LX/Ed7;
 
-    .line 1767533
+    .line 1767554
     invoke-virtual {p2}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
 
     move-result-object v2
 
-    .line 1767534
+    .line 1767555
     iget-object v1, p0, LX/DeA;->A03:LX/EOv;
 
-    .line 1767535
+    .line 1767556
     new-instance v0, LX/EEN;
 
     invoke-direct {v0, v2, v1}, LX/EEN;-><init>(Landroid/content/Context;LX/EOv;)V
 
     iput-object v0, p0, LX/DbM;->A0E:LX/EEN;
 
-    .line 1767536
+    .line 1767557
     invoke-static {p2}, LX/Chb;->A0Y(Landroidx/fragment/app/Fragment;)LX/25E;
 
     move-result-object v0
 
-    .line 1767537
+    .line 1767558
     invoke-static {v8, v0, v11}, LX/Chb;->A0Z(LX/0YK;LX/25F;Lcom/instagram/service/session/UserSession;)LX/2uK;
 
     move-result-object v0
 
-    .line 1767538
+    .line 1767559
     iput-object v0, p0, LX/DbM;->A0K:LX/2uK;
 
-    .line 1767539
+    .line 1767560
     invoke-static {}, LX/5We;->A0a()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 1767540
+    .line 1767561
     iput-object v0, p0, LX/DbM;->A0M:Ljava/lang/String;
 
-    .line 1767541
+    .line 1767562
     move-object/from16 v0, p11
 
     iput-object v0, p0, LX/DbM;->A0F:LX/DcG;
 
-    .line 1767542
+    .line 1767563
     move-object/from16 v0, p13
 
     iput-object v0, p0, LX/DbM;->A0H:LX/E6e;
 
-    .line 1767543
+    .line 1767564
     invoke-static {}, LX/Chb;->A0A()Landroid/graphics/RectF;
 
     move-result-object v0
 
-    .line 1767544
+    .line 1767565
     iput-object v0, p0, LX/DbM;->A0O:Landroid/graphics/RectF;
 
-    .line 1767545
+    .line 1767566
     iget-object v0, p0, LX/DeA;->A00:Landroidx/fragment/app/Fragment;
 
-    .line 1767546
+    .line 1767567
     invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->requireActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
@@ -251,32 +251,32 @@
 
     iput v0, p0, LX/DbM;->A0N:I
 
-    .line 1767547
+    .line 1767568
     move-object/from16 v0, p18
 
     iput-object v0, p0, LX/DbM;->A0Q:Ljava/lang/String;
 
-    .line 1767548
+    .line 1767569
     move-object/from16 v0, p19
 
     iput-object v0, p0, LX/DbM;->A0R:Ljava/lang/String;
 
-    .line 1767549
+    .line 1767570
     move-object/from16 v0, p20
 
     iput-object v0, p0, LX/DbM;->A0S:Ljava/lang/String;
 
-    .line 1767550
+    .line 1767571
     move-object/from16 v0, p21
 
     iput-object v0, p0, LX/DbM;->A0P:Ljava/lang/String;
 
-    .line 1767551
+    .line 1767572
     move-object/from16 v0, p4
 
     iput-object v0, p0, LX/DbM;->A05:LX/48X;
 
-    .line 1767552
+    .line 1767573
     iput-object p1, p0, LX/DbM;->A02:Landroid/view/View$OnClickListener;
 
     return-void

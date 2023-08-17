@@ -65,7 +65,7 @@
     .locals 5
 
     .line 0
-    invoke-static {p1}, LX/Chi;->A0D(Ljava/lang/Object;)LX/Cc6;
+    invoke-static {p1}, LX/Chi;->A0E(Ljava/lang/Object;)LX/Cc6;
 
     .line 1
     .line 2

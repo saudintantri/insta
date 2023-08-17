@@ -426,10 +426,10 @@
     .line 1
     .line 2
     .line 3
-    move-result-object v4
+    move-result-object v3
 
     .line 4
-    invoke-static {v4}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v3}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     .line 5
     .line 6
@@ -566,7 +566,7 @@
     .line 75
     .line 76
     .line 77
-    invoke-virtual {v4}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v3}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 78
     .line 79
@@ -574,12 +574,12 @@
     move-result-object v0
 
     .line 81
-    const v2, 0x7f070029
+    const v4, 0x7f070029
 
     .line 82
     .line 83
     .line 84
-    invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     .line 85
     .line 86
@@ -599,18 +599,18 @@
 
     .line 93
     .line 94
-    invoke-virtual {v4, p1, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {v3, p1, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 95
     .line 96
     .line 97
-    move-result-object v3
+    move-result-object v2
 
     .line 98
     const/4 v1, 0x2
 
     .line 99
-    invoke-virtual {v3, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
+    invoke-virtual {v2, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     .line 100
     .line 101
@@ -625,7 +625,7 @@
     const/4 v0, 0x0
 
     .line 106
-    invoke-virtual {v3, v1, v0}, Landroid/content/res/TypedArray;->getInt(II)I
+    invoke-virtual {v2, v1, v0}, Landroid/content/res/TypedArray;->getInt(II)I
 
     .line 107
     .line 108
@@ -706,7 +706,7 @@
     const/4 v1, 0x0
 
     .line 143
-    invoke-virtual {v3, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
+    invoke-virtual {v2, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     .line 144
     .line 145
@@ -718,7 +718,7 @@
 
     .line 148
     .line 149
-    invoke-static {v4}, LX/5We;->A03(Landroid/content/Context;)I
+    invoke-static {v3}, LX/5We;->A03(Landroid/content/Context;)I
 
     .line 150
     .line 151
@@ -726,7 +726,7 @@
     move-result v0
 
     .line 153
-    invoke-virtual {v3, v1, v0}, Landroid/content/res/TypedArray;->getDimensionPixelOffset(II)I
+    invoke-virtual {v2, v1, v0}, Landroid/content/res/TypedArray;->getDimensionPixelOffset(II)I
 
     .line 154
     .line 155
@@ -747,7 +747,7 @@
     const/4 v1, 0x1
 
     .line 163
-    invoke-virtual {v3, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
+    invoke-virtual {v2, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     .line 164
     .line 165
@@ -759,7 +759,7 @@
 
     .line 168
     .line 169
-    invoke-static {v4, v2}, LX/92m;->A01(Landroid/content/Context;I)I
+    invoke-static {v3, v4}, LX/92m;->A01(Landroid/content/Context;I)I
 
     .line 170
     .line 171
@@ -767,7 +767,7 @@
     move-result v0
 
     .line 173
-    invoke-virtual {v3, v1, v0}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
+    invoke-virtual {v2, v1, v0}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     .line 174
     .line 175
@@ -783,7 +783,7 @@
     const/4 v1, 0x3
 
     .line 180
-    invoke-virtual {v3, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
+    invoke-virtual {v2, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     .line 181
     .line 182
@@ -800,7 +800,7 @@
     .line 187
     .line 188
     .line 189
-    invoke-static {v4, v0}, LX/2fm;->A00(Landroid/content/Context;I)I
+    invoke-static {v3, v0}, LX/2fm;->A00(Landroid/content/Context;I)I
 
     .line 190
     .line 191
@@ -808,7 +808,7 @@
     move-result v0
 
     .line 193
-    invoke-virtual {v3, v1, v0}, Landroid/content/res/TypedArray;->getColor(II)I
+    invoke-virtual {v2, v1, v0}, Landroid/content/res/TypedArray;->getColor(II)I
 
     .line 194
     .line 195
@@ -821,10 +821,10 @@
     .line 198
     .line 199
     :cond_5
-    const/4 v2, 0x4
+    const/4 v1, 0x4
 
     .line 200
-    invoke-virtual {v3, v2}, Landroid/content/res/TypedArray;->hasValue(I)Z
+    invoke-virtual {v2, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     .line 201
     .line 202
@@ -836,59 +836,39 @@
 
     .line 205
     .line 206
-    invoke-virtual {v4}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-static {v3}, LX/Chf;->A0A(Landroid/content/Context;)I
 
     .line 207
     .line 208
     .line 209
-    move-result-object v1
+    move-result v0
 
     .line 210
-    const v0, 0x7f070086
+    invoke-virtual {v2, v1, v0}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     .line 211
     .line 212
     .line 213
-    invoke-virtual {v1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    move-result v0
 
     .line 214
-    .line 215
-    .line 216
-    move-result v0
-
-    .line 217
-    invoke-virtual {v3, v2, v0}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
-
-    .line 218
-    .line 219
-    .line 220
-    move-result v0
-
-    .line 221
     iput v0, p0, Lcom/instagram/ui/widget/thumbnailview/ThumbnailView;->A07:I
 
-    .line 222
-    .line 223
+    .line 215
+    .line 216
     :cond_6
-    invoke-virtual {v3}, Landroid/content/res/TypedArray;->recycle()V
+    invoke-virtual {v2}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 224
-    .line 225
-    .line 226
+    .line 217
+    .line 218
+    .line 219
     :cond_7
     return-void
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
 .end method
 
 .method public static synthetic A03(Landroid/view/ViewGroup;Lcom/instagram/ui/widget/thumbnailview/ThumbnailView;)V

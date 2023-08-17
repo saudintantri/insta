@@ -1172,7 +1172,7 @@
 
     .line 352
     .line 353
-    invoke-static {v5, v4, v3}, LX/Chf;->A1I(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v4, v3}, LX/Chf;->A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 354
     .line 355
@@ -1565,7 +1565,7 @@
 
     .line 549
     .line 550
-    invoke-static {v5, v3}, LX/Chf;->A1G(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/instagram/shopping/model/analytics/ShoppingGuideLoggingInfo;)V
+    invoke-static {v5, v3}, LX/Chf;->A1H(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/instagram/shopping/model/analytics/ShoppingGuideLoggingInfo;)V
 
     .line 551
     .line 552
@@ -1666,7 +1666,7 @@
 
     .line 598
     .line 599
-    invoke-static {v15, v4}, LX/Chg;->A0Y(Ljava/util/Set;I)Ljava/lang/Integer;
+    invoke-static {v15, v4}, LX/Chg;->A0W(Ljava/util/Set;I)Ljava/lang/Integer;
 
     .line 600
     .line 601

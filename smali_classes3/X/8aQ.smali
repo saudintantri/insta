@@ -5610,7 +5610,7 @@
     move-result v11
 
     .line 231
-    const v0, 0x7f07010d
+    const v0, 0x7f07000d
 
     .line 232
     .line 233
@@ -5631,7 +5631,7 @@
 
     .line 241
     .line 242
-    const v0, 0x7f07010c
+    const v0, 0x7f070037
 
     .line 243
     .line 244

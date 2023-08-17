@@ -4169,24 +4169,24 @@
 .method public initEncode(Lorg/webrtc/MediaCodecVideoEncoder$VideoCodecType;IIIIIZ)Z
     .locals 11
 
-    .line 2882084
+    .line 2882105
     const-string v7, "MediaCodecVideoEncoder"
 
-    .line 2882085
+    .line 2882106
     iput p2, p0, Lorg/webrtc/MediaCodecVideoEncoder;->profile:I
 
-    .line 2882086
+    .line 2882107
     iput p3, p0, Lorg/webrtc/MediaCodecVideoEncoder;->width:I
 
-    .line 2882087
+    .line 2882108
     iput p4, p0, Lorg/webrtc/MediaCodecVideoEncoder;->height:I
 
-    .line 2882088
+    .line 2882109
     iget-object v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->mediaCodecThread:Ljava/lang/Thread;
 
     if-nez v0, :cond_10
 
-    .line 2882089
+    .line 2882110
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder$VideoCodecType;->VIDEO_CODEC_VP8:Lorg/webrtc/MediaCodecVideoEncoder$VideoCodecType;
 
     const-string v3, "video/hevc"
@@ -4201,7 +4201,7 @@
 
     if-ne p1, v0, :cond_3
 
-    .line 2882090
+    .line 2882111
     invoke-static {}, Lorg/webrtc/MediaCodecVideoEncoder;->vp8HwList()[Lorg/webrtc/MediaCodecVideoEncoder$MediaCodecProperties;
 
     move-result-object v1
@@ -4210,7 +4210,7 @@
 
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder;->supportedSurfaceColorList:[I
 
-    .line 2882091
+    .line 2882112
     :goto_0
     invoke-static {v6, v1, v0}, Lorg/webrtc/MediaCodecVideoEncoder;->findHwEncoder(Ljava/lang/String;[Lorg/webrtc/MediaCodecVideoEncoder$MediaCodecProperties;[I)Lorg/webrtc/MediaCodecVideoEncoder$EncoderProperties;
 
@@ -4224,31 +4224,31 @@
     :goto_2
     const/4 v8, 0x0
 
-    .line 2882092
+    .line 2882113
     :goto_3
     if-eqz v2, :cond_11
 
-    .line 2882093
+    .line 2882114
     sput-object p0, Lorg/webrtc/MediaCodecVideoEncoder;->runningInstance:Lorg/webrtc/MediaCodecVideoEncoder;
 
-    .line 2882094
+    .line 2882115
     iget v0, v2, Lorg/webrtc/MediaCodecVideoEncoder$EncoderProperties;->colorFormat:I
 
     iput v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->colorFormat:I
 
-    .line 2882095
+    .line 2882116
     iget-object v1, v2, Lorg/webrtc/MediaCodecVideoEncoder$EncoderProperties;->bitrateAdjustmentType:Lorg/webrtc/MediaCodecVideoEncoder$BitrateAdjustmentType;
 
     iput-object v1, p0, Lorg/webrtc/MediaCodecVideoEncoder;->bitrateAdjustmentType:Lorg/webrtc/MediaCodecVideoEncoder$BitrateAdjustmentType;
 
-    .line 2882096
+    .line 2882117
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder$BitrateAdjustmentType;->FRAMERATE_ADJUSTMENT:Lorg/webrtc/MediaCodecVideoEncoder$BitrateAdjustmentType;
 
     const/16 v6, 0x1e
 
     if-eq v1, v0, :cond_0
 
-    .line 2882097
+    .line 2882118
     move/from16 v0, p6
 
     invoke-static {v0, v6}, Ljava/lang/Math;->min(II)I
@@ -4258,15 +4258,15 @@
     :cond_0
     const-wide/16 v0, 0x0
 
-    .line 2882098
+    .line 2882119
     iput-wide v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->forcedKeyFrameMs:J
 
     const-wide/16 v0, -0x1
 
-    .line 2882099
+    .line 2882120
     iput-wide v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->lastKeyFrameMs:J
 
-    .line 2882100
+    .line 2882121
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder$VideoCodecType;->VIDEO_CODEC_VP8:Lorg/webrtc/MediaCodecVideoEncoder$VideoCodecType;
 
     if-ne p1, v0, :cond_1
@@ -4277,32 +4277,32 @@
 
     iget-object v0, v0, Lorg/webrtc/MediaCodecVideoEncoder$MediaCodecProperties;->codecPrefix:Ljava/lang/String;
 
-    .line 2882101
+    .line 2882122
     invoke-virtual {v1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 2882102
+    .line 2882123
     const-wide/16 v0, 0x3a98
 
-    .line 2882103
+    .line 2882124
     iput-wide v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->forcedKeyFrameMs:J
 
-    .line 2882104
+    .line 2882125
     :cond_1
     move/from16 v0, p5
 
     mul-int/lit16 v0, v0, 0x3e8
 
-    .line 2882105
+    .line 2882126
     iput v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->targetBitrateBps:I
 
-    .line 2882106
+    .line 2882127
     iput v6, p0, Lorg/webrtc/MediaCodecVideoEncoder;->targetFps:I
 
-    .line 2882107
+    .line 2882128
     int-to-double v0, v0
 
     const-wide/high16 v9, 0x4020000000000000L    # 8.0
@@ -4313,16 +4313,16 @@
 
     const-wide/16 v0, 0x0
 
-    .line 2882108
+    .line 2882129
     iput-wide v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->bitrateAccumulator:D
 
-    .line 2882109
+    .line 2882130
     iput-wide v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->bitrateObservationTimeMs:D
 
-    .line 2882110
+    .line 2882131
     iput v4, p0, Lorg/webrtc/MediaCodecVideoEncoder;->bitrateAdjustmentScaleExp:I
 
-    .line 2882111
+    .line 2882132
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
@@ -4331,27 +4331,27 @@
 
     goto :goto_8
 
-    .line 2882112
+    .line 2882133
     :cond_2
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder;->supportedColorList:[I
 
     goto :goto_0
 
-    .line 2882113
+    .line 2882134
     :cond_3
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder$VideoCodecType;->VIDEO_CODEC_VP9:Lorg/webrtc/MediaCodecVideoEncoder$VideoCodecType;
 
     if-ne p1, v0, :cond_5
 
-    .line 2882114
+    .line 2882135
     sget-object v1, Lorg/webrtc/MediaCodecVideoEncoder;->vp9HwList:[Lorg/webrtc/MediaCodecVideoEncoder$MediaCodecProperties;
 
     if-eqz p7, :cond_4
 
-    .line 2882115
+    .line 2882136
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder;->supportedSurfaceColorList:[I
 
-    .line 2882116
+    .line 2882137
     :goto_4
     invoke-static {v8, v1, v0}, Lorg/webrtc/MediaCodecVideoEncoder;->findHwEncoder(Ljava/lang/String;[Lorg/webrtc/MediaCodecVideoEncoder$MediaCodecProperties;[I)Lorg/webrtc/MediaCodecVideoEncoder$EncoderProperties;
 
@@ -4361,35 +4361,35 @@
 
     goto :goto_1
 
-    .line 2882117
+    .line 2882138
     :cond_4
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder;->supportedColorList:[I
 
     goto :goto_4
 
-    .line 2882118
+    .line 2882139
     :cond_5
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder$VideoCodecType;->VIDEO_CODEC_H264:Lorg/webrtc/MediaCodecVideoEncoder$VideoCodecType;
 
     if-ne p1, v0, :cond_a
 
-    .line 2882119
+    .line 2882140
     invoke-static {}, Lorg/webrtc/MediaCodecVideoEncoder;->h264HwList()[Lorg/webrtc/MediaCodecVideoEncoder$MediaCodecProperties;
 
     move-result-object v1
 
     if-eqz p7, :cond_9
 
-    .line 2882120
+    .line 2882141
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder;->supportedSurfaceColorList:[I
 
-    .line 2882121
+    .line 2882142
     :goto_5
     invoke-static {v5, v1, v0}, Lorg/webrtc/MediaCodecVideoEncoder;->findHwEncoder(Ljava/lang/String;[Lorg/webrtc/MediaCodecVideoEncoder$MediaCodecProperties;[I)Lorg/webrtc/MediaCodecVideoEncoder$EncoderProperties;
 
     move-result-object v2
 
-    .line 2882122
+    .line 2882143
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder$H264Profile;->CONSTRAINED_HIGH:Lorg/webrtc/MediaCodecVideoEncoder$H264Profile;
 
     invoke-virtual {v0}, Lorg/webrtc/MediaCodecVideoEncoder$H264Profile;->getValue()I
@@ -4398,15 +4398,15 @@
 
     if-ne p2, v0, :cond_6
 
-    .line 2882123
+    .line 2882144
     sget-object v1, Lorg/webrtc/MediaCodecVideoEncoder;->h264HighProfileHwList:[Lorg/webrtc/MediaCodecVideoEncoder$MediaCodecProperties;
 
     if-eqz p7, :cond_8
 
-    .line 2882124
+    .line 2882145
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder;->supportedSurfaceColorList:[I
 
-    .line 2882125
+    .line 2882146
     :goto_6
     invoke-static {v5, v1, v0}, Lorg/webrtc/MediaCodecVideoEncoder;->findHwEncoder(Ljava/lang/String;[Lorg/webrtc/MediaCodecVideoEncoder$MediaCodecProperties;[I)Lorg/webrtc/MediaCodecVideoEncoder$EncoderProperties;
 
@@ -4416,7 +4416,7 @@
 
     if-nez v0, :cond_7
 
-    .line 2882126
+    .line 2882147
     :cond_6
     const/4 v8, 0x0
 
@@ -4425,33 +4425,33 @@
 
     goto/16 :goto_3
 
-    .line 2882127
+    .line 2882148
     :cond_8
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder;->supportedColorList:[I
 
     goto :goto_6
 
-    .line 2882128
+    .line 2882149
     :cond_9
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder;->supportedColorList:[I
 
     goto :goto_5
 
-    .line 2882129
+    .line 2882150
     :cond_a
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder$VideoCodecType;->VIDEO_CODEC_H265:Lorg/webrtc/MediaCodecVideoEncoder$VideoCodecType;
 
     if-ne p1, v0, :cond_f
 
-    .line 2882130
+    .line 2882151
     sget-object v1, Lorg/webrtc/MediaCodecVideoEncoder;->h265HwList:[Lorg/webrtc/MediaCodecVideoEncoder$MediaCodecProperties;
 
     if-eqz p7, :cond_b
 
-    .line 2882131
+    .line 2882152
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder;->supportedSurfaceColorList:[I
 
-    .line 2882132
+    .line 2882153
     :goto_7
     invoke-static {v3, v1, v0}, Lorg/webrtc/MediaCodecVideoEncoder;->findHwEncoder(Ljava/lang/String;[Lorg/webrtc/MediaCodecVideoEncoder$MediaCodecProperties;[I)Lorg/webrtc/MediaCodecVideoEncoder$EncoderProperties;
 
@@ -4463,13 +4463,13 @@
 
     goto/16 :goto_2
 
-    .line 2882133
+    .line 2882154
     :cond_b
     sget-object v0, Lorg/webrtc/MediaCodecVideoEncoder;->supportedColorList:[I
 
     goto :goto_7
 
-    .line 2882134
+    .line 2882155
     :goto_8
     :try_start_0
     invoke-static {v5, p3, p4}, Landroid/media/MediaFormat;->createVideoFormat(Ljava/lang/String;II)Landroid/media/MediaFormat;
@@ -4478,7 +4478,7 @@
 
     const-string v1, "bitrate"
 
-    .line 2882135
+    .line 2882156
     iget v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->targetBitrateBps:I
 
     invoke-virtual {v5, v1, v0}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
@@ -4487,26 +4487,26 @@
 
     const/4 v0, 0x2
 
-    .line 2882136
+    .line 2882157
     invoke-virtual {v5, v1, v0}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     const-string v1, "color-format"
 
-    .line 2882137
+    .line 2882158
     iget v0, v2, Lorg/webrtc/MediaCodecVideoEncoder$EncoderProperties;->colorFormat:I
 
     invoke-virtual {v5, v1, v0}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     const-string v1, "frame-rate"
 
-    .line 2882138
+    .line 2882159
     iget v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->targetFps:I
 
     invoke-virtual {v5, v1, v0}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     const-string v0, "i-frame-interval"
 
-    .line 2882139
+    .line 2882160
     invoke-virtual {v5, v0, v3}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     if-eqz v8, :cond_c
@@ -4515,23 +4515,23 @@
 
     const/16 v0, 0x8
 
-    .line 2882140
+    .line 2882161
     invoke-virtual {v5, v1, v0}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     const-string v1, "level"
 
     const/16 v0, 0x100
 
-    .line 2882141
+    .line 2882162
     invoke-virtual {v5, v1, v0}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
-    .line 2882142
+    .line 2882163
     :cond_c
     iget-object v0, v2, Lorg/webrtc/MediaCodecVideoEncoder$EncoderProperties;->codecName:Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 2882143
+    .line 2882164
     :try_start_1
     invoke-static {v0}, Landroid/media/MediaCodec;->createByCodecName(Ljava/lang/String;)Landroid/media/MediaCodec;
 
@@ -4545,23 +4545,23 @@
     :catch_0
     const/4 v1, 0x0
 
-    .line 2882144
+    .line 2882165
     :goto_9
     :try_start_2
     iput-object v1, p0, Lorg/webrtc/MediaCodecVideoEncoder;->mediaCodec:Landroid/media/MediaCodec;
 
-    .line 2882145
+    .line 2882166
     iput-object p1, p0, Lorg/webrtc/MediaCodecVideoEncoder;->type:Lorg/webrtc/MediaCodecVideoEncoder$VideoCodecType;
 
-    .line 2882146
+    .line 2882167
     if-nez v1, :cond_d
 
-    .line 2882147
+    .line 2882168
     invoke-virtual {p0}, Lorg/webrtc/MediaCodecVideoEncoder;->release()V
 
     return v4
 
-    .line 2882148
+    .line 2882169
     :cond_d
     const/4 v0, 0x0
 
@@ -4571,7 +4571,7 @@
 
     if-eqz p7, :cond_e
 
-    .line 2882149
+    .line 2882170
     invoke-static {}, Lorg/webrtc/MediaCodecVideoEncoder;->getEglContext()Lorg/webrtc/EglBase$Context;
 
     move-result-object v1
@@ -4586,7 +4586,7 @@
 
     iput-object v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->eglBase:Lorg/webrtc/EglBase14;
 
-    .line 2882150
+    .line 2882171
     iget-object v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->mediaCodec:Landroid/media/MediaCodec;
 
     invoke-virtual {v0}, Landroid/media/MediaCodec;->createInputSurface()Landroid/view/Surface;
@@ -4595,25 +4595,25 @@
 
     iput-object v1, p0, Lorg/webrtc/MediaCodecVideoEncoder;->inputSurface:Landroid/view/Surface;
 
-    .line 2882151
+    .line 2882172
     iget-object v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->eglBase:Lorg/webrtc/EglBase14;
 
     invoke-interface {v0, v1}, Lorg/webrtc/EglBase;->createSurface(Landroid/view/Surface;)V
 
-    .line 2882152
+    .line 2882173
     new-instance v0, Lorg/webrtc/GlRectDrawer;
 
     invoke-direct {v0}, Lorg/webrtc/GlRectDrawer;-><init>()V
 
     iput-object v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->drawer:Lorg/webrtc/GlRectDrawer;
 
-    .line 2882153
+    .line 2882174
     :cond_e
     iget-object v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->mediaCodec:Landroid/media/MediaCodec;
 
     invoke-virtual {v0}, Landroid/media/MediaCodec;->start()V
 
-    .line 2882154
+    .line 2882175
     iget-object v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->mediaCodec:Landroid/media/MediaCodec;
 
     invoke-virtual {v0}, Landroid/media/MediaCodec;->getOutputBuffers()[Ljava/nio/ByteBuffer;
@@ -4622,7 +4622,7 @@
 
     iput-object v0, p0, Lorg/webrtc/MediaCodecVideoEncoder;->outputBuffers:[Ljava/nio/ByteBuffer;
 
-    .line 2882155
+    .line 2882176
     return v2
     :try_end_2
     .catch Ljava/lang/IllegalStateException; {:try_start_2 .. :try_end_2} :catch_1
@@ -4632,43 +4632,43 @@
 
     const-string v0, "initEncode failed"
 
-    .line 2882156
+    .line 2882177
     invoke-static {v7, v0, v1}, Lorg/webrtc/Logging;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2882157
+    .line 2882178
     invoke-virtual {p0}, Lorg/webrtc/MediaCodecVideoEncoder;->release()V
 
     return v4
 
-    .line 2882158
+    .line 2882179
     :cond_f
     const-string v0, "initEncode: Non-supported codec "
 
     goto :goto_a
 
-    .line 2882159
+    .line 2882180
     :cond_10
     const-string v0, "Forgot to release()?"
 
     goto :goto_b
 
-    .line 2882160
+    .line 2882181
     :cond_11
     const-string v0, "Can not find HW encoder for "
 
-    .line 2882161
+    .line 2882182
     :goto_a
     invoke-static {v0, p1}, LX/5We;->A0e(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2882162
+    .line 2882183
     :goto_b
     invoke-static {v0}, LX/5Wd;->A0k(Ljava/lang/String;)Ljava/lang/RuntimeException;
 
     move-result-object v0
 
-    .line 2882163
+    .line 2882184
     throw v0
 .end method
 

@@ -232,7 +232,7 @@
     .locals 2
 
     .line 805306368
-    invoke-static {p2, p4}, LX/Chh;->A06(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
+    invoke-static {p2, p4}, LX/Chh;->A07(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
 
     .line 805306369
     .line 805306370
@@ -240,7 +240,7 @@
     move-result-object v1
 
     .line 805306372
-    invoke-static {p4, p3}, LX/Chh;->A02(II)I
+    invoke-static {p4, p3}, LX/Chh;->A03(II)I
 
     .line 805306373
     .line 805306374
@@ -645,7 +645,7 @@
 
     .line 175
     .line 176
-    invoke-static {v2}, LX/Chf;->A0M(Landroid/view/View;)Landroid/view/ViewGroup$MarginLayoutParams;
+    invoke-static {v2}, LX/Chf;->A0N(Landroid/view/View;)Landroid/view/ViewGroup$MarginLayoutParams;
 
     .line 177
     .line 178
@@ -676,7 +676,7 @@
     move-result v0
 
     .line 191
-    invoke-static {p0, v0}, LX/Chf;->A0B(Landroid/view/View;I)I
+    invoke-static {p0, v0}, LX/Chf;->A0C(Landroid/view/View;I)I
 
     .line 192
     .line 193

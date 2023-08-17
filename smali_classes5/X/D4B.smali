@@ -32,7 +32,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1}, LX/Chf;->A0V(Landroid/view/View;)LX/3E7;
+    invoke-static {p1}, LX/Chf;->A0W(Landroid/view/View;)LX/3E7;
 
     .line 9
     .line 10

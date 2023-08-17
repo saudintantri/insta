@@ -64,7 +64,7 @@
 
     const-string v1, "0.0.0"
 
-    .line 539313135
+    .line 539313156
     :cond_0
     and-int/lit8 v0, p2, 0x2
 
@@ -96,12 +96,12 @@
 
     invoke-direct/range {v2 .. v17}, Lcom/facebook/dcp/signals/model/SignalMetadata;-><init>(Lcom/facebook/dcp/model/DcpData;Lcom/facebook/dcp/model/Type;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIIJJJZ)V
 
-    .line 539313136
+    .line 539313157
     invoke-static {v2}, LX/5Wd;->A17(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v3
 
-    .line 539313137
+    .line 539313158
     :cond_1
     move-object/from16 v0, p0
 

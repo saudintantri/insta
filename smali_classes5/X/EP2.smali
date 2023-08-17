@@ -504,7 +504,7 @@
     .line 160
     .line 161
     .line 162
-    invoke-static {v0}, LX/Chi;->A0l(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chi;->A0n(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 163
     .line 164
@@ -627,7 +627,7 @@
 
     .line 221
     .line 222
-    invoke-static {v4, v0}, LX/Chi;->A1O(LX/2tw;I)V
+    invoke-static {v4, v0}, LX/Chi;->A1P(LX/2tw;I)V
 
     .line 223
     .line 224

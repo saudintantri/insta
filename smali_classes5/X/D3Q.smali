@@ -44,7 +44,7 @@
     move-result-object v2
 
     .line 16
-    invoke-static {v2}, LX/Chf;->A0I(Landroid/content/Context;)Landroid/graphics/Typeface;
+    invoke-static {v2}, LX/Chf;->A0J(Landroid/content/Context;)Landroid/graphics/Typeface;
 
     .line 17
     .line 18

@@ -16084,7 +16084,7 @@
     .line 6839
     .line 6840
     :cond_a1
-    invoke-static {}, LX/Chg;->A0v()LX/8xM;
+    invoke-static {}, LX/Chg;->A0u()LX/8xM;
 
     .line 6841
     .line 6842

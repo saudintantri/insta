@@ -179,7 +179,7 @@
 
     .line 8
     .line 9
-    invoke-static {v4, p1}, LX/Chf;->A0l(LX/2hg;I)Ljava/lang/String;
+    invoke-static {v4, p1}, LX/Chf;->A0n(LX/2hg;I)Ljava/lang/String;
 
     .line 10
     .line 11
@@ -240,7 +240,7 @@
 
     .line 39
     .line 40
-    invoke-static {v2, v1, v0, v3}, LX/Che;->A0C(LX/19z;Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)LX/1HO;
+    invoke-static {v2, v1, v0, v3}, LX/Che;->A0D(LX/19z;Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)LX/1HO;
 
     .line 41
     .line 42
@@ -1319,7 +1319,7 @@
 
     .line 187
     .line 188
-    invoke-static {v1, v6, v0}, LX/Che;->A0G(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
+    invoke-static {v1, v6, v0}, LX/Che;->A0H(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
 
     .line 189
     .line 190
@@ -1536,7 +1536,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-static {p0}, LX/Che;->A07(LX/081;)Landroid/view/View;
+    invoke-static {p0}, LX/Che;->A08(LX/081;)Landroid/view/View;
 
     .line 11
     .line 12

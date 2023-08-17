@@ -366,17 +366,17 @@
 .method public final write(I)V
     .locals 3
 
-    .line 539313218
+    .line 539313239
     iget v0, p0, LX/Gsh;->A01:I
 
     if-lez v0, :cond_1
 
-    .line 539313219
+    .line 539313240
     invoke-virtual {p0, p1}, LX/Gsh;->A03(I)I
 
     move-result p1
 
-    .line 539313220
+    .line 539313241
     :cond_0
     iget v2, p0, LX/Gsh;->A00:I
 
@@ -384,7 +384,7 @@
 
     if-lt v2, v0, :cond_2
 
-    .line 539313221
+    .line 539313242
     const-string v1, "write"
 
     new-instance v0, Ljava/lang/NullPointerException;
@@ -393,7 +393,7 @@
 
     throw v0
 
-    .line 539313222
+    .line 539313243
     :cond_1
     const v0, 0xd800
 
@@ -407,19 +407,19 @@
 
     if-gt p1, v0, :cond_6
 
-    .line 539313223
+    .line 539313244
     iput p1, p0, LX/Gsh;->A01:I
 
-    .line 539313224
+    .line 539313245
     return-void
 
-    .line 539313225
+    .line 539313246
     :cond_2
     const/16 v1, 0x80
 
     if-ge p1, v1, :cond_3
 
-    .line 539313226
+    .line 539313247
     add-int/lit8 v0, v2, 0x1
 
     iput v0, p0, LX/Gsh;->A00:I
@@ -432,13 +432,13 @@
 
     throw v0
 
-    .line 539313227
+    .line 539313248
     :cond_3
     const/16 v0, 0x800
 
     if-ge p1, v0, :cond_4
 
-    .line 539313228
+    .line 539313249
     const-string v1, "array access"
 
     new-instance v0, Ljava/lang/NullPointerException;
@@ -447,32 +447,32 @@
 
     throw v0
 
-    .line 539313229
+    .line 539313250
     :cond_4
     const v0, 0xffff
 
     if-gt p1, v0, :cond_5
 
-    .line 539313230
+    .line 539313251
     invoke-static {v2, p1}, LX/Gsh;->A01(II)I
 
     move-result v0
 
-    .line 539313231
+    .line 539313252
     iput v0, p0, LX/Gsh;->A00:I
 
     return-void
 
-    .line 539313232
+    .line 539313253
     :cond_5
     const v0, 0x10ffff
 
     if-gt p1, v0, :cond_6
 
-    .line 539313233
+    .line 539313254
     invoke-static {v2, p1}, LX/Gsh;->A00(II)I
 
-    .line 539313234
+    .line 539313255
     const-string v1, "array access"
 
     new-instance v0, Ljava/lang/NullPointerException;
@@ -481,18 +481,18 @@
 
     throw v0
 
-    .line 539313235
+    .line 539313256
     :cond_6
     invoke-static {p1}, LX/Gsh;->A02(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 539313236
+    .line 539313257
     invoke-static {v0}, LX/FnA;->A0u(Ljava/lang/String;)Ljava/io/IOException;
 
     move-result-object v0
 
-    .line 539313237
+    .line 539313258
     throw v0
 .end method
 
@@ -877,7 +877,7 @@
 
     if-ne p3, v0, :cond_0
 
-    .line 270876618
+    .line 270876639
     aget-char v0, p1, p2
 
     invoke-virtual {p0, v0}, Ljava/io/Writer;->write(I)V
@@ -885,7 +885,7 @@
     :cond_0
     return-void
 
-    .line 270876619
+    .line 270876640
     :cond_1
     iget v0, p0, LX/Gsh;->A01:I
 
@@ -893,12 +893,12 @@
 
     add-int/lit8 v1, p2, 0x1
 
-    .line 270876620
+    .line 270876641
     aget-char v0, p1, p2
 
     add-int/lit8 p3, p3, -0x1
 
-    .line 270876621
+    .line 270876642
     invoke-virtual {p0, v0}, LX/Gsh;->A03(I)I
 
     move-result v0
@@ -907,11 +907,11 @@
 
     move p2, v1
 
-    .line 270876622
+    .line 270876643
     :cond_2
     iget v2, p0, LX/Gsh;->A00:I
 
-    .line 270876623
+    .line 270876644
     const/4 v5, 0x0
 
     add-int/2addr p3, p2
@@ -921,7 +921,7 @@
 
     if-lt v2, v5, :cond_3
 
-    .line 270876624
+    .line 270876645
     const-string v1, "write"
 
     new-instance v0, Ljava/lang/NullPointerException;
@@ -933,14 +933,14 @@
     :cond_3
     add-int/lit8 v4, p2, 0x1
 
-    .line 270876625
+    .line 270876646
     aget-char v1, p1, p2
 
     const/16 v3, 0x80
 
     if-ge v1, v3, :cond_4
 
-    .line 270876626
+    .line 270876647
     const-string v1, "array access"
 
     new-instance v0, Ljava/lang/NullPointerException;
@@ -949,13 +949,13 @@
 
     throw v0
 
-    .line 270876627
+    .line 270876648
     :cond_4
     const/16 v0, 0x800
 
     if-ge v1, v0, :cond_5
 
-    .line 270876628
+    .line 270876649
     const-string v1, "array access"
 
     new-instance v0, Ljava/lang/NullPointerException;
@@ -964,7 +964,7 @@
 
     throw v0
 
-    .line 270876629
+    .line 270876650
     :cond_5
     const v0, 0xd800
 
@@ -978,12 +978,12 @@
 
     if-gt v1, v0, :cond_7
 
-    .line 270876630
+    .line 270876651
     iput v1, p0, LX/Gsh;->A01:I
 
     if-ge v4, p3, :cond_8
 
-    .line 270876631
+    .line 270876652
     aget-char v0, p1, v4
 
     invoke-virtual {p0, v0}, LX/Gsh;->A03(I)I
@@ -994,10 +994,10 @@
 
     if-gt v1, v0, :cond_7
 
-    .line 270876632
+    .line 270876653
     invoke-static {v2, v1}, LX/Gsh;->A00(II)I
 
-    .line 270876633
+    .line 270876654
     const-string v1, "array access"
 
     new-instance v0, Ljava/lang/NullPointerException;
@@ -1006,35 +1006,35 @@
 
     throw v0
 
-    .line 270876634
+    .line 270876655
     :cond_6
     invoke-static {v2, v1}, LX/Gsh;->A01(II)I
 
     move-result v2
 
-    .line 270876635
+    .line 270876656
     move p2, v4
 
     goto :goto_0
 
-    .line 270876636
+    .line 270876657
     :cond_7
     iput v2, p0, LX/Gsh;->A00:I
 
-    .line 270876637
+    .line 270876658
     invoke-static {v1}, LX/Gsh;->A02(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 270876638
+    .line 270876659
     invoke-static {v0}, LX/FnA;->A0u(Ljava/lang/String;)Ljava/io/IOException;
 
     move-result-object v0
 
-    .line 270876639
+    .line 270876660
     throw v0
 
-    .line 270876640
+    .line 270876661
     :cond_8
     iput v2, p0, LX/Gsh;->A00:I
 

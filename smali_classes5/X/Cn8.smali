@@ -286,7 +286,7 @@
     move-result-object v2
 
     .line 111
-    invoke-static {v15}, LX/Che;->A03(Z)I
+    invoke-static {v15}, LX/Che;->A04(Z)I
 
     .line 112
     .line 113

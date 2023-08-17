@@ -821,7 +821,7 @@
     const/4 v0, 0x6
 
     .line 167
-    invoke-static {v2, v4, v1, v0}, LX/Chg;->A0Z(Lcom/instagram/common/kotlindelegate/lifecycle/AutoCleanup;Ljava/lang/Object;[LX/08G;I)Ljava/lang/Object;
+    invoke-static {v2, v4, v1, v0}, LX/Chg;->A0X(Lcom/instagram/common/kotlindelegate/lifecycle/AutoCleanup;Ljava/lang/Object;[LX/08G;I)Ljava/lang/Object;
 
     .line 168
     .line 169
@@ -889,7 +889,7 @@
 
     .line 200
     .line 201
-    invoke-static {v1, v3, v3}, LX/Chi;->A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-static {v1, v3, v3}, LX/Chi;->A1K(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 202
     .line 203

@@ -14,7 +14,7 @@
     .locals 1
 
     .line 0
-    invoke-static {p1}, LX/Che;->A0D(Lcom/instagram/service/session/UserSession;)LX/38H;
+    invoke-static {p1}, LX/Che;->A0E(Lcom/instagram/service/session/UserSession;)LX/38H;
 
     .line 1
     .line 2
@@ -395,7 +395,7 @@
 
     .line 183
     .line 184
-    invoke-static {v3, v4, v0, v5}, LX/Chi;->A1E(LX/0AX;Lcom/instagram/shopping/intf/taggingfeed/ShoppingTaggingFeedArguments;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4, v0, v5}, LX/Chi;->A1F(LX/0AX;Lcom/instagram/shopping/intf/taggingfeed/ShoppingTaggingFeedArguments;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 185
     .line 186

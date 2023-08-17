@@ -1183,7 +1183,6 @@
     const/16 v21, 0x0
     :try_end_6
     .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_12
-    .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_17
 
     .line 555
     .line 556
@@ -2901,7 +2900,6 @@
     check-cast v1, LX/Ltb;
     :try_end_15
     .catch Ljava/io/IOException; {:try_start_15 .. :try_end_15} :catch_12
-    .catch Ljava/io/IOException; {:try_start_15 .. :try_end_15} :catch_17
 
     .line 1350
     .line 1351
@@ -2924,7 +2922,6 @@
     .catch Ljava/lang/IllegalAccessException; {:try_start_16 .. :try_end_16} :catch_7
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_16 .. :try_end_16} :catch_7
     .catch Ljava/io/IOException; {:try_start_16 .. :try_end_16} :catch_12
-    .catch Ljava/io/IOException; {:try_start_16 .. :try_end_16} :catch_17
 
     .line 1359
     :catch_7
@@ -3025,7 +3022,6 @@
     monitor-enter v12
     :try_end_17
     .catch Ljava/io/IOException; {:try_start_17 .. :try_end_17} :catch_12
-    .catch Ljava/io/IOException; {:try_start_17 .. :try_end_17} :catch_17
 
     .line 1407
     :try_start_18
@@ -3134,7 +3130,6 @@
     monitor-enter v12
     :try_end_19
     .catch Ljava/io/IOException; {:try_start_19 .. :try_end_19} :catch_12
-    .catch Ljava/io/IOException; {:try_start_19 .. :try_end_19} :catch_17
 
     .line 1458
     :try_start_1a
@@ -3307,7 +3302,6 @@
     goto/16 :goto_20
     :try_end_1b
     .catch Ljava/io/IOException; {:try_start_1b .. :try_end_1b} :catch_12
-    .catch Ljava/io/IOException; {:try_start_1b .. :try_end_1b} :catch_17
 
     .line 1536
     .line 1537
@@ -3358,7 +3352,6 @@
     goto/16 :goto_1e
     :try_end_1d
     .catch Ljava/io/IOException; {:try_start_1d .. :try_end_1d} :catch_12
-    .catch Ljava/io/IOException; {:try_start_1d .. :try_end_1d} :catch_17
 
     .line 1554
     .line 1555
@@ -4616,7 +4609,6 @@
     check-cast v1, LX/Ltb;
     :try_end_2b
     .catch Ljava/io/IOException; {:try_start_2b .. :try_end_2b} :catch_12
-    .catch Ljava/io/IOException; {:try_start_2b .. :try_end_2b} :catch_17
 
     .line 2135
     .line 2136
@@ -4639,7 +4631,6 @@
     .catch Ljava/lang/IllegalAccessException; {:try_start_2c .. :try_end_2c} :catch_11
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_2c .. :try_end_2c} :catch_11
     .catch Ljava/io/IOException; {:try_start_2c .. :try_end_2c} :catch_12
-    .catch Ljava/io/IOException; {:try_start_2c .. :try_end_2c} :catch_17
 
     .line 2144
     :catch_11
@@ -4683,7 +4674,6 @@
     throw v9
     :try_end_2d
     .catch Ljava/io/IOException; {:try_start_2d .. :try_end_2d} :catch_12
-    .catch Ljava/io/IOException; {:try_start_2d .. :try_end_2d} :catch_17
 
     .line 2161
     :catch_12
@@ -5383,7 +5373,6 @@
     :try_end_3d
     .catch Ljava/net/SocketTimeoutException; {:try_start_3d .. :try_end_3d} :catch_15
     .catch Ljava/io/IOException; {:try_start_3d .. :try_end_3d} :catch_14
-    .catch Ljava/io/IOException; {:try_start_3d .. :try_end_3d} :catch_17
 
     .line 2468
     :try_start_3e
@@ -5457,7 +5446,6 @@
     :try_end_3f
     .catch Ljava/net/SocketTimeoutException; {:try_start_3f .. :try_end_3f} :catch_15
     .catch Ljava/io/IOException; {:try_start_3f .. :try_end_3f} :catch_14
-    .catch Ljava/io/IOException; {:try_start_3f .. :try_end_3f} :catch_17
 
     .line 2500
     :catch_14

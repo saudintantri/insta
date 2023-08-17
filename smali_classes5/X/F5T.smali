@@ -362,7 +362,7 @@
     move-result-object v19
 
     .line 47
-    invoke-static {}, LX/Chf;->A0E()J
+    invoke-static {}, LX/Chf;->A0F()J
 
     .line 48
     .line 49
@@ -496,7 +496,7 @@
     move-result-object v8
 
     .line 114
-    invoke-static {}, LX/Chf;->A0E()J
+    invoke-static {}, LX/Chf;->A0F()J
 
     .line 115
     .line 116
@@ -576,7 +576,7 @@
 
     .line 151
     .line 152
-    invoke-static {v0, v3, v11, v1}, LX/Chf;->A1K(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
+    invoke-static {v0, v3, v11, v1}, LX/Chf;->A1L(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
 
     .line 153
     .line 154
@@ -2978,7 +2978,7 @@
     .locals 19
 
     .line 0
-    invoke-static {}, LX/Chf;->A0E()J
+    invoke-static {}, LX/Chf;->A0F()J
 
     .line 1
     .line 2
@@ -3228,7 +3228,7 @@
     move-result-object v4
 
     .line 38
-    invoke-static {}, LX/Chf;->A0E()J
+    invoke-static {}, LX/Chf;->A0F()J
 
     .line 39
     .line 40
@@ -3261,7 +3261,7 @@
 
     .line 54
     .line 55
-    invoke-static {v2, v3, v5, v0}, LX/Chf;->A1K(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
+    invoke-static {v2, v3, v5, v0}, LX/Chf;->A1L(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
 
     .line 56
     .line 57
@@ -3708,7 +3708,7 @@
 
     .line 111
     .line 112
-    invoke-static {}, LX/Chf;->A0E()J
+    invoke-static {}, LX/Chf;->A0F()J
 
     .line 113
     .line 114
@@ -3821,7 +3821,7 @@
 
     .line 168
     .line 169
-    invoke-static {v7, v0, v8, v1}, LX/Chf;->A1K(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
+    invoke-static {v7, v0, v8, v1}, LX/Chf;->A1L(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
 
     .line 170
     .line 171
@@ -4734,7 +4734,7 @@
     move-result-object v3
 
     .line 27
-    invoke-static {}, LX/Chf;->A0E()J
+    invoke-static {}, LX/Chf;->A0F()J
 
     .line 28
     .line 29
@@ -4784,7 +4784,7 @@
 
     .line 52
     .line 53
-    invoke-static {v1, v2, v4, v0}, LX/Chf;->A1K(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
+    invoke-static {v1, v2, v4, v0}, LX/Chf;->A1L(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
 
     .line 54
     .line 55
@@ -5056,7 +5056,7 @@
     move-result-object v13
 
     .line 65
-    invoke-static {}, LX/Chf;->A0E()J
+    invoke-static {}, LX/Chf;->A0F()J
 
     .line 66
     .line 67

@@ -684,10 +684,10 @@
     :goto_0
     iget-object v4, v2, LX/FTT;->A06:Ljava/lang/Object;
 
-    .line 1650835
+    .line 1650834
     sget-object v20, LX/3B0;->A01:LX/3B0;
 
-    .line 1650836
+    .line 1650835
     iget v5, v2, LX/FTT;->A00:I
 
     const/4 v10, 0x3
@@ -706,15 +706,15 @@
 
     if-eq v5, v10, :cond_1
 
-    .line 1650837
+    .line 1650836
     invoke-static {}, LX/92l;->A0e()Ljava/lang/IllegalStateException;
 
     move-result-object v0
 
-    .line 1650838
+    .line 1650837
     throw v0
 
-    .line 1650839
+    .line 1650838
     :cond_0
     new-instance v2, LX/FTT;
 
@@ -722,7 +722,7 @@
 
     goto :goto_0
 
-    .line 1650840
+    .line 1650839
     :cond_1
     iget-boolean v0, v2, LX/FTT;->A05:Z
 
@@ -755,65 +755,65 @@
 
     const/16 v16, 0xc8
 
-    .line 1650841
+    .line 1650840
     :goto_1
     iget-object v7, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;->A0M:Lcom/instagram/service/session/UserSession;
 
-    .line 1650842
+    .line 1650841
     sget-object v6, LX/0Sq;->A05:LX/0Sq;
 
     const-wide v4, 0x810f5100001f65L
 
-    .line 1650843
+    .line 1650842
     invoke-static {v6, v7, v4, v5}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v4
 
-    .line 1650844
+    .line 1650843
     if-eqz v4, :cond_5
 
-    .line 1650845
+    .line 1650844
     const-wide v4, 0x820f5100020fc7L
 
-    .line 1650846
+    .line 1650845
     invoke-static {v6, v7, v4, v5}, LX/92n;->A06(LX/0Sq;Lcom/instagram/service/session/UserSession;J)J
 
     move-result-wide v4
 
-    .line 1650847
+    .line 1650846
     long-to-int v11, v4
 
-    .line 1650848
+    .line 1650847
     new-instance v18, Ljava/lang/Integer;
 
     move-object/from16 v4, v18
 
     invoke-direct {v4, v11}, Ljava/lang/Integer;-><init>(I)V
 
-    .line 1650849
+    .line 1650848
     const-wide v4, 0x820f5100010fc6L
 
-    .line 1650850
+    .line 1650849
     invoke-static {v6, v7, v4, v5}, LX/92n;->A06(LX/0Sq;Lcom/instagram/service/session/UserSession;J)J
 
     move-result-wide v4
 
-    .line 1650851
+    .line 1650850
     long-to-int v11, v4
 
-    .line 1650852
+    .line 1650851
     new-instance v17, Ljava/lang/Integer;
 
     move-object/from16 v4, v17
 
     invoke-direct {v4, v11}, Ljava/lang/Integer;-><init>(I)V
 
-    .line 1650853
+    .line 1650852
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v11
 
-    .line 1650854
+    .line 1650853
     const-string v5, "size"
 
     move-object/from16 v4, v18
@@ -823,10 +823,10 @@
     :goto_2
     if-eqz p5, :cond_3
 
-    .line 1650855
+    .line 1650854
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;->A0d:LX/F1t;
 
-    .line 1650856
+    .line 1650855
     iget-object v15, v4, LX/F1t;->A03:LX/01Q;
 
     const v14, 0xcc1bf6
@@ -835,7 +835,7 @@
 
     invoke-virtual {v15, v14, v4}, LX/06L;->markerPoint(ILjava/lang/String;)V
 
-    .line 1650857
+    .line 1650856
     const/4 v12, 0x0
 
     const-string v5, "count_per_page"
@@ -844,12 +844,12 @@
 
     invoke-virtual {v15, v14, v12, v5, v4}, LX/06L;->markerAnnotate(IILjava/lang/String;I)V
 
-    .line 1650858
+    .line 1650857
     const-string v4, "is_real_time"
 
     invoke-virtual {v15, v14, v12, v4, v13}, LX/06L;->markerAnnotate(IILjava/lang/String;Z)V
 
-    .line 1650859
+    .line 1650858
     :cond_3
     invoke-static {v0}, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;->A03(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;)Z
 
@@ -859,77 +859,77 @@
 
     if-eqz v4, :cond_1c
 
-    .line 1650860
+    .line 1650859
     const-wide v4, 0x81068600080c35L
 
-    .line 1650861
+    .line 1650860
     invoke-static {v6, v7, v4, v5}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v4
 
-    .line 1650862
+    .line 1650861
     if-eqz v4, :cond_1c
 
-    .line 1650863
+    .line 1650862
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;->A0c:Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetApi;
 
     move-object/from16 v21, v4
 
-    .line 1650864
+    .line 1650863
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;->A05:Ljava/lang/String;
 
-    .line 1650865
+    .line 1650864
     invoke-static {v4}, LX/5Wd;->A17(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 1650866
+    .line 1650865
     const-wide v4, 0x810686000a0c36L
 
-    .line 1650867
+    .line 1650866
     invoke-static {v6, v7, v4, v5}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result p5
 
-    .line 1650868
+    .line 1650867
     invoke-static/range {p6 .. p6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v23
 
-    .line 1650869
+    .line 1650868
     iget-object v5, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;->A0L:LX/1NW;
 
     const/4 v4, -0x1
 
-    .line 1650870
+    .line 1650869
     invoke-virtual {v5, v4}, LX/1NW;->A0c(I)Ljava/util/List;
 
     move-result-object v9
 
     invoke-static {v9}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1650871
+    .line 1650870
     const-wide v4, 0x82068600090997L
 
-    .line 1650872
+    .line 1650871
     invoke-static {v6, v7, v4, v5}, LX/92n;->A06(LX/0Sq;Lcom/instagram/service/session/UserSession;J)J
 
     move-result-wide v4
 
-    .line 1650873
+    .line 1650872
     long-to-int v10, v4
 
-    .line 1650874
+    .line 1650873
     invoke-static {v9, v10}, LX/19J;->A0c(Ljava/lang/Iterable;I)Ljava/util/List;
 
     move-result-object v4
 
-    .line 1650875
+    .line 1650874
     invoke-static {v4}, LX/5We;->A0i(Ljava/lang/Iterable;)Ljava/util/ArrayList;
 
     move-result-object v14
 
-    .line 1650876
+    .line 1650875
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v15
@@ -945,22 +945,22 @@
 
     move-result-object v12
 
-    .line 1650877
+    .line 1650876
     check-cast v12, LX/1OD;
 
-    .line 1650878
+    .line 1650877
     new-instance v11, Lcom/facebook/graphql/calls/GQLCallInputCInputShape0S0000000;
 
     invoke-direct {v11}, Lcom/facebook/graphql/calls/GQLCallInputCInputShape0S0000000;-><init>()V
 
-    .line 1650879
+    .line 1650878
     move-object v4, v12
 
     check-cast v4, LX/3t6;
 
     monitor-enter v4
 
-    .line 1650880
+    .line 1650879
     :try_start_0
     iget-object v5, v4, LX/3t6;->A1c:Ljava/util/List;
     :try_end_0
@@ -968,13 +968,13 @@
 
     monitor-exit v4
 
-    .line 1650881
+    .line 1650880
     const-string v4, "participant_ids"
 
-    .line 1650882
+    .line 1650881
     invoke-virtual {v11, v4, v5}, Lcom/facebook/graphql/calls/GraphQlCallInput;->A07(Ljava/lang/String;Ljava/util/List;)V
 
-    .line 1650883
+    .line 1650882
     invoke-interface {v12}, LX/1OH;->Asx()J
 
     move-result-wide v9
@@ -991,10 +991,10 @@
 
     const-string v9, "last_activity_ts"
 
-    .line 1650884
+    .line 1650883
     invoke-virtual {v11, v9, v10}, Lcom/facebook/graphql/calls/GraphQlCallInput;->A06(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1650885
+    .line 1650884
     invoke-interface {v12}, LX/1OF;->BWx()Z
 
     move-result v9
@@ -1003,14 +1003,14 @@
 
     const-string v10, "XAC"
 
-    .line 1650886
+    .line 1650885
     :goto_4
     const-string v9, "type"
 
-    .line 1650887
+    .line 1650886
     invoke-virtual {v11, v9, v10}, Lcom/facebook/graphql/calls/GraphQlCallInput;->A06(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1650888
+    .line 1650887
     invoke-interface {v12}, LX/1OH;->Asx()J
 
     move-result-wide v9
@@ -1023,63 +1023,63 @@
 
     const-string v4, "thread_create_ts"
 
-    .line 1650889
+    .line 1650888
     invoke-virtual {v11, v4, v5}, Lcom/facebook/graphql/calls/GraphQlCallInput;->A06(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1650890
+    .line 1650889
     invoke-interface {v12}, LX/2rc;->BHD()Ljava/lang/String;
 
     move-result-object v5
 
     const-string v4, "thread_id"
 
-    .line 1650891
+    .line 1650890
     invoke-virtual {v11, v4, v5}, Lcom/facebook/graphql/calls/GraphQlCallInput;->A06(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1650892
+    .line 1650891
     invoke-virtual {v14, v11}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_3
 
-    .line 1650893
+    .line 1650892
     :cond_4
     const-string v10, "IG"
 
     goto :goto_4
 
-    .line 1650894
+    .line 1650893
     :cond_5
     move-object/from16 v18, v19
 
-    .line 1650895
+    .line 1650894
     move-object/from16 v17, v19
 
     move-object/from16 v11, v19
 
     goto/16 :goto_2
 
-    .line 1650896
+    .line 1650895
     :cond_6
     iget-object v7, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;->A0M:Lcom/instagram/service/session/UserSession;
 
-    .line 1650897
+    .line 1650896
     sget-object v6, LX/0Sq;->A05:LX/0Sq;
 
     const-wide v4, 0x82068600060996L
 
-    .line 1650898
+    .line 1650897
     invoke-static {v6, v7, v4, v5}, LX/92n;->A06(LX/0Sq;Lcom/instagram/service/session/UserSession;J)J
 
     move-result-wide v4
 
-    .line 1650899
+    .line 1650898
     long-to-int v6, v4
 
     move/from16 v16, v6
 
     goto/16 :goto_1
 
-    .line 1650900
+    .line 1650899
     :catchall_0
     move-exception v0
 
@@ -1087,7 +1087,7 @@
 
     throw v0
 
-    .line 1650901
+    .line 1650900
     :cond_7
     const-wide v4, 0x830686000d00b9L
 
@@ -1095,7 +1095,7 @@
 
     move-result-object p0
 
-    .line 1650902
+    .line 1650901
     iput-object v0, v2, LX/FTT;->A01:Ljava/lang/Object;
 
     iput-object v1, v2, LX/FTT;->A02:Ljava/lang/Object;
@@ -1134,10 +1134,10 @@
 
     if-ne v4, v2, :cond_9
 
-    .line 1650903
+    .line 1650902
     return-object v20
 
-    .line 1650904
+    .line 1650903
     :cond_8
     iget-boolean v0, v2, LX/FTT;->A05:Z
 
@@ -1164,7 +1164,7 @@
 
     if-eqz v4, :cond_1b
 
-    .line 1650905
+    .line 1650904
     invoke-interface {v4}, LX/Ffy;->Ans()LX/Fgx;
 
     move-result-object v2
@@ -1175,46 +1175,46 @@
 
     move-result-object v5
 
-    .line 1650906
+    .line 1650905
     :goto_5
     const-string v2, "ok"
 
-    .line 1650907
+    .line 1650906
     invoke-virtual {v2, v5}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
-    .line 1650908
+    .line 1650907
     if-eqz v2, :cond_1b
 
-    .line 1650909
+    .line 1650908
     invoke-interface {v4}, LX/Ffy;->Ans()LX/Fgx;
 
     move-result-object v17
 
-    .line 1650910
+    .line 1650909
     new-instance v7, LX/4xG;
 
     invoke-direct {v7}, LX/4xG;-><init>()V
 
     if-eqz v17, :cond_f
 
-    .line 1650911
+    .line 1650910
     invoke-interface/range {v17 .. v17}, LX/Fgx;->B70()Lcom/google/common/collect/ImmutableList;
 
     move-result-object v2
 
     if-eqz v2, :cond_f
 
-    .line 1650912
+    .line 1650911
     const/16 v10, 0xa
 
-    .line 1650913
+    .line 1650912
     invoke-static {v2, v10}, LX/5We;->A0j(Ljava/lang/Iterable;I)Ljava/util/ArrayList;
 
     move-result-object v9
 
-    .line 1650914
+    .line 1650913
     invoke-virtual {v2}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
 
     move-result-object v16
@@ -1230,68 +1230,68 @@
 
     move-result-object v11
 
-    .line 1650915
+    .line 1650914
     check-cast v11, LX/Fgk;
 
-    .line 1650916
+    .line 1650915
     invoke-static {v11}, LX/02K;->A03(Ljava/lang/Object;)V
 
-    .line 1650917
+    .line 1650916
     new-instance v6, LX/5LG;
 
     invoke-direct {v6}, LX/5LG;-><init>()V
 
-    .line 1650918
+    .line 1650917
     invoke-interface {v11}, LX/Fgk;->AkR()I
 
     move-result v2
 
     int-to-long v4, v2
 
-    .line 1650919
+    .line 1650918
     iput-wide v4, v6, LX/5LG;->A00:J
 
-    .line 1650920
+    .line 1650919
     const/16 v2, 0xe1
 
     invoke-static {v2}, LX/2iP;->A00(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1650921
+    .line 1650920
     iput-object v2, v6, LX/5LG;->A03:Ljava/lang/String;
 
-    .line 1650922
+    .line 1650921
     invoke-interface {v11}, LX/Fgk;->B71()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1650923
+    .line 1650922
     iput-object v2, v6, LX/5LG;->A02:Ljava/lang/String;
 
-    .line 1650924
+    .line 1650923
     invoke-interface {v11}, LX/Fgk;->BAK()Lcom/google/common/collect/ImmutableList;
 
     move-result-object v4
 
     invoke-static {v4}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1650925
+    .line 1650924
     invoke-static {v4, v10}, LX/19Q;->A1B(Ljava/lang/Iterable;I)I
 
     move-result v2
 
-    .line 1650926
+    .line 1650925
     invoke-static {v2}, LX/5Wf;->A03(I)I
 
     move-result v2
 
-    .line 1650927
+    .line 1650926
     invoke-static {v2}, LX/92k;->A0f(I)Ljava/util/LinkedHashMap;
 
     move-result-object v12
 
-    .line 1650928
+    .line 1650927
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v15
@@ -1307,10 +1307,10 @@
 
     move-result-object v4
 
-    .line 1650929
+    .line 1650928
     check-cast v4, LX/Fgu;
 
-    .line 1650930
+    .line 1650929
     invoke-interface {v4}, LX/Fgu;->getId()Ljava/lang/String;
 
     move-result-object v14
@@ -1319,13 +1319,13 @@
 
     const-string v14, ""
 
-    .line 1650931
+    .line 1650930
     :cond_a
     new-instance v11, LX/4xw;
 
     invoke-direct {v11}, LX/4xw;-><init>()V
 
-    .line 1650932
+    .line 1650931
     invoke-interface {v4}, LX/Fgu;->Aji()LX/ANA;
 
     move-result-object v2
@@ -1341,32 +1341,32 @@
     :cond_b
     const/4 v2, 0x0
 
-    .line 1650933
+    .line 1650932
     :goto_8
     iput-object v2, v11, LX/4xw;->A02:Ljava/lang/String;
 
-    .line 1650934
+    .line 1650933
     invoke-interface {v4}, LX/Fgu;->BR0()Z
 
     move-result v2
 
     if-eqz v2, :cond_c
 
-    .line 1650935
+    .line 1650934
     invoke-interface {v4}, LX/Fgu;->BAJ()D
 
     move-result-wide v4
 
-    .line 1650936
+    .line 1650935
     iput-wide v4, v11, LX/4xw;->A00:D
 
-    .line 1650937
+    .line 1650936
     :cond_c
     invoke-virtual {v12, v14, v11}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_7
 
-    .line 1650938
+    .line 1650937
     :pswitch_0
     const-string v2, "user"
 
@@ -1377,45 +1377,45 @@
 
     goto :goto_8
 
-    .line 1650939
+    .line 1650938
     :cond_d
     new-instance v2, Ljava/util/HashMap;
 
     invoke-direct {v2, v12}, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
 
-    .line 1650940
+    .line 1650939
     iput-object v2, v6, LX/5LG;->A04:Ljava/util/HashMap;
 
-    .line 1650941
+    .line 1650940
     invoke-virtual {v9, v6}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_6
 
-    .line 1650942
+    .line 1650941
     :cond_e
     move-object/from16 v5, v19
 
     goto/16 :goto_5
 
-    .line 1650943
+    .line 1650942
     :cond_f
     sget-object v9, LX/11W;->A00:LX/11W;
 
-    .line 1650944
+    .line 1650943
     :cond_10
     const/4 v2, 0x0
 
     invoke-static {v9, v2}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1650945
+    .line 1650944
     iput-object v9, v7, LX/4xG;->A03:Ljava/util/List;
 
-    .line 1650946
+    .line 1650945
     const/4 v12, 0x0
 
     if-eqz v17, :cond_15
 
-    .line 1650947
+    .line 1650946
     invoke-interface/range {v17 .. v17}, LX/Fgx;->AoS()Z
 
     move-result v2
@@ -1424,50 +1424,50 @@
 
     move-result-object v2
 
-    .line 1650948
+    .line 1650947
     :goto_9
     iput-object v2, v7, LX/4xG;->A01:Ljava/lang/Boolean;
 
-    .line 1650949
+    .line 1650948
     if-eqz v17, :cond_14
 
-    .line 1650950
+    .line 1650949
     invoke-interface/range {v17 .. v17}, LX/Fgx;->B17()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1650951
+    .line 1650950
     :goto_a
     iput-object v2, v7, LX/4xG;->A02:Ljava/lang/String;
 
-    .line 1650952
+    .line 1650951
     if-eqz v17, :cond_21
 
-    .line 1650953
+    .line 1650952
     invoke-interface/range {v17 .. v17}, LX/Fgx;->Ajc()LX/FgS;
 
     move-result-object v11
 
     if-eqz v11, :cond_21
 
-    .line 1650954
+    .line 1650953
     new-instance v12, LX/4Pq;
 
     invoke-direct {v12}, LX/4Pq;-><init>()V
 
-    .line 1650955
+    .line 1650954
     invoke-interface {v11}, LX/FgS;->BKq()Lcom/google/common/collect/ImmutableList;
 
     move-result-object v2
 
     invoke-static {v2}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1650956
+    .line 1650955
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v6
 
-    .line 1650957
+    .line 1650956
     invoke-virtual {v2}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
 
     move-result-object v10
@@ -1484,10 +1484,10 @@
 
     move-result-object v9
 
-    .line 1650958
+    .line 1650957
     check-cast v9, LX/Fgj;
 
-    .line 1650959
+    .line 1650958
     invoke-virtual {v9}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -1498,7 +1498,7 @@
 
     if-eqz v5, :cond_11
 
-    .line 1650960
+    .line 1650959
     invoke-interface {v9}, LX/Fgj;->BQQ()Z
 
     move-result v2
@@ -1523,7 +1523,7 @@
 
     invoke-virtual {v5, v2}, Lcom/instagram/user/model/User;->A1w(Ljava/lang/Boolean;)V
 
-    .line 1650961
+    .line 1650960
     invoke-interface {v9}, LX/Fgj;->AwE()Z
 
     move-result v2
@@ -1534,40 +1534,40 @@
 
     iput-object v2, v5, Lcom/instagram/user/model/User;->A08:Ljava/lang/Boolean;
 
-    .line 1650962
+    .line 1650961
     invoke-virtual {v6, v5}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_b
 
-    .line 1650963
+    .line 1650962
     :cond_14
     move-object v2, v12
 
     goto :goto_a
 
-    .line 1650964
+    .line 1650963
     :cond_15
     move-object v2, v12
 
     goto :goto_9
 
-    .line 1650965
+    .line 1650964
     :cond_16
     iput-object v6, v12, LX/4Pq;->A01:Ljava/util/List;
 
-    .line 1650966
+    .line 1650965
     invoke-interface {v11}, LX/FgS;->BGn()Lcom/google/common/collect/ImmutableList;
 
     move-result-object v2
 
     invoke-static {v2}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1650967
+    .line 1650966
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v11
 
-    .line 1650968
+    .line 1650967
     invoke-virtual {v2}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
 
     move-result-object v16
@@ -1583,42 +1583,42 @@
 
     move-result-object v4
 
-    .line 1650969
+    .line 1650968
     check-cast v4, LX/Ffx;
 
-    .line 1650970
+    .line 1650969
     invoke-virtual {v4}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1650971
+    .line 1650970
     sget-object v10, LX/0z3;->A00:LX/0z4;
 
     invoke-virtual {v10, v2}, LX/0z4;->A08(Ljava/lang/String;)LX/0zD;
 
     move-result-object v2
 
-    .line 1650972
+    .line 1650971
     invoke-virtual {v2}, LX/0zD;->A0t()LX/3HY;
 
-    .line 1650973
+    .line 1650972
     invoke-static {v2}, LX/4O9;->parseFromJson(LX/0zD;)LX/5Az;
 
     move-result-object v9
 
-    .line 1650974
+    .line 1650973
     invoke-interface {v4}, LX/Ffx;->BLJ()Lcom/google/common/collect/ImmutableList;
 
     move-result-object v2
 
     invoke-static {v2}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1650975
+    .line 1650974
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v6
 
-    .line 1650976
+    .line 1650975
     invoke-virtual {v2}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
 
     move-result-object v15
@@ -1635,13 +1635,13 @@
 
     move-result-object v14
 
-    .line 1650977
+    .line 1650976
     check-cast v14, LX/Fgi;
 
-    .line 1650978
+    .line 1650977
     invoke-static {v14}, LX/02K;->A03(Ljava/lang/Object;)V
 
-    .line 1650979
+    .line 1650978
     invoke-virtual {v14}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -1652,7 +1652,7 @@
 
     if-eqz v5, :cond_17
 
-    .line 1650980
+    .line 1650979
     invoke-interface {v14}, LX/Fgi;->BQQ()Z
 
     move-result v2
@@ -1677,7 +1677,7 @@
 
     invoke-virtual {v5, v2}, Lcom/instagram/user/model/User;->A1w(Ljava/lang/Boolean;)V
 
-    .line 1650981
+    .line 1650980
     invoke-interface {v14}, LX/Fgi;->AnK()LX/916;
 
     move-result-object v2
@@ -1686,67 +1686,67 @@
 
     move-result-object v2
 
-    .line 1650982
+    .line 1650981
     invoke-virtual {v10, v2}, LX/0z4;->A08(Ljava/lang/String;)LX/0zD;
 
     move-result-object v2
 
-    .line 1650983
+    .line 1650982
     invoke-virtual {v2}, LX/0zD;->A0t()LX/3HY;
 
-    .line 1650984
+    .line 1650983
     invoke-static {v2}, LX/2rr;->parseFromJson(LX/0zD;)LX/0zv;
 
     move-result-object v4
 
-    .line 1650985
+    .line 1650984
     iget-object v2, v5, Lcom/instagram/user/model/User;->A06:LX/3Gt;
 
-    .line 1650986
+    .line 1650985
     iput-object v4, v2, LX/3Gt;->A0r:LX/0zv;
 
-    .line 1650987
+    .line 1650986
     invoke-virtual {v6, v5}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_d
 
-    .line 1650988
+    .line 1650987
     :cond_1a
     iput-object v6, v9, LX/5Az;->A0A:Ljava/util/List;
 
-    .line 1650989
+    .line 1650988
     invoke-virtual {v11, v9}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_c
 
-    .line 1650990
+    .line 1650989
     :cond_1b
     move-object/from16 v4, v19
 
     goto/16 :goto_f
 
-    .line 1650991
+    .line 1650990
     :cond_1c
     invoke-static {v0}, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;->A03(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;)Z
 
     move-result v5
 
-    .line 1650992
+    .line 1650991
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;->A05:Ljava/lang/String;
 
     if-eqz v5, :cond_1f
 
-    .line 1650993
+    .line 1650992
     invoke-static {v4}, LX/5Wd;->A17(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v5
 
-    .line 1650994
+    .line 1650993
     invoke-static/range {p6 .. p6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v12
 
-    .line 1650995
+    .line 1650994
     iput-object v0, v2, LX/FTT;->A01:Ljava/lang/Object;
 
     iput-object v1, v2, LX/FTT;->A02:Ljava/lang/Object;
@@ -1761,64 +1761,64 @@
 
     iput v9, v2, LX/FTT;->A00:I
 
-    .line 1650996
+    .line 1650995
     const/16 v26, 0x0
 
-    .line 1650997
+    .line 1650996
     invoke-static {v7}, LX/92o;->A0M(LX/0SF;)LX/19z;
 
     move-result-object v6
 
-    .line 1650998
+    .line 1650997
     const-string v4, "banyan/banyan_pg/"
 
-    .line 1650999
+    .line 1650998
     invoke-virtual {v6, v4}, LX/19z;->A0G(Ljava/lang/String;)V
 
-    .line 1651000
+    .line 1650999
     invoke-static {v5}, LX/92o;->A0n(Ljava/util/Collection;)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 1651001
+    .line 1651000
     const-string v4, "views"
 
     invoke-virtual {v6, v4, v5}, LX/19z;->A0K(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v5, "count_per_page"
 
-    .line 1651002
+    .line 1651001
     move/from16 v4, v16
 
     invoke-virtual {v6, v5, v4}, LX/19z;->A0H(Ljava/lang/String;I)V
 
     const-string v5, "page_max_id"
 
-    .line 1651003
+    .line 1651002
     move-object/from16 v4, v22
 
     invoke-virtual {v6, v5, v4}, LX/19z;->A0K(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v4, "is_real_time"
 
-    .line 1651004
+    .line 1651003
     invoke-virtual {v6, v4, v13}, LX/19z;->A0N(Ljava/lang/String;Z)V
 
     const-class v5, LX/4xG;
 
     const-class v4, LX/50c;
 
-    .line 1651005
+    .line 1651004
     invoke-virtual {v6, v5, v4}, LX/19z;->A09(Ljava/lang/Class;Ljava/lang/Class;)V
 
     if-eqz p2, :cond_1d
 
     const-string v4, "media_igid"
 
-    .line 1651006
+    .line 1651005
     invoke-virtual {v6, v4, v3}, LX/19z;->A0K(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1651007
+    .line 1651006
     :cond_1d
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -1830,7 +1830,7 @@
 
     if-eqz v11, :cond_1e
 
-    .line 1651008
+    .line 1651007
     invoke-static {v11}, LX/4xd;->A01(Ljava/util/Map;)Ljava/lang/String;
 
     move-result-object v5
@@ -1839,16 +1839,16 @@
 
     invoke-virtual {v6, v4, v5}, LX/19z;->A0K(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1651009
+    .line 1651008
     :cond_1e
     invoke-virtual {v6}, LX/19z;->A01()LX/1HO;
 
     move-result-object v21
 
-    .line 1651010
+    .line 1651009
     const/16 v23, 0x26f
 
-    .line 1651011
+    .line 1651010
     :goto_e
     move-object/from16 v22, v2
 
@@ -1860,25 +1860,25 @@
 
     move-result-object v4
 
-    .line 1651012
+    .line 1651011
     move-object/from16 v2, v20
 
     if-ne v4, v2, :cond_22
 
     return-object v20
 
-    .line 1651013
+    .line 1651012
     :cond_1f
     invoke-static {v4}, LX/5Wd;->A17(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v24
 
-    .line 1651014
+    .line 1651013
     invoke-static/range {p6 .. p6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v22
 
-    .line 1651015
+    .line 1651014
     iput-object v0, v2, LX/FTT;->A01:Ljava/lang/Object;
 
     iput-object v1, v2, LX/FTT;->A02:Ljava/lang/Object;
@@ -1893,7 +1893,7 @@
 
     iput v10, v2, LX/FTT;->A00:I
 
-    .line 1651016
+    .line 1651015
     move-object/from16 v23, v3
 
     move-object/from16 v25, v11
@@ -1906,38 +1906,38 @@
 
     move-result-object v21
 
-    .line 1651017
+    .line 1651016
     const/16 v23, 0x26f
 
     const/16 v26, 0x0
 
     goto :goto_e
 
-    .line 1651018
+    .line 1651017
     :cond_20
     iput-object v11, v12, LX/4Pq;->A00:Ljava/util/List;
 
-    .line 1651019
+    .line 1651018
     :cond_21
     iput-object v12, v7, LX/4xG;->A00:LX/4Pq;
 
-    .line 1651020
+    .line 1651019
     invoke-static {v7}, LX/92k;->A0R(Ljava/lang/Object;)LX/2GB;
 
     move-result-object v4
 
-    .line 1651021
+    .line 1651020
     :cond_22
     :goto_f
     check-cast v4, LX/2GF;
 
-    .line 1651022
+    .line 1651021
     if-eqz v8, :cond_23
 
-    .line 1651023
+    .line 1651022
     iget-object v2, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;->A0d:LX/F1t;
 
-    .line 1651024
+    .line 1651023
     iget-object v6, v2, LX/F1t;->A03:LX/01Q;
 
     const v5, 0xcc1bf6
@@ -1946,7 +1946,7 @@
 
     invoke-virtual {v6, v5, v2}, LX/06L;->markerPoint(ILjava/lang/String;)V
 
-    .line 1651025
+    .line 1651024
     :cond_23
     instance-of v2, v4, LX/2GB;
 
@@ -1956,10 +1956,10 @@
 
     if-eqz v4, :cond_31
 
-    .line 1651026
+    .line 1651025
     iget-object v5, v4, LX/2GB;->A00:Ljava/lang/Object;
 
-    .line 1651027
+    .line 1651026
     check-cast v5, LX/4xG;
 
     if-eqz v5, :cond_31
@@ -1968,72 +1968,72 @@
 
     if-eqz v8, :cond_24
 
-    .line 1651028
+    .line 1651027
     iget-object v2, v5, LX/4xG;->A03:Ljava/util/List;
 
-    .line 1651029
+    .line 1651028
     invoke-static {v2}, LX/5Wd;->A18(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 1651030
+    .line 1651029
     invoke-static {v2}, LX/5Wd;->A1a(Ljava/util/Collection;)Z
 
     move-result v2
 
-    .line 1651031
+    .line 1651030
     if-eqz v2, :cond_31
 
-    .line 1651032
+    .line 1651031
     :cond_24
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;->A0K:LX/EYp;
 
-    .line 1651033
+    .line 1651032
     iget-object v2, v5, LX/4xG;->A02:Ljava/lang/String;
 
-    .line 1651034
+    .line 1651033
     iput-object v2, v4, LX/EYp;->A01:Ljava/lang/String;
 
-    .line 1651035
+    .line 1651034
     iget-object v2, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;->A05:Ljava/lang/String;
 
-    .line 1651036
+    .line 1651035
     iput-object v2, v4, LX/EYp;->A00:Ljava/lang/String;
 
-    .line 1651037
+    .line 1651036
     iput-object v3, v4, LX/EYp;->A02:Ljava/lang/String;
 
-    .line 1651038
+    .line 1651037
     invoke-static/range {p6 .. p6}, LX/5We;->A1J(I)Z
 
     move-result v2
 
-    .line 1651039
+    .line 1651038
     iput-boolean v2, v4, LX/EYp;->A04:Z
 
-    .line 1651040
+    .line 1651039
     iget-object v7, v4, LX/EYp;->A03:Ljava/util/List;
 
-    .line 1651041
+    .line 1651040
     iget-object v2, v5, LX/4xG;->A00:LX/4Pq;
 
-    .line 1651042
+    .line 1651041
     if-eqz v2, :cond_26
 
-    .line 1651043
+    .line 1651042
     iget-object v2, v2, LX/4Pq;->A00:Ljava/util/List;
 
-    .line 1651044
+    .line 1651043
     invoke-static {v2}, LX/5Wd;->A18(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 1651045
+    .line 1651044
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v6
 
-    .line 1651046
+    .line 1651045
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -2053,22 +2053,22 @@
 
     check-cast v2, LX/5Az;
 
-    .line 1651047
+    .line 1651046
     iget-boolean v2, v2, LX/5Az;->A0D:Z
 
-    .line 1651048
+    .line 1651047
     invoke-static {v3, v6, v2}, LX/5We;->A1G(Ljava/lang/Object;Ljava/util/AbstractCollection;I)V
 
-    .line 1651049
+    .line 1651048
     goto :goto_10
 
-    .line 1651050
+    .line 1651049
     :cond_25
     invoke-static {v6}, LX/5We;->A0i(Ljava/lang/Iterable;)Ljava/util/ArrayList;
 
     move-result-object v4
 
-    .line 1651051
+    .line 1651050
     invoke-interface {v6}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -2084,45 +2084,45 @@
 
     move-result-object v2
 
-    .line 1651052
+    .line 1651051
     check-cast v2, LX/5Az;
 
-    .line 1651053
+    .line 1651052
     iget-object v2, v2, LX/5Az;->A08:Ljava/lang/String;
 
-    .line 1651054
+    .line 1651053
     invoke-virtual {v4, v2}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_11
 
-    .line 1651055
+    .line 1651054
     :cond_26
     sget-object v4, LX/11W;->A00:LX/11W;
 
-    .line 1651056
+    .line 1651055
     :cond_27
     invoke-interface {v7, v4}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 1651057
+    .line 1651056
     iget-object v2, v5, LX/4xG;->A00:LX/4Pq;
 
-    .line 1651058
+    .line 1651057
     if-eqz v2, :cond_29
 
-    .line 1651059
+    .line 1651058
     iget-object v2, v2, LX/4Pq;->A01:Ljava/util/List;
 
-    .line 1651060
+    .line 1651059
     invoke-static {v2}, LX/5Wd;->A18(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 1651061
+    .line 1651060
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v6
 
-    .line 1651062
+    .line 1651061
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -2142,24 +2142,24 @@
 
     check-cast v2, Lcom/instagram/user/model/User;
 
-    .line 1651063
+    .line 1651062
     invoke-virtual {v2}, Lcom/instagram/user/model/User;->A3T()Z
 
     move-result v2
 
-    .line 1651064
+    .line 1651063
     invoke-static {v3, v6, v2}, LX/5We;->A1G(Ljava/lang/Object;Ljava/util/AbstractCollection;I)V
 
-    .line 1651065
+    .line 1651064
     goto :goto_12
 
-    .line 1651066
+    .line 1651065
     :cond_28
     invoke-static {v6}, LX/5We;->A0i(Ljava/lang/Iterable;)Ljava/util/ArrayList;
 
     move-result-object v4
 
-    .line 1651067
+    .line 1651066
     invoke-interface {v6}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -2171,17 +2171,17 @@
 
     if-eqz v2, :cond_2a
 
-    .line 1651068
+    .line 1651067
     invoke-static {v4, v3}, LX/5We;->A1I(Ljava/util/AbstractCollection;Ljava/util/Iterator;)V
 
-    .line 1651069
+    .line 1651068
     goto :goto_13
 
-    .line 1651070
+    .line 1651069
     :cond_29
     sget-object v4, LX/11W;->A00:LX/11W;
 
-    .line 1651071
+    .line 1651070
     :cond_2a
     invoke-interface {v7, v4}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
@@ -2189,15 +2189,15 @@
 
     const/4 v10, 0x1
 
-    .line 1651072
+    .line 1651071
     :cond_2b
     monitor-enter v1
 
-    .line 1651073
+    .line 1651072
     :try_start_1
     iget-object v9, v1, LX/4JC;->A00:LX/6aR;
 
-    .line 1651074
+    .line 1651073
     iget-object v2, v9, LX/6aR;->A0F:LX/4cW;
 
     invoke-virtual {v2}, LX/4cW;->A00()LX/4SQ;
@@ -2208,16 +2208,16 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_3
 
-    .line 1651075
+    .line 1651074
     :try_start_2
     iget-object v2, v5, LX/4xG;->A03:Ljava/util/List;
 
-    .line 1651076
+    .line 1651075
     invoke-static {v2}, LX/5Wd;->A18(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 1651077
+    .line 1651076
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v10
@@ -2235,18 +2235,18 @@
 
     check-cast v8, LX/5LG;
 
-    .line 1651078
+    .line 1651077
     iget-object v4, v9, LX/6aR;->A0E:LX/4b9;
 
-    .line 1651079
+    .line 1651078
     iget-object v3, v8, LX/5LG;->A03:Ljava/lang/String;
 
-    .line 1651080
+    .line 1651079
     iget-object v2, v4, LX/4b9;->A07:LX/4cW;
 
     invoke-virtual {v2}, LX/4cW;->A01()V
 
-    .line 1651081
+    .line 1651080
     iget-object v2, v4, LX/4b9;->A09:Ljava/util/Map;
 
     invoke-interface {v2, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -2255,13 +2255,13 @@
 
     check-cast v7, LX/5LG;
 
-    .line 1651082
+    .line 1651081
     if-eqz v7, :cond_2c
 
-    .line 1651083
+    .line 1651082
     iget-object v2, v7, LX/5LG;->A04:Ljava/util/HashMap;
 
-    .line 1651084
+    .line 1651083
     invoke-virtual {v2}, Ljava/util/AbstractMap;->keySet()Ljava/util/Set;
 
     move-result-object v2
@@ -2282,22 +2282,22 @@
 
     move-result-object v4
 
-    .line 1651085
+    .line 1651084
     iget-object v2, v8, LX/5LG;->A04:Ljava/util/HashMap;
 
-    .line 1651086
+    .line 1651085
     invoke-virtual {v2, v4}, Ljava/util/AbstractMap;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_2d
 
-    .line 1651087
+    .line 1651086
     iget-object v3, v8, LX/5LG;->A04:Ljava/util/HashMap;
 
     iget-object v2, v7, LX/5LG;->A04:Ljava/util/HashMap;
 
-    .line 1651088
+    .line 1651087
     invoke-virtual {v2, v4}, Ljava/util/AbstractMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -2306,53 +2306,53 @@
 
     goto :goto_14
 
-    .line 1651089
+    .line 1651088
     :cond_2e
     iget-object v2, v9, LX/6aR;->A0E:LX/4b9;
 
     invoke-virtual {v2, v5}, LX/4b9;->A03(LX/4xG;)V
 
-    .line 1651090
+    .line 1651089
     invoke-virtual {v2}, LX/4b9;->A02()V
 
     if-eqz v11, :cond_2f
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 1651091
+    .line 1651090
     :try_start_3
     invoke-virtual {v11}, LX/4SQ;->close()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_3
 
-    .line 1651092
+    .line 1651091
     :cond_2f
     monitor-exit v1
 
-    .line 1651093
+    .line 1651092
     iget-object v1, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;->A0h:LX/1T7;
 
-    .line 1651094
+    .line 1651093
     iget-object v0, v5, LX/4xG;->A01:Ljava/lang/Boolean;
 
-    .line 1651095
+    .line 1651094
     invoke-static {v0, v13}, LX/5We;->A1Z(Ljava/lang/Object;Z)Z
 
     move-result v0
 
-    .line 1651096
+    .line 1651095
     invoke-static {v1, v0}, LX/92m;->A1S(LX/1T7;Z)V
 
-    .line 1651097
+    .line 1651096
     return-object v5
 
-    .line 1651098
+    .line 1651097
     :catchall_1
     move-exception v0
 
     if-eqz v11, :cond_30
 
-    .line 1651099
+    .line 1651098
     :try_start_4
     invoke-virtual {v11}, LX/4SQ;->close()V
     :try_end_4
@@ -2365,7 +2365,7 @@
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_3
 
-    .line 1651100
+    .line 1651099
     :catchall_3
     move-exception v0
 
@@ -2373,7 +2373,7 @@
 
     throw v0
 
-    .line 1651101
+    .line 1651100
     :cond_31
     return-object v19
 

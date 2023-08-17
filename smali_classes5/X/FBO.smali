@@ -59,7 +59,7 @@
     move-result-object v0
 
     .line 18
-    invoke-static {v0, p1, p4}, LX/Che;->A0G(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
+    invoke-static {v0, p1, p4}, LX/Che;->A0H(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
 
     .line 19
     .line 20

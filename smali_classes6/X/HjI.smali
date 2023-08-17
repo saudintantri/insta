@@ -170,7 +170,7 @@
 
     .line 77
     .line 78
-    invoke-static {v1}, LX/Chi;->A0r(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v1}, LX/Chi;->A0t(Ljava/util/List;)Ljava/util/List;
 
     .line 79
     .line 80
@@ -186,7 +186,7 @@
 
     .line 85
     .line 86
-    invoke-static {v1}, LX/Chi;->A0r(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v1}, LX/Chi;->A0t(Ljava/util/List;)Ljava/util/List;
 
     .line 87
     .line 88
@@ -202,7 +202,7 @@
 
     .line 93
     .line 94
-    invoke-static {v1}, LX/Chi;->A0r(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v1}, LX/Chi;->A0t(Ljava/util/List;)Ljava/util/List;
 
     .line 95
     .line 96
@@ -218,7 +218,7 @@
 
     .line 101
     .line 102
-    invoke-static {v1}, LX/Chi;->A0r(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v1}, LX/Chi;->A0t(Ljava/util/List;)Ljava/util/List;
 
     .line 103
     .line 104
@@ -251,7 +251,7 @@
 
     .line 118
     .line 119
-    invoke-static {v1}, LX/Chi;->A0r(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v1}, LX/Chi;->A0t(Ljava/util/List;)Ljava/util/List;
 
     .line 120
     .line 121
@@ -290,7 +290,7 @@
 
     .line 137
     .line 138
-    invoke-static {v1}, LX/Chf;->A0u(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v1}, LX/Chf;->A0v(Ljava/util/List;)Ljava/util/List;
 
     .line 139
     .line 140
@@ -1481,22 +1481,22 @@
 
     invoke-static {p2, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2276243
+    .line 2276264
     iget-boolean v0, p1, LX/Hbw;->A0r:Z
 
-    .line 2276244
+    .line 2276265
     if-nez v0, :cond_3
 
     if-eqz p5, :cond_3
 
-    .line 2276245
+    .line 2276266
     sget-object v0, LX/3BK;->A0M:LX/3BK;
 
-    .line 2276246
+    .line 2276267
     :goto_0
     iget v0, v0, LX/3BK;->A00:I
 
-    .line 2276247
+    .line 2276268
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1507,43 +1507,43 @@
 
     move-result-object v0
 
-    .line 2276248
+    .line 2276269
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276249
+    .line 2276270
     iget-object v2, p1, LX/Hbw;->A07:LX/FnL;
 
-    .line 2276250
+    .line 2276271
     if-eqz v2, :cond_0
 
-    .line 2276251
+    .line 2276272
     invoke-static {}, LX/92k;->A0a()Ljava/io/StringWriter;
 
     move-result-object v1
 
-    .line 2276252
+    .line 2276273
     invoke-static {v1}, LX/92l;->A0K(Ljava/io/Writer;)LX/100;
 
     move-result-object v0
 
-    .line 2276253
+    .line 2276274
     invoke-static {v0, v2}, LX/FnK;->A00(LX/100;LX/FnL;)V
 
-    .line 2276254
+    .line 2276275
     invoke-static {v0, v1}, LX/Chc;->A0w(LX/100;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2276255
+    .line 2276276
     const-string v0, "implicit_location"
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A8F(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276256
+    .line 2276277
     :cond_0
     iget-wide v0, p1, LX/Hbw;->A01:J
 
-    .line 2276257
+    .line 2276278
     add-long v0, v0, p3
 
     const-wide/16 v10, 0x0
@@ -1552,7 +1552,7 @@
 
     if-lez v2, :cond_1
 
-    .line 2276258
+    .line 2276279
     invoke-static {v0, v1}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
 
     move-result-object v1
@@ -1561,12 +1561,12 @@
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276259
+    .line 2276280
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 2276260
+    .line 2276281
     const/16 v0, 0x3e8
 
     int-to-long v0, v0
@@ -1585,40 +1585,40 @@
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276261
+    .line 2276282
     :cond_1
     iget-object v1, p1, LX/Hbw;->A0P:Ljava/lang/String;
 
-    .line 2276262
+    .line 2276283
     const-string v3, "1"
 
     if-eqz v1, :cond_2
 
     const-string v0, "is_multi_upload"
 
-    .line 2276263
+    .line 2276284
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
     const-string v0, "multi_upload_session_id"
 
-    .line 2276264
+    .line 2276285
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276265
+    .line 2276286
     iget-object v2, p1, LX/Hbw;->A09:LX/3cf;
 
-    .line 2276266
+    .line 2276287
     if-eqz v2, :cond_2
 
     const-string v0, "is_segmented_video"
 
-    .line 2276267
+    .line 2276288
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276268
+    .line 2276289
     iget-object v1, v2, LX/3cf;->A02:Ljava/lang/String;
 
-    .line 2276269
+    .line 2276290
     const/16 v0, 0x573
 
     invoke-static {v0}, LX/2iP;->A00(I)Ljava/lang/String;
@@ -1627,10 +1627,10 @@
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276270
+    .line 2276291
     iget v0, v2, LX/3cf;->A01:I
 
-    .line 2276271
+    .line 2276292
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1643,10 +1643,10 @@
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276272
+    .line 2276293
     iget v0, v2, LX/3cf;->A00:I
 
-    .line 2276273
+    .line 2276294
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1659,11 +1659,11 @@
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276274
+    .line 2276295
     :cond_2
     iget-object v4, p1, LX/Hbw;->A0a:Ljava/util/List;
 
-    .line 2276275
+    .line 2276296
     if-eqz v4, :cond_7
 
     invoke-interface {v4}, Ljava/util/Collection;->isEmpty()Z
@@ -1672,12 +1672,12 @@
 
     if-nez v0, :cond_7
 
-    .line 2276276
+    .line 2276297
     invoke-static {}, LX/92k;->A0e()Ljava/util/LinkedHashMap;
 
     move-result-object v5
 
-    .line 2276277
+    .line 2276298
     invoke-static {}, LX/2t9;->values()[LX/2t9;
 
     move-result-object v7
@@ -1691,25 +1691,25 @@
 
     aget-object v1, v7, v2
 
-    .line 2276278
+    .line 2276299
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 2276279
+    .line 2276300
     invoke-virtual {v5, v1, v0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_1
 
-    .line 2276280
+    .line 2276301
     :cond_3
     sget-object v0, LX/3BK;->A0K:LX/3BK;
 
     goto/16 :goto_0
 
-    .line 2276281
+    .line 2276302
     :cond_4
     invoke-interface {v4}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -1728,10 +1728,10 @@
 
     check-cast v1, LX/2I8;
 
-    .line 2276282
+    .line 2276303
     iget-object v0, v1, LX/2I8;->A0Z:LX/2t9;
 
-    .line 2276283
+    .line 2276304
     invoke-virtual {v5, v0}, Ljava/util/AbstractMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -1744,32 +1744,32 @@
 
     goto :goto_2
 
-    .line 2276284
+    .line 2276305
     :cond_5
     invoke-static {}, LX/5Wd;->A0c()Ljava/lang/IllegalStateException;
 
     move-result-object v0
 
-    .line 2276285
+    .line 2276306
     throw v0
 
-    .line 2276286
+    .line 2276307
     :cond_6
     iget-object v0, p1, LX/Hbw;->A06:LX/1h3;
 
-    .line 2276287
+    .line 2276308
     invoke-static {v0}, LX/5We;->A1V(Ljava/lang/Object;)Z
 
     move-result v0
 
-    .line 2276288
+    .line 2276309
     invoke-static {p0, v4, v0}, LX/HjI;->A05(LX/1A0;Ljava/util/List;Z)V
 
-    .line 2276289
+    .line 2276310
     :cond_7
     iget-object v1, p1, LX/Hbw;->A0b:Ljava/util/List;
 
-    .line 2276290
+    .line 2276311
     if-eqz v1, :cond_c
 
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
@@ -1778,20 +1778,20 @@
 
     if-nez v0, :cond_c
 
-    .line 2276291
+    .line 2276312
     invoke-static {}, LX/92k;->A0a()Ljava/io/StringWriter;
 
     move-result-object v7
 
-    .line 2276292
+    .line 2276313
     invoke-static {v7}, LX/92l;->A0K(Ljava/io/Writer;)LX/100;
 
     move-result-object v6
 
-    .line 2276293
+    .line 2276314
     invoke-virtual {v6}, LX/100;->A0M()V
 
-    .line 2276294
+    .line 2276315
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v12
@@ -1809,16 +1809,16 @@
 
     check-cast v5, LX/2I8;
 
-    .line 2276295
+    .line 2276316
     invoke-virtual {v6}, LX/100;->A0N()V
 
-    .line 2276296
+    .line 2276317
     invoke-static {v6, v5}, LX/2I8;->A00(LX/100;LX/2I8;)V
 
-    .line 2276297
+    .line 2276318
     iget-object v0, v5, LX/2I8;->A0Z:LX/2t9;
 
-    .line 2276298
+    .line 2276319
     invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
@@ -1827,13 +1827,13 @@
 
     if-ne v1, v0, :cond_9
 
-    .line 2276299
+    .line 2276320
     iget-object v0, v5, LX/2I8;->A0J:LX/GIl;
 
-    .line 2276300
+    .line 2276321
     invoke-static {v0}, LX/0yH;->A08(Ljava/lang/Object;)V
 
-    .line 2276301
+    .line 2276322
     iget-object v0, v0, LX/GIl;->A05:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -1849,14 +1849,14 @@
 
     if-eqz v0, :cond_8
 
-    .line 2276302
+    .line 2276323
     invoke-interface {v9}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v8
 
     check-cast v8, LX/GJP;
 
-    .line 2276303
+    .line 2276324
     iget v0, v8, LX/GJP;->A02:I
 
     int-to-float v0, v0
@@ -1867,7 +1867,7 @@
 
     float-to-int v1, v0
 
-    .line 2276304
+    .line 2276325
     iget v0, v8, LX/GJP;->A04:I
 
     int-to-float v0, v0
@@ -1876,81 +1876,81 @@
 
     float-to-int v0, v0
 
-    .line 2276305
+    .line 2276326
     sub-int/2addr v1, v0
 
-    .line 2276306
+    .line 2276327
     add-int/2addr v4, v1
 
     goto :goto_4
 
-    .line 2276307
+    .line 2276328
     :cond_8
     const-string v0, "asr_duration_ms"
 
-    .line 2276308
+    .line 2276329
     invoke-virtual {v6, v0, v4}, LX/100;->A0F(Ljava/lang/String;I)V
 
-    .line 2276309
+    .line 2276330
     :cond_9
     iget-object v1, v5, LX/2I8;->A15:Ljava/lang/String;
 
-    .line 2276310
+    .line 2276331
     const-string v0, "str_id"
 
     invoke-virtual {v6, v0, v1}, LX/100;->A0H(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2276311
+    .line 2276332
     iget-object v1, v5, LX/2I8;->A14:Ljava/lang/String;
 
-    .line 2276312
+    .line 2276333
     const-string v0, "sticker_type"
 
     invoke-virtual {v6, v0, v1}, LX/100;->A0H(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2276313
+    .line 2276334
     iget-object v0, v5, LX/2I8;->A0x:Ljava/lang/String;
 
-    .line 2276314
+    .line 2276335
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_a
 
-    .line 2276315
+    .line 2276336
     iget-object v1, v5, LX/2I8;->A0x:Ljava/lang/String;
 
-    .line 2276316
+    .line 2276337
     const-string v0, "image_id"
 
     invoke-virtual {v6, v0, v1}, LX/100;->A0H(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2276317
+    .line 2276338
     :cond_a
     invoke-virtual {v6}, LX/100;->A0K()V
 
     goto :goto_3
 
-    .line 2276318
+    .line 2276339
     :cond_b
     invoke-virtual {v6}, LX/100;->A0J()V
 
-    .line 2276319
+    .line 2276340
     invoke-static {v6, v7}, LX/Chc;->A0w(LX/100;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2276320
+    .line 2276341
     const-string v0, "static_models"
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276321
+    .line 2276342
     :cond_c
     iget-object v4, p1, LX/Hbw;->A0Y:Ljava/util/List;
 
-    .line 2276322
+    .line 2276343
     if-eqz v4, :cond_d
 
     invoke-interface {v4}, Ljava/util/Collection;->isEmpty()Z
@@ -1969,17 +1969,17 @@
 
     if-nez v0, :cond_14
 
-    .line 2276323
+    .line 2276344
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v7
 
-    .line 2276324
+    .line 2276345
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v5
 
-    .line 2276325
+    .line 2276346
     invoke-interface {v4}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v6
@@ -1997,19 +1997,19 @@
 
     check-cast v4, LX/3yB;
 
-    .line 2276326
+    .line 2276347
     iget-object v0, v4, LX/3yB;->A03:Ljava/lang/String;
 
-    .line 2276327
+    .line 2276348
     if-eqz v0, :cond_f
 
     invoke-virtual {v7, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 2276328
+    .line 2276349
     :cond_f
     iget-object v1, v4, LX/3yB;->A04:Ljava/lang/String;
 
-    .line 2276329
+    .line 2276350
     if-eqz v1, :cond_10
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -2018,13 +2018,13 @@
 
     if-nez v0, :cond_11
 
-    .line 2276330
+    .line 2276351
     :cond_10
     invoke-virtual {v4}, LX/3yB;->A00()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2276331
+    .line 2276352
     :cond_11
     invoke-static {v1}, LX/02K;->A05(Ljava/lang/Object;)V
 
@@ -2032,42 +2032,42 @@
 
     goto :goto_5
 
-    .line 2276332
+    .line 2276353
     :cond_12
     invoke-static {v7}, LX/92l;->A1a(Ljava/util/AbstractCollection;)Z
 
     move-result v0
 
-    .line 2276333
+    .line 2276354
     if-eqz v0, :cond_13
 
-    .line 2276334
+    .line 2276355
     invoke-static {v7, v2}, LX/FnC;->A0f(Ljava/lang/Iterable;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2276335
+    .line 2276356
     const-string v0, "attribution_enabled_sticker_pack_ids"
 
-    .line 2276336
+    .line 2276357
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276337
+    .line 2276358
     :cond_13
     invoke-static {v5, v2}, LX/FnC;->A0f(Ljava/lang/Iterable;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2276338
+    .line 2276359
     const-string v0, "story_sticker_ids"
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276339
+    .line 2276360
     :cond_14
     iget-object v1, p1, LX/Hbw;->A0X:Ljava/util/List;
 
-    .line 2276340
+    .line 2276361
     if-eqz v1, :cond_15
 
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
@@ -2076,14 +2076,14 @@
 
     if-nez v0, :cond_15
 
-    .line 2276341
+    .line 2276362
     invoke-static {v1}, LX/As9;->A00(Ljava/util/List;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v0, ""
 
-    .line 2276342
+    .line 2276363
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -2092,14 +2092,14 @@
 
     const-string v0, "doodles_metadata"
 
-    .line 2276343
+    .line 2276364
     invoke-interface {p0, v0, v1}, LX/1A0;->A8F(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276344
+    .line 2276365
     :cond_15
     iget-object v1, p1, LX/Hbw;->A0e:Ljava/util/List;
 
-    .line 2276345
+    .line 2276366
     if-eqz v1, :cond_16
 
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
@@ -2108,21 +2108,21 @@
 
     if-nez v0, :cond_16
 
-    .line 2276346
+    .line 2276367
     invoke-static {v1}, LX/92o;->A0n(Ljava/util/Collection;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2276347
+    .line 2276368
     const-string v0, "rich_text_format_types"
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276348
+    .line 2276369
     :cond_16
     iget-object v1, p1, LX/Hbw;->A0d:Ljava/util/List;
 
-    .line 2276349
+    .line 2276370
     if-eqz v1, :cond_17
 
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
@@ -2131,21 +2131,21 @@
 
     if-nez v0, :cond_17
 
-    .line 2276350
+    .line 2276371
     invoke-static {v1}, LX/92o;->A0n(Ljava/util/Collection;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2276351
+    .line 2276372
     const-string v0, "sub_media_source"
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276352
+    .line 2276373
     :cond_17
     iget-object v1, p1, LX/Hbw;->A0f:Ljava/util/List;
 
-    .line 2276353
+    .line 2276374
     if-eqz v1, :cond_19
 
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
@@ -2154,20 +2154,20 @@
 
     if-nez v0, :cond_19
 
-    .line 2276354
+    .line 2276375
     invoke-static {}, LX/92k;->A0a()Ljava/io/StringWriter;
 
     move-result-object v5
 
-    .line 2276355
+    .line 2276376
     invoke-static {v5}, LX/92l;->A0K(Ljava/io/Writer;)LX/100;
 
     move-result-object v4
 
-    .line 2276356
+    .line 2276377
     invoke-virtual {v4}, LX/100;->A0M()V
 
-    .line 2276357
+    .line 2276378
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -2185,30 +2185,30 @@
 
     check-cast v0, LX/3yE;
 
-    .line 2276358
+    .line 2276379
     invoke-static {v4, v0}, LX/3yD;->A00(LX/100;LX/3yE;)V
 
     goto :goto_6
 
-    .line 2276359
+    .line 2276380
     :cond_18
     invoke-virtual {v4}, LX/100;->A0J()V
 
-    .line 2276360
+    .line 2276381
     invoke-static {v4, v5}, LX/Chc;->A0w(LX/100;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2276361
+    .line 2276382
     const-string v0, "text_metadata"
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276362
+    .line 2276383
     :cond_19
     iget-object v1, p1, LX/Hbw;->A0c:Ljava/util/List;
 
-    .line 2276363
+    .line 2276384
     if-eqz v1, :cond_1b
 
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
@@ -2217,20 +2217,20 @@
 
     if-nez v0, :cond_1b
 
-    .line 2276364
+    .line 2276385
     invoke-static {}, LX/92k;->A0a()Ljava/io/StringWriter;
 
     move-result-object v5
 
-    .line 2276365
+    .line 2276386
     invoke-static {v5}, LX/92l;->A0K(Ljava/io/Writer;)LX/100;
 
     move-result-object v4
 
-    .line 2276366
+    .line 2276387
     invoke-virtual {v4}, LX/100;->A0M()V
 
-    .line 2276367
+    .line 2276388
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -2248,40 +2248,40 @@
 
     check-cast v0, LX/3yG;
 
-    .line 2276368
+    .line 2276389
     invoke-static {v4, v0}, LX/3yF;->A00(LX/100;LX/3yG;)V
 
     goto :goto_7
 
-    .line 2276369
+    .line 2276390
     :cond_1a
     invoke-virtual {v4}, LX/100;->A0J()V
 
-    .line 2276370
+    .line 2276391
     invoke-virtual {v4}, LX/100;->close()V
 
-    .line 2276371
+    .line 2276392
     invoke-static {v5}, LX/5Wd;->A0q(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2276372
+    .line 2276393
     const-string v0, "story_captions"
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276373
+    .line 2276394
     :cond_1b
     iget-object v0, p1, LX/Hbw;->A0h:Ljava/util/Set;
 
     if-eqz v0, :cond_1c
 
-    .line 2276374
+    .line 2276395
     invoke-static {v0}, LX/GuO;->A00(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object v1
 
-    .line 2276375
+    .line 2276396
     if-eqz v1, :cond_1c
 
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
@@ -2290,21 +2290,21 @@
 
     if-nez v0, :cond_1c
 
-    .line 2276376
+    .line 2276397
     invoke-static {v1, v2}, LX/FnC;->A0f(Ljava/lang/Iterable;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2276377
+    .line 2276398
     const-string v0, "internal_features"
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276378
+    .line 2276399
     :cond_1c
     iget-object v1, p1, LX/Hbw;->A0M:Ljava/lang/String;
 
-    .line 2276379
+    .line 2276400
     if-eqz v1, :cond_1d
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -2313,22 +2313,22 @@
 
     if-eqz v0, :cond_1d
 
-    .line 2276380
+    .line 2276401
     iget-object v0, p1, LX/Hbw;->A0R:Ljava/lang/String;
 
-    .line 2276381
+    .line 2276402
     if-nez v0, :cond_1d
 
     const-string v0, "face_effect_id"
 
-    .line 2276382
+    .line 2276403
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276383
+    .line 2276404
     :cond_1d
     iget-object v1, p1, LX/Hbw;->A0L:Ljava/lang/String;
 
-    .line 2276384
+    .line 2276405
     if-eqz v1, :cond_1e
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -2339,35 +2339,35 @@
 
     const-string v0, "effect_persisted_metadata"
 
-    .line 2276385
+    .line 2276406
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276386
+    .line 2276407
     :cond_1e
     iget-object v2, p1, LX/Hbw;->A08:LX/HaC;
 
-    .line 2276387
+    .line 2276408
     if-eqz v2, :cond_1f
 
-    .line 2276388
+    .line 2276409
     invoke-static {}, LX/92k;->A0a()Ljava/io/StringWriter;
 
     move-result-object v1
 
-    .line 2276389
+    .line 2276410
     invoke-static {v1}, LX/92l;->A0K(Ljava/io/Writer;)LX/100;
 
     move-result-object v0
 
-    .line 2276390
+    .line 2276411
     invoke-static {v0, v2}, LX/HXk;->A00(LX/100;LX/HaC;)V
 
-    .line 2276391
+    .line 2276412
     invoke-static {v0, v1}, LX/Chc;->A0w(LX/100;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2276392
+    .line 2276413
     const/16 v0, 0xdc
 
     invoke-static {v0}, LX/000;->A00(I)Ljava/lang/String;
@@ -2376,11 +2376,11 @@
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276393
+    .line 2276414
     :cond_1f
     iget-object v1, p1, LX/Hbw;->A0G:Ljava/lang/String;
 
-    .line 2276394
+    .line 2276415
     if-eqz v1, :cond_20
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -2391,17 +2391,17 @@
 
     const-string v0, "capture_type"
 
-    .line 2276395
+    .line 2276416
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276396
+    .line 2276417
     :cond_20
     iget-object v0, p1, LX/Hbw;->A0B:Ljava/lang/Integer;
 
-    .line 2276397
+    .line 2276418
     if-eqz v0, :cond_21
 
-    .line 2276398
+    .line 2276419
     invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
 
     move-result v0
@@ -2414,11 +2414,11 @@
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276399
+    .line 2276420
     :cond_21
     iget-object v1, p1, LX/Hbw;->A0K:Ljava/lang/String;
 
-    .line 2276400
+    .line 2276421
     if-eqz v1, :cond_22
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -2429,14 +2429,14 @@
 
     const-string v0, "creation_surface"
 
-    .line 2276401
+    .line 2276422
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276402
+    .line 2276423
     :cond_22
     iget-object v1, p1, LX/Hbw;->A0I:Ljava/lang/String;
 
-    .line 2276403
+    .line 2276424
     if-eqz v1, :cond_23
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -2447,14 +2447,14 @@
 
     const-string v0, "create_mode_format"
 
-    .line 2276404
+    .line 2276425
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276405
+    .line 2276426
     :cond_23
     iget-object v1, p1, LX/Hbw;->A0D:Ljava/lang/String;
 
-    .line 2276406
+    .line 2276427
     if-eqz v1, :cond_24
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -2465,14 +2465,14 @@
 
     const-string v0, "app_attribution_android_namespace"
 
-    .line 2276407
+    .line 2276428
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276408
+    .line 2276429
     :cond_24
     iget-object v1, p1, LX/Hbw;->A0F:Ljava/lang/String;
 
-    .line 2276409
+    .line 2276430
     if-eqz v1, :cond_25
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -2483,14 +2483,14 @@
 
     const-string v0, "attribution_content_url"
 
-    .line 2276410
+    .line 2276431
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276411
+    .line 2276432
     :cond_25
     iget-object v1, p1, LX/Hbw;->A0R:Ljava/lang/String;
 
-    .line 2276412
+    .line 2276433
     if-eqz v1, :cond_26
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -2499,16 +2499,16 @@
 
     if-eqz v0, :cond_26
 
-    .line 2276413
+    .line 2276434
     const-string v0, "reshare_source"
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276414
+    .line 2276435
     :cond_26
     iget-object v1, p1, LX/Hbw;->A0E:Ljava/lang/String;
 
-    .line 2276415
+    .line 2276436
     if-eqz v1, :cond_27
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -2519,14 +2519,14 @@
 
     const-string v0, "archived_media_id"
 
-    .line 2276416
+    .line 2276437
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276417
+    .line 2276438
     :cond_27
     iget-object v1, p1, LX/Hbw;->A0N:Ljava/lang/String;
 
-    .line 2276418
+    .line 2276439
     if-eqz v1, :cond_28
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -2537,51 +2537,51 @@
 
     const-string v0, "format_variant"
 
-    .line 2276419
+    .line 2276440
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276420
+    .line 2276441
     :cond_28
     iget-object v6, p1, LX/Hbw;->A0Z:Ljava/util/List;
 
-    .line 2276421
+    .line 2276442
     if-eqz v6, :cond_2d
 
-    .line 2276422
+    .line 2276443
     invoke-static {v6}, LX/5Wd;->A1a(Ljava/util/Collection;)Z
 
     move-result v0
 
-    .line 2276423
+    .line 2276444
     if-eqz v0, :cond_2d
 
-    .line 2276424
+    .line 2276445
     const/4 v7, 0x0
 
-    .line 2276425
+    .line 2276446
     invoke-static {}, LX/92k;->A0a()Ljava/io/StringWriter;
 
     move-result-object v5
 
-    .line 2276426
+    .line 2276447
     sget-object v8, LX/0z3;->A00:LX/0z4;
 
     invoke-virtual {v8, v5}, LX/0z4;->A04(Ljava/io/Writer;)LX/100;
 
     move-result-object v4
 
-    .line 2276427
+    .line 2276448
     invoke-virtual {v4}, LX/100;->A0M()V
 
-    .line 2276428
+    .line 2276449
     invoke-virtual {v4}, LX/100;->A0N()V
 
     const-string v0, "links"
 
-    .line 2276429
+    .line 2276450
     invoke-virtual {v4, v0}, LX/100;->A0A(Ljava/lang/String;)V
 
-    .line 2276430
+    .line 2276451
     invoke-interface {v6}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -2590,27 +2590,27 @@
 
     if-nez v0, :cond_2a
 
-    .line 2276431
+    .line 2276452
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276432
+    .line 2276453
     invoke-static {v0}, LX/5YJ;->A03(Lcom/instagram/feed/media/ReelCTA;)Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_48
 
-    .line 2276433
+    .line 2276454
     invoke-virtual {v4}, LX/100;->A0N()V
 
-    .line 2276434
+    .line 2276455
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276435
+    .line 2276456
     invoke-static {v0}, LX/5YJ;->A03(Lcom/instagram/feed/media/ReelCTA;)Ljava/lang/String;
 
     move-result-object v1
@@ -2619,14 +2619,14 @@
 
     invoke-virtual {v4, v0, v1}, LX/100;->A0H(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2276436
+    .line 2276457
     invoke-interface {v6, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     if-eqz v0, :cond_29
 
-    .line 2276437
+    .line 2276458
     sget-object v1, LX/0Y4;->A01:LX/01D;
 
     invoke-virtual {v1, p2}, LX/01D;->A01(Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
@@ -2639,100 +2639,100 @@
 
     if-eqz v0, :cond_29
 
-    .line 2276438
+    .line 2276459
     invoke-virtual {v1, p2}, LX/01D;->A01(Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
 
-    .line 2276439
+    .line 2276460
     :cond_29
     :goto_8
     invoke-virtual {v4}, LX/100;->A0K()V
 
-    .line 2276440
+    .line 2276461
     :cond_2a
     :goto_9
     invoke-virtual {v4}, LX/100;->A0J()V
 
-    .line 2276441
+    .line 2276462
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276442
+    .line 2276463
     invoke-static {v0}, LX/5YJ;->A01(Lcom/instagram/feed/media/ReelCTA;)Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_2c
 
-    .line 2276443
+    .line 2276464
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276444
+    .line 2276465
     if-eqz v0, :cond_2c
 
-    .line 2276445
+    .line 2276466
     iget-object v0, v0, Lcom/instagram/feed/media/ReelCTA;->A09:Ljava/lang/String;
 
-    .line 2276446
+    .line 2276467
     if-eqz v0, :cond_2c
 
     const-string v0, "id_based_cta"
 
-    .line 2276447
+    .line 2276468
     invoke-virtual {v4, v0}, LX/100;->A0B(Ljava/lang/String;)V
 
     const-string v0, "object_id"
 
-    .line 2276448
+    .line 2276469
     invoke-virtual {v4, v0, v1}, LX/100;->A0H(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2276449
+    .line 2276470
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276450
+    .line 2276471
     if-eqz v0, :cond_2b
 
-    .line 2276451
+    .line 2276472
     iget-object v2, v0, Lcom/instagram/feed/media/ReelCTA;->A09:Ljava/lang/String;
 
-    .line 2276452
+    .line 2276473
     :cond_2b
     const-string v0, "cta_type"
 
     invoke-virtual {v4, v0, v2}, LX/100;->A0H(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2276453
+    .line 2276474
     invoke-virtual {v4}, LX/100;->A0K()V
 
-    .line 2276454
+    .line 2276475
     :cond_2c
     invoke-virtual {v4}, LX/100;->A0K()V
 
-    .line 2276455
+    .line 2276476
     invoke-virtual {v4}, LX/100;->A0J()V
 
-    .line 2276456
+    .line 2276477
     invoke-virtual {v4}, LX/100;->close()V
 
-    .line 2276457
+    .line 2276478
     invoke-static {v5}, LX/5Wd;->A0q(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2276458
+    .line 2276479
     const-string v0, "story_cta"
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276459
+    .line 2276480
     :cond_2d
     iget-object v1, p1, LX/Hbw;->A0H:Ljava/lang/String;
 
-    .line 2276460
+    .line 2276481
     if-eqz v1, :cond_2e
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -2743,67 +2743,67 @@
 
     const-string v0, "camera_session_id"
 
-    .line 2276461
+    .line 2276482
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276462
+    .line 2276483
     :cond_2e
     iget-boolean v0, p1, LX/Hbw;->A0i:Z
 
-    .line 2276463
+    .line 2276484
     if-eqz v0, :cond_2f
 
     const-string v0, "allow_multi_configures"
 
-    .line 2276464
+    .line 2276485
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276465
+    .line 2276486
     :cond_2f
     iget-boolean v0, p1, LX/Hbw;->A0v:Z
 
-    .line 2276466
+    .line 2276487
     if-eqz v0, :cond_30
 
     const-string v0, "is_saved_instagram_story"
 
-    .line 2276467
+    .line 2276488
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276468
+    .line 2276489
     :cond_30
     iget-boolean v0, p1, LX/Hbw;->A0w:Z
 
-    .line 2276469
+    .line 2276490
     if-eqz v0, :cond_31
 
     const-string v0, "is_stories_draft"
 
-    .line 2276470
+    .line 2276491
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276471
+    .line 2276492
     :cond_31
     iget-boolean v0, p1, LX/Hbw;->A0j:Z
 
-    .line 2276472
+    .line 2276493
     if-eqz v0, :cond_32
 
     const-string v0, "is_pride_media"
 
-    .line 2276473
+    .line 2276494
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276474
+    .line 2276495
     :cond_32
     iget-wide v1, p1, LX/Hbw;->A00:J
 
-    .line 2276475
+    .line 2276496
     cmp-long v0, v1, v10
 
     if-lez v0, :cond_33
 
-    .line 2276476
+    .line 2276497
     invoke-static {v1, v2}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
 
     move-result-object v1
@@ -2812,23 +2812,23 @@
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276477
+    .line 2276498
     :cond_33
     iget-boolean v0, p1, LX/Hbw;->A0k:Z
 
-    .line 2276478
+    .line 2276499
     if-eqz v0, :cond_34
 
     const-string v0, "has_animated_sticker"
 
-    .line 2276479
+    .line 2276500
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276480
+    .line 2276501
     :cond_34
     iget-boolean v0, p1, LX/Hbw;->A0x:Z
 
-    .line 2276481
+    .line 2276502
     if-eqz v0, :cond_35
 
     const/16 v0, 0x4b
@@ -2837,26 +2837,26 @@
 
     move-result-object v0
 
-    .line 2276482
+    .line 2276503
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276483
+    .line 2276504
     :cond_35
     iget-boolean v0, p1, LX/Hbw;->A0t:Z
 
-    .line 2276484
+    .line 2276505
     if-eqz v0, :cond_36
 
     const-string v0, "private_mention_sharing_enabled"
 
-    .line 2276485
+    .line 2276506
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276486
+    .line 2276507
     :cond_36
     iget-boolean v0, p1, LX/Hbw;->A0n:Z
 
-    .line 2276487
+    .line 2276508
     if-eqz v0, :cond_37
 
     const/16 v0, 0x210
@@ -2865,14 +2865,14 @@
 
     move-result-object v0
 
-    .line 2276488
+    .line 2276509
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276489
+    .line 2276510
     :cond_37
     iget-object v1, p1, LX/Hbw;->A0Q:Ljava/lang/String;
 
-    .line 2276490
+    .line 2276511
     if-eqz v1, :cond_38
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -2883,17 +2883,17 @@
 
     const-string v0, "reel_template_id"
 
-    .line 2276491
+    .line 2276512
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276492
+    .line 2276513
     :cond_38
     iget-object v1, p1, LX/Hbw;->A0W:Ljava/util/List;
 
-    .line 2276493
+    .line 2276514
     if-eqz v1, :cond_39
 
-    .line 2276494
+    .line 2276515
     sget-object v0, LX/3nk;->A0E:LX/3nl;
 
     invoke-virtual {v0, v1}, LX/3nl;->A00(Ljava/util/List;)Ljava/lang/String;
@@ -2904,39 +2904,39 @@
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276495
+    .line 2276516
     :cond_39
     iget-object v1, p1, LX/Hbw;->A06:LX/1h3;
 
-    .line 2276496
+    .line 2276517
     if-eqz v1, :cond_3a
 
-    .line 2276497
+    .line 2276518
     iget-object v0, p1, LX/Hbw;->A0a:Ljava/util/List;
 
-    .line 2276498
+    .line 2276519
     invoke-static {v0}, LX/6Ao;->A04(Ljava/util/List;)LX/2uf;
 
     move-result-object v0
 
-    .line 2276499
+    .line 2276520
     invoke-static {v0, v1}, LX/H5T;->A00(LX/2uf;LX/1h3;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v0, "clips_audio_metadata"
 
-    .line 2276500
+    .line 2276521
     invoke-interface {p0, v0, v1}, LX/1A0;->A8F(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276501
+    .line 2276522
     :cond_3a
     iget-object v0, p1, LX/Hbw;->A0V:Ljava/util/List;
 
-    .line 2276502
+    .line 2276523
     if-eqz v0, :cond_3b
 
-    .line 2276503
+    .line 2276524
     invoke-static {v0}, LX/0Ql;->A00(Ljava/util/List;)Ljava/lang/String;
 
     move-result-object v1
@@ -2945,47 +2945,47 @@
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A8F(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276504
+    .line 2276525
     :cond_3b
     iget-boolean v0, p1, LX/Hbw;->A0l:Z
 
-    .line 2276505
+    .line 2276526
     if-eqz v0, :cond_3c
 
     const-string v0, "is_boomerang_v2"
 
-    .line 2276506
+    .line 2276527
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276507
+    .line 2276528
     :cond_3c
     iget-boolean v0, p1, LX/Hbw;->A0u:Z
 
-    .line 2276508
+    .line 2276529
     if-eqz v0, :cond_3d
 
     const-string v0, "is_rollcall_v2"
 
-    .line 2276509
+    .line 2276530
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276510
+    .line 2276531
     :cond_3d
     iget-boolean v0, p1, LX/Hbw;->A0p:Z
 
-    .line 2276511
+    .line 2276532
     if-eqz v0, :cond_3e
 
     const-string v0, "is_first_take"
 
-    .line 2276512
+    .line 2276533
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276513
+    .line 2276534
     :cond_3e
     iget-boolean v0, p1, LX/Hbw;->A0o:Z
 
-    .line 2276514
+    .line 2276535
     if-eqz v0, :cond_3f
 
     const/16 v0, 0x3e1
@@ -2994,29 +2994,29 @@
 
     move-result-object v0
 
-    .line 2276515
+    .line 2276536
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276516
+    .line 2276537
     :cond_3f
     iget-boolean v0, p1, LX/Hbw;->A0s:Z
 
-    .line 2276517
+    .line 2276538
     if-eqz v0, :cond_40
 
     const-string v0, "is_post_capture_variant"
 
-    .line 2276518
+    .line 2276539
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276519
+    .line 2276540
     :cond_40
     iget-object v0, p1, LX/Hbw;->A0C:Ljava/lang/Integer;
 
-    .line 2276520
+    .line 2276541
     if-eqz v0, :cond_41
 
-    .line 2276521
+    .line 2276542
     invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
 
     move-result v0
@@ -3029,86 +3029,86 @@
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276522
+    .line 2276543
     :cond_41
     iget-object v1, p1, LX/Hbw;->A0T:Ljava/lang/String;
 
-    .line 2276523
+    .line 2276544
     if-eqz v1, :cond_42
 
     const-string v0, "transcription_text"
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276524
+    .line 2276545
     :cond_42
     iget-object v1, p1, LX/Hbw;->A0S:Ljava/lang/String;
 
-    .line 2276525
+    .line 2276546
     if-eqz v1, :cond_43
 
     const-string v0, "container_module"
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276526
+    .line 2276547
     :cond_43
     iget-boolean v0, p1, LX/Hbw;->A0q:Z
 
-    .line 2276527
+    .line 2276548
     if-eqz v0, :cond_44
 
     const-string v0, "from_drafts"
 
-    .line 2276528
+    .line 2276549
     invoke-interface {p0, v0, v3}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276529
+    .line 2276550
     :cond_44
     iget-object v1, p1, LX/Hbw;->A0J:Ljava/lang/String;
 
-    .line 2276530
+    .line 2276551
     if-eqz v1, :cond_45
 
     const-string v0, "composition_id"
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276531
+    .line 2276552
     :cond_45
     iget-object v2, p1, LX/Hbw;->A05:Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/suggestions/model/GallerySuggestionsInfo;
 
-    .line 2276532
+    .line 2276553
     if-eqz v2, :cond_46
 
-    .line 2276533
+    .line 2276554
     invoke-static {}, LX/92k;->A0a()Ljava/io/StringWriter;
 
     move-result-object v1
 
-    .line 2276534
+    .line 2276555
     invoke-static {v1}, LX/92l;->A0K(Ljava/io/Writer;)LX/100;
 
     move-result-object v0
 
-    .line 2276535
+    .line 2276556
     invoke-static {v0, v2}, LX/HWZ;->A00(LX/100;Lcom/instagram/creation/capture/quickcapture/gallery/gallerygrid/suggestions/model/GallerySuggestionsInfo;)V
 
-    .line 2276536
+    .line 2276557
     invoke-static {v0, v1}, LX/Chc;->A0w(LX/100;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2276537
+    .line 2276558
     const-string v0, "gallery_suggestions_info"
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276538
+    .line 2276559
     :cond_46
     iget-object v1, p1, LX/Hbw;->A0O:Ljava/lang/String;
 
-    .line 2276539
+    .line 2276560
     if-eqz v1, :cond_47
 
     const/16 v0, 0x41e
@@ -3119,47 +3119,47 @@
 
     invoke-interface {p0, v0, v1}, LX/1A0;->A7y(Ljava/lang/String;Ljava/lang/String;)LX/1A0;
 
-    .line 2276540
+    .line 2276561
     :cond_47
     iget-object v3, p1, LX/Hbw;->A04:LX/1k8;
 
-    .line 2276541
+    .line 2276562
     iget-object v0, p1, LX/Hbw;->A0A:Ljava/lang/Boolean;
 
-    .line 2276542
+    .line 2276563
     if-eqz v3, :cond_57
 
     if-eqz v0, :cond_57
 
-    .line 2276543
+    .line 2276564
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v4
 
     goto/16 :goto_e
 
-    .line 2276544
+    .line 2276565
     :cond_48
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276545
+    .line 2276566
     invoke-static {v0}, LX/5YJ;->A02(Lcom/instagram/feed/media/ReelCTA;)Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_49
 
-    .line 2276546
+    .line 2276567
     invoke-virtual {v4}, LX/100;->A0N()V
 
-    .line 2276547
+    .line 2276568
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276548
+    .line 2276569
     invoke-static {v0}, LX/5YJ;->A02(Lcom/instagram/feed/media/ReelCTA;)Ljava/lang/String;
 
     move-result-object v1
@@ -3171,36 +3171,36 @@
 
     goto/16 :goto_8
 
-    .line 2276549
+    .line 2276570
     :cond_49
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276550
+    .line 2276571
     if-eqz v0, :cond_4b
 
-    .line 2276551
+    .line 2276572
     iget-object v0, v0, Lcom/instagram/feed/media/ReelCTA;->A03:Lcom/instagram/model/shopping/reels/ProfileShopLink;
 
-    .line 2276552
+    .line 2276573
     if-eqz v0, :cond_4b
 
-    .line 2276553
+    .line 2276574
     invoke-virtual {v4}, LX/100;->A0N()V
 
-    .line 2276554
+    .line 2276575
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276555
+    .line 2276576
     if-eqz v0, :cond_29
 
-    .line 2276556
+    .line 2276577
     iget-object v0, v0, Lcom/instagram/feed/media/ReelCTA;->A03:Lcom/instagram/model/shopping/reels/ProfileShopLink;
 
-    .line 2276557
+    .line 2276578
     if-eqz v0, :cond_29
 
     invoke-static {v0}, LX/7do;->A00(Lcom/instagram/model/shopping/reels/ProfileShopLink;)Ljava/lang/String;
@@ -3209,18 +3209,18 @@
 
     if-eqz v0, :cond_29
 
-    .line 2276558
+    .line 2276579
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276559
+    .line 2276580
     if-eqz v0, :cond_4a
 
-    .line 2276560
+    .line 2276581
     iget-object v0, v0, Lcom/instagram/feed/media/ReelCTA;->A03:Lcom/instagram/model/shopping/reels/ProfileShopLink;
 
-    .line 2276561
+    .line 2276582
     if-eqz v0, :cond_4a
 
     invoke-static {v0}, LX/7do;->A00(Lcom/instagram/model/shopping/reels/ProfileShopLink;)Ljava/lang/String;
@@ -3241,35 +3241,35 @@
 
     goto :goto_b
 
-    .line 2276562
+    .line 2276583
     :cond_4b
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276563
+    .line 2276584
     if-eqz v0, :cond_4c
 
-    .line 2276564
+    .line 2276585
     iget-object v0, v0, Lcom/instagram/feed/media/ReelCTA;->A06:Ljava/lang/Boolean;
 
-    .line 2276565
+    .line 2276586
     const/4 v1, 0x1
 
     if-eqz v0, :cond_4c
 
-    .line 2276566
+    .line 2276587
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276567
+    .line 2276588
     if-eqz v0, :cond_4c
 
-    .line 2276568
+    .line 2276589
     iget-object v0, v0, Lcom/instagram/feed/media/ReelCTA;->A06:Ljava/lang/Boolean;
 
-    .line 2276569
+    .line 2276590
     if-eqz v0, :cond_4c
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -3278,7 +3278,7 @@
 
     if-eqz v0, :cond_4c
 
-    .line 2276570
+    .line 2276591
     invoke-virtual {v4}, LX/100;->A0N()V
 
     const/16 v0, 0x468
@@ -3287,38 +3287,38 @@
 
     move-result-object v0
 
-    .line 2276571
+    .line 2276592
     invoke-virtual {v4, v0, v1}, LX/100;->A0I(Ljava/lang/String;Z)V
 
     goto/16 :goto_8
 
-    .line 2276572
+    .line 2276593
     :cond_4c
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276573
+    .line 2276594
     if-eqz v0, :cond_51
 
-    .line 2276574
+    .line 2276595
     iget-object v0, v0, Lcom/instagram/feed/media/ReelCTA;->A02:Lcom/instagram/model/shopping/reels/ProductCollectionLink;
 
-    .line 2276575
+    .line 2276596
     if-eqz v0, :cond_51
 
-    .line 2276576
+    .line 2276597
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276577
+    .line 2276598
     if-eqz v0, :cond_50
 
-    .line 2276578
+    .line 2276599
     iget-object v9, v0, Lcom/instagram/feed/media/ReelCTA;->A02:Lcom/instagram/model/shopping/reels/ProductCollectionLink;
 
-    .line 2276579
+    .line 2276600
     :goto_c
     invoke-virtual {v4}, LX/100;->A0N()V
 
@@ -3326,10 +3326,10 @@
 
     if-eqz v9, :cond_4d
 
-    .line 2276580
+    .line 2276601
     iget-object v0, v9, Lcom/instagram/model/shopping/reels/ProductCollectionLink;->A00:Lcom/instagram/api/schemas/MultiProductComponentDestinationType;
 
-    .line 2276581
+    .line 2276602
     iget-object v1, v0, Lcom/instagram/api/schemas/MultiProductComponentDestinationType;->A00:Ljava/lang/String;
 
     if-nez v1, :cond_4e
@@ -3344,15 +3344,15 @@
 
     move-result-object v0
 
-    .line 2276582
+    .line 2276603
     invoke-virtual {v4, v0, v1}, LX/100;->A0H(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v9, :cond_4f
 
-    .line 2276583
+    .line 2276604
     iget-object v0, v9, Lcom/instagram/model/shopping/reels/ProductCollectionLink;->A02:Ljava/lang/String;
 
-    .line 2276584
+    .line 2276605
     if-eqz v0, :cond_4f
 
     move-object v7, v0
@@ -3364,36 +3364,36 @@
 
     move-result-object v0
 
-    .line 2276585
+    .line 2276606
     invoke-virtual {v4, v0, v7}, LX/100;->A0H(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v9, :cond_29
 
-    .line 2276586
+    .line 2276607
     iget-object v7, v9, Lcom/instagram/model/shopping/reels/ProductCollectionLink;->A01:Lcom/instagram/model/shopping/reels/ShoppingDestinationMetadata;
 
-    .line 2276587
+    .line 2276608
     if-eqz v7, :cond_29
 
-    .line 2276588
+    .line 2276609
     invoke-static {}, LX/92k;->A0a()Ljava/io/StringWriter;
 
     move-result-object v1
 
-    .line 2276589
+    .line 2276610
     invoke-virtual {v8, v1}, LX/0z4;->A04(Ljava/io/Writer;)LX/100;
 
     move-result-object v0
 
-    .line 2276590
+    .line 2276611
     invoke-static {v0, v7}, LX/BQs;->A00(LX/100;Lcom/instagram/model/shopping/reels/ShoppingDestinationMetadata;)V
 
-    .line 2276591
+    .line 2276612
     invoke-static {v0, v1}, LX/Chc;->A0w(LX/100;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2276592
+    .line 2276613
     const/16 v0, 0x2c1
 
     invoke-static {v0}, LX/92j;->A00(I)Ljava/lang/String;
@@ -3402,107 +3402,107 @@
 
     goto/16 :goto_a
 
-    .line 2276593
+    .line 2276614
     :cond_50
     move-object v9, v2
 
     goto :goto_c
 
-    .line 2276594
+    .line 2276615
     :cond_51
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276595
+    .line 2276616
     if-eqz v0, :cond_52
 
-    .line 2276596
+    .line 2276617
     iget-object v0, v0, Lcom/instagram/feed/media/ReelCTA;->A05:Lcom/instagram/model/shopping/reels/ReelProductLink;
 
-    .line 2276597
+    .line 2276618
     if-eqz v0, :cond_52
 
-    .line 2276598
+    .line 2276619
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276599
+    .line 2276620
     if-eqz v0, :cond_52
 
-    .line 2276600
+    .line 2276621
     iget-object v0, v0, Lcom/instagram/feed/media/ReelCTA;->A05:Lcom/instagram/model/shopping/reels/ReelProductLink;
 
-    .line 2276601
+    .line 2276622
     if-eqz v0, :cond_52
 
-    .line 2276602
+    .line 2276623
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276603
+    .line 2276624
     if-eqz v0, :cond_2a
 
-    .line 2276604
+    .line 2276625
     iget-object v0, v0, Lcom/instagram/feed/media/ReelCTA;->A05:Lcom/instagram/model/shopping/reels/ReelProductLink;
 
-    .line 2276605
+    .line 2276626
     if-eqz v0, :cond_2a
 
-    .line 2276606
+    .line 2276627
     iget-object v1, v0, Lcom/instagram/model/shopping/reels/ReelProductLink;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
-    .line 2276607
+    .line 2276628
     new-instance v0, Lcom/instagram/model/shopping/Product;
 
     invoke-direct {v0, v1, v2}, Lcom/instagram/model/shopping/Product;-><init>(Lcom/instagram/model/shopping/ProductDetailsProductItemDict;Lcom/instagram/model/shopping/TaggingFeedSessionInformation;)V
 
-    .line 2276608
+    .line 2276629
     invoke-static {v4, v0}, LX/5YJ;->A04(LX/100;Lcom/instagram/model/shopping/Product;)V
 
     goto/16 :goto_9
 
-    .line 2276609
+    .line 2276630
     :cond_52
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276610
+    .line 2276631
     if-eqz v0, :cond_2a
 
-    .line 2276611
+    .line 2276632
     iget-object v0, v0, Lcom/instagram/feed/media/ReelCTA;->A04:Lcom/instagram/model/shopping/reels/ReelMultiProductLink;
 
-    .line 2276612
+    .line 2276633
     if-eqz v0, :cond_2a
 
-    .line 2276613
+    .line 2276634
     iget-object v0, v0, Lcom/instagram/model/shopping/reels/ReelMultiProductLink;->A00:Ljava/util/List;
 
-    .line 2276614
+    .line 2276635
     if-eqz v0, :cond_2a
 
-    .line 2276615
+    .line 2276636
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276616
+    .line 2276637
     if-eqz v0, :cond_2a
 
-    .line 2276617
+    .line 2276638
     iget-object v0, v0, Lcom/instagram/feed/media/ReelCTA;->A04:Lcom/instagram/model/shopping/reels/ReelMultiProductLink;
 
-    .line 2276618
+    .line 2276639
     if-eqz v0, :cond_2a
 
-    .line 2276619
+    .line 2276640
     iget-object v0, v0, Lcom/instagram/model/shopping/reels/ReelMultiProductLink;->A00:Ljava/util/List;
 
-    .line 2276620
+    .line 2276641
     if-eqz v0, :cond_2a
 
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
@@ -3511,59 +3511,59 @@
 
     if-nez v0, :cond_2a
 
-    .line 2276621
+    .line 2276642
     invoke-virtual {v4}, LX/100;->A0N()V
 
     const-string v0, "multi_product"
 
-    .line 2276622
+    .line 2276643
     invoke-virtual {v4, v0}, LX/100;->A0A(Ljava/lang/String;)V
 
-    .line 2276623
+    .line 2276644
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276624
+    .line 2276645
     if-eqz v0, :cond_53
 
-    .line 2276625
+    .line 2276646
     iget-object v0, v0, Lcom/instagram/feed/media/ReelCTA;->A04:Lcom/instagram/model/shopping/reels/ReelMultiProductLink;
 
-    .line 2276626
+    .line 2276647
     if-eqz v0, :cond_53
 
-    .line 2276627
+    .line 2276648
     iget-object v0, v0, Lcom/instagram/model/shopping/reels/ReelMultiProductLink;->A00:Ljava/util/List;
 
-    .line 2276628
+    .line 2276649
     if-eqz v0, :cond_53
 
-    .line 2276629
+    .line 2276650
     invoke-static {v6}, LX/FnA;->A0k(Ljava/util/List;)Lcom/instagram/feed/media/ReelCTA;
 
     move-result-object v0
 
-    .line 2276630
+    .line 2276651
     if-eqz v0, :cond_53
 
-    .line 2276631
+    .line 2276652
     iget-object v0, v0, Lcom/instagram/feed/media/ReelCTA;->A04:Lcom/instagram/model/shopping/reels/ReelMultiProductLink;
 
-    .line 2276632
+    .line 2276653
     if-eqz v0, :cond_53
 
-    .line 2276633
+    .line 2276654
     iget-object v0, v0, Lcom/instagram/model/shopping/reels/ReelMultiProductLink;->A00:Ljava/util/List;
 
-    .line 2276634
+    .line 2276655
     if-eqz v0, :cond_53
 
     invoke-static {v0}, LX/43p;->A02(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 2276635
+    .line 2276656
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -3581,38 +3581,38 @@
 
     check-cast v0, Lcom/instagram/model/shopping/Product;
 
-    .line 2276636
+    .line 2276657
     invoke-static {v4, v0}, LX/5YJ;->A04(LX/100;Lcom/instagram/model/shopping/Product;)V
 
     goto :goto_d
 
-    .line 2276637
+    .line 2276658
     :cond_53
     invoke-virtual {v4}, LX/100;->A0J()V
 
     goto/16 :goto_8
 
-    .line 2276638
+    .line 2276659
     :goto_e
     :try_start_0
     invoke-static {}, LX/92k;->A0n()Lorg/json/JSONObject;
 
     move-result-object v2
 
-    .line 2276639
+    .line 2276660
     const-string v1, "width"
 
-    .line 2276640
+    .line 2276661
     iget v0, v3, LX/1k8;->A08:I
 
     rem-int/lit16 v0, v0, 0xb4
 
     if-nez v0, :cond_56
 
-    .line 2276641
+    .line 2276662
     iget v0, v3, LX/1k8;->A09:I
 
-    .line 2276642
+    .line 2276663
     :goto_f
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -3622,17 +3622,17 @@
 
     const-string v1, "height"
 
-    .line 2276643
+    .line 2276664
     iget v0, v3, LX/1k8;->A08:I
 
     rem-int/lit16 v0, v0, 0xb4
 
     if-nez v0, :cond_55
 
-    .line 2276644
+    .line 2276665
     iget v0, v3, LX/1k8;->A07:I
 
-    .line 2276645
+    .line 2276666
     :goto_10
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -3642,10 +3642,10 @@
 
     const-string v1, "x_transform"
 
-    .line 2276646
+    .line 2276667
     iget v0, v3, LX/1k8;->A03:F
 
-    .line 2276647
+    .line 2276668
     float-to-int v0, v0
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -3656,10 +3656,10 @@
 
     const-string v1, "y_transform"
 
-    .line 2276648
+    .line 2276669
     iget v0, v3, LX/1k8;->A04:F
 
-    .line 2276649
+    .line 2276670
     float-to-int v0, v0
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -3670,10 +3670,10 @@
 
     const-string v1, "zoom"
 
-    .line 2276650
+    .line 2276671
     iget v0, v3, LX/1k8;->A01:F
 
-    .line 2276651
+    .line 2276672
     invoke-static {v0}, Ljava/lang/String;->valueOf(F)Ljava/lang/String;
 
     move-result-object v0
@@ -3682,10 +3682,10 @@
 
     const-string v1, "rotation"
 
-    .line 2276652
+    .line 2276673
     iget v0, v3, LX/1k8;->A00:F
 
-    .line 2276653
+    .line 2276674
     invoke-static {v0}, Ljava/lang/String;->valueOf(F)Ljava/lang/String;
 
     move-result-object v0
@@ -3698,7 +3698,7 @@
 
     const/high16 v0, 0x42c80000    # 100.0f
 
-    .line 2276654
+    .line 2276675
     invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v0
@@ -3708,7 +3708,7 @@
 
     const-string v1, "media_transformation_info"
 
-    .line 2276655
+    .line 2276676
     invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -3717,19 +3717,19 @@
 
     goto :goto_12
 
-    .line 2276656
+    .line 2276677
     :cond_54
     const-string v0, "0.0"
 
     goto :goto_11
 
-    .line 2276657
+    .line 2276678
     :cond_55
     iget v0, v3, LX/1k8;->A09:I
 
     goto :goto_10
 
-    .line 2276658
+    .line 2276679
     :cond_56
     iget v0, v3, LX/1k8;->A07:I
 
@@ -3740,7 +3740,7 @@
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2276659
+    .line 2276680
     :catch_0
     :cond_57
     return-void

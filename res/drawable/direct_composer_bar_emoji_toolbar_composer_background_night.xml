@@ -3,5 +3,5 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke android:width="@dimen/account_recs_header_image_margin" android:color="@color/grey_8" />
     <solid android:color="@color/black" />
-    <corners android:radius="@dimen/direct_composer_background_corner_radius" />
+    <corners android:radius="@dimen/asset_picker_static_sticker_last_row_padding" />
 </shape>

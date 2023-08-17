@@ -196,7 +196,7 @@
 
     .line 17
     .line 18
-    invoke-static {v3, v0, v2, v4, v1}, LX/Chi;->A0V(Landroidx/fragment/app/FragmentActivity;LX/0YK;Lcom/instagram/service/session/UserSession;LX/2qH;Ljava/lang/String;)LX/ERN;
+    invoke-static {v3, v0, v2, v4, v1}, LX/Chi;->A0W(Landroidx/fragment/app/FragmentActivity;LX/0YK;Lcom/instagram/service/session/UserSession;LX/2qH;Ljava/lang/String;)LX/ERN;
 
     .line 19
     .line 20

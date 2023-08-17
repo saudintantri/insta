@@ -390,7 +390,7 @@
     .line 105
     .line 106
     .line 107
-    invoke-static {v3, v4}, LX/Chg;->A1B(LX/0AX;LX/4Qd;)V
+    invoke-static {v3, v4}, LX/Chg;->A1A(LX/0AX;LX/4Qd;)V
 
     .line 108
     .line 109
@@ -935,7 +935,7 @@
     .line 181
     .line 182
     .line 183
-    invoke-static {v3, v4}, LX/Chg;->A1B(LX/0AX;LX/4Qd;)V
+    invoke-static {v3, v4}, LX/Chg;->A1A(LX/0AX;LX/4Qd;)V
 
     .line 184
     .line 185
@@ -989,12 +989,12 @@
     .line 211
     .line 212
     .line 213
-    invoke-static {v3, v4}, LX/Chf;->A1E(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/4Qd;)V
+    invoke-static {v3, v4}, LX/Chf;->A1F(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/4Qd;)V
 
     .line 214
     .line 215
     .line 216
-    invoke-static {v3, v4}, LX/Chg;->A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/4Qd;)V
+    invoke-static {v3, v4}, LX/Chg;->A1I(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/4Qd;)V
 
     .line 217
     .line 218

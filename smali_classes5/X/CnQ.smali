@@ -16,7 +16,7 @@
     move-result-object v1
 
     .line 4
-    const v0, 0x7f0700ed
+    const v0, 0x7f0700ec
 
     .line 5
     .line 6
@@ -266,7 +266,7 @@
     .line 32
     .line 33
     .line 34
-    invoke-static {v2, v0}, LX/Che;->A01(Landroid/content/Context;I)I
+    invoke-static {v2, v0}, LX/Che;->A02(Landroid/content/Context;I)I
 
     .line 35
     .line 36

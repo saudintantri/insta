@@ -259,7 +259,7 @@
     .line 54
     .line 55
     .line 56
-    invoke-static {v4, p0}, LX/Chi;->A1C(LX/0AX;Lcom/instagram/model/shopping/Product;)V
+    invoke-static {v4, p0}, LX/Chi;->A1D(LX/0AX;Lcom/instagram/model/shopping/Product;)V
 
     .line 57
     .line 58
@@ -422,7 +422,7 @@
     .line 140
     .line 141
     .line 142
-    invoke-static {v2, p0}, LX/Chi;->A1C(LX/0AX;Lcom/instagram/model/shopping/Product;)V
+    invoke-static {v2, p0}, LX/Chi;->A1D(LX/0AX;Lcom/instagram/model/shopping/Product;)V
 
     .line 143
     .line 144

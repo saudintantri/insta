@@ -123,42 +123,42 @@
 
     const/4 v5, 0x0
 
-    .line 2745153
+    .line 2745174
     move-object v3, p0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2745154
+    .line 2745175
     move-object/from16 v0, p14
 
     iput-object v0, p0, LX/LNS;->A0F:LX/KZp;
 
-    .line 2745155
+    .line 2745176
     move-object/from16 v0, p12
 
     iput-object v0, p0, LX/LNS;->A0E:LX/LNT;
 
-    .line 2745156
+    .line 2745177
     move-object/from16 v0, p6
 
     iput-object v0, p0, LX/LNS;->A09:LX/M38;
 
-    .line 2745157
+    .line 2745178
     move-object/from16 v0, p5
 
     iput-object v0, p0, LX/LNS;->A08:LX/M3L;
 
-    .line 2745158
+    .line 2745179
     move-object/from16 v9, p8
 
     iput-object v9, p0, LX/LNS;->A0U:LX/34m;
 
-    .line 2745159
+    .line 2745180
     new-instance v11, LX/LNU;
 
     invoke-direct {v11, p0}, LX/LNU;-><init>(LX/LNS;)V
 
-    .line 2745160
+    .line 2745181
     new-instance v6, LX/34o;
 
     move-object/from16 v13, p11
@@ -175,7 +175,7 @@
 
     iput-object v6, p0, LX/LNS;->A0C:LX/34o;
 
-    .line 2745161
+    .line 2745182
     const/4 v4, 0x0
 
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -184,103 +184,103 @@
 
     iput-object v0, p0, LX/LNS;->A0J:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 2745162
+    .line 2745183
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0, v4}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
     iput-object v0, p0, LX/LNS;->A0M:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 2745163
+    .line 2745184
     invoke-static {}, LX/FnB;->A0Y()Ljava/lang/Float;
 
     move-result-object v0
 
-    .line 2745164
+    .line 2745185
     invoke-static {v0}, LX/IzJ;->A17(Ljava/lang/Object;)Ljava/util/concurrent/atomic/AtomicReference;
 
     move-result-object v0
 
-    .line 2745165
+    .line 2745186
     iput-object v0, p0, LX/LNS;->A0Q:Ljava/util/concurrent/atomic/AtomicReference;
 
-    .line 2745166
+    .line 2745187
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0, v4}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
     iput-object v0, p0, LX/LNS;->A0W:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 2745167
+    .line 2745188
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0, v4}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
     iput-object v0, p0, LX/LNS;->A0X:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 2745168
+    .line 2745189
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0, v4}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
     iput-object v0, p0, LX/LNS;->A0K:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 2745169
+    .line 2745190
     const-string v1, "Unset"
 
-    .line 2745170
+    .line 2745191
     invoke-static {v1}, LX/IzJ;->A17(Ljava/lang/Object;)Ljava/util/concurrent/atomic/AtomicReference;
 
     move-result-object v0
 
-    .line 2745171
+    .line 2745192
     iput-object v0, p0, LX/LNS;->A0P:Ljava/util/concurrent/atomic/AtomicReference;
 
-    .line 2745172
+    .line 2745193
     invoke-static {v1}, LX/IzJ;->A17(Ljava/lang/Object;)Ljava/util/concurrent/atomic/AtomicReference;
 
     move-result-object v0
 
-    .line 2745173
+    .line 2745194
     iput-object v0, p0, LX/LNS;->A0O:Ljava/util/concurrent/atomic/AtomicReference;
 
-    .line 2745174
+    .line 2745195
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0, v4}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
     iput-object v0, p0, LX/LNS;->A0N:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 2745175
+    .line 2745196
     const/16 v2, 0x14
 
     const/4 v1, 0x1
 
-    .line 2745176
+    .line 2745197
     new-instance v0, LX/350;
 
     invoke-direct {v0, v2, v1}, LX/350;-><init>(IZ)V
 
-    .line 2745177
+    .line 2745198
     iput-object v0, p0, LX/LNS;->A0B:LX/350;
 
-    .line 2745178
+    .line 2745199
     invoke-static {v5}, LX/IzJ;->A17(Ljava/lang/Object;)Ljava/util/concurrent/atomic/AtomicReference;
 
     move-result-object v0
 
-    .line 2745179
+    .line 2745200
     iput-object v0, p0, LX/LNS;->A0Y:Ljava/util/concurrent/atomic/AtomicReference;
 
-    .line 2745180
+    .line 2745201
     invoke-static {}, LX/IzJ;->A16()Ljava/util/concurrent/atomic/AtomicReference;
 
     move-result-object v0
 
-    .line 2745181
+    .line 2745202
     iput-object v0, p0, LX/LNS;->A0Z:Ljava/util/concurrent/atomic/AtomicReference;
 
-    .line 2745182
+    .line 2745203
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0, v4}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
@@ -289,57 +289,57 @@
 
     const-wide/16 v0, -0x1
 
-    .line 2745183
+    .line 2745204
     iput-wide v0, p0, LX/LNS;->A00:J
 
-    .line 2745184
+    .line 2745205
     sget-object v0, LX/001;->A00:Ljava/lang/Integer;
 
     iput-object v0, p0, LX/LNS;->A0e:Ljava/lang/Integer;
 
-    .line 2745185
+    .line 2745206
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0, v4}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
     iput-object v0, p0, LX/LNS;->A0L:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 2745186
+    .line 2745207
     new-instance v0, LX/Lby;
 
     invoke-direct {v0, p0}, LX/Lby;-><init>(LX/LNS;)V
 
     iput-object v0, p0, LX/LNS;->A0V:Ljava/lang/Runnable;
 
-    .line 2745187
+    .line 2745208
     sget-object v0, LX/001;->A04:Ljava/lang/Integer;
 
     iput-object v0, p0, LX/LNS;->A0f:Ljava/lang/Integer;
 
-    .line 2745188
+    .line 2745209
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v0
 
-    .line 2745189
+    .line 2745210
     iput-object v0, p0, LX/LNS;->A0H:Ljava/util/HashMap;
 
-    .line 2745190
+    .line 2745211
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v0
 
-    .line 2745191
+    .line 2745212
     iput-object v0, p0, LX/LNS;->A0G:Ljava/util/HashMap;
 
-    .line 2745192
+    .line 2745213
     iget-object v1, p0, LX/LNS;->A08:LX/M3L;
 
     iget-object v0, p0, LX/LNS;->A0C:LX/34o;
 
     invoke-interface {v1, v0}, LX/M3L;->AEd(LX/34o;)V
 
-    .line 2745193
+    .line 2745214
     invoke-virtual {v7}, Landroid/os/Handler;->getLooper()Landroid/os/Looper;
 
     move-result-object v0
@@ -350,7 +350,7 @@
 
     const-string v0, "audio"
 
-    .line 2745194
+    .line 2745215
     move-object/from16 v1, p1
 
     invoke-virtual {v1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -361,19 +361,19 @@
 
     iput-object v0, p0, LX/LNS;->A0R:Landroid/media/AudioManager;
 
-    .line 2745195
+    .line 2745216
     iget-boolean v0, v13, Lcom/facebook/video/heroplayer/setting/HeroPlayerSetting;->A1S:Z
 
     if-nez v0, :cond_0
 
-    .line 2745196
+    .line 2745217
     invoke-static {v8}, LX/02K;->A09(Ljava/lang/Object;)V
 
     new-instance v10, Landroid/os/Handler;
 
     invoke-direct {v10, v8}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    .line 2745197
+    .line 2745218
     new-instance v9, LX/Klt;
 
     move-object/from16 v14, p13
@@ -384,63 +384,63 @@
 
     invoke-direct/range {v9 .. v14}, LX/Klt;-><init>(Landroid/os/Handler;LX/6Rr;LX/LNS;Lcom/facebook/video/heroplayer/setting/HeroPlayerSetting;LX/KQQ;)V
 
-    .line 2745198
+    .line 2745219
     iput-object v9, p0, LX/LNS;->A03:LX/Klt;
 
-    .line 2745199
+    .line 2745220
     :cond_0
     iput-object v13, p0, LX/LNS;->A0D:Lcom/facebook/video/heroplayer/setting/HeroPlayerSetting;
 
-    .line 2745200
+    .line 2745221
     iget-object v1, p0, LX/LNS;->A07:Landroid/os/Looper;
 
-    .line 2745201
+    .line 2745222
     new-instance v0, LX/J96;
 
     invoke-direct {v0, v1, p0, p0}, LX/J96;-><init>(Landroid/os/Looper;LX/352;LX/LNS;)V
 
-    .line 2745202
+    .line 2745223
     iput-object v0, p0, LX/LNS;->A0A:LX/J96;
 
-    .line 2745203
+    .line 2745224
     iput-object v7, p0, LX/LNS;->A0S:Landroid/os/Handler;
 
-    .line 2745204
+    .line 2745225
     move-object/from16 v0, p7
 
     iput-object v0, p0, LX/LNS;->A0T:LX/KLM;
 
-    .line 2745205
+    .line 2745226
     sget-object v2, LX/LNS;->A0h:Landroid/os/Handler;
 
-    .line 2745206
+    .line 2745227
     new-instance v1, LX/KUd;
 
     invoke-direct {v1, p0}, LX/KUd;-><init>(LX/LNS;)V
 
-    .line 2745207
+    .line 2745228
     new-instance v0, LX/KeH;
 
     invoke-direct {v0, v2, v1, v13}, LX/KeH;-><init>(Landroid/os/Handler;LX/KUd;Lcom/facebook/video/heroplayer/setting/HeroPlayerSetting;)V
 
-    .line 2745208
+    .line 2745229
     iput-object v0, p0, LX/LNS;->A02:LX/KeH;
 
-    .line 2745209
+    .line 2745230
     monitor-enter v3
 
     const-wide/16 v0, 0x0
 
-    .line 2745210
+    .line 2745231
     :try_start_0
     iput-wide v0, p0, LX/LNS;->A0b:J
 
-    .line 2745211
+    .line 2745232
     iput v4, p0, LX/LNS;->A0a:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2745212
+    .line 2745233
     monitor-exit v3
 
     return-void

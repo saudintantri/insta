@@ -371,7 +371,7 @@
     .line 168
     .line 169
     .line 170
-    invoke-static {v1, v2}, LX/Chg;->A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/4Qd;)V
+    invoke-static {v1, v2}, LX/Chg;->A1I(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/4Qd;)V
 
     .line 171
     .line 172

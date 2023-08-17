@@ -663,7 +663,7 @@
 
     .line 36
     .line 37
-    invoke-static {v4}, LX/Chf;->A1B(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-static {v4}, LX/Chf;->A1C(Landroidx/recyclerview/widget/RecyclerView;)V
 
     .line 38
     .line 39

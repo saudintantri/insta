@@ -828,7 +828,7 @@
     move-result-object v2
 
     .line 24
-    invoke-static {v0}, LX/Chf;->A0J(LX/6cT;)Landroid/os/Bundle;
+    invoke-static {v0}, LX/Chf;->A0K(LX/6cT;)Landroid/os/Bundle;
 
     .line 25
     .line 26

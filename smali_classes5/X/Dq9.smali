@@ -96,7 +96,7 @@
     move-result-object v0
 
     .line 41
-    invoke-static {v0, v1}, LX/Che;->A0H(Ljava/util/List;I)LX/1M5;
+    invoke-static {v0, v1}, LX/Che;->A0I(Ljava/util/List;I)LX/1M5;
 
     .line 42
     .line 43

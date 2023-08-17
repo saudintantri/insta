@@ -822,7 +822,7 @@
     const/4 v0, 0x0
 
     .line 300
-    invoke-static {v1, v0}, LX/Chi;->A13(Landroidx/fragment/app/Fragment;Z)V
+    invoke-static {v1, v0}, LX/Chi;->A15(Landroidx/fragment/app/Fragment;Z)V
 
     .line 301
     .line 302
@@ -3784,7 +3784,7 @@
     const/4 v1, 0x0
 
     .line 901
-    invoke-static {v4, v1}, LX/Chi;->A13(Landroidx/fragment/app/Fragment;Z)V
+    invoke-static {v4, v1}, LX/Chi;->A15(Landroidx/fragment/app/Fragment;Z)V
 
     .line 902
     .line 903

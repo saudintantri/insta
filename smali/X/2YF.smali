@@ -140,7 +140,7 @@
 
     .line 42
     .line 43
-    const-string v0, "eviction_type"
+    const-string/jumbo v0, "eviction_type"
 
     .line 44
     .line 45

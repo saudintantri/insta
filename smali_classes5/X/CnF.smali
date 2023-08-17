@@ -65,7 +65,7 @@
     .locals 3
 
     .line 0
-    invoke-static {p1}, LX/Chf;->A0G(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences;
+    invoke-static {p1}, LX/Chf;->A0H(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences;
 
     .line 1
     .line 2

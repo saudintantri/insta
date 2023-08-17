@@ -1900,7 +1900,7 @@
 
     .line 12
     .line 13
-    invoke-static {v2, p5}, LX/Chi;->A1R(LX/4zl;Ljava/lang/String;)V
+    invoke-static {v2, p5}, LX/Chi;->A1S(LX/4zl;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -2036,7 +2036,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v0, v2, v3}, LX/Che;->A0F(LX/39m;IJ)LX/39m;
+    invoke-static {v1, v0, v2, v3}, LX/Che;->A0G(LX/39m;IJ)LX/39m;
 
     .line 18
     .line 19

@@ -159,7 +159,7 @@
     .locals 5
 
     .line 0
-    invoke-static {p2, p3}, LX/Chg;->A03(FF)F
+    invoke-static {p2, p3}, LX/Chh;->A00(FF)F
 
     .line 1
     .line 2
@@ -325,7 +325,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {p3, p4}, LX/Chg;->A03(FF)F
+    invoke-static {p3, p4}, LX/Chh;->A00(FF)F
 
     .line 27
     .line 28

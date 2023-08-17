@@ -16,7 +16,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p0}, LX/Chg;->A0A(Landroidx/fragment/app/Fragment;)Landroidx/compose/ui/platform/ComposeView;
+    invoke-static {p0}, LX/Chg;->A09(Landroidx/fragment/app/Fragment;)Landroidx/compose/ui/platform/ComposeView;
 
     .line 5
     .line 6

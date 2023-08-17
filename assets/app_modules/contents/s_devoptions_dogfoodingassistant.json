@@ -1,8 +1,8 @@
 {
-  "AndroidManifest.xml": "b24d9917b0631f627ded18d908aa8bae06e3939ddc75d3d8ec04d26c826074a7",
-  "assets/libs.txt": "1cfd47ba15f4f376eaad917224b3f0dfd532121ac93a6c622ca0f3ac870e6c17",
-  "assets/libs.zstd": "455f91bc7b4b3058f3764a484ac4fecf2519576dee7c15efc68262605a296923",
-  "assets/metadata.txt": "868f21ff6b77c132f733a607d9b9c5e4c5f776e47362f04748756c0addbe19b1",
+  "AndroidManifest.xml": "20e6667e02bd2aad4afe6047a82a6ac701b82d09969ff64913ea70fb53ff2267",
+  "assets/libs.txt": "c6b1b41ef79294ae05f5999133514a26fdfc779cd8734642b8bf0540529de1c3",
+  "assets/libs.zstd": "ada2c686483d86b54753380fd6ac362a71a88cd2b8814862132cc866ba681dbc",
+  "assets/metadata.txt": "fae3ba33d19fe9cda3857db4a84c6107dd725616b0866766ea88a93411613e04",
   "assets/resources.arsc": "c1c3bb3311a6ef422c048ec3bb844c009d886369a1200e69ea3a0e475bb97daa",
-  "assets/s_devoptions_dogfoodingassistant2.dex": "1f82cff77d410b56d666a902580a7a284f3feeb6dd2dad16458ae69547e52212"
+  "assets/s_devoptions_dogfoodingassistant2.dex": "2bb66d9421fa45ab86814a71fd51d5a368d5d227caaa1fb29de95dc98aad5e03"
 }

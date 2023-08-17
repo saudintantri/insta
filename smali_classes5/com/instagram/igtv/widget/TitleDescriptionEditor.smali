@@ -1275,7 +1275,7 @@
     .line 159
     .line 160
     .line 161
-    const v0, 0x7f0700cf
+    const v0, 0x7f0700ce
 
     .line 162
     .line 163
@@ -1490,7 +1490,7 @@
 
     .line 1
     .line 2
-    invoke-static {v0, p1}, LX/Chf;->A17(Landroid/widget/TextView;I)V
+    invoke-static {v0, p1}, LX/Chf;->A18(Landroid/widget/TextView;I)V
 
     .line 3
     .line 4

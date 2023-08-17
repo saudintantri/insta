@@ -40,7 +40,7 @@
     const/4 v0, 0x0
 
     .line 3
-    invoke-static {p2, v1, p1, v0}, LX/Chi;->A0i(LX/1Br;LX/1TA;LX/1TC;I)Ljava/lang/Object;
+    invoke-static {p2, v1, p1, v0}, LX/Chi;->A0k(LX/1Br;LX/1TA;LX/1TC;I)Ljava/lang/Object;
 
     .line 4
     .line 5

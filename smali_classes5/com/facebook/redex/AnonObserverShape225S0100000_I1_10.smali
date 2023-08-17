@@ -1639,7 +1639,7 @@
     .line 786
     :cond_10
     :goto_7
-    invoke-static {p0, p1}, LX/Chi;->A1K(Lcom/facebook/redex/AnonObserverShape225S0100000_I1_10;LX/4Gl;)V
+    invoke-static {p0, p1}, LX/Chi;->A1L(Lcom/facebook/redex/AnonObserverShape225S0100000_I1_10;LX/4Gl;)V
 
     .line 787
     .line 788

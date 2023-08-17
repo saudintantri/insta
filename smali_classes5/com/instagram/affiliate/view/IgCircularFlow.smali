@@ -137,7 +137,7 @@
     .locals 1
 
     .line 536870912
-    invoke-static {p2, p3}, LX/Chh;->A06(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
+    invoke-static {p2, p3}, LX/Chh;->A07(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
 
     .line 536870913
     .line 536870914
@@ -330,7 +330,7 @@
 
     .line 80
     :goto_2
-    invoke-static {v4}, LX/Chf;->A0O(Landroid/view/View;)LX/2gw;
+    invoke-static {v4}, LX/Chf;->A0P(Landroid/view/View;)LX/2gw;
 
     .line 81
     .line 82

@@ -811,7 +811,7 @@
     .line 70
     .line 71
     .line 72
-    invoke-static {v2, v0}, LX/Chg;->A0K(Landroid/view/View;I)LX/2tA;
+    invoke-static {v2, v0}, LX/Chg;->A0J(Landroid/view/View;I)LX/2tA;
 
     .line 73
     .line 74

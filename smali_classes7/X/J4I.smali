@@ -322,7 +322,7 @@
     move-result-object v0
 
     .line 135
-    invoke-static {v0, v1, v2}, LX/Chf;->A0x(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {v0, v1, v2}, LX/Chf;->A0y(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
 
     .line 136
     .line 137

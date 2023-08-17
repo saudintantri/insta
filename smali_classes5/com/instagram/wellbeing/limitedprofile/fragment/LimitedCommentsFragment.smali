@@ -931,7 +931,7 @@
     .line 151
     .line 152
     .line 153
-    invoke-static {v1, v0}, LX/Che;->A05(Landroid/content/Context;I)Landroid/graphics/drawable/ColorDrawable;
+    invoke-static {v1, v0}, LX/Che;->A06(Landroid/content/Context;I)Landroid/graphics/drawable/ColorDrawable;
 
     .line 154
     .line 155
@@ -1854,7 +1854,7 @@
 
     .line 295
     .line 296
-    invoke-static {v1, v8, v0}, LX/Chf;->A0W(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
+    invoke-static {v1, v8, v0}, LX/Chf;->A0X(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
 
     .line 297
     .line 298

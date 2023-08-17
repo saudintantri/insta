@@ -291,10 +291,10 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 5
 
-    .line 271340382
+    .line 271340403
     invoke-direct {p0, p1, p2, p3}, Landroid/view/ViewGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 271340383
+    .line 271340404
     const/4 v3, 0x1
 
     new-instance v0, LX/MzM;
@@ -303,7 +303,7 @@
 
     iput-object v0, p0, Landroidx/gridlayout/widget/GridLayout;->A06:LX/MzM;
 
-    .line 271340384
+    .line 271340405
     const/4 v4, 0x0
 
     new-instance v0, LX/MzM;
@@ -312,24 +312,24 @@
 
     iput-object v0, p0, Landroidx/gridlayout/widget/GridLayout;->A07:LX/MzM;
 
-    .line 271340385
+    .line 271340406
     iput v4, p0, Landroidx/gridlayout/widget/GridLayout;->A03:I
 
-    .line 271340386
+    .line 271340407
     iput-boolean v4, p0, Landroidx/gridlayout/widget/GridLayout;->A05:Z
 
-    .line 271340387
+    .line 271340408
     iput v3, p0, Landroidx/gridlayout/widget/GridLayout;->A00:I
 
-    .line 271340388
+    .line 271340409
     iput v4, p0, Landroidx/gridlayout/widget/GridLayout;->A01:I
 
-    .line 271340389
+    .line 271340410
     sget-object v0, Landroidx/gridlayout/widget/GridLayout;->A08:Landroid/util/Printer;
 
     iput-object v0, p0, Landroidx/gridlayout/widget/GridLayout;->A04:Landroid/util/Printer;
 
-    .line 271340390
+    .line 271340411
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
@@ -342,14 +342,14 @@
 
     iput v0, p0, Landroidx/gridlayout/widget/GridLayout;->A02:I
 
-    .line 271340391
+    .line 271340412
     sget-object v0, LX/MlG;->A00:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object v2
 
-    .line 271340392
+    .line 271340413
     const/4 v0, 0x4
 
     :try_start_0
@@ -361,14 +361,14 @@
 
     invoke-virtual {p0, v0}, Landroidx/gridlayout/widget/GridLayout;->setRowCount(I)V
 
-    .line 271340393
+    .line 271340414
     invoke-virtual {v2, v3, v1}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Landroidx/gridlayout/widget/GridLayout;->setColumnCount(I)V
 
-    .line 271340394
+    .line 271340415
     const/4 v0, 0x3
 
     invoke-virtual {v2, v0, v4}, Landroid/content/res/TypedArray;->getInt(II)I
@@ -377,7 +377,7 @@
 
     invoke-virtual {p0, v0}, Landroidx/gridlayout/widget/GridLayout;->setOrientation(I)V
 
-    .line 271340395
+    .line 271340416
     const/4 v0, 0x6
 
     invoke-virtual {v2, v0, v4}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
@@ -386,14 +386,14 @@
 
     invoke-virtual {p0, v0}, Landroidx/gridlayout/widget/GridLayout;->setUseDefaultMargins(Z)V
 
-    .line 271340396
+    .line 271340417
     invoke-virtual {v2, v4, v3}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Landroidx/gridlayout/widget/GridLayout;->setAlignmentMode(I)V
 
-    .line 271340397
+    .line 271340418
     const/4 v0, 0x5
 
     invoke-virtual {v2, v0, v3}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
@@ -402,7 +402,7 @@
 
     invoke-virtual {p0, v0}, Landroidx/gridlayout/widget/GridLayout;->setRowOrderPreserved(Z)V
 
-    .line 271340398
+    .line 271340419
     const/4 v0, 0x2
 
     invoke-virtual {v2, v0, v3}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
@@ -413,7 +413,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 271340399
+    .line 271340420
     invoke-virtual {v2}, Landroid/content/res/TypedArray;->recycle()V
 
     return-void
@@ -3219,7 +3219,7 @@
 .method public final onLayout(ZIIII)V
     .locals 37
 
-    .line 2834834
+    .line 2834855
     move-object/from16 v8, p0
 
     invoke-direct {v8}, Landroidx/gridlayout/widget/GridLayout;->A01()V
@@ -3228,39 +3228,39 @@
 
     sub-int v4, p5, p3
 
-    .line 2834835
+    .line 2834856
     invoke-virtual {v8}, Landroidx/gridlayout/widget/GridLayout;->getPaddingLeft()I
 
     move-result v30
 
-    .line 2834836
+    .line 2834857
     invoke-virtual {v8}, Landroidx/gridlayout/widget/GridLayout;->getPaddingTop()I
 
     move-result v29
 
-    .line 2834837
+    .line 2834858
     invoke-virtual {v8}, Landroidx/gridlayout/widget/GridLayout;->getPaddingRight()I
 
     move-result v28
 
-    .line 2834838
+    .line 2834859
     invoke-virtual {v8}, Landroidx/gridlayout/widget/GridLayout;->getPaddingBottom()I
 
     move-result v3
 
-    .line 2834839
+    .line 2834860
     iget-object v10, v8, Landroidx/gridlayout/widget/GridLayout;->A06:LX/MzM;
 
     sub-int v2, p4, v30
 
     sub-int v2, v2, v28
 
-    .line 2834840
+    .line 2834861
     iget-object v0, v10, LX/MzM;->A02:LX/Mvs;
 
     iput v2, v0, LX/Mvs;->A00:I
 
-    .line 2834841
+    .line 2834862
     iget-object v1, v10, LX/MzM;->A01:LX/Mvs;
 
     neg-int v0, v2
@@ -3269,48 +3269,48 @@
 
     const/4 v9, 0x0
 
-    .line 2834842
+    .line 2834863
     iput-boolean v9, v10, LX/MzM;->A0D:Z
 
-    .line 2834843
+    .line 2834864
     invoke-virtual {v10}, LX/MzM;->A0F()[I
 
-    .line 2834844
+    .line 2834865
     iget-object v7, v8, Landroidx/gridlayout/widget/GridLayout;->A07:LX/MzM;
 
     sub-int v4, v4, v29
 
     sub-int/2addr v4, v3
 
-    .line 2834845
+    .line 2834866
     iget-object v0, v7, LX/MzM;->A02:LX/Mvs;
 
     iput v4, v0, LX/Mvs;->A00:I
 
-    .line 2834846
+    .line 2834867
     iget-object v1, v7, LX/MzM;->A01:LX/Mvs;
 
     neg-int v0, v4
 
     iput v0, v1, LX/Mvs;->A00:I
 
-    .line 2834847
+    .line 2834868
     iput-boolean v9, v7, LX/MzM;->A0D:Z
 
-    .line 2834848
+    .line 2834869
     invoke-virtual {v7}, LX/MzM;->A0F()[I
 
-    .line 2834849
+    .line 2834870
     invoke-virtual {v10}, LX/MzM;->A0F()[I
 
     move-result-object v27
 
-    .line 2834850
+    .line 2834871
     invoke-virtual {v7}, LX/MzM;->A0F()[I
 
     move-result-object v26
 
-    .line 2834851
+    .line 2834872
     invoke-virtual {v8}, Landroidx/gridlayout/widget/GridLayout;->getChildCount()I
 
     move-result v6
@@ -3320,12 +3320,12 @@
     :goto_0
     if-ge v5, v6, :cond_6
 
-    .line 2834852
+    .line 2834873
     invoke-virtual {v8, v5}, Landroidx/gridlayout/widget/GridLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v4
 
-    .line 2834853
+    .line 2834874
     invoke-virtual {v4}, Landroid/view/View;->getVisibility()I
 
     move-result v1
@@ -3334,41 +3334,41 @@
 
     if-eq v1, v0, :cond_4
 
-    .line 2834854
+    .line 2834875
     invoke-virtual {v4}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
     check-cast v0, LX/MKG;
 
-    .line 2834855
+    .line 2834876
     iget-object v12, v0, LX/MKG;->A00:LX/Mwa;
 
-    .line 2834856
+    .line 2834877
     iget-object v11, v0, LX/MKG;->A01:LX/Mwa;
 
-    .line 2834857
+    .line 2834878
     iget-object v2, v12, LX/Mwa;->A02:LX/MsW;
 
-    .line 2834858
+    .line 2834879
     iget-object v1, v11, LX/Mwa;->A02:LX/MsW;
 
-    .line 2834859
+    .line 2834880
     iget v0, v2, LX/MsW;->A01:I
 
     aget v25, v27, v0
 
-    .line 2834860
+    .line 2834881
     iget v0, v1, LX/MsW;->A01:I
 
     aget v24, v26, v0
 
-    .line 2834861
+    .line 2834882
     iget v0, v2, LX/MsW;->A00:I
 
     aget v23, v27, v0
 
-    .line 2834862
+    .line 2834883
     iget v0, v1, LX/MsW;->A00:I
 
     aget v22, v26, v0
@@ -3379,32 +3379,32 @@
 
     const/4 v1, 0x1
 
-    .line 2834863
+    .line 2834884
     invoke-virtual {v4}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v3
 
-    .line 2834864
+    .line 2834885
     invoke-virtual {v4}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v2
 
-    .line 2834865
+    .line 2834886
     invoke-virtual {v12, v1}, LX/Mwa;->A00(Z)LX/Mss;
 
     move-result-object v12
 
-    .line 2834866
+    .line 2834887
     invoke-virtual {v11, v9}, LX/Mwa;->A00(Z)LX/Mss;
 
     move-result-object v11
 
-    .line 2834867
+    .line 2834888
     invoke-virtual {v10}, LX/MzM;->A0B()LX/BfU;
 
     move-result-object v0
 
-    .line 2834868
+    .line 2834889
     iget-object v13, v0, LX/BfU;->A02:[Ljava/lang/Object;
 
     iget-object v0, v0, LX/BfU;->A00:[I
@@ -3413,15 +3413,15 @@
 
     aget-object v13, v13, v0
 
-    .line 2834869
+    .line 2834890
     check-cast v13, LX/Msq;
 
-    .line 2834870
+    .line 2834891
     invoke-virtual {v7}, LX/MzM;->A0B()LX/BfU;
 
     move-result-object v0
 
-    .line 2834871
+    .line 2834892
     iget-object v14, v0, LX/BfU;->A02:[Ljava/lang/Object;
 
     iget-object v0, v0, LX/BfU;->A00:[I
@@ -3430,10 +3430,10 @@
 
     aget-object v0, v14, v0
 
-    .line 2834872
+    .line 2834893
     check-cast v0, LX/Msq;
 
-    .line 2834873
+    .line 2834894
     invoke-virtual {v13, v1}, LX/Msq;->A01(Z)I
 
     move-result v14
@@ -3444,7 +3444,7 @@
 
     move-result v21
 
-    .line 2834874
+    .line 2834895
     invoke-virtual {v0, v1}, LX/Msq;->A01(Z)I
 
     move-result v14
@@ -3455,22 +3455,22 @@
 
     move-result v20
 
-    .line 2834875
+    .line 2834896
     invoke-static {v4, v8, v1, v1}, Landroidx/gridlayout/widget/GridLayout;->A00(Landroid/view/View;Landroidx/gridlayout/widget/GridLayout;ZZ)I
 
     move-result v19
 
-    .line 2834876
+    .line 2834897
     invoke-static {v4, v8, v9, v1}, Landroidx/gridlayout/widget/GridLayout;->A00(Landroid/view/View;Landroidx/gridlayout/widget/GridLayout;ZZ)I
 
     move-result v18
 
-    .line 2834877
+    .line 2834898
     invoke-static {v4, v8, v1, v9}, Landroidx/gridlayout/widget/GridLayout;->A00(Landroid/view/View;Landroidx/gridlayout/widget/GridLayout;ZZ)I
 
     move-result v17
 
-    .line 2834878
+    .line 2834899
     invoke-static {v4, v8, v9, v9}, Landroidx/gridlayout/widget/GridLayout;->A00(Landroid/view/View;Landroidx/gridlayout/widget/GridLayout;ZZ)I
 
     move-result v14
@@ -3481,7 +3481,7 @@
 
     add-int v35, v3, v16
 
-    .line 2834879
+    .line 2834900
     move-object/from16 v31, v13
 
     move-object/from16 v32, v4
@@ -3498,7 +3498,7 @@
 
     add-int v35, v2, v15
 
-    .line 2834880
+    .line 2834901
     move-object/from16 v31, v0
 
     move-object/from16 v33, v11
@@ -3511,14 +3511,14 @@
 
     sub-int v23, v23, v16
 
-    .line 2834881
+    .line 2834902
     instance-of v0, v12, Lcom/facebook/redex/IDxAlignmentShape6S0000000_7_I1;
 
     if-eqz v0, :cond_0
 
     check-cast v12, Lcom/facebook/redex/IDxAlignmentShape6S0000000_7_I1;
 
-    .line 2834882
+    .line 2834903
     iget v0, v12, Lcom/facebook/redex/IDxAlignmentShape6S0000000_7_I1;->A00:I
 
     rsub-int/lit8 v0, v0, 0x5
@@ -3527,18 +3527,18 @@
 
     move/from16 v3, v23
 
-    .line 2834883
+    .line 2834904
     :cond_0
     sub-int v22, v22, v15
 
-    .line 2834884
+    .line 2834905
     instance-of v0, v11, Lcom/facebook/redex/IDxAlignmentShape6S0000000_7_I1;
 
     if-eqz v0, :cond_1
 
     check-cast v11, Lcom/facebook/redex/IDxAlignmentShape6S0000000_7_I1;
 
-    .line 2834885
+    .line 2834906
     iget v0, v11, Lcom/facebook/redex/IDxAlignmentShape6S0000000_7_I1;->A00:I
 
     rsub-int/lit8 v0, v0, 0x5
@@ -3547,21 +3547,21 @@
 
     move/from16 v2, v22
 
-    .line 2834886
+    .line 2834907
     :cond_1
     add-int v25, v25, v21
 
     add-int v25, v25, v14
 
-    .line 2834887
+    .line 2834908
     invoke-virtual {v8}, Landroid/view/View;->getLayoutDirection()I
 
     move-result v0
 
-    .line 2834888
+    .line 2834909
     if-ne v0, v1, :cond_5
 
-    .line 2834889
+    .line 2834910
     sub-int v12, p4, v3
 
     sub-int v12, v12, v28
@@ -3579,7 +3579,7 @@
 
     add-int v11, v11, v18
 
-    .line 2834890
+    .line 2834911
     invoke-virtual {v4}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v0
@@ -3595,7 +3595,7 @@
     :cond_2
     const/high16 v0, 0x40000000    # 2.0f
 
-    .line 2834891
+    .line 2834912
     invoke-static {v3, v0}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v1
@@ -3611,7 +3611,7 @@
 
     add-int/2addr v2, v11
 
-    .line 2834892
+    .line 2834913
     invoke-virtual {v4, v12, v11, v3, v2}, Landroid/view/View;->layout(IIII)V
 
     :cond_4
@@ -3619,7 +3619,7 @@
 
     goto/16 :goto_0
 
-    .line 2834893
+    .line 2834914
     :cond_5
     add-int v12, v30, v19
 
@@ -3627,7 +3627,7 @@
 
     goto :goto_1
 
-    .line 2834894
+    .line 2834915
     :cond_6
     return-void
 .end method

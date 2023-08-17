@@ -300,7 +300,7 @@
 .method public static A01(LX/EdB;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;JJZZZZZZZZ)V
     .locals 34
 
-    .line 1827226
+    .line 1827246
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v0
@@ -309,7 +309,7 @@
 
     move-result-object v19
 
-    .line 1827227
+    .line 1827247
     move-object/from16 v9, p0
 
     iget-object v3, v9, LX/EdB;->A03:LX/Fh6;
@@ -344,7 +344,7 @@
 
     if-nez v3, :cond_0
 
-    .line 1827228
+    .line 1827248
     invoke-static {}, LX/3F1;->A00()LX/2q4;
 
     iget-object v5, v9, LX/EdB;->A0G:Lcom/instagram/service/session/UserSession;
@@ -353,12 +353,12 @@
 
     iget-object v4, v9, LX/EdB;->A01:Landroid/view/View;
 
-    .line 1827229
+    .line 1827249
     invoke-static/range {v16 .. v16}, LX/Chc;->A1b(Ljava/util/List;)Z
 
     move-result v13
 
-    .line 1827230
+    .line 1827250
     iget-object v3, v9, LX/EdB;->A02:LX/2vM;
 
     new-instance v11, LX/ER7;
@@ -379,142 +379,142 @@
 
     invoke-direct/range {v17 .. v24}, LX/ER7;-><init>(LX/EdB;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;JZ)V
 
-    .line 1827231
+    .line 1827251
     invoke-static {v5, v2}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1827232
+    .line 1827252
     invoke-static {v10, v4}, LX/5We;->A1C(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1827233
+    .line 1827253
     invoke-static {v14, v8}, LX/92p;->A1R(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1827234
+    .line 1827254
     const/16 v2, 0xd
 
     invoke-static {v3, v2}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1827235
+    .line 1827255
     invoke-static {}, LX/5Wd;->A0D()Landroid/os/Bundle;
 
     move-result-object v12
 
-    .line 1827236
+    .line 1827256
     const-string v15, "ARG_IS_POLICY_VIOLATION"
 
-    .line 1827237
+    .line 1827257
     move/from16 v2, v31
 
     invoke-virtual {v12, v15, v2}, Landroid/os/BaseBundle;->putBoolean(Ljava/lang/String;Z)V
 
     const-string v15, "ARG_IS_CONTNET_MONETIZATION_POLICY_VIOLATION"
 
-    .line 1827238
+    .line 1827258
     move/from16 v2, v30
 
     invoke-virtual {v12, v15, v2}, Landroid/os/BaseBundle;->putBoolean(Ljava/lang/String;Z)V
 
     const-string v2, "ARG_HAS_BRAND_PARTNERS"
 
-    .line 1827239
+    .line 1827259
     invoke-virtual {v12, v2, v13}, Landroid/os/BaseBundle;->putBoolean(Ljava/lang/String;Z)V
 
     const-string v2, "ARG_SOURCE_BROADCAST_ID"
 
-    .line 1827240
+    .line 1827260
     invoke-virtual {v12, v2, v14}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v2, "ARG_SOURCE_MEDIA_ID"
 
-    .line 1827241
+    .line 1827261
     invoke-virtual {v12, v2, v8}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v13, "ARG_DID_COBROADCAST"
 
-    .line 1827242
+    .line 1827262
     move/from16 v2, v29
 
     invoke-virtual {v12, v13, v2}, Landroid/os/BaseBundle;->putBoolean(Ljava/lang/String;Z)V
 
     const-string v13, "ARG_IS_SSI_CHECKPOINTED"
 
-    .line 1827243
+    .line 1827263
     move/from16 v2, v26
 
     invoke-virtual {v12, v13, v2}, Landroid/os/BaseBundle;->putBoolean(Ljava/lang/String;Z)V
 
     const-string v13, "ARG_DID_BROADCAST_TO_FACEBOOK"
 
-    .line 1827244
+    .line 1827264
     move/from16 v2, v25
 
     invoke-virtual {v12, v13, v2}, Landroid/os/BaseBundle;->putBoolean(Ljava/lang/String;Z)V
 
     const-string v2, "ARG_IS_LIVE_BLOCKED"
 
-    .line 1827245
+    .line 1827265
     invoke-virtual {v12, v2, v7}, Landroid/os/BaseBundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 1827246
+    .line 1827266
     iget-object v3, v3, LX/2vM;->A01:Ljava/lang/String;
 
-    .line 1827247
+    .line 1827267
     const-string v2, "ARG_LIVE_VISIBILITY_MODE"
 
     invoke-virtual {v12, v2, v3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v13, "ARG_LIVE_DURATION_MS"
 
-    .line 1827248
+    .line 1827268
     move-wide/from16 v2, v32
 
     invoke-virtual {v12, v13, v2, v3}, Landroid/os/BaseBundle;->putLong(Ljava/lang/String;J)V
 
     const-string v3, "ARG_LIVE_TITLE"
 
-    .line 1827249
+    .line 1827269
     move-object/from16 v2, p0
 
     invoke-virtual {v12, v3, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v2, "ARG_LIVE_CREATION_DATE"
 
-    .line 1827250
+    .line 1827270
     invoke-virtual {v12, v2, v0, v1}, Landroid/os/BaseBundle;->putLong(Ljava/lang/String;J)V
 
     const-string v2, "ARG_IS_MODERATED_SESSION"
 
-    .line 1827251
+    .line 1827271
     invoke-virtual {v12, v2, v6}, Landroid/os/BaseBundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 1827252
+    .line 1827272
     invoke-static {}, LX/3F1;->A00()LX/2q4;
 
-    .line 1827253
+    .line 1827273
     new-instance v3, LX/DmP;
 
     invoke-direct {v3}, LX/DmP;-><init>()V
 
     invoke-virtual {v3, v12}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
 
-    .line 1827254
+    .line 1827274
     const-string v2, "null cannot be cast to non-null type com.instagram.video.live.ui.postlive.IgLivePostLiveBroadcasterFragment"
 
     invoke-static {v3, v2}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1827255
+    .line 1827275
     iput-object v11, v3, LX/DmP;->A05:LX/ER7;
 
-    .line 1827256
+    .line 1827276
     new-instance v2, LX/Ee3;
 
     invoke-direct {v2, v5}, LX/Ee3;-><init>(Lcom/instagram/service/session/UserSession;)V
 
-    .line 1827257
+    .line 1827277
     sget-object v13, LX/65l;->A02:LX/65l;
 
     const/4 v14, 0x0
 
-    .line 1827258
+    .line 1827278
     move-object v11, v4
 
     move-object v12, v3
@@ -523,20 +523,20 @@
 
     invoke-static/range {v10 .. v15}, LX/Ee3;->A02(Landroid/content/Context;Landroid/view/View;Landroidx/fragment/app/Fragment;LX/65l;LX/E9Q;LX/Ee3;)V
 
-    .line 1827259
+    .line 1827279
     iput-object v2, v3, LX/DmP;->A06:LX/Ee3;
 
-    .line 1827260
+    .line 1827280
     iput-object v3, v9, LX/EdB;->A03:LX/Fh6;
 
-    .line 1827261
+    .line 1827281
     new-instance v2, LX/FKb;
 
     invoke-direct {v2, v9}, LX/FKb;-><init>(LX/EdB;)V
 
     invoke-interface {v3, v2}, LX/Fh6;->CxW(LX/FYq;)V
 
-    .line 1827262
+    .line 1827282
     :goto_0
     invoke-static {v5}, LX/1A2;->A00(LX/0SF;)LX/1A2;
 
@@ -546,10 +546,10 @@
 
     iget-object v2, v9, LX/EdB;->A0F:LX/1O6;
 
-    .line 1827263
+    .line 1827283
     invoke-virtual {v5, v2, v3}, LX/1A2;->A02(LX/1O6;Ljava/lang/Class;)V
 
-    .line 1827264
+    .line 1827284
     new-instance v2, LX/N0r;
 
     move/from16 v24, v26
@@ -582,7 +582,7 @@
 
     return-void
 
-    .line 1827265
+    .line 1827285
     :cond_0
     iget-object v5, v9, LX/EdB;->A0G:Lcom/instagram/service/session/UserSession;
 
@@ -590,14 +590,14 @@
 
     invoke-direct {v11, v5}, LX/Ee3;-><init>(Lcom/instagram/service/session/UserSession;)V
 
-    .line 1827266
+    .line 1827286
     iget-object v4, v9, LX/EdB;->A03:LX/Fh6;
 
     instance-of v3, v4, LX/DmP;
 
     if-eqz v3, :cond_3
 
-    .line 1827267
+    .line 1827287
     check-cast v4, LX/DmP;
 
     iget-object v3, v9, LX/EdB;->A06:Ljava/io/File;
@@ -606,45 +606,45 @@
 
     const/4 v2, 0x1
 
-    .line 1827268
+    .line 1827288
     :cond_1
     iput-boolean v2, v4, LX/DmP;->A0C:Z
 
-    .line 1827269
+    .line 1827289
     iget-object v3, v4, LX/DmP;->A07:LX/FKc;
 
     if-eqz v3, :cond_2
 
-    .line 1827270
+    .line 1827290
     iput-boolean v2, v3, LX/FKc;->A06:Z
 
-    .line 1827271
+    .line 1827291
     invoke-static {v3}, LX/FKc;->A02(LX/FKc;)V
 
-    .line 1827272
+    .line 1827292
     :cond_2
     iget-object v2, v9, LX/EdB;->A03:LX/Fh6;
 
     check-cast v2, LX/DmP;
 
-    .line 1827273
+    .line 1827293
     iput-object v11, v2, LX/DmP;->A06:LX/Ee3;
 
-    .line 1827274
+    .line 1827294
     iput-boolean v6, v2, LX/DmP;->A0B:Z
 
-    .line 1827275
+    .line 1827295
     iget-object v2, v2, LX/DmP;->A07:LX/FKc;
 
     if-eqz v2, :cond_3
 
-    .line 1827276
+    .line 1827296
     iput-boolean v6, v2, LX/FKc;->A05:Z
 
-    .line 1827277
+    .line 1827297
     invoke-static {v2}, LX/FKc;->A02(LX/FKc;)V
 
-    .line 1827278
+    .line 1827298
     :cond_3
     iget-object v10, v9, LX/EdB;->A0C:Landroid/content/Context;
 
@@ -654,20 +654,20 @@
 
     iget-object v4, v9, LX/EdB;->A01:Landroid/view/View;
 
-    .line 1827279
+    .line 1827299
     invoke-static {v10, v3}, LX/5We;->A1B(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1827280
+    .line 1827300
     const/4 v2, 0x2
 
     invoke-static {v4, v2}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1827281
+    .line 1827301
     sget-object v20, LX/65l;->A02:LX/65l;
 
     const/16 v21, 0x0
 
-    .line 1827282
+    .line 1827302
     move-object/from16 v17, v10
 
     move-object/from16 v18, v4

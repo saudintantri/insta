@@ -567,7 +567,7 @@
     const/4 v0, 0x6
 
     .line 272
-    invoke-static {v2, v3, v1, v0}, LX/Chg;->A0Z(Lcom/instagram/common/kotlindelegate/lifecycle/AutoCleanup;Ljava/lang/Object;[LX/08G;I)Ljava/lang/Object;
+    invoke-static {v2, v3, v1, v0}, LX/Chg;->A0X(Lcom/instagram/common/kotlindelegate/lifecycle/AutoCleanup;Ljava/lang/Object;[LX/08G;I)Ljava/lang/Object;
 
     .line 273
     .line 274
@@ -635,7 +635,7 @@
 
     .line 305
     .line 306
-    invoke-static {v1, v2, v2}, LX/Chi;->A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-static {v1, v2, v2}, LX/Chi;->A1K(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 307
     .line 308
@@ -689,7 +689,7 @@
 
     .line 333
     .line 334
-    invoke-static {v0}, LX/Chh;->A04(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
+    invoke-static {v0}, LX/Chh;->A05(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
 
     .line 335
     .line 336
@@ -791,7 +791,7 @@
 
     .line 385
     .line 386
-    invoke-static {v2, v5}, LX/Chg;->A1F(LX/0AX;Ljava/lang/String;)V
+    invoke-static {v2, v5}, LX/Chg;->A1E(LX/0AX;Ljava/lang/String;)V
 
     .line 387
     .line 388
@@ -945,7 +945,7 @@
 
     .line 465
     .line 466
-    invoke-static {v0}, LX/Chh;->A04(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
+    invoke-static {v0}, LX/Chh;->A05(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
 
     .line 467
     .line 468

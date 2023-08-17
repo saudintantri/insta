@@ -1722,7 +1722,7 @@
 
     .line 840
     .line 841
-    invoke-static {v0}, LX/Chg;->A09(LX/01o;)Landroid/view/ViewGroup;
+    invoke-static {v0}, LX/Chg;->A08(LX/01o;)Landroid/view/ViewGroup;
 
     .line 842
     .line 843
@@ -1951,7 +1951,7 @@
 
     .line 958
     .line 959
-    invoke-static {v1, v2, v0}, LX/Chf;->A1M(LX/3E7;Ljava/lang/Object;I)V
+    invoke-static {v1, v2, v0}, LX/Chf;->A1N(LX/3E7;Ljava/lang/Object;I)V
 
     .line 960
     .line 961
@@ -4702,7 +4702,7 @@
     move-result-object v0
 
     .line 2317
-    invoke-static {v0}, LX/Chf;->A0n(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chf;->A0p(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     .line 2318
     .line 2319

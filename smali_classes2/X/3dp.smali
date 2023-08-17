@@ -805,7 +805,6 @@
     if-ge v4, v0, :cond_5
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
-    .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_a
 
     .line 397
     .line 398
@@ -819,7 +818,6 @@
     :try_end_4
     .catch Lorg/json/JSONException; {:try_start_4 .. :try_end_4} :catch_0
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_1
-    .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_a
 
     .line 402
     :try_start_5
@@ -860,7 +858,6 @@
     throw v0
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_1
-    .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_a
 
     .line 420
     :catch_1
@@ -978,7 +975,6 @@
     goto :goto_4
     :try_end_7
     .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_2
-    .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_a
 
     .line 473
     :catch_2
@@ -1010,7 +1006,6 @@
     move-object v8, v0
     :try_end_8
     .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_3
-    .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_a
 
     .line 485
     :catch_3
@@ -1038,7 +1033,6 @@
     goto :goto_5
     :try_end_9
     .catch Ljava/io/IOException; {:try_start_9 .. :try_end_9} :catch_4
-    .catch Ljava/io/IOException; {:try_start_9 .. :try_end_9} :catch_a
 
     .line 496
     :catch_4
@@ -1109,7 +1103,6 @@
     move-object/from16 v16, v0
     :try_end_b
     .catch Ljava/io/IOException; {:try_start_b .. :try_end_b} :catch_5
-    .catch Ljava/io/IOException; {:try_start_b .. :try_end_b} :catch_a
 
     .line 526
     .line 527
@@ -1386,7 +1379,6 @@
     goto :goto_8
     :try_end_11
     .catch Ljava/io/IOException; {:try_start_11 .. :try_end_11} :catch_7
-    .catch Ljava/io/IOException; {:try_start_11 .. :try_end_11} :catch_a
 
     .line 651
     :catch_7
@@ -1407,7 +1399,6 @@
     move-result v7
     :try_end_12
     .catch Ljava/io/IOException; {:try_start_12 .. :try_end_12} :catch_8
-    .catch Ljava/io/IOException; {:try_start_12 .. :try_end_12} :catch_a
 
     .line 658
     :catch_8
@@ -1542,7 +1533,6 @@
     goto :goto_a
     :try_end_16
     .catch Ljava/io/IOException; {:try_start_16 .. :try_end_16} :catch_b
-    .catch Ljava/io/IOException; {:try_start_16 .. :try_end_16} :catch_11
 
     .line 718
     :catch_b
@@ -1574,7 +1564,6 @@
     move-object v9, v0
     :try_end_17
     .catch Ljava/io/IOException; {:try_start_17 .. :try_end_17} :catch_c
-    .catch Ljava/io/IOException; {:try_start_17 .. :try_end_17} :catch_11
 
     .line 730
     :catch_c
@@ -1614,7 +1603,6 @@
     goto :goto_b
     :try_end_19
     .catch Ljava/io/IOException; {:try_start_19 .. :try_end_19} :catch_d
-    .catch Ljava/io/IOException; {:try_start_19 .. :try_end_19} :catch_11
 
     .line 746
     :catch_d
@@ -1659,7 +1647,6 @@
     goto :goto_c
     :try_end_1b
     .catch Ljava/io/IOException; {:try_start_1b .. :try_end_1b} :catch_e
-    .catch Ljava/io/IOException; {:try_start_1b .. :try_end_1b} :catch_11
 
     .line 764
     :catch_e
@@ -1684,7 +1671,6 @@
     goto :goto_d
     :try_end_1c
     .catch Ljava/io/IOException; {:try_start_1c .. :try_end_1c} :catch_f
-    .catch Ljava/io/IOException; {:try_start_1c .. :try_end_1c} :catch_11
 
     .line 773
     :catch_f
@@ -1709,7 +1695,6 @@
     goto :goto_e
     :try_end_1d
     .catch Ljava/io/IOException; {:try_start_1d .. :try_end_1d} :catch_10
-    .catch Ljava/io/IOException; {:try_start_1d .. :try_end_1d} :catch_11
 
     .line 782
     :catch_10

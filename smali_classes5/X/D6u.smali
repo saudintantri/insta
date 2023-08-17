@@ -162,7 +162,7 @@
     const/4 v0, 0x2
 
     .line 68
-    invoke-static {v1, p0, v0}, LX/Chg;->A08(Landroid/content/Context;Ljava/lang/Object;I)Landroid/view/GestureDetector;
+    invoke-static {v1, p0, v0}, LX/Chg;->A07(Landroid/content/Context;Ljava/lang/Object;I)Landroid/view/GestureDetector;
 
     .line 69
     .line 70

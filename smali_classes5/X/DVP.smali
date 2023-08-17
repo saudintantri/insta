@@ -218,7 +218,7 @@
     .line 90
     .line 91
     .line 92
-    invoke-static {v5, v1, v0}, LX/Chf;->A0x(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {v5, v1, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
 
     .line 93
     .line 94
@@ -428,7 +428,7 @@
     .line 197
     .line 198
     :cond_a
-    invoke-static {v5, v2, v0}, LX/Chf;->A0x(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {v5, v2, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
 
     .line 199
     .line 200

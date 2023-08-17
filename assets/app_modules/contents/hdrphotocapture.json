@@ -1,8 +1,8 @@
 {
-  "AndroidManifest.xml": "3b30c845f2a328303a85b30c8c4667590e9cb4b433dff837170110b4453fc0eb",
-  "assets/hdrphotocapture2.dex": "b593df0699f461f9fafdec81b36fc724778f2b17b28eef9b2fc7121471aaa034",
-  "assets/libs.txt": "149a48396e3f87a147d0e6598c010d8e01274feab87108b1b634e0df3f7e3521",
-  "assets/libs.zstd": "b35762f3cbc9535f2af266ebf55ed29cdffe1df9702deebda1f5631c7d0c0669",
-  "assets/metadata.txt": "27fad882d14d13a68b2c91c8d1355e8496a69b1a53e9d48e5116bfd65d8127e2",
+  "AndroidManifest.xml": "7bd556c72a977b0fd296291c882bb0418fb651b8ad4b2bd1fa6b91cce3e2db26",
+  "assets/hdrphotocapture2.dex": "46a8f8835c59dae70bed5f3ab6cd1ee6d4c7003dc42618e61986c3f89995aa59",
+  "assets/libs.txt": "45bcc6124fad3b5cb29b37c1f2ef1dc1b45ce56522aaadc4232a5185fbed50d6",
+  "assets/libs.zstd": "399e0af7dd4236784c5b5040dec2b4267d2cd7ead8e109dbb73ffe7138d26680",
+  "assets/metadata.txt": "e1b3b36a01c6c0f1862ef93cc1ecd8cdaae76354a179338ac4452977cae24c10",
   "assets/resources.arsc": "05d2e4ac1b2b01b59fd9b1770779c804f9f890fefa3c387ae7cf2e30a9a00e75"
 }

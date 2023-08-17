@@ -73,7 +73,7 @@
     .line 29
     .line 30
     :goto_0
-    invoke-static {p1, v1, v2}, LX/Chj;->A08(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)Landroid/text/SpannableStringBuilder;
+    invoke-static {p1, v1, v2}, LX/Chj;->A07(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)Landroid/text/SpannableStringBuilder;
 
     .line 31
     .line 32

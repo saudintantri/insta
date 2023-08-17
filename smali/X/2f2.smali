@@ -186,7 +186,6 @@
     goto :goto_1
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
     .line 56
     :catch_0

@@ -1378,12 +1378,12 @@
     move-result v19
 
     .line 580
-    const v0, 0x7f0700f2
+    const v0, 0x7f0700f1
 
     .line 581
     .line 582
     .line 583
-    const v18, 0x7f0700f2
+    const v18, 0x7f0700f1
 
     .line 584
     .line 585

@@ -94,7 +94,7 @@
 
     .line 18
     .line 19
-    invoke-static {v0, v3}, LX/Chi;->A0j(LX/1Jx;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
+    invoke-static {v0, v3}, LX/Chi;->A0l(LX/1Jx;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -155,7 +155,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0}, LX/Chi;->A0X(Lcom/instagram/model/direct/DirectThreadKey;)Ljava/lang/Integer;
+    invoke-static {v0}, LX/Chi;->A0Z(Lcom/instagram/model/direct/DirectThreadKey;)Ljava/lang/Integer;
 
     .line 14
     .line 15
@@ -167,7 +167,7 @@
 
     .line 18
     .line 19
-    invoke-static {v0, v4}, LX/Chi;->A0j(LX/1Jx;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
+    invoke-static {v0, v4}, LX/Chi;->A0l(LX/1Jx;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -253,7 +253,7 @@
 
     .line 21
     .line 22
-    invoke-static {v8}, LX/Chi;->A0X(Lcom/instagram/model/direct/DirectThreadKey;)Ljava/lang/Integer;
+    invoke-static {v8}, LX/Chi;->A0Z(Lcom/instagram/model/direct/DirectThreadKey;)Ljava/lang/Integer;
 
     .line 23
     .line 24
@@ -265,7 +265,7 @@
 
     .line 27
     .line 28
-    invoke-static {v5, v9}, LX/Chi;->A0j(LX/1Jx;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
+    invoke-static {v5, v9}, LX/Chi;->A0l(LX/1Jx;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
 
     .line 29
     .line 30

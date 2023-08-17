@@ -436,7 +436,7 @@
 
     const/4 v0, 0x0
 
-    .line 271243656
+    .line 271243677
     sget-object v3, LX/AM8;->A01:LX/AM8;
 
     move-object v2, p0
@@ -455,51 +455,51 @@
 
     invoke-direct/range {v2 .. v9}, Lcom/facebook/http/protocol/ApiErrorResult;-><init>(LX/AM8;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZ)V
 
-    .line 271243657
+    .line 271243678
     iput v8, p0, Lcom/facebook/graphql/error/GraphQLError;->code:I
 
-    .line 271243658
+    .line 271243679
     move/from16 v1, p8
 
     iput v1, p0, Lcom/facebook/graphql/error/GraphQLError;->apiErrorCode:I
 
-    .line 271243659
+    .line 271243680
     iput-object p2, p0, Lcom/facebook/graphql/error/GraphQLError;->summary:Ljava/lang/String;
 
-    .line 271243660
+    .line 271243681
     iput-object p3, p0, Lcom/facebook/graphql/error/GraphQLError;->description:Ljava/lang/String;
 
-    .line 271243661
+    .line 271243682
     move/from16 v1, p11
 
     iput-boolean v1, p0, Lcom/facebook/graphql/error/GraphQLError;->isSilent:Z
 
-    .line 271243662
+    .line 271243683
     iput-boolean v9, p0, Lcom/facebook/graphql/error/GraphQLError;->isTransient:Z
 
-    .line 271243663
+    .line 271243684
     iput-object p4, p0, Lcom/facebook/graphql/error/GraphQLError;->fbRequestId:Ljava/lang/String;
 
-    .line 271243664
+    .line 271243685
     move/from16 v1, p13
 
     iput-boolean v1, p0, Lcom/facebook/graphql/error/GraphQLError;->requiresReauth:Z
 
-    .line 271243665
+    .line 271243686
     iput-object p5, p0, Lcom/facebook/graphql/error/GraphQLError;->debugInfo:Ljava/lang/String;
 
-    .line 271243666
+    .line 271243687
     iput-object v0, p0, Lcom/facebook/graphql/error/GraphQLError;->queryPath:Ljava/lang/String;
 
-    .line 271243667
+    .line 271243688
     iput-object p1, p0, Lcom/facebook/graphql/error/GraphQLError;->sentryBlockUserInfo:Lcom/google/common/collect/ImmutableMap;
 
-    .line 271243668
+    .line 271243689
     move-object/from16 v0, p6
 
     iput-object v0, p0, Lcom/facebook/graphql/error/GraphQLError;->severity:Ljava/lang/String;
 
-    .line 271243669
+    .line 271243690
     move-wide/from16 v0, p9
 
     iput-wide v0, p0, Lcom/facebook/graphql/error/GraphQLError;->helpCenterId:J

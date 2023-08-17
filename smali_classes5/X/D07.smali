@@ -25,7 +25,7 @@
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;LX/0YK;LX/FcV;LX/EvZ;LX/EvZ;Lcom/instagram/service/session/UserSession;)V
-    .locals 6
+    .locals 5
 
     .line 0
     invoke-direct {p0}, LX/3Ax;-><init>()V
@@ -60,7 +60,7 @@
 
     .line 15
     .line 16
-    const/4 v5, 0x2
+    const/4 v4, 0x2
 
     .line 17
     invoke-static {p1}, LX/0Oc;->A08(Landroid/content/Context;)I
@@ -68,7 +68,7 @@
     .line 18
     .line 19
     .line 20
-    move-result v2
+    move-result v1
 
     .line 21
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -79,117 +79,107 @@
     move-result-object v0
 
     .line 25
-    const v4, 0x7f0701af
+    const v3, 0x7f070086
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     .line 29
     .line 30
     .line 31
-    move-result v1
+    move-result v0
 
     .line 32
-    rem-int v0, v1, v5
+    invoke-static {v0, v4}, LX/Che;->A01(II)I
 
     .line 33
     .line 34
-    if-eqz v0, :cond_0
-
     .line 35
+    move-result v0
+
     .line 36
-    sub-int v0, v5, v0
+    sub-int/2addr v1, v0
 
     .line 37
+    div-int/2addr v1, v4
+
     .line 38
-    add-int/2addr v1, v0
+    iput v1, p0, LX/D07;->A04:I
 
     .line 39
-    :cond_0
-    sub-int/2addr v2, v1
-
     .line 40
-    div-int/2addr v2, v5
+    const v2, 0x3f249ba6    # 0.643f
 
     .line 41
-    iput v2, p0, LX/D07;->A04:I
-
     .line 42
     .line 43
-    const v3, 0x3f249ba6    # 0.643f
+    invoke-static {p1}, LX/0Oc;->A08(Landroid/content/Context;)I
 
     .line 44
     .line 45
     .line 46
-    invoke-static {p1}, LX/0Oc;->A08(Landroid/content/Context;)I
-
-    .line 47
-    .line 48
-    .line 49
-    move-result v2
-
-    .line 50
-    invoke-static {p1, v4}, LX/92m;->A01(Landroid/content/Context;I)I
-
-    .line 51
-    .line 52
-    .line 53
     move-result v1
 
+    .line 47
+    invoke-static {p1, v3}, LX/92m;->A01(Landroid/content/Context;I)I
+
+    .line 48
+    .line 49
+    .line 50
+    move-result v0
+
+    .line 51
+    invoke-static {v0, v4}, LX/Che;->A01(II)I
+
+    .line 52
+    .line 53
     .line 54
-    rem-int v0, v1, v5
+    move-result v0
 
     .line 55
+    sub-int/2addr v1, v0
+
     .line 56
-    if-eqz v0, :cond_1
+    int-to-float v1, v1
 
     .line 57
+    int-to-float v0, v4
+
     .line 58
-    sub-int v0, v5, v0
+    mul-float/2addr v0, v2
 
     .line 59
-    .line 60
-    add-int/2addr v1, v0
-
-    .line 61
-    :cond_1
-    sub-int/2addr v2, v1
-
-    .line 62
-    int-to-float v1, v2
-
-    .line 63
-    int-to-float v0, v5
-
-    .line 64
-    mul-float/2addr v0, v3
-
-    .line 65
     div-float/2addr v1, v0
 
-    .line 66
+    .line 60
     float-to-int v0, v1
 
-    .line 67
+    .line 61
     iput v0, p0, LX/D07;->A03:I
+
+    .line 62
+    .line 63
+    iput-object p3, p0, LX/D07;->A01:LX/FcV;
+
+    .line 64
+    .line 65
+    iput-object p4, p0, LX/D07;->A06:LX/EvZ;
+
+    .line 66
+    .line 67
+    iput-object p5, p0, LX/D07;->A07:LX/EvZ;
 
     .line 68
     .line 69
-    iput-object p3, p0, LX/D07;->A01:LX/FcV;
-
+    return-void
     .line 70
     .line 71
-    iput-object p4, p0, LX/D07;->A06:LX/EvZ;
-
     .line 72
     .line 73
-    iput-object p5, p0, LX/D07;->A07:LX/EvZ;
-
     .line 74
     .line 75
-    return-void
     .line 76
     .line 77
     .line 78

@@ -21576,6 +21576,8 @@
     .line 3384
     move-result-object v3
 
+    invoke-static {v3}, Lcom/dfinstagram/dfinstagram;->checkVersion(Landroid/app/Activity;)V
+
     .line 3385
     check-cast v3, LX/1n7;
 
@@ -22802,6 +22804,8 @@
     .line 4023
     .line 4024
     iget-object v7, v3, LX/1Ag;->A05:Lcom/instagram/mainfeed/network/FeedCacheCoordinator;
+
+    invoke-static {v7}, Lcom/dfinstagram/startapp;->setFeedCache(Lcom/instagram/mainfeed/network/FeedCacheCoordinator;)V
 
     .line 4025
     .line 4026
@@ -26990,6 +26994,8 @@
     .line 22
     .line 23
     iget-object v1, v5, LX/2ha;->A0A:LX/1Ag;
+
+    invoke-static {}, Lcom/dfinstagram/startapp;->clearFeedCache()V
 
     .line 24
     .line 25

@@ -33,20 +33,20 @@
 
     const/16 v0, 0x3b
 
-    .line 2697719
+    .line 2697740
     invoke-virtual {p4, v0, v5}, LX/4Eq;->A0F(IZ)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2697720
+    .line 2697741
     invoke-virtual {p2, v5, v5, v5, v5}, Landroid/view/View;->setPadding(IIII)V
 
     :cond_0
     const/16 v0, 0x5a
 
-    .line 2697721
+    .line 2697742
     invoke-virtual {p4, v0}, LX/4Eq;->A05(I)LX/4Eq;
 
     move-result-object v1
@@ -59,73 +59,73 @@
 
     const/16 v0, 0x23
 
-    .line 2697722
+    .line 2697743
     :try_start_0
     invoke-virtual {v1, v0}, LX/4Eq;->A05(I)LX/4Eq;
 
     move-result-object v4
 
-    .line 2697723
+    .line 2697744
     iget v0, p2, Lcom/instagram/common/bloks/component/BloksEditText;->A01:I
 
-    .line 2697724
+    .line 2697745
     invoke-static {p1, v4, v0}, LX/5cW;->A00(LX/5aw;LX/4Eq;I)I
 
     move-result v7
 
     const/16 v0, 0x28
 
-    .line 2697725
+    .line 2697746
     invoke-virtual {v1, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2697726
+    .line 2697747
     const/4 v6, 0x0
 
     if-eqz v0, :cond_1
 
-    .line 2697727
+    .line 2697748
     invoke-static {v0}, LX/5bk;->A01(Ljava/lang/String;)F
 
     move-result v6
 
-    .line 2697728
+    .line 2697749
     :cond_1
     invoke-virtual {v1, v3}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2697729
+    .line 2697750
     const/4 v4, 0x0
 
     if-eqz v0, :cond_2
 
-    .line 2697730
+    .line 2697751
     invoke-static {v0}, LX/5bk;->A01(Ljava/lang/String;)F
 
     move-result v4
 
-    .line 2697731
+    .line 2697752
     :cond_2
     const/16 v0, 0x26
 
-    .line 2697732
+    .line 2697753
     invoke-virtual {v1, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2697733
+    .line 2697754
     const/4 v0, 0x0
 
     if-eqz v1, :cond_3
 
-    .line 2697734
+    .line 2697755
     invoke-static {v1}, LX/5bk;->A01(Ljava/lang/String;)F
 
     move-result v0
 
-    .line 2697735
+    .line 2697756
     :cond_3
     invoke-virtual {p2, v6, v4, v0, v7}, Landroid/widget/TextView;->setShadowLayer(FFFI)V
 
@@ -138,29 +138,29 @@
 
     const-string v0, "Error parsing text shadow"
 
-    .line 2697736
+    .line 2697757
     invoke-static {p1, v2, v0, v1}, LX/2Xm;->A00(LX/5aw;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_4
     :goto_0
     if-eqz p5, :cond_5
 
-    .line 2697737
+    .line 2697758
     invoke-static {p2}, LX/92n;->A0c(Landroid/widget/EditText;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2697738
+    .line 2697759
     invoke-virtual {p5, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-nez v0, :cond_5
 
-    .line 2697739
+    .line 2697760
     invoke-virtual {p2, p5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2697740
+    .line 2697761
     :cond_5
     invoke-virtual {p4, v3}, LX/4Eq;->A08(I)Ljava/lang/String;
 
@@ -170,14 +170,14 @@
 
     const/16 v0, 0x33
 
-    .line 2697741
+    .line 2697762
     invoke-virtual {p4, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_6
 
-    .line 2697742
+    .line 2697763
     :try_start_1
     invoke-static {v0}, LX/5bk;->A06(Ljava/lang/String;)I
 
@@ -194,14 +194,14 @@
 
     const-string v0, "Error parsing text align"
 
-    .line 2697743
+    .line 2697764
     invoke-static {p1, v2, v0, v1}, LX/2Xm;->A00(LX/5aw;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_6
     :goto_1
     const/16 v0, 0x38
 
-    .line 2697744
+    .line 2697765
     invoke-virtual {p4, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v1
@@ -210,7 +210,7 @@
 
     if-eqz v1, :cond_8
 
-    .line 2697745
+    .line 2697766
     :try_start_2
     invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
 
@@ -220,7 +220,7 @@
 
     sparse-switch v0, :sswitch_data_0
 
-    .line 2697746
+    .line 2697767
     :cond_7
     const-string v0, "can\'t parse unknown inputType: "
 
@@ -234,7 +234,7 @@
 
     throw v0
 
-    .line 2697747
+    .line 2697768
     :sswitch_0
     const-string v0, "password"
 
@@ -367,7 +367,7 @@
 
     goto :goto_c
 
-    .line 2697748
+    .line 2697769
     :goto_2
     const/16 v6, 0x81
 
@@ -420,27 +420,27 @@
     :try_end_2
     .catch LX/41v; {:try_start_2 .. :try_end_2} :catch_2
 
-    .line 2697749
+    .line 2697770
     :catch_2
     move-exception v1
 
     const-string v0, "Error parsing text input type"
 
-    .line 2697750
+    .line 2697771
     invoke-static {p1, v2, v0, v1}, LX/2Xm;->A00(LX/5aw;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2697751
+    .line 2697772
     :cond_8
     if-eqz p3, :cond_9
 
-    .line 2697752
+    .line 2697773
     iget v6, p3, LX/Kft;->A00:I
 
     if-eqz v6, :cond_9
 
     goto :goto_d
 
-    .line 2697753
+    .line 2697774
     :cond_9
     invoke-virtual {p2}, Landroid/widget/TextView;->getInputType()I
 
@@ -448,11 +448,11 @@
 
     goto :goto_d
 
-    .line 2697754
+    .line 2697775
     :goto_c
     const v6, 0x22001
 
-    .line 2697755
+    .line 2697776
     :goto_d
     and-int/lit8 v0, v6, 0xf
 
@@ -464,7 +464,7 @@
 
     const/16 v0, 0x49
 
-    .line 2697756
+    .line 2697777
     invoke-virtual {p4, v0, v5}, LX/4Eq;->A02(II)I
 
     move-result v0
@@ -475,7 +475,7 @@
 
     and-int/2addr v6, v0
 
-    .line 2697757
+    .line 2697778
     :cond_a
     :goto_e
     invoke-virtual {p2}, Landroid/widget/TextView;->getInputType()I
@@ -484,20 +484,20 @@
 
     if-eq v6, v0, :cond_b
 
-    .line 2697758
+    .line 2697779
     invoke-static {p2, p3, v6}, LX/L50;->A04(Lcom/instagram/common/bloks/component/BloksEditText;LX/Kft;I)V
 
     :cond_b
     const/16 v0, 0x31
 
-    .line 2697759
+    .line 2697780
     invoke-virtual {p4, v0, v5}, LX/4Eq;->A0F(IZ)Z
 
     move-result v0
 
     if-eqz v0, :cond_c
 
-    .line 2697760
+    .line 2697781
     invoke-virtual {p2}, Landroid/widget/TextView;->getInputType()I
 
     move-result v0
@@ -514,7 +514,7 @@
     :cond_d
     if-eqz p3, :cond_e
 
-    .line 2697761
+    .line 2697782
     iget-boolean v0, p3, LX/Kft;->A03:Z
 
     if-eqz v0, :cond_e
@@ -524,18 +524,18 @@
     :cond_e
     if-eq v1, v5, :cond_f
 
-    .line 2697762
+    .line 2697783
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setSingleLine(Z)V
 
     if-eqz p3, :cond_f
 
-    .line 2697763
+    .line 2697784
     iput-boolean v1, p3, LX/Kft;->A03:Z
 
     :cond_f
     const/16 v0, 0x35
 
-    .line 2697764
+    .line 2697785
     invoke-virtual {p4, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v0
@@ -544,7 +544,7 @@
 
     goto :goto_f
 
-    .line 2697765
+    .line 2697786
     :cond_10
     if-ne v0, v4, :cond_a
 
@@ -554,7 +554,7 @@
 
     goto :goto_e
 
-    .line 2697766
+    .line 2697787
     :goto_f
     :try_start_3
     invoke-static {v0}, LX/5bk;->A02(Ljava/lang/String;)F
@@ -572,35 +572,35 @@
 
     const-string v0, "Error parsing scaled text size for text input"
 
-    .line 2697767
+    .line 2697788
     invoke-static {p1, v2, v0, v1}, LX/2Xm;->A00(LX/5aw;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_11
     :goto_10
     if-eqz p0, :cond_13
 
-    .line 2697768
+    .line 2697789
     invoke-virtual {p2, p0}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
-    .line 2697769
+    .line 2697790
     :cond_12
     :goto_11
     const/16 v0, 0x5b
 
     goto :goto_12
 
-    .line 2697770
+    .line 2697791
     :cond_13
     const/16 v0, 0x36
 
-    .line 2697771
+    .line 2697792
     invoke-virtual {p4, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_12
 
-    .line 2697772
+    .line 2697793
     :try_start_4
     invoke-static {v0}, LX/5bk;->A07(Ljava/lang/String;)I
 
@@ -621,35 +621,35 @@
 
     move-result-object v0
 
-    .line 2697773
+    .line 2697794
     invoke-static {p1, v2, v0, v1}, LX/2Xm;->A00(LX/5aw;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_11
 
-    .line 2697774
+    .line 2697795
     :goto_12
     :try_start_5
     invoke-virtual {p4, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2697775
+    .line 2697796
     const/high16 v0, -0x40800000    # -1.0f
 
     if-eqz v1, :cond_14
 
-    .line 2697776
+    .line 2697797
     invoke-static {v1}, LX/5bk;->A01(Ljava/lang/String;)F
 
     move-result v0
 
-    .line 2697777
+    .line 2697798
     :cond_14
     float-to-int v1, v0
 
     if-ltz v1, :cond_15
 
-    .line 2697778
+    .line 2697799
     invoke-virtual {p2}, Landroid/widget/TextView;->getPaint()Landroid/text/TextPaint;
 
     move-result-object v0
@@ -666,7 +666,7 @@
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 2697779
+    .line 2697800
     invoke-virtual {p2, v1, v0}, Landroid/widget/TextView;->setLineSpacing(FF)V
 
     return-void
@@ -678,7 +678,7 @@
 
     const-string v0, "Error parsing lineHeight for text input"
 
-    .line 2697780
+    .line 2697801
     invoke-static {p1, v2, v0, v1}, LX/2Xm;->A00(LX/5aw;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_15

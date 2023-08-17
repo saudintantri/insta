@@ -945,7 +945,7 @@
 
     .line 462
     .line 463
-    invoke-static {v13, v4}, LX/Chf;->A0f(LX/01o;I)Ljava/lang/Object;
+    invoke-static {v13, v4}, LX/Chf;->A0h(LX/01o;I)Ljava/lang/Object;
 
     .line 464
     .line 465
@@ -1427,7 +1427,7 @@
 
     .line 71
     .line 72
-    invoke-static {v3, v5}, LX/Chf;->A0f(LX/01o;I)Ljava/lang/Object;
+    invoke-static {v3, v5}, LX/Chf;->A0h(LX/01o;I)Ljava/lang/Object;
 
     .line 73
     .line 74
@@ -1451,7 +1451,7 @@
     .line 82
     .line 83
     .line 84
-    invoke-static {v3, v5}, LX/Chf;->A0f(LX/01o;I)Ljava/lang/Object;
+    invoke-static {v3, v5}, LX/Chf;->A0h(LX/01o;I)Ljava/lang/Object;
 
     .line 85
     .line 86
@@ -1472,7 +1472,7 @@
     .line 93
     .line 94
     .line 95
-    invoke-static {v3, v5}, LX/Chf;->A0f(LX/01o;I)Ljava/lang/Object;
+    invoke-static {v3, v5}, LX/Chf;->A0h(LX/01o;I)Ljava/lang/Object;
 
     .line 96
     .line 97
@@ -1493,7 +1493,7 @@
     .line 104
     .line 105
     .line 106
-    invoke-static {v3, v5}, LX/Chf;->A0f(LX/01o;I)Ljava/lang/Object;
+    invoke-static {v3, v5}, LX/Chf;->A0h(LX/01o;I)Ljava/lang/Object;
 
     .line 107
     .line 108
@@ -1514,7 +1514,7 @@
     .line 115
     .line 116
     .line 117
-    invoke-static {v3, v5}, LX/Chf;->A0f(LX/01o;I)Ljava/lang/Object;
+    invoke-static {v3, v5}, LX/Chf;->A0h(LX/01o;I)Ljava/lang/Object;
 
     .line 118
     .line 119

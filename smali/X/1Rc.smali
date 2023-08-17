@@ -1200,7 +1200,6 @@
     :try_end_c
     .catch Ljava/lang/RuntimeException; {:try_start_c .. :try_end_c} :catch_2
     .catch LX/1Rd; {:try_start_c .. :try_end_c} :catch_7
-    .catch Ljava/lang/RuntimeException; {:try_start_c .. :try_end_c} :catch_6
 
     .line 567
     :catch_2

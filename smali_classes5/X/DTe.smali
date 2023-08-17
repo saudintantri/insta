@@ -135,7 +135,7 @@
 
     .line 58
     :cond_0
-    const v0, 0x7f0700f8
+    const v0, 0x7f0700f6
 
     .line 59
     .line 60

@@ -421,7 +421,6 @@
     goto :goto_0
     :try_end_2
     .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_0
-    .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_b
 
     .line 164
     :catch_0
@@ -1020,7 +1019,6 @@
     :try_end_7
     .catch Lorg/json/JSONException; {:try_start_7 .. :try_end_7} :catch_2
     .catch Ljava/lang/IllegalArgumentException; {:try_start_7 .. :try_end_7} :catch_a
-    .catch Lorg/json/JSONException; {:try_start_7 .. :try_end_7} :catch_b
 
     .line 450
     :catch_2
@@ -1392,7 +1390,6 @@
     :try_end_b
     .catch Lorg/json/JSONException; {:try_start_b .. :try_end_b} :catch_3
     .catch Ljava/lang/IllegalArgumentException; {:try_start_b .. :try_end_b} :catch_a
-    .catch Lorg/json/JSONException; {:try_start_b .. :try_end_b} :catch_b
 
     .line 610
     :catch_3
@@ -1493,7 +1490,6 @@
     :try_end_d
     .catch Lorg/json/JSONException; {:try_start_d .. :try_end_d} :catch_4
     .catch Ljava/lang/IllegalArgumentException; {:try_start_d .. :try_end_d} :catch_a
-    .catch Lorg/json/JSONException; {:try_start_d .. :try_end_d} :catch_b
 
     .line 653
     :catch_4
@@ -2068,7 +2064,6 @@
     :try_end_f
     .catch Lorg/json/JSONException; {:try_start_f .. :try_end_f} :catch_5
     .catch Ljava/lang/IllegalArgumentException; {:try_start_f .. :try_end_f} :catch_a
-    .catch Lorg/json/JSONException; {:try_start_f .. :try_end_f} :catch_b
 
     .line 932
     .line 933
@@ -2279,7 +2274,6 @@
     :try_end_11
     .catch Lorg/json/JSONException; {:try_start_11 .. :try_end_11} :catch_6
     .catch Ljava/lang/IllegalArgumentException; {:try_start_11 .. :try_end_11} :catch_a
-    .catch Lorg/json/JSONException; {:try_start_11 .. :try_end_11} :catch_b
 
     .line 1030
     :catch_6
@@ -2414,7 +2408,6 @@
     :try_end_13
     .catch Lorg/json/JSONException; {:try_start_13 .. :try_end_13} :catch_7
     .catch Ljava/lang/IllegalArgumentException; {:try_start_13 .. :try_end_13} :catch_a
-    .catch Lorg/json/JSONException; {:try_start_13 .. :try_end_13} :catch_b
 
     .line 1090
     :catch_7
@@ -2614,7 +2607,6 @@
     :try_end_17
     .catch Lorg/json/JSONException; {:try_start_17 .. :try_end_17} :catch_8
     .catch Ljava/lang/IllegalArgumentException; {:try_start_17 .. :try_end_17} :catch_a
-    .catch Lorg/json/JSONException; {:try_start_17 .. :try_end_17} :catch_b
 
     .line 1178
     :catch_8

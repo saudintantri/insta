@@ -77,7 +77,7 @@
     .line 18
     .line 19
     .line 20
-    invoke-static {v13}, LX/Chj;->A0K(Lcom/instagram/model/hashtag/Hashtag;)Lcom/instagram/model/hashtag/Hashtag;
+    invoke-static {v13}, LX/Chj;->A0J(Lcom/instagram/model/hashtag/Hashtag;)Lcom/instagram/model/hashtag/Hashtag;
 
     .line 21
     .line 22
@@ -349,7 +349,7 @@
     .line 155
     .line 156
     .line 157
-    invoke-static {v13}, LX/Chj;->A0K(Lcom/instagram/model/hashtag/Hashtag;)Lcom/instagram/model/hashtag/Hashtag;
+    invoke-static {v13}, LX/Chj;->A0J(Lcom/instagram/model/hashtag/Hashtag;)Lcom/instagram/model/hashtag/Hashtag;
 
     .line 158
     .line 159
@@ -435,7 +435,7 @@
     .line 18
     .line 19
     .line 20
-    invoke-static {v13}, LX/Chj;->A0L(Lcom/instagram/model/hashtag/Hashtag;)Lcom/instagram/model/hashtag/Hashtag;
+    invoke-static {v13}, LX/Chj;->A0K(Lcom/instagram/model/hashtag/Hashtag;)Lcom/instagram/model/hashtag/Hashtag;
 
     .line 21
     .line 22
@@ -707,7 +707,7 @@
     .line 155
     .line 156
     .line 157
-    invoke-static {v13}, LX/Chj;->A0L(Lcom/instagram/model/hashtag/Hashtag;)Lcom/instagram/model/hashtag/Hashtag;
+    invoke-static {v13}, LX/Chj;->A0K(Lcom/instagram/model/hashtag/Hashtag;)Lcom/instagram/model/hashtag/Hashtag;
 
     .line 158
     .line 159

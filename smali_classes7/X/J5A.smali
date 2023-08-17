@@ -1232,52 +1232,52 @@
 
     invoke-static {p3, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2501514
+    .line 2501535
     move-wide/from16 v0, p15
 
     iput-wide v0, p0, LX/J5A;->A01:J
 
-    .line 2501515
+    .line 2501536
     move/from16 v0, p5
 
     invoke-virtual {p0, v0}, LX/J5A;->setScaleX(F)V
 
-    .line 2501516
+    .line 2501537
     move/from16 v0, p6
 
     invoke-virtual {p0, v0}, LX/J5A;->setScaleY(F)V
 
-    .line 2501517
+    .line 2501538
     move/from16 v0, p7
 
     invoke-virtual {p0, v0}, LX/J5A;->setAlpha(F)V
 
-    .line 2501518
+    .line 2501539
     invoke-virtual {p0, v2}, LX/J5A;->setTranslationX(F)V
 
-    .line 2501519
+    .line 2501540
     invoke-virtual {p0, v2}, LX/J5A;->setTranslationY(F)V
 
-    .line 2501520
+    .line 2501541
     move/from16 v0, p10
 
     invoke-virtual {p0, v0}, LX/J5A;->setElevation(F)V
 
-    .line 2501521
+    .line 2501542
     move/from16 v0, p13
 
     invoke-virtual {p0, v0}, LX/J5A;->setRotation(F)V
 
-    .line 2501522
+    .line 2501543
     invoke-virtual {p0, v2}, LX/J5A;->setRotationX(F)V
 
-    .line 2501523
+    .line 2501544
     invoke-virtual {p0, v2}, LX/J5A;->setRotationY(F)V
 
-    .line 2501524
+    .line 2501545
     iget-wide v0, p0, LX/J5A;->A01:J
 
-    .line 2501525
+    .line 2501546
     const/16 v3, 0x20
 
     shr-long/2addr v0, v3
@@ -1288,7 +1288,7 @@
 
     move-result v1
 
-    .line 2501526
+    .line 2501547
     invoke-virtual {p0}, LX/J5A;->getWidth()I
 
     move-result v0
@@ -1299,10 +1299,10 @@
 
     invoke-virtual {p0, v1}, LX/J5A;->setPivotX(F)V
 
-    .line 2501527
+    .line 2501548
     iget-wide v0, p0, LX/J5A;->A01:J
 
-    .line 2501528
+    .line 2501549
     const-wide v3, 0xffffffffL
 
     and-long/2addr v0, v3
@@ -1313,7 +1313,7 @@
 
     move-result v1
 
-    .line 2501529
+    .line 2501550
     invoke-virtual {p0}, LX/J5A;->getHeight()I
 
     move-result v0
@@ -1324,7 +1324,7 @@
 
     invoke-virtual {p0, v1}, LX/J5A;->setPivotY(F)V
 
-    .line 2501530
+    .line 2501551
     move/from16 v0, p14
 
     invoke-virtual {p0, v0}, LX/J5A;->setCameraDistancePx(F)V
@@ -1335,10 +1335,10 @@
 
     if-eqz p21, :cond_0
 
-    .line 2501531
+    .line 2501552
     sget-object v1, LX/3kF;->A00:LX/3kH;
 
-    .line 2501532
+    .line 2501553
     const/4 v0, 0x1
 
     if-eq p2, v1, :cond_1
@@ -1349,26 +1349,26 @@
     :cond_1
     iput-boolean v0, p0, LX/J5A;->A05:Z
 
-    .line 2501533
+    .line 2501554
     invoke-direct {p0}, LX/J5A;->A00()V
 
-    .line 2501534
+    .line 2501555
     invoke-direct {p0}, LX/J5A;->getManualClipPath()LX/Ipw;
 
     move-result-object v0
 
-    .line 2501535
+    .line 2501556
     invoke-static {v0}, LX/5We;->A1U(Ljava/lang/Object;)Z
 
     move-result v3
 
-    .line 2501536
+    .line 2501557
     if-eqz p21, :cond_2
 
-    .line 2501537
+    .line 2501558
     sget-object v1, LX/3kF;->A00:LX/3kH;
 
-    .line 2501538
+    .line 2501559
     const/4 v0, 0x1
 
     if-ne p2, v1, :cond_3
@@ -1379,44 +1379,44 @@
     :cond_3
     invoke-virtual {p0, v0}, LX/J5A;->setClipToOutline(Z)V
 
-    .line 2501539
+    .line 2501560
     iget-object v5, p0, LX/J5A;->A07:LX/FwH;
 
-    .line 2501540
+    .line 2501561
     invoke-virtual {p0}, LX/J5A;->getAlpha()F
 
     move-result v9
 
-    .line 2501541
+    .line 2501562
     invoke-virtual {p0}, LX/J5A;->getClipToOutline()Z
 
     move-result v11
 
-    .line 2501542
+    .line 2501563
     invoke-virtual {p0}, LX/J5A;->getElevation()F
 
     move-result v10
 
-    .line 2501543
+    .line 2501564
     invoke-virtual/range {v5 .. v11}, LX/FwH;->A04(LX/3kH;LX/3j6;LX/3oa;FFZ)Z
 
     move-result v1
 
-    .line 2501544
+    .line 2501565
     invoke-virtual {v5}, LX/FwH;->A01()Landroid/graphics/Outline;
 
     move-result-object v0
 
     if-eqz v0, :cond_9
 
-    .line 2501545
+    .line 2501566
     sget-object v0, LX/J5A;->A0G:Landroid/view/ViewOutlineProvider;
 
-    .line 2501546
+    .line 2501567
     :goto_0
     invoke-virtual {p0, v0}, LX/J5A;->setOutlineProvider(Landroid/view/ViewOutlineProvider;)V
 
-    .line 2501547
+    .line 2501568
     invoke-direct {p0}, LX/J5A;->getManualClipPath()LX/Ipw;
 
     move-result-object v0
@@ -1432,11 +1432,11 @@
 
     if-eqz v1, :cond_6
 
-    .line 2501548
+    .line 2501569
     :cond_5
     invoke-virtual {p0}, LX/J5A;->invalidate()V
 
-    .line 2501549
+    .line 2501570
     :cond_6
     iget-boolean v0, p0, LX/J5A;->A06:Z
 
@@ -1450,55 +1450,55 @@
 
     if-lez v0, :cond_7
 
-    .line 2501550
+    .line 2501571
     iget-object v0, p0, LX/J5A;->A03:LX/0Xg;
 
     if-eqz v0, :cond_7
 
     invoke-interface {v0}, LX/0Xg;->invoke()Ljava/lang/Object;
 
-    .line 2501551
+    .line 2501572
     :cond_7
     iget-object v1, p0, LX/J5A;->A0B:LX/J59;
 
     const/4 v0, 0x1
 
-    .line 2501552
+    .line 2501573
     iput-boolean v0, v1, LX/J59;->A00:Z
 
-    .line 2501553
+    .line 2501574
     iput-boolean v0, v1, LX/J59;->A01:Z
 
-    .line 2501554
+    .line 2501575
     invoke-static/range {p17 .. p18}, LX/3kD;->A01(J)I
 
     move-result v0
 
-    .line 2501555
+    .line 2501576
     invoke-virtual {p0, v0}, Landroid/view/View;->setOutlineAmbientShadowColor(I)V
 
-    .line 2501556
+    .line 2501577
     invoke-static/range {p19 .. p20}, LX/3kD;->A01(J)I
 
     move-result v0
 
-    .line 2501557
+    .line 2501578
     invoke-virtual {p0, v0}, Landroid/view/View;->setOutlineSpotShadowColor(I)V
 
-    .line 2501558
+    .line 2501579
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v0, 0x1f
 
     if-lt v1, v0, :cond_8
 
-    .line 2501559
+    .line 2501580
     invoke-static {p0}, LX/KJ3;->A00(Landroid/view/View;)V
 
     :cond_8
     return-void
 
-    .line 2501560
+    .line 2501581
     :cond_9
     const/4 v0, 0x0
 

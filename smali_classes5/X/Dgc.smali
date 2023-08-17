@@ -47,7 +47,7 @@
 
     .line 16
     .line 17
-    invoke-static {v0}, LX/Chf;->A0p(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chg;->A0s(Ljava/lang/String;)Ljava/lang/String;
 
     .line 18
     .line 19

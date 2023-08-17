@@ -78,99 +78,99 @@
 .method public constructor <init>(Lcom/instagram/sponsored/tooling/addebuginfo/ClipsAdDebugInfo;Lcom/instagram/sponsored/tooling/addebuginfo/FeedAdDebugInfo;Lcom/instagram/sponsored/tooling/addebuginfo/ReelAdDebugInfo;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FIIZZZ)V
     .locals 1
 
-    .line 2882999
+    .line 2883020
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2883000
+    .line 2883021
     iput-object p4, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A06:Ljava/lang/Integer;
 
-    .line 2883001
+    .line 2883022
     iput-object p5, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A08:Ljava/lang/String;
 
-    .line 2883002
+    .line 2883023
     iput-object p6, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A09:Ljava/lang/String;
 
-    .line 2883003
+    .line 2883024
     iput-object p7, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A0D:Ljava/lang/String;
 
-    .line 2883004
+    .line 2883025
     iput-object p8, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A0G:Ljava/lang/String;
 
-    .line 2883005
+    .line 2883026
     iput-object p9, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A0F:Ljava/lang/String;
 
-    .line 2883006
+    .line 2883027
     iput-object p10, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A0K:Ljava/lang/String;
 
-    .line 2883007
+    .line 2883028
     iput-object p11, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A0C:Ljava/lang/String;
 
-    .line 2883008
+    .line 2883029
     move/from16 v0, p19
 
     iput v0, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A00:F
 
-    .line 2883009
+    .line 2883030
     iput-object p12, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A0A:Ljava/lang/String;
 
-    .line 2883010
+    .line 2883031
     iput-object p13, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A0B:Ljava/lang/String;
 
-    .line 2883011
+    .line 2883032
     iput-object p14, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A07:Ljava/lang/String;
 
-    .line 2883012
+    .line 2883033
     move-object/from16 v0, p15
 
     iput-object v0, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A0E:Ljava/lang/String;
 
-    .line 2883013
+    .line 2883034
     move-object/from16 v0, p16
 
     iput-object v0, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A0H:Ljava/lang/String;
 
-    .line 2883014
+    .line 2883035
     move-object/from16 v0, p17
 
     iput-object v0, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A0J:Ljava/lang/String;
 
-    .line 2883015
+    .line 2883036
     move-object/from16 v0, p18
 
     iput-object v0, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A0I:Ljava/lang/String;
 
-    .line 2883016
+    .line 2883037
     move/from16 v0, p22
 
     iput-boolean v0, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A0M:Z
 
-    .line 2883017
+    .line 2883038
     move/from16 v0, p23
 
     iput-boolean v0, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A0N:Z
 
-    .line 2883018
+    .line 2883039
     move/from16 v0, p20
 
     iput v0, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A01:I
 
-    .line 2883019
+    .line 2883040
     move/from16 v0, p21
 
     iput v0, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A02:I
 
-    .line 2883020
+    .line 2883041
     move/from16 v0, p24
 
     iput-boolean v0, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A0L:Z
 
-    .line 2883021
+    .line 2883042
     iput-object p3, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A05:Lcom/instagram/sponsored/tooling/addebuginfo/ReelAdDebugInfo;
 
-    .line 2883022
+    .line 2883043
     iput-object p2, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A04:Lcom/instagram/sponsored/tooling/addebuginfo/FeedAdDebugInfo;
 
-    .line 2883023
+    .line 2883044
     iput-object p1, p0, Lcom/instagram/sponsored/tooling/addebuginfo/AdDebugInfo;->A03:Lcom/instagram/sponsored/tooling/addebuginfo/ClipsAdDebugInfo;
 
     return-void

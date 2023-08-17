@@ -221,7 +221,7 @@
 
     .line 97
     .line 98
-    invoke-static {v2, v4}, LX/Chi;->A0k(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
+    invoke-static {v2, v4}, LX/Chi;->A0m(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
 
     .line 99
     .line 100
@@ -561,7 +561,7 @@
 
     .line 53
     .line 54
-    invoke-static {v2, v5}, LX/Chi;->A0k(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
+    invoke-static {v2, v5}, LX/Chi;->A0m(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
 
     .line 55
     .line 56

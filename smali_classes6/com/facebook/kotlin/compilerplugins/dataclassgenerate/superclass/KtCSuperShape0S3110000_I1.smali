@@ -23,7 +23,7 @@
 
     const/4 v0, 0x2
 
-    .line 1076184386
+    .line 1076184407
     move-object v1, p0
 
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S3110000_I1;->A05:I
@@ -34,17 +34,17 @@
 
     const/4 v6, 0x0
 
-    .line 1076184387
+    .line 1076184408
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
-    .line 1076184388
+    .line 1076184409
     move-object v5, v3
 
     invoke-direct/range {v1 .. v6}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S3110000_I1;-><init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    .line 1076184389
+    .line 1076184410
     return-void
 .end method
 

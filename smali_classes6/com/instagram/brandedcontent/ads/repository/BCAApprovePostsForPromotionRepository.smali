@@ -197,7 +197,7 @@
 
     .line 61
     .line 62
-    invoke-static {v2}, LX/Chh;->A00(I)I
+    invoke-static {v2}, LX/Chh;->A01(I)I
 
     .line 63
     .line 64
@@ -290,7 +290,7 @@
 
     .line 107
     .line 108
-    invoke-static {v7}, LX/Chh;->A00(I)I
+    invoke-static {v7}, LX/Chh;->A01(I)I
 
     .line 109
     .line 110

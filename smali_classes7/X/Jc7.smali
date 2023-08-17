@@ -624,7 +624,7 @@
     .line 264
     .line 265
     .line 266
-    invoke-static {v1, v14, v0}, LX/Chf;->A0x(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {v1, v14, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
 
     .line 267
     .line 268

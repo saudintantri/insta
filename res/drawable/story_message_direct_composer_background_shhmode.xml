@@ -3,5 +3,5 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke android:width="1.0dip" android:color="@color/fds_white_alpha40" android:dashWidth="3.0dip" android:dashGap="3.0dip" />
     <solid android:color="@color/countdown_sticker_footer_text_color" />
-    <corners android:radius="@dimen/direct_composer_background_corner_radius" />
+    <corners android:radius="@dimen/asset_picker_static_sticker_last_row_padding" />
 </shape>

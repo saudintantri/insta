@@ -465,7 +465,7 @@
     move-result-object v0
 
     .line 194
-    invoke-static {v0, v4}, LX/Chg;->A0N(Ljava/lang/Object;Ljava/util/Map;)LX/6FX;
+    invoke-static {v0, v4}, LX/Chg;->A0M(Ljava/lang/Object;Ljava/util/Map;)LX/6FX;
 
     .line 195
     .line 196
@@ -912,7 +912,7 @@
     move-result-object v0
 
     .line 46
-    invoke-static {v2, v0, v1}, LX/Che;->A0G(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
+    invoke-static {v2, v0, v1}, LX/Che;->A0H(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
 
     .line 47
     .line 48
@@ -1108,7 +1108,7 @@
 
     .line 13
     .line 14
-    invoke-static {p0}, LX/Che;->A07(LX/081;)Landroid/view/View;
+    invoke-static {p0}, LX/Che;->A08(LX/081;)Landroid/view/View;
 
     .line 15
     .line 16
@@ -1358,7 +1358,7 @@
     .line 1
     .line 2
     .line 3
-    invoke-static {p0}, LX/Che;->A07(LX/081;)Landroid/view/View;
+    invoke-static {p0}, LX/Che;->A08(LX/081;)Landroid/view/View;
 
     .line 4
     .line 5

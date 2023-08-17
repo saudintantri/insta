@@ -91,7 +91,7 @@
 
     .line 19
     .line 20
-    invoke-static {p1}, LX/Chi;->A0P(LX/1iX;)LX/39m;
+    invoke-static {p1}, LX/Chi;->A0Q(LX/1iX;)LX/39m;
 
     .line 21
     .line 22
@@ -127,7 +127,7 @@
 
     .line 36
     :goto_0
-    invoke-static {v3, v5}, LX/Chi;->A1R(LX/4zl;Ljava/lang/String;)V
+    invoke-static {v3, v5}, LX/Chi;->A1S(LX/4zl;Ljava/lang/String;)V
 
     .line 37
     .line 38

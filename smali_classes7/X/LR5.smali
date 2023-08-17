@@ -198,7 +198,6 @@
     goto :goto_0
     :try_end_2
     .catch Ljava/lang/SecurityException; {:try_start_2 .. :try_end_2} :catch_0
-    .catch Ljava/lang/SecurityException; {:try_start_2 .. :try_end_2} :catch_1
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_2 .. :try_end_2} :catch_1
     .catch Ljava/lang/IllegalStateException; {:try_start_2 .. :try_end_2} :catch_1
     .catchall {:try_start_2 .. :try_end_2} :catchall_1

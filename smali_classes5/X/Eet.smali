@@ -1602,7 +1602,7 @@
 
     .line 428
     .line 429
-    invoke-static {v1, v0}, LX/Chf;->A12(Landroid/os/Handler;Ljava/lang/Runnable;)V
+    invoke-static {v1, v0}, LX/Chf;->A13(Landroid/os/Handler;Ljava/lang/Runnable;)V
 
     .line 430
     .line 431
@@ -1755,7 +1755,7 @@
 
     .line 506
     .line 507
-    invoke-static {v3, v0}, LX/Chf;->A12(Landroid/os/Handler;Ljava/lang/Runnable;)V
+    invoke-static {v3, v0}, LX/Chf;->A13(Landroid/os/Handler;Ljava/lang/Runnable;)V
 
     .line 508
     .line 509
@@ -2765,7 +2765,7 @@
     .line 992
     .line 993
     .line 994
-    invoke-static {v3, v2}, LX/Che;->A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+    invoke-static {v3, v2}, LX/Che;->A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
 
     .line 995
     .line 996
@@ -3611,12 +3611,6 @@
     .line 1412
     .line 1413
     .line 1414
-    .line 1415
-    .line 1416
-    .line 1417
-    .line 1418
-    .line 1419
-    .line 1420
 .end method
 
 .method public static final A03(LX/Eet;LX/BHU;Z)Z

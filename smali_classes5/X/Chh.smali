@@ -4,7 +4,25 @@
 
 
 # direct methods
-.method public static A00(I)I
+.method public static A00(FF)F
+    .locals 0
+
+    .line 0
+    sub-float/2addr p0, p1
+
+    .line 1
+    invoke-static {p0}, Ljava/lang/Math;->abs(F)F
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    return p0
+.end method
+
+.method public static A01(I)I
     .locals 0
 
     .line 0
@@ -27,7 +45,7 @@
     return p0
 .end method
 
-.method public static A01(I)I
+.method public static A02(I)I
     .locals 1
 
     .line 0
@@ -46,7 +64,7 @@
     return v0
 .end method
 
-.method public static A02(II)I
+.method public static A03(II)I
     .locals 0
 
     .line 0
@@ -65,7 +83,7 @@
     return p1
 .end method
 
-.method public static A03(Landroid/os/Parcel;Ljava/util/AbstractCollection;I)I
+.method public static A04(Landroid/os/Parcel;Ljava/util/AbstractCollection;I)I
     .locals 0
 
     .line 0
@@ -89,7 +107,7 @@
     return p0
 .end method
 
-.method public static A04(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
+.method public static A05(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
     .locals 0
 
     .line 0
@@ -112,7 +130,7 @@
     return-object p0
 .end method
 
-.method public static A05(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+.method public static A06(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
     .locals 0
 
     .line 0
@@ -139,7 +157,7 @@
     .line 12
 .end method
 
-.method public static A06(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
+.method public static A07(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
     .locals 1
 
     .line 0
@@ -156,35 +174,6 @@
     .line 5
     :cond_0
     return-object p0
-.end method
-
-.method public static A07(Landroid/widget/AdapterView;I)Landroid/view/View;
-    .locals 1
-
-    .line 0
-    invoke-virtual {p0}, Landroid/widget/AdapterView;->getFirstVisiblePosition()I
-
-    .line 1
-    .line 2
-    .line 3
-    move-result v0
-
-    .line 4
-    sub-int/2addr p1, v0
-
-    .line 5
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
-
-    .line 6
-    .line 7
-    .line 8
-    move-result-object v0
-
-    .line 9
-    return-object v0
-    .line 10
-    .line 11
-    .line 12
 .end method
 
 .method public static A08(Lcom/facebook/graphql/query/GraphQlQueryParamSet;LX/1RO;)LX/GBl;
@@ -512,7 +501,28 @@
     .line 8
 .end method
 
-.method public static A0L(LX/01o;)Lcom/instagram/shopping/fragment/pdp/lightbox/LightboxArguments;
+.method public static A0L(Lkotlin/jvm/internal/KtLambdaShape12S0200000_I1_1;)LX/1lr;
+    .locals 0
+
+    .line 0
+    iget-object p0, p0, Lkotlin/jvm/internal/KtLambdaShape12S0200000_I1_1;->A01:Ljava/lang/Object;
+
+    .line 1
+    .line 2
+    check-cast p0, LX/Glq;
+
+    .line 3
+    .line 4
+    iget-object p0, p0, LX/Glq;->A00:LX/1lr;
+
+    .line 5
+    .line 6
+    return-object p0
+    .line 7
+    .line 8
+.end method
+
+.method public static A0M(LX/01o;)Lcom/instagram/shopping/fragment/pdp/lightbox/LightboxArguments;
     .locals 0
 
     .line 0
@@ -533,7 +543,7 @@
     .line 8
 .end method
 
-.method public static A0M(Ljava/lang/Object;)LX/2Sh;
+.method public static A0N(Ljava/lang/Object;)LX/2Sh;
     .locals 1
 
     .line 0
@@ -554,7 +564,7 @@
     .line 8
 .end method
 
-.method public static A0N(Landroid/view/View;I)LX/Dkd;
+.method public static A0O(Landroid/view/View;I)LX/Dkd;
     .locals 0
 
     .line 0
@@ -581,7 +591,7 @@
     .line 12
 .end method
 
-.method public static A0O(LX/1M5;Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
+.method public static A0P(LX/1M5;Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
     .locals 0
 
     .line 0
@@ -601,7 +611,7 @@
     return-object p0
 .end method
 
-.method public static A0P(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
+.method public static A0Q(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
     .locals 0
 
     .line 0
@@ -624,7 +634,7 @@
     return-object p0
 .end method
 
-.method public static A0Q(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape11S0101000_I1_5;)LX/6e1;
+.method public static A0R(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape11S0101000_I1_5;)LX/6e1;
     .locals 0
 
     .line 0
@@ -649,37 +659,6 @@
     .line 10
     .line 11
     .line 12
-.end method
-
-.method public static A0R(I)Ljava/lang/Integer;
-    .locals 1
-
-    .line 0
-    const/4 v0, -0x1
-
-    .line 1
-    if-ne p0, v0, :cond_0
-
-    .line 2
-    .line 3
-    const/4 v0, 0x0
-
-    .line 4
-    return-object v0
-
-    .line 5
-    :cond_0
-    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 6
-    .line 7
-    .line 8
-    move-result-object v0
-
-    .line 9
-    return-object v0
-    .line 10
-    .line 11
 .end method
 
 .method public static A0S(LX/3BP;)Ljava/lang/Object;

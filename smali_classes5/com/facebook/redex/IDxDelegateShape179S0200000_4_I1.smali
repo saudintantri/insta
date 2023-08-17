@@ -215,7 +215,7 @@
     .line 79
     .line 80
     .line 81
-    invoke-static {v1, v2, v0}, LX/Chg;->A12(Landroid/content/res/Resources;LX/56I;I)V
+    invoke-static {v1, v2, v0}, LX/Chg;->A11(Landroid/content/res/Resources;LX/56I;I)V
 
     .line 82
     .line 83

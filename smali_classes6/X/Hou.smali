@@ -1058,7 +1058,7 @@
     move-result v1
 
     .line 15
-    const v0, 0x7f0701ee
+    const v0, 0x7f0701e5
 
     .line 16
     .line 17

@@ -201,7 +201,7 @@
     move-result v6
 
     .line 268435519
-    const v0, 0x7f0700f2
+    const v0, 0x7f0700f1
 
     .line 268435520
     .line 268435521

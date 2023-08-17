@@ -161,7 +161,7 @@
 
     .line 63
     .line 64
-    invoke-static {v0, v7}, LX/Chf;->A11(Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {v0, v7}, LX/Chf;->A12(Landroid/graphics/drawable/Drawable;I)V
 
     .line 65
     .line 66

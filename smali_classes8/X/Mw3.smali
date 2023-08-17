@@ -260,91 +260,91 @@
 .method public constructor <init>(Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;Ljava/lang/String;Ljava/lang/String;IIII)V
     .locals 2
 
-    .line 271340620
+    .line 271340641
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 271340621
+    .line 271340642
     iput-boolean v0, p0, LX/Mw3;->A0I:Z
 
     const/4 v0, 0x0
 
-    .line 271340622
+    .line 271340643
     iput v0, p0, LX/Mw3;->A00:I
 
-    .line 271340623
+    .line 271340644
     iput v0, p0, LX/Mw3;->A05:I
 
     const-wide/16 v0, -0x1
 
-    .line 271340624
+    .line 271340645
     iput-wide v0, p0, LX/Mw3;->A06:J
 
-    .line 271340625
+    .line 271340646
     iput-wide v0, p0, LX/Mw3;->A07:J
 
-    .line 271340626
+    .line 271340647
     iput-wide v0, p0, LX/Mw3;->A08:J
 
-    .line 271340627
+    .line 271340648
     iput-wide v0, p0, LX/Mw3;->A09:J
 
     if-nez p3, :cond_0
 
     if-nez p1, :cond_0
 
-    .line 271340628
+    .line 271340649
     const-string v0, "Both file path or file descriptor must be not be null, one must be set."
 
-    .line 271340629
+    .line 271340650
     :goto_0
     invoke-static {v0}, LX/5Wd;->A0b(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;
 
     move-result-object v0
 
-    .line 271340630
+    .line 271340651
     throw v0
 
-    .line 271340631
+    .line 271340652
     :cond_0
     if-eqz p5, :cond_2
 
     if-eqz p6, :cond_1
 
-    .line 271340632
+    .line 271340653
     iput-object p3, p0, LX/Mw3;->A0G:Ljava/lang/String;
 
-    .line 271340633
+    .line 271340654
     iput-object p1, p0, LX/Mw3;->A0B:Ljava/io/FileDescriptor;
 
-    .line 271340634
+    .line 271340655
     iput-object p4, p0, LX/Mw3;->A0H:Ljava/lang/String;
 
-    .line 271340635
+    .line 271340656
     iput-object p2, p0, LX/Mw3;->A0C:Ljava/io/FileDescriptor;
 
-    .line 271340636
+    .line 271340657
     iput p5, p0, LX/Mw3;->A03:I
 
-    .line 271340637
+    .line 271340658
     iput p6, p0, LX/Mw3;->A02:I
 
-    .line 271340638
+    .line 271340659
     iput p7, p0, LX/Mw3;->A04:I
 
-    .line 271340639
+    .line 271340660
     iput p8, p0, LX/Mw3;->A01:I
 
     return-void
 
-    .line 271340640
+    .line 271340661
     :cond_1
     const-string v0, "Frame height must be greater 0"
 
     goto :goto_0
 
-    .line 271340641
+    .line 271340662
     :cond_2
     const-string v0, "Frame width must be greater 0"
 

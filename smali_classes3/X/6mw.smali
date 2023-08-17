@@ -174,7 +174,7 @@
 
     .line 66
     .line 67
-    const v0, 0x7f0701e8
+    const v0, 0x7f0701df
 
     .line 68
     .line 69
@@ -242,7 +242,7 @@
 
     .line 102
     .line 103
-    const v0, 0x7f0701f1
+    const v0, 0x7f0701e8
 
     .line 104
     .line 105

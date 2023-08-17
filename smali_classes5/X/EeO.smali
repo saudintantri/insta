@@ -97,7 +97,7 @@
     move-result-object v1
 
     .line 12
-    invoke-static {v1, p0}, LX/Chf;->A1N(LX/2KL;LX/1M5;)V
+    invoke-static {v1, p0}, LX/Chg;->A1W(LX/2KL;LX/1M5;)V
 
     .line 13
     .line 14

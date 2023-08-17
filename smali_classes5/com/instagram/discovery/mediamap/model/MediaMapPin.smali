@@ -111,7 +111,7 @@
 .method public constructor <init>(LX/2Vs;Lcom/instagram/common/typedurl/ImageUrl;Lcom/instagram/common/typedurl/ImageUrl;Lcom/instagram/discovery/mediamap/model/LocationPageInformation;LX/DnR;LX/2fp;Lcom/instagram/model/venue/Venue;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/String;Ljava/lang/String;Ljava/util/ArrayList;IJZ)V
     .locals 4
 
-    .line 270431814
+    .line 270431835
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v2, 0x0
@@ -120,7 +120,7 @@
 
     const-wide/16 v0, 0x0
 
-    .line 270431815
+    .line 270431836
     :goto_0
     invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
@@ -130,7 +130,7 @@
 
     if-eqz p9, :cond_0
 
-    .line 270431816
+    .line 270431837
     invoke-virtual {p9}, Ljava/lang/Number;->doubleValue()D
 
     move-result-wide v2
@@ -142,56 +142,56 @@
 
     iput-object v0, p0, Lcom/instagram/discovery/mediamap/model/MediaMapPin;->A0B:Ljava/lang/Double;
 
-    .line 270431817
+    .line 270431838
     iput-object p7, p0, Lcom/instagram/discovery/mediamap/model/MediaMapPin;->A09:Lcom/instagram/model/venue/Venue;
 
-    .line 270431818
+    .line 270431839
     iput-object p10, p0, Lcom/instagram/discovery/mediamap/model/MediaMapPin;->A0D:Ljava/lang/String;
 
-    .line 270431819
+    .line 270431840
     iput-object p2, p0, Lcom/instagram/discovery/mediamap/model/MediaMapPin;->A05:Lcom/instagram/common/typedurl/ImageUrl;
 
-    .line 270431820
+    .line 270431841
     move-wide/from16 v0, p14
 
     iput-wide v0, p0, Lcom/instagram/discovery/mediamap/model/MediaMapPin;->A02:J
 
-    .line 270431821
+    .line 270431842
     move/from16 v0, p13
 
     iput v0, p0, Lcom/instagram/discovery/mediamap/model/MediaMapPin;->A01:I
 
-    .line 270431822
+    .line 270431843
     move-object/from16 v0, p12
 
     iput-object v0, p0, Lcom/instagram/discovery/mediamap/model/MediaMapPin;->A0E:Ljava/util/ArrayList;
 
-    .line 270431823
+    .line 270431844
     iput-object p11, p0, Lcom/instagram/discovery/mediamap/model/MediaMapPin;->A0C:Ljava/lang/String;
 
-    .line 270431824
+    .line 270431845
     iput-object p3, p0, Lcom/instagram/discovery/mediamap/model/MediaMapPin;->A04:Lcom/instagram/common/typedurl/ImageUrl;
 
-    .line 270431825
+    .line 270431846
     iput-object p6, p0, Lcom/instagram/discovery/mediamap/model/MediaMapPin;->A08:LX/2fp;
 
-    .line 270431826
+    .line 270431847
     iput-object p5, p0, Lcom/instagram/discovery/mediamap/model/MediaMapPin;->A07:LX/DnR;
 
-    .line 270431827
+    .line 270431848
     iput-object p4, p0, Lcom/instagram/discovery/mediamap/model/MediaMapPin;->A06:Lcom/instagram/discovery/mediamap/model/LocationPageInformation;
 
-    .line 270431828
+    .line 270431849
     move/from16 v0, p16
 
     iput-boolean v0, p0, Lcom/instagram/discovery/mediamap/model/MediaMapPin;->A0F:Z
 
-    .line 270431829
+    .line 270431850
     iput-object p1, p0, Lcom/instagram/discovery/mediamap/model/MediaMapPin;->A03:LX/2Vs;
 
     return-void
 
-    .line 270431830
+    .line 270431851
     :cond_1
     invoke-virtual {p8}, Ljava/lang/Number;->doubleValue()D
 

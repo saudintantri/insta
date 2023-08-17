@@ -145,7 +145,7 @@
     const/4 v9, 0x0
 
     .line 39
-    invoke-static {}, LX/Chg;->A0z()LX/1BX;
+    invoke-static {}, LX/Chg;->A0y()LX/1BX;
 
     .line 40
     .line 41

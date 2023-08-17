@@ -88,7 +88,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-static {v1, v0}, LX/Chi;->A0O(LX/2Gt;LX/1O3;)LX/39m;
+    invoke-static {v1, v0}, LX/Chi;->A0P(LX/2Gt;LX/1O3;)LX/39m;
 
     .line 22
     .line 23
@@ -125,7 +125,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-static {v0, v1}, LX/Chi;->A0O(LX/2Gt;LX/1O3;)LX/39m;
+    invoke-static {v0, v1}, LX/Chi;->A0P(LX/2Gt;LX/1O3;)LX/39m;
 
     .line 40
     .line 41

@@ -50,7 +50,7 @@
     .line 18
     .line 19
     .line 20
-    invoke-static {v1, v0}, LX/Chf;->A0U(LX/37R;LX/3IH;)LX/3Cn;
+    invoke-static {v1, v0}, LX/Chf;->A0V(LX/37R;LX/3IH;)LX/3Cn;
 
     .line 21
     .line 22

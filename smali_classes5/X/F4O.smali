@@ -253,7 +253,7 @@
     const/4 v0, 0x2
 
     .line 88
-    invoke-static {v3, p0, v0}, LX/Chi;->A0T(LX/6z0;Ljava/lang/Object;I)LX/6z1;
+    invoke-static {v3, p0, v0}, LX/Chi;->A0U(LX/6z0;Ljava/lang/Object;I)LX/6z1;
 
     .line 89
     .line 90

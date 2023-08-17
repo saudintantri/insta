@@ -31,7 +31,7 @@
 
     .line 4
     .line 5
-    invoke-static {p0, v0}, LX/Chg;->A0x(Ljava/lang/Object;I)Lkotlin/jvm/internal/KtLambdaShape33S0100000_I1_14;
+    invoke-static {p0, v0}, LX/Chg;->A0w(Ljava/lang/Object;I)Lkotlin/jvm/internal/KtLambdaShape33S0100000_I1_14;
 
     .line 6
     .line 7

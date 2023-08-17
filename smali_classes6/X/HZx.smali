@@ -821,7 +821,6 @@
     goto/16 :goto_5
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_6
-    .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_5
 
     .line 375
     .line 376
@@ -838,7 +837,6 @@
     goto :goto_1
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_5
 
     .line 381
     :catchall_1
@@ -1101,7 +1099,6 @@
     invoke-virtual {v6}, Landroid/media/MediaExtractor;->release()V
     :try_end_b
     .catch Ljava/lang/Exception; {:try_start_b .. :try_end_b} :catch_3
-    .catch Ljava/lang/Exception; {:try_start_b .. :try_end_b} :catch_6
 
     .line 494
     .line 495
@@ -1130,7 +1127,6 @@
     goto :goto_4
     :try_end_d
     .catch Ljava/lang/Exception; {:try_start_d .. :try_end_d} :catch_4
-    .catch Ljava/lang/Exception; {:try_start_d .. :try_end_d} :catch_6
 
     .line 504
     :catchall_3

@@ -1175,7 +1175,7 @@
 
     .line 235
     .line 236
-    invoke-static {v1, v9}, LX/Chi;->A1A(LX/0AW;Lcom/instagram/service/session/UserSession;)V
+    invoke-static {v1, v9}, LX/Chi;->A1B(LX/0AW;Lcom/instagram/service/session/UserSession;)V
 
     .line 237
     .line 238

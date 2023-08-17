@@ -308,7 +308,7 @@
 
     .line 108
     :pswitch_0
-    invoke-static {v4}, LX/Chi;->A0D(Ljava/lang/Object;)LX/Cc6;
+    invoke-static {v4}, LX/Chi;->A0E(Ljava/lang/Object;)LX/Cc6;
 
     .line 109
     .line 110

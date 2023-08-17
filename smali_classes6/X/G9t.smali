@@ -749,7 +749,7 @@
 
     .line 221
     .line 222
-    invoke-static {v1}, LX/Chf;->A0O(Landroid/view/View;)LX/2gw;
+    invoke-static {v1}, LX/Chf;->A0P(Landroid/view/View;)LX/2gw;
 
     .line 223
     .line 224

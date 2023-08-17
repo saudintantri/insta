@@ -109,171 +109,171 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/Float;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Float;Ljava/lang/Float;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Long;ILjava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Boolean;Ljava/lang/Integer;)V
     .locals 2
 
-    .line 2270695
+    .line 2270716
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2270696
+    .line 2270717
     invoke-static {p1}, LX/1zO;->A00(Ljava/lang/Object;)V
 
-    .line 2270697
+    .line 2270718
     invoke-static {p2, p3}, LX/92o;->A1R(Ljava/lang/Object;I)V
 
-    .line 2270698
+    .line 2270719
     invoke-static {p4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 2270699
+    .line 2270720
     invoke-static {v0, p5}, LX/92o;->A1R(Ljava/lang/Object;I)V
 
-    .line 2270700
+    .line 2270721
     move/from16 v0, p28
 
     invoke-static {p7, v0}, LX/92o;->A1R(Ljava/lang/Object;I)V
 
-    .line 2270701
+    .line 2270722
     iput-object p1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->streamId:Ljava/lang/String;
 
-    .line 2270702
+    .line 2270723
     iput-object p2, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->userId:Ljava/lang/String;
 
-    .line 2270703
+    .line 2270724
     iput p3, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->channelType:I
 
-    .line 2270704
+    .line 2270725
     iput p4, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->streamDirection:I
 
-    .line 2270705
+    .line 2270726
     iput p5, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->streamType:I
 
-    .line 2270706
+    .line 2270727
     iput-object p6, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->mimeType:Ljava/lang/String;
 
-    .line 2270707
+    .line 2270728
     iput-object p7, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->videoStreams:Ljava/util/ArrayList;
 
-    .line 2270708
+    .line 2270729
     iput-object p8, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioSsrc:Ljava/lang/String;
 
-    .line 2270709
+    .line 2270730
     iput-object p9, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioEstimatedPlayoutTimestampMS:Ljava/lang/Long;
 
-    .line 2270710
+    .line 2270731
     iput-object p10, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioSamplingRateKhz:Ljava/lang/Float;
 
-    .line 2270711
+    .line 2270732
     iput-object p11, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioE2eDelayMS:Ljava/lang/Long;
 
-    .line 2270712
+    .line 2270733
     iput-object p12, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioCodec:Ljava/lang/String;
 
-    .line 2270713
+    .line 2270734
     iput-object p13, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioBitrateKbps:Ljava/lang/Float;
 
-    .line 2270714
+    .line 2270735
     move-object/from16 v1, p14
 
     iput-object v1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioTargetBitrateKbps:Ljava/lang/Float;
 
-    .line 2270715
+    .line 2270736
     move-object/from16 v1, p15
 
     iput-object v1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioBytesReceived:Ljava/lang/Long;
 
-    .line 2270716
+    .line 2270737
     move-object/from16 v1, p16
 
     iput-object v1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioBytesSent:Ljava/lang/Long;
 
-    .line 2270717
+    .line 2270738
     move-object/from16 v1, p17
 
     iput-object v1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioPacketsReceived:Ljava/lang/Long;
 
-    .line 2270718
+    .line 2270739
     move-object/from16 v1, p18
 
     iput-object v1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioPacketsLost:Ljava/lang/Long;
 
-    .line 2270719
+    .line 2270740
     move-object/from16 v1, p19
 
     iput-object v1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioFecPacketsReceived:Ljava/lang/Long;
 
-    .line 2270720
+    .line 2270741
     move-object/from16 v1, p20
 
     iput-object v1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioNackCount:Ljava/lang/Long;
 
-    .line 2270721
+    .line 2270742
     move-object/from16 v1, p21
 
     iput-object v1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioRetransmittedPacketsSent:Ljava/lang/Long;
 
-    .line 2270722
+    .line 2270743
     move-object/from16 v1, p22
 
     iput-object v1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioJitterMS:Ljava/lang/Long;
 
-    .line 2270723
+    .line 2270744
     move-object/from16 v1, p23
 
     iput-object v1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->minBitrateKbps:Ljava/lang/Long;
 
-    .line 2270724
+    .line 2270745
     move-object/from16 v1, p24
 
     iput-object v1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->startBitrateKbps:Ljava/lang/Long;
 
-    .line 2270725
+    .line 2270746
     move-object/from16 v1, p25
 
     iput-object v1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->maxBitrateKbps:Ljava/lang/Long;
 
-    .line 2270726
+    .line 2270747
     move-object/from16 v1, p26
 
     iput-object v1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->connectionType:Ljava/lang/String;
 
-    .line 2270727
+    .line 2270748
     move-object/from16 v1, p27
 
     iput-object v1, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->avgRttMs:Ljava/lang/Long;
 
-    .line 2270728
+    .line 2270749
     iput v0, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->mediaPath:I
 
-    .line 2270729
+    .line 2270750
     move-object/from16 v0, p29
 
     iput-object v0, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->concealedSamples:Ljava/lang/Long;
 
-    .line 2270730
+    .line 2270751
     move-object/from16 v0, p30
 
     iput-object v0, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->totalSamplesReceived:Ljava/lang/Long;
 
-    .line 2270731
+    .line 2270752
     move-object/from16 v0, p31
 
     iput-object v0, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->audioLevel:Ljava/lang/Long;
 
-    .line 2270732
+    .line 2270753
     move-object/from16 v0, p32
 
     iput-object v0, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->availableOutgoingBitrate:Ljava/lang/Long;
 
-    .line 2270733
+    .line 2270754
     move-object/from16 v0, p33
 
     iput-object v0, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->nsInferenceTime:Ljava/lang/Long;
 
-    .line 2270734
+    .line 2270755
     move-object/from16 v0, p34
 
     iput-object v0, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->nsCpuFallbackStatus:Ljava/lang/Boolean;
 
-    .line 2270735
+    .line 2270756
     move-object/from16 v0, p35
 
     iput-object v0, p0, Lcom/facebook/rsys/mediastats/gen/MediaStats;->noiseSuppressionMode:Ljava/lang/Integer;

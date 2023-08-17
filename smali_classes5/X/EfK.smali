@@ -1131,7 +1131,7 @@
 
     .line 118
     .line 119
-    invoke-static {v1, p3, v0}, LX/Chi;->A0T(LX/6z0;Ljava/lang/Object;I)LX/6z1;
+    invoke-static {v1, p3, v0}, LX/Chi;->A0U(LX/6z0;Ljava/lang/Object;I)LX/6z1;
 
     .line 120
     .line 121
@@ -1561,7 +1561,7 @@
 
     .line 105
     .line 106
-    invoke-static {v6, p0, v0}, LX/Chi;->A0T(LX/6z0;Ljava/lang/Object;I)LX/6z1;
+    invoke-static {v6, p0, v0}, LX/Chi;->A0U(LX/6z0;Ljava/lang/Object;I)LX/6z1;
 
     .line 107
     .line 108

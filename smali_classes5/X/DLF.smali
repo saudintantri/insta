@@ -176,7 +176,7 @@
     .locals 1
 
     .line 0
-    invoke-static {p1}, LX/Chg;->A05(Landroid/content/Context;)I
+    invoke-static {p1}, LX/Chg;->A04(Landroid/content/Context;)I
 
     .line 1
     .line 2
@@ -663,7 +663,7 @@
 
     .line 107
     .line 108
-    invoke-static {v0, v1, v5}, LX/Chg;->A1P(LX/0z4;Ljava/io/Writer;Ljava/lang/String;)V
+    invoke-static {v0, v1, v5}, LX/Chg;->A1O(LX/0z4;Ljava/io/Writer;Ljava/lang/String;)V
 
     .line 109
     .line 110
@@ -1206,7 +1206,7 @@
 
     .line 155
     .line 156
-    invoke-static {v1, p0, v0}, LX/Chf;->A1M(LX/3E7;Ljava/lang/Object;I)V
+    invoke-static {v1, p0, v0}, LX/Chf;->A1N(LX/3E7;Ljava/lang/Object;I)V
 
     .line 157
     .line 158

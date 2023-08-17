@@ -464,7 +464,7 @@
 
     .line 182
     .line 183
-    invoke-static {v2}, LX/Che;->A03(Z)I
+    invoke-static {v2}, LX/Che;->A04(Z)I
 
     .line 184
     .line 185
@@ -862,7 +862,7 @@
     .line 382
     .line 383
     :cond_6
-    invoke-static {v0}, LX/Chf;->A0O(Landroid/view/View;)LX/2gw;
+    invoke-static {v0}, LX/Chf;->A0P(Landroid/view/View;)LX/2gw;
 
     .line 384
     .line 385

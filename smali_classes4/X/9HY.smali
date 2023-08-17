@@ -157,7 +157,7 @@
     move-result-object v6
 
     .line 69
-    const v0, 0x7f070121
+    const v0, 0x7f07011b
 
     .line 70
     .line 71
@@ -221,7 +221,7 @@
 
     .line 100
     .line 101
-    const v0, 0x7f0701ff
+    const v0, 0x7f0701f5
 
     .line 102
     .line 103

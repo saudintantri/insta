@@ -255,7 +255,7 @@
 
     .line 98
     .line 99
-    invoke-static {v0}, LX/Chf;->A16(Landroid/widget/TextView;)V
+    invoke-static {v0}, LX/Chf;->A17(Landroid/widget/TextView;)V
 
     .line 100
     .line 101

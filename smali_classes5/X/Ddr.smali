@@ -669,7 +669,7 @@
     move-result-object v0
 
     .line 293
-    invoke-static {p0, v0, p2, v2}, LX/Chf;->A1J(LX/130;LX/13R;Lcom/instagram/common/typedurl/ImageUrl;Ljava/lang/String;)V
+    invoke-static {p0, v0, p2, v2}, LX/Chf;->A1K(LX/130;LX/13R;Lcom/instagram/common/typedurl/ImageUrl;Ljava/lang/String;)V
 
     .line 294
     .line 295
@@ -1799,7 +1799,7 @@
 
     .line 140
     .line 141
-    invoke-static {v5}, LX/Chf;->A0H(Landroid/graphics/Rect;)Landroid/graphics/Bitmap;
+    invoke-static {v5}, LX/Chf;->A0I(Landroid/graphics/Rect;)Landroid/graphics/Bitmap;
 
     .line 142
     .line 143

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="drawable" name="remembering">R||AQADTsZ_kB6E|384|385|640</item>
-    <item type="drawable" name="shake_illo">R||AQAEK7HivER1|384|384|640</item>
+    <item type="drawable" name="instagram_business_images_promote_edu_destination_direct">R||AQAAx9Ss0X4h|384|384|640</item>
     <item type="drawable" name="collaborative_collections_collabcollection_outline_24">R||AQAU--UprzKf|96|96|640</item>
     <item type="drawable" name="collaborative_collections_collabcollection_outline_96">R||AQAGxb3V_zXw|384|384|640</item>
     <item type="drawable" name="company_brand_meta_lockup_monochromatic_12">R||AQAC_UFnQiLV|240|48|640</item>
@@ -183,7 +182,6 @@
     <item type="drawable" name="instagram_business_images_ad_placement_feed">R||AQACaBV8unPx|128|128|640</item>
     <item type="drawable" name="instagram_business_images_ad_placement_story">R||AQABhrXfycB3|128|128|640</item>
     <item type="drawable" name="instagram_business_images_call_center">R||AQAFrzoYD5tB|128|128|640</item>
-    <item type="drawable" name="instagram_business_images_promote_edu_destination_direct">R||AQAAx9Ss0X4h|384|384|640</item>
     <item type="drawable" name="instagram_business_images_promote_edu_destination_profile_v2">R||AQABZUpAjnyr|384|384|640</item>
     <item type="drawable" name="instagram_business_images_promote_edu_destination_website_v2">R||AQADEWxLGMMJ|384|384|640</item>
     <item type="drawable" name="instagram_business_images_promote_edu_reach_new_people_v2">R||AQABcMWXx07_|384|384|640</item>
@@ -200,4 +198,6 @@
     <item type="drawable" name="payout_business_info">R||AQAAmDU5o5PP|384|384|640</item>
     <item type="drawable" name="payout_id_card">R||AQAAvkyI5x0c|384|384|640</item>
     <item type="drawable" name="pinned_comments">R||AQAKCQUmzmYW|384|384|640</item>
+    <item type="drawable" name="remembering">R||AQADTsZ_kB6E|384|385|640</item>
+    <item type="drawable" name="shake_illo">R||AQAEK7HivER1|384|384|640</item>
 </resources>

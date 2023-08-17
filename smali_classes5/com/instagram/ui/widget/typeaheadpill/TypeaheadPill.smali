@@ -44,15 +44,15 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 4
 
-    .line 270430556
+    .line 270430577
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const-string v0, ""
 
-    .line 270430557
+    .line 270430578
     iput-object v0, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A01:Ljava/lang/String;
 
-    .line 270430558
+    .line 270430579
     const/16 v1, 0x20
 
     new-instance v0, Lcom/facebook/redex/IDxObjectShape205S0100000_4_I1;
@@ -61,7 +61,7 @@
 
     iput-object v0, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A04:Landroid/text/TextWatcher;
 
-    .line 270430559
+    .line 270430580
     const/4 v2, 0x2
 
     new-instance v0, Lcom/facebook/redex/IDxAListenerShape289S0100000_4_I1;
@@ -70,7 +70,7 @@
 
     iput-object v0, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A08:Landroid/widget/TextView$OnEditorActionListener;
 
-    .line 270430560
+    .line 270430581
     const/16 v1, 0x32
 
     new-instance v0, Lcom/facebook/redex/AnonCListenerShape214S0100000_I1_176;
@@ -85,107 +85,107 @@
 
     move-result-object v0
 
-    .line 270430561
+    .line 270430582
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Landroid/view/LayoutInflater;
 
-    .line 270430562
+    .line 270430583
     const v1, 0x7f0d134b
 
     const/4 v0, 0x1
 
     invoke-virtual {v3, v1, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    .line 270430563
+    .line 270430584
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 270430564
+    .line 270430585
     const v0, 0x7f0601bd
 
-    .line 270430565
-    invoke-static {v1, v0}, LX/Che;->A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+    .line 270430586
+    invoke-static {v1, v0}, LX/Che;->A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
 
     move-result-object v0
 
-    .line 270430566
+    .line 270430587
     iput-object v0, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A05:Landroid/text/style/ForegroundColorSpan;
 
-    .line 270430567
+    .line 270430588
     const v0, 0x7f0601ce
 
-    .line 270430568
-    invoke-static {v1, v0}, LX/Che;->A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+    .line 270430589
+    invoke-static {v1, v0}, LX/Che;->A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
 
     move-result-object v0
 
-    .line 270430569
+    .line 270430590
     iput-object v0, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A06:Landroid/text/style/ForegroundColorSpan;
 
-    .line 270430570
+    .line 270430591
     const v0, 0x7f0a2a21
 
-    .line 270430571
+    .line 270430592
     invoke-static {p0, v0}, LX/5Wd;->A0N(Landroid/view/View;I)Landroid/widget/TextView;
 
     move-result-object v0
 
-    .line 270430572
+    .line 270430593
     iput-object v0, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A09:Landroid/widget/TextView;
 
-    .line 270430573
+    .line 270430594
     const v0, 0x7f0a2a02
 
-    .line 270430574
+    .line 270430595
     invoke-virtual {p0, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 270430575
+    .line 270430596
     check-cast v0, Lcom/instagram/ui/widget/searchedittext/SearchWithDeleteEditText;
 
     iput-object v0, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A03:Lcom/instagram/ui/widget/searchedittext/SearchWithDeleteEditText;
 
-    .line 270430576
+    .line 270430597
     iget-object v1, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A09:Landroid/widget/TextView;
 
     const/16 v0, 0x8
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    .line 270430577
+    .line 270430598
     iget-object v1, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A09:Landroid/widget/TextView;
 
     iget-object v0, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A07:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 270430578
+    .line 270430599
     iget-object v1, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A03:Lcom/instagram/ui/widget/searchedittext/SearchWithDeleteEditText;
 
     const/4 v0, 0x0
 
     invoke-virtual {v1, v0}, Lcom/instagram/ui/widget/searchedittext/SearchEditText;->setClearButtonEnabled(Z)V
 
-    .line 270430579
+    .line 270430600
     iget-object v1, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A03:Lcom/instagram/ui/widget/searchedittext/SearchWithDeleteEditText;
 
     iget-object v0, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A04:Landroid/text/TextWatcher;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    .line 270430580
+    .line 270430601
     iget-object v1, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A03:Lcom/instagram/ui/widget/searchedittext/SearchWithDeleteEditText;
 
     iget-object v0, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A08:Landroid/widget/TextView$OnEditorActionListener;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setOnEditorActionListener(Landroid/widget/TextView$OnEditorActionListener;)V
 
-    .line 270430581
+    .line 270430602
     iget-object v0, p0, Lcom/instagram/ui/widget/typeaheadpill/TypeaheadPill;->A03:Lcom/instagram/ui/widget/searchedittext/SearchWithDeleteEditText;
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setImeOptions(I)V

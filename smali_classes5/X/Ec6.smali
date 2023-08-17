@@ -413,7 +413,7 @@
     .line 80
     .line 81
     .line 82
-    invoke-static {p0, v3, v0}, LX/Chf;->A0x(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {p0, v3, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
 
     .line 83
     .line 84

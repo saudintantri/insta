@@ -164,7 +164,7 @@
 
     .line 37
     .line 38
-    invoke-static {v2, v8}, LX/Chi;->A1R(LX/4zl;Ljava/lang/String;)V
+    invoke-static {v2, v8}, LX/Chi;->A1S(LX/4zl;Ljava/lang/String;)V
 
     .line 39
     .line 40
@@ -227,7 +227,7 @@
 
     .line 67
     .line 68
-    invoke-static {v2, v8}, LX/Chi;->A1R(LX/4zl;Ljava/lang/String;)V
+    invoke-static {v2, v8}, LX/Chi;->A1S(LX/4zl;Ljava/lang/String;)V
 
     .line 69
     .line 70
@@ -248,7 +248,7 @@
 
     .line 77
     :cond_3
-    invoke-static {p1}, LX/Chi;->A0P(LX/1iX;)LX/39m;
+    invoke-static {p1}, LX/Chi;->A0Q(LX/1iX;)LX/39m;
 
     .line 78
     .line 79

@@ -812,7 +812,7 @@
     move-result-object v1
 
     .line 389
-    invoke-static {v1}, LX/Chf;->A0n(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
+    invoke-static {v1}, LX/Chf;->A0p(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     .line 390
     .line 391

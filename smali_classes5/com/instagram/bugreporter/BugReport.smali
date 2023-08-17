@@ -530,7 +530,7 @@
 
     .line 62
     .line 63
-    invoke-static {p1, v1}, LX/Chg;->A18(Landroid/os/Parcel;Ljava/util/Iterator;)V
+    invoke-static {p1, v1}, LX/Chg;->A17(Landroid/os/Parcel;Ljava/util/Iterator;)V
 
     .line 64
     .line 65

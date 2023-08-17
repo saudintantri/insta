@@ -342,7 +342,6 @@
     invoke-virtual {v0}, Ljava/io/FileDescriptor;->sync()V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
 
     .line 20
     .line 21
@@ -806,7 +805,6 @@
     invoke-virtual {v0}, Ljava/io/FileDescriptor;->sync()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
-    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_1
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     .line 163

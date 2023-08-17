@@ -284,7 +284,6 @@
     :try_end_3
     .catch LX/46k; {:try_start_3 .. :try_end_3} :catch_1
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
-    .catch LX/46k; {:try_start_3 .. :try_end_3} :catch_2
 
     .line 131
     :catch_1

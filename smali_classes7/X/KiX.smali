@@ -149,7 +149,6 @@
     move-result-object v2
     :try_end_1
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_1
     .catch Ljava/lang/IllegalStateException; {:try_start_1 .. :try_end_1} :catch_1
 
     .line 54
@@ -272,7 +271,6 @@
     throw v1
     :try_end_3
     .catch Landroid/os/RemoteException; {:try_start_3 .. :try_end_3} :catch_0
-    .catch Landroid/os/RemoteException; {:try_start_3 .. :try_end_3} :catch_1
     .catch Ljava/lang/IllegalStateException; {:try_start_3 .. :try_end_3} :catch_1
 
     .line 112

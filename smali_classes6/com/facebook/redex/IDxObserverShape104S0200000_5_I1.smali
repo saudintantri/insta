@@ -6695,7 +6695,7 @@
     move-result-object v2
 
     .line 3382
-    invoke-static {v10}, LX/Che;->A03(Z)I
+    invoke-static {v10}, LX/Che;->A04(Z)I
 
     .line 3383
     .line 3384
@@ -7169,7 +7169,7 @@
     .line 3614
     .line 3615
     .line 3616
-    invoke-static {v13}, LX/Che;->A03(Z)I
+    invoke-static {v13}, LX/Che;->A04(Z)I
 
     .line 3617
     .line 3618
@@ -9618,7 +9618,7 @@
     .line 4833
     .line 4834
     .line 4835
-    invoke-static {v13}, LX/Che;->A03(Z)I
+    invoke-static {v13}, LX/Che;->A04(Z)I
 
     .line 4836
     .line 4837
@@ -10004,7 +10004,7 @@
     .line 5024
     .line 5025
     .line 5026
-    invoke-static {v14}, LX/Che;->A03(Z)I
+    invoke-static {v14}, LX/Che;->A04(Z)I
 
     .line 5027
     .line 5028

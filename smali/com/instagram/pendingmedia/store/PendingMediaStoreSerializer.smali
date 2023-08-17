@@ -565,7 +565,6 @@
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_1
     .catch Ljava/io/FileNotFoundException; {:try_start_2 .. :try_end_2} :catch_4
-    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_3
     .catch Ljava/lang/RuntimeException; {:try_start_2 .. :try_end_2} :catch_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -587,7 +586,6 @@
     goto :goto_1
     :try_end_3
     .catch Ljava/io/FileNotFoundException; {:try_start_3 .. :try_end_3} :catch_0
-    .catch Ljava/io/FileNotFoundException; {:try_start_3 .. :try_end_3} :catch_4
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_3
     .catch Ljava/lang/RuntimeException; {:try_start_3 .. :try_end_3} :catch_2
     .catchall {:try_start_3 .. :try_end_3} :catchall_0

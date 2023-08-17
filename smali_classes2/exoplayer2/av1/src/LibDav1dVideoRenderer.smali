@@ -2966,7 +2966,6 @@
     iput-wide v2, v4, Lexoplayer2/av1/src/LibDav1dVideoRenderer;->A0A:J
     :try_end_1
     .catch LX/41E; {:try_start_1 .. :try_end_1} :catch_0
-    .catch LX/41E; {:try_start_1 .. :try_end_1} :catch_1
 
     .line 424
     .line 425

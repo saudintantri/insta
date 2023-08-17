@@ -46,7 +46,7 @@
 .method public final bridge synthetic AER(Landroid/content/Context;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 27
 
-    .line 2498266
+    .line 2498287
     move-object/from16 v26, p0
 
     move-object/from16 v0, v26
@@ -66,7 +66,7 @@
 
     if-ge v2, v0, :cond_56
 
-    .line 2498267
+    .line 2498288
     move-object/from16 v0, v25
 
     invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -75,60 +75,60 @@
 
     check-cast v6, LX/4Eq;
 
-    .line 2498268
+    .line 2498289
     invoke-static {}, LX/2xz;->A00()LX/2xz;
 
-    .line 2498269
+    .line 2498290
     move-object/from16 v0, v26
 
     iget-object v5, v0, LX/J4S;->A00:LX/5aw;
 
     iget-object v3, v0, LX/J4S;->A01:LX/4Eq;
 
-    .line 2498270
+    .line 2498291
     iget v1, v6, LX/4Eq;->A01:I
 
-    .line 2498271
+    .line 2498292
     invoke-static {v1}, LX/5bZ;->A04(I)Z
 
     move-result v0
 
-    .line 2498272
+    .line 2498293
     if-eqz v0, :cond_1
 
-    .line 2498273
+    .line 2498294
     move-object/from16 v4, p2
 
     check-cast v4, Landroid/view/View;
 
-    .line 2498274
+    .line 2498295
     const/16 v0, 0x3419
 
     if-ne v1, v0, :cond_3
 
-    .line 2498275
+    .line 2498296
     check-cast v4, Landroid/widget/EditText;
 
     const/16 v0, 0x23
 
-    .line 2498276
+    .line 2498297
     invoke-virtual {v6, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 2498277
+    .line 2498298
     invoke-static {v5, v6}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v6
 
     check-cast v6, LX/L8g;
 
-    .line 2498278
+    .line 2498299
     iput-object v4, v6, LX/L8g;->A03:Landroid/widget/EditText;
 
-    .line 2498279
+    .line 2498300
     iget-object v0, v6, LX/L8g;->A04:Ljava/lang/String;
 
     if-eqz v0, :cond_2
@@ -139,7 +139,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 2498280
+    .line 2498301
     :cond_0
     :goto_1
     invoke-static {v5, v3}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
@@ -148,37 +148,37 @@
 
     check-cast v1, LX/Kft;
 
-    .line 2498281
+    .line 2498302
     iget-object v0, v1, LX/Kft;->A0N:LX/L8d;
 
-    .line 2498282
+    .line 2498303
     iget-object v0, v0, LX/L8d;->A02:Ljava/util/List;
 
     invoke-interface {v0, v6}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 2498283
+    .line 2498304
     iget-object v0, v1, LX/Kft;->A0N:LX/L8d;
 
-    .line 2498284
+    .line 2498305
     iget-object v0, v0, LX/L8d;->A02:Ljava/util/List;
 
     invoke-interface {v0, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2498285
+    .line 2498306
     :cond_1
     :goto_2
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 2498286
+    .line 2498307
     :cond_2
     iput-object v1, v6, LX/L8g;->A04:Ljava/lang/String;
 
-    .line 2498287
+    .line 2498308
     invoke-static {v6}, LX/L8g;->A00(LX/L8g;)V
 
-    .line 2498288
+    .line 2498309
     iget-object v0, v6, LX/L8g;->A03:Landroid/widget/EditText;
 
     if-eqz v0, :cond_0
@@ -189,7 +189,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 2498289
+    .line 2498310
     iget-object v0, v6, LX/L8g;->A03:Landroid/widget/EditText;
 
     invoke-virtual {v0}, Landroid/widget/TextView;->getEditableText()Landroid/text/Editable;
@@ -200,13 +200,13 @@
 
     goto :goto_1
 
-    .line 2498290
+    .line 2498311
     :cond_3
     const/16 v0, 0x3401
 
     if-ne v1, v0, :cond_8
 
-    .line 2498291
+    .line 2498312
     invoke-static {v5, v6}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v1
@@ -215,7 +215,7 @@
 
     if-eqz v1, :cond_1
 
-    .line 2498292
+    .line 2498313
     invoke-virtual {v4}, Landroid/view/View;->getImportantForAccessibility()I
 
     move-result v0
@@ -224,23 +224,23 @@
 
     move-result-object v0
 
-    .line 2498293
+    .line 2498314
     iput-object v0, v1, LX/J4i;->A00:Ljava/lang/Integer;
 
-    .line 2498294
+    .line 2498315
     invoke-virtual {v4}, Landroid/view/View;->isFocusable()Z
 
     move-result v0
 
-    .line 2498295
+    .line 2498316
     iput-boolean v0, v1, LX/J4i;->A01:Z
 
-    .line 2498296
+    .line 2498317
     const/16 v0, 0x23
 
     const/4 v9, 0x1
 
-    .line 2498297
+    .line 2498318
     invoke-virtual {v6, v0, v9}, LX/4Eq;->A0F(IZ)Z
 
     move-result v0
@@ -251,7 +251,7 @@
 
     const/4 v0, 0x2
 
-    .line 2498298
+    .line 2498319
     invoke-virtual {v4, v0}, Landroid/view/View;->setImportantForAccessibility(I)V
 
     const/4 v7, 0x0
@@ -259,14 +259,14 @@
     :goto_3
     const/16 v0, 0x24
 
-    .line 2498299
+    .line 2498320
     invoke-virtual {v6, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v1
 
     const/16 v0, 0x26
 
-    .line 2498300
+    .line 2498321
     invoke-virtual {v6, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v0
@@ -283,13 +283,13 @@
 
     if-eqz v7, :cond_6
 
-    .line 2498301
+    .line 2498322
     invoke-virtual {v4, v9}, Landroid/view/View;->setImportantForAccessibility(I)V
 
-    .line 2498302
+    .line 2498323
     invoke-virtual {v4, v9}, Landroid/view/View;->setFocusable(Z)V
 
-    .line 2498303
+    .line 2498324
     :cond_6
     new-instance v0, LX/J4j;
 
@@ -299,23 +299,23 @@
 
     const/16 v0, 0x2d
 
-    .line 2498304
+    .line 2498325
     :goto_4
     invoke-virtual {v6, v0}, LX/4Eq;->A0C(I)Ljava/util/List;
 
     move-result-object v4
 
-    .line 2498305
+    .line 2498326
     if-eqz v4, :cond_1
 
-    .line 2498306
+    .line 2498327
     invoke-interface {v4}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 2498307
+    .line 2498328
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v0
@@ -328,24 +328,24 @@
 
     invoke-direct {v0, v5, v3, v4}, LX/Liw;-><init>(LX/5aw;LX/4Eq;Ljava/util/List;)V
 
-    .line 2498308
+    .line 2498329
     invoke-virtual {v1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
     goto/16 :goto_2
 
-    .line 2498309
+    .line 2498330
     :cond_7
     const/4 v7, 0x1
 
     goto :goto_3
 
-    .line 2498310
+    .line 2498331
     :cond_8
     const/16 v0, 0x36b1
 
     if-ne v1, v0, :cond_10
 
-    .line 2498311
+    .line 2498332
     invoke-static {v5, v6}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v14
@@ -354,17 +354,17 @@
 
     if-eqz v14, :cond_1
 
-    .line 2498312
+    .line 2498333
     invoke-virtual {v4}, Landroid/view/View;->getContentDescription()Ljava/lang/CharSequence;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/String;
 
-    .line 2498313
+    .line 2498334
     iput-object v0, v14, LX/KfO;->A03:Ljava/lang/String;
 
-    .line 2498314
+    .line 2498335
     invoke-virtual {v4}, Landroid/view/View;->getImportantForAccessibility()I
 
     move-result v0
@@ -373,98 +373,98 @@
 
     move-result-object v0
 
-    .line 2498315
+    .line 2498336
     iput-object v0, v14, LX/KfO;->A00:Ljava/lang/Integer;
 
-    .line 2498316
+    .line 2498337
     invoke-virtual {v4}, Landroid/view/View;->getAccessibilityLiveRegion()I
 
     move-result v0
 
-    .line 2498317
+    .line 2498338
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 2498318
+    .line 2498339
     iput-object v0, v14, LX/KfO;->A01:Ljava/lang/Integer;
 
-    .line 2498319
+    .line 2498340
     invoke-virtual {v4}, Landroid/view/View;->isFocusable()Z
 
     move-result v0
 
-    .line 2498320
+    .line 2498341
     iput-boolean v0, v14, LX/KfO;->A05:Z
 
-    .line 2498321
+    .line 2498342
     invoke-virtual {v4}, Landroid/view/View;->isSelected()Z
 
     move-result v0
 
-    .line 2498322
+    .line 2498343
     iput-boolean v0, v14, LX/KfO;->A08:Z
 
-    .line 2498323
+    .line 2498344
     invoke-virtual {v4}, Landroid/view/View;->isEnabled()Z
 
     move-result v0
 
-    .line 2498324
+    .line 2498345
     iput-boolean v0, v14, LX/KfO;->A04:Z
 
-    .line 2498325
+    .line 2498346
     invoke-static {v4}, LX/02X;->A0G(Landroid/view/View;)Z
 
     move-result v0
 
-    .line 2498326
+    .line 2498347
     iput-boolean v0, v14, LX/KfO;->A06:Z
 
-    .line 2498327
+    .line 2498348
     invoke-static {v4}, LX/02X;->A0H(Landroid/view/View;)Z
 
     move-result v0
 
-    .line 2498328
+    .line 2498349
     iput-boolean v0, v14, LX/KfO;->A07:Z
 
-    .line 2498329
+    .line 2498350
     new-instance v0, LX/JFW;
 
     invoke-direct {v0, v5, v6, v3}, LX/JFW;-><init>(LX/5aw;LX/4Eq;LX/4Eq;)V
 
     invoke-static {v4, v0}, LX/02X;->A0C(Landroid/view/View;LX/01S;)V
 
-    .line 2498330
+    .line 2498351
     iget-object v0, v14, LX/KfO;->A03:Ljava/lang/String;
 
-    .line 2498331
+    .line 2498352
     const/16 v13, 0x23
 
-    .line 2498332
+    .line 2498353
     invoke-virtual {v6, v13, v0}, LX/4Eq;->A09(ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object v12
 
-    .line 2498333
+    .line 2498354
     sget-object v1, LX/KSa;->A00:Ljava/util/Map;
 
     const/16 v0, 0x2a
 
-    .line 2498334
+    .line 2498355
     invoke-virtual {v6, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2498335
+    .line 2498356
     invoke-interface {v1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v11
 
     check-cast v11, Ljava/lang/Number;
 
-    .line 2498336
+    .line 2498357
     sget-object v1, LX/KSa;->A01:Ljava/util/Map;
 
     const/16 v0, 0x2c
@@ -481,28 +481,28 @@
 
     const/16 v1, 0x28
 
-    .line 2498337
+    .line 2498358
     iget-boolean v0, v14, LX/KfO;->A05:Z
 
-    .line 2498338
+    .line 2498359
     invoke-virtual {v6, v1, v0}, LX/4Eq;->A0F(IZ)Z
 
     move-result v22
 
     const/16 v1, 0x31
 
-    .line 2498339
+    .line 2498360
     iget-boolean v0, v14, LX/KfO;->A08:Z
 
-    .line 2498340
+    .line 2498361
     invoke-virtual {v6, v1, v0}, LX/4Eq;->A0F(IZ)Z
 
     move-result v21
 
-    .line 2498341
+    .line 2498362
     iget-boolean v1, v14, LX/KfO;->A04:Z
 
-    .line 2498342
+    .line 2498363
     const/16 v0, 0x26
 
     invoke-virtual {v6, v0, v1}, LX/4Eq;->A0F(IZ)Z
@@ -511,52 +511,52 @@
 
     const/16 v1, 0x29
 
-    .line 2498343
+    .line 2498364
     iget-boolean v0, v14, LX/KfO;->A06:Z
 
-    .line 2498344
+    .line 2498365
     invoke-virtual {v6, v1, v0}, LX/4Eq;->A0F(IZ)Z
 
     move-result v15
 
     const/16 v1, 0x30
 
-    .line 2498345
+    .line 2498366
     iget-boolean v0, v14, LX/KfO;->A07:Z
 
-    .line 2498346
+    .line 2498367
     invoke-virtual {v6, v1, v0}, LX/4Eq;->A0F(IZ)Z
 
     move-result v19
 
-    .line 2498347
+    .line 2498368
     const/16 v1, 0x2b
 
-    .line 2498348
+    .line 2498369
     iget-object v0, v6, LX/4Eq;->A02:Landroid/util/SparseArray;
 
     invoke-virtual {v0, v1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v9
 
-    .line 2498349
+    .line 2498370
     const/16 v0, 0x37
 
-    .line 2498350
+    .line 2498371
     invoke-virtual {v6, v0}, LX/4Eq;->A0C(I)Ljava/util/List;
 
     move-result-object v1
 
     if-eqz v1, :cond_a
 
-    .line 2498351
+    .line 2498372
     invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_a
 
-    .line 2498352
+    .line 2498373
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v18
@@ -573,24 +573,24 @@
 
     move-result-object v1
 
-    .line 2498353
+    .line 2498374
     check-cast v1, LX/4Eq;
 
-    .line 2498354
+    .line 2498375
     invoke-virtual {v1, v13}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v7
 
     const/16 v0, 0x26
 
-    .line 2498355
+    .line 2498376
     invoke-virtual {v1, v0}, LX/4Eq;->A06(I)LX/5CX;
 
     move-result-object v17
 
     if-eqz v7, :cond_9
 
-    .line 2498356
+    .line 2498377
     sget-object v1, LX/JFW;->A05:Ljava/util/Map;
 
     invoke-interface {v1, v7}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -599,7 +599,7 @@
 
     if-eqz v0, :cond_9
 
-    .line 2498357
+    .line 2498378
     invoke-interface {v1, v7}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -610,7 +610,7 @@
 
     move-result v8
 
-    .line 2498358
+    .line 2498379
     const-string v0, "click"
 
     invoke-interface {v1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -625,7 +625,7 @@
 
     move-result v7
 
-    .line 2498359
+    .line 2498380
     const-string v0, "long_click"
 
     invoke-interface {v1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -644,15 +644,15 @@
 
     if-eq v8, v7, :cond_9
 
-    .line 2498360
+    .line 2498381
     if-ne v8, v1, :cond_9
 
     if-eqz v17, :cond_9
 
-    .line 2498361
+    .line 2498382
     iput-boolean v0, v14, LX/KfO;->A09:Z
 
-    .line 2498362
+    .line 2498383
     new-instance v0, LX/L9T;
 
     invoke-direct {v0, v1}, LX/L9T;-><init>(I)V
@@ -661,27 +661,27 @@
 
     goto :goto_5
 
-    .line 2498363
+    .line 2498384
     :cond_a
     iget-object v1, v14, LX/KfO;->A02:Ljava/lang/String;
 
-    .line 2498364
+    .line 2498385
     invoke-virtual {v4, v12}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
 
-    .line 2498365
+    .line 2498386
     iput-object v12, v14, LX/KfO;->A02:Ljava/lang/String;
 
-    .line 2498366
+    .line 2498387
     if-eqz v10, :cond_b
 
-    .line 2498367
+    .line 2498388
     invoke-virtual {v10}, Ljava/lang/Number;->intValue()I
 
     move-result v0
 
     if-nez v0, :cond_c
 
-    .line 2498368
+    .line 2498389
     :cond_b
     invoke-static {v12}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -689,86 +689,86 @@
 
     if-nez v0, :cond_c
 
-    .line 2498369
+    .line 2498390
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_c
 
-    .line 2498370
+    .line 2498391
     invoke-virtual {v12, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-nez v0, :cond_c
 
-    .line 2498371
+    .line 2498392
     invoke-virtual {v4}, Landroid/view/View;->isAccessibilityFocused()Z
 
     move-result v0
 
     if-eqz v0, :cond_c
 
-    .line 2498372
+    .line 2498393
     invoke-static {}, Landroid/view/accessibility/AccessibilityEvent;->obtain()Landroid/view/accessibility/AccessibilityEvent;
 
     move-result-object v1
 
     const/16 v0, 0x800
 
-    .line 2498373
+    .line 2498394
     invoke-virtual {v1, v0}, Landroid/view/accessibility/AccessibilityEvent;->setEventType(I)V
 
     const/4 v0, 0x4
 
-    .line 2498374
+    .line 2498395
     invoke-virtual {v1, v0}, Landroid/view/accessibility/AccessibilityEvent;->setContentChangeTypes(I)V
 
-    .line 2498375
+    .line 2498396
     invoke-virtual {v1, v12}, Landroid/view/accessibility/AccessibilityRecord;->setContentDescription(Ljava/lang/CharSequence;)V
 
-    .line 2498376
+    .line 2498397
     invoke-virtual {v4, v1}, Landroid/view/View;->sendAccessibilityEventUnchecked(Landroid/view/accessibility/AccessibilityEvent;)V
 
-    .line 2498377
+    .line 2498398
     :cond_c
     if-nez v11, :cond_d
 
-    .line 2498378
+    .line 2498399
     iget-object v11, v14, LX/KfO;->A00:Ljava/lang/Integer;
 
-    .line 2498379
+    .line 2498400
     :cond_d
     invoke-virtual {v11}, Ljava/lang/Number;->intValue()I
 
     move-result v0
 
-    .line 2498380
+    .line 2498401
     invoke-virtual {v4, v0}, Landroid/view/View;->setImportantForAccessibility(I)V
 
     if-nez v10, :cond_e
 
-    .line 2498381
+    .line 2498402
     iget-object v10, v14, LX/KfO;->A01:Ljava/lang/Integer;
 
-    .line 2498382
+    .line 2498403
     :cond_e
     invoke-virtual {v10}, Ljava/lang/Number;->intValue()I
 
     move-result v0
 
-    .line 2498383
+    .line 2498404
     invoke-virtual {v4, v0}, Landroid/view/View;->setAccessibilityLiveRegion(I)V
 
-    .line 2498384
+    .line 2498405
     move/from16 v0, v22
 
     invoke-virtual {v4, v0}, Landroid/view/View;->setFocusable(Z)V
 
     if-eqz v9, :cond_f
 
-    .line 2498385
+    .line 2498406
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v0
@@ -781,47 +781,47 @@
 
     invoke-direct {v0, v4, v5, v9}, LX/Lix;-><init>(Landroid/view/View;LX/5aw;Ljava/lang/Object;)V
 
-    .line 2498386
+    .line 2498407
     invoke-virtual {v1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2498387
+    .line 2498408
     :cond_f
     move/from16 v0, v21
 
     invoke-virtual {v4, v0}, Landroid/view/View;->setSelected(Z)V
 
-    .line 2498388
+    .line 2498409
     move/from16 v0, v20
 
     invoke-virtual {v4, v0}, Landroid/view/View;->setEnabled(Z)V
 
-    .line 2498389
+    .line 2498410
     invoke-static {v4, v15}, LX/02X;->A0F(Landroid/view/View;Z)V
 
-    .line 2498390
+    .line 2498411
     new-instance v1, LX/075;
 
     invoke-direct {v1}, LX/075;-><init>()V
 
-    .line 2498391
+    .line 2498412
     invoke-static/range {v19 .. v19}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v0
 
     invoke-virtual {v1, v4, v0}, LX/02G;->A02(Landroid/view/View;Ljava/lang/Object;)V
 
-    .line 2498392
+    .line 2498413
     const/16 v0, 0x38
 
     goto/16 :goto_4
 
-    .line 2498393
+    .line 2498414
     :cond_10
     const/16 v0, 0x3578
 
     if-ne v1, v0, :cond_11
 
-    .line 2498394
+    .line 2498415
     invoke-static {v5, v6}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v5
@@ -834,19 +834,19 @@
 
     const-string v0, "Null controller while binding ViewTransformsExtension"
 
-    .line 2498395
+    .line 2498416
     :goto_6
     invoke-static {v5, v0}, LX/2Xm;->A02(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_2
 
-    .line 2498396
+    .line 2498417
     :cond_11
     const/16 v0, 0x3558
 
     if-ne v1, v0, :cond_12
 
-    .line 2498397
+    .line 2498418
     const/4 v0, 0x0
 
     invoke-static {v4, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
@@ -855,20 +855,20 @@
 
     invoke-static {v5, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2498398
+    .line 2498419
     const v1, 0x7f0a04ae
 
-    .line 2498399
+    .line 2498420
     iget-object v0, v5, LX/5aw;->A01:Landroid/util/SparseArray;
 
     invoke-virtual {v0, v1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 2498400
+    .line 2498421
     check-cast v0, Ljava/lang/Runnable;
 
-    .line 2498401
+    .line 2498422
     new-instance v1, LX/FRk;
 
     move-object v7, v1
@@ -885,23 +885,23 @@
 
     invoke-direct/range {v7 .. v12}, LX/FRk;-><init>(Landroid/view/View;LX/5aw;LX/4Eq;LX/4Eq;Ljava/lang/Runnable;)V
 
-    .line 2498402
+    .line 2498423
     const v0, 0x7f0a2663
 
     invoke-virtual {v4, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
-    .line 2498403
+    .line 2498424
     invoke-virtual {v4, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     goto/16 :goto_2
 
-    .line 2498404
+    .line 2498425
     :cond_12
     const/16 v0, 0x4091
 
     if-ne v1, v0, :cond_13
 
-    .line 2498405
+    .line 2498426
     const/4 v0, 0x0
 
     invoke-static {v4, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
@@ -910,20 +910,20 @@
 
     invoke-static {v5, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2498406
+    .line 2498427
     const v1, 0x7f0a04ae
 
-    .line 2498407
+    .line 2498428
     iget-object v0, v5, LX/5aw;->A01:Landroid/util/SparseArray;
 
     invoke-virtual {v0, v1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v7
 
-    .line 2498408
+    .line 2498429
     check-cast v7, Ljava/lang/Runnable;
 
-    .line 2498409
+    .line 2498430
     invoke-static {v5, v6}, LX/5ar;->A05(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v1
@@ -932,7 +932,7 @@
 
     check-cast v1, LX/EAC;
 
-    .line 2498410
+    .line 2498431
     new-instance v0, LX/FRl;
 
     move-object v8, v0
@@ -949,160 +949,160 @@
 
     invoke-direct/range {v8 .. v13}, LX/FRl;-><init>(LX/5aw;LX/4Eq;LX/4Eq;LX/EAC;Ljava/lang/Runnable;)V
 
-    .line 2498411
+    .line 2498432
     iput-object v0, v1, LX/EAC;->A00:Ljava/lang/Runnable;
 
-    .line 2498412
+    .line 2498433
     invoke-virtual {v4, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     goto/16 :goto_2
 
-    .line 2498413
+    .line 2498434
     :cond_13
     const/16 v0, 0x34fe
 
     if-ne v1, v0, :cond_14
 
-    .line 2498414
+    .line 2498435
     const v1, 0x7f0a2f2f
 
     const/16 v0, 0x23
 
-    .line 2498415
+    .line 2498436
     invoke-virtual {v6, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2498416
+    .line 2498437
     invoke-virtual {v4, v1, v0}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
     goto/16 :goto_2
 
-    .line 2498417
+    .line 2498438
     :cond_14
     const/16 v0, 0x3fb6
 
     if-ne v1, v0, :cond_18
 
-    .line 2498418
+    .line 2498439
     invoke-static {v5, v6}, LX/5ar;->A05(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v8
 
     check-cast v8, LX/KjM;
 
-    .line 2498419
+    .line 2498440
     sget-object v1, LX/Axn;->A00:Landroid/os/Handler;
 
-    .line 2498420
+    .line 2498441
     iget-object v0, v8, LX/KjM;->A02:Ljava/lang/Runnable;
 
-    .line 2498421
+    .line 2498442
     invoke-virtual {v1, v0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 2498422
+    .line 2498443
     const/16 v1, 0x29
 
-    .line 2498423
+    .line 2498444
     iget-object v0, v6, LX/4Eq;->A02:Landroid/util/SparseArray;
 
     invoke-virtual {v0, v1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v7
 
-    .line 2498424
+    .line 2498445
     const/4 v4, 0x1
 
     const/16 v0, 0x2a
 
-    .line 2498425
+    .line 2498446
     invoke-virtual {v6, v0, v4}, LX/4Eq;->A0F(IZ)Z
 
     move-result v1
 
-    .line 2498426
+    .line 2498447
     iget-boolean v0, v8, LX/KjM;->A01:Z
 
-    .line 2498427
+    .line 2498448
     const/4 v9, 0x0
 
     if-nez v0, :cond_15
 
     if-eqz v1, :cond_17
 
-    .line 2498428
+    .line 2498449
     :cond_15
     iget-object v0, v8, LX/KjM;->A00:Ljava/lang/Object;
 
-    .line 2498429
+    .line 2498450
     invoke-static {v7, v0}, LX/7Yn;->A00(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
     if-nez v0, :cond_17
 
-    .line 2498430
+    .line 2498451
     invoke-virtual {v8}, LX/KjM;->A00()V
 
     const/16 v0, 0x23
 
-    .line 2498431
+    .line 2498452
     invoke-virtual {v6, v0}, LX/4Eq;->A06(I)LX/5CX;
 
     move-result-object v3
 
     if-eqz v3, :cond_16
 
-    .line 2498432
+    .line 2498453
     new-instance v1, LX/4bJ;
 
     invoke-direct {v1}, LX/4bJ;-><init>()V
 
-    .line 2498433
+    .line 2498454
     invoke-virtual {v1, v5, v9}, LX/4bJ;->A01(Ljava/lang/Object;I)V
 
-    .line 2498434
+    .line 2498455
     iget-object v0, v8, LX/KjM;->A00:Ljava/lang/Object;
 
-    .line 2498435
+    .line 2498456
     invoke-virtual {v1, v0, v4}, LX/4bJ;->A01(Ljava/lang/Object;I)V
 
     const/4 v0, 0x2
 
-    .line 2498436
+    .line 2498457
     invoke-virtual {v1, v7, v0}, LX/4bJ;->A01(Ljava/lang/Object;I)V
 
-    .line 2498437
+    .line 2498458
     invoke-virtual {v1}, LX/4bJ;->A00()LX/7vA;
 
     move-result-object v0
 
-    .line 2498438
+    .line 2498459
     invoke-static {v5, v6, v0, v3}, LX/5b5;->A03(LX/5aw;LX/4Eq;LX/7vA;LX/5CX;)Ljava/lang/Object;
 
-    .line 2498439
+    .line 2498460
     :cond_16
     iput-object v7, v8, LX/KjM;->A00:Ljava/lang/Object;
 
-    .line 2498440
+    .line 2498461
     :cond_17
     iput-boolean v4, v8, LX/KjM;->A01:Z
 
-    .line 2498441
+    .line 2498462
     goto/16 :goto_2
 
-    .line 2498442
+    .line 2498463
     :cond_18
     const/16 v0, 0x3dd9
 
     if-ne v1, v0, :cond_19
 
-    .line 2498443
+    .line 2498464
     new-instance v8, LX/Kif;
 
     invoke-direct {v8, v4}, LX/Kif;-><init>(Landroid/view/View;)V
 
-    .line 2498444
+    .line 2498465
     new-instance v7, LX/J9o;
 
     move-object v9, v7
@@ -1119,29 +1119,29 @@
 
     invoke-direct/range {v9 .. v14}, LX/J9o;-><init>(Landroid/view/View;LX/Kif;LX/5aw;LX/4Eq;LX/4Eq;)V
 
-    .line 2498445
+    .line 2498466
     iget-object v0, v5, LX/5aw;->A00:Landroid/content/Context;
 
-    .line 2498446
+    .line 2498467
     new-instance v3, Landroid/view/GestureDetector;
 
     invoke-direct {v3, v0, v7}, Landroid/view/GestureDetector;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
 
-    .line 2498447
+    .line 2498468
     new-instance v1, Landroid/view/ScaleGestureDetector;
 
     invoke-direct {v1, v0, v7}, Landroid/view/ScaleGestureDetector;-><init>(Landroid/content/Context;Landroid/view/ScaleGestureDetector$OnScaleGestureListener;)V
 
-    .line 2498448
+    .line 2498469
     const/4 v0, 0x0
 
-    .line 2498449
+    .line 2498470
     invoke-virtual {v1, v0}, Landroid/view/ScaleGestureDetector;->setQuickScaleEnabled(Z)V
 
-    .line 2498450
+    .line 2498471
     invoke-virtual {v1, v0}, Landroid/view/ScaleGestureDetector;->setStylusScaleEnabled(Z)V
 
-    .line 2498451
+    .line 2498472
     new-instance v0, LX/L9s;
 
     invoke-direct {v0, v3, v1, v8, v7}, LX/L9s;-><init>(Landroid/view/GestureDetector;Landroid/view/ScaleGestureDetector;LX/Kif;LX/J9o;)V
@@ -1150,13 +1150,13 @@
 
     goto/16 :goto_2
 
-    .line 2498452
+    .line 2498473
     :cond_19
     const/16 v0, 0x35ce
 
     if-ne v1, v0, :cond_1a
 
-    .line 2498453
+    .line 2498474
     invoke-static {v5, v6}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v7
@@ -1165,182 +1165,182 @@
 
     if-eqz v7, :cond_1
 
-    .line 2498454
+    .line 2498475
     iget-object v0, v7, LX/KX2;->A00:LX/LA1;
 
-    .line 2498455
+    .line 2498476
     if-nez v0, :cond_1
 
-    .line 2498456
+    .line 2498477
     invoke-virtual {v4}, Landroid/view/View;->getRootView()Landroid/view/View;
 
     move-result-object v1
 
-    .line 2498457
+    .line 2498478
     iget-boolean v0, v7, LX/KX2;->A01:Z
 
-    .line 2498458
+    .line 2498479
     new-instance v4, LX/LA1;
 
     invoke-direct {v4, v1, v0}, LX/LA1;-><init>(Landroid/view/View;Z)V
 
-    .line 2498459
+    .line 2498480
     new-instance v1, LX/Ka6;
 
     invoke-direct {v1, v5, v6, v3}, LX/Ka6;-><init>(LX/5aw;LX/4Eq;LX/4Eq;)V
 
-    .line 2498460
+    .line 2498481
     iget-object v0, v4, LX/LA1;->A03:Ljava/util/List;
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2498461
+    .line 2498482
     iput-object v4, v7, LX/KX2;->A00:LX/LA1;
 
     goto/16 :goto_2
 
-    .line 2498462
+    .line 2498483
     :cond_1a
     const/16 v0, 0x365a
 
     if-ne v1, v0, :cond_1c
 
-    .line 2498463
+    .line 2498484
     invoke-static {v5, v6}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, LX/KTQ;
 
-    .line 2498464
+    .line 2498485
     iget-boolean v0, v1, LX/KTQ;->A00:Z
 
-    .line 2498465
+    .line 2498486
     const/4 v7, 0x0
 
     const/4 v4, 0x1
 
     if-nez v0, :cond_1b
 
-    .line 2498466
+    .line 2498487
     iput-boolean v4, v1, LX/KTQ;->A00:Z
 
-    .line 2498467
+    .line 2498488
     const/16 v0, 0x29
 
-    .line 2498468
+    .line 2498489
     invoke-virtual {v6, v0}, LX/4Eq;->A06(I)LX/5CX;
 
     move-result-object v1
 
     if-eqz v1, :cond_1b
 
-    .line 2498469
+    .line 2498490
     new-instance v0, LX/4bJ;
 
     invoke-direct {v0}, LX/4bJ;-><init>()V
 
-    .line 2498470
+    .line 2498491
     invoke-virtual {v0, v3, v7}, LX/4bJ;->A02(Ljava/lang/Object;I)V
 
-    .line 2498471
+    .line 2498492
     invoke-virtual {v0, v5, v4}, LX/4bJ;->A02(Ljava/lang/Object;I)V
 
-    .line 2498472
+    .line 2498493
     invoke-virtual {v0}, LX/4bJ;->A00()LX/7vA;
 
     move-result-object v0
 
-    .line 2498473
+    .line 2498494
     invoke-static {v5, v6, v0, v1}, LX/5b5;->A03(LX/5aw;LX/4Eq;LX/7vA;LX/5CX;)Ljava/lang/Object;
 
     :cond_1b
     const/16 v0, 0x2a
 
-    .line 2498474
+    .line 2498495
     invoke-virtual {v6, v0}, LX/4Eq;->A06(I)LX/5CX;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 2498475
+    .line 2498496
     new-instance v0, LX/4bJ;
 
     invoke-direct {v0}, LX/4bJ;-><init>()V
 
-    .line 2498476
+    .line 2498497
     invoke-virtual {v0, v3, v7}, LX/4bJ;->A02(Ljava/lang/Object;I)V
 
-    .line 2498477
+    .line 2498498
     invoke-virtual {v0, v5, v4}, LX/4bJ;->A02(Ljava/lang/Object;I)V
 
-    .line 2498478
+    .line 2498499
     invoke-virtual {v0}, LX/4bJ;->A00()LX/7vA;
 
     move-result-object v0
 
-    .line 2498479
+    .line 2498500
     invoke-static {v5, v6, v0, v1}, LX/5b5;->A03(LX/5aw;LX/4Eq;LX/7vA;LX/5CX;)Ljava/lang/Object;
 
     goto/16 :goto_2
 
-    .line 2498480
+    .line 2498501
     :cond_1c
     const/16 v0, 0x369d
 
     if-ne v1, v0, :cond_1d
 
-    .line 2498481
+    .line 2498502
     new-instance v0, LX/Enf;
 
-    .line 2498482
+    .line 2498503
     invoke-direct {v0, v5, v6, v3}, LX/Enf;-><init>(LX/5aw;LX/4Eq;LX/4Eq;)V
 
-    .line 2498483
+    .line 2498504
     invoke-virtual {v4, v0}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     goto/16 :goto_2
 
-    .line 2498484
+    .line 2498505
     :cond_1d
     const/16 v0, 0x35c8
 
     if-ne v1, v0, :cond_20
 
-    .line 2498485
+    .line 2498506
     instance-of v0, v4, Landroid/widget/EditText;
 
     if-eqz v0, :cond_52
 
-    .line 2498486
+    .line 2498507
     check-cast v4, Landroid/widget/EditText;
 
     const/16 v0, 0x23
 
-    .line 2498487
+    .line 2498508
     invoke-virtual {v6, v0}, LX/4Eq;->A06(I)LX/5CX;
 
     move-result-object v13
 
-    .line 2498488
+    .line 2498509
     iget v1, v3, LX/4Eq;->A01:I
 
-    .line 2498489
+    .line 2498510
     const/16 v0, 0x3418
 
     if-ne v1, v0, :cond_1e
 
     if-eqz v13, :cond_1e
 
-    .line 2498490
+    .line 2498511
     invoke-static {v5, v3}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, LX/Kft;
 
-    .line 2498491
+    .line 2498512
     new-instance v8, LX/FRh;
 
     move-object v9, v4
@@ -1353,7 +1353,7 @@
 
     invoke-direct/range {v8 .. v13}, LX/FRh;-><init>(Landroid/widget/EditText;LX/5aw;LX/Kft;LX/4Eq;LX/5CX;)V
 
-    .line 2498492
+    .line 2498513
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v7
@@ -1370,22 +1370,22 @@
 
     if-ne v7, v0, :cond_1f
 
-    .line 2498493
+    .line 2498514
     invoke-interface {v8}, Ljava/lang/Runnable;->run()V
 
-    .line 2498494
+    .line 2498515
     :cond_1e
     :goto_7
     const/16 v0, 0x24
 
-    .line 2498495
+    .line 2498516
     invoke-virtual {v6, v0}, LX/4Eq;->A06(I)LX/5CX;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 2498496
+    .line 2498517
     invoke-static {v5, v6}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v6
@@ -1400,19 +1400,19 @@
 
     goto/16 :goto_6
 
-    .line 2498497
+    .line 2498518
     :cond_1f
     invoke-virtual {v1, v8}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_7
 
-    .line 2498498
+    .line 2498519
     :cond_20
     const/16 v0, 0x3e25
 
     if-ne v1, v0, :cond_23
 
-    .line 2498499
+    .line 2498520
     const/4 v0, 0x0
 
     invoke-static {v4, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
@@ -1421,12 +1421,12 @@
 
     invoke-static {v5, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2498500
+    .line 2498521
     invoke-static {v5}, LX/5cs;->A0B(LX/5aw;)LX/0SF;
 
     move-result-object v1
 
-    .line 2498501
+    .line 2498522
     invoke-interface {v1}, LX/0SF;->isLoggedIn()Z
 
     move-result v0
@@ -1435,19 +1435,19 @@
 
     if-eqz v0, :cond_26
 
-    .line 2498502
+    .line 2498523
     const/4 v0, -0x1
 
     const/16 v8, 0x23
 
-    .line 2498503
+    .line 2498524
     invoke-virtual {v6, v8, v0}, LX/4Eq;->A02(II)I
 
     move-result v7
 
     if-eq v7, v0, :cond_25
 
-    .line 2498504
+    .line 2498525
     invoke-static {v1}, LX/0x7;->A02(LX/0SF;)Lcom/instagram/service/session/UserSession;
 
     move-result-object v10
@@ -1456,7 +1456,7 @@
 
     const/16 v9, 0x28
 
-    .line 2498505
+    .line 2498526
     invoke-virtual {v6, v9}, LX/4Eq;->A05(I)LX/4Eq;
 
     move-result-object v1
@@ -1467,35 +1467,35 @@
 
     goto/16 :goto_6
 
-    .line 2498506
+    .line 2498527
     :cond_21
     const/16 v0, 0x29
 
-    .line 2498507
+    .line 2498528
     invoke-virtual {v1, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v18
 
     const/16 v0, 0x24
 
-    .line 2498508
+    .line 2498529
     invoke-virtual {v1, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 2498509
+    .line 2498530
     invoke-virtual {v1, v9}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v11
 
     const/16 v0, 0x26
 
-    .line 2498510
+    .line 2498531
     invoke-virtual {v1, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v22
 
-    .line 2498511
+    .line 2498532
     invoke-virtual {v1, v8}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v24
@@ -1510,17 +1510,17 @@
 
     int-to-long v0, v7
 
-    .line 2498512
+    .line 2498533
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v9
 
-    .line 2498513
+    .line 2498534
     invoke-static {}, LX/2A4;->values()[LX/2A4;
 
     move-result-object v8
 
-    .line 2498514
+    .line 2498535
     array-length v7, v8
 
     const/4 v6, 0x0
@@ -1530,14 +1530,14 @@
 
     aget-object v5, v8, v6
 
-    .line 2498515
+    .line 2498536
     iget-wide v0, v5, LX/2A4;->A00:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
 
-    .line 2498516
+    .line 2498537
     invoke-static {v0, v9}, LX/02K;->A0H(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
@@ -1548,7 +1548,7 @@
 
     goto :goto_8
 
-    .line 2498517
+    .line 2498538
     :cond_22
     const-string v17, "Attempt to onAutomatedLoggingExtension with one of those values null productId: "
 
@@ -1566,13 +1566,13 @@
 
     goto/16 :goto_6
 
-    .line 2498518
+    .line 2498539
     :cond_23
     const/16 v0, 0x406d
 
     if-ne v1, v0, :cond_27
 
-    .line 2498519
+    .line 2498540
     invoke-static {v5}, LX/5cs;->A0B(LX/5aw;)LX/0SF;
 
     move-result-object v0
@@ -1585,32 +1585,32 @@
 
     if-eqz v12, :cond_26
 
-    .line 2498520
+    .line 2498541
     const/16 v0, 0x23
 
     const/4 v1, -0x1
 
-    .line 2498521
+    .line 2498542
     invoke-virtual {v6, v0, v1}, LX/4Eq;->A02(II)I
 
     move-result v0
 
     if-eq v0, v1, :cond_25
 
-    .line 2498522
+    .line 2498543
     int-to-long v6, v0
 
-    .line 2498523
+    .line 2498544
     new-instance v11, Ljava/util/HashMap;
 
     invoke-direct {v11}, Ljava/util/HashMap;-><init>()V
 
-    .line 2498524
+    .line 2498545
     invoke-static {}, LX/2A4;->values()[LX/2A4;
 
     move-result-object v10
 
-    .line 2498525
+    .line 2498546
     array-length v9, v10
 
     const/4 v8, 0x0
@@ -1620,21 +1620,21 @@
 
     aget-object v3, v10, v8
 
-    .line 2498526
+    .line 2498547
     iget-wide v0, v3, LX/2A4;->A00:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
 
-    .line 2498527
+    .line 2498548
     invoke-virtual {v11, v0, v3}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v8, v8, 0x1
 
     goto :goto_9
 
-    .line 2498528
+    .line 2498549
     :cond_24
     invoke-static {v6, v7}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -1646,35 +1646,35 @@
 
     check-cast v1, LX/2A4;
 
-    .line 2498529
+    .line 2498550
     if-nez v1, :cond_33
 
     const-string v0, "Attempt to reportMediaMetricForView without an extraTrackingNode."
 
     goto/16 :goto_6
 
-    .line 2498530
+    .line 2498551
     :cond_25
     const-string v0, "Attempt to reportMediaMetricForView without a nodeType."
 
     goto/16 :goto_6
 
-    .line 2498531
+    .line 2498552
     :cond_26
     const-string v0, "Attempt to reportMediaMetricForView without a userSession."
 
     goto/16 :goto_6
 
-    .line 2498532
+    .line 2498553
     :cond_27
     const/16 v0, 0x35c2
 
     if-ne v1, v0, :cond_28
 
-    .line 2498533
+    .line 2498554
     iget v1, v3, LX/4Eq;->A01:I
 
-    .line 2498534
+    .line 2498555
     const/16 v0, 0x340b
 
     if-eq v1, v0, :cond_34
@@ -1683,21 +1683,21 @@
 
     const-string v0, "bk.components.AvatarImageExtension should only be used for image components"
 
-    .line 2498535
+    .line 2498556
     invoke-static {v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     goto/16 :goto_2
 
-    .line 2498536
+    .line 2498557
     :cond_28
     const/16 v0, 0x3efb
 
     if-ne v1, v0, :cond_29
 
-    .line 2498537
+    .line 2498558
     sput-object v3, LX/KIm;->A02:LX/4Eq;
 
-    .line 2498538
+    .line 2498559
     invoke-static {v5, v6}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v0
@@ -1706,7 +1706,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 2498539
+    .line 2498560
     iget-object v0, v0, LX/KTL;->A00:LX/4Mk;
 
     check-cast v4, Landroidx/recyclerview/widget/RecyclerView;
@@ -1715,18 +1715,18 @@
 
     goto/16 :goto_2
 
-    .line 2498540
+    .line 2498561
     :cond_29
     const/16 v0, 0x4019
 
     if-ne v1, v0, :cond_2a
 
-    .line 2498541
+    .line 2498562
     const/4 v0, 0x1
 
     invoke-static {v5, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2498542
+    .line 2498563
     invoke-static {v5, v6}, LX/5ar;->A05(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v0
@@ -1735,18 +1735,18 @@
 
     check-cast v0, LX/7qy;
 
-    .line 2498543
+    .line 2498564
     invoke-virtual {v0}, LX/7qy;->A00()V
 
     goto/16 :goto_2
 
-    .line 2498544
+    .line 2498565
     :cond_2a
     const/16 v0, 0x4065
 
     if-ne v1, v0, :cond_2c
 
-    .line 2498545
+    .line 2498566
     const/4 v0, 0x0
 
     invoke-static {v4, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
@@ -1755,22 +1755,22 @@
 
     invoke-static {v5, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2498546
+    .line 2498567
     const/16 v1, 0x23
 
     const/4 v0, -0x1
 
-    .line 2498547
+    .line 2498568
     invoke-virtual {v6, v1, v0}, LX/4Eq;->A02(II)I
 
     move-result v8
 
-    .line 2498548
+    .line 2498569
     invoke-static {}, LX/2A4;->values()[LX/2A4;
 
     move-result-object v7
 
-    .line 2498549
+    .line 2498570
     array-length v6, v7
 
     const/4 v3, 0x0
@@ -1780,7 +1780,7 @@
 
     aget-object v1, v7, v3
 
-    .line 2498550
+    .line 2498571
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -1791,10 +1791,10 @@
 
     if-eqz v0, :cond_2b
 
-    .line 2498551
+    .line 2498572
     iget-object v0, v5, LX/5aw;->A02:LX/14P;
 
-    .line 2498552
+    .line 2498573
     check-cast v0, LX/14O;
 
     invoke-virtual {v0}, LX/14O;->A06()LX/0SF;
@@ -1803,36 +1803,36 @@
 
     invoke-static {v0}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 2498553
+    .line 2498574
     invoke-static {v0}, LX/2jT;->A00(LX/0SF;)LX/2jT;
 
     move-result-object v0
 
     invoke-static {v0}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 2498554
+    .line 2498575
     invoke-virtual {v0, v4, v1}, LX/2jT;->A06(Landroid/view/View;LX/2A4;)V
 
     goto/16 :goto_2
 
-    .line 2498555
+    .line 2498576
     :cond_2b
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_a
 
-    .line 2498556
+    .line 2498577
     :cond_2c
     const/16 v0, 0x3ff7
 
     if-ne v1, v0, :cond_2d
 
-    .line 2498557
+    .line 2498578
     const v1, 0x7f0a2d7c
 
     const-class v0, LX/Ka3;
 
-    .line 2498558
+    .line 2498579
     invoke-static {v5, v0, v1}, LX/5cs;->A0I(LX/5aw;Ljava/lang/Class;I)Ljava/lang/Object;
 
     move-result-object v4
@@ -1841,7 +1841,7 @@
 
     const/16 v0, 0x23
 
-    .line 2498559
+    .line 2498580
     invoke-virtual {v6, v0}, LX/4Eq;->A06(I)LX/5CX;
 
     move-result-object v3
@@ -1850,47 +1850,47 @@
 
     if-eqz v3, :cond_1
 
-    .line 2498560
+    .line 2498581
     const/4 v0, 0x5
 
     new-instance v1, Lcom/facebook/redex/AnonCListenerShape17S0300000_I1_12;
 
     invoke-direct {v1, v5, v6, v3, v0}, Lcom/facebook/redex/AnonCListenerShape17S0300000_I1_12;-><init>(LX/5aw;LX/4Eq;LX/5CX;I)V
 
-    .line 2498561
+    .line 2498582
     iget-object v0, v4, LX/Ka3;->A00:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2498562
+    .line 2498583
     iget-object v0, v4, LX/Ka3;->A02:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2498563
+    .line 2498584
     iget-object v0, v4, LX/Ka3;->A01:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     goto/16 :goto_2
 
-    .line 2498564
+    .line 2498585
     :cond_2d
     const/16 v0, 0x4083
 
     if-ne v1, v0, :cond_37
 
-    .line 2498565
+    .line 2498586
     const/4 v0, 0x0
 
     invoke-static {v4, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2498566
+    .line 2498587
     const/high16 v1, -0x80000000
 
     const/16 v0, 0x23
 
-    .line 2498567
+    .line 2498588
     invoke-virtual {v6, v0, v1}, LX/4Eq;->A02(II)I
 
     move-result v0
@@ -1903,35 +1903,35 @@
 
     goto/16 :goto_6
 
-    .line 2498568
+    .line 2498589
     :cond_2e
     iput-object v4, v5, LX/8Mr;->A08:Landroid/view/View;
 
-    .line 2498569
+    .line 2498590
     iget v0, v5, LX/8Mr;->A00:F
 
-    .line 2498570
+    .line 2498591
     invoke-virtual {v4, v0}, Landroid/view/View;->setAlpha(F)V
 
-    .line 2498571
+    .line 2498592
     iget v0, v5, LX/8Mr;->A03:F
 
-    .line 2498572
+    .line 2498593
     invoke-virtual {v4, v0}, Landroid/view/View;->setRotation(F)V
 
-    .line 2498573
+    .line 2498594
     iget v0, v5, LX/8Mr;->A04:F
 
-    .line 2498574
+    .line 2498595
     invoke-virtual {v4, v0}, Landroid/view/View;->setScaleX(F)V
 
-    .line 2498575
+    .line 2498596
     iget v0, v5, LX/8Mr;->A05:F
 
-    .line 2498576
+    .line 2498597
     invoke-virtual {v4, v0}, Landroid/view/View;->setScaleY(F)V
 
-    .line 2498577
+    .line 2498598
     invoke-virtual {v4}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
     move-result-object v3
@@ -1942,25 +1942,25 @@
 
     invoke-direct {v0, v1, v4, v5}, Lcom/facebook/redex/IDxDListenerShape130S0200000_2_I1;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2498578
+    .line 2498599
     invoke-virtual {v3, v0}, Landroid/view/ViewTreeObserver;->addOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
 
     goto/16 :goto_2
 
-    .line 2498579
+    .line 2498600
     :cond_2f
     iput-object v3, v6, LX/Hm4;->A02:LX/4Eq;
 
-    .line 2498580
+    .line 2498601
     iput-object v4, v6, LX/Hm4;->A00:Landroid/widget/EditText;
 
-    .line 2498581
+    .line 2498602
     iput-object v0, v6, LX/Hm4;->A03:LX/5CX;
 
-    .line 2498582
+    .line 2498603
     iput-object v5, v6, LX/Hm4;->A01:LX/5aw;
 
-    .line 2498583
+    .line 2498604
     invoke-static {v5, v3}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v1
@@ -1969,31 +1969,31 @@
 
     if-eqz v1, :cond_1
 
-    .line 2498584
+    .line 2498605
     iget-object v0, v1, LX/Kft;->A0N:LX/L8d;
 
     if-eqz v0, :cond_1
 
-    .line 2498585
+    .line 2498606
     iget-object v0, v0, LX/L8d;->A02:Ljava/util/List;
 
     invoke-interface {v0, v6}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 2498586
+    .line 2498607
     iget-object v0, v1, LX/Kft;->A0N:LX/L8d;
 
-    .line 2498587
+    .line 2498608
     iget-object v0, v0, LX/L8d;->A02:Ljava/util/List;
 
     invoke-interface {v0, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_2
 
-    .line 2498588
+    .line 2498609
     :cond_30
     const/4 v5, 0x0
 
-    .line 2498589
+    .line 2498610
     :cond_31
     invoke-static {v10}, LX/2jT;->A00(LX/0SF;)LX/2jT;
 
@@ -2001,10 +2001,10 @@
 
     if-eqz v5, :cond_32
 
-    .line 2498590
+    .line 2498611
     invoke-virtual {v1, v4, v5}, LX/2jT;->A06(Landroid/view/View;LX/2A4;)V
 
-    .line 2498591
+    .line 2498612
     :cond_32
     invoke-static {v10}, LX/1MT;->A01(Lcom/instagram/service/session/UserSession;)LX/1MT;
 
@@ -2014,7 +2014,7 @@
 
     move-result-object v7
 
-    .line 2498592
+    .line 2498613
     new-instance v0, LX/LTa;
 
     move-object v6, v0
@@ -2029,30 +2029,30 @@
 
     invoke-direct/range {v6 .. v12}, LX/LTa;-><init>(LX/1M5;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2498593
+    .line 2498614
     invoke-virtual {v1, v4, v0}, LX/2jT;->A0A(Landroid/view/View;LX/2O0;)V
 
-    .line 2498594
+    .line 2498615
     goto/16 :goto_2
 
-    .line 2498595
+    .line 2498616
     :cond_33
     invoke-static {v12}, LX/2jT;->A00(LX/0SF;)LX/2jT;
 
     move-result-object v0
 
-    .line 2498596
+    .line 2498617
     invoke-virtual {v0, v4, v1}, LX/2jT;->A06(Landroid/view/View;LX/2A4;)V
 
     goto/16 :goto_2
 
-    .line 2498597
+    .line 2498618
     :cond_34
     const/16 v1, 0x23
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 2498598
+    .line 2498619
     invoke-virtual {v6, v1, v0}, LX/4Eq;->A01(IF)F
 
     move-result v7
@@ -2061,18 +2061,18 @@
 
     const/4 v0, 0x0
 
-    .line 2498599
+    .line 2498620
     invoke-virtual {v6, v1, v0}, LX/4Eq;->A01(IF)F
 
     move-result v3
 
-    .line 2498600
+    .line 2498621
     invoke-virtual {v4, v7}, Landroid/view/View;->setScaleX(F)V
 
-    .line 2498601
+    .line 2498622
     invoke-virtual {v4, v7}, Landroid/view/View;->setScaleY(F)V
 
-    .line 2498602
+    .line 2498623
     invoke-virtual {v4}, Landroid/view/View;->getHeight()I
 
     move-result v0
@@ -2083,18 +2083,18 @@
 
     mul-float/2addr v0, v7
 
-    .line 2498603
+    .line 2498624
     invoke-virtual {v4, v0}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 2498604
+    .line 2498625
     new-instance v1, LX/EnJ;
 
     invoke-direct {v1, v7, v3}, LX/EnJ;-><init>(FF)V
 
-    .line 2498605
+    .line 2498626
     invoke-virtual {v4, v1}, Landroid/view/View;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
-    .line 2498606
+    .line 2498627
     invoke-static {v5, v6}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v0
@@ -2103,12 +2103,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 2498607
+    .line 2498628
     iput-object v1, v0, LX/7hp;->A00:Landroid/view/View$OnLayoutChangeListener;
 
     goto/16 :goto_2
 
-    .line 2498608
+    .line 2498629
     :cond_35
     const-string v0, "Failed to tag view with node type "
 
@@ -2122,7 +2122,7 @@
 
     goto/16 :goto_2
 
-    .line 2498609
+    .line 2498630
     :cond_36
     const v1, 0x7f0a0480
 
@@ -2134,20 +2134,20 @@
 
     goto/16 :goto_2
 
-    .line 2498610
+    .line 2498631
     :cond_37
     const/16 v0, 0x3590
 
     if-ne v1, v0, :cond_38
 
-    .line 2498611
+    .line 2498632
     invoke-static {v5, v6}, LX/5ar;->A05(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, LX/KVC;
 
-    .line 2498612
+    .line 2498633
     new-instance v0, LX/L9q;
 
     invoke-direct {v0, v1, v5, v6, v3}, LX/L9q;-><init>(LX/KVC;LX/5aw;LX/4Eq;LX/4Eq;)V
@@ -2156,13 +2156,13 @@
 
     goto/16 :goto_2
 
-    .line 2498613
+    .line 2498634
     :cond_38
     const/16 v0, 0x353b
 
     if-ne v1, v0, :cond_39
 
-    .line 2498614
+    .line 2498635
     invoke-static {v4, v5, v6}, LX/7XI;->A00(Landroid/view/View;LX/5aw;LX/4Eq;)V
 
     goto/16 :goto_2
@@ -2172,7 +2172,7 @@
 
     if-ne v1, v0, :cond_3a
 
-    .line 2498615
+    .line 2498636
     invoke-static {v5, v6}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v0
@@ -2181,33 +2181,33 @@
 
     if-eqz v0, :cond_1
 
-    .line 2498616
+    .line 2498637
     invoke-static {v5, v0}, LX/5cs;->A0P(LX/5aw;LX/1r8;)V
 
-    .line 2498617
+    .line 2498638
     invoke-static {v5, v0}, LX/5cs;->A0O(LX/5aw;LX/1r8;)V
 
     goto/16 :goto_2
 
-    .line 2498618
+    .line 2498639
     :cond_3a
     const/16 v0, 0x3447
 
     if-ne v1, v0, :cond_3c
 
-    .line 2498619
+    .line 2498640
     const v1, 0x7f0a1a68
 
     const-class v0, LX/1rx;
 
-    .line 2498620
+    .line 2498641
     invoke-static {v5, v0, v1}, LX/5cs;->A0I(LX/5aw;Ljava/lang/Class;I)Ljava/lang/Object;
 
     move-result-object v7
 
     check-cast v7, LX/1rx;
 
-    .line 2498621
+    .line 2498642
     invoke-static {v5, v6}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v3
@@ -2218,39 +2218,39 @@
 
     if-eqz v7, :cond_1
 
-    .line 2498622
+    .line 2498643
     iget-object v0, v3, LX/7iT;->A00:LX/1rK;
 
     if-eqz v0, :cond_3b
 
-    .line 2498623
+    .line 2498644
     invoke-interface {v7, v0}, LX/1rx;->DBR(LX/1rK;)V
 
-    .line 2498624
+    .line 2498645
     :cond_3b
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
-    .line 2498625
+    .line 2498646
     new-instance v0, LX/7Q5;
 
     invoke-direct {v0, v1, v4, v5, v6}, LX/7Q5;-><init>(Landroid/graphics/Rect;Landroid/view/View;LX/5aw;LX/4Eq;)V
 
     iput-object v0, v3, LX/7iT;->A00:LX/1rK;
 
-    .line 2498626
+    .line 2498647
     invoke-interface {v7, v0}, LX/1rx;->CkJ(LX/1rK;)V
 
     goto/16 :goto_2
 
-    .line 2498627
+    .line 2498648
     :cond_3c
     const/16 v0, 0x3546
 
     if-ne v1, v0, :cond_3d
 
-    .line 2498628
+    .line 2498649
     invoke-static {v4, v5, v6}, LX/7sY;->A00(Landroid/view/View;LX/5aw;LX/4Eq;)V
 
     goto/16 :goto_2
@@ -2260,7 +2260,7 @@
 
     if-ne v1, v0, :cond_43
 
-    .line 2498629
+    .line 2498650
     invoke-static {v5, v6}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v8
@@ -2269,10 +2269,10 @@
 
     if-eqz v8, :cond_54
 
-    .line 2498630
+    .line 2498651
     iget-object v0, v5, LX/5aw;->A00:Landroid/content/Context;
 
-    .line 2498631
+    .line 2498652
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -2283,24 +2283,24 @@
 
     iget-object v0, v0, Landroid/content/res/Configuration;->locale:Ljava/util/Locale;
 
-    .line 2498632
+    .line 2498653
     invoke-static {v0}, LX/KMd;->A00(Ljava/util/Locale;)Ljava/text/NumberFormat;
 
     move-result-object v0
 
     iput-object v0, v8, LX/Kdm;->A04:Ljava/text/NumberFormat;
 
-    .line 2498633
+    .line 2498654
     check-cast v4, Landroid/widget/EditText;
 
-    .line 2498634
+    .line 2498655
     invoke-virtual {v4}, Landroid/widget/TextView;->getHint()Ljava/lang/CharSequence;
 
     move-result-object v0
 
     if-nez v0, :cond_3e
 
-    .line 2498635
+    .line 2498656
     iget-object v7, v8, LX/Kdm;->A04:Ljava/text/NumberFormat;
 
     const-wide/16 v0, 0x0
@@ -2311,7 +2311,7 @@
 
     invoke-virtual {v4, v0}, Landroid/widget/TextView;->setHint(Ljava/lang/CharSequence;)V
 
-    .line 2498636
+    .line 2498657
     :cond_3e
     invoke-virtual {v4}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
@@ -2319,7 +2319,7 @@
 
     if-eqz v0, :cond_3f
 
-    .line 2498637
+    .line 2498658
     invoke-virtual {v4}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
     move-result-object v0
@@ -2336,14 +2336,14 @@
 
     move-result-object v1
 
-    .line 2498638
+    .line 2498659
     invoke-static {v1}, LX/0Q8;->A08(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_3f
 
-    .line 2498639
+    .line 2498660
     iget-object v7, v8, LX/Kdm;->A04:Ljava/text/NumberFormat;
 
     invoke-static {v1}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
@@ -2356,7 +2356,7 @@
 
     invoke-virtual {v4, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2498640
+    .line 2498661
     invoke-virtual {v4}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
     move-result-object v0
@@ -2367,10 +2367,10 @@
 
     iput v0, v8, LX/Kdm;->A01:I
 
-    .line 2498641
+    .line 2498662
     iput v0, v8, LX/Kdm;->A00:I
 
-    .line 2498642
+    .line 2498663
     :cond_3f
     iget v1, v8, LX/Kdm;->A01:I
 
@@ -2378,14 +2378,14 @@
 
     if-ne v1, v0, :cond_42
 
-    .line 2498643
+    .line 2498664
     invoke-virtual {v4}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
     move-result-object v0
 
     if-eqz v0, :cond_40
 
-    .line 2498644
+    .line 2498665
     invoke-virtual {v4}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
     move-result-object v0
@@ -2396,29 +2396,29 @@
 
     invoke-virtual {v4, v0}, Landroid/widget/EditText;->setSelection(I)V
 
-    .line 2498645
+    .line 2498666
     :cond_40
     :goto_b
     new-instance v7, LX/L8f;
 
     invoke-direct {v7, v5, v6}, LX/L8f;-><init>(LX/5aw;LX/4Eq;)V
 
-    .line 2498646
+    .line 2498667
     iget-object v0, v8, LX/Kdm;->A02:Landroid/text/TextWatcher;
 
     if-eqz v0, :cond_41
 
-    .line 2498647
+    .line 2498668
     invoke-virtual {v4, v0}, Landroid/widget/TextView;->removeTextChangedListener(Landroid/text/TextWatcher;)V
 
-    .line 2498648
+    .line 2498669
     :cond_41
     iput-object v7, v8, LX/Kdm;->A02:Landroid/text/TextWatcher;
 
-    .line 2498649
+    .line 2498670
     iput-object v4, v8, LX/Kdm;->A03:Landroid/widget/EditText;
 
-    .line 2498650
+    .line 2498671
     invoke-static {v5, v3}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v1
@@ -2427,27 +2427,27 @@
 
     if-eqz v1, :cond_1
 
-    .line 2498651
+    .line 2498672
     iget-object v0, v1, LX/Kft;->A0N:LX/L8d;
 
     if-eqz v0, :cond_1
 
-    .line 2498652
+    .line 2498673
     iget-object v0, v0, LX/L8d;->A02:Ljava/util/List;
 
     invoke-interface {v0, v7}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 2498653
+    .line 2498674
     iget-object v0, v1, LX/Kft;->A0N:LX/L8d;
 
-    .line 2498654
+    .line 2498675
     iget-object v0, v0, LX/L8d;->A02:Ljava/util/List;
 
     invoke-interface {v0, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_2
 
-    .line 2498655
+    .line 2498676
     :cond_42
     iget v0, v8, LX/Kdm;->A00:I
 
@@ -2455,13 +2455,13 @@
 
     goto :goto_b
 
-    .line 2498656
+    .line 2498677
     :cond_43
     const/16 v0, 0x34fd
 
     if-ne v1, v0, :cond_44
 
-    .line 2498657
+    .line 2498678
     invoke-static {v5}, LX/5cs;->A0B(LX/5aw;)LX/0SF;
 
     move-result-object v0
@@ -2476,7 +2476,7 @@
 
     const/4 v8, 0x0
 
-    .line 2498658
+    .line 2498679
     invoke-virtual {v6, v0, v8}, LX/4Eq;->A0F(IZ)Z
 
     move-result v0
@@ -2487,17 +2487,17 @@
 
     const-string v0, ""
 
-    .line 2498659
+    .line 2498680
     invoke-virtual {v6, v1, v0}, LX/4Eq;->A09(ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 2498660
+    .line 2498681
     const-class v3, LX/Dxl;
 
     monitor-enter v3
 
-    .line 2498661
+    .line 2498682
     :try_start_0
     invoke-static {v7}, LX/1AY;->A01(Lcom/instagram/service/session/UserSession;)LX/1AY;
 
@@ -2505,25 +2505,25 @@
 
     sget-object v0, LX/1Aa;->A0C:LX/1Aa;
 
-    .line 2498662
+    .line 2498683
     invoke-virtual {v1, v0}, LX/1AY;->A02(LX/1Aa;)Landroid/content/SharedPreferences;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     move-result-object v0
 
-    .line 2498663
+    .line 2498684
     monitor-exit v3
 
-    .line 2498664
+    .line 2498685
     invoke-interface {v0, v5, v8}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v0
 
-    .line 2498665
+    .line 2498686
     if-nez v0, :cond_1
 
-    .line 2498666
+    .line 2498687
     invoke-virtual {v4}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
     move-result-object v1
@@ -2532,18 +2532,18 @@
 
     invoke-direct {v0, v4, v6, v7}, LX/Ent;-><init>(Landroid/view/View;LX/4Eq;Lcom/instagram/service/session/UserSession;)V
 
-    .line 2498667
+    .line 2498688
     invoke-virtual {v1, v0}, Landroid/view/ViewTreeObserver;->addOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
 
     goto/16 :goto_2
 
-    .line 2498668
+    .line 2498689
     :cond_44
     const/16 v0, 0x3452
 
     if-ne v1, v0, :cond_45
 
-    .line 2498669
+    .line 2498690
     invoke-static {v5, v6}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v0
@@ -2552,7 +2552,7 @@
 
     if-nez v0, :cond_46
 
-    .line 2498670
+    .line 2498691
     const-string v1, "Extension defines a controller but none was found"
 
     new-instance v0, Ljava/lang/RuntimeException;
@@ -2561,13 +2561,13 @@
 
     throw v0
 
-    .line 2498671
+    .line 2498692
     :cond_45
     const/16 v0, 0x34e2
 
     if-ne v1, v0, :cond_47
 
-    .line 2498672
+    .line 2498693
     invoke-static {v5, v6}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v0
@@ -2576,7 +2576,7 @@
 
     if-nez v0, :cond_46
 
-    .line 2498673
+    .line 2498694
     const-string v1, "Extension defines a controller but none was found"
 
     new-instance v0, Ljava/lang/RuntimeException;
@@ -2585,19 +2585,19 @@
 
     throw v0
 
-    .line 2498674
+    .line 2498695
     :cond_46
     invoke-virtual {v0, v4, v5, v6, v3}, LX/Coe;->A01(Landroid/view/View;LX/5aw;LX/4Eq;LX/4Eq;)V
 
     goto/16 :goto_2
 
-    .line 2498675
+    .line 2498696
     :cond_47
     const/16 v0, 0x352f
 
     if-ne v1, v0, :cond_55
 
-    .line 2498676
+    .line 2498697
     const/4 v13, 0x0
 
     invoke-static {v4, v13}, LX/02K;->A0A(Ljava/lang/Object;I)V
@@ -2606,7 +2606,7 @@
 
     invoke-static {v5, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2498677
+    .line 2498698
     invoke-static {v5, v6}, LX/5ar;->A05(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v7
@@ -2615,10 +2615,10 @@
 
     check-cast v7, LX/Kdl;
 
-    .line 2498678
+    .line 2498699
     iget-object v0, v5, LX/5aw;->A00:Landroid/content/Context;
 
-    .line 2498679
+    .line 2498700
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -2629,32 +2629,32 @@
 
     iget-object v1, v0, Landroid/content/res/Configuration;->locale:Ljava/util/Locale;
 
-    .line 2498680
+    .line 2498701
     invoke-static {v1}, LX/02K;->A04(Ljava/lang/Object;)V
 
     const/16 v0, 0x23
 
-    .line 2498681
+    .line 2498702
     invoke-virtual {v6, v0}, LX/4Eq;->A08(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2498682
+    .line 2498703
     invoke-static {v0}, Ljava/util/Currency;->getInstance(Ljava/lang/String;)Ljava/util/Currency;
 
     move-result-object v0
 
     invoke-static {v0}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 2498683
+    .line 2498704
     invoke-static {v1}, Ljava/text/NumberFormat;->getCurrencyInstance(Ljava/util/Locale;)Ljava/text/NumberFormat;
 
     move-result-object v8
 
-    .line 2498684
+    .line 2498705
     invoke-virtual {v8, v0}, Ljava/text/NumberFormat;->setCurrency(Ljava/util/Currency;)V
 
-    .line 2498685
+    .line 2498706
     move-object v12, v8
 
     check-cast v12, Ljava/text/DecimalFormat;
@@ -2663,7 +2663,7 @@
 
     move-result-object v11
 
-    .line 2498686
+    .line 2498707
     invoke-virtual {v11}, Ljava/text/DecimalFormatSymbols;->getGroupingSeparator()C
 
     move-result v0
@@ -2674,12 +2674,12 @@
 
     if-ne v0, v9, :cond_4f
 
-    .line 2498687
+    .line 2498708
     invoke-virtual {v11, v10}, Ljava/text/DecimalFormatSymbols;->setGroupingSeparator(C)V
 
     const/4 v1, 0x1
 
-    .line 2498688
+    .line 2498709
     :goto_c
     invoke-virtual {v11}, Ljava/text/DecimalFormatSymbols;->getDecimalSeparator()C
 
@@ -2687,24 +2687,24 @@
 
     if-ne v0, v9, :cond_4e
 
-    .line 2498689
+    .line 2498710
     invoke-virtual {v11, v10}, Ljava/text/DecimalFormatSymbols;->setDecimalSeparator(C)V
 
-    .line 2498690
+    .line 2498711
     :goto_d
     invoke-virtual {v12, v11}, Ljava/text/DecimalFormat;->setDecimalFormatSymbols(Ljava/text/DecimalFormatSymbols;)V
 
-    .line 2498691
+    .line 2498712
     :cond_48
     invoke-virtual {v8, v13}, Ljava/text/NumberFormat;->setMaximumFractionDigits(I)V
 
-    .line 2498692
+    .line 2498713
     iput-object v8, v7, LX/Kdl;->A04:Ljava/text/NumberFormat;
 
-    .line 2498693
+    .line 2498714
     check-cast v4, Landroid/widget/EditText;
 
-    .line 2498694
+    .line 2498715
     invoke-virtual {v4}, Landroid/widget/TextView;->getHint()Ljava/lang/CharSequence;
 
     move-result-object v0
@@ -2713,14 +2713,14 @@
 
     const-wide/16 v0, 0x0
 
-    .line 2498695
+    .line 2498716
     invoke-virtual {v8, v0, v1}, Ljava/text/NumberFormat;->format(J)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v4, v0}, Landroid/widget/TextView;->setHint(Ljava/lang/CharSequence;)V
 
-    .line 2498696
+    .line 2498717
     :cond_49
     invoke-virtual {v4}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
@@ -2728,7 +2728,7 @@
 
     if-eqz v0, :cond_4a
 
-    .line 2498697
+    .line 2498718
     invoke-virtual {v4}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
     move-result-object v0
@@ -2749,14 +2749,14 @@
 
     move-result-object v1
 
-    .line 2498698
+    .line 2498719
     invoke-static {v1}, LX/0Q8;->A08(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_4a
 
-    .line 2498699
+    .line 2498720
     invoke-static {v1}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v0
@@ -2767,7 +2767,7 @@
 
     invoke-virtual {v4, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2498700
+    .line 2498721
     invoke-virtual {v4}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
     move-result-object v0
@@ -2776,29 +2776,29 @@
 
     move-result v0
 
-    .line 2498701
+    .line 2498722
     iput v0, v7, LX/Kdl;->A01:I
 
-    .line 2498702
+    .line 2498723
     iput v0, v7, LX/Kdl;->A00:I
 
-    .line 2498703
+    .line 2498724
     :cond_4a
     iget v1, v7, LX/Kdl;->A01:I
 
-    .line 2498704
+    .line 2498725
     const/4 v0, -0x1
 
     if-ne v1, v0, :cond_4d
 
-    .line 2498705
+    .line 2498726
     invoke-virtual {v4}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
     move-result-object v0
 
     if-eqz v0, :cond_4b
 
-    .line 2498706
+    .line 2498727
     invoke-virtual {v4}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
     move-result-object v0
@@ -2809,30 +2809,30 @@
 
     invoke-virtual {v4, v0}, Landroid/widget/EditText;->setSelection(I)V
 
-    .line 2498707
+    .line 2498728
     :cond_4b
     :goto_e
     iget-object v0, v7, LX/Kdl;->A02:Landroid/text/TextWatcher;
 
-    .line 2498708
+    .line 2498729
     if-eqz v0, :cond_4c
 
-    .line 2498709
+    .line 2498730
     invoke-virtual {v4, v0}, Landroid/widget/TextView;->removeTextChangedListener(Landroid/text/TextWatcher;)V
 
-    .line 2498710
+    .line 2498731
     :cond_4c
     new-instance v0, LX/L8e;
 
     invoke-direct {v0, v5, v6}, LX/L8e;-><init>(LX/5aw;LX/4Eq;)V
 
-    .line 2498711
+    .line 2498732
     iput-object v0, v7, LX/Kdl;->A02:Landroid/text/TextWatcher;
 
-    .line 2498712
+    .line 2498733
     iput-object v4, v7, LX/Kdl;->A03:Landroid/widget/EditText;
 
-    .line 2498713
+    .line 2498734
     invoke-static {v5, v3}, LX/5ar;->A04(LX/5aw;LX/4Eq;)Ljava/lang/Object;
 
     move-result-object v3
@@ -2845,70 +2845,70 @@
 
     const-string v0, "TextInput binder should create a TextInputUIState controller"
 
-    .line 2498714
+    .line 2498735
     invoke-static {v1, v0}, LX/0Ud;->A02(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_2
 
-    .line 2498715
+    .line 2498736
     :cond_4d
     iget v0, v7, LX/Kdl;->A00:I
 
-    .line 2498716
+    .line 2498737
     invoke-virtual {v4, v1, v0}, Landroid/widget/EditText;->setSelection(II)V
 
     goto :goto_e
 
-    .line 2498717
+    .line 2498738
     :cond_4e
     if-eqz v1, :cond_48
 
     goto/16 :goto_d
 
-    .line 2498718
+    .line 2498739
     :cond_4f
     const/4 v1, 0x0
 
     goto/16 :goto_c
 
-    .line 2498719
+    .line 2498740
     :cond_50
     iget-object v0, v3, LX/Kft;->A0N:LX/L8d;
 
     if-eqz v0, :cond_51
 
-    .line 2498720
+    .line 2498741
     iget-object v1, v7, LX/Kdl;->A02:Landroid/text/TextWatcher;
 
-    .line 2498721
+    .line 2498742
     iget-object v0, v0, LX/L8d;->A02:Ljava/util/List;
 
     invoke-interface {v0, v1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 2498722
+    .line 2498743
     :cond_51
     iget-object v0, v3, LX/Kft;->A0N:LX/L8d;
 
     if-eqz v0, :cond_1
 
-    .line 2498723
+    .line 2498744
     iget-object v1, v7, LX/Kdl;->A02:Landroid/text/TextWatcher;
 
-    .line 2498724
+    .line 2498745
     iget-object v0, v0, LX/L8d;->A02:Ljava/util/List;
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_2
 
-    .line 2498725
+    .line 2498746
     :cond_52
     const-string v1, "Text Input Formatter extension attached to non-text-input component with style ID: "
 
-    .line 2498726
+    .line 2498747
     iget v0, v3, LX/4Eq;->A01:I
 
-    .line 2498727
+    .line 2498748
     invoke-static {v1, v0}, LX/00t;->A0J(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v1
@@ -2919,7 +2919,7 @@
 
     throw v0
 
-    .line 2498728
+    .line 2498749
     :cond_53
     const-string v1, "NetegoNodeExtension defines a controller but none was found"
 
@@ -2929,7 +2929,7 @@
 
     throw v0
 
-    .line 2498729
+    .line 2498750
     :cond_54
     const-string v1, "TextInputNumberFormatterExtensionBinder defines a controller but none was found"
 
@@ -2939,7 +2939,7 @@
 
     throw v0
 
-    .line 2498730
+    .line 2498751
     :catchall_0
     move-exception v0
 
@@ -2947,7 +2947,7 @@
 
     throw v0
 
-    .line 2498731
+    .line 2498752
     :cond_55
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2967,14 +2967,14 @@
 
     move-result-object v1
 
-    .line 2498732
+    .line 2498753
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw v0
 
-    .line 2498733
+    .line 2498754
     :cond_56
     return-void
 .end method

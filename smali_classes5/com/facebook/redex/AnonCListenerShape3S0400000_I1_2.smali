@@ -471,7 +471,7 @@
     .line 145
     .line 146
     .line 147
-    invoke-static {v0, v1}, LX/Chj;->A05(Lcom/facebook/redex/AnonCListenerShape3S0400000_I1_2;I)I
+    invoke-static {v0, v1}, LX/Chj;->A04(Lcom/facebook/redex/AnonCListenerShape3S0400000_I1_2;I)I
 
     .line 148
     .line 149
@@ -494,7 +494,7 @@
     .line 157
     .line 158
     .line 159
-    invoke-static {v0, v1}, LX/Chj;->A05(Lcom/facebook/redex/AnonCListenerShape3S0400000_I1_2;I)I
+    invoke-static {v0, v1}, LX/Chj;->A04(Lcom/facebook/redex/AnonCListenerShape3S0400000_I1_2;I)I
 
     .line 160
     .line 161

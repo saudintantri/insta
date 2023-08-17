@@ -198,7 +198,7 @@
 
     .line 51
     .line 52
-    invoke-static {v8, v0}, LX/Chg;->A03(FF)F
+    invoke-static {v8, v0}, LX/Chh;->A00(FF)F
 
     .line 53
     .line 54

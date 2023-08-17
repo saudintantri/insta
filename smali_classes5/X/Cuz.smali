@@ -133,7 +133,7 @@
     move-result v1
 
     .line 14
-    invoke-static {v5, v2}, LX/Chh;->A07(Landroid/widget/AdapterView;I)Landroid/view/View;
+    invoke-static {v5, v2}, LX/Chi;->A0B(Landroid/widget/AdapterView;I)Landroid/view/View;
 
     .line 15
     .line 16
@@ -141,7 +141,7 @@
     move-result-object v0
 
     .line 18
-    invoke-static {v5, v1}, LX/Chh;->A07(Landroid/widget/AdapterView;I)Landroid/view/View;
+    invoke-static {v5, v1}, LX/Chi;->A0B(Landroid/widget/AdapterView;I)Landroid/view/View;
 
     .line 19
     .line 20

@@ -7058,7 +7058,6 @@
     const-string v12, "/mqtt_health_stats"
     :try_end_3
     .catch LX/0x9; {:try_start_3 .. :try_end_3} :catch_3
-    .catch LX/0x9; {:try_start_3 .. :try_end_3} :catch_2
 
     .line 183
     .line 184
@@ -7079,7 +7078,6 @@
     :try_end_4
     .catch Ljava/io/UnsupportedEncodingException; {:try_start_4 .. :try_end_4} :catch_1
     .catch LX/0x9; {:try_start_4 .. :try_end_4} :catch_3
-    .catch LX/0x9; {:try_start_4 .. :try_end_4} :catch_2
 
     .line 191
     :try_start_5
@@ -7151,7 +7149,6 @@
     if-eqz v15, :cond_4
     :try_end_5
     .catch LX/0x9; {:try_start_5 .. :try_end_5} :catch_3
-    .catch LX/0x9; {:try_start_5 .. :try_end_5} :catch_2
 
     .line 223
     .line 224

@@ -71,7 +71,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {p2, v4, v0}, LX/Chf;->A0g(LX/1Br;LX/1TA;LX/1TC;)Ljava/lang/Object;
+    invoke-static {p2, v4, v0}, LX/Chf;->A0i(LX/1Br;LX/1TA;LX/1TC;)Ljava/lang/Object;
 
     .line 13
     .line 14

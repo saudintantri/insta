@@ -702,7 +702,7 @@
     move-result-object v3
 
     .line 108
-    invoke-static {v7, v0}, LX/Che;->A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+    invoke-static {v7, v0}, LX/Che;->A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
 
     .line 109
     .line 110
@@ -766,7 +766,7 @@
     move-result-object v3
 
     .line 142
-    invoke-static {v7, v0}, LX/Che;->A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+    invoke-static {v7, v0}, LX/Che;->A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
 
     .line 143
     .line 144

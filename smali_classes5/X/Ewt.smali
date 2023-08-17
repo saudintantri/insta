@@ -113,7 +113,7 @@
 
     .line 38
     :pswitch_1
-    invoke-static {v5}, LX/Chf;->A0d(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)Lcom/instagram/user/model/User;
+    invoke-static {v5}, LX/Chf;->A0f(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)Lcom/instagram/user/model/User;
 
     .line 39
     .line 40
@@ -434,7 +434,7 @@
 
     .line 193
     .line 194
-    invoke-static {v6}, LX/Chf;->A0n(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
+    invoke-static {v6}, LX/Chf;->A0p(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     .line 195
     .line 196

@@ -147,7 +147,7 @@
 
     .line 3
     .line 4
-    invoke-static {p0}, LX/Che;->A07(LX/081;)Landroid/view/View;
+    invoke-static {p0}, LX/Che;->A08(LX/081;)Landroid/view/View;
 
     .line 5
     .line 6
@@ -1131,7 +1131,7 @@
     .locals 5
 
     .line 0
-    invoke-static {p0}, LX/Che;->A07(LX/081;)Landroid/view/View;
+    invoke-static {p0}, LX/Che;->A08(LX/081;)Landroid/view/View;
 
     .line 1
     .line 2

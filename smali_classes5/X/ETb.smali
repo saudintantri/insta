@@ -17,24 +17,24 @@
 
     invoke-static {v5, v7}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1809094
+    .line 1809115
     move-object/from16 v6, p9
 
     invoke-static {v0, v6}, LX/5We;->A1D(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1809095
+    .line 1809116
     sget-object v9, LX/0Sq;->A05:LX/0Sq;
 
     const-wide v2, 0x81069200010c48L
 
-    .line 1809096
+    .line 1809117
     move-object/from16 v4, p6
 
     invoke-static {v9, v4, v2, v3}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v3
 
-    .line 1809097
+    .line 1809118
     invoke-static {v0}, LX/0Q8;->A08(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -63,7 +63,7 @@
 
     if-eqz v3, :cond_d
 
-    .line 1809098
+    .line 1809119
     const/4 v8, 0x0
 
     if-eqz v2, :cond_1
@@ -72,57 +72,57 @@
 
     const-string v0, "Text message is empty"
 
-    .line 1809099
+    .line 1809120
     invoke-static {v1, v0}, LX/0Ud;->A02(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1809100
+    .line 1809121
     :cond_0
     return-object v8
 
-    .line 1809101
+    .line 1809122
     :cond_1
     invoke-static {v5}, LX/5QQ;->A01(LX/3ty;)Lcom/instagram/model/direct/DirectThreadKey;
 
     move-result-object v5
 
-    .line 1809102
+    .line 1809123
     invoke-static {v4}, LX/2r2;->A00(Lcom/instagram/service/session/UserSession;)LX/1NW;
 
     move-result-object v2
 
-    .line 1809103
+    .line 1809124
     invoke-virtual {v2, v5}, LX/1NW;->A0a(Lcom/instagram/model/direct/DirectThreadKey;)Ljava/lang/Long;
 
     move-result-object v27
 
-    .line 1809104
+    .line 1809125
     invoke-static/range {v17 .. v17}, LX/5We;->A1U(Ljava/lang/Object;)Z
 
     move-result v15
 
-    .line 1809105
+    .line 1809126
     const-wide v2, 0x830692000800baL
 
     invoke-static {v9, v4, v2, v3}, LX/0Qd;->A09(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Ljava/lang/String;
 
     move-result-object v9
 
-    .line 1809106
+    .line 1809127
     invoke-static {v0}, LX/92r;->A0V(Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v10
 
-    .line 1809107
+    .line 1809128
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v3
 
-    .line 1809108
+    .line 1809129
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v12
 
-    .line 1809109
+    .line 1809130
     if-eqz v9, :cond_2
 
     invoke-virtual {v9}, Ljava/lang/String;->length()I
@@ -133,17 +133,17 @@
 
     const-string v2, ","
 
-    .line 1809110
+    .line 1809131
     invoke-static {v9, v2}, LX/92s;->A0k(Ljava/lang/CharSequence;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 1809111
+    .line 1809132
     invoke-static {v2}, LX/5We;->A0i(Ljava/lang/Iterable;)Ljava/util/ArrayList;
 
     move-result-object v12
 
-    .line 1809112
+    .line 1809133
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v9
@@ -155,35 +155,35 @@
 
     if-eqz v2, :cond_2
 
-    .line 1809113
+    .line 1809134
     invoke-static {v9}, LX/5Wd;->A0t(Ljava/util/Iterator;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1809114
+    .line 1809135
     invoke-static {v2}, LX/92r;->A0V(Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1809115
+    .line 1809136
     invoke-virtual {v12, v2}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 1809116
+    .line 1809137
     :cond_2
     invoke-static {}, LX/5Wd;->A15()Ljava/util/HashSet;
 
     move-result-object v13
 
-    .line 1809117
+    .line 1809138
     sget-object v2, Landroid/util/Patterns;->EMAIL_ADDRESS:Ljava/util/regex/Pattern;
 
     invoke-virtual {v2, v10}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v9
 
-    .line 1809118
+    .line 1809139
     :goto_1
     invoke-virtual {v9}, Ljava/util/regex/Matcher;->find()Z
 
@@ -191,31 +191,31 @@
 
     if-eqz v2, :cond_3
 
-    .line 1809119
+    .line 1809140
     invoke-virtual {v9}, Ljava/util/regex/Matcher;->end()I
 
     move-result v2
 
-    .line 1809120
+    .line 1809141
     invoke-static {v13, v2}, LX/92m;->A1R(Ljava/util/AbstractCollection;I)V
 
-    .line 1809121
+    .line 1809142
     goto :goto_1
 
-    .line 1809122
+    .line 1809143
     :cond_3
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v9
 
-    .line 1809123
+    .line 1809144
     sget-object v2, Landroid/util/Patterns;->WEB_URL:Ljava/util/regex/Pattern;
 
     invoke-virtual {v2, v10}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v14
 
-    .line 1809124
+    .line 1809145
     :cond_4
     :goto_2
     invoke-virtual {v14}, Ljava/util/regex/Matcher;->find()Z
@@ -224,21 +224,21 @@
 
     if-eqz v2, :cond_6
 
-    .line 1809125
+    .line 1809146
     invoke-virtual {v14}, Ljava/util/regex/Matcher;->group()Ljava/lang/String;
 
     move-result-object v11
 
     invoke-static {v11}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1809126
+    .line 1809147
     sget-object v2, LX/0Q8;->A03:Ljava/util/regex/Pattern;
 
     invoke-virtual {v2, v11}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v2
 
-    .line 1809127
+    .line 1809148
     invoke-virtual {v2}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v2
@@ -251,7 +251,7 @@
 
     if-nez v2, :cond_4
 
-    .line 1809128
+    .line 1809149
     invoke-virtual {v14}, Ljava/util/regex/Matcher;->end()I
 
     move-result v2
@@ -266,14 +266,14 @@
 
     if-nez v2, :cond_4
 
-    .line 1809129
+    .line 1809150
     invoke-virtual {v12}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v2
 
     if-nez v2, :cond_5
 
-    .line 1809130
+    .line 1809151
     new-instance v2, Ljava/net/URI;
 
     invoke-direct {v2, v11}, Ljava/net/URI;-><init>(Ljava/lang/String;)V
@@ -282,39 +282,39 @@
 
     move-result-object v2
 
-    .line 1809131
+    .line 1809152
     invoke-virtual {v12, v2}, Ljava/util/AbstractCollection;->contains(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_4
 
-    .line 1809132
+    .line 1809153
     :cond_5
     invoke-virtual {v9, v11}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_2
 
-    .line 1809133
+    .line 1809154
     :cond_6
     if-nez v15, :cond_7
 
-    .line 1809134
+    .line 1809155
     invoke-static {v9}, LX/92l;->A1a(Ljava/util/AbstractCollection;)Z
 
     move-result v2
 
-    .line 1809135
+    .line 1809156
     if-eqz v2, :cond_b
 
-    .line 1809136
+    .line 1809157
     invoke-virtual {v9, v1}, Ljava/util/AbstractList;->get(I)Ljava/lang/Object;
 
     move-result-object v11
 
     check-cast v11, Ljava/lang/String;
 
-    .line 1809137
+    .line 1809158
     invoke-virtual {v9}, Ljava/util/AbstractCollection;->size()I
 
     move-result v2
@@ -327,22 +327,22 @@
 
     check-cast v9, Ljava/lang/String;
 
-    .line 1809138
+    .line 1809159
     invoke-static {v10, v11, v1}, LX/12J;->A0R(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result v2
 
-    .line 1809139
+    .line 1809160
     if-eqz v2, :cond_a
 
-    .line 1809140
+    .line 1809161
     new-instance v0, LX/EAf;
 
     invoke-direct {v0, v11, v7}, LX/EAf;-><init>(Ljava/lang/String;Z)V
 
     invoke-virtual {v3, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1809141
+    .line 1809162
     invoke-virtual {v11}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -357,22 +357,22 @@
 
     invoke-static {v0}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1809142
+    .line 1809163
     invoke-static {v0}, LX/92r;->A0V(Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 1809143
+    .line 1809164
     :cond_7
     new-instance v2, LX/EAf;
 
     invoke-direct {v2, v0, v1}, LX/EAf;-><init>(Ljava/lang/String;Z)V
 
-    .line 1809144
+    .line 1809165
     :goto_3
     invoke-virtual {v3, v2}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1809145
+    .line 1809166
     invoke-interface {v3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v7
@@ -391,28 +391,28 @@
 
     check-cast v3, LX/EAf;
 
-    .line 1809146
+    .line 1809167
     iget-object v0, v3, LX/EAf;->A00:Ljava/lang/String;
 
-    .line 1809147
+    .line 1809168
     invoke-static {v0}, LX/0Q8;->A08(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_8
 
-    .line 1809148
+    .line 1809169
     iget-boolean v2, v3, LX/EAf;->A01:Z
 
-    .line 1809149
+    .line 1809170
     if-eqz v2, :cond_9
 
-    .line 1809150
+    .line 1809171
     const-class v35, LX/1GX;
 
     const/16 v37, 0x0
 
-    .line 1809151
+    .line 1809172
     sget-object v33, LX/5jS;->A01:LX/5jS;
 
     move-object/from16 v34, v4
@@ -427,17 +427,17 @@
 
     move-result-object p3
 
-    .line 1809152
+    .line 1809173
     new-instance v2, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S1100000_I0;
 
     invoke-direct {v2, v0}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S1100000_I0;-><init>(Ljava/lang/String;)V
 
-    .line 1809153
-    invoke-static {}, LX/Chf;->A0E()J
+    .line 1809174
+    invoke-static {}, LX/Chf;->A0F()J
 
     move-result-wide p8
 
-    .line 1809154
+    .line 1809175
     new-instance v15, LX/1GX;
 
     move-object/from16 p0, v15
@@ -454,30 +454,30 @@
 
     invoke-direct/range {p0 .. p9}, LX/1GX;-><init>(Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S1100000_I0;LX/59U;LX/5jT;LX/EY4;Lcom/instagram/model/direct/DirectThreadKey;Ljava/lang/Long;Ljava/lang/String;J)V
 
-    .line 1809155
+    .line 1809176
     :goto_5
     invoke-virtual {v15}, LX/1GH;->A02()LX/3us;
 
     move-result-object v0
 
-    .line 1809156
-    invoke-static {v4, v15, v5, v0}, LX/Chf;->A1K(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
+    .line 1809177
+    invoke-static {v4, v15, v5, v0}, LX/Chf;->A1L(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
 
-    .line 1809157
+    .line 1809178
     invoke-static {v15, v4}, LX/Chc;->A1U(LX/1Ek;Lcom/instagram/service/session/UserSession;)V
 
-    .line 1809158
+    .line 1809179
     iget-object v8, v15, LX/1Ek;->A04:Ljava/lang/String;
 
     goto :goto_4
 
-    .line 1809159
+    .line 1809180
     :cond_9
     const-class v35, LX/1GN;
 
     const/16 v22, 0x0
 
-    .line 1809160
+    .line 1809181
     sget-object v33, LX/5jS;->A01:LX/5jS;
 
     move-object/from16 v34, v4
@@ -494,27 +494,27 @@
 
     move-result-object v20
 
-    .line 1809161
-    invoke-static {}, LX/Chf;->A0E()J
+    .line 1809182
+    invoke-static {}, LX/Chf;->A0F()J
 
     move-result-wide v2
 
-    .line 1809162
+    .line 1809183
     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v28
 
-    .line 1809163
+    .line 1809184
     invoke-static/range {p16 .. p16}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v25
 
-    .line 1809164
+    .line 1809185
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v26
 
-    .line 1809165
+    .line 1809186
     new-instance v15, LX/1GN;
 
     move-object/from16 v33, p14
@@ -527,24 +527,24 @@
 
     invoke-direct/range {v15 .. v33}, LX/1GN;-><init>(LX/EZj;LX/59U;Lcom/instagram/direct/model/mentions/SendMentionData$MentionData;Lcom/instagram/direct/model/textformatting/SendTextFormatterData$TextFormatterData;LX/5jT;LX/EY4;LX/AR5;Lcom/instagram/model/direct/DirectThreadKey;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)V
 
-    .line 1809166
+    .line 1809187
     goto :goto_5
 
-    .line 1809167
+    .line 1809188
     :cond_a
     invoke-static {v10, v1}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
     invoke-static {v9, v7}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1809168
+    .line 1809189
     invoke-virtual {v10, v9}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v2
 
-    .line 1809169
+    .line 1809190
     if-eqz v2, :cond_c
 
-    .line 1809170
+    .line 1809191
     invoke-virtual {v10}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -561,26 +561,26 @@
 
     invoke-static {v0}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1809171
+    .line 1809192
     invoke-static {v0}, LX/92r;->A0V(Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1809172
+    .line 1809193
     new-instance v0, LX/EAf;
 
     invoke-direct {v0, v2, v1}, LX/EAf;-><init>(Ljava/lang/String;Z)V
 
     invoke-virtual {v3, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1809173
+    .line 1809194
     new-instance v2, LX/EAf;
 
     invoke-direct {v2, v9, v7}, LX/EAf;-><init>(Ljava/lang/String;Z)V
 
     goto/16 :goto_3
 
-    .line 1809174
+    .line 1809195
     :cond_b
     invoke-static {v0}, LX/ETb;->A01(Ljava/lang/String;)Z
 
@@ -588,7 +588,7 @@
 
     if-eqz v2, :cond_7
 
-    .line 1809175
+    .line 1809196
     :cond_c
     new-instance v2, LX/EAf;
 
@@ -596,7 +596,7 @@
 
     goto/16 :goto_3
 
-    .line 1809176
+    .line 1809197
     :cond_d
     if-eqz v2, :cond_e
 
@@ -604,30 +604,30 @@
 
     const-string v0, "Text message is empty"
 
-    .line 1809177
+    .line 1809198
     invoke-static {v1, v0}, LX/0Ud;->A02(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v8, 0x0
 
     return-object v8
 
-    .line 1809178
+    .line 1809199
     :cond_e
     invoke-static {v5}, LX/5QQ;->A01(LX/3ty;)Lcom/instagram/model/direct/DirectThreadKey;
 
     move-result-object v2
 
-    .line 1809179
+    .line 1809200
     invoke-static {v4}, LX/2r2;->A00(Lcom/instagram/service/session/UserSession;)LX/1NW;
 
     move-result-object v3
 
-    .line 1809180
+    .line 1809201
     invoke-virtual {v3, v2}, LX/1NW;->A0a(Lcom/instagram/model/direct/DirectThreadKey;)Ljava/lang/Long;
 
     move-result-object v27
 
-    .line 1809181
+    .line 1809202
     invoke-static {v0}, LX/ETb;->A01(Ljava/lang/String;)Z
 
     move-result v3
@@ -636,10 +636,10 @@
 
     if-nez p1, :cond_f
 
-    .line 1809182
+    .line 1809203
     const-class v9, LX/1GX;
 
-    .line 1809183
+    .line 1809204
     sget-object v7, LX/5jS;->A01:LX/5jS;
 
     const/4 v12, 0x0
@@ -662,17 +662,17 @@
 
     move-result-object v18
 
-    .line 1809184
+    .line 1809205
     new-instance v1, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S1100000_I0;
 
     invoke-direct {v1, v0}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S1100000_I0;-><init>(Ljava/lang/String;)V
 
-    .line 1809185
-    invoke-static {}, LX/Chf;->A0E()J
+    .line 1809206
+    invoke-static {}, LX/Chf;->A0F()J
 
     move-result-wide v23
 
-    .line 1809186
+    .line 1809207
     new-instance v15, LX/1GX;
 
     move-object/from16 v16, v1
@@ -687,30 +687,30 @@
 
     invoke-direct/range {v15 .. v24}, LX/1GX;-><init>(Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S1100000_I0;LX/59U;LX/5jT;LX/EY4;Lcom/instagram/model/direct/DirectThreadKey;Ljava/lang/Long;Ljava/lang/String;J)V
 
-    .line 1809187
+    .line 1809208
     :goto_6
     invoke-static {v15, v4}, LX/Chc;->A1U(LX/1Ek;Lcom/instagram/service/session/UserSession;)V
 
-    .line 1809188
+    .line 1809209
     invoke-virtual {v15}, LX/1GH;->A02()LX/3us;
 
     move-result-object v0
 
-    .line 1809189
-    invoke-static {v4, v15, v2, v0}, LX/Chf;->A1K(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
+    .line 1809210
+    invoke-static {v4, v15, v2, v0}, LX/Chf;->A1L(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
 
-    .line 1809190
+    .line 1809211
     iget-object v8, v15, LX/1Ek;->A04:Ljava/lang/String;
 
     return-object v8
 
-    .line 1809191
+    .line 1809212
     :cond_f
     const-class v35, LX/1GN;
 
     const/16 v22, 0x0
 
-    .line 1809192
+    .line 1809213
     sget-object v33, LX/5jS;->A01:LX/5jS;
 
     move-object/from16 v34, v4
@@ -727,27 +727,27 @@
 
     move-result-object v20
 
-    .line 1809193
-    invoke-static {}, LX/Chf;->A0E()J
+    .line 1809214
+    invoke-static {}, LX/Chf;->A0F()J
 
     move-result-wide v7
 
-    .line 1809194
+    .line 1809215
     invoke-static {v7, v8}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v28
 
-    .line 1809195
+    .line 1809216
     invoke-static/range {p16 .. p16}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v25
 
-    .line 1809196
+    .line 1809217
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v26
 
-    .line 1809197
+    .line 1809218
     new-instance v15, LX/1GN;
 
     move-object/from16 v23, v2
@@ -760,7 +760,7 @@
 
     invoke-direct/range {v15 .. v33}, LX/1GN;-><init>(LX/EZj;LX/59U;Lcom/instagram/direct/model/mentions/SendMentionData$MentionData;Lcom/instagram/direct/model/textformatting/SendTextFormatterData$TextFormatterData;LX/5jT;LX/EY4;LX/AR5;Lcom/instagram/model/direct/DirectThreadKey;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)V
 
-    .line 1809198
+    .line 1809219
     goto :goto_6
 .end method
 

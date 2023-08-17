@@ -177,7 +177,7 @@
     .line 60
     .line 61
     .line 62
-    invoke-static {v1, v2, v0}, LX/Chg;->A12(Landroid/content/res/Resources;LX/56I;I)V
+    invoke-static {v1, v2, v0}, LX/Chg;->A11(Landroid/content/res/Resources;LX/56I;I)V
 
     .line 63
     .line 64
@@ -330,7 +330,7 @@
     move-result-object v2
 
     .line 61
-    invoke-static {v2, v8}, LX/Chi;->A1C(LX/0AX;Lcom/instagram/model/shopping/Product;)V
+    invoke-static {v2, v8}, LX/Chi;->A1D(LX/0AX;Lcom/instagram/model/shopping/Product;)V
 
     .line 62
     .line 63

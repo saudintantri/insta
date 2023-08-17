@@ -26,7 +26,30 @@
     .line 8
 .end method
 
-.method public static A01(Landroid/content/Context;I)I
+.method public static A01(II)I
+    .locals 1
+
+    .line 0
+    rem-int v0, p0, p1
+
+    .line 1
+    .line 2
+    if-eqz v0, :cond_0
+
+    .line 3
+    .line 4
+    sub-int/2addr p1, v0
+
+    .line 5
+    add-int/2addr p0, p1
+
+    .line 6
+    :cond_0
+    return p0
+    .line 7
+.end method
+
+.method public static A02(Landroid/content/Context;I)I
     .locals 1
 
     .line 0
@@ -53,7 +76,7 @@
     .line 12
 .end method
 
-.method public static A02(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
+.method public static A03(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
     .locals 1
 
     .line 0
@@ -77,7 +100,7 @@
     return v0
 .end method
 
-.method public static A03(Z)I
+.method public static A04(Z)I
     .locals 1
 
     .line 0
@@ -96,7 +119,7 @@
     return v0
 .end method
 
-.method public static A04(II)Landroid/animation/ValueAnimator;
+.method public static A05(II)Landroid/animation/ValueAnimator;
     .locals 0
 
     .line 0
@@ -123,7 +146,7 @@
     .line 12
 .end method
 
-.method public static A05(Landroid/content/Context;I)Landroid/graphics/drawable/ColorDrawable;
+.method public static A06(Landroid/content/Context;I)Landroid/graphics/drawable/ColorDrawable;
     .locals 0
 
     .line 0
@@ -150,7 +173,7 @@
     .line 12
 .end method
 
-.method public static A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+.method public static A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
     .locals 0
 
     .line 0
@@ -177,7 +200,7 @@
     .line 12
 .end method
 
-.method public static A07(LX/081;)Landroid/view/View;
+.method public static A08(LX/081;)Landroid/view/View;
     .locals 0
 
     .line 0
@@ -203,7 +226,7 @@
     .line 11
 .end method
 
-.method public static A08(J)LX/2E0;
+.method public static A09(J)LX/2E0;
     .locals 0
 
     .line 0
@@ -229,7 +252,7 @@
     .line 11
 .end method
 
-.method public static A09(LX/1r8;)LX/2tM;
+.method public static A0A(LX/1r8;)LX/2tM;
     .locals 1
 
     .line 0
@@ -250,7 +273,7 @@
     return-object v0
 .end method
 
-.method public static A0A(Landroidx/fragment/app/Fragment;)LX/1rI;
+.method public static A0B(Landroidx/fragment/app/Fragment;)LX/1rI;
     .locals 1
 
     .line 0
@@ -276,7 +299,7 @@
     .line 11
 .end method
 
-.method public static A0B(Ljava/lang/String;Ljava/lang/String;)LX/3wA;
+.method public static A0C(Ljava/lang/String;Ljava/lang/String;)LX/3wA;
     .locals 0
 
     .line 0
@@ -303,7 +326,7 @@
     .line 12
 .end method
 
-.method public static A0C(LX/19z;Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)LX/1HO;
+.method public static A0D(LX/19z;Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)LX/1HO;
     .locals 0
 
     .line 0
@@ -329,7 +352,7 @@
     .line 11
 .end method
 
-.method public static A0D(Lcom/instagram/service/session/UserSession;)LX/38H;
+.method public static A0E(Lcom/instagram/service/session/UserSession;)LX/38H;
     .locals 0
 
     .line 0
@@ -352,7 +375,7 @@
     return-object p0
 .end method
 
-.method public static A0E(Ljava/lang/Object;I)LX/97j;
+.method public static A0F(Ljava/lang/Object;I)LX/97j;
     .locals 1
 
     .line 0
@@ -379,7 +402,7 @@
     .line 12
 .end method
 
-.method public static A0F(LX/39m;IJ)LX/39m;
+.method public static A0G(LX/39m;IJ)LX/39m;
     .locals 1
 
     .line 0
@@ -403,7 +426,7 @@
     return-object v0
 .end method
 
-.method public static A0G(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
+.method public static A0H(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
     .locals 2
 
     .line 0
@@ -427,7 +450,7 @@
     return-object v0
 .end method
 
-.method public static A0H(Ljava/util/List;I)LX/1M5;
+.method public static A0I(Ljava/util/List;I)LX/1M5;
     .locals 0
 
     .line 0
@@ -452,29 +475,6 @@
     .line 10
     .line 11
     .line 12
-.end method
-
-.method public static A0I(LX/0zD;)Lcom/instagram/model/direct/DirectThreadKey;
-    .locals 1
-
-    .line 0
-    invoke-static {p0}, LX/4O8;->parseFromJson(LX/0zD;)Lcom/instagram/model/direct/DirectThreadKey;
-
-    .line 1
-    .line 2
-    .line 3
-    move-result-object p0
-
-    .line 4
-    const/4 v0, 0x0
-
-    .line 5
-    invoke-static {p0, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object p0
 .end method
 
 .method public static A0J(Landroidx/fragment/app/Fragment;)LX/27U;

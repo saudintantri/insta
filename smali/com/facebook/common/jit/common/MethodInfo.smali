@@ -1825,8 +1825,6 @@
     :try_end_1
     .catch Ljava/lang/ClassNotFoundException; {:try_start_1 .. :try_end_1} :catch_0
     .catch Ljava/lang/NoClassDefFoundError; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/lang/ClassNotFoundException; {:try_start_1 .. :try_end_1} :catch_1
-    .catch Ljava/lang/NoClassDefFoundError; {:try_start_1 .. :try_end_1} :catch_1
     .catch Ljava/lang/RuntimeException; {:try_start_1 .. :try_end_1} :catch_2
     .catch Ljava/lang/Error; {:try_start_1 .. :try_end_1} :catch_2
 

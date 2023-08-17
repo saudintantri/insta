@@ -43,7 +43,7 @@
     .line 10
     .line 11
     :cond_1
-    invoke-static {p5, p3}, LX/Chh;->A02(II)I
+    invoke-static {p5, p3}, LX/Chh;->A03(II)I
 
     .line 12
     .line 13

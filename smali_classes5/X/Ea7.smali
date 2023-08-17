@@ -567,7 +567,7 @@
 
     .line 154
     .line 155
-    invoke-static {v4, v3, v0, p8}, LX/Chi;->A1E(LX/0AX;Lcom/instagram/shopping/intf/taggingfeed/ShoppingTaggingFeedArguments;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v3, v0, p8}, LX/Chi;->A1F(LX/0AX;Lcom/instagram/shopping/intf/taggingfeed/ShoppingTaggingFeedArguments;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 156
     .line 157
@@ -1026,7 +1026,7 @@
 
     .line 29
     .line 30
-    invoke-static {v1, v2, v0, p2}, LX/Chi;->A1E(LX/0AX;Lcom/instagram/shopping/intf/taggingfeed/ShoppingTaggingFeedArguments;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2, v0, p2}, LX/Chi;->A1F(LX/0AX;Lcom/instagram/shopping/intf/taggingfeed/ShoppingTaggingFeedArguments;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 31
     .line 32

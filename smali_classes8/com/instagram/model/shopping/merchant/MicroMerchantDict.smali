@@ -160,302 +160,302 @@
 .method public constructor <init>(Lcom/instagram/api/schemas/AvatarStatus;Lcom/instagram/api/schemas/BrandedContentBrandTaggingRequestApprovalStatus;Lcom/instagram/api/schemas/ClipsBreakingCreatorInfo;Lcom/instagram/api/schemas/FanClubInfoDict;Lcom/instagram/api/schemas/FanClubStatusSyncInfo;Lcom/instagram/api/schemas/GroupMetadata;Lcom/instagram/api/schemas/GrowthFrictionInfo;Lcom/instagram/api/schemas/HasPasswordState;Lcom/instagram/api/schemas/IGLiveModeratorEligibilityType;Lcom/instagram/api/schemas/IGLiveModeratorStatus;Lcom/instagram/api/schemas/IGLiveNotificationPreference;Lcom/instagram/api/schemas/IGLiveWaveStatus;Lcom/instagram/api/schemas/StatusResponse;Lcom/instagram/common/typedurl/ImageUrl;Lcom/instagram/model/shopping/merchant/CreatorShoppingInfo;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Float;Ljava/lang/Float;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)V
     .locals 1
 
-    .line 2828576
+    .line 2828597
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 2828577
+    .line 2828598
     move-object/from16 v0, p65
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A12:Ljava/util/List;
 
-    .line 2828578
+    .line 2828599
     move-object/from16 v0, p40
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0d:Ljava/lang/Integer;
 
-    .line 2828579
+    .line 2828600
     iput-object p1, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A00:Lcom/instagram/api/schemas/AvatarStatus;
 
-    .line 2828580
+    .line 2828601
     iput-object p2, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A01:Lcom/instagram/api/schemas/BrandedContentBrandTaggingRequestApprovalStatus;
 
-    .line 2828581
+    .line 2828602
     iput-object p3, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A02:Lcom/instagram/api/schemas/ClipsBreakingCreatorInfo;
 
-    .line 2828582
+    .line 2828603
     move-object/from16 v0, p38
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0b:Ljava/lang/Float;
 
-    .line 2828583
+    .line 2828604
     move-object/from16 v0, p39
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0c:Ljava/lang/Float;
 
-    .line 2828584
+    .line 2828605
     move-object/from16 v0, p15
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0E:Lcom/instagram/model/shopping/merchant/CreatorShoppingInfo;
 
-    .line 2828585
+    .line 2828606
     iput-object p4, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A03:Lcom/instagram/api/schemas/FanClubInfoDict;
 
-    .line 2828586
+    .line 2828607
     iput-object p5, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A04:Lcom/instagram/api/schemas/FanClubStatusSyncInfo;
 
-    .line 2828587
+    .line 2828608
     move-object/from16 v0, p16
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0F:Ljava/lang/Boolean;
 
-    .line 2828588
+    .line 2828609
     move-object/from16 v0, p41
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0e:Ljava/lang/Integer;
 
-    .line 2828589
+    .line 2828610
     move-object/from16 v0, p17
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0G:Ljava/lang/Boolean;
 
-    .line 2828590
+    .line 2828611
     move-object/from16 v0, p42
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0f:Ljava/lang/Integer;
 
-    .line 2828591
+    .line 2828612
     move-object/from16 v0, p48
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0l:Ljava/lang/String;
 
-    .line 2828592
+    .line 2828613
     iput-object p6, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A05:Lcom/instagram/api/schemas/GroupMetadata;
 
-    .line 2828593
+    .line 2828614
     iput-object p7, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A06:Lcom/instagram/api/schemas/GrowthFrictionInfo;
 
-    .line 2828594
+    .line 2828615
     move-object/from16 v0, p18
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0H:Ljava/lang/Boolean;
 
-    .line 2828595
+    .line 2828616
     move-object/from16 v0, p19
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0I:Ljava/lang/Boolean;
 
-    .line 2828596
+    .line 2828617
     move-object/from16 v0, p20
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0J:Ljava/lang/Boolean;
 
-    .line 2828597
+    .line 2828618
     move-object/from16 v0, p21
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0K:Ljava/lang/Boolean;
 
-    .line 2828598
+    .line 2828619
     iput-object p8, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A07:Lcom/instagram/api/schemas/HasPasswordState;
 
-    .line 2828599
+    .line 2828620
     move-object/from16 v0, p49
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0m:Ljava/lang/String;
 
-    .line 2828600
+    .line 2828621
     move-object/from16 v0, p50
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0n:Ljava/lang/String;
 
-    .line 2828601
+    .line 2828622
     move-object/from16 v0, p43
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0g:Ljava/lang/Integer;
 
-    .line 2828602
+    .line 2828623
     move-object/from16 v0, p22
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0L:Ljava/lang/Boolean;
 
-    .line 2828603
+    .line 2828624
     move-object/from16 v0, p23
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0M:Ljava/lang/Boolean;
 
-    .line 2828604
+    .line 2828625
     move-object/from16 v0, p24
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0N:Ljava/lang/Boolean;
 
-    .line 2828605
+    .line 2828626
     move-object/from16 v0, p25
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0O:Ljava/lang/Boolean;
 
-    .line 2828606
+    .line 2828627
     move-object/from16 v0, p26
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0P:Ljava/lang/Boolean;
 
-    .line 2828607
+    .line 2828628
     move-object/from16 v0, p27
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0Q:Ljava/lang/Boolean;
 
-    .line 2828608
+    .line 2828629
     move-object/from16 v0, p28
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0R:Ljava/lang/Boolean;
 
-    .line 2828609
+    .line 2828630
     move-object/from16 v0, p29
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0S:Ljava/lang/Boolean;
 
-    .line 2828610
+    .line 2828631
     move-object/from16 v0, p30
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0T:Ljava/lang/Boolean;
 
-    .line 2828611
+    .line 2828632
     move-object/from16 v0, p31
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0U:Ljava/lang/Boolean;
 
-    .line 2828612
+    .line 2828633
     move-object/from16 v0, p32
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0V:Ljava/lang/Boolean;
 
-    .line 2828613
+    .line 2828634
     move-object/from16 v0, p33
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0W:Ljava/lang/Boolean;
 
-    .line 2828614
+    .line 2828635
     move-object/from16 v0, p34
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0X:Ljava/lang/Boolean;
 
-    .line 2828615
+    .line 2828636
     move-object/from16 v0, p44
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0h:Ljava/lang/Integer;
 
-    .line 2828616
+    .line 2828637
     move-object/from16 v0, p47
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0k:Ljava/lang/Long;
 
-    .line 2828617
+    .line 2828638
     move-object/from16 v0, p51
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0o:Ljava/lang/String;
 
-    .line 2828618
+    .line 2828639
     move-object/from16 v0, p45
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0i:Ljava/lang/Integer;
 
-    .line 2828619
+    .line 2828640
     iput-object p9, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A08:Lcom/instagram/api/schemas/IGLiveModeratorEligibilityType;
 
-    .line 2828620
+    .line 2828641
     iput-object p10, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A09:Lcom/instagram/api/schemas/IGLiveModeratorStatus;
 
-    .line 2828621
+    .line 2828642
     iput-object p11, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0A:Lcom/instagram/api/schemas/IGLiveNotificationPreference;
 
-    .line 2828622
+    .line 2828643
     move-object/from16 v0, p52
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0p:Ljava/lang/String;
 
-    .line 2828623
+    .line 2828644
     iput-object p12, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0B:Lcom/instagram/api/schemas/IGLiveWaveStatus;
 
-    .line 2828624
+    .line 2828645
     move-object/from16 v0, p53
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0q:Ljava/lang/String;
 
-    .line 2828625
+    .line 2828646
     move-object/from16 v0, p46
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0j:Ljava/lang/Integer;
 
-    .line 2828626
+    .line 2828647
     move-object/from16 v0, p35
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0Y:Ljava/lang/Boolean;
 
-    .line 2828627
+    .line 2828648
     move-object/from16 v0, p54
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0r:Ljava/lang/String;
 
-    .line 2828628
+    .line 2828649
     move-object/from16 v0, p55
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0s:Ljava/lang/String;
 
-    .line 2828629
+    .line 2828650
     move-object/from16 v0, p56
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0t:Ljava/lang/String;
 
-    .line 2828630
+    .line 2828651
     move-object/from16 v0, p57
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0u:Ljava/lang/String;
 
-    .line 2828631
+    .line 2828652
     move-object/from16 v0, p58
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0v:Ljava/lang/String;
 
-    .line 2828632
+    .line 2828653
     move-object/from16 v0, p59
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0w:Ljava/lang/String;
 
-    .line 2828633
+    .line 2828654
     iput-object p14, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0D:Lcom/instagram/common/typedurl/ImageUrl;
 
-    .line 2828634
+    .line 2828655
     move-object/from16 v0, p36
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0Z:Ljava/lang/Boolean;
 
-    .line 2828635
+    .line 2828656
     move-object/from16 v0, p60
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0x:Ljava/lang/String;
 
-    .line 2828636
+    .line 2828657
     move-object/from16 v0, p37
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0a:Ljava/lang/Boolean;
 
-    .line 2828637
+    .line 2828658
     move-object/from16 v0, p61
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0y:Ljava/lang/String;
 
-    .line 2828638
+    .line 2828659
     iput-object p13, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0C:Lcom/instagram/api/schemas/StatusResponse;
 
-    .line 2828639
+    .line 2828660
     move-object/from16 v0, p62
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A0z:Ljava/lang/String;
 
-    .line 2828640
+    .line 2828661
     move-object/from16 v0, p63
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A10:Ljava/lang/String;
 
-    .line 2828641
+    .line 2828662
     move-object/from16 v0, p64
 
     iput-object v0, p0, Lcom/instagram/model/shopping/merchant/MicroMerchantDict;->A11:Ljava/lang/String;

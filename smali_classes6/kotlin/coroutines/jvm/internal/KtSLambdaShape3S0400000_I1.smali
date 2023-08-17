@@ -4390,7 +4390,7 @@
     .line 1934
     .line 1935
     .line 1936
-    invoke-static {v4, v6}, LX/Chi;->A1B(LX/0AX;LX/5kj;)V
+    invoke-static {v4, v6}, LX/Chi;->A1C(LX/0AX;LX/5kj;)V
 
     .line 1937
     .line 1938

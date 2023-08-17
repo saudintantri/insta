@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">"Wannan zai iya yiwuwa ne saboda matsalar na'urar da muke aiki domin gyarawa. Gwada sake loda wannan shafin."</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Wartsake</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003b">"Wannan zai iya yiwuwa ne saboda matsalar na'urar da muke aiki domin gyarawa. Gwada sake loda wannan shafin."</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003c">Wartsake</string>
 </resources>

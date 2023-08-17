@@ -98,7 +98,7 @@
     .line 21
     .line 22
     .line 23
-    invoke-static {v0, v1}, LX/Chf;->A0U(LX/37R;LX/3IH;)LX/3Cn;
+    invoke-static {v0, v1}, LX/Chf;->A0V(LX/37R;LX/3IH;)LX/3Cn;
 
     .line 24
     .line 25

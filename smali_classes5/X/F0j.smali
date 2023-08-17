@@ -46,7 +46,7 @@
     const/4 v0, 0x3
 
     .line 9
-    invoke-static {v1, p1, v0, v2, v3}, LX/Chi;->A0Q(LX/1O3;Ljava/lang/Object;IJ)LX/39m;
+    invoke-static {v1, p1, v0, v2, v3}, LX/Chi;->A0R(LX/1O3;Ljava/lang/Object;IJ)LX/39m;
 
     .line 10
     .line 11

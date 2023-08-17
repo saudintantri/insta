@@ -3344,7 +3344,6 @@
     :try_end_2
     .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_0
     .catch LX/29n; {:try_start_2 .. :try_end_2} :catch_2
-    .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_3
 
     :catch_0
     :try_start_3
@@ -3427,7 +3426,6 @@
     :try_end_4
     .catch Lorg/json/JSONException; {:try_start_4 .. :try_end_4} :catch_1
     .catch LX/29n; {:try_start_4 .. :try_end_4} :catch_2
-    .catch Lorg/json/JSONException; {:try_start_4 .. :try_end_4} :catch_3
 
     :catch_1
     :try_start_5

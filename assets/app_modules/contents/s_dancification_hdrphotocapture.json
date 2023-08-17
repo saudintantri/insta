@@ -1,6 +1,6 @@
 {
-  "AndroidManifest.xml": "f9010648816f589b8e3a330a86f64c8ff6e2ce5a6d178caf8bdb5a37f60f8520",
-  "assets/libs.txt": "57cb751016eef69f85db2fe6919b0f30a32d30cb28c987d3679cb9b4e7045051",
-  "assets/libs.zstd": "308ed47ac58b7754bb882e2c3ed0f7a39f4e93223591a16586cef71fc7afa929",
+  "AndroidManifest.xml": "3859b01a9880c1033e8e1d2a027504bdce5f28325425d161c9746bcdba68786e",
+  "assets/libs.txt": "b8963d8057804420cf92d2eb59e470afcbf259cccbc69032eee463e4c4839439",
+  "assets/libs.zstd": "d4ba7670688afeff16fafa960e1f32b51f91ebdaab84401bc5add51d11c55971",
   "assets/resources.arsc": "c09af271335100df7e467697b276921ff3ec5ca5cf1d68b2b601f427aed41dc0"
 }

@@ -136,7 +136,7 @@
 
     .line 61
     .line 62
-    invoke-static {p0}, LX/Che;->A0I(LX/0zD;)Lcom/instagram/model/direct/DirectThreadKey;
+    invoke-static {p0}, LX/Chf;->A0a(LX/0zD;)Lcom/instagram/model/direct/DirectThreadKey;
 
     .line 63
     .line 64

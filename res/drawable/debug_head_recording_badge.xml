@@ -4,7 +4,7 @@
     <item>
         <shape android:shape="oval">
             <solid android:color="@color/grey_8" />
-            <size android:height="@dimen/debug_head_height" android:width="@dimen/cover_photo_picker_filmstrip_frame_width" />
+            <size android:height="@dimen/debug_head_height" android:width="@dimen/action_bar_plus_shadow_height" />
         </shape>
     </item>
     <item android:gravity="center">

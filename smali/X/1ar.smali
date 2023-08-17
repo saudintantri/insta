@@ -52,7 +52,7 @@
 
     .line 0
     :try_start_0
-    const-string v0, "evictCache"
+    const-string/jumbo v0, "evictCache"
 
     .line 1
     .line 2

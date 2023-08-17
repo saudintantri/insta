@@ -529,7 +529,7 @@
 
     .line 16
     .line 17
-    invoke-static {v0}, LX/Chf;->A0z(Landroid/content/SharedPreferences;)V
+    invoke-static {v0}, LX/Chf;->A10(Landroid/content/SharedPreferences;)V
 
     .line 18
     .line 19

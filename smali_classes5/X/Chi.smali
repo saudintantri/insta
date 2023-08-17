@@ -373,7 +373,36 @@
     return-object v0
 .end method
 
-.method public static A0B(Landroidx/fragment/app/Fragment;)Landroid/view/View;
+.method public static A0B(Landroid/widget/AdapterView;I)Landroid/view/View;
+    .locals 1
+
+    .line 0
+    invoke-virtual {p0}, Landroid/widget/AdapterView;->getFirstVisiblePosition()I
+
+    .line 1
+    .line 2
+    .line 3
+    move-result v0
+
+    .line 4
+    sub-int/2addr p1, v0
+
+    .line 5
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    return-object v0
+    .line 10
+    .line 11
+    .line 12
+.end method
+
+.method public static A0C(Landroidx/fragment/app/Fragment;)Landroid/view/View;
     .locals 0
 
     .line 0
@@ -409,7 +438,7 @@
     .line 14
 .end method
 
-.method public static A0C(LX/01o;)Landroid/view/View;
+.method public static A0D(LX/01o;)Landroid/view/View;
     .locals 0
 
     .line 0
@@ -437,7 +466,7 @@
     .line 11
 .end method
 
-.method public static A0D(Ljava/lang/Object;)LX/Cc6;
+.method public static A0E(Ljava/lang/Object;)LX/Cc6;
     .locals 1
 
     .line 0
@@ -460,7 +489,7 @@
     return-object v0
 .end method
 
-.method public static A0E(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape7S0301000_I1_1;)LX/05c;
+.method public static A0F(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape7S0301000_I1_1;)LX/05c;
     .locals 0
 
     .line 0
@@ -495,7 +524,7 @@
     .line 16
 .end method
 
-.method public static A0F(LX/9Ci;)LX/3BO;
+.method public static A0G(LX/9Ci;)LX/3BO;
     .locals 2
 
     .line 0
@@ -531,7 +560,7 @@
     .line 14
 .end method
 
-.method public static A0G(Ljava/lang/Object;LX/0Xg;LX/0TD;I)LX/1ng;
+.method public static A0H(Ljava/lang/Object;LX/0Xg;LX/0TD;I)LX/1ng;
     .locals 2
 
     .line 0
@@ -557,7 +586,7 @@
     .line 11
 .end method
 
-.method public static A0H(Ljava/lang/Object;)LX/05l;
+.method public static A0I(Ljava/lang/Object;)LX/05l;
     .locals 0
 
     .line 0
@@ -590,7 +619,7 @@
     .line 14
 .end method
 
-.method public static A0I(Ljava/lang/Object;)LX/05l;
+.method public static A0J(Ljava/lang/Object;)LX/05l;
     .locals 0
 
     .line 0
@@ -628,7 +657,7 @@
     .line 17
 .end method
 
-.method public static A0J(Landroidx/fragment/app/Fragment;)LX/25W;
+.method public static A0K(Landroidx/fragment/app/Fragment;)LX/25W;
     .locals 3
 
     .line 0
@@ -672,7 +701,7 @@
     .line 21
 .end method
 
-.method public static A0K(Ljava/lang/Object;)Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0200000_I1;
+.method public static A0L(Ljava/lang/Object;)Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0200000_I1;
     .locals 3
 
     .line 0
@@ -710,7 +739,7 @@
     .line 17
 .end method
 
-.method public static A0L(Ljava/lang/Object;I)LX/1F1;
+.method public static A0M(Ljava/lang/Object;I)LX/1F1;
     .locals 2
 
     .line 0
@@ -737,7 +766,7 @@
     .line 12
 .end method
 
-.method public static A0M(Ljava/lang/Object;I)LX/1F1;
+.method public static A0N(Ljava/lang/Object;I)LX/1F1;
     .locals 2
 
     .line 0
@@ -764,7 +793,7 @@
     .line 12
 .end method
 
-.method public static A0N(LX/05g;I)Lcom/instagram/common/kotlindelegate/lifecycle/NotNullLazyAutoCleanup;
+.method public static A0O(LX/05g;I)Lcom/instagram/common/kotlindelegate/lifecycle/NotNullLazyAutoCleanup;
     .locals 2
 
     .line 0
@@ -791,7 +820,7 @@
     .line 12
 .end method
 
-.method public static A0O(LX/2Gt;LX/1O3;)LX/39m;
+.method public static A0P(LX/2Gt;LX/1O3;)LX/39m;
     .locals 0
 
     .line 0
@@ -820,7 +849,7 @@
     .line 12
 .end method
 
-.method public static A0P(LX/1iX;)LX/39m;
+.method public static A0Q(LX/1iX;)LX/39m;
     .locals 1
 
     .line 0
@@ -853,7 +882,7 @@
     .line 14
 .end method
 
-.method public static A0Q(LX/1O3;Ljava/lang/Object;IJ)LX/39m;
+.method public static A0R(LX/1O3;Ljava/lang/Object;IJ)LX/39m;
     .locals 1
 
     .line 0
@@ -894,7 +923,7 @@
     .line 20
 .end method
 
-.method public static A0R(LX/1U0;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;)LX/0i9;
+.method public static A0S(LX/1U0;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;)LX/0i9;
     .locals 1
 
     .line 0
@@ -922,7 +951,7 @@
     return-object v0
 .end method
 
-.method public static A0S(Landroid/app/Activity;LX/0YK;Lcom/instagram/service/session/UserSession;Ljava/lang/String;Ljava/lang/String;)LX/1Ks;
+.method public static A0T(Landroid/app/Activity;LX/0YK;Lcom/instagram/service/session/UserSession;Ljava/lang/String;Ljava/lang/String;)LX/1Ks;
     .locals 0
 
     .line 0
@@ -955,7 +984,7 @@
     .line 16
 .end method
 
-.method public static A0T(LX/6z0;Ljava/lang/Object;I)LX/6z1;
+.method public static A0U(LX/6z0;Ljava/lang/Object;I)LX/6z1;
     .locals 1
 
     .line 0
@@ -989,7 +1018,7 @@
     .line 17
 .end method
 
-.method public static A0U(Landroidx/fragment/app/Fragment;)Lcom/instagram/service/session/UserSession;
+.method public static A0V(Landroidx/fragment/app/Fragment;)Lcom/instagram/service/session/UserSession;
     .locals 0
 
     .line 0
@@ -1015,7 +1044,7 @@
     .line 11
 .end method
 
-.method public static A0V(Landroidx/fragment/app/FragmentActivity;LX/0YK;Lcom/instagram/service/session/UserSession;LX/2qH;Ljava/lang/String;)LX/ERN;
+.method public static A0W(Landroidx/fragment/app/FragmentActivity;LX/0YK;Lcom/instagram/service/session/UserSession;LX/2qH;Ljava/lang/String;)LX/ERN;
     .locals 4
 
     .line 0
@@ -1056,7 +1085,7 @@
     .line 16
 .end method
 
-.method public static A0W(Ljava/lang/Object;Ljava/util/Map;)LX/3t2;
+.method public static A0X(Ljava/lang/Object;Ljava/util/Map;)LX/3t2;
     .locals 0
 
     .line 0
@@ -1092,7 +1121,38 @@
     .line 16
 .end method
 
-.method public static A0X(Lcom/instagram/model/direct/DirectThreadKey;)Ljava/lang/Integer;
+.method public static A0Y(I)Ljava/lang/Integer;
+    .locals 1
+
+    .line 0
+    const/4 v0, -0x1
+
+    .line 1
+    if-ne p0, v0, :cond_0
+
+    .line 2
+    .line 3
+    const/4 v0, 0x0
+
+    .line 4
+    return-object v0
+
+    .line 5
+    :cond_0
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    return-object v0
+    .line 10
+    .line 11
+.end method
+
+.method public static A0Z(Lcom/instagram/model/direct/DirectThreadKey;)Ljava/lang/Integer;
     .locals 0
 
     .line 0
@@ -1130,7 +1190,7 @@
     return-object p0
 .end method
 
-.method public static A0Y(Ljava/lang/Enum;)Ljava/lang/Integer;
+.method public static A0a(Ljava/lang/Enum;)Ljava/lang/Integer;
     .locals 0
 
     .line 0
@@ -1173,7 +1233,7 @@
     .line 17
 .end method
 
-.method public static A0Z(Landroid/os/Parcel;)Ljava/lang/Long;
+.method public static A0b(Landroid/os/Parcel;)Ljava/lang/Long;
     .locals 1
 
     .line 0
@@ -1216,7 +1276,7 @@
     .line 17
 .end method
 
-.method public static A0a(Landroid/os/Parcel;)Ljava/lang/Object;
+.method public static A0c(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 2
 
     .line 0
@@ -1252,7 +1312,7 @@
     .line 14
 .end method
 
-.method public static A0b(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtCImplShape6S0201000_I1_3;)Ljava/lang/Object;
+.method public static A0d(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtCImplShape6S0201000_I1_3;)Ljava/lang/Object;
     .locals 1
 
     .line 0
@@ -1283,7 +1343,7 @@
     .line 12
 .end method
 
-.method public static A0c(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtCImplShape6S0201000_I1_3;)Ljava/lang/Object;
+.method public static A0e(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtCImplShape6S0201000_I1_3;)Ljava/lang/Object;
     .locals 1
 
     .line 0
@@ -1314,7 +1374,7 @@
     .line 12
 .end method
 
-.method public static A0d(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape10S0101000_I1_4;LX/1TA;I)Ljava/lang/Object;
+.method public static A0f(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape10S0101000_I1_4;LX/1TA;I)Ljava/lang/Object;
     .locals 2
 
     .line 0
@@ -1353,7 +1413,7 @@
     .line 20
 .end method
 
-.method public static A0e(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape10S0101000_I1_4;LX/1T9;I)Ljava/lang/Object;
+.method public static A0g(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape10S0101000_I1_4;LX/1T9;I)Ljava/lang/Object;
     .locals 2
 
     .line 0
@@ -1392,7 +1452,7 @@
     .line 20
 .end method
 
-.method public static A0f(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape10S0201000_I1_1;LX/1T9;I)Ljava/lang/Object;
+.method public static A0h(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape10S0201000_I1_1;LX/1T9;I)Ljava/lang/Object;
     .locals 2
 
     .line 0
@@ -1431,7 +1491,7 @@
     .line 20
 .end method
 
-.method public static A0g(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape2S1101000_I1;LX/1TA;I)Ljava/lang/Object;
+.method public static A0i(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape2S1101000_I1;LX/1TA;I)Ljava/lang/Object;
     .locals 2
 
     .line 0
@@ -1470,7 +1530,7 @@
     .line 20
 .end method
 
-.method public static A0h(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape8S0101000_I1_2;LX/1TA;II)Ljava/lang/Object;
+.method public static A0j(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape8S0101000_I1_2;LX/1TA;II)Ljava/lang/Object;
     .locals 1
 
     .line 0
@@ -1503,7 +1563,7 @@
     .line 16
 .end method
 
-.method public static A0i(LX/1Br;LX/1TA;LX/1TC;I)Ljava/lang/Object;
+.method public static A0k(LX/1Br;LX/1TA;LX/1TC;I)Ljava/lang/Object;
     .locals 1
 
     .line 0
@@ -1545,7 +1605,7 @@
     .line 20
 .end method
 
-.method public static A0j(LX/1Jx;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
+.method public static A0l(LX/1Jx;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
     .locals 0
 
     .line 0
@@ -1576,7 +1636,7 @@
     return-object p0
 .end method
 
-.method public static A0k(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
+.method public static A0m(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
     .locals 0
 
     .line 0
@@ -1605,7 +1665,7 @@
     .line 12
 .end method
 
-.method public static A0l(Ljava/lang/Object;)Ljava/lang/String;
+.method public static A0n(Ljava/lang/Object;)Ljava/lang/String;
     .locals 3
 
     .line 0
@@ -1640,7 +1700,7 @@
     return-object v0
 .end method
 
-.method public static A0m(Ljava/lang/Object;)Ljava/lang/String;
+.method public static A0o(Ljava/lang/Object;)Ljava/lang/String;
     .locals 0
 
     .line 0
@@ -1673,7 +1733,7 @@
     .line 14
 .end method
 
-.method public static A0n(Ljava/lang/String;)Ljava/lang/String;
+.method public static A0p(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
     .line 0
@@ -1701,7 +1761,7 @@
     .line 11
 .end method
 
-.method public static A0o(Ljava/util/Iterator;)Ljava/lang/String;
+.method public static A0q(Ljava/util/Iterator;)Ljava/lang/String;
     .locals 0
 
     .line 0
@@ -1739,7 +1799,7 @@
     .line 17
 .end method
 
-.method public static A0p(Ljava/util/Map;)Ljava/lang/String;
+.method public static A0r(Ljava/util/Map;)Ljava/lang/String;
     .locals 1
 
     .line 0
@@ -1773,7 +1833,7 @@
     .line 14
 .end method
 
-.method public static A0q(LX/2Rp;)Ljava/lang/Throwable;
+.method public static A0s(LX/2Rp;)Ljava/lang/Throwable;
     .locals 1
 
     .line 0
@@ -1804,7 +1864,7 @@
     .line 11
 .end method
 
-.method public static A0r(Ljava/util/List;)Ljava/util/List;
+.method public static A0t(Ljava/util/List;)Ljava/util/List;
     .locals 0
 
     .line 0
@@ -1835,7 +1895,7 @@
     return-object p0
 .end method
 
-.method public static A0s(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape7S0301000_I1_1;)LX/1TA;
+.method public static A0u(Ljava/lang/Object;Lkotlin/coroutines/jvm/internal/KtSLambdaShape7S0301000_I1_1;)LX/1TA;
     .locals 1
 
     .line 0
@@ -1878,7 +1938,7 @@
     .line 20
 .end method
 
-.method public static A0t(Landroid/app/Activity;Landroid/content/Intent;Landroidx/fragment/app/Fragment;)V
+.method public static A0v(Landroid/app/Activity;Landroid/content/Intent;Landroidx/fragment/app/Fragment;)V
     .locals 1
 
     .line 0
@@ -1912,7 +1972,7 @@
     .line 17
 .end method
 
-.method public static A0u(Landroid/app/Activity;Landroid/os/Bundle;Landroidx/fragment/app/Fragment;LX/0SF;Ljava/lang/Class;)V
+.method public static A0w(Landroid/app/Activity;Landroid/os/Bundle;Landroidx/fragment/app/Fragment;LX/0SF;Ljava/lang/Class;)V
     .locals 7
 
     .line 0
@@ -1975,7 +2035,7 @@
     .line 32
 .end method
 
-.method public static A0v(Landroid/app/Activity;Landroid/view/View;Ljava/lang/Object;I)V
+.method public static A0x(Landroid/app/Activity;Landroid/view/View;Ljava/lang/Object;I)V
     .locals 3
 
     .line 0
@@ -2014,7 +2074,7 @@
     .line 20
 .end method
 
-.method public static A0w(Landroid/os/Parcel;Lcom/instagram/shopping/model/destination/home/ProductFeedHeader;I)V
+.method public static A0y(Landroid/os/Parcel;Lcom/instagram/shopping/model/destination/home/ProductFeedHeader;I)V
     .locals 1
 
     .line 0
@@ -2053,7 +2113,7 @@
     .line 17
 .end method
 
-.method public static A0x(Landroid/view/View;)V
+.method public static A0z(Landroid/view/View;)V
     .locals 2
 
     .line 0
@@ -2081,7 +2141,7 @@
     .line 11
 .end method
 
-.method public static A0y(Landroid/view/View;LX/0SF;I)V
+.method public static A10(Landroid/view/View;LX/0SF;I)V
     .locals 2
 
     .line 0
@@ -2116,7 +2176,7 @@
     .line 17
 .end method
 
-.method public static A0z(Landroid/widget/TextView;F)V
+.method public static A11(Landroid/widget/TextView;F)V
     .locals 1
 
     .line 0
@@ -2161,7 +2221,7 @@
     .line 20
 .end method
 
-.method public static A10(Landroidx/fragment/app/Fragment;)V
+.method public static A12(Landroidx/fragment/app/Fragment;)V
     .locals 2
 
     .line 0
@@ -2189,7 +2249,7 @@
     return-void
 .end method
 
-.method public static A11(Landroidx/fragment/app/Fragment;)V
+.method public static A13(Landroidx/fragment/app/Fragment;)V
     .locals 2
 
     .line 0
@@ -2217,7 +2277,7 @@
     return-void
 .end method
 
-.method public static A12(Landroidx/fragment/app/Fragment;LX/Ecb;Lcom/instagram/service/session/UserSession;)V
+.method public static A14(Landroidx/fragment/app/Fragment;LX/Ecb;Lcom/instagram/service/session/UserSession;)V
     .locals 1
 
     .line 0
@@ -2258,7 +2318,7 @@
     return-void
 .end method
 
-.method public static A13(Landroidx/fragment/app/Fragment;Z)V
+.method public static A15(Landroidx/fragment/app/Fragment;Z)V
     .locals 0
 
     .line 0
@@ -2294,7 +2354,7 @@
     .line 16
 .end method
 
-.method public static A14(LX/081;)V
+.method public static A16(LX/081;)V
     .locals 1
 
     .line 0
@@ -2326,7 +2386,7 @@
     .line 14
 .end method
 
-.method public static A15(LX/05g;LX/1TA;I)V
+.method public static A17(LX/05g;LX/1TA;I)V
     .locals 2
 
     .line 0
@@ -2373,7 +2433,7 @@
     .line 24
 .end method
 
-.method public static A16(LX/3Ib;LX/0VH;LX/1TA;)V
+.method public static A18(LX/3Ib;LX/0VH;LX/1TA;)V
     .locals 0
 
     .line 0
@@ -2407,45 +2467,7 @@
     .line 17
 .end method
 
-.method public static A17(Landroidx/recyclerview/widget/RecyclerView;)V
-    .locals 2
-
-    .line 0
-    const/4 v0, 0x1
-
-    .line 1
-    invoke-virtual {p0, v0}, Landroid/view/View;->setNestedScrollingEnabled(Z)V
-
-    .line 2
-    .line 3
-    .line 4
-    new-instance v1, LX/27t;
-
-    .line 5
-    .line 6
-    invoke-direct {v1}, LX/27t;-><init>()V
-
-    .line 7
-    .line 8
-    .line 9
-    const/4 v0, 0x0
-
-    .line 10
-    iput-boolean v0, v1, LX/27u;->A00:Z
-
-    .line 11
-    .line 12
-    invoke-virtual {p0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setItemAnimator(LX/2ui;)V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
-    .line 16
-    .line 17
-.end method
-
-.method public static A18(LX/0AP;LX/0AP;Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/2E0;)V
+.method public static A19(LX/0AP;LX/0AP;Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/2E0;)V
     .locals 1
 
     .line 0
@@ -2482,7 +2504,7 @@
     .line 20
 .end method
 
-.method public static A19(LX/0AP;LX/0AX;Ljava/lang/String;)V
+.method public static A1A(LX/0AP;LX/0AX;Ljava/lang/String;)V
     .locals 1
 
     .line 0
@@ -2514,7 +2536,7 @@
     .line 17
 .end method
 
-.method public static A1A(LX/0AW;Lcom/instagram/service/session/UserSession;)V
+.method public static A1B(LX/0AW;Lcom/instagram/service/session/UserSession;)V
     .locals 2
 
     .line 0
@@ -2549,7 +2571,7 @@
     .line 16
 .end method
 
-.method public static A1B(LX/0AX;LX/5kj;)V
+.method public static A1C(LX/0AX;LX/5kj;)V
     .locals 2
 
     .line 0
@@ -2578,7 +2600,7 @@
     .line 12
 .end method
 
-.method public static A1C(LX/0AX;Lcom/instagram/model/shopping/Product;)V
+.method public static A1D(LX/0AX;Lcom/instagram/model/shopping/Product;)V
     .locals 2
 
     .line 0
@@ -2613,7 +2635,7 @@
     .line 16
 .end method
 
-.method public static A1D(LX/0AX;Lcom/instagram/model/shopping/productfeed/ProductTile;)V
+.method public static A1E(LX/0AX;Lcom/instagram/model/shopping/productfeed/ProductTile;)V
     .locals 2
 
     .line 0
@@ -2651,7 +2673,7 @@
     .line 16
 .end method
 
-.method public static A1E(LX/0AX;Lcom/instagram/shopping/intf/taggingfeed/ShoppingTaggingFeedArguments;Ljava/lang/String;Ljava/lang/String;)V
+.method public static A1F(LX/0AX;Lcom/instagram/shopping/intf/taggingfeed/ShoppingTaggingFeedArguments;Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
     .line 0
@@ -2692,7 +2714,7 @@
     .line 20
 .end method
 
-.method public static A1F(LX/0AX;Ljava/lang/Long;)V
+.method public static A1G(LX/0AX;Ljava/lang/Long;)V
     .locals 2
 
     .line 0
@@ -2727,7 +2749,7 @@
     .line 16
 .end method
 
-.method public static A1G(LX/0AX;Ljava/lang/String;J)V
+.method public static A1H(LX/0AX;Ljava/lang/String;J)V
     .locals 2
 
     .line 0
@@ -2763,7 +2785,7 @@
     .line 17
 .end method
 
-.method public static A1H(LX/0AX;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+.method public static A1I(LX/0AX;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
     .line 0
@@ -2796,7 +2818,7 @@
     .line 16
 .end method
 
-.method public static A1I(LX/0Y8;Ljava/lang/String;Z)V
+.method public static A1J(LX/0Y8;Ljava/lang/String;Z)V
     .locals 2
 
     .line 0
@@ -2832,7 +2854,7 @@
     .line 17
 .end method
 
-.method public static A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/Object;Ljava/lang/Object;)V
+.method public static A1K(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
 
     .line 0
@@ -2867,7 +2889,7 @@
     .line 17
 .end method
 
-.method public static A1K(Lcom/facebook/redex/AnonObserverShape225S0100000_I1_10;LX/4Gl;)V
+.method public static A1L(Lcom/facebook/redex/AnonObserverShape225S0100000_I1_10;LX/4Gl;)V
     .locals 1
 
     .line 0
@@ -2910,7 +2932,7 @@
     .line 20
 .end method
 
-.method public static A1L(LX/0zD;Ljava/util/AbstractCollection;)V
+.method public static A1M(LX/0zD;Ljava/util/AbstractCollection;)V
     .locals 0
 
     .line 0
@@ -2938,7 +2960,7 @@
     .line 12
 .end method
 
-.method public static A1M(LX/6hm;LX/1M5;LX/1qw;Lcom/instagram/service/session/UserSession;Ljava/lang/Object;)V
+.method public static A1N(LX/6hm;LX/1M5;LX/1qw;Lcom/instagram/service/session/UserSession;Ljava/lang/Object;)V
     .locals 1
 
     .line 0
@@ -2973,7 +2995,7 @@
     .line 16
 .end method
 
-.method public static A1N(LX/37R;LX/3IH;)V
+.method public static A1O(LX/37R;LX/3IH;)V
     .locals 1
 
     .line 0
@@ -3000,7 +3022,7 @@
     .line 12
 .end method
 
-.method public static A1O(LX/2tw;I)V
+.method public static A1P(LX/2tw;I)V
     .locals 1
 
     .line 0
@@ -3028,7 +3050,7 @@
     .line 12
 .end method
 
-.method public static A1P(LX/2tw;Ljava/lang/Integer;)V
+.method public static A1Q(LX/2tw;Ljava/lang/Integer;)V
     .locals 3
 
     .line 0
@@ -3057,7 +3079,7 @@
     .line 12
 .end method
 
-.method public static A1Q(LX/3FX;LX/5tm;I)V
+.method public static A1R(LX/3FX;LX/5tm;I)V
     .locals 1
 
     .line 0
@@ -3089,7 +3111,7 @@
     .line 17
 .end method
 
-.method public static A1R(LX/4zl;Ljava/lang/String;)V
+.method public static A1S(LX/4zl;Ljava/lang/String;)V
     .locals 1
 
     .line 0
@@ -3120,7 +3142,7 @@
     return-void
 .end method
 
-.method public static A1S(LX/4Xu;I)V
+.method public static A1T(LX/4Xu;I)V
     .locals 3
 
     .line 0
@@ -3159,53 +3181,6 @@
     return-void
     .line 19
     .line 20
-.end method
-
-.method public static A1T(LX/BWV;Ljava/lang/Integer;Lkotlin/jvm/internal/KtLambdaShape12S0200000_I1_1;)V
-    .locals 3
-
-    .line 0
-    new-instance v2, LX/Bhs;
-
-    .line 1
-    .line 2
-    invoke-direct {v2, p1}, LX/Bhs;-><init>(Ljava/lang/Integer;)V
-
-    .line 3
-    .line 4
-    .line 5
-    iget-object v0, p2, Lkotlin/jvm/internal/KtLambdaShape12S0200000_I1_1;->A00:Ljava/lang/Object;
-
-    .line 6
-    .line 7
-    check-cast v0, LX/CDV;
-
-    .line 8
-    .line 9
-    iget-object v1, v0, LX/CDV;->A01:Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S3400000_I1;
-
-    .line 10
-    .line 11
-    iget v0, v0, LX/CDV;->A00:I
-
-    .line 12
-    .line 13
-    invoke-virtual {v2, v1, v0}, LX/Bhs;->A01(Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S3400000_I1;I)V
-
-    .line 14
-    .line 15
-    .line 16
-    invoke-static {p0, v2}, LX/BQL;->A01(LX/BWV;LX/Bhs;)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
 .end method
 
 .method public static A1U(Ljava/lang/Object;)V

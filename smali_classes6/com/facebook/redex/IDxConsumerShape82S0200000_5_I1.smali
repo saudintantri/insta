@@ -635,7 +635,7 @@
 
     .line 255
     .line 256
-    invoke-static {v1, v6}, LX/Chi;->A1B(LX/0AX;LX/5kj;)V
+    invoke-static {v1, v6}, LX/Chi;->A1C(LX/0AX;LX/5kj;)V
 
     .line 257
     .line 258
@@ -662,7 +662,7 @@
 
     .line 270
     .line 271
-    invoke-static {v0, v1, v4, v2, v5}, LX/Chj;->A0P(LX/0AP;Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/Long;
+    invoke-static {v0, v1, v4, v2, v5}, LX/Chj;->A0O(LX/0AP;Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/Long;
 
     .line 272
     .line 273
@@ -864,7 +864,7 @@
     .line 369
     .line 370
     .line 371
-    invoke-static {v6, v13}, LX/Chi;->A1B(LX/0AX;LX/5kj;)V
+    invoke-static {v6, v13}, LX/Chi;->A1C(LX/0AX;LX/5kj;)V
 
     .line 372
     .line 373
@@ -891,7 +891,7 @@
 
     .line 385
     .line 386
-    invoke-static {v0, v6, v9, v8, v10}, LX/Chj;->A0P(LX/0AP;Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/Long;
+    invoke-static {v0, v6, v9, v8, v10}, LX/Chj;->A0O(LX/0AP;Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/Long;
 
     .line 387
     .line 388

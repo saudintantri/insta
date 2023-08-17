@@ -260,7 +260,7 @@
 
     .line 536871015
     .line 536871016
-    invoke-static {p0, v0}, LX/Chf;->A17(Landroid/widget/TextView;I)V
+    invoke-static {p0, v0}, LX/Chf;->A18(Landroid/widget/TextView;I)V
 
     .line 536871017
     .line 536871018

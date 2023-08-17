@@ -469,7 +469,7 @@
     .line 101
     .line 102
     :cond_5
-    invoke-static {}, LX/Chg;->A0v()LX/8xM;
+    invoke-static {}, LX/Chg;->A0u()LX/8xM;
 
     .line 103
     .line 104

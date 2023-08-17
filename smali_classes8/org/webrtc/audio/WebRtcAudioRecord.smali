@@ -136,10 +136,10 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/media/AudioManager;IILorg/webrtc/audio/JavaAudioDeviceModule$AudioRecordErrorCallback;Lorg/webrtc/audio/JavaAudioDeviceModule$AudioRecordStateCallback;Lorg/webrtc/audio/JavaAudioDeviceModule$SamplesReadyCallback;ZZ)V
     .locals 1
 
-    .line 271340776
+    .line 271340797
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 271340777
+    .line 271340798
     new-instance v0, Lorg/webrtc/audio/WebRtcAudioEffects;
 
     invoke-direct {v0}, Lorg/webrtc/audio/WebRtcAudioEffects;-><init>()V
@@ -148,73 +148,73 @@
 
     if-eqz p8, :cond_0
 
-    .line 271340778
+    .line 271340799
     invoke-static {}, Lorg/webrtc/audio/WebRtcAudioEffects;->isAcousticEchoCancelerSupported()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 271340779
+    .line 271340800
     const-string v0, "HW AEC not supported"
 
-    .line 271340780
+    .line 271340801
     :goto_0
     invoke-static {v0}, LX/5Wd;->A0b(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;
 
     move-result-object v0
 
-    .line 271340781
+    .line 271340802
     throw v0
 
-    .line 271340782
+    .line 271340803
     :cond_0
     if-eqz p9, :cond_1
 
-    .line 271340783
+    .line 271340804
     invoke-static {}, Lorg/webrtc/audio/WebRtcAudioEffects;->isNoiseSuppressorSupported()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 271340784
+    .line 271340805
     const-string v0, "HW NS not supported"
 
     goto :goto_0
 
-    .line 271340785
+    .line 271340806
     :cond_1
     iput-object p1, p0, Lorg/webrtc/audio/WebRtcAudioRecord;->context:Landroid/content/Context;
 
-    .line 271340786
+    .line 271340807
     iput-object p2, p0, Lorg/webrtc/audio/WebRtcAudioRecord;->audioManager:Landroid/media/AudioManager;
 
-    .line 271340787
+    .line 271340808
     iput p3, p0, Lorg/webrtc/audio/WebRtcAudioRecord;->audioSource:I
 
-    .line 271340788
+    .line 271340809
     iput p4, p0, Lorg/webrtc/audio/WebRtcAudioRecord;->audioFormat:I
 
-    .line 271340789
+    .line 271340810
     iput-object p5, p0, Lorg/webrtc/audio/WebRtcAudioRecord;->errorCallback:Lorg/webrtc/audio/JavaAudioDeviceModule$AudioRecordErrorCallback;
 
-    .line 271340790
+    .line 271340811
     iput-object p6, p0, Lorg/webrtc/audio/WebRtcAudioRecord;->stateCallback:Lorg/webrtc/audio/JavaAudioDeviceModule$AudioRecordStateCallback;
 
-    .line 271340791
+    .line 271340812
     iput-object p7, p0, Lorg/webrtc/audio/WebRtcAudioRecord;->audioSamplesReadyCallback:Lorg/webrtc/audio/JavaAudioDeviceModule$SamplesReadyCallback;
 
-    .line 271340792
+    .line 271340813
     iput-boolean p8, p0, Lorg/webrtc/audio/WebRtcAudioRecord;->isAcousticEchoCancelerSupported:Z
 
-    .line 271340793
+    .line 271340814
     iput-boolean p9, p0, Lorg/webrtc/audio/WebRtcAudioRecord;->isNoiseSuppressorSupported:Z
 
-    .line 271340794
+    .line 271340815
     invoke-static {}, LX/MHb;->A0h()Ljava/lang/String;
 
-    .line 271340795
+    .line 271340816
     return-void
 .end method
 

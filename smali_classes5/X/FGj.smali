@@ -125,7 +125,7 @@
 
     .line 16
     .line 17
-    invoke-static {p1, v0, v1, v2}, LX/Chf;->A13(Landroid/view/View;LX/1U0;LX/0hh;LX/3Bm;)V
+    invoke-static {p1, v0, v1, v2}, LX/Chf;->A14(Landroid/view/View;LX/1U0;LX/0hh;LX/3Bm;)V
 
     .line 18
     .line 19
@@ -256,7 +256,7 @@
 
     .line 54
     .line 55
-    invoke-static {v3, v0}, LX/Chi;->A1A(LX/0AW;Lcom/instagram/service/session/UserSession;)V
+    invoke-static {v3, v0}, LX/Chi;->A1B(LX/0AW;Lcom/instagram/service/session/UserSession;)V
 
     .line 56
     .line 57

@@ -1984,7 +1984,7 @@
     .line 975
     .line 976
     .line 977
-    invoke-static {v1, v3, v0}, LX/Chf;->A0x(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {v1, v3, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
 
     .line 978
     .line 979
@@ -2267,7 +2267,7 @@
     .line 1122
     .line 1123
     .line 1124
-    invoke-static {v1, v0}, LX/Chf;->A17(Landroid/widget/TextView;I)V
+    invoke-static {v1, v0}, LX/Chf;->A18(Landroid/widget/TextView;I)V
 
     .line 1125
     .line 1126
@@ -2599,7 +2599,7 @@
     .line 1289
     .line 1290
     .line 1291
-    invoke-static {v1, v0}, LX/Chf;->A17(Landroid/widget/TextView;I)V
+    invoke-static {v1, v0}, LX/Chf;->A18(Landroid/widget/TextView;I)V
 
     .line 1292
     .line 1293

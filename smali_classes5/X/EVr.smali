@@ -398,7 +398,7 @@
 
     .line 198
     .line 199
-    invoke-static {v7, v0}, LX/Chf;->A12(Landroid/os/Handler;Ljava/lang/Runnable;)V
+    invoke-static {v7, v0}, LX/Chf;->A13(Landroid/os/Handler;Ljava/lang/Runnable;)V
 
     .line 200
     .line 201

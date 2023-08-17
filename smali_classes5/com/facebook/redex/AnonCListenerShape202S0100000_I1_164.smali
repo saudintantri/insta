@@ -332,7 +332,7 @@
 
     .line 146
     .line 147
-    invoke-static {v0, v2}, LX/Chf;->A1C(LX/0AP;LX/0AX;)V
+    invoke-static {v0, v2}, LX/Chf;->A1D(LX/0AP;LX/0AX;)V
 
     .line 148
     .line 149
@@ -617,7 +617,7 @@
     .line 293
     .line 294
     .line 295
-    invoke-static {v3, v5}, LX/Chg;->A1H(LX/0AX;Ljava/lang/String;)V
+    invoke-static {v3, v5}, LX/Chg;->A1G(LX/0AX;Ljava/lang/String;)V
 
     .line 296
     .line 297

@@ -85,243 +85,243 @@
 .method public constructor <init>(Landroid/graphics/RectF;Landroid/graphics/RectF;Landroid/transition/PathMotion;Landroid/view/View;Landroid/view/View;LX/5SY;LX/5SY;LX/Lyp;LX/M1j;LX/Kcn;FFIIIIZZZ)V
     .locals 9
 
-    .line 2512864
+    .line 2512885
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
 
-    .line 2512865
+    .line 2512886
     invoke-static {}, LX/Chb;->A07()Landroid/graphics/Paint;
 
     move-result-object v0
 
-    .line 2512866
+    .line 2512887
     iput-object v0, p0, LX/J7d;->A0H:Landroid/graphics/Paint;
 
-    .line 2512867
+    .line 2512888
     invoke-static {}, LX/Chb;->A07()Landroid/graphics/Paint;
 
     move-result-object v0
 
-    .line 2512868
+    .line 2512889
     iput-object v0, p0, LX/J7d;->A0K:Landroid/graphics/Paint;
 
-    .line 2512869
+    .line 2512890
     invoke-static {}, LX/Chb;->A07()Landroid/graphics/Paint;
 
     move-result-object v0
 
-    .line 2512870
+    .line 2512891
     iput-object v0, p0, LX/J7d;->A0I:Landroid/graphics/Paint;
 
-    .line 2512871
+    .line 2512892
     invoke-static {}, LX/Chb;->A07()Landroid/graphics/Paint;
 
     move-result-object v0
 
-    .line 2512872
+    .line 2512893
     iput-object v0, p0, LX/J7d;->A07:Landroid/graphics/Paint;
 
-    .line 2512873
+    .line 2512894
     invoke-static {}, LX/Chb;->A07()Landroid/graphics/Paint;
 
     move-result-object v0
 
-    .line 2512874
+    .line 2512895
     iput-object v0, p0, LX/J7d;->A0J:Landroid/graphics/Paint;
 
-    .line 2512875
+    .line 2512896
     new-instance v0, LX/Kdk;
 
     invoke-direct {v0}, LX/Kdk;-><init>()V
 
     iput-object v0, p0, LX/J7d;->A0B:LX/Kdk;
 
-    .line 2512876
+    .line 2512897
     invoke-static {}, LX/Chb;->A1b()[F
 
     move-result-object v0
 
-    .line 2512877
+    .line 2512898
     iput-object v0, p0, LX/J7d;->A0b:[F
 
-    .line 2512878
+    .line 2512899
     new-instance v0, LX/5SW;
 
     invoke-direct {v0}, LX/5SW;-><init>()V
 
     iput-object v0, p0, LX/J7d;->A0A:LX/5SW;
 
-    .line 2512879
+    .line 2512900
     invoke-static {}, LX/Chb;->A07()Landroid/graphics/Paint;
 
     move-result-object v0
 
-    .line 2512880
+    .line 2512901
     iput-object v0, p0, LX/J7d;->A06:Landroid/graphics/Paint;
 
-    .line 2512881
+    .line 2512902
     invoke-static {}, LX/FnA;->A0H()Landroid/graphics/Path;
 
     move-result-object v0
 
-    .line 2512882
+    .line 2512903
     iput-object v0, p0, LX/J7d;->A0L:Landroid/graphics/Path;
 
-    .line 2512883
+    .line 2512904
     iput-object p4, p0, LX/J7d;->A09:Landroid/view/View;
 
-    .line 2512884
+    .line 2512905
     iput-object p1, p0, LX/J7d;->A0S:Landroid/graphics/RectF;
 
-    .line 2512885
+    .line 2512906
     iput-object p6, p0, LX/J7d;->A0U:LX/5SY;
 
-    .line 2512886
+    .line 2512907
     move/from16 v0, p11
 
     iput v0, p0, LX/J7d;->A0G:F
 
-    .line 2512887
+    .line 2512908
     iput-object p5, p0, LX/J7d;->A08:Landroid/view/View;
 
-    .line 2512888
+    .line 2512909
     iput-object p2, p0, LX/J7d;->A0R:Landroid/graphics/RectF;
 
-    .line 2512889
+    .line 2512910
     move-object/from16 v0, p7
 
     iput-object v0, p0, LX/J7d;->A0T:LX/5SY;
 
-    .line 2512890
+    .line 2512911
     move/from16 v0, p12
 
     iput v0, p0, LX/J7d;->A0E:F
 
-    .line 2512891
+    .line 2512912
     move/from16 v0, p17
 
     iput-boolean v0, p0, LX/J7d;->A0a:Z
 
-    .line 2512892
+    .line 2512913
     move/from16 v0, p18
 
     iput-boolean v0, p0, LX/J7d;->A0Z:Z
 
-    .line 2512893
+    .line 2512914
     move-object/from16 v0, p8
 
     iput-object v0, p0, LX/J7d;->A0V:LX/Lyp;
 
-    .line 2512894
+    .line 2512915
     move-object/from16 v0, p9
 
     iput-object v0, p0, LX/J7d;->A0W:LX/M1j;
 
-    .line 2512895
+    .line 2512916
     move-object/from16 v0, p10
 
     iput-object v0, p0, LX/J7d;->A0X:LX/Kcn;
 
-    .line 2512896
+    .line 2512917
     move/from16 v0, p19
 
     iput-boolean v0, p0, LX/J7d;->A0Y:Z
 
-    .line 2512897
+    .line 2512918
     invoke-virtual {p4}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    .line 2512898
+    .line 2512919
     invoke-static {v0}, LX/IzK;->A0G(Landroid/content/Context;)Landroid/view/WindowManager;
 
     move-result-object v0
 
-    .line 2512899
+    .line 2512920
     new-instance v1, Landroid/util/DisplayMetrics;
 
     invoke-direct {v1}, Landroid/util/DisplayMetrics;-><init>()V
 
-    .line 2512900
+    .line 2512921
     invoke-interface {v0}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
     move-result-object v0
 
     invoke-virtual {v0, v1}, Landroid/view/Display;->getMetrics(Landroid/util/DisplayMetrics;)V
 
-    .line 2512901
+    .line 2512922
     iget v0, v1, Landroid/util/DisplayMetrics;->widthPixels:I
 
     int-to-float v0, v0
 
     iput v0, p0, LX/J7d;->A0D:F
 
-    .line 2512902
+    .line 2512923
     iget v0, v1, Landroid/util/DisplayMetrics;->heightPixels:I
 
     int-to-float v0, v0
 
     iput v0, p0, LX/J7d;->A0C:F
 
-    .line 2512903
+    .line 2512924
     iget-object v0, p0, LX/J7d;->A0H:Landroid/graphics/Paint;
 
     move/from16 v1, p13
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 2512904
+    .line 2512925
     iget-object v0, p0, LX/J7d;->A0K:Landroid/graphics/Paint;
 
     move/from16 v1, p14
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 2512905
+    .line 2512926
     iget-object v0, p0, LX/J7d;->A0I:Landroid/graphics/Paint;
 
     move/from16 v1, p15
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 2512906
+    .line 2512927
     iget-object v0, p0, LX/J7d;->A0A:LX/5SW;
 
     const/4 v4, 0x0
 
-    .line 2512907
+    .line 2512928
     invoke-static {v0, v4}, LX/IzL;->A12(LX/5SW;I)V
 
-    .line 2512908
+    .line 2512929
     iget-object v0, p0, LX/J7d;->A0A:LX/5SW;
 
     invoke-virtual {v0}, LX/5SW;->A0A()V
 
-    .line 2512909
+    .line 2512930
     iget-object v1, p0, LX/J7d;->A0A:LX/5SW;
 
-    .line 2512910
+    .line 2512931
     iput-boolean v4, v1, LX/5SW;->A03:Z
 
-    .line 2512911
+    .line 2512932
     const v0, -0x777778
 
     invoke-virtual {v1, v0}, LX/5SW;->A0E(I)V
 
-    .line 2512912
+    .line 2512933
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1, p1}, Landroid/graphics/RectF;-><init>(Landroid/graphics/RectF;)V
 
     iput-object v1, p0, LX/J7d;->A0P:Landroid/graphics/RectF;
 
-    .line 2512913
+    .line 2512934
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0, v1}, Landroid/graphics/RectF;-><init>(Landroid/graphics/RectF;)V
 
     iput-object v0, p0, LX/J7d;->A0Q:Landroid/graphics/RectF;
 
-    .line 2512914
+    .line 2512935
     iget-object v0, p0, LX/J7d;->A0P:Landroid/graphics/RectF;
 
     new-instance v1, Landroid/graphics/RectF;
@@ -330,38 +330,38 @@
 
     iput-object v1, p0, LX/J7d;->A0N:Landroid/graphics/RectF;
 
-    .line 2512915
+    .line 2512936
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0, v1}, Landroid/graphics/RectF;-><init>(Landroid/graphics/RectF;)V
 
     iput-object v0, p0, LX/J7d;->A0O:Landroid/graphics/RectF;
 
-    .line 2512916
+    .line 2512937
     invoke-virtual {p1}, Landroid/graphics/RectF;->centerX()F
 
     move-result v1
 
     iget v0, p1, Landroid/graphics/RectF;->top:F
 
-    .line 2512917
+    .line 2512938
     invoke-static {v1, v0}, LX/FnA;->A0I(FF)Landroid/graphics/PointF;
 
     move-result-object v2
 
-    .line 2512918
+    .line 2512939
     invoke-virtual {p2}, Landroid/graphics/RectF;->centerX()F
 
     move-result v1
 
     iget v0, p2, Landroid/graphics/RectF;->top:F
 
-    .line 2512919
+    .line 2512940
     invoke-static {v1, v0}, LX/FnA;->A0I(FF)Landroid/graphics/PointF;
 
     move-result-object v0
 
-    .line 2512920
+    .line 2512941
     iget v3, v2, Landroid/graphics/PointF;->x:F
 
     iget v2, v2, Landroid/graphics/PointF;->y:F
@@ -374,21 +374,21 @@
 
     move-result-object v1
 
-    .line 2512921
+    .line 2512942
     new-instance v0, Landroid/graphics/PathMeasure;
 
     invoke-direct {v0, v1, v4}, Landroid/graphics/PathMeasure;-><init>(Landroid/graphics/Path;Z)V
 
     iput-object v0, p0, LX/J7d;->A0M:Landroid/graphics/PathMeasure;
 
-    .line 2512922
+    .line 2512943
     invoke-virtual {v0}, Landroid/graphics/PathMeasure;->getLength()F
 
     move-result v0
 
     iput v0, p0, LX/J7d;->A0F:F
 
-    .line 2512923
+    .line 2512944
     iget-object v1, p0, LX/J7d;->A0b:[F
 
     invoke-virtual {p1}, Landroid/graphics/RectF;->centerX()F
@@ -397,7 +397,7 @@
 
     aput v0, v1, v4
 
-    .line 2512924
+    .line 2512945
     iget-object v2, p0, LX/J7d;->A0b:[F
 
     iget v1, p1, Landroid/graphics/RectF;->top:F
@@ -406,16 +406,16 @@
 
     aput v1, v2, v0
 
-    .line 2512925
+    .line 2512946
     iget-object v0, p0, LX/J7d;->A0J:Landroid/graphics/Paint;
 
-    .line 2512926
+    .line 2512947
     invoke-static {v0}, LX/Chb;->A15(Landroid/graphics/Paint;)V
 
-    .line 2512927
+    .line 2512948
     iget-object v0, p0, LX/J7d;->A0J:Landroid/graphics/Paint;
 
-    .line 2512928
+    .line 2512949
     sget-object v8, Landroid/graphics/Shader$TileMode;->CLAMP:Landroid/graphics/Shader$TileMode;
 
     const/4 v2, 0x0
@@ -434,23 +434,23 @@
 
     invoke-direct/range {v1 .. v8}, Landroid/graphics/LinearGradient;-><init>(FFFFIILandroid/graphics/Shader$TileMode;)V
 
-    .line 2512929
+    .line 2512950
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 2512930
+    .line 2512951
     iget-object v0, p0, LX/J7d;->A06:Landroid/graphics/Paint;
 
-    .line 2512931
+    .line 2512952
     invoke-static {v0}, LX/Chb;->A14(Landroid/graphics/Paint;)V
 
-    .line 2512932
+    .line 2512953
     iget-object v1, p0, LX/J7d;->A06:Landroid/graphics/Paint;
 
     const/high16 v0, 0x41200000    # 10.0f
 
     invoke-virtual {v1, v0}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 2512933
+    .line 2512954
     invoke-static {p0, v2}, LX/J7d;->A02(LX/J7d;F)V
 
     return-void

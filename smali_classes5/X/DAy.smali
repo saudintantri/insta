@@ -73,139 +73,139 @@
 .method public constructor <init>(LX/0YK;LX/97j;LX/97j;LX/96T;LX/96T;LX/96T;Lcom/instagram/common/typedurl/ImageUrl;Lcom/instagram/common/typedurl/ImageUrl;Lcom/instagram/model/mediasize/ImageInfo;LX/9Tm;LX/CsP;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;ZZZZZZZZZZZZZZZ)V
     .locals 1
 
-    .line 1667205
+    .line 1667203
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1667206
+    .line 1667204
     iput-object p11, p0, LX/DAy;->A0A:LX/CsP;
 
-    .line 1667207
+    .line 1667205
     iput-object p4, p0, LX/DAy;->A03:LX/96T;
 
-    .line 1667208
+    .line 1667206
     iput-object p2, p0, LX/DAy;->A01:LX/97j;
 
-    .line 1667209
+    .line 1667207
     iput-object p14, p0, LX/DAy;->A0D:Ljava/lang/String;
 
-    .line 1667210
+    .line 1667208
     iput-object p9, p0, LX/DAy;->A08:Lcom/instagram/model/mediasize/ImageInfo;
 
-    .line 1667211
+    .line 1667209
     move/from16 v0, p18
 
     iput-boolean v0, p0, LX/DAy;->A0J:Z
 
-    .line 1667212
+    .line 1667210
     move/from16 v0, p19
 
     iput-boolean v0, p0, LX/DAy;->A0K:Z
 
-    .line 1667213
+    .line 1667211
     move/from16 v0, p20
 
     iput-boolean v0, p0, LX/DAy;->A0L:Z
 
-    .line 1667214
+    .line 1667212
     move/from16 v0, p21
 
     iput-boolean v0, p0, LX/DAy;->A0N:Z
 
-    .line 1667215
+    .line 1667213
     move/from16 v0, p22
 
     iput-boolean v0, p0, LX/DAy;->A0O:Z
 
-    .line 1667216
+    .line 1667214
     move/from16 v0, p23
 
     iput-boolean v0, p0, LX/DAy;->A0P:Z
 
-    .line 1667217
+    .line 1667215
     move/from16 v0, p24
 
     iput-boolean v0, p0, LX/DAy;->A0Q:Z
 
-    .line 1667218
+    .line 1667216
     move/from16 v0, p25
 
     iput-boolean v0, p0, LX/DAy;->A0R:Z
 
-    .line 1667219
+    .line 1667217
     move/from16 v0, p26
 
     iput-boolean v0, p0, LX/DAy;->A0H:Z
 
-    .line 1667220
+    .line 1667218
     move/from16 v0, p27
 
     iput-boolean v0, p0, LX/DAy;->A0M:Z
 
-    .line 1667221
+    .line 1667219
     move/from16 v0, p28
 
     iput-boolean v0, p0, LX/DAy;->A0I:Z
 
-    .line 1667222
+    .line 1667220
     move/from16 v0, p29
 
     iput-boolean v0, p0, LX/DAy;->A0T:Z
 
-    .line 1667223
+    .line 1667221
     move-object/from16 v0, p16
 
     iput-object v0, p0, LX/DAy;->A0F:Ljava/util/List;
 
-    .line 1667224
+    .line 1667222
     iput-object p12, p0, LX/DAy;->A0B:Ljava/lang/Integer;
 
-    .line 1667225
+    .line 1667223
     iput-object p10, p0, LX/DAy;->A09:LX/9Tm;
 
-    .line 1667226
+    .line 1667224
     iput-object p7, p0, LX/DAy;->A07:Lcom/instagram/common/typedurl/ImageUrl;
 
-    .line 1667227
+    .line 1667225
     move-object/from16 v0, p15
 
     iput-object v0, p0, LX/DAy;->A0E:Ljava/lang/String;
 
-    .line 1667228
+    .line 1667226
     move/from16 v0, p30
 
     iput-boolean v0, p0, LX/DAy;->A0V:Z
 
-    .line 1667229
+    .line 1667227
     iput-object p13, p0, LX/DAy;->A0C:Ljava/lang/Integer;
 
-    .line 1667230
+    .line 1667228
     move/from16 v0, p31
 
     iput-boolean v0, p0, LX/DAy;->A0S:Z
 
-    .line 1667231
+    .line 1667229
     iput-object p1, p0, LX/DAy;->A00:LX/0YK;
 
-    .line 1667232
+    .line 1667230
     move/from16 v0, p32
 
     iput-boolean v0, p0, LX/DAy;->A0U:Z
 
-    .line 1667233
+    .line 1667231
     iput-object p8, p0, LX/DAy;->A06:Lcom/instagram/common/typedurl/ImageUrl;
 
-    .line 1667234
+    .line 1667232
     move-object/from16 v0, p17
 
     iput-object v0, p0, LX/DAy;->A0G:Ljava/util/List;
 
-    .line 1667235
+    .line 1667233
     iput-object p3, p0, LX/DAy;->A02:LX/97j;
 
-    .line 1667236
+    .line 1667234
     iput-object p5, p0, LX/DAy;->A04:LX/96T;
 
-    .line 1667237
+    .line 1667235
     iput-object p6, p0, LX/DAy;->A05:LX/96T;
 
     return-void

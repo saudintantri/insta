@@ -1309,7 +1309,7 @@
     move-result-object v5
 
     .line 604
-    invoke-static {v5}, LX/Chf;->A0M(Landroid/view/View;)Landroid/view/ViewGroup$MarginLayoutParams;
+    invoke-static {v5}, LX/Chf;->A0N(Landroid/view/View;)Landroid/view/ViewGroup$MarginLayoutParams;
 
     .line 605
     .line 606

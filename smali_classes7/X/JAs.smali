@@ -126,17 +126,17 @@
 .method public final onConsoleMessage(Landroid/webkit/ConsoleMessage;)Z
     .locals 19
 
-    .line 271242732
+    .line 271242753
     move-object/from16 v0, p0
 
     iget-object v7, v0, LX/JAs;->A00:Lcom/facebook/browser/lite/BrowserLiteWebChromeClient;
 
-    .line 271242733
+    .line 271242754
     invoke-virtual/range {p1 .. p1}, Landroid/webkit/ConsoleMessage;->message()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 271242734
+    .line 271242755
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -145,42 +145,42 @@
 
     if-nez v0, :cond_1c
 
-    .line 271242735
+    .line 271242756
     sget-object v1, LX/Axp;->A00:[I
 
     invoke-virtual/range {p1 .. p1}, Landroid/webkit/ConsoleMessage;->messageLevel()Landroid/webkit/ConsoleMessage$MessageLevel;
 
     move-result-object v0
 
-    .line 271242736
+    .line 271242757
     invoke-static {v0, v1}, LX/Chb;->A05(Ljava/lang/Enum;[I)I
 
     move-result v0
 
-    .line 271242737
+    .line 271242758
     if-ne v0, v3, :cond_1b
 
-    .line 271242738
+    .line 271242759
     iget-object v0, v7, Lcom/facebook/browser/lite/BrowserLiteWebChromeClient;->A0E:LX/JNm;
 
-    .line 271242739
+    .line 271242760
     iget-object v1, v0, LX/JNm;->A0E:LX/KcL;
 
-    .line 271242740
+    .line 271242761
     iget-boolean v0, v1, LX/KcL;->A01:Z
 
     if-eqz v0, :cond_1b
 
     const-string v0, "FBNavResponseEnd:"
 
-    .line 271242741
+    .line 271242762
     invoke-virtual {v4, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 271242742
+    .line 271242763
     iget-object v6, v1, LX/KcL;->A00:LX/JNm;
 
     const/16 v0, 0x11
@@ -189,7 +189,7 @@
 
     move-result-object v1
 
-    .line 271242743
+    .line 271242764
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -198,13 +198,13 @@
 
     if-nez v0, :cond_1a
 
-    .line 271242744
+    .line 271242765
     :try_start_0
     invoke-static {v1}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v8
 
-    .line 271242745
+    .line 271242766
     const-wide/16 v1, 0x0
 
     cmp-long v0, v8, v1
@@ -215,18 +215,18 @@
     :try_end_0
     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_2
 
-    .line 271242746
+    .line 271242767
     :cond_0
     const-string v0, "FBNavDomContentLoaded:"
 
-    .line 271242747
+    .line 271242768
     invoke-virtual {v4, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_12
 
-    .line 271242748
+    .line 271242769
     iget-object v0, v1, LX/KcL;->A00:LX/JNm;
 
     const/16 v1, 0x16
@@ -235,7 +235,7 @@
 
     move-result-object v5
 
-    .line 271242749
+    .line 271242770
     invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -244,13 +244,13 @@
 
     if-nez v4, :cond_1
 
-    .line 271242750
+    .line 271242771
     :try_start_1
     invoke-static {v5}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v8
 
-    .line 271242751
+    .line 271242772
     const-wide/16 v5, 0x0
 
     cmp-long v4, v8, v5
@@ -261,7 +261,7 @@
     :try_end_1
     .catch Ljava/lang/NumberFormatException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 271242752
+    .line 271242773
     :catch_0
     :cond_1
     invoke-virtual {v0}, LX/JNm;->A07()Z
@@ -270,44 +270,44 @@
 
     if-nez v4, :cond_3
 
-    .line 271242753
+    .line 271242774
     iget-wide v5, v0, LX/JNm;->A04:J
 
     cmp-long v4, v5, v1
 
     if-gez v4, :cond_3
 
-    .line 271242754
+    .line 271242775
     iput-wide v1, v0, LX/JNm;->A04:J
 
-    .line 271242755
+    .line 271242776
     move-object v4, v0
 
     check-cast v4, Lcom/facebook/browser/lite/webview/SystemWebView;
 
-    .line 271242756
+    .line 271242777
     iget-object v4, v4, Lcom/facebook/browser/lite/webview/SystemWebView;->A01:LX/Jrs;
 
     invoke-virtual {v4}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v4
 
-    .line 271242757
+    .line 271242778
     check-cast v4, Landroid/app/Activity;
 
-    .line 271242758
+    .line 271242779
     invoke-static {v4}, LX/92m;->A05(Landroid/app/Activity;)Landroid/os/Bundle;
 
     move-result-object v8
 
-    .line 271242759
+    .line 271242780
     const/4 v6, 0x0
 
     if-eqz v8, :cond_2
 
     const-string v5, "BrowserLiteIntent.EXTRA_EXECUTE_ADS_PREVIEW_JS"
 
-    .line 271242760
+    .line 271242781
     invoke-virtual {v8, v5, v6}, Landroid/os/BaseBundle;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v4
@@ -316,13 +316,13 @@
 
     const-string v4, "var f = function () {  var preview = document.body.getElementsByTagName(\'div\')[0];  var width = window.innerWidth    || window.outerWidth     || document.documentElement.clientWidth     || document.body.clientWidth     || document.body.offsetWidth     || screen.width;  var ratio = width / 320.0 || 1;  var scale = \'scale(\' + ratio + \',\' + ratio + \')\';  preview.style.transform = scale;  preview.style.webkitTransform = scale;  preview.style.position = \'relative\';  preview.style.transformOrigin = \'top left\';  preview.style.webkitTransformOrigin = \'top left\';};f();"
 
-    .line 271242761
+    .line 271242782
     invoke-virtual {v0, v4}, LX/JNm;->A05(Ljava/lang/String;)V
 
-    .line 271242762
+    .line 271242783
     invoke-virtual {v8, v5, v6}, Landroid/os/BaseBundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 271242763
+    .line 271242784
     :cond_2
     iget-wide v8, v0, LX/JNm;->A06:J
 
@@ -332,22 +332,22 @@
 
     if-eqz v4, :cond_3
 
-    .line 271242764
+    .line 271242785
     const-string v6, "BrowserLiteWebView"
 
     sub-long v4, v1, v8
 
-    .line 271242765
+    .line 271242786
     invoke-static {v4, v5}, LX/FnB;->A1b(J)[Ljava/lang/Object;
 
     move-result-object v5
 
-    .line 271242766
+    .line 271242787
     const-string v4, "==DomContentLoaded: %d ms=="
 
     invoke-static {v6, v4, v5}, LX/L2A;->A01(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 271242767
+    .line 271242788
     :cond_3
     iget-boolean v4, v0, LX/JNm;->A0L:Z
 
@@ -357,7 +357,7 @@
 
     if-eqz v6, :cond_c
 
-    .line 271242768
+    .line 271242789
     invoke-static {}, LX/Kw4;->A00()LX/Kw4;
 
     move-result-object v5
@@ -366,51 +366,51 @@
 
     invoke-virtual {v5, v4}, LX/Kw4;->A01(Ljava/lang/String;)V
 
-    .line 271242769
+    .line 271242790
     iget-object v5, v6, LX/KX4;->A01:Lcom/facebook/browser/lite/BrowserLiteFragment;
 
-    .line 271242770
+    .line 271242791
     iget-boolean v4, v5, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0n:Z
 
-    .line 271242771
+    .line 271242792
     if-nez v4, :cond_9
 
-    .line 271242772
+    .line 271242793
     iput-boolean v3, v5, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0n:Z
 
-    .line 271242773
+    .line 271242794
     iget-object v8, v5, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0V:LX/Kxf;
 
-    .line 271242774
+    .line 271242795
     iget-boolean v4, v8, LX/Kxf;->A0Z:Z
 
     if-eqz v4, :cond_4
 
-    .line 271242775
+    .line 271242796
     iput-wide v1, v8, LX/Kxf;->A0A:J
 
-    .line 271242776
+    .line 271242797
     :cond_4
     move-object v4, v0
 
     check-cast v4, Lcom/facebook/browser/lite/webview/SystemWebView;
 
-    .line 271242777
+    .line 271242798
     iget-object v4, v4, Lcom/facebook/browser/lite/webview/SystemWebView;->A01:LX/Jrs;
 
     invoke-virtual {v4}, LX/Jrs;->computeHorizontalScrollRange()I
 
     move-result v6
 
-    .line 271242778
+    .line 271242799
     iget-boolean v4, v8, LX/Kxf;->A0Z:Z
 
     if-eqz v4, :cond_5
 
-    .line 271242779
+    .line 271242800
     iput v6, v8, LX/Kxf;->A04:I
 
-    .line 271242780
+    .line 271242801
     :cond_5
     invoke-static {}, Landroid/content/res/Resources;->getSystem()Landroid/content/res/Resources;
 
@@ -422,83 +422,83 @@
 
     iget v6, v4, Landroid/util/DisplayMetrics;->widthPixels:I
 
-    .line 271242781
+    .line 271242802
     iget-object v8, v5, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0V:LX/Kxf;
 
-    .line 271242782
+    .line 271242803
     iget-boolean v4, v8, LX/Kxf;->A0Z:Z
 
     if-eqz v4, :cond_6
 
-    .line 271242783
+    .line 271242804
     iput v6, v8, LX/Kxf;->A05:I
 
-    .line 271242784
+    .line 271242805
     :cond_6
     iget-object v6, v0, LX/JNm;->A0F:Ljava/lang/String;
 
     if-nez v6, :cond_7
 
-    .line 271242785
+    .line 271242806
     iget v4, v0, LX/JNm;->A00:I
 
-    .line 271242786
+    .line 271242807
     invoke-static {v0, v4}, LX/LZ8;->A00(LX/JNm;I)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 271242787
+    .line 271242808
     iput-object v6, v0, LX/JNm;->A0F:Ljava/lang/String;
 
-    .line 271242788
+    .line 271242809
     :cond_7
     iget-boolean v4, v8, LX/Kxf;->A0Z:Z
 
     if-eqz v4, :cond_8
 
-    .line 271242789
+    .line 271242810
     invoke-static {v8, v6}, LX/Kxf;->A01(LX/Kxf;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     iput-object v4, v8, LX/Kxf;->A0N:Ljava/lang/String;
 
-    .line 271242790
+    .line 271242811
     :cond_8
     invoke-static {}, LX/L3F;->A00()LX/L3F;
 
     move-result-object v4
 
-    .line 271242791
+    .line 271242812
     iget-object v6, v5, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0V:LX/Kxf;
 
-    .line 271242792
+    .line 271242813
     iget-boolean v8, v6, LX/Kxf;->A0Z:Z
 
     if-nez v8, :cond_a
 
-    .line 271242793
+    .line 271242814
     sget-object v8, Lcom/facebook/iabeventlogging/model/IABEvent;->A04:Lcom/facebook/iabeventlogging/model/IABEmptyEvent;
 
-    .line 271242794
+    .line 271242815
     :goto_0
     invoke-static {v5, v4, v8}, LX/L3F;->A01(Lcom/facebook/browser/lite/BrowserLiteFragment;LX/L3F;Lcom/facebook/iabeventlogging/model/IABEvent;)V
 
-    .line 271242795
+    .line 271242816
     iget-object v4, v5, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0S:LX/KaG;
 
-    .line 271242796
+    .line 271242817
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v8
 
     iput-wide v8, v4, LX/KaG;->A01:J
 
-    .line 271242797
+    .line 271242818
     :cond_9
     iget-object v4, v5, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0e:Ljava/util/List;
 
-    .line 271242798
+    .line 271242819
     invoke-interface {v4}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -516,23 +516,23 @@
 
     check-cast v4, LX/M4g;
 
-    .line 271242799
+    .line 271242820
     invoke-interface {v4, v0}, LX/M4g;->BzF(LX/JNm;)V
 
     goto :goto_1
 
-    .line 271242800
+    .line 271242821
     :cond_a
     iget-object v9, v6, LX/Kxf;->A0M:Ljava/lang/String;
 
     iget-wide v14, v6, LX/Kxf;->A0A:J
 
-    .line 271242801
+    .line 271242822
     invoke-static {v6}, LX/Kxf;->A00(LX/Kxf;)J
 
     move-result-wide v16
 
-    .line 271242802
+    .line 271242823
     iget-object v10, v6, LX/Kxf;->A0O:Ljava/lang/String;
 
     iget-object v11, v6, LX/Kxf;->A0N:Ljava/lang/String;
@@ -551,11 +551,11 @@
 
     goto :goto_0
 
-    .line 271242803
+    .line 271242824
     :cond_b
     iput-boolean v3, v0, LX/JNm;->A0L:Z
 
-    .line 271242804
+    .line 271242825
     :cond_c
     iget-boolean v4, v0, LX/JNm;->A0M:Z
 
@@ -565,7 +565,7 @@
 
     if-eqz v6, :cond_1b
 
-    .line 271242805
+    .line 271242826
     invoke-static {}, LX/Kw4;->A00()LX/Kw4;
 
     move-result-object v5
@@ -574,60 +574,60 @@
 
     invoke-virtual {v5, v4}, LX/Kw4;->A01(Ljava/lang/String;)V
 
-    .line 271242806
+    .line 271242827
     iget-object v10, v6, LX/KX4;->A01:Lcom/facebook/browser/lite/BrowserLiteFragment;
 
-    .line 271242807
+    .line 271242828
     iget-object v5, v10, Lcom/facebook/browser/lite/BrowserLiteFragment;->A11:Ljava/util/Set;
 
-    .line 271242808
+    .line 271242829
     invoke-virtual {v0}, LX/JNm;->A03()Ljava/lang/String;
 
     move-result-object v4
 
     invoke-interface {v5, v4}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 271242809
+    .line 271242830
     iget-boolean v4, v6, LX/KX4;->A00:Z
 
     if-nez v4, :cond_d
 
-    .line 271242810
+    .line 271242831
     iput-boolean v3, v6, LX/KX4;->A00:Z
 
-    .line 271242811
+    .line 271242832
     iput-boolean v3, v10, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0h:Z
 
-    .line 271242812
+    .line 271242833
     :cond_d
     iget-boolean v4, v10, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0m:Z
 
-    .line 271242813
+    .line 271242834
     if-eqz v4, :cond_e
 
-    .line 271242814
+    .line 271242835
     iget-object v4, v10, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0U:Lcom/facebook/browser/lite/views/BrowserLiteWrapperView;
 
-    .line 271242815
+    .line 271242836
     if-eqz v4, :cond_e
 
-    .line 271242816
+    .line 271242837
     const/4 v5, -0x1
 
     move-object v4, v0
 
     check-cast v4, Lcom/facebook/browser/lite/webview/SystemWebView;
 
-    .line 271242817
+    .line 271242838
     iget-object v4, v4, Lcom/facebook/browser/lite/webview/SystemWebView;->A01:LX/Jrs;
 
     invoke-virtual {v4, v5}, Landroid/view/View;->setBackgroundColor(I)V
 
-    .line 271242818
+    .line 271242839
     :cond_e
     iget-object v4, v10, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0e:Ljava/util/List;
 
-    .line 271242819
+    .line 271242840
     invoke-interface {v4}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -645,12 +645,12 @@
 
     check-cast v4, LX/M4g;
 
-    .line 271242820
+    .line 271242841
     invoke-interface {v4, v0, v1, v2}, LX/M4g;->CGg(LX/JNm;J)V
 
     goto :goto_2
 
-    .line 271242821
+    .line 271242842
     :cond_f
     iget-object v5, v10, Lcom/facebook/browser/lite/BrowserLiteFragment;->A09:Landroid/content/Intent;
 
@@ -660,27 +660,27 @@
 
     move-result-object v11
 
-    .line 271242822
+    .line 271242843
     iget-object v4, v10, Lcom/facebook/browser/lite/BrowserLiteFragment;->A09:Landroid/content/Intent;
 
     const-string v9, "BrowserLiteIntent.EXTRA_AUTOFILL_OPTOUT_INFO_BUNDLE_DOMAIN_KEY"
 
-    .line 271242823
+    .line 271242844
     invoke-virtual {v4, v9}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v8
 
-    .line 271242824
+    .line 271242845
     iget-object v4, v10, Lcom/facebook/browser/lite/BrowserLiteFragment;->A09:Landroid/content/Intent;
 
     const-string v6, "BrowserLiteIntent.EXTRA_AUTOFILL_OPTOUT_INFO_BUNDLE_IS_OPTOUT_KEY"
 
-    .line 271242825
+    .line 271242846
     invoke-virtual {v4, v6, v3}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
 
     move-result v5
 
-    .line 271242826
+    .line 271242847
     invoke-static {v8}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -689,19 +689,19 @@
 
     if-nez v11, :cond_10
 
-    .line 271242827
+    .line 271242848
     invoke-static {}, LX/5Wd;->A0D()Landroid/os/Bundle;
 
     move-result-object v11
 
-    .line 271242828
+    .line 271242849
     :cond_10
     invoke-virtual {v11, v9, v8}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 271242829
+    .line 271242850
     invoke-virtual {v11, v6, v5}, Landroid/os/BaseBundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 271242830
+    .line 271242851
     :cond_11
     iget-object v12, v10, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0K:LX/L3F;
 
@@ -713,7 +713,7 @@
 
     move-result v14
 
-    .line 271242831
+    .line 271242852
     new-instance v10, LX/JNN;
 
     move-wide v15, v1
@@ -722,23 +722,23 @@
 
     invoke-static {v10, v12}, LX/L3F;->A02(LX/KkY;LX/L3F;)V
 
-    .line 271242832
+    .line 271242853
     iput-boolean v3, v0, LX/JNm;->A0M:Z
 
     goto/16 :goto_6
 
-    .line 271242833
+    .line 271242854
     :cond_12
     const-string v0, "FBNavLoadEventEnd:"
 
-    .line 271242834
+    .line 271242855
     invoke-virtual {v4, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_18
 
-    .line 271242835
+    .line 271242856
     iget-object v2, v1, LX/KcL;->A00:LX/JNm;
 
     const/16 v0, 0x12
@@ -747,7 +747,7 @@
 
     move-result-object v1
 
-    .line 271242836
+    .line 271242857
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -756,13 +756,13 @@
 
     if-nez v0, :cond_13
 
-    .line 271242837
+    .line 271242858
     :try_start_2
     invoke-static {v1}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v10
 
-    .line 271242838
+    .line 271242859
     const-wide/16 v4, 0x0
 
     cmp-long v0, v10, v4
@@ -773,7 +773,7 @@
     :try_end_2
     .catch Ljava/lang/NumberFormatException; {:try_start_2 .. :try_end_2} :catch_1
 
-    .line 271242839
+    .line 271242860
     :catch_1
     :cond_13
     invoke-virtual {v2}, LX/JNm;->A07()Z
@@ -798,83 +798,83 @@
 
     if-eqz v0, :cond_1b
 
-    .line 271242840
+    .line 271242861
     iput-wide v8, v2, LX/JNm;->A05:J
 
-    .line 271242841
+    .line 271242862
     iget-object v0, v2, LX/JNm;->A0A:LX/KX4;
 
     if-eqz v0, :cond_16
 
-    .line 271242842
+    .line 271242863
     iget-object v5, v0, LX/KX4;->A01:Lcom/facebook/browser/lite/BrowserLiteFragment;
 
-    .line 271242843
+    .line 271242864
     iget-boolean v0, v5, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0o:Z
 
-    .line 271242844
+    .line 271242865
     if-nez v0, :cond_16
 
-    .line 271242845
+    .line 271242866
     iget-object v4, v2, LX/JNm;->A0F:Ljava/lang/String;
 
     if-nez v4, :cond_14
 
-    .line 271242846
+    .line 271242867
     iget v0, v2, LX/JNm;->A00:I
 
-    .line 271242847
+    .line 271242868
     invoke-static {v2, v0}, LX/LZ8;->A00(LX/JNm;I)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 271242848
+    .line 271242869
     iput-object v4, v2, LX/JNm;->A0F:Ljava/lang/String;
 
-    .line 271242849
+    .line 271242870
     :cond_14
     iput-boolean v3, v5, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0o:Z
 
-    .line 271242850
+    .line 271242871
     iget-object v1, v5, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0V:LX/Kxf;
 
-    .line 271242851
+    .line 271242872
     iget-boolean v0, v1, LX/Kxf;->A0Z:Z
 
     if-eqz v0, :cond_15
 
-    .line 271242852
+    .line 271242873
     iput-wide v8, v1, LX/Kxf;->A0C:J
 
-    .line 271242853
+    .line 271242874
     invoke-static {v1, v4}, LX/Kxf;->A01(LX/Kxf;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, v1, LX/Kxf;->A0N:Ljava/lang/String;
 
-    .line 271242854
+    .line 271242875
     :cond_15
     invoke-static {}, LX/L3F;->A00()LX/L3F;
 
     move-result-object v4
 
-    .line 271242855
+    .line 271242876
     iget-object v1, v5, Lcom/facebook/browser/lite/BrowserLiteFragment;->A0V:LX/Kxf;
 
-    .line 271242856
+    .line 271242877
     iget-boolean v0, v1, LX/Kxf;->A0Z:Z
 
     if-nez v0, :cond_17
 
-    .line 271242857
+    .line 271242878
     sget-object v8, Lcom/facebook/iabeventlogging/model/IABEvent;->A04:Lcom/facebook/iabeventlogging/model/IABEmptyEvent;
 
-    .line 271242858
+    .line 271242879
     :goto_3
     invoke-static {v5, v4, v8}, LX/L3F;->A01(Lcom/facebook/browser/lite/BrowserLiteFragment;LX/L3F;Lcom/facebook/iabeventlogging/model/IABEvent;)V
 
-    .line 271242859
+    .line 271242880
     :cond_16
     const-string v6, "BrowserLiteWebView"
 
@@ -884,28 +884,28 @@
 
     sub-long/2addr v4, v0
 
-    .line 271242860
+    .line 271242881
     invoke-static {v4, v5}, LX/FnB;->A1b(J)[Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 271242861
+    .line 271242882
     const-string v0, "==onLoadEventEnd: %d ms=="
 
     goto :goto_5
 
-    .line 271242862
+    .line 271242883
     :cond_17
     iget-object v9, v1, LX/Kxf;->A0M:Ljava/lang/String;
 
     iget-wide v12, v1, LX/Kxf;->A0C:J
 
-    .line 271242863
+    .line 271242884
     invoke-static {v1}, LX/Kxf;->A00(LX/Kxf;)J
 
     move-result-wide v14
 
-    .line 271242864
+    .line 271242885
     iget-object v10, v1, LX/Kxf;->A0O:Ljava/lang/String;
 
     iget-object v11, v1, LX/Kxf;->A0N:Ljava/lang/String;
@@ -916,23 +916,23 @@
 
     goto :goto_3
 
-    .line 271242865
+    .line 271242886
     :cond_18
     const-string v0, "FBNavAmpDetect:"
 
-    .line 271242866
+    .line 271242887
     invoke-virtual {v4, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1b
 
-    .line 271242867
+    .line 271242888
     iget-object v5, v1, LX/KcL;->A00:LX/JNm;
 
     const/16 v0, 0xf
 
-    .line 271242868
+    .line 271242889
     invoke-virtual {v4, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v0
@@ -941,44 +941,44 @@
 
     move-result v4
 
-    .line 271242869
+    .line 271242890
     invoke-virtual {v5}, LX/JNm;->A07()Z
 
     move-result v0
 
     if-nez v0, :cond_1b
 
-    .line 271242870
+    .line 271242891
     iget-boolean v0, v5, LX/JNm;->A0N:Z
 
     if-nez v0, :cond_19
 
     if-eqz v4, :cond_19
 
-    .line 271242871
+    .line 271242892
     const-string v2, "BrowserLiteWebView"
 
-    .line 271242872
+    .line 271242893
     invoke-static {}, LX/IzJ;->A1Z()[Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 271242873
+    .line 271242894
     const-string v0, "AMP powered page detected!"
 
     invoke-static {v2, v0, v1}, LX/L2A;->A01(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 271242874
+    .line 271242895
     :cond_19
     iput-boolean v4, v5, LX/JNm;->A0N:Z
 
     goto :goto_6
 
-    .line 271242875
+    .line 271242896
     :goto_4
     move-wide v4, v8
 
-    .line 271242876
+    .line 271242897
     :catch_2
     :cond_1a
     invoke-virtual {v6}, LX/JNm;->A07()Z
@@ -987,7 +987,7 @@
 
     if-nez v0, :cond_1b
 
-    .line 271242877
+    .line 271242898
     iget-wide v1, v6, LX/JNm;->A07:J
 
     cmp-long v0, v1, v4
@@ -1000,34 +1000,34 @@
 
     if-nez v0, :cond_1b
 
-    .line 271242878
+    .line 271242899
     iput-wide v4, v6, LX/JNm;->A07:J
 
-    .line 271242879
+    .line 271242900
     iget-wide v1, v6, LX/JNm;->A06:J
 
     cmp-long v0, v1, v8
 
     if-eqz v0, :cond_1b
 
-    .line 271242880
+    .line 271242901
     const-string v6, "BrowserLiteWebView"
 
     sub-long/2addr v4, v1
 
-    .line 271242881
+    .line 271242902
     invoke-static {v4, v5}, LX/FnB;->A1b(J)[Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 271242882
+    .line 271242903
     const-string v0, "onResponseEnd: %d ms"
 
-    .line 271242883
+    .line 271242904
     :goto_5
     invoke-static {v6, v0, v1}, LX/L2A;->A01(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 271242884
+    .line 271242905
     :cond_1b
     :goto_6
     iget-object v0, v7, Lcom/facebook/browser/lite/BrowserLiteWebChromeClient;->A0F:Ljava/util/List;
@@ -1045,10 +1045,10 @@
 
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 271242885
+    .line 271242906
     goto :goto_7
 
-    .line 271242886
+    .line 271242907
     :cond_1c
     return v3
 .end method

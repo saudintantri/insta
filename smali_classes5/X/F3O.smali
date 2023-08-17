@@ -62,7 +62,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-static {p1, v0}, LX/Chg;->A0K(Landroid/view/View;I)LX/2tA;
+    invoke-static {p1, v0}, LX/Chg;->A0J(Landroid/view/View;I)LX/2tA;
 
     .line 19
     .line 20
@@ -285,7 +285,7 @@
     .line 77
     .line 78
     .line 79
-    invoke-static {v1, v2}, LX/Chg;->A1C(LX/0AX;LX/4Qd;)V
+    invoke-static {v1, v2}, LX/Chg;->A1B(LX/0AX;LX/4Qd;)V
 
     .line 80
     .line 81
@@ -492,7 +492,7 @@
     .line 72
     .line 73
     .line 74
-    invoke-static {v2, v3}, LX/Chg;->A1C(LX/0AX;LX/4Qd;)V
+    invoke-static {v2, v3}, LX/Chg;->A1B(LX/0AX;LX/4Qd;)V
 
     .line 75
     .line 76

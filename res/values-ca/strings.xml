@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120003">Ciutat</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">Adreça</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Tancar el navegador</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Permet</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Bloqueja</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Codi de seguretat</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Confirma</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002e">"D'acord"</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">Correu electrònic</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Actualitza</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Cognom</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Més opcions</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Nom</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">Nom</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12006f">Codi postal</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">Telèfon</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120003">Ciutat</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120004">Adreça</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120009">Tancar el navegador</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12000c">Permet</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12000d">Bloqueja</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120015">Codi de seguretat</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12002c">Confirma</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12002e">"D'acord"</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003a">Correu electrònic</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003c">Actualitza</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003e">Cognom</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120042">Més opcions</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120043">Nom</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120058">Nom</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12006f">Codi postal</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f1200a2">Telèfon</string>
 </resources>

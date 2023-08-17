@@ -650,7 +650,7 @@
     .locals 3
 
     .line 0
-    invoke-static {p1}, LX/Chf;->A0D(Ljava/util/List;)I
+    invoke-static {p1}, LX/Chf;->A0E(Ljava/util/List;)I
 
     .line 1
     .line 2

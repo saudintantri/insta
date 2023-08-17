@@ -521,7 +521,7 @@
 
     .line 39
     .line 40
-    invoke-static {v0, v4}, LX/Chf;->A0f(LX/01o;I)Ljava/lang/Object;
+    invoke-static {v0, v4}, LX/Chf;->A0h(LX/01o;I)Ljava/lang/Object;
 
     .line 41
     .line 42

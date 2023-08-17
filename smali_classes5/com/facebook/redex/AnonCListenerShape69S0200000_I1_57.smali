@@ -1117,7 +1117,7 @@
     move-result-object v0
 
     .line 514
-    invoke-static {v0, p1}, LX/Chj;->A0W(Landroid/content/Context;Landroid/view/View;)V
+    invoke-static {v0, p1}, LX/Chj;->A0V(Landroid/content/Context;Landroid/view/View;)V
 
     .line 515
     .line 516
@@ -1326,7 +1326,7 @@
     move-result-object v0
 
     .line 621
-    invoke-static {v0, p1}, LX/Chj;->A0W(Landroid/content/Context;Landroid/view/View;)V
+    invoke-static {v0, p1}, LX/Chj;->A0V(Landroid/content/Context;Landroid/view/View;)V
 
     .line 622
     .line 623
@@ -1626,7 +1626,7 @@
     .line 776
     .line 777
     .line 778
-    invoke-static {p0, v0}, LX/Chj;->A06(Lcom/facebook/redex/AnonCListenerShape69S0200000_I1_57;I)I
+    invoke-static {p0, v0}, LX/Chj;->A05(Lcom/facebook/redex/AnonCListenerShape69S0200000_I1_57;I)I
 
     .line 779
     .line 780
@@ -1649,7 +1649,7 @@
     .line 788
     .line 789
     .line 790
-    invoke-static {p0, v0}, LX/Chj;->A06(Lcom/facebook/redex/AnonCListenerShape69S0200000_I1_57;I)I
+    invoke-static {p0, v0}, LX/Chj;->A05(Lcom/facebook/redex/AnonCListenerShape69S0200000_I1_57;I)I
 
     .line 791
     .line 792
@@ -1672,7 +1672,7 @@
     .line 800
     .line 801
     .line 802
-    invoke-static {p0, v0}, LX/Chj;->A06(Lcom/facebook/redex/AnonCListenerShape69S0200000_I1_57;I)I
+    invoke-static {p0, v0}, LX/Chj;->A05(Lcom/facebook/redex/AnonCListenerShape69S0200000_I1_57;I)I
 
     .line 803
     .line 804

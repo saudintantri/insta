@@ -1,8 +1,8 @@
 {
-  "AndroidManifest.xml": "93c1abbe642ea5d49ee35f067c5a56fb1eed7a6e2d48caa8ec4cfe654035417f",
+  "AndroidManifest.xml": "ee95dbb9ccdadbde7dec95fc4d4dbe981e88703a6af1e0b0d19cf5a93a8fa1ae",
   "assets/arservicesforhandtracking2.dex": "8da8843ca8c1261df4e7c849accd7f2505c37e0d29368b1cd0750ec5f1c59144",
-  "assets/libs.txt": "bb49a602b329023fc2a0011c32a6c6fb6c3ab141ef46ac800721149183a2380c",
-  "assets/libs.zstd": "10f97469be92467a958567771b172281252c295d842a1aae5066a5f6e98f3270",
+  "assets/libs.txt": "643d4167b6268bec9fa64f5c055855849800f6b2c630120afd736b70d192e192",
+  "assets/libs.zstd": "1800e774c59dacc260b66d4213b71d7c1e93e141b2dd9e5b27c2f444c0e2c329",
   "assets/metadata.txt": "9a49a38a1bc83f9bd66f61dab196a1eba84bb35594f7786e5351e407406654a8",
   "assets/resources.arsc": "91be49726da54b7c26c6b13217d69c48a53fc000c4ce9822873364da30ab0a32"
 }

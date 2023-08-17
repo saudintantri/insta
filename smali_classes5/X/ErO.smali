@@ -101,7 +101,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0}, LX/Chi;->A0n(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chi;->A0p(Ljava/lang/String;)Ljava/lang/String;
 
     .line 11
     .line 12

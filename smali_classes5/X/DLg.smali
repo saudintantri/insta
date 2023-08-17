@@ -1397,7 +1397,7 @@
     const/4 v2, 0x0
 
     .line 8
-    invoke-static {p1, p0}, LX/Chj;->A0C(Landroid/view/LayoutInflater;Landroidx/fragment/app/Fragment;)Landroid/view/LayoutInflater;
+    invoke-static {p1, p0}, LX/Chj;->A0B(Landroid/view/LayoutInflater;Landroidx/fragment/app/Fragment;)Landroid/view/LayoutInflater;
 
     .line 9
     .line 10

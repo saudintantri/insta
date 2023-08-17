@@ -403,7 +403,7 @@
 
     .line 38
     .line 39
-    invoke-static {v11, v2, v1}, LX/Chg;->A0B(Landroidx/fragment/app/Fragment;LX/05m;Lcom/instagram/service/session/UserSession;)LX/3Ib;
+    invoke-static {v11, v2, v1}, LX/Chg;->A0A(Landroidx/fragment/app/Fragment;LX/05m;Lcom/instagram/service/session/UserSession;)LX/3Ib;
 
     .line 40
     .line 41
@@ -431,7 +431,7 @@
 
     .line 52
     .line 53
-    invoke-static {v11, v2, v1}, LX/Chg;->A0L(Landroidx/fragment/app/Fragment;LX/05m;Lcom/instagram/service/session/UserSession;)LX/5IJ;
+    invoke-static {v11, v2, v1}, LX/Chg;->A0K(Landroidx/fragment/app/Fragment;LX/05m;Lcom/instagram/service/session/UserSession;)LX/5IJ;
 
     .line 54
     .line 55

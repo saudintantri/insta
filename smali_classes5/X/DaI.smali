@@ -192,7 +192,7 @@
 
     .line 85
     .line 86
-    invoke-static {p1}, LX/Chi;->A0x(Landroid/view/View;)V
+    invoke-static {p1}, LX/Chi;->A0z(Landroid/view/View;)V
 
     .line 87
     .line 88

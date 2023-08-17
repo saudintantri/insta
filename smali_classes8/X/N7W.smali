@@ -62,14 +62,14 @@
 
     const/4 v7, 0x1
 
-    .line 2890091
+    .line 2890112
     move-object/from16 v10, p6
 
     move-object/from16 v14, p7
 
     invoke-static {v10, v14}, LX/92p;->A1R(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2890092
+    .line 2890113
     const/16 v0, 0x8
 
     move-object/from16 v3, p8
@@ -94,113 +94,113 @@
 
     invoke-static {v13, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2890093
+    .line 2890114
     move-object/from16 v2, p0
 
     invoke-direct {v2}, Ljava/lang/Object;-><init>()V
 
-    .line 2890094
+    .line 2890115
     move-object/from16 v0, p1
 
     iput-object v0, v2, LX/N7W;->A0A:Landroid/content/Context;
 
-    .line 2890095
+    .line 2890116
     move-object/from16 v0, p2
 
     iput-object v0, v2, LX/N7W;->A0M:Lcom/instagram/service/session/UserSession;
 
-    .line 2890096
+    .line 2890117
     move/from16 v0, p11
 
     iput v0, v2, LX/N7W;->A09:I
 
-    .line 2890097
+    .line 2890118
     move/from16 v0, p12
 
     iput v0, v2, LX/N7W;->A08:I
 
-    .line 2890098
+    .line 2890119
     move-object/from16 v0, p5
 
     iput-object v0, v2, LX/N7W;->A0G:LX/LYK;
 
-    .line 2890099
+    .line 2890120
     iput-object v3, v2, LX/N7W;->A0H:LX/Kkk;
 
-    .line 2890100
+    .line 2890121
     iput-object v4, v2, LX/N7W;->A0F:LX/HhK;
 
-    .line 2890101
+    .line 2890122
     move-object/from16 v0, p3
 
     iput-object v0, v2, LX/N7W;->A0E:LX/KxB;
 
-    .line 2890102
+    .line 2890123
     iput-object v1, v2, LX/N7W;->A0I:LX/M2D;
 
-    .line 2890103
+    .line 2890124
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
 
     iput-object v0, v2, LX/N7W;->A0B:Landroid/os/Handler;
 
-    .line 2890104
+    .line 2890125
     sget-object v9, LX/001;->A00:Ljava/lang/Integer;
 
     iput-object v9, v2, LX/N7W;->A07:Ljava/lang/Integer;
 
-    .line 2890105
+    .line 2890126
     iget v3, v2, LX/N7W;->A09:I
 
     iget v1, v2, LX/N7W;->A08:I
 
-    .line 2890106
+    .line 2890127
     iget v0, v10, LX/MY5;->A0A:I
 
-    .line 2890107
+    .line 2890128
     invoke-static {v0, v3, v1}, LX/BjO;->A00(III)Landroid/util/Pair;
 
     move-result-object v0
 
-    .line 2890108
+    .line 2890129
     iget-object v4, v0, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     check-cast v4, Ljava/lang/Number;
 
-    .line 2890109
+    .line 2890130
     iget-object v3, v0, Landroid/util/Pair;->second:Ljava/lang/Object;
 
     check-cast v3, Ljava/lang/Number;
 
-    .line 2890110
+    .line 2890131
     const/4 v0, 0x0
 
     const/16 v27, 0x0
 
-    .line 2890111
+    .line 2890132
     sget-object v28, LX/11W;->A00:LX/11W;
 
-    .line 2890112
+    .line 2890133
     iget-object v12, v10, LX/MY5;->A0H:Ljava/lang/String;
 
-    .line 2890113
+    .line 2890134
     if-nez v12, :cond_0
 
     const-string v12, ""
 
-    .line 2890114
+    .line 2890135
     :cond_0
     iget-object v1, v10, LX/MY5;->A0F:Ljava/lang/String;
 
     move-object/from16 v18, v1
 
-    .line 2890115
+    .line 2890136
     iget-object v1, v10, LX/MY5;->A0E:Ljava/lang/String;
 
     move-object/from16 v16, v1
 
-    .line 2890116
+    .line 2890137
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
@@ -209,81 +209,81 @@
 
     move-result-object v26
 
-    .line 2890117
+    .line 2890138
     iget-object v11, v10, LX/MY5;->A0D:Ljava/lang/String;
 
-    .line 2890118
+    .line 2890139
     if-nez v11, :cond_1
 
     const-string v11, ""
 
-    .line 2890119
+    .line 2890140
     :cond_1
     const/16 v17, 0x0
 
-    .line 2890120
+    .line 2890141
     invoke-static {v4}, LX/02K;->A03(Ljava/lang/Object;)V
 
     invoke-virtual {v4}, Ljava/lang/Number;->intValue()I
 
     move-result v5
 
-    .line 2890121
+    .line 2890142
     invoke-static {v3}, LX/02K;->A03(Ljava/lang/Object;)V
 
     invoke-virtual {v3}, Ljava/lang/Number;->intValue()I
 
     move-result v4
 
-    .line 2890122
+    .line 2890143
     iget v3, v10, LX/MY5;->A08:I
 
-    .line 2890123
+    .line 2890144
     iget v1, v10, LX/MY5;->A09:I
 
-    .line 2890124
+    .line 2890145
     new-instance v8, Lcom/facebook/video/common/livestreaming/protocol/VideoBroadcastVideoStreamingConfig;
 
     invoke-direct {v8, v3, v1, v4, v5}, Lcom/facebook/video/common/livestreaming/protocol/VideoBroadcastVideoStreamingConfig;-><init>(IIII)V
 
-    .line 2890125
+    .line 2890146
     iget v5, v10, LX/MY5;->A04:I
 
-    .line 2890126
+    .line 2890147
     iget v4, v10, LX/MY5;->A05:I
 
-    .line 2890127
+    .line 2890148
     iget v3, v10, LX/MY5;->A06:I
 
-    .line 2890128
+    .line 2890149
     iget v1, v10, LX/MY5;->A07:I
 
-    .line 2890129
+    .line 2890150
     new-instance v6, Lcom/facebook/video/common/livestreaming/protocol/VideoBroadcastAudioStreamingConfig;
 
     invoke-direct {v6, v5, v4, v3, v1}, Lcom/facebook/video/common/livestreaming/protocol/VideoBroadcastAudioStreamingConfig;-><init>(IIII)V
 
-    .line 2890130
+    .line 2890151
     iget-boolean v15, v10, LX/MY5;->A0L:Z
 
-    .line 2890131
+    .line 2890152
     iget-boolean v5, v10, LX/MY5;->A0K:Z
 
-    .line 2890132
+    .line 2890153
     iget v4, v10, LX/MY5;->A01:I
 
-    .line 2890133
+    .line 2890154
     iget v3, v10, LX/MY5;->A02:I
 
-    .line 2890134
+    .line 2890155
     new-instance v1, Lcom/facebook/video/common/livestreaming/protocol/VideoBroadcastLiveTraceConfig;
 
     invoke-direct {v1, v4, v3, v5}, Lcom/facebook/video/common/livestreaming/protocol/VideoBroadcastLiveTraceConfig;-><init>(IIZ)V
 
-    .line 2890135
+    .line 2890156
     iget-object v3, v10, LX/MY5;->A0I:Ljava/util/HashMap;
 
-    .line 2890136
+    .line 2890157
     invoke-virtual {v3}, Ljava/util/AbstractMap;->isEmpty()Z
 
     move-result v3
@@ -292,24 +292,24 @@
 
     if-eqz v3, :cond_2
 
-    .line 2890137
+    .line 2890158
     iget-object v0, v10, LX/MY5;->A0I:Ljava/util/HashMap;
 
-    .line 2890138
+    .line 2890159
     :cond_2
     iget-object v3, v10, LX/MY5;->A0G:Ljava/lang/String;
 
-    .line 2890139
+    .line 2890160
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v4
 
     if-lez v4, :cond_3
 
-    .line 2890140
+    .line 2890161
     move-object/from16 v27, v3
 
-    .line 2890141
+    .line 2890162
     :cond_3
     new-instance v3, Lcom/facebook/video/common/livestreaming/protocol/VideoBroadcastInitResponse;
 
@@ -335,69 +335,69 @@
 
     invoke-direct/range {v18 .. v30}, Lcom/facebook/video/common/livestreaming/protocol/VideoBroadcastInitResponse;-><init>(Lcom/facebook/video/common/livestreaming/protocol/VideoBroadcastAudioStreamingConfig;Lcom/facebook/video/common/livestreaming/protocol/VideoBroadcastLiveTraceConfig;Lcom/facebook/video/common/livestreaming/protocol/VideoBroadcastVideoStreamingConfig;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/Map;Z)V
 
-    .line 2890142
+    .line 2890163
     iput-object v3, v2, LX/N7W;->A0C:Lcom/facebook/video/common/livestreaming/protocol/VideoBroadcastInitResponse;
 
-    .line 2890143
+    .line 2890164
     iput-object v9, v2, LX/N7W;->A06:Ljava/lang/Integer;
 
-    .line 2890144
+    .line 2890165
     new-instance v0, LX/14r;
 
     invoke-direct {v0}, LX/14r;-><init>()V
 
     iput-object v0, v2, LX/N7W;->A0D:LX/14r;
 
-    .line 2890145
+    .line 2890166
     iput-object v9, v2, LX/N7W;->A05:Ljava/lang/Integer;
 
-    .line 2890146
+    .line 2890167
     iput-object v9, v2, LX/N7W;->A0L:Ljava/lang/Integer;
 
-    .line 2890147
+    .line 2890168
     new-instance v0, LX/Mro;
 
     invoke-direct {v0, v2}, LX/Mro;-><init>(LX/N7W;)V
 
     iput-object v0, v2, LX/N7W;->A0K:LX/Mro;
 
-    .line 2890148
+    .line 2890169
     new-instance v0, LX/MnI;
 
     invoke-direct {v0, v2}, LX/MnI;-><init>(LX/N7W;)V
 
     iput-object v0, v2, LX/N7W;->A0N:LX/MnI;
 
-    .line 2890149
+    .line 2890170
     iget-object v1, v2, LX/N7W;->A0M:Lcom/instagram/service/session/UserSession;
 
     new-instance v3, LX/BID;
 
     invoke-direct {v3, v1, v13}, LX/BID;-><init>(Lcom/instagram/service/session/UserSession;Ljava/lang/Integer;)V
 
-    .line 2890150
+    .line 2890171
     const/16 v0, 0x22
 
     new-instance v13, Lkotlin/jvm/internal/KtLambdaShape14S0200000_I1_3;
 
     invoke-direct {v13, v0, v3, v2}, Lkotlin/jvm/internal/KtLambdaShape14S0200000_I1_3;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2890151
+    .line 2890172
     iget-object v0, v2, LX/N7W;->A0A:Landroid/content/Context;
 
     move-object/from16 v28, v0
 
-    .line 2890152
+    .line 2890173
     new-instance v12, LX/MnH;
 
     invoke-direct {v12, v3}, LX/MnH;-><init>(LX/BID;)V
 
-    .line 2890153
+    .line 2890174
     new-instance v18, LX/HuD;
 
     invoke-direct/range {v18 .. v18}, LX/HuD;-><init>()V
 
-    .line 2890154
+    .line 2890175
     new-instance v0, LX/LNf;
 
     invoke-direct {v0, v1}, LX/LNf;-><init>(Lcom/instagram/service/session/UserSession;)V
@@ -406,32 +406,32 @@
 
     invoke-direct {v11, v0}, Lcom/facebook/xanalytics/XAnalyticsAdapterHolder;-><init>(Lcom/facebook/xanalytics/XAnalyticsAdapter;)V
 
-    .line 2890155
+    .line 2890176
     new-instance v8, LX/N1Q;
 
     invoke-direct {v8, v2}, LX/N1Q;-><init>(LX/N7W;)V
 
-    .line 2890156
+    .line 2890177
     iget-object v15, v2, LX/N7W;->A0B:Landroid/os/Handler;
 
-    .line 2890157
+    .line 2890178
     iget v4, v2, LX/N7W;->A09:I
 
-    .line 2890158
+    .line 2890179
     iget v1, v2, LX/N7W;->A08:I
 
-    .line 2890159
+    .line 2890180
     iget-object v6, v2, LX/N7W;->A0E:LX/KxB;
 
-    .line 2890160
+    .line 2890181
     iget-object v0, v14, LX/Mqj;->A0C:Ljava/lang/Integer;
 
     if-eq v0, v9, :cond_6
 
-    .line 2890161
+    .line 2890182
     iget v5, v10, LX/MY5;->A0A:I
 
-    .line 2890162
+    .line 2890183
     invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
 
     move-result v0
@@ -440,30 +440,30 @@
 
     const/16 v5, 0x2d0
 
-    .line 2890163
+    .line 2890184
     :goto_0
     :pswitch_0
     if-ge v4, v5, :cond_4
 
     move v5, v4
 
-    .line 2890164
+    .line 2890185
     :cond_4
     invoke-static {v5, v4, v1}, LX/BjO;->A00(III)Landroid/util/Pair;
 
     move-result-object v0
 
-    .line 2890165
+    .line 2890186
     iget-object v1, v0, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     check-cast v1, Ljava/lang/Number;
 
-    .line 2890166
+    .line 2890187
     iget-object v0, v0, Landroid/util/Pair;->second:Ljava/lang/Object;
 
     check-cast v0, Ljava/lang/Number;
 
-    .line 2890167
+    .line 2890188
     invoke-static {v1}, LX/02K;->A03(Ljava/lang/Object;)V
 
     invoke-virtual {v1}, Ljava/lang/Number;->intValue()I
@@ -476,75 +476,75 @@
 
     move-result v9
 
-    .line 2890168
+    .line 2890189
     invoke-static {v10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 2890169
+    .line 2890190
     invoke-static {v0, v9}, LX/FnC;->A0E(Ljava/lang/Object;I)Landroid/util/Pair;
 
     move-result-object v0
 
-    .line 2890170
+    .line 2890191
     iput-object v0, v6, LX/KxB;->A05:Landroid/util/Pair;
 
-    .line 2890171
+    .line 2890192
     invoke-static {v6}, LX/KxB;->A00(LX/KxB;)V
 
-    .line 2890172
+    .line 2890193
     iget-object v5, v3, LX/BID;->A00:Lcom/instagram/service/session/UserSession;
 
-    .line 2890173
+    .line 2890194
     sget-object v4, LX/0Sq;->A05:LX/0Sq;
 
     const-wide v0, 0x8200fc000301edL
 
-    .line 2890174
+    .line 2890195
     invoke-static {v4, v5, v0, v1}, LX/5We;->A06(LX/0Sq;Lcom/instagram/service/session/UserSession;J)I
 
     move-result v14
 
-    .line 2890175
+    .line 2890196
     invoke-static {v14}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v14
 
-    .line 2890176
+    .line 2890197
     iput-object v14, v6, LX/KxB;->A09:Ljava/lang/Integer;
 
-    .line 2890177
+    .line 2890198
     invoke-static {v6}, LX/KxB;->A00(LX/KxB;)V
 
-    .line 2890178
+    .line 2890199
     invoke-virtual {v3}, LX/BID;->A01()Z
 
     move-result v6
 
-    .line 2890179
+    .line 2890200
     invoke-static {v6}, LX/FnC;->A02(I)I
 
     move-result v6
 
-    .line 2890180
+    .line 2890201
     new-instance v14, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     invoke-direct {v14}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;-><init>()V
 
-    .line 2890181
+    .line 2890202
     invoke-virtual {v14, v10}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setVideoWidth(I)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v14
 
-    .line 2890182
+    .line 2890203
     invoke-virtual {v14, v9}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setVideoHeight(I)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v14
 
-    .line 2890183
+    .line 2890204
     const v16, 0x40266666    # 2.6f
 
-    .line 2890184
+    .line 2890205
     mul-int/2addr v10, v9
 
     int-to-float v9, v10
@@ -553,97 +553,97 @@
 
     float-to-int v9, v9
 
-    .line 2890185
+    .line 2890206
     invoke-virtual {v14, v9}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setVideoBitrate(I)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v9
 
-    .line 2890186
+    .line 2890207
     invoke-static {v4, v5, v0, v1}, LX/5We;->A06(LX/0Sq;Lcom/instagram/service/session/UserSession;J)I
 
     move-result v0
 
-    .line 2890187
+    .line 2890208
     invoke-virtual {v9, v0}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setVideoFps(I)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v9
 
-    .line 2890188
+    .line 2890209
     const-wide v0, 0x8300fc00040029L
 
     invoke-static {v4, v5, v0, v1}, LX/0Qd;->A09(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2890189
+    .line 2890210
     invoke-static {v0}, LX/BKi;->A01(Ljava/lang/String;)LX/AQs;
 
     move-result-object v0
 
-    .line 2890190
+    .line 2890211
     iget v0, v0, LX/AQs;->A00:I
 
-    .line 2890191
+    .line 2890212
     invoke-virtual {v9, v0}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setVideoEncoderProfile(I)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v9
 
-    .line 2890192
+    .line 2890213
     const-wide v0, 0x8100fc000101d1L
 
-    .line 2890193
+    .line 2890214
     invoke-static {v4, v5, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v0
 
-    .line 2890194
+    .line 2890215
     if-eqz v0, :cond_5
 
-    .line 2890195
+    .line 2890216
     sget-object v0, LX/McH;->A03:LX/McH;
 
-    .line 2890196
+    .line 2890217
     :goto_1
     iget v0, v0, LX/McH;->A00:I
 
-    .line 2890197
+    .line 2890218
     invoke-virtual {v9, v0}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setVideoEncoderBitrateMode(I)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v9
 
-    .line 2890198
+    .line 2890219
     const-wide v0, 0x8200fc000201ecL
 
     invoke-static {v4, v5, v0, v1}, LX/0Qd;->A06(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Ljava/lang/Long;
 
     move-result-object v0
 
-    .line 2890199
+    .line 2890220
     invoke-virtual {v0}, Ljava/lang/Number;->longValue()J
 
     move-result-wide v0
 
     long-to-float v10, v0
 
-    .line 2890200
+    .line 2890221
     invoke-virtual {v9, v10}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setVideoKeyframeInterval(F)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v9
 
-    .line 2890201
+    .line 2890222
     const-wide v0, 0x8100fc000001d0L
 
-    .line 2890202
+    .line 2890223
     invoke-static {v4, v5, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v0
 
-    .line 2890203
+    .line 2890224
     invoke-virtual {v9, v0}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setVideoEnforceKeyframeInterval(Z)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v1
 
-    .line 2890204
+    .line 2890225
     invoke-virtual {v3}, LX/BID;->A00()I
 
     move-result v0
@@ -652,7 +652,7 @@
 
     move-result-object v0
 
-    .line 2890205
+    .line 2890226
     invoke-virtual {v0, v6}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setAudioChannels(I)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v1
@@ -661,97 +661,97 @@
 
     mul-int/2addr v6, v0
 
-    .line 2890206
+    .line 2890227
     invoke-virtual {v1, v6}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setAudioBitRate(I)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v1
 
-    .line 2890207
+    .line 2890228
     const/4 v0, 0x2
 
-    .line 2890208
+    .line 2890229
     invoke-virtual {v1, v0}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setAudioEncoderProfile(I)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v1
 
     const/16 v0, 0x3e8
 
-    .line 2890209
+    .line 2890230
     invoke-virtual {v1, v0}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setAvailableSpaceThresholdInMB(I)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v0
 
-    .line 2890210
+    .line 2890231
     invoke-virtual {v0, v7}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setCheckAvailableSpaceIntervalInSeconds(I)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v4
 
-    .line 2890211
+    .line 2890232
     sget-object v1, LX/ANT;->A01:LX/ANT;
 
     move/from16 v0, v17
 
     invoke-static {v1, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2890212
+    .line 2890233
     invoke-virtual {v4, v7}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setBinFailureHandleMode(I)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v0
 
-    .line 2890213
+    .line 2890234
     invoke-virtual {v0, v7}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->setUsePersistentStorage(Z)Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;
 
     move-result-object v0
 
-    .line 2890214
+    .line 2890235
     invoke-virtual {v0}, Lcom/facebook/mediastreaming/opt/dvr/DvrConfig$Builder;->build()Lcom/facebook/mediastreaming/opt/dvr/DvrConfig;
 
     move-result-object v17
 
-    .line 2890215
+    .line 2890236
     :goto_2
     iget-object v5, v2, LX/N7W;->A0N:LX/MnI;
 
-    .line 2890216
+    .line 2890237
     invoke-virtual {v3}, LX/BID;->A01()Z
 
     move-result v25
 
-    .line 2890217
+    .line 2890238
     invoke-virtual {v3}, LX/BID;->A00()I
 
     move-result v23
 
-    .line 2890218
+    .line 2890239
     iget-object v4, v3, LX/BID;->A00:Lcom/instagram/service/session/UserSession;
 
-    .line 2890219
+    .line 2890240
     sget-object v3, LX/0Sq;->A05:LX/0Sq;
 
     const-wide v0, 0x81027b000a0462L
 
-    .line 2890220
+    .line 2890241
     invoke-static {v3, v4, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v26
 
-    .line 2890221
+    .line 2890242
     const-wide v0, 0x810a0b00001463L
 
-    .line 2890222
+    .line 2890243
     invoke-static {v3, v4, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v27
 
-    .line 2890223
+    .line 2890244
     const-wide v0, 0x82027b000b049bL
 
-    .line 2890224
+    .line 2890245
     invoke-static {v3, v4, v0, v1}, LX/5We;->A06(LX/0Sq;Lcom/instagram/service/session/UserSession;J)I
 
     move-result v24
 
-    .line 2890225
+    .line 2890246
     new-instance v0, LX/N2U;
 
     move-object/from16 v19, v11
@@ -770,10 +770,10 @@
 
     invoke-direct/range {v13 .. v27}, LX/N2U;-><init>(Landroid/content/Context;Landroid/os/Handler;LX/0L3;Lcom/facebook/mediastreaming/opt/dvr/DvrConfig;Lcom/facebook/mediastreaming/opt/muxer/TempFileCreator;Lcom/facebook/xanalytics/XAnalyticsHolder;LX/MnH;LX/MnI;LX/0Xg;IIZZZ)V
 
-    .line 2890226
+    .line 2890247
     iput-object v0, v2, LX/N7W;->A0J:LX/N2U;
 
-    .line 2890227
+    .line 2890248
     sget-object v0, LX/0fV;->A31:LX/09h;
 
     invoke-virtual {v0}, LX/09h;->A00()LX/0fV;
@@ -788,19 +788,19 @@
 
     return-void
 
-    .line 2890228
+    .line 2890249
     :cond_5
     sget-object v0, LX/McH;->A04:LX/McH;
 
     goto/16 :goto_1
 
-    .line 2890229
+    .line 2890250
     :pswitch_1
     const/4 v5, 0x0
 
     goto/16 :goto_0
 
-    .line 2890230
+    .line 2890251
     :cond_6
     const/16 v17, 0x0
 

@@ -111,10 +111,10 @@
 
     const/4 v2, 0x1
 
-    .line 1736224
+    .line 1736222
     invoke-direct {p0, v2}, LX/3Av;-><init>(Z)V
 
-    .line 1736225
+    .line 1736223
     const v1, 0x7f122df7
 
     new-instance v0, LX/6gE;
@@ -123,7 +123,7 @@
 
     iput-object v0, p0, LX/DP2;->A0U:LX/6gE;
 
-    .line 1736226
+    .line 1736224
     const v1, 0x7f121937
 
     new-instance v0, LX/6gE;
@@ -134,10 +134,10 @@
 
     const/16 v0, 0xa
 
-    .line 1736227
+    .line 1736225
     iput v0, p0, LX/DP2;->A01:I
 
-    .line 1736228
+    .line 1736226
     const/16 v1, 0x9
 
     new-instance v0, Lcom/facebook/redex/IDxDelegateShape351S0100000_4_I1;
@@ -146,67 +146,67 @@
 
     iput-object v0, p0, LX/DP2;->A0M:LX/3qi;
 
-    .line 1736229
+    .line 1736227
     const v0, 0x7f122e9c
 
     iput v0, p0, LX/DP2;->A00:I
 
-    .line 1736230
+    .line 1736228
     invoke-virtual {p0, v2}, LX/3Ax;->setHasStableIds(Z)V
 
-    .line 1736231
+    .line 1736229
     move-object/from16 v6, p1
 
     iput-object v6, p0, LX/DP2;->A0J:Landroid/content/Context;
 
-    .line 1736232
+    .line 1736230
     move-object/from16 v8, p6
 
     iput-object v8, p0, LX/DP2;->A0L:Lcom/instagram/service/session/UserSession;
 
-    .line 1736233
+    .line 1736231
     invoke-virtual {v6}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
     iput-object v0, p0, LX/DP2;->A0K:Landroid/content/res/Resources;
 
-    .line 1736234
+    .line 1736232
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 1736235
+    .line 1736233
     iput-object v0, p0, LX/DP2;->A0N:Ljava/util/List;
 
-    .line 1736236
+    .line 1736234
     invoke-static {}, LX/5Wd;->A15()Ljava/util/HashSet;
 
     move-result-object v0
 
-    .line 1736237
+    .line 1736235
     iput-object v0, p0, LX/DP2;->A0O:Ljava/util/Set;
 
-    .line 1736238
+    .line 1736236
     move-object/from16 v4, p10
 
     iput-object v4, p0, LX/DP2;->A0H:LX/DMZ;
 
-    .line 1736239
+    .line 1736237
     new-instance v0, LX/E9J;
 
     invoke-direct {v0}, LX/E9J;-><init>()V
 
     iput-object v0, p0, LX/DP2;->A0i:LX/E9J;
 
-    .line 1736240
+    .line 1736238
     new-instance v0, LX/EG5;
 
     invoke-direct {v0}, LX/EG5;-><init>()V
 
     iput-object v0, p0, LX/DP2;->A0d:LX/EG5;
 
-    .line 1736241
+    .line 1736239
     iget-object v1, p0, LX/DP2;->A0L:Lcom/instagram/service/session/UserSession;
 
     new-instance v0, LX/EHz;
@@ -215,52 +215,52 @@
 
     iput-object v0, p0, LX/DP2;->A0f:LX/EHz;
 
-    .line 1736242
+    .line 1736240
     move-object/from16 v0, p7
 
     iput-object v0, p0, LX/DP2;->A0Z:LX/1wI;
 
-    .line 1736243
+    .line 1736241
     new-instance v0, LX/6gI;
 
     invoke-direct {v0}, LX/6gI;-><init>()V
 
     iput-object v0, p0, LX/DP2;->A0W:LX/6gI;
 
-    .line 1736244
+    .line 1736242
     move/from16 v0, p18
 
     iput-boolean v0, p0, LX/DP2;->A0E:Z
 
-    .line 1736245
+    .line 1736243
     move/from16 v0, p19
 
     iput-boolean v0, p0, LX/DP2;->A0I:Z
 
-    .line 1736246
+    .line 1736244
     move/from16 v0, p20
 
     iput-boolean v0, p0, LX/DP2;->A0l:Z
 
-    .line 1736247
+    .line 1736245
     move-object/from16 v3, p13
 
     iput-object v3, p0, LX/DP2;->A0A:Ljava/lang/Integer;
 
-    .line 1736248
+    .line 1736246
     move/from16 v0, p21
 
     iput-boolean v0, p0, LX/DP2;->A0P:Z
 
-    .line 1736249
+    .line 1736247
     move/from16 v0, p22
 
     iput-boolean v0, p0, LX/DP2;->A0k:Z
 
-    .line 1736250
+    .line 1736248
     if-eqz p22, :cond_0
 
-    .line 1736251
+    .line 1736249
     iget-object v2, p0, LX/DP2;->A0J:Landroid/content/Context;
 
     new-instance v0, LX/A3r;
@@ -269,14 +269,14 @@
 
     iput-object v0, p0, LX/DP2;->A0G:LX/A3r;
 
-    .line 1736252
+    .line 1736250
     new-instance v0, LX/Dyc;
 
     invoke-direct {v0}, LX/Dyc;-><init>()V
 
     iput-object v0, p0, LX/DP2;->A0F:LX/Dyc;
 
-    .line 1736253
+    .line 1736251
     :cond_0
     new-instance v5, LX/DQH;
 
@@ -298,12 +298,12 @@
 
     iput-object v5, p0, LX/DP2;->A0h:LX/DQH;
 
-    .line 1736254
+    .line 1736252
     move/from16 v0, p17
 
     iput-boolean v0, v5, LX/DQH;->A00:Z
 
-    .line 1736255
+    .line 1736253
     new-instance v0, LX/6ie;
 
     move-object/from16 v2, p4
@@ -312,21 +312,21 @@
 
     iput-object v0, p0, LX/DP2;->A0Q:LX/6ie;
 
-    .line 1736256
+    .line 1736254
     new-instance v0, LX/DQD;
 
     invoke-direct {v0, v6}, LX/DQD;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, LX/DP2;->A0g:LX/DQD;
 
-    .line 1736257
+    .line 1736255
     new-instance v0, LX/DQE;
 
     invoke-direct {v0, v6}, LX/DQE;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, LX/DP2;->A0j:LX/DQE;
 
-    .line 1736258
+    .line 1736256
     new-instance v0, LX/DQC;
 
     invoke-direct {v0, v6}, LX/DQC;-><init>(Landroid/content/Context;)V
@@ -337,12 +337,12 @@
 
     if-eqz p10, :cond_a
 
-    .line 1736259
+    .line 1736257
     new-instance v0, LX/DQF;
 
     invoke-direct {v0, v6, v8, v4}, LX/DQF;-><init>(Landroid/content/Context;Lcom/instagram/service/session/UserSession;LX/DMZ;)V
 
-    .line 1736260
+    .line 1736258
     :goto_0
     iput-object v0, p0, LX/DP2;->A0c:LX/DQF;
 
@@ -350,7 +350,7 @@
 
     move-object v0, v2
 
-    .line 1736261
+    .line 1736259
     :goto_1
     iput-object v0, p0, LX/DP2;->A07:LX/DPV;
 
@@ -358,39 +358,39 @@
 
     move-object v0, v2
 
-    .line 1736262
+    .line 1736260
     :goto_2
     iput-object v0, p0, LX/DP2;->A08:LX/EHy;
 
-    .line 1736263
+    .line 1736261
     new-instance v0, LX/6gF;
 
     invoke-direct {v0, v6}, LX/6gF;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, LX/DP2;->A0X:LX/6gF;
 
-    .line 1736264
+    .line 1736262
     new-instance v0, LX/6hX;
 
     invoke-direct {v0, v6}, LX/6hX;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, LX/DP2;->A0Y:LX/6hX;
 
-    .line 1736265
+    .line 1736263
     new-instance v0, LX/1yh;
 
     invoke-direct {v0, v6}, LX/1yh;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, LX/DP2;->A0a:LX/1yh;
 
-    .line 1736266
+    .line 1736264
     new-instance v0, LX/4qL;
 
     invoke-direct {v0, v6}, LX/4qL;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, LX/DP2;->A0T:LX/4qL;
 
-    .line 1736267
+    .line 1736265
     new-instance v0, LX/1y3;
 
     invoke-direct {v0}, LX/1y3;-><init>()V
@@ -405,7 +405,7 @@
 
     if-eqz p11, :cond_7
 
-    .line 1736268
+    .line 1736266
     new-instance v0, LX/A4r;
 
     invoke-direct {v0, v6, v4, v1, v3}, LX/A4r;-><init>(Landroid/content/Context;LX/1dt;Lcom/instagram/service/session/UserSession;LX/DMZ;)V
@@ -413,114 +413,114 @@
     :goto_3
     iput-object v0, p0, LX/DP2;->A0S:LX/A4r;
 
-    .line 1736269
+    .line 1736267
     iget-object v3, p0, LX/DP2;->A0R:LX/1y3;
 
-    .line 1736270
+    .line 1736268
     invoke-virtual {v6}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
     const v0, 0x7f07008a
 
-    .line 1736271
+    .line 1736269
     invoke-virtual {v1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v0
 
-    .line 1736272
+    .line 1736270
     iput v0, v3, LX/1y3;->A03:I
 
-    .line 1736273
+    .line 1736271
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 1736274
+    .line 1736272
     iget-object v0, p0, LX/DP2;->A0h:LX/DQH;
 
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1736275
+    .line 1736273
     iget-object v0, p0, LX/DP2;->A0Q:LX/6ie;
 
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1736276
+    .line 1736274
     iget-object v0, p0, LX/DP2;->A0g:LX/DQD;
 
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1736277
+    .line 1736275
     iget-object v0, p0, LX/DP2;->A0j:LX/DQE;
 
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1736278
+    .line 1736276
     iget-object v0, p0, LX/DP2;->A0e:LX/DQC;
 
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1736279
+    .line 1736277
     iget-object v0, p0, LX/DP2;->A0c:LX/DQF;
 
     if-eqz v0, :cond_1
 
-    .line 1736280
+    .line 1736278
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1736281
+    .line 1736279
     :cond_1
     iget-object v0, p0, LX/DP2;->A07:LX/DPV;
 
     if-eqz v0, :cond_2
 
-    .line 1736282
+    .line 1736280
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1736283
+    .line 1736281
     :cond_2
     iget-object v0, p0, LX/DP2;->A0X:LX/6gF;
 
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1736284
+    .line 1736282
     iget-object v0, p0, LX/DP2;->A0Y:LX/6hX;
 
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1736285
+    .line 1736283
     iget-object v0, p0, LX/DP2;->A0a:LX/1yh;
 
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1736286
+    .line 1736284
     iget-object v0, p0, LX/DP2;->A0T:LX/4qL;
 
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1736287
+    .line 1736285
     iget-object v0, p0, LX/DP2;->A0R:LX/1y3;
 
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1736288
+    .line 1736286
     iget-boolean v0, p0, LX/DP2;->A0k:Z
 
     if-eqz v0, :cond_3
 
-    .line 1736289
+    .line 1736287
     iget-object v0, p0, LX/DP2;->A0G:LX/A3r;
 
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1736290
+    .line 1736288
     :cond_3
     iget-object v0, p0, LX/DP2;->A0S:LX/A4r;
 
     if-eqz v0, :cond_4
 
-    .line 1736291
+    .line 1736289
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     :cond_4
@@ -528,17 +528,17 @@
 
     if-eqz p8, :cond_6
 
-    .line 1736292
+    .line 1736290
     new-instance v0, LX/A4z;
 
     invoke-direct {v0, v3}, LX/A4z;-><init>(LX/BcB;)V
 
     iput-object v0, p0, LX/DP2;->A0b:LX/A4z;
 
-    .line 1736293
+    .line 1736291
     invoke-virtual {v1, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 1736294
+    .line 1736292
     :goto_4
     invoke-virtual {v1}, Ljava/util/AbstractCollection;->size()I
 
@@ -552,19 +552,19 @@
 
     check-cast v0, [LX/1y1;
 
-    .line 1736295
+    .line 1736293
     invoke-virtual {p0, v0}, LX/3Av;->init([LX/1y1;)V
 
     if-eqz p15, :cond_5
 
-    .line 1736296
+    .line 1736294
     new-instance v0, LX/4lu;
 
     invoke-direct {v0, v6, v8, p0}, LX/4lu;-><init>(Landroid/content/Context;Lcom/instagram/service/session/UserSession;LX/26K;)V
 
     iput-object v0, p0, LX/DP2;->A06:LX/4lu;
 
-    .line 1736297
+    .line 1736295
     iget-object v0, p0, LX/DP2;->A0L:Lcom/instagram/service/session/UserSession;
 
     invoke-static {v0}, LX/1A2;->A00(LX/0SF;)LX/1A2;
@@ -575,25 +575,25 @@
 
     iget-object v0, p0, LX/DP2;->A06:LX/4lu;
 
-    .line 1736298
+    .line 1736296
     invoke-virtual {v2, v0, v1}, LX/1A2;->A02(LX/1O6;Ljava/lang/Class;)V
 
     :cond_5
     return-void
 
-    .line 1736299
+    .line 1736297
     :cond_6
     iput-object v2, p0, LX/DP2;->A0b:LX/A4z;
 
     goto :goto_4
 
-    .line 1736300
+    .line 1736298
     :cond_7
     move-object v0, v2
 
     goto/16 :goto_3
 
-    .line 1736301
+    .line 1736299
     :cond_8
     new-instance v0, LX/EHy;
 
@@ -601,7 +601,7 @@
 
     goto/16 :goto_2
 
-    .line 1736302
+    .line 1736300
     :cond_9
     new-instance v0, LX/DPV;
 
@@ -611,7 +611,7 @@
 
     goto/16 :goto_1
 
-    .line 1736303
+    .line 1736301
     :cond_a
     move-object v0, v2
 

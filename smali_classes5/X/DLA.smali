@@ -645,7 +645,7 @@
     .locals 1
 
     .line 0
-    invoke-static {p1}, LX/Chg;->A05(Landroid/content/Context;)I
+    invoke-static {p1}, LX/Chg;->A04(Landroid/content/Context;)I
 
     .line 1
     .line 2
@@ -2277,7 +2277,7 @@
     move-result-object v0
 
     .line 415
-    invoke-static {v1, v8, v2, v0}, LX/Chi;->A0R(LX/1U0;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;)LX/0i9;
+    invoke-static {v1, v8, v2, v0}, LX/Chi;->A0S(LX/1U0;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;)LX/0i9;
 
     .line 416
     .line 417
@@ -2634,7 +2634,7 @@
     move-result-object v0
 
     .line 598
-    invoke-static {v1, v11, v9, v0}, LX/Chi;->A0R(LX/1U0;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;)LX/0i9;
+    invoke-static {v1, v11, v9, v0}, LX/Chi;->A0S(LX/1U0;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;)LX/0i9;
 
     .line 599
     .line 600
@@ -2873,7 +2873,7 @@
     move-result-object v0
 
     .line 715
-    invoke-static {v1, v11, v2, v0}, LX/Chi;->A0R(LX/1U0;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;)LX/0i9;
+    invoke-static {v1, v11, v2, v0}, LX/Chi;->A0S(LX/1U0;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;)LX/0i9;
 
     .line 716
     .line 717

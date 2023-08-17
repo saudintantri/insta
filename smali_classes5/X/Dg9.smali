@@ -144,7 +144,7 @@
     const/4 v0, 0x7
 
     .line 56
-    invoke-static {p0, v0}, LX/Chf;->A0T(Ljava/lang/Object;I)LX/1F1;
+    invoke-static {p0, v0}, LX/Chf;->A0U(Ljava/lang/Object;I)LX/1F1;
 
     .line 57
     .line 58
@@ -173,7 +173,7 @@
 
     .line 70
     .line 71
-    invoke-static {p0, v0}, LX/Chf;->A0T(Ljava/lang/Object;I)LX/1F1;
+    invoke-static {p0, v0}, LX/Chf;->A0U(Ljava/lang/Object;I)LX/1F1;
 
     .line 72
     .line 73

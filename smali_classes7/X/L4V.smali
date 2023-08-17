@@ -271,7 +271,7 @@
 .method private A02(Landroid/view/View;Ljava/io/PrintWriter;Ljava/lang/String;IIZZZ)V
     .locals 22
 
-    .line 2694240
+    .line 2694261
     move-object/from16 v5, p2
 
     move-object/from16 v21, p3
@@ -286,14 +286,14 @@
 
     const-string v0, "null"
 
-    .line 2694241
+    .line 2694262
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->println(Ljava/lang/String;)V
 
-    .line 2694242
+    .line 2694263
     :cond_0
     return-void
 
-    .line 2694243
+    .line 2694264
     :cond_1
     invoke-virtual {v7}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -307,10 +307,10 @@
 
     const-string v0, "{"
 
-    .line 2694244
+    .line 2694265
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694245
+    .line 2694266
     invoke-virtual {v7}, Ljava/lang/Object;->hashCode()I
 
     move-result v0
@@ -321,13 +321,13 @@
 
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694246
+    .line 2694267
     const-string v9, " "
 
-    .line 2694247
+    .line 2694268
     invoke-virtual {v5, v9}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694248
+    .line 2694269
     invoke-virtual {v7}, Landroid/view/View;->getVisibility()I
 
     move-result v2
@@ -346,10 +346,10 @@
 
     if-eq v2, v0, :cond_e
 
-    .line 2694249
+    .line 2694270
     invoke-virtual {v5, v1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694250
+    .line 2694271
     :goto_0
     invoke-virtual {v7}, Landroid/view/View;->isFocusable()Z
 
@@ -366,7 +366,7 @@
     :cond_2
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694251
+    .line 2694272
     invoke-virtual {v7}, Landroid/view/View;->isEnabled()Z
 
     move-result v0
@@ -378,10 +378,10 @@
     :goto_1
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694252
+    .line 2694273
     invoke-virtual {v5, v1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694253
+    .line 2694274
     invoke-virtual {v7}, Landroid/view/View;->isHorizontalScrollBarEnabled()Z
 
     move-result v4
@@ -397,7 +397,7 @@
     :cond_3
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694254
+    .line 2694275
     invoke-virtual {v7}, Landroid/view/View;->isVerticalScrollBarEnabled()Z
 
     move-result v0
@@ -409,7 +409,7 @@
     :cond_4
     invoke-virtual {v5, v6}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694255
+    .line 2694276
     invoke-virtual {v7}, Landroid/view/View;->isClickable()Z
 
     move-result v0
@@ -421,7 +421,7 @@
     :goto_2
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694256
+    .line 2694277
     invoke-virtual {v7}, Landroid/view/View;->isLongClickable()Z
 
     move-result v0
@@ -433,10 +433,10 @@
     :goto_3
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694257
+    .line 2694278
     invoke-virtual {v5, v9}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694258
+    .line 2694279
     invoke-virtual {v7}, Landroid/view/View;->isFocused()Z
 
     move-result v0
@@ -448,7 +448,7 @@
     :cond_5
     invoke-virtual {v5, v3}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694259
+    .line 2694280
     invoke-virtual {v7}, Landroid/view/View;->isSelected()Z
 
     move-result v0
@@ -460,7 +460,7 @@
     :goto_4
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694260
+    .line 2694281
     invoke-virtual {v7}, Landroid/view/View;->isHovered()Z
 
     move-result v0
@@ -472,7 +472,7 @@
     :cond_6
     invoke-virtual {v5, v2}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694261
+    .line 2694282
     invoke-virtual {v7}, Landroid/view/View;->isActivated()Z
 
     move-result v0
@@ -484,7 +484,7 @@
     :goto_5
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694262
+    .line 2694283
     invoke-virtual {v7}, Landroid/view/View;->isDirty()Z
 
     move-result v0
@@ -496,20 +496,20 @@
     :cond_7
     invoke-virtual {v5, v1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694263
+    .line 2694284
     const/4 v6, 0x2
 
     new-array v8, v6, [I
 
-    .line 2694264
+    .line 2694285
     invoke-virtual {v7, v8}, Landroid/view/View;->getLocationOnScreen([I)V
 
-    .line 2694265
+    .line 2694286
     invoke-virtual {v5, v9}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
-    .line 2694266
+    .line 2694287
     aget v0, v8, v4
 
     sub-int v0, v0, p4
@@ -518,12 +518,12 @@
 
     const-string v2, ","
 
-    .line 2694267
+    .line 2694288
     invoke-virtual {v5, v2}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
     const/4 v3, 0x1
 
-    .line 2694268
+    .line 2694289
     aget v0, v8, v3
 
     sub-int v0, v0, p5
@@ -532,10 +532,10 @@
 
     const-string v0, "-"
 
-    .line 2694269
+    .line 2694290
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694270
+    .line 2694291
     aget v1, v8, v4
 
     invoke-virtual {v7}, Landroid/view/View;->getWidth()I
@@ -548,10 +548,10 @@
 
     invoke-virtual {v5, v1}, Ljava/io/PrintWriter;->print(I)V
 
-    .line 2694271
+    .line 2694292
     invoke-virtual {v5, v2}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694272
+    .line 2694293
     aget v1, v8, v3
 
     invoke-virtual {v7}, Landroid/view/View;->getHeight()I
@@ -564,62 +564,62 @@
 
     invoke-virtual {v5, v1}, Ljava/io/PrintWriter;->print(I)V
 
-    .line 2694273
+    .line 2694294
     goto :goto_7
 
-    .line 2694274
+    .line 2694295
     :cond_8
     move-object v0, v1
 
     goto :goto_5
 
-    .line 2694275
+    .line 2694296
     :cond_9
     move-object v0, v1
 
     goto :goto_4
 
-    .line 2694276
+    .line 2694297
     :cond_a
     move-object v0, v1
 
     goto :goto_3
 
-    .line 2694277
+    .line 2694298
     :cond_b
     move-object v0, v1
 
     goto/16 :goto_2
 
-    .line 2694278
+    .line 2694299
     :cond_c
     move-object v0, v1
 
     goto/16 :goto_1
 
-    .line 2694279
+    .line 2694300
     :cond_d
     const-string v0, "I"
 
     goto :goto_6
 
-    .line 2694280
+    .line 2694301
     :cond_e
     const-string v0, "G"
 
-    .line 2694281
+    .line 2694302
     :goto_6
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
     goto/16 :goto_0
 
-    .line 2694282
+    .line 2694303
     :cond_f
     invoke-virtual {v5, v6}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
     goto/16 :goto_0
 
-    .line 2694283
+    .line 2694304
     :goto_7
     :try_start_0
     invoke-virtual {v7}, Landroid/view/View;->getId()I
@@ -630,20 +630,20 @@
 
     if-eq v8, v0, :cond_12
 
-    .line 2694284
+    .line 2694305
     const-string v0, " #"
 
-    .line 2694285
+    .line 2694306
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->append(Ljava/lang/CharSequence;)Ljava/io/PrintWriter;
 
-    .line 2694286
+    .line 2694307
     invoke-static {v8}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->append(Ljava/lang/CharSequence;)Ljava/io/PrintWriter;
 
-    .line 2694287
+    .line 2694308
     invoke-virtual {v7}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
@@ -666,7 +666,7 @@
 
     goto :goto_8
 
-    .line 2694288
+    .line 2694309
     :cond_10
     const-string v0, "app"
 
@@ -682,19 +682,19 @@
 
     move-result-object v0
 
-    .line 2694289
+    .line 2694310
     :goto_9
     invoke-virtual {v5, v9}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694290
+    .line 2694311
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
     const-string v0, ":"
 
-    .line 2694291
+    .line 2694312
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694292
+    .line 2694313
     invoke-virtual {v2, v8}, Landroid/content/res/Resources;->getResourceTypeName(I)Ljava/lang/String;
 
     move-result-object v0
@@ -703,10 +703,10 @@
 
     const-string v0, "/"
 
-    .line 2694293
+    .line 2694314
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 2694294
+    .line 2694315
     invoke-virtual {v2, v8}, Landroid/content/res/Resources;->getResourceEntryName(I)Ljava/lang/String;
 
     move-result-object v0
@@ -715,7 +715,7 @@
 
     goto :goto_a
 
-    .line 2694295
+    .line 2694316
     :cond_12
     invoke-static {v7, v5}, LX/L4V;->A01(Landroid/view/View;Ljava/io/PrintWriter;)V
 
@@ -723,21 +723,21 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2694296
+    .line 2694317
     :catch_0
     invoke-static {v7, v5}, LX/L4V;->A01(Landroid/view/View;Ljava/io/PrintWriter;)V
 
-    .line 2694297
+    .line 2694318
     :goto_a
     const/4 v1, 0x0
 
-    .line 2694298
+    .line 2694319
     :try_start_1
     instance-of v0, v7, Landroid/widget/TextView;
 
     if-eqz v0, :cond_14
 
-    .line 2694299
+    .line 2694320
     move-object v0, v7
 
     check-cast v0, Landroid/widget/TextView;
@@ -750,7 +750,7 @@
 
     move-result-object v1
 
-    .line 2694300
+    .line 2694321
     :cond_13
     :goto_b
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -761,12 +761,12 @@
 
     const-string v0, " text=\""
 
-    .line 2694301
+    .line 2694322
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
     const/16 v0, 0x258
 
-    .line 2694302
+    .line 2694323
     invoke-static {v1, v0}, LX/L4V;->A00(Ljava/lang/CharSequence;I)Ljava/lang/String;
 
     move-result-object v0
@@ -775,12 +775,12 @@
 
     const-string v0, "\""
 
-    .line 2694303
+    .line 2694324
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
     goto :goto_c
 
-    .line 2694304
+    .line 2694325
     :cond_14
     invoke-virtual/range {v18 .. v18}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -794,12 +794,12 @@
 
     if-eqz v0, :cond_16
 
-    .line 2694305
+    .line 2694326
     sget-object v1, LX/L4V;->A05:Ljava/lang/reflect/Method;
 
     if-nez v1, :cond_15
 
-    .line 2694306
+    .line 2694327
     new-array v2, v4, [Ljava/lang/Class;
 
     const-string v1, "getText"
@@ -812,7 +812,7 @@
 
     sput-object v1, LX/L4V;->A05:Ljava/lang/reflect/Method;
 
-    .line 2694307
+    .line 2694328
     :cond_15
     new-array v0, v4, [Ljava/lang/Object;
 
@@ -822,14 +822,14 @@
 
     if-eqz v0, :cond_18
 
-    .line 2694308
+    .line 2694329
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v1
 
     goto :goto_b
 
-    .line 2694309
+    .line 2694330
     :cond_16
     const-string v0, "GlyphView"
 
@@ -839,12 +839,12 @@
 
     if-eqz v0, :cond_19
 
-    .line 2694310
+    .line 2694331
     sget-object v1, LX/L4V;->A04:Ljava/lang/reflect/Method;
 
     if-nez v1, :cond_17
 
-    .line 2694311
+    .line 2694332
     new-array v2, v4, [Ljava/lang/Class;
 
     const-string v1, "getText"
@@ -857,7 +857,7 @@
 
     sput-object v1, LX/L4V;->A04:Ljava/lang/reflect/Method;
 
-    .line 2694312
+    .line 2694333
     :cond_17
     new-array v0, v4, [Ljava/lang/Object;
 
@@ -867,20 +867,20 @@
 
     if-eqz v0, :cond_18
 
-    .line 2694313
+    .line 2694334
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v1
 
     goto :goto_b
 
-    .line 2694314
+    .line 2694335
     :cond_18
     const/4 v1, 0x0
 
     goto :goto_b
 
-    .line 2694315
+    .line 2694336
     :cond_19
     invoke-virtual {v7}, Landroid/view/View;->getContentDescription()Ljava/lang/CharSequence;
 
@@ -888,12 +888,12 @@
 
     if-eqz v0, :cond_1a
 
-    .line 2694316
+    .line 2694337
     invoke-interface {v0}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2694317
+    .line 2694338
     :cond_1a
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -901,14 +901,14 @@
 
     if-eqz v0, :cond_13
 
-    .line 2694318
+    .line 2694339
     invoke-virtual {v7}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v0
 
     if-eqz v0, :cond_13
 
-    .line 2694319
+    .line 2694340
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -921,7 +921,7 @@
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 2694320
+    .line 2694341
     :catch_1
     :cond_1b
     :goto_c
@@ -929,41 +929,41 @@
 
     if-eqz p7, :cond_27
 
-    .line 2694321
+    .line 2694342
     invoke-static {}, Landroid/view/accessibility/AccessibilityNodeInfo;->obtain()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     move-result-object v17
 
-    .line 2694322
+    .line 2694343
     :try_start_2
     move-object/from16 v0, v17
 
     invoke-virtual {v7, v0}, Landroid/view/View;->onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V
 
-    .line 2694323
+    .line 2694344
     if-eqz v17, :cond_27
     :try_end_2
     .catch Ljava/lang/NullPointerException; {:try_start_2 .. :try_end_2} :catch_8
 
-    .line 2694324
+    .line 2694345
     invoke-static {}, LX/92k;->A0n()Lorg/json/JSONObject;
 
     move-result-object v12
 
-    .line 2694325
+    .line 2694346
     :try_start_3
     instance-of v0, v7, Landroid/widget/TextView;
 
     if-eqz v0, :cond_1c
 
-    .line 2694326
+    .line 2694347
     move-object v8, v7
 
     check-cast v8, Landroid/widget/TextView;
 
     const-string v1, "textColor"
 
-    .line 2694327
+    .line 2694348
     invoke-virtual {v8}, Landroid/widget/TextView;->getTextColors()Landroid/content/res/ColorStateList;
 
     move-result-object v0
@@ -976,7 +976,7 @@
 
     const-string v2, "textSize"
 
-    .line 2694328
+    .line 2694349
     invoke-virtual {v8}, Landroid/widget/TextView;->getTextSize()F
 
     move-result v0
@@ -987,32 +987,32 @@
 
     const-string v2, "hint"
 
-    .line 2694329
+    .line 2694350
     invoke-virtual {v8}, Landroid/widget/TextView;->getHint()Ljava/lang/CharSequence;
 
     move-result-object v1
 
-    .line 2694330
+    .line 2694351
     const/16 v0, 0x64
 
-    .line 2694331
+    .line 2694352
     invoke-static {v1, v0}, LX/L4V;->A00(Ljava/lang/CharSequence;I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2694332
+    .line 2694353
     invoke-virtual {v12, v2, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_6
 
-    .line 2694333
+    .line 2694354
     :cond_1c
     :try_start_4
     sget-object v0, LX/KrX;->A00:Ljava/lang/reflect/Field;
 
     if-nez v0, :cond_1d
 
-    .line 2694334
+    .line 2694355
     const-class v1, Landroid/view/View;
 
     const-string v0, "mKeyedTags"
@@ -1023,10 +1023,10 @@
 
     sput-object v0, LX/KrX;->A00:Ljava/lang/reflect/Field;
 
-    .line 2694335
+    .line 2694356
     invoke-virtual {v0, v3}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
-    .line 2694336
+    .line 2694357
     :cond_1d
     sget-object v0, LX/KrX;->A00:Ljava/lang/reflect/Field;
 
@@ -1038,25 +1038,24 @@
 
     if-eqz v14, :cond_21
 
-    .line 2694337
+    .line 2694358
     invoke-virtual {v14}, Landroid/util/SparseArray;->size()I
 
     move-result v0
 
     if-lez v0, :cond_21
 
-    .line 2694338
+    .line 2694359
     invoke-static {}, LX/92k;->A0n()Lorg/json/JSONObject;
 
     move-result-object v13
 
-    .line 2694339
+    .line 2694360
     const/4 v11, 0x0
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_5
-    .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_6
 
-    .line 2694340
+    .line 2694361
     :try_start_5
     invoke-virtual {v14}, Landroid/util/SparseArray;->size()I
 
@@ -1067,7 +1066,7 @@
 
     if-ge v11, v0, :cond_20
 
-    .line 2694341
+    .line 2694362
     invoke-virtual {v7}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
@@ -1076,25 +1075,24 @@
 
     move-result v10
 
-    .line 2694342
+    .line 2694363
     if-nez v1, :cond_1e
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_4
-    .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_6
 
-    .line 2694343
+    .line 2694364
     :try_start_6
     const-string v0, "#"
 
-    .line 2694344
+    .line 2694365
     invoke-static {v10, v0}, LX/IzJ;->A0u(ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2694345
+    .line 2694366
     goto :goto_f
 
-    .line 2694346
+    .line 2694367
     :cond_1e
     ushr-int/lit8 v0, v10, 0x18
 
@@ -1106,77 +1104,77 @@
 
     if-eq v2, v0, :cond_1f
 
-    .line 2694347
+    .line 2694368
     invoke-virtual {v1, v10}, Landroid/content/res/Resources;->getResourcePackageName(I)Ljava/lang/String;
 
     move-result-object v9
 
     const-string v8, ":"
 
-    .line 2694348
+    .line 2694369
     :goto_e
     invoke-virtual {v1, v10}, Landroid/content/res/Resources;->getResourceTypeName(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 2694349
+    .line 2694370
     invoke-virtual {v1, v10}, Landroid/content/res/Resources;->getResourceEntryName(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2694350
+    .line 2694371
     invoke-virtual {v9}, Ljava/lang/String;->length()I
 
     move-result v0
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 2694351
+    .line 2694372
     invoke-static {v8, v0}, LX/IzJ;->A0J(Ljava/lang/String;I)I
 
     move-result v0
 
-    .line 2694352
+    .line 2694373
     invoke-static {v2, v0}, LX/IzJ;->A0J(Ljava/lang/String;I)I
 
     move-result v0
 
-    .line 2694353
+    .line 2694374
     add-int/lit8 v0, v0, 0x1
 
-    .line 2694354
+    .line 2694375
     invoke-static {v1, v0}, LX/IzJ;->A0J(Ljava/lang/String;I)I
 
     move-result v0
 
-    .line 2694355
+    .line 2694376
     invoke-static {v0}, LX/IzJ;->A0z(I)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    .line 2694356
+    .line 2694377
     const-string v15, "@"
 
-    .line 2694357
+    .line 2694378
     invoke-static {v15, v9, v8, v0}, LX/92o;->A1V(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)V
 
-    .line 2694358
+    .line 2694379
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "/"
 
-    .line 2694359
+    .line 2694380
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2694360
+    .line 2694381
     invoke-static {v1, v0}, LX/5Wd;->A0s(Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2694361
+    .line 2694382
     goto :goto_f
 
-    .line 2694362
+    .line 2694383
     :cond_1f
     move-object v8, v9
 
@@ -1184,22 +1182,20 @@
     :try_end_6
     .catch Landroid/content/res/Resources$NotFoundException; {:try_start_6 .. :try_end_6} :catch_2
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_4
-    .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_6
 
-    .line 2694363
+    .line 2694384
     :catch_2
     :try_start_7
     const-string v0, "#"
 
-    .line 2694364
+    .line 2694385
     invoke-static {v10, v0}, LX/IzJ;->A0u(ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
     :try_end_7
     .catch Ljava/lang/Exception; {:try_start_7 .. :try_end_7} :catch_4
-    .catch Ljava/lang/Exception; {:try_start_7 .. :try_end_7} :catch_6
 
-    .line 2694365
+    .line 2694386
     :goto_f
     :try_start_8
     invoke-virtual {v14, v11}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
@@ -1210,30 +1206,29 @@
     :try_end_8
     .catch Lorg/json/JSONException; {:try_start_8 .. :try_end_8} :catch_3
     .catch Ljava/lang/Exception; {:try_start_8 .. :try_end_8} :catch_4
-    .catch Ljava/lang/Exception; {:try_start_8 .. :try_end_8} :catch_6
 
     :catch_3
     add-int/lit8 v11, v11, 0x1
 
     goto :goto_d
 
-    .line 2694366
+    .line 2694387
     :catch_4
     :cond_20
     :try_start_9
     const-string v0, "keyedTags"
 
-    .line 2694367
+    .line 2694388
     invoke-virtual {v12, v0, v13}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 2694368
+    .line 2694389
     :catch_5
     :cond_21
     invoke-static {}, LX/92k;->A0m()Lorg/json/JSONArray;
 
     move-result-object v8
 
-    .line 2694369
+    .line 2694390
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->getActionList()Ljava/util/List;
 
     move-result-object v0
@@ -1256,7 +1251,7 @@
 
     check-cast v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
-    .line 2694370
+    .line 2694391
     invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->getLabel()Ljava/lang/CharSequence;
 
     move-result-object v1
@@ -1265,20 +1260,20 @@
 
     if-eqz v1, :cond_22
 
-    .line 2694371
+    .line 2694392
     const/16 v0, 0x32
 
-    .line 2694372
+    .line 2694393
     invoke-static {v1, v0}, LX/L4V;->A00(Ljava/lang/CharSequence;I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2694373
+    .line 2694394
     invoke-virtual {v8, v0}, Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
 
     goto :goto_10
 
-    .line 2694374
+    .line 2694395
     :cond_23
     invoke-virtual {v8}, Lorg/json/JSONArray;->length()I
 
@@ -1288,27 +1283,27 @@
 
     const-string v0, "actions"
 
-    .line 2694375
+    .line 2694396
     invoke-virtual {v12, v0, v8}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 2694376
+    .line 2694397
     :cond_24
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->getContentDescription()Ljava/lang/CharSequence;
 
     move-result-object v0
 
-    .line 2694377
+    .line 2694398
     const/16 v8, 0x32
 
-    .line 2694378
+    .line 2694399
     invoke-static {v0, v8}, LX/L4V;->A00(Ljava/lang/CharSequence;I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2694379
+    .line 2694400
     if-eqz v1, :cond_25
 
-    .line 2694380
+    .line 2694401
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -1317,21 +1312,21 @@
 
     const-string v0, "content-description"
 
-    .line 2694381
+    .line 2694402
     invoke-virtual {v12, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 2694382
+    .line 2694403
     :cond_25
     invoke-static {}, LX/92k;->A0n()Lorg/json/JSONObject;
 
     move-result-object v2
 
-    .line 2694383
+    .line 2694404
     invoke-virtual {v7}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
 
     move-result-object v11
 
-    .line 2694384
+    .line 2694405
     instance-of v0, v11, Landroid/graphics/drawable/ColorDrawable;
     :try_end_9
     .catch Ljava/lang/Exception; {:try_start_9 .. :try_end_9} :catch_6
@@ -1340,11 +1335,11 @@
 
     if-eqz v0, :cond_26
 
-    .line 2694385
+    .line 2694406
     :try_start_a
     check-cast v11, Landroid/graphics/drawable/ColorDrawable;
 
-    .line 2694386
+    .line 2694407
     invoke-virtual {v11}, Landroid/graphics/drawable/Drawable;->getAlpha()I
 
     move-result v0
@@ -1355,7 +1350,7 @@
 
     const-string v1, "color"
 
-    .line 2694387
+    .line 2694408
     invoke-virtual {v11}, Landroid/graphics/drawable/ColorDrawable;->getColor()I
 
     move-result v0
@@ -1366,7 +1361,7 @@
 
     const-string v1, "level"
 
-    .line 2694388
+    .line 2694409
     invoke-virtual {v11}, Landroid/graphics/drawable/Drawable;->getLevel()I
 
     move-result v0
@@ -1377,7 +1372,7 @@
 
     const-string v1, "opacity"
 
-    .line 2694389
+    .line 2694410
     invoke-virtual {v11}, Landroid/graphics/drawable/Drawable;->getOpacity()I
 
     move-result v0
@@ -1387,7 +1382,7 @@
     :cond_26
     const-string v1, "accessibility-focused"
 
-    .line 2694390
+    .line 2694411
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isAccessibilityFocused()Z
 
     move-result v0
@@ -1396,7 +1391,7 @@
 
     move-result-object v1
 
-    .line 2694391
+    .line 2694412
     invoke-virtual {v7}, Landroid/view/View;->getAlpha()F
 
     move-result v0
@@ -1411,14 +1406,14 @@
 
     const-string v0, "background"
 
-    .line 2694392
+    .line 2694413
     invoke-virtual {v1, v0, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     move-result-object v2
 
     const-string v1, "checkable"
 
-    .line 2694393
+    .line 2694414
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isCheckable()Z
 
     move-result v0
@@ -1429,7 +1424,7 @@
 
     const-string v1, "checked"
 
-    .line 2694394
+    .line 2694415
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isChecked()Z
 
     move-result v0
@@ -1440,24 +1435,24 @@
 
     const-string v1, "class-name"
 
-    .line 2694395
+    .line 2694416
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->getClassName()Ljava/lang/CharSequence;
 
     move-result-object v0
 
-    .line 2694396
+    .line 2694417
     invoke-static {v0, v8}, LX/L4V;->A00(Ljava/lang/CharSequence;I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2694397
+    .line 2694418
     invoke-virtual {v2, v1, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     move-result-object v2
 
     const-string v1, "clickable"
 
-    .line 2694398
+    .line 2694419
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isClickable()Z
 
     move-result v0
@@ -1468,7 +1463,7 @@
 
     const-string v1, "content-invalid"
 
-    .line 2694399
+    .line 2694420
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isContentInvalid()Z
 
     move-result v0
@@ -1479,7 +1474,7 @@
 
     const-string v1, "dismissable"
 
-    .line 2694400
+    .line 2694421
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isDismissable()Z
 
     move-result v0
@@ -1490,7 +1485,7 @@
 
     const-string v1, "editable"
 
-    .line 2694401
+    .line 2694422
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isEditable()Z
 
     move-result v0
@@ -1501,7 +1496,7 @@
 
     const-string v1, "elevation"
 
-    .line 2694402
+    .line 2694423
     invoke-virtual {v7}, Landroid/view/View;->getElevation()F
 
     move-result v0
@@ -1516,7 +1511,7 @@
 
     const-string v1, "enabled"
 
-    .line 2694403
+    .line 2694424
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isEnabled()Z
 
     move-result v0
@@ -1527,7 +1522,7 @@
 
     const-string v1, "focusable"
 
-    .line 2694404
+    .line 2694425
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isFocusable()Z
 
     move-result v0
@@ -1538,7 +1533,7 @@
 
     const-string v1, "focused"
 
-    .line 2694405
+    .line 2694426
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isFocused()Z
 
     move-result v0
@@ -1549,7 +1544,7 @@
 
     const-string v1, "height"
 
-    .line 2694406
+    .line 2694427
     invoke-virtual {v7}, Landroid/view/View;->getHeight()I
 
     move-result v0
@@ -1564,7 +1559,7 @@
 
     const-string v1, "is-layout-requested"
 
-    .line 2694407
+    .line 2694428
     invoke-virtual {v7}, Landroid/view/View;->isLayoutRequested()Z
 
     move-result v0
@@ -1575,7 +1570,7 @@
 
     const-string v1, "long-clickable"
 
-    .line 2694408
+    .line 2694429
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isLongClickable()Z
 
     move-result v0
@@ -1586,7 +1581,7 @@
 
     const-string v1, "multiline"
 
-    .line 2694409
+    .line 2694430
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isMultiLine()Z
 
     move-result v0
@@ -1597,7 +1592,7 @@
 
     const-string v1, "measured-height"
 
-    .line 2694410
+    .line 2694431
     invoke-virtual {v7}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v0
@@ -1612,7 +1607,7 @@
 
     const-string v1, "measured-width"
 
-    .line 2694411
+    .line 2694432
     invoke-virtual {v7}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v0
@@ -1627,7 +1622,7 @@
 
     const-string v1, "password"
 
-    .line 2694412
+    .line 2694433
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isPassword()Z
 
     move-result v0
@@ -1638,7 +1633,7 @@
 
     const-string v1, "scrollable"
 
-    .line 2694413
+    .line 2694434
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isScrollable()Z
 
     move-result v0
@@ -1649,7 +1644,7 @@
 
     const-string v1, "selected"
 
-    .line 2694414
+    .line 2694435
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isSelected()Z
 
     move-result v0
@@ -1660,7 +1655,7 @@
 
     const-string v1, "translation-x"
 
-    .line 2694415
+    .line 2694436
     invoke-virtual {v7}, Landroid/view/View;->getTranslationX()F
 
     move-result v0
@@ -1675,7 +1670,7 @@
 
     const-string v1, "translation-y"
 
-    .line 2694416
+    .line 2694437
     invoke-virtual {v7}, Landroid/view/View;->getTranslationY()F
 
     move-result v0
@@ -1690,7 +1685,7 @@
 
     const-string v1, "visible-to-user"
 
-    .line 2694417
+    .line 2694438
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isVisibleToUser()Z
 
     move-result v0
@@ -1701,7 +1696,7 @@
 
     const-string v1, "width"
 
-    .line 2694418
+    .line 2694439
     invoke-virtual {v7}, Landroid/view/View;->getWidth()I
 
     move-result v0
@@ -1712,7 +1707,7 @@
 
     invoke-virtual {v2, v1, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 2694419
+    .line 2694440
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isContextClickable()Z
 
     move-result v1
@@ -1723,7 +1718,7 @@
 
     move-result-object v2
 
-    .line 2694420
+    .line 2694441
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->getDrawingOrder()I
 
     move-result v1
@@ -1734,7 +1729,7 @@
 
     move-result-object v2
 
-    .line 2694421
+    .line 2694442
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->isImportantForAccessibility()Z
 
     move-result v1
@@ -1747,27 +1742,27 @@
     :try_end_a
     .catch Ljava/lang/Exception; {:try_start_a .. :try_end_a} :catch_6
 
-    .line 2694422
+    .line 2694443
     :catch_6
     move-exception v0
 
     :try_start_b
     const-string v2, "DUMP-ERROR"
 
-    .line 2694423
+    .line 2694444
     invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2694424
+    .line 2694445
     const/16 v0, 0x32
 
-    .line 2694425
+    .line 2694446
     invoke-static {v1, v0}, LX/L4V;->A00(Ljava/lang/CharSequence;I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2694426
+    .line 2694447
     invoke-virtual {v12, v2, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_b
     .catch Lorg/json/JSONException; {:try_start_b .. :try_end_b} :catch_7
@@ -1776,7 +1771,7 @@
     :goto_11
     const-string v0, " props=\""
 
-    .line 2694427
+    .line 2694448
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->append(Ljava/lang/CharSequence;)Ljava/io/PrintWriter;
 
     move-result-object v1
@@ -1795,22 +1790,22 @@
 
     goto :goto_12
 
-    .line 2694428
+    .line 2694449
     :catch_8
     if-eqz v17, :cond_27
 
-    .line 2694429
+    .line 2694450
     invoke-virtual/range {v17 .. v17}, Landroid/view/accessibility/AccessibilityNodeInfo;->recycle()V
 
-    .line 2694430
+    .line 2694451
     :cond_27
     :goto_12
     const-string v0, "}"
 
-    .line 2694431
+    .line 2694452
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->println(Ljava/lang/String;)V
 
-    .line 2694432
+    .line 2694453
     :cond_28
     invoke-virtual/range {v18 .. v18}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
@@ -1826,7 +1821,7 @@
 
     const/4 v0, 0x1
 
-    .line 2694433
+    .line 2694454
     :goto_13
     move-object/from16 v2, p0
 
@@ -1836,7 +1831,7 @@
 
     const-string v0, "exclude_litho_props"
 
-    .line 2694434
+    .line 2694455
     invoke-static {v0, v3, v3}, Lcom/facebook/endtoend/EndToEnd;->A00(Ljava/lang/String;ZZ)Ljava/lang/String;
 
     move-result-object v0
@@ -1856,21 +1851,21 @@
 
     goto :goto_14
 
-    .line 2694435
+    .line 2694456
     :cond_2a
     invoke-virtual/range {v18 .. v18}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
 
     move-result-object v18
 
-    .line 2694436
+    .line 2694457
     if-nez v18, :cond_28
 
-    .line 2694437
+    .line 2694458
     const/4 v0, 0x0
 
     goto :goto_13
 
-    .line 2694438
+    .line 2694459
     :cond_2b
     :goto_14
     :try_start_c
@@ -1880,21 +1875,21 @@
 
     const-string v0, "com.facebook.litho.LithoViewTestHelper"
 
-    .line 2694439
+    .line 2694460
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v11
 
     const-string v0, "com.facebook.litho.DebugComponentDescriptionHelper$ExtraDescription"
 
-    .line 2694440
+    .line 2694461
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v10
 
     const-string v9, "viewToStringForE2E"
 
-    .line 2694441
+    .line 2694462
     const-class v8, Landroid/view/View;
 
     sget-object v1, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
@@ -1905,14 +1900,14 @@
 
     move-result-object v0
 
-    .line 2694442
+    .line 2694463
     invoke-virtual {v11, v9, v0}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v0
 
     iput-object v0, v2, LX/L4V;->A00:Ljava/lang/reflect/Method;
 
-    .line 2694443
+    .line 2694464
     :cond_2c
     if-eqz p8, :cond_2d
     :try_end_c
@@ -1921,12 +1916,12 @@
     :try_start_d
     const-string v0, "com.facebook.analytics.adslogging.context.trackingnodedumper.LogContextTrackingNodeDumper"
 
-    .line 2694444
+    .line 2694465
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
 
-    .line 2694445
+    .line 2694466
     invoke-virtual {v0}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
     move-result-object v10
@@ -1934,20 +1929,19 @@
     goto :goto_15
     :try_end_d
     .catch Ljava/lang/Exception; {:try_start_d .. :try_end_d} :catch_9
-    .catch Ljava/lang/Exception; {:try_start_d .. :try_end_d} :catch_a
 
     :catch_9
     :cond_2d
     const/4 v10, 0x0
 
-    .line 2694446
+    .line 2694467
     :goto_15
     :try_start_e
     iget-object v9, v2, LX/L4V;->A00:Ljava/lang/reflect/Method;
 
     const/4 v8, 0x0
 
-    .line 2694447
+    .line 2694468
     invoke-virtual/range {v21 .. v21}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -1964,7 +1958,7 @@
 
     const/4 v12, 0x0
 
-    .line 2694448
+    .line 2694469
     :cond_2e
     invoke-static {v12}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1974,14 +1968,14 @@
 
     move-result-object v0
 
-    .line 2694449
+    .line 2694470
     invoke-virtual {v9, v8, v0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/String;
 
-    .line 2694450
+    .line 2694471
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->append(Ljava/lang/CharSequence;)Ljava/io/PrintWriter;
 
     goto :goto_16
@@ -1991,7 +1985,7 @@
     :catch_a
     move-exception v9
 
-    .line 2694451
+    .line 2694472
     move-object/from16 v0, v21
 
     invoke-virtual {v5, v0}, Ljava/io/PrintWriter;->append(Ljava/lang/CharSequence;)Ljava/io/PrintWriter;
@@ -2000,12 +1994,12 @@
 
     const-string v0, "Failed litho view sub hierarch dump: "
 
-    .line 2694452
+    .line 2694473
     invoke-virtual {v1, v0}, Ljava/io/PrintWriter;->append(Ljava/lang/CharSequence;)Ljava/io/PrintWriter;
 
     move-result-object v8
 
-    .line 2694453
+    .line 2694474
     invoke-virtual {v9}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v1
@@ -2020,39 +2014,39 @@
 
     move-result-object v0
 
-    .line 2694454
+    .line 2694475
     invoke-virtual {v0}, Ljava/io/PrintWriter;->println()V
 
-    .line 2694455
+    .line 2694476
     :cond_2f
     :goto_16
     move/from16 v18, p6
 
     if-eqz p6, :cond_30
 
-    .line 2694456
+    .line 2694477
     instance-of v0, v7, Landroid/webkit/WebView;
 
     if-eqz v0, :cond_30
 
-    .line 2694457
+    .line 2694478
     iget-object v10, v2, LX/L4V;->A01:LX/KXN;
 
     move-object v9, v7
 
     check-cast v9, Landroid/webkit/WebView;
 
-    .line 2694458
+    .line 2694479
     new-instance v8, LX/Kug;
 
     invoke-direct {v8, v9}, LX/Kug;-><init>(Landroid/webkit/WebView;)V
 
-    .line 2694459
+    .line 2694480
     iget-object v0, v10, LX/KXN;->A01:Ljava/util/Set;
 
     invoke-interface {v0, v8}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 2694460
+    .line 2694481
     invoke-virtual {v9}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -2061,10 +2055,10 @@
 
     move-result-object v12
 
-    .line 2694461
+    .line 2694482
     iget v0, v8, LX/Kug;->A01:I
 
-    .line 2694462
+    .line 2694483
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v11
@@ -2091,32 +2085,32 @@
 
     move-result-object v1
 
-    .line 2694463
+    .line 2694484
     new-instance v0, Lcom/facebook/redex/IDxVCallbackShape217S0200000_6_I1;
 
     invoke-direct {v0, v6, v10, v8}, Lcom/facebook/redex/IDxVCallbackShape217S0200000_6_I1;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v9, v1, v0}, Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V
 
-    .line 2694464
+    .line 2694485
     :cond_30
     instance-of v0, v7, Landroid/view/ViewGroup;
 
     if-eqz v0, :cond_0
 
-    .line 2694465
+    .line 2694486
     move-object v8, v7
 
     check-cast v8, Landroid/view/ViewGroup;
 
-    .line 2694466
+    .line 2694487
     invoke-virtual {v8}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v1
 
     if-lez v1, :cond_0
 
-    .line 2694467
+    .line 2694488
     const-string v9, "  "
 
     move-object/from16 v0, v21
@@ -2127,12 +2121,12 @@
 
     new-array v6, v6, [I
 
-    .line 2694468
+    .line 2694489
     invoke-virtual {v7, v6}, Landroid/view/View;->getLocationOnScreen([I)V
 
     const/4 v0, 0x0
 
-    .line 2694469
+    .line 2694490
     :goto_17
     invoke-virtual {v8, v0}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
@@ -2142,7 +2136,7 @@
 
     aget v17, v6, v3
 
-    .line 2694470
+    .line 2694491
     move-object v12, v2
 
     move-object v14, v5
@@ -2151,7 +2145,7 @@
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 2694471
+    .line 2694492
     if-ge v0, v1, :cond_0
 
     goto :goto_17
@@ -2749,7 +2743,6 @@
     goto :goto_2
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
     .line 287
     :catch_0

@@ -54,7 +54,7 @@
 .method public constructor <init>(LX/2Ir;LX/2IS;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIIIJJ)V
     .locals 2
 
-    .line 2827711
+    .line 2827732
     iput-object p1, p0, LX/N39;->A00:LX/2Ir;
 
     iput-object p2, p0, LX/N39;->A07:LX/2IS;

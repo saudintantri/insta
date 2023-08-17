@@ -97,7 +97,7 @@
     const/4 v4, 0x3
 
     .line 35
-    invoke-static {v1, v4}, LX/Chj;->A00(Landroid/content/Context;I)I
+    invoke-static {v1}, LX/Chf;->A0A(Landroid/content/Context;)I
 
     .line 36
     .line 37
@@ -105,184 +105,200 @@
     move-result v0
 
     .line 39
-    shl-int/lit8 v0, v0, 0x1
+    invoke-static {v0, v4}, LX/Che;->A01(II)I
 
     .line 40
     .line 41
-    invoke-static {v1}, LX/0Oc;->A08(Landroid/content/Context;)I
-
     .line 42
-    .line 43
-    .line 44
-    move-result v15
-
-    .line 45
-    sub-int/2addr v15, v0
-
-    .line 46
-    div-int/2addr v15, v4
-
-    .line 47
-    iget-object v3, v9, LX/DTA;->A02:Landroid/content/Context;
-
-    .line 48
-    .line 49
-    const/high16 v2, 0x3f100000    # 0.5625f
-
-    .line 50
-    .line 51
-    const/4 v11, 0x0
-
-    .line 52
-    invoke-static {v3, v4}, LX/Chj;->A00(Landroid/content/Context;I)I
-
-    .line 53
-    .line 54
-    .line 55
     move-result v0
 
+    .line 43
+    shl-int/lit8 v0, v0, 0x1
+
+    .line 44
+    .line 45
+    invoke-static {v1}, LX/0Oc;->A08(Landroid/content/Context;)I
+
+    .line 46
+    .line 47
+    .line 48
+    move-result v15
+
+    .line 49
+    sub-int/2addr v15, v0
+
+    .line 50
+    div-int/2addr v15, v4
+
+    .line 51
+    iget-object v3, v9, LX/DTA;->A02:Landroid/content/Context;
+
+    .line 52
+    .line 53
+    const/high16 v2, 0x3f100000    # 0.5625f
+
+    .line 54
+    .line 55
+    const/4 v11, 0x0
+
     .line 56
-    shl-int/lit8 v1, v0, 0x1
+    invoke-static {v3}, LX/Chf;->A0A(Landroid/content/Context;)I
 
     .line 57
     .line 58
-    invoke-static {v3}, LX/0Oc;->A08(Landroid/content/Context;)I
-
     .line 59
-    .line 60
-    .line 61
     move-result v0
 
-    .line 62
-    sub-int/2addr v0, v1
+    .line 60
+    invoke-static {v0, v4}, LX/Che;->A01(II)I
 
+    .line 61
+    .line 62
     .line 63
-    div-int/2addr v0, v4
+    move-result v0
 
     .line 64
-    int-to-float v0, v0
+    shl-int/lit8 v1, v0, 0x1
 
     .line 65
-    div-float/2addr v0, v2
-
     .line 66
-    invoke-static {v0}, Ljava/lang/Math;->round(F)I
+    invoke-static {v3}, LX/0Oc;->A08(Landroid/content/Context;)I
 
     .line 67
     .line 68
     .line 69
-    move-result v1
+    move-result v0
 
     .line 70
-    iget-object v13, v9, LX/DTA;->A02:Landroid/content/Context;
+    sub-int/2addr v0, v1
 
     .line 71
+    div-int/2addr v0, v4
+
     .line 72
-    const/16 v17, 0x1
+    int-to-float v0, v0
 
     .line 73
+    div-float/2addr v0, v2
+
     .line 74
-    sget-object v14, LX/001;->A00:Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Math;->round(F)I
 
     .line 75
     .line 76
-    new-instance v7, LX/4pq;
-
     .line 77
+    move-result v1
+
     .line 78
-    move-object v12, v7
+    iget-object v13, v9, LX/DTA;->A02:Landroid/content/Context;
 
     .line 79
-    move/from16 v16, v1
-
     .line 80
-    .line 81
-    invoke-direct/range {v12 .. v17}, LX/4pq;-><init>(Landroid/content/Context;Ljava/lang/Integer;IIZ)V
+    const/16 v17, 0x1
 
+    .line 81
     .line 82
+    sget-object v14, LX/001;->A00:Ljava/lang/Integer;
+
     .line 83
     .line 84
-    new-instance v0, LX/D0O;
+    new-instance v7, LX/4pq;
 
     .line 85
     .line 86
-    invoke-direct {v0, v9, v7, v15, v1}, LX/D0O;-><init>(LX/DTA;LX/4pq;II)V
+    move-object v12, v7
 
     .line 87
+    move/from16 v16, v1
+
     .line 88
     .line 89
-    iput-object v0, v9, LX/DTA;->A06:LX/D0O;
+    invoke-direct/range {v12 .. v17}, LX/4pq;-><init>(Landroid/content/Context;Ljava/lang/Integer;IIZ)V
 
     .line 90
     .line 91
-    invoke-static/range {p1 .. p1}, LX/05o;->A00(LX/05g;)LX/05o;
-
     .line 92
+    new-instance v0, LX/D0O;
+
     .line 93
     .line 94
-    move-result-object v4
+    invoke-direct {v0, v9, v7, v15, v1}, LX/D0O;-><init>(LX/DTA;LX/4pq;II)V
 
     .line 95
-    const/4 v5, 0x0
-
     .line 96
-    invoke-static {}, LX/Chc;->A0p()Ljava/lang/Integer;
-
     .line 97
+    iput-object v0, v9, LX/DTA;->A06:LX/D0O;
+
     .line 98
     .line 99
-    move-result-object v10
+    invoke-static/range {p1 .. p1}, LX/05o;->A00(LX/05g;)LX/05o;
 
     .line 100
-    sget-object v6, LX/4jU;->A03:LX/4jU;
-
     .line 101
     .line 102
-    new-instance v3, LX/4aQ;
+    move-result-object v4
 
     .line 103
+    const/4 v5, 0x0
+
     .line 104
-    move-object v8, v5
+    invoke-static {}, LX/Chc;->A0p()Ljava/lang/Integer;
 
     .line 105
-    move v12, v11
-
     .line 106
-    move v13, v11
-
     .line 107
-    move v14, v11
+    move-result-object v10
 
     .line 108
-    move v15, v11
+    sget-object v6, LX/4jU;->A03:LX/4jU;
 
     .line 109
-    invoke-direct/range {v3 .. v15}, LX/4aQ;-><init>(LX/05o;LX/Fod;LX/4jU;LX/4pq;Lcom/instagram/service/session/UserSession;LX/52v;Ljava/lang/Integer;IZZZZ)V
-
     .line 110
+    new-instance v3, LX/4aQ;
+
     .line 111
     .line 112
-    iget-object v2, v9, LX/DTA;->A06:LX/D0O;
+    move-object v8, v5
 
     .line 113
+    move v12, v11
+
     .line 114
-    iget-object v1, v9, LX/DTA;->A02:Landroid/content/Context;
+    move v13, v11
 
     .line 115
+    move v14, v11
+
     .line 116
-    new-instance v0, LX/57T;
+    move v15, v11
 
     .line 117
-    .line 118
-    invoke-direct {v0, v1, v2, v3}, LX/57T;-><init>(Landroid/content/Context;LX/6JS;LX/4aQ;)V
+    invoke-direct/range {v3 .. v15}, LX/4aQ;-><init>(LX/05o;LX/Fod;LX/4jU;LX/4pq;Lcom/instagram/service/session/UserSession;LX/52v;Ljava/lang/Integer;IZZZZ)V
 
+    .line 118
     .line 119
     .line 120
+    iget-object v2, v9, LX/DTA;->A06:LX/D0O;
+
     .line 121
+    .line 122
+    iget-object v1, v9, LX/DTA;->A02:Landroid/content/Context;
+
+    .line 123
+    .line 124
+    new-instance v0, LX/57T;
+
+    .line 125
+    .line 126
+    invoke-direct {v0, v1, v2, v3}, LX/57T;-><init>(Landroid/content/Context;LX/6JS;LX/4aQ;)V
+
+    .line 127
+    .line 128
+    .line 129
     iput-object v0, v9, LX/DTA;->A05:LX/57T;
 
-    .line 122
-    .line 123
+    .line 130
+    .line 131
     return-void
 .end method
 
@@ -821,76 +837,85 @@
     .line 32
     .line 33
     .line 34
-    invoke-static {v2, v1}, LX/Chj;->A00(Landroid/content/Context;I)I
+    invoke-static {v2}, LX/Chf;->A0A(Landroid/content/Context;)I
 
     .line 35
     .line 36
     .line 37
-    move-result v1
+    move-result v0
 
     .line 38
-    new-instance v0, LX/6Gh;
+    invoke-static {v0, v1}, LX/Che;->A01(II)I
 
     .line 39
     .line 40
+    .line 41
+    move-result v1
+
+    .line 42
+    new-instance v0, LX/6Gh;
+
+    .line 43
+    .line 44
     invoke-direct {v0, v1, v4, v4}, LX/6Gh;-><init>(IIZ)V
 
-    .line 41
-    .line 42
-    .line 43
-    invoke-virtual {v3, v0}, Landroidx/recyclerview/widget/RecyclerView;->A0y(LX/3IL;)V
-
-    .line 44
     .line 45
     .line 46
-    iput-object v3, p0, LX/DTA;->A00:Landroidx/recyclerview/widget/RecyclerView;
-
     .line 47
-    .line 48
-    iget-object v0, p0, LX/DTA;->A03:LX/9uE;
+    invoke-virtual {v3, v0}, Landroidx/recyclerview/widget/RecyclerView;->A0y(LX/3IL;)V
 
+    .line 48
     .line 49
     .line 50
-    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->requireActivity()Landroidx/fragment/app/FragmentActivity;
+    iput-object v3, p0, LX/DTA;->A00:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 51
     .line 52
-    .line 53
-    move-result-object v2
+    iget-object v0, p0, LX/DTA;->A03:LX/9uE;
 
+    .line 53
     .line 54
-    const v0, 0x7f0a2779
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->requireActivity()Landroidx/fragment/app/FragmentActivity;
 
     .line 55
     .line 56
     .line 57
-    invoke-static {p1, v0}, LX/5We;->A0H(Landroid/view/View;I)Landroid/view/View;
+    move-result-object v2
 
     .line 58
+    const v0, 0x7f0a2779
+
     .line 59
     .line 60
-    move-result-object v1
-
     .line 61
-    check-cast v1, Landroid/view/ViewGroup;
+    invoke-static {p1, v0}, LX/5We;->A0H(Landroid/view/View;I)Landroid/view/View;
 
     .line 62
     .line 63
-    new-instance v0, LX/EJX;
-
     .line 64
+    move-result-object v1
+
     .line 65
-    invoke-direct {v0, v2, v1, p0}, LX/EJX;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;LX/DTA;)V
+    check-cast v1, Landroid/view/ViewGroup;
 
     .line 66
     .line 67
-    .line 68
-    iput-object v0, p0, LX/DTA;->A01:LX/EJX;
+    new-instance v0, LX/EJX;
 
+    .line 68
     .line 69
+    invoke-direct {v0, v2, v1, p0}, LX/EJX;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;LX/DTA;)V
+
     .line 70
-    return-void
     .line 71
     .line 72
+    iput-object v0, p0, LX/DTA;->A01:LX/EJX;
+
     .line 73
+    .line 74
+    return-void
+    .line 75
+    .line 76
+    .line 77
+    .line 78
 .end method

@@ -45,7 +45,7 @@
 .method public constructor <init>(Landroid/util/SparseArray;LX/8zq;LX/8zq;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/util/HashMap;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;IIIIJJZ)V
     .locals 11
 
-    .line 2683259
+    .line 2683280
     move-object/from16 v9, p9
 
     move-object/from16 v7, p11
@@ -62,51 +62,51 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2683260
+    .line 2683281
     move-object/from16 v10, p5
 
     iput-object v10, p0, LX/L31;->A0A:Ljava/lang/String;
 
-    .line 2683261
+    .line 2683282
     move-object/from16 v5, p7
 
-    .line 2683262
+    .line 2683283
     if-nez p7, :cond_0
 
-    .line 2683263
+    .line 2683284
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v5
 
-    .line 2683264
+    .line 2683285
     :cond_0
     iput-object v5, p0, LX/L31;->A0C:Ljava/util/HashMap;
 
-    .line 2683265
+    .line 2683286
     if-nez p10, :cond_1
 
-    .line 2683266
+    .line 2683287
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v8
 
-    .line 2683267
+    .line 2683288
     :cond_1
     iput-object v8, p0, LX/L31;->A0F:Ljava/util/Map;
 
-    .line 2683268
+    .line 2683289
     if-nez p11, :cond_2
 
-    .line 2683269
+    .line 2683290
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v7
 
-    .line 2683270
+    .line 2683291
     :cond_2
     iput-object v7, p0, LX/L31;->A0G:Ljava/util/Map;
 
-    .line 2683271
+    .line 2683292
     if-gtz p14, :cond_3
 
     const v6, 0x2aea1260
@@ -114,30 +114,30 @@
     :cond_3
     iput v6, p0, LX/L31;->A02:I
 
-    .line 2683272
+    .line 2683293
     const/4 v6, -0x1
 
     move-object/from16 v5, p6
 
     if-ne v4, v6, :cond_6
 
-    .line 2683273
+    .line 2683294
     invoke-static {v10}, LX/5Wf;->A09(Ljava/lang/String;)I
 
     move-result v4
 
-    .line 2683274
+    .line 2683295
     mul-int/lit8 v4, v4, 0x1f
 
-    .line 2683275
+    .line 2683296
     invoke-static/range {p7 .. p7}, LX/5Wf;->A08(Ljava/lang/Object;)I
 
     move-result v6
 
-    .line 2683276
+    .line 2683297
     add-int/2addr v4, v6
 
-    .line 2683277
+    .line 2683298
     invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v6
@@ -146,20 +146,20 @@
 
     mul-int/lit8 v4, v4, 0x1f
 
-    .line 2683278
+    .line 2683299
     invoke-virtual {v5}, Ljava/lang/String;->hashCode()I
 
     move-result v6
 
     add-int/2addr v4, v6
 
-    .line 2683279
+    .line 2683300
     :cond_4
     const-class v10, LX/KrQ;
 
     monitor-enter v10
 
-    .line 2683280
+    .line 2683301
     :try_start_0
     sget-object v7, LX/KrQ;->A00:Landroid/util/LruCache;
 
@@ -175,7 +175,7 @@
 
     if-eqz v8, :cond_5
 
-    .line 2683281
+    .line 2683302
     invoke-virtual {v8}, Ljava/lang/Number;->intValue()I
 
     move-result v4
@@ -184,7 +184,7 @@
 
     mul-int/lit8 v4, v4, 0x1f
 
-    .line 2683282
+    .line 2683303
     :cond_5
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -196,7 +196,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2683283
+    .line 2683304
     :catchall_0
     move-exception v0
 
@@ -207,11 +207,11 @@
     :goto_0
     monitor-exit v10
 
-    .line 2683284
+    .line 2683305
     :cond_6
     iput v4, p0, LX/L31;->A01:I
 
-    .line 2683285
+    .line 2683306
     const-wide/16 v6, -0x1
 
     cmp-long v4, p18, v6
@@ -220,81 +220,81 @@
 
     const-wide/32 v0, 0x15180
 
-    .line 2683286
+    .line 2683307
     :cond_7
     iput-wide v0, p0, LX/L31;->A05:J
 
-    .line 2683287
+    .line 2683308
     iput-object v5, p0, LX/L31;->A0B:Ljava/lang/String;
 
-    .line 2683288
+    .line 2683309
     cmp-long v0, p16, v6
 
     if-nez v0, :cond_8
 
-    .line 2683289
+    .line 2683310
     sget-object v0, Lcom/facebook/common/time/AwakeTimeSinceBootClock;->INSTANCE:Lcom/facebook/common/time/AwakeTimeSinceBootClock;
 
-    .line 2683290
+    .line 2683311
     invoke-virtual {v0}, Lcom/facebook/common/time/AwakeTimeSinceBootClock;->now()J
 
     move-result-wide v2
 
-    .line 2683291
+    .line 2683312
     :cond_8
     iput-wide v2, p0, LX/L31;->A04:J
 
-    .line 2683292
+    .line 2683313
     move-object/from16 v0, p8
 
     iput-object v0, p0, LX/L31;->A0D:Ljava/util/List;
 
-    .line 2683293
+    .line 2683314
     move/from16 v0, p20
 
     iput-boolean v0, p0, LX/L31;->A0H:Z
 
-    .line 2683294
+    .line 2683315
     move/from16 v0, p15
 
     iput v0, p0, LX/L31;->A03:I
 
-    .line 2683295
+    .line 2683316
     move/from16 v0, p12
 
     iput v0, p0, LX/L31;->A00:I
 
-    .line 2683296
+    .line 2683317
     if-nez p1, :cond_9
 
-    .line 2683297
+    .line 2683318
     invoke-static {}, LX/IzJ;->A0R()Landroid/util/SparseArray;
 
     move-result-object p1
 
-    .line 2683298
+    .line 2683319
     :cond_9
     iput-object p1, p0, LX/L31;->A06:Landroid/util/SparseArray;
 
-    .line 2683299
+    .line 2683320
     iput-object p4, p0, LX/L31;->A09:Ljava/lang/Object;
 
-    .line 2683300
+    .line 2683321
     if-nez p9, :cond_a
 
-    .line 2683301
+    .line 2683322
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v9
 
-    .line 2683302
+    .line 2683323
     :cond_a
     iput-object v9, p0, LX/L31;->A0E:Ljava/util/Map;
 
-    .line 2683303
+    .line 2683324
     iput-object p3, p0, LX/L31;->A08:LX/8zq;
 
-    .line 2683304
+    .line 2683325
     iput-object p2, p0, LX/L31;->A07:LX/8zq;
 
     return-void

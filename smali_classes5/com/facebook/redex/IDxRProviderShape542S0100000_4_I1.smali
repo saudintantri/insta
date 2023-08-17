@@ -2212,7 +2212,7 @@
     move-result-object v0
 
     .line 110
-    invoke-static {v0}, LX/Chf;->A0p(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chg;->A0s(Ljava/lang/String;)Ljava/lang/String;
 
     .line 111
     .line 112

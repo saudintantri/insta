@@ -18,7 +18,7 @@
 .method public constructor <init>(ILjava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 539776586
+    .line 539776607
     iput p1, p0, Lcom/facebook/redex/IDxOSubscribeShape107S0200000_7_I1;->A02:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

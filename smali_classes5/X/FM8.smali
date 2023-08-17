@@ -65,7 +65,7 @@
     move-result v4
 
     .line 20
-    const v0, 0x7f0700e7
+    const v0, 0x7f0700e6
 
     .line 21
     .line 22

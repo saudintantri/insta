@@ -1310,7 +1310,6 @@
     invoke-virtual {v9, v7}, Ljava/io/File;->setWritable(Z)Z
     :try_end_6
     .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_2
-    .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_8
     .catchall {:try_start_6 .. :try_end_6} :catchall_4
 
     .line 473
@@ -1487,7 +1486,6 @@
     invoke-virtual {v1, v7}, Ljava/io/File;->setWritable(Z)Z
     :try_end_8
     .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_3
-    .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_4
 
     .line 561
@@ -8693,7 +8691,6 @@
     goto :goto_1b
     :try_end_38
     .catch Ljava/io/IOException; {:try_start_38 .. :try_end_38} :catch_a
-    .catch Ljava/io/IOException; {:try_start_38 .. :try_end_38} :catch_f
     .catch Ljava/lang/RuntimeException; {:try_start_38 .. :try_end_38} :catch_e
     .catchall {:try_start_38 .. :try_end_38} :catchall_13
 
@@ -8812,7 +8809,6 @@
     move-result-object v14
     :try_end_39
     .catch Ljava/io/IOException; {:try_start_39 .. :try_end_39} :catch_c
-    .catch Ljava/io/IOException; {:try_start_39 .. :try_end_39} :catch_f
     .catch Ljava/lang/RuntimeException; {:try_start_39 .. :try_end_39} :catch_e
     .catchall {:try_start_39 .. :try_end_39} :catchall_13
 
@@ -9541,7 +9537,6 @@
     move-result v15
     :try_end_4f
     .catch Ljava/io/IOException; {:try_start_4f .. :try_end_4f} :catch_c
-    .catch Ljava/io/IOException; {:try_start_4f .. :try_end_4f} :catch_f
     .catch Ljava/lang/RuntimeException; {:try_start_4f .. :try_end_4f} :catch_e
     .catchall {:try_start_4f .. :try_end_4f} :catchall_13
 
@@ -10905,6 +10900,8 @@
 
     .line 19
     invoke-super {p0}, Landroid/app/Application;->onCreate()V
+
+    invoke-static {p0}, Lcom/dfinstagram/startapp;->setContext(Landroid/app/Application;)V
 
     .line 20
     .line 21

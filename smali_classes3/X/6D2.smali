@@ -184,6 +184,16 @@
     .line 2
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
+    iget-object v1, p0, LX/6D2;->A01:LX/28I;
+
+    iget v3, p0, LX/6D2;->A00:I
+
+    new-instance v0, Lcom/dfinstagram/adv_settings;
+
+    invoke-direct {v0, v1}, Lcom/dfinstagram/adv_settings;-><init>(LX/28I;)V
+
+    invoke-virtual {v2, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
+
     .line 3
     .line 4
     .line 5

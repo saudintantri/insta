@@ -1245,7 +1245,7 @@
     .line 594
     .line 595
     .line 596
-    invoke-static {v2, v3}, LX/Chg;->A1C(LX/0AX;LX/4Qd;)V
+    invoke-static {v2, v3}, LX/Chg;->A1B(LX/0AX;LX/4Qd;)V
 
     .line 597
     .line 598
@@ -2374,7 +2374,7 @@
 
     .line 1160
     .line 1161
-    invoke-static {v0, v5}, LX/Che;->A0E(Ljava/lang/Object;I)LX/97j;
+    invoke-static {v0, v5}, LX/Che;->A0F(Ljava/lang/Object;I)LX/97j;
 
     .line 1162
     .line 1163

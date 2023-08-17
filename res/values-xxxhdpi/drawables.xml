@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="drawable" name="eligible_checkmark">R||AQAIRG-sisaC|768|768|640</item>
-    <item type="drawable" name="ineligible_x">R||AQAIf9jDKxjw|768|768|640</item>
-    <item type="drawable" name="remembering">R||AQABJp5TwV0T|384|385|640</item>
-    <item type="drawable" name="shake_illo">R||AQAC0xX7_CBb|384|384|640</item>
     <item type="drawable" name="appwidget_check_outline_16">R||AQABgYk2ywDS|64|64|640</item>
     <item type="drawable" name="appwidget_menu_outline_44">R||AQACwfEG4TEc|176|176|640</item>
     <item type="drawable" name="avatar_promos_avatar_banner_apac_option_1">R||AQADnvIyorrx|1120|640|640</item>
@@ -36,6 +32,7 @@
     <item type="drawable" name="direct_widget_ig_icon">R||AQAEiXv9poqs|192|192|640</item>
     <item type="drawable" name="direct_widget_x_outline_44">R||AQACNjAj8MIv|176|176|640</item>
     <item type="drawable" name="download_your_data_icon">R||AQABW5YzNh7u|384|384|640</item>
+    <item type="drawable" name="eligible_checkmark">R||AQAIRG-sisaC|768|768|640</item>
     <item type="drawable" name="empty_story_badge_dark">R||AQABOBEwa4Gj|94|94|640</item>
     <item type="drawable" name="exit_nux_sticker_asset">R||AQACprUzSWyU|384|384|640</item>
     <item type="drawable" name="fb_connect">R||AQABX6HeZUHt|384|384|640</item>
@@ -256,6 +253,7 @@
     <item type="drawable" name="illo_success_light">R||AQAB8-4RZFJE|768|768|640</item>
     <item type="drawable" name="illo_video_access_light">R||AQAA6icLw57a|768|768|640</item>
     <item type="drawable" name="illo_video_selfie_light">R||AQAA5JVequp-|768|768|640</item>
+    <item type="drawable" name="ineligible_x">R||AQAIf9jDKxjw|768|768|640</item>
     <item type="drawable" name="instagram_app_messenger_outline_96">R||AQAByadZ2iBl|384|384|640</item>
     <item type="drawable" name="instagram_boards_add_to_board">R||AQAUli8Z89-A|96|96|640</item>
     <item type="drawable" name="instagram_boards_boards_prompt_game">R||AQAC5T1XpX8g|848|1120|640</item>
@@ -296,6 +294,8 @@
     <item type="drawable" name="instagram_icons_exceptions_androidnav_logo_filled_130">R||AQACZn_9kE0l|520|192|640</item>
     <item type="drawable" name="instagram_icons_exceptions_androidnav_menu_outline_44">R||AQAIVMkixv_4|176|176|640</item>
     <item type="drawable" name="instagram_icons_exceptions_androidnav_new_post_outline_44">R||AQABNLJJSK2-|176|176|640</item>
+    <item type="drawable" name="instagram_icons_exceptions_androidnav_search_outline_44">R||AQACDhLs6aH-|176|176|640</item>
+    <item type="drawable" name="instagram_icons_exceptions_androidnav_shopping_bag_outline_44">R||AQACvTdc9jpt|176|176|640</item>
     <item type="drawable" name="instagram_icons_exceptions_androidnav_user_circle_outline_44">R||AQADuK2u2tWE|176|176|640</item>
     <item type="drawable" name="instagram_icons_exceptions_circle_heart_purple_filled_88">R||AQAB4Nlu0iZn|352|352|640</item>
     <item type="drawable" name="instagram_icons_exceptions_history_mas_refresh_filled_64">R||AQABh2lyUSZN|256|256|640</item>
@@ -336,11 +336,11 @@
     <item type="drawable" name="payout_id_card">R||AQAI_T_Q_tp8|384|384|640</item>
     <item type="drawable" name="pinned_comments">R||AQACZU36H8AW|384|385|640</item>
     <item type="drawable" name="reels_content_studio_ig_reels_pride_icon">R||AQAFE51JThq4|192|192|640</item>
+    <item type="drawable" name="remembering">R||AQABJp5TwV0T|384|385|640</item>
     <item type="drawable" name="selectall_selected">R||AQAB1Zhqjmvt|96|96|640</item>
     <item type="drawable" name="selectall_unselected">R||AQAAkYdlGZzJ|96|96|640</item>
+    <item type="drawable" name="shake_illo">R||AQAC0xX7_CBb|384|384|640</item>
     <item type="drawable" name="suggested_user_shuffle_dice">R||AQACy15X6PKZ|128|80|640</item>
     <item type="drawable" name="vvp_swipe_down_icon">R||AQABk_cGanly|96|96|640</item>
     <item type="drawable" name="x_outline_28">R||AQADh8OhFzti|112|112|640</item>
-    <item type="drawable" name="instagram_icons_exceptions_androidnav_search_outline_44">R||AQACDhLs6aH-|176|176|640</item>
-    <item type="drawable" name="instagram_icons_exceptions_androidnav_shopping_bag_outline_44">R||AQACvTdc9jpt|176|176|640</item>
 </resources>

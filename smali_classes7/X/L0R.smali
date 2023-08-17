@@ -872,7 +872,6 @@
     move-result-object v1
     :try_end_1
     .catch Ljava/lang/ReflectiveOperationException; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/lang/ReflectiveOperationException; {:try_start_1 .. :try_end_1} :catch_2
 
     .line 80
     :try_start_2
@@ -1311,7 +1310,6 @@
     throw v0
     :try_end_3
     .catch Ljava/lang/ReflectiveOperationException; {:try_start_3 .. :try_end_3} :catch_0
-    .catch Ljava/lang/ReflectiveOperationException; {:try_start_3 .. :try_end_3} :catch_2
 
     .line 287
     :catch_0
@@ -1368,7 +1366,6 @@
     goto :goto_7
     :try_end_4
     .catch Ljava/lang/ReflectiveOperationException; {:try_start_4 .. :try_end_4} :catch_1
-    .catch Ljava/lang/ReflectiveOperationException; {:try_start_4 .. :try_end_4} :catch_2
 
     .line 312
     :cond_b

@@ -288,7 +288,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p0}, LX/Chf;->A0N(Landroid/view/View;)Landroid/view/ViewPropertyAnimator;
+    invoke-static {p0}, LX/Chf;->A0O(Landroid/view/View;)Landroid/view/ViewPropertyAnimator;
 
     .line 5
     .line 6
@@ -1410,7 +1410,7 @@
     const/4 v1, 0x2
 
     .line 14
-    invoke-static {v2, p3}, LX/Che;->A04(II)Landroid/animation/ValueAnimator;
+    invoke-static {v2, p3}, LX/Che;->A05(II)Landroid/animation/ValueAnimator;
 
     .line 15
     .line 16

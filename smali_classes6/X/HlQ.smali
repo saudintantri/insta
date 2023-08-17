@@ -110,189 +110,189 @@
 .method public constructor <init>(Landroid/content/Context;LX/Im6;LX/Im8;LX/Hby;LX/Ik5;LX/ImE;LX/Ik7;LX/Ing;LX/ImF;LX/HNS;LX/HLV;LX/Ik9;Ljava/io/File;Ljava/lang/String;Ljava/util/Map;)V
     .locals 6
 
-    .line 2289378
+    .line 2289399
     new-instance v0, LX/Hh7;
 
     invoke-direct {v0}, LX/Hh7;-><init>()V
 
-    .line 2289379
+    .line 2289400
     move-object/from16 v1, p11
 
     iget v2, v1, LX/HLV;->A01:I
 
     iput v2, v0, LX/Hh7;->A0B:I
 
-    .line 2289380
+    .line 2289401
     iget v2, v1, LX/HLV;->A00:I
 
     iput v2, v0, LX/Hh7;->A09:I
 
-    .line 2289381
+    .line 2289402
     const v2, 0x2dc6c0
 
     iput v2, v0, LX/Hh7;->A01:I
 
-    .line 2289382
+    .line 2289403
     const/4 v3, 0x0
 
     iput v3, v0, LX/Hh7;->A0A:I
 
-    .line 2289383
+    .line 2289404
     const/4 v2, 0x1
 
     iput-boolean v2, v0, LX/Hh7;->A0L:Z
 
-    .line 2289384
+    .line 2289405
     const/4 v4, 0x5
 
     iput v4, v0, LX/Hh7;->A03:I
 
-    .line 2289385
+    .line 2289406
     const/4 v5, 0x0
 
     iput-object v5, v0, LX/Hh7;->A0F:LX/Hce;
 
-    .line 2289386
+    .line 2289407
     new-instance v4, LX/Hbt;
 
     invoke-direct {v4}, LX/Hbt;-><init>()V
 
-    .line 2289387
+    .line 2289408
     iput-object v0, v4, LX/Hbt;->A06:LX/Hh7;
 
-    .line 2289388
+    .line 2289409
     iget-object v0, v1, LX/HLV;->A02:Lcom/facebook/videolite/transcoder/base/composition/MediaComposition;
 
-    .line 2289389
+    .line 2289410
     iput-object v0, v4, LX/Hbt;->A08:Lcom/facebook/videolite/transcoder/base/composition/MediaComposition;
 
-    .line 2289390
+    .line 2289411
     iput-object v5, v4, LX/Hbt;->A07:LX/3yW;
 
-    .line 2289391
+    .line 2289412
     iget-object v0, v1, LX/HLV;->A03:LX/HV3;
 
-    .line 2289392
+    .line 2289413
     iput-object v0, v4, LX/Hbt;->A0A:LX/HV3;
 
-    .line 2289393
+    .line 2289414
     iget-boolean v0, v1, LX/HLV;->A04:Z
 
-    .line 2289394
+    .line 2289415
     iput-boolean v0, v4, LX/Hbt;->A0K:Z
 
-    .line 2289395
+    .line 2289416
     new-instance v1, LX/HO8;
 
     invoke-direct {v1, v4}, LX/HO8;-><init>(LX/Hbt;)V
 
-    .line 2289396
+    .line 2289417
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2289397
+    .line 2289418
     new-instance v0, Landroid/os/ConditionVariable;
 
     invoke-direct {v0}, Landroid/os/ConditionVariable;-><init>()V
 
     iput-object v0, p0, LX/HlQ;->A0S:Landroid/os/ConditionVariable;
 
-    .line 2289398
+    .line 2289419
     iput-boolean v3, p0, LX/HlQ;->A0P:Z
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 2289399
+    .line 2289420
     iput v0, p0, LX/HlQ;->A00:F
 
-    .line 2289400
+    .line 2289421
     iput v3, p0, LX/HlQ;->A02:I
 
-    .line 2289401
+    .line 2289422
     new-instance v0, LX/HQR;
 
     invoke-direct {v0}, LX/HQR;-><init>()V
 
     iput-object v0, p0, LX/HlQ;->A0f:LX/HQR;
 
-    .line 2289402
+    .line 2289423
     sget-object v0, LX/001;->A00:Ljava/lang/Integer;
 
     iput-object v0, p0, LX/HlQ;->A0l:Ljava/lang/Integer;
 
-    .line 2289403
+    .line 2289424
     new-instance v0, Lcom/facebook/redex/IDxCallbackShape429S0100000_5_I1;
 
     invoke-direct {v0, p0, v2}, Lcom/facebook/redex/IDxCallbackShape429S0100000_5_I1;-><init>(Ljava/lang/Object;I)V
 
     iput-object v0, p0, LX/HlQ;->A0T:Landroid/os/Handler$Callback;
 
-    .line 2289404
+    .line 2289425
     new-instance v0, Lcom/facebook/redex/IDxEHandlerShape624S0100000_5_I1;
 
     invoke-direct {v0, p0, v2}, Lcom/facebook/redex/IDxEHandlerShape624S0100000_5_I1;-><init>(Ljava/lang/Object;I)V
 
     iput-object v0, p0, LX/HlQ;->A0j:Ljava/lang/Thread$UncaughtExceptionHandler;
 
-    .line 2289405
+    .line 2289426
     new-instance v0, LX/HOv;
 
     invoke-direct {v0, p0}, LX/HOv;-><init>(LX/HlQ;)V
 
     iput-object v0, p0, LX/HlQ;->A0d:LX/HOv;
 
-    .line 2289406
+    .line 2289427
     iput-object p1, p0, LX/HlQ;->A0R:Landroid/content/Context;
 
-    .line 2289407
+    .line 2289428
     move-object/from16 v0, p14
 
     iput-object v0, p0, LX/HlQ;->A0i:Ljava/lang/String;
 
-    .line 2289408
+    .line 2289429
     move-object/from16 v0, p10
 
     iput-object v0, p0, LX/HlQ;->A0e:LX/HNS;
 
-    .line 2289409
+    .line 2289430
     iput-object p6, p0, LX/HlQ;->A0Z:LX/ImE;
 
-    .line 2289410
+    .line 2289431
     move-object/from16 v0, p12
 
     iput-object v0, p0, LX/HlQ;->A0g:LX/Ik9;
 
-    .line 2289411
+    .line 2289432
     iput-object v1, p0, LX/HlQ;->A0H:LX/HO8;
 
-    .line 2289412
+    .line 2289433
     iput-object p7, p0, LX/HlQ;->A0a:LX/Ik7;
 
-    .line 2289413
+    .line 2289434
     iput-object p8, p0, LX/HlQ;->A0b:LX/Ing;
 
-    .line 2289414
+    .line 2289435
     iput-object p4, p0, LX/HlQ;->A0W:LX/Hby;
 
-    .line 2289415
+    .line 2289436
     move-object/from16 v0, p13
 
     iput-object v0, p0, LX/HlQ;->A0h:Ljava/io/File;
 
-    .line 2289416
+    .line 2289437
     iput-object p9, p0, LX/HlQ;->A0c:LX/ImF;
 
-    .line 2289417
+    .line 2289438
     iput-object p5, p0, LX/HlQ;->A0Y:LX/Ik5;
 
-    .line 2289418
+    .line 2289439
     iput-object p3, p0, LX/HlQ;->A0C:LX/Im8;
 
-    .line 2289419
+    .line 2289440
     invoke-static {}, LX/5We;->A0a()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 2289420
+    .line 2289441
     iget-object v1, p0, LX/HlQ;->A0i:Ljava/lang/String;
 
     new-instance v0, LX/HZv;
@@ -303,7 +303,7 @@
 
     iput-object v0, p0, LX/HlQ;->A0X:LX/HZv;
 
-    .line 2289421
+    .line 2289442
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v0
@@ -314,7 +314,7 @@
 
     move-result-object v2
 
-    .line 2289422
+    .line 2289443
     :goto_0
     iget-object v1, p0, LX/HlQ;->A0T:Landroid/os/Handler$Callback;
 
@@ -324,7 +324,7 @@
 
     iput-object v0, p0, LX/HlQ;->A0B:Landroid/os/Handler;
 
-    .line 2289423
+    .line 2289444
     const/16 v2, -0x10
 
     const-string v1, "mediacomposition-player"
@@ -337,10 +337,10 @@
 
     iput-object v0, p0, LX/HlQ;->A0V:Landroid/os/HandlerThread;
 
-    .line 2289424
+    .line 2289445
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
-    .line 2289425
+    .line 2289446
     iget-object v0, p0, LX/HlQ;->A0V:Landroid/os/HandlerThread;
 
     invoke-virtual {v0}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
@@ -355,22 +355,22 @@
 
     iput-object v0, p0, LX/HlQ;->A0U:Landroid/os/Handler;
 
-    .line 2289426
+    .line 2289447
     iget-object v3, p0, LX/HlQ;->A0X:LX/HZv;
 
     iget-object v0, p0, LX/HlQ;->A0H:LX/HO8;
 
     iget-object v0, v0, LX/HO8;->A08:Lcom/facebook/videolite/transcoder/base/composition/MediaComposition;
 
-    .line 2289427
+    .line 2289448
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v2
 
-    .line 2289428
+    .line 2289449
     if-eqz v0, :cond_0
 
-    .line 2289429
+    .line 2289450
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -382,13 +382,13 @@
     :cond_0
     const-string v0, "media_player_created"
 
-    .line 2289430
+    .line 2289451
     invoke-static {v3, v0, v2}, LX/HZv;->A00(LX/HZv;Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 2289431
+    .line 2289452
     return-void
 
-    .line 2289432
+    .line 2289453
     :cond_1
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 

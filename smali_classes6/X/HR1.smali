@@ -180,7 +180,7 @@
     .line 49
     .line 50
     .line 51
-    invoke-static {p1, v3}, LX/Chg;->A03(FF)F
+    invoke-static {p1, v3}, LX/Chh;->A00(FF)F
 
     .line 52
     .line 53

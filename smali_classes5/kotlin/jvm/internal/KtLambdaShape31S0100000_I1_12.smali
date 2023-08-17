@@ -4843,7 +4843,7 @@
 
     .line 2410
     .line 2411
-    invoke-static {v0}, LX/Chi;->A0I(Ljava/lang/Object;)LX/05l;
+    invoke-static {v0}, LX/Chi;->A0J(Ljava/lang/Object;)LX/05l;
 
     .line 2412
     .line 2413
@@ -5872,7 +5872,7 @@
     .line 2899
     .line 2900
     .line 2901
-    invoke-static {v2, v0, v1}, LX/Chf;->A0x(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {v2, v0, v1}, LX/Chf;->A0y(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
 
     .line 2902
     .line 2903
@@ -6071,7 +6071,7 @@
 
     .line 2998
     .line 2999
-    invoke-static {v0}, LX/Chi;->A0H(Ljava/lang/Object;)LX/05l;
+    invoke-static {v0}, LX/Chi;->A0I(Ljava/lang/Object;)LX/05l;
 
     .line 3000
     .line 3001
