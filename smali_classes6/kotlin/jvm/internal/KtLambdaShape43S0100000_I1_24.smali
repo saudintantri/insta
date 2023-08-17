@@ -2371,7 +2371,7 @@
 
     .line 1177
     .line 1178
-    invoke-static {v0}, LX/Che;->A03(Z)I
+    invoke-static {v0}, LX/Che;->A04(Z)I
 
     .line 1179
     .line 1180
@@ -3015,7 +3015,7 @@
 
     .line 1498
     .line 1499
-    invoke-static {v0}, LX/Chg;->A09(LX/01o;)Landroid/view/ViewGroup;
+    invoke-static {v0}, LX/Chg;->A08(LX/01o;)Landroid/view/ViewGroup;
 
     .line 1500
     .line 1501
@@ -3171,7 +3171,7 @@
     move-result-wide v19
 
     .line 1577
-    const v0, 0x7f070212
+    const v0, 0x7f070208
 
     .line 1578
     .line 1579
@@ -5798,7 +5798,7 @@
 
     .line 2865
     .line 2866
-    invoke-static {v0}, LX/Chi;->A0C(LX/01o;)Landroid/view/View;
+    invoke-static {v0}, LX/Chi;->A0D(LX/01o;)Landroid/view/View;
 
     .line 2867
     .line 2868
@@ -7389,7 +7389,7 @@
 
     .line 3666
     .line 3667
-    invoke-static {v0}, LX/Chg;->A09(LX/01o;)Landroid/view/ViewGroup;
+    invoke-static {v0}, LX/Chg;->A08(LX/01o;)Landroid/view/ViewGroup;
 
     .line 3668
     .line 3669

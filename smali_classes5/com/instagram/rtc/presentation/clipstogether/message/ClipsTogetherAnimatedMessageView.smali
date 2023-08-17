@@ -164,38 +164,38 @@
 
     invoke-static {p1, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 807304431
+    .line 807304452
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/instagram/common/ui/base/IgFrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
-    .line 807304432
+    .line 807304453
     new-instance v0, LX/EBo;
 
     invoke-direct {v0, p1, p0}, LX/EBo;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
 
     iput-object v0, p0, Lcom/instagram/rtc/presentation/clipstogether/message/ClipsTogetherAnimatedMessageView;->A01:LX/EBo;
 
-    .line 807304433
+    .line 807304454
     const/16 v0, 0x5c
 
     new-instance v3, Lkotlin/jvm/internal/KtLambdaShape65S0100000_I1_5;
 
     invoke-direct {v3, p0, v0}, Lkotlin/jvm/internal/KtLambdaShape65S0100000_I1_5;-><init>(Ljava/lang/Object;I)V
 
-    .line 807304434
+    .line 807304455
     const/16 v0, 0x8
 
     new-instance v2, Lkotlin/jvm/internal/KtLambdaShape42S0100000_I1_23;
 
     invoke-direct {v2, p0, v0}, Lkotlin/jvm/internal/KtLambdaShape42S0100000_I1_23;-><init>(Ljava/lang/Object;I)V
 
-    .line 807304435
+    .line 807304456
     const/16 v0, 0x9
 
     new-instance v1, Lkotlin/jvm/internal/KtLambdaShape42S0100000_I1_23;
 
     invoke-direct {v1, p0, v0}, Lkotlin/jvm/internal/KtLambdaShape42S0100000_I1_23;-><init>(Ljava/lang/Object;I)V
 
-    .line 807304436
+    .line 807304457
     new-instance v0, LX/EZD;
 
     invoke-direct {v0, v2, v1, v3}, LX/EZD;-><init>(LX/0Xg;LX/0Xg;LX/0Vv;)V
@@ -209,7 +209,7 @@
     .locals 3
 
     .line 1073741824
-    invoke-static {p2, p5}, LX/Chh;->A06(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
+    invoke-static {p2, p5}, LX/Chh;->A07(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
 
     .line 1073741825
     .line 1073741826
@@ -217,7 +217,7 @@
     move-result-object v2
 
     .line 1073741828
-    invoke-static {p5, p3}, LX/Chh;->A02(II)I
+    invoke-static {p5, p3}, LX/Chh;->A03(II)I
 
     .line 1073741829
     .line 1073741830

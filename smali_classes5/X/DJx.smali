@@ -212,7 +212,7 @@
 
     .line 77
     .line 78
-    invoke-static {p0, v0}, LX/Chi;->A0M(Ljava/lang/Object;I)LX/1F1;
+    invoke-static {p0, v0}, LX/Chi;->A0N(Ljava/lang/Object;I)LX/1F1;
 
     .line 79
     .line 80
@@ -775,7 +775,7 @@
 
     .line 54
     .line 55
-    invoke-static {v5}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v5}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 56
     .line 57
@@ -1356,7 +1356,7 @@
 
     .line 342
     .line 343
-    invoke-static {v5}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v5}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 344
     .line 345
@@ -1427,7 +1427,7 @@
     .line 377
     .line 378
     .line 379
-    invoke-static {v5}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v5}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 380
     .line 381
@@ -1631,7 +1631,7 @@
 
     .line 19
     .line 20
-    invoke-static {v1}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v1}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 21
     .line 22
@@ -1795,7 +1795,7 @@
 
     .line 101
     :cond_0
-    invoke-static {v1}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v1}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 102
     .line 103
@@ -2321,7 +2321,7 @@
     move-result-object v4
 
     .line 62
-    invoke-static {v3}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v3}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 63
     .line 64
@@ -2346,7 +2346,7 @@
     .line 73
     .line 74
     :goto_0
-    invoke-static {v3}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v3}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 75
     .line 76
@@ -2461,7 +2461,7 @@
     move-result-object v2
 
     .line 129
-    invoke-static {v3}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v3}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 130
     .line 131
@@ -2489,7 +2489,7 @@
 
     .line 142
     .line 143
-    invoke-static {v3}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v3}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 144
     .line 145
@@ -2787,7 +2787,7 @@
 
     .line 291
     .line 292
-    invoke-static {v3, v4, v0, v1}, LX/Chi;->A1E(LX/0AX;Lcom/instagram/shopping/intf/taggingfeed/ShoppingTaggingFeedArguments;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4, v0, v1}, LX/Chi;->A1F(LX/0AX;Lcom/instagram/shopping/intf/taggingfeed/ShoppingTaggingFeedArguments;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 293
     .line 294
@@ -3935,7 +3935,7 @@
     move-result v0
 
     .line 282
-    invoke-static {v1}, LX/Chh;->A04(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
+    invoke-static {v1}, LX/Chh;->A05(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
 
     .line 283
     .line 284

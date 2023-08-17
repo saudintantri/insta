@@ -1126,7 +1126,7 @@
     .locals 1
 
     .line 0
-    invoke-static {p1}, LX/Chg;->A05(Landroid/content/Context;)I
+    invoke-static {p1}, LX/Chg;->A04(Landroid/content/Context;)I
 
     .line 1
     .line 2
@@ -1854,7 +1854,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-static {v2, v1}, LX/Chg;->A0Y(Ljava/util/Set;I)Ljava/lang/Integer;
+    invoke-static {v2, v1}, LX/Chg;->A0W(Ljava/util/Set;I)Ljava/lang/Integer;
 
     .line 18
     .line 19

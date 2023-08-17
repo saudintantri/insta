@@ -221,7 +221,7 @@
 .method public synthetic constructor <init>(Lcom/facebook/dcp/model/Type;Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;I)V
     .locals 1
 
-    .line 271243775
+    .line 271243796
     invoke-direct {p0}, LX/0SY;-><init>()V
 
     and-int/lit8 v0, p6, 0x1
@@ -237,10 +237,10 @@
 
     if-nez v0, :cond_3
 
-    .line 271243776
+    .line 271243797
     sget-object v0, Lcom/facebook/dcp/model/Type;->A0B:Lcom/facebook/dcp/model/Type;
 
-    .line 271243777
+    .line 271243798
     iput-object v0, p0, Lcom/facebook/dcp/model/ExampleContext;->A00:Lcom/facebook/dcp/model/Type;
 
     :goto_0
@@ -248,12 +248,12 @@
 
     if-nez v0, :cond_2
 
-    .line 271243778
+    .line 271243799
     invoke-static {}, LX/92k;->A0e()Ljava/util/LinkedHashMap;
 
     move-result-object v0
 
-    .line 271243779
+    .line 271243800
     iput-object v0, p0, Lcom/facebook/dcp/model/ExampleContext;->A03:Ljava/util/Map;
 
     :goto_1
@@ -261,12 +261,12 @@
 
     if-nez v0, :cond_1
 
-    .line 271243780
+    .line 271243801
     invoke-static {}, LX/92k;->A0e()Ljava/util/LinkedHashMap;
 
     move-result-object v0
 
-    .line 271243781
+    .line 271243802
     iput-object v0, p0, Lcom/facebook/dcp/model/ExampleContext;->A02:Ljava/util/Map;
 
     :goto_2
@@ -274,12 +274,12 @@
 
     if-nez v0, :cond_4
 
-    .line 271243782
+    .line 271243803
     invoke-static {}, LX/92k;->A0e()Ljava/util/LinkedHashMap;
 
     move-result-object v0
 
-    .line 271243783
+    .line 271243804
     iput-object v0, p0, Lcom/facebook/dcp/model/ExampleContext;->A04:Ljava/util/Map;
 
     return-void

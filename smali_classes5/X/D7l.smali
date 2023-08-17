@@ -271,7 +271,7 @@
     move-result v2
 
     .line 16
-    const v0, 0x7f070178
+    const v0, 0x7f070170
 
     .line 17
     .line 18
@@ -346,7 +346,7 @@
     .line 53
     .line 54
     .line 55
-    invoke-static {v3, p1, v4, v0}, LX/Chj;->A0X(Landroid/content/Context;LX/3D0;Lcom/instagram/ui/widget/slideouticon/SlideInAndOutIconView;I)V
+    invoke-static {v3, p1, v4, v0}, LX/Chj;->A0W(Landroid/content/Context;LX/3D0;Lcom/instagram/ui/widget/slideouticon/SlideInAndOutIconView;I)V
 
     .line 56
     .line 57

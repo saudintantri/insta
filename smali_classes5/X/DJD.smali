@@ -1187,7 +1187,7 @@
     .line 66
     .line 67
     .line 68
-    invoke-static {v2, v1}, LX/Chf;->A15(Landroid/widget/EditText;Ljava/lang/String;)V
+    invoke-static {v2, v1}, LX/Chf;->A16(Landroid/widget/EditText;Ljava/lang/String;)V
 
     .line 69
     .line 70
@@ -2581,7 +2581,7 @@
 
     .line 17
     .line 18
-    invoke-static {v12}, LX/Chf;->A0C(Landroidx/fragment/app/Fragment;)I
+    invoke-static {v12}, LX/Chf;->A0D(Landroidx/fragment/app/Fragment;)I
 
     .line 19
     .line 20

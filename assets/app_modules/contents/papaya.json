@@ -1,8 +1,8 @@
 {
-  "AndroidManifest.xml": "dd3ee5da801e75cf979af76ddec5146949cec0ba8ffdc749dcdc064c4ce7deb4",
-  "assets/libs.txt": "bc1993feaefbc1a0304655d42dd31cc12c0894f262b874ec0ba5262d25bd8b30",
-  "assets/libs.zstd": "0d4f401a18ba2dd31656cca8fe6f75628506083b235026e3fe08f57548b32482",
-  "assets/metadata.txt": "e8130bd73c991521294e7b6f5489b20031bb7b38d298c2a5d18609d428cd6c24",
-  "assets/papaya2.dex": "668cb6ecb74814352ed3614c3166b68a81a339cf2a3744db40e8f53a4977d7b8",
+  "AndroidManifest.xml": "e8691668c7bacd7d514ad281ff61d7a11925e02a5c40eeecc6c98012d19ba235",
+  "assets/libs.txt": "408cb78d92cbae50d40796d7a911506cd5f1d378b5d77b482496de8b5d69bd3b",
+  "assets/libs.zstd": "edca3c584a118d6382913a9a009dd44f42c339758464dab5277a35d076a79640",
+  "assets/metadata.txt": "b0b246081adcbd5e0afcdbbb9009f1a787c2d3c26decd2a014afecb9e9d23545",
+  "assets/papaya2.dex": "c9b06fa060278788c9a3737598dc79b2b418401503e9a8b7d964b9d62b3e37a8",
   "assets/resources.arsc": "2612570dd085fe924f82b21a24bceea6a273378474a6a9f6109683c5981d8ea2"
 }

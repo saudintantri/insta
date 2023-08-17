@@ -19,10 +19,10 @@
 
     const/16 v3, 0x1d
 
-    .line 1998270
+    .line 1998291
     iput v3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998271
+    .line 1998292
     const/4 v5, 0x0
 
     const/16 v0, 0x7fff
@@ -31,14 +31,14 @@
 
     invoke-direct {v2, v5, v5, v0}, LX/2Tj;-><init>(Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S2100000_I1;Lcom/instagram/model/shopping/ShoppingHomeDestination;I)V
 
-    .line 1998272
+    .line 1998293
     const/16 v1, 0x1f
 
     new-instance v0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S0500000_I0;
 
     invoke-direct {v0, v5, v5, v1}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S0500000_I0;-><init>(LX/1M5;Lcom/instagram/model/shopping/ProductImageContainer;I)V
 
-    .line 1998273
+    .line 1998294
     const/4 v9, 0x7
 
     const/16 v10, 0x1b
@@ -53,47 +53,47 @@
 
     invoke-direct/range {v4 .. v10}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;-><init>(Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Long;Lkotlin/jvm/internal/DefaultConstructorMarker;II)V
 
-    .line 1998274
+    .line 1998295
     iput v3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998275
+    .line 1998296
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998276
+    .line 1998297
     iput-object v2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998277
+    .line 1998298
     iput-object v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998278
+    .line 1998299
     iput-object v4, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998279
+    .line 1998300
     return-void
 .end method
 
 .method public constructor <init>(I)V
     .locals 13
 
-    .line 1998280
+    .line 1998301
     iput p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
     packed-switch p1, :pswitch_data_0
 
-    .line 1998281
+    .line 1998302
     const/4 v3, 0x0
 
     const/16 v0, 0x20
 
-    .line 1998282
+    .line 1998303
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998283
+    .line 1998304
     const-string v2, ""
 
     const/4 v5, 0x0
 
-    .line 1998284
+    .line 1998305
     new-instance v1, Lcom/instagram/shopping/model/taggingfeed/ShoppingTaggingFeedHeader;
 
     move-object v4, v3
@@ -106,10 +106,10 @@
 
     invoke-direct/range {v1 .. v8}, Lcom/instagram/shopping/model/taggingfeed/ShoppingTaggingFeedHeader;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZZ)V
 
-    .line 1998285
+    .line 1998306
     sget-object v9, LX/11W;->A00:LX/11W;
 
-    .line 1998286
+    .line 1998307
     sget-object v5, Lcom/instagram/shopping/model/taggingfeed/SourceType;->A0G:Lcom/instagram/shopping/model/taggingfeed/SourceType;
 
     new-instance v4, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S3200000_I1;
@@ -122,22 +122,22 @@
 
     invoke-direct/range {v4 .. v9}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S3200000_I1;-><init>(Lcom/instagram/shopping/model/taggingfeed/SourceType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)V
 
-    .line 1998287
+    .line 1998308
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998288
+    .line 1998309
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998289
+    .line 1998310
     iput-object v1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998290
+    .line 1998311
     iput-object v4, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998291
+    .line 1998312
     iput-object v9, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998292
+    .line 1998313
     return-void
 
     :pswitch_0
@@ -161,16 +161,16 @@
 
     return-void
 
-    .line 1998293
+    .line 1998314
     :pswitch_3
     const/4 v3, 0x0
 
     const/16 v1, 0x1e
 
-    .line 1998294
+    .line 1998315
     iput v1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998295
+    .line 1998316
     new-instance v2, Lcom/instagram/model/shopping/Merchant;
 
     move-object v4, v3
@@ -193,41 +193,41 @@
 
     invoke-direct/range {v2 .. v12}, Lcom/instagram/model/shopping/Merchant;-><init>(Lcom/instagram/api/schemas/MerchantCheckoutStyle;Lcom/instagram/api/schemas/SellerShoppableFeedType;Lcom/instagram/common/typedurl/ImageUrl;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1998296
+    .line 1998317
     sget-object v0, LX/001;->A00:Ljava/lang/Integer;
 
-    .line 1998297
+    .line 1998318
     iput v1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998298
+    .line 1998319
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998299
+    .line 1998320
     iput-object v2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998300
+    .line 1998321
     iput-object v3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998301
+    .line 1998322
     iput-object v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998302
+    .line 1998323
     return-void
 
-    .line 1998303
+    .line 1998324
     :pswitch_4
     const/4 v1, 0x0
 
     const/16 v0, 0x1f
 
-    .line 1998304
+    .line 1998325
     :goto_0
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998305
+    .line 1998326
     invoke-direct {p0, v0, v1, v1, v1}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1998306
+    .line 1998327
     return-void
 
     :pswitch_data_0
@@ -243,22 +243,22 @@
 .method public constructor <init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1998307
+    .line 1998328
     iput p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998308
+    .line 1998329
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998309
+    .line 1998330
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998310
+    .line 1998331
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998311
+    .line 1998332
     iput-object p4, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998312
+    .line 1998333
     return-void
 .end method
 
@@ -267,26 +267,26 @@
 
     const/16 v0, 0x1a
 
-    .line 1998313
+    .line 1998334
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
     const/4 v0, 0x3
 
     invoke-static {p3, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1998314
+    .line 1998335
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998315
+    .line 1998336
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998316
+    .line 1998337
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998317
+    .line 1998338
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998318
+    .line 1998339
     return-void
 .end method
 
@@ -295,18 +295,18 @@
 
     const/16 v0, 0x1a
 
-    .line 1998319
+    .line 1998340
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
     const/4 v1, 0x0
 
-    .line 1998320
+    .line 1998341
     sget-object v0, LX/CsP;->A01:LX/CsP;
 
-    .line 1998321
+    .line 1998342
     invoke-direct {p0, v1, v1, v0}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;-><init>(LX/1M5;LX/42i;LX/CsP;)V
 
-    .line 1998322
+    .line 1998343
     return-void
 .end method
 
@@ -315,15 +315,15 @@
 
     const/16 v1, 0x13
 
-    .line 1998323
+    .line 1998344
     iput v1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
     const/4 v0, 0x0
 
-    .line 1998324
+    .line 1998345
     invoke-direct {p0, v1, v0, v0, v0}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1998325
+    .line 1998346
     return-void
 .end method
 
@@ -332,22 +332,22 @@
 
     const/16 v0, 0x17
 
-    .line 1998326
+    .line 1998347
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998327
+    .line 1998348
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998328
+    .line 1998349
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998329
+    .line 1998350
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998330
+    .line 1998351
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998331
+    .line 1998352
     return-void
 .end method
 
@@ -356,25 +356,25 @@
 
     const/4 v0, 0x3
 
-    .line 1998332
+    .line 1998353
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998333
+    .line 1998354
     invoke-static {p2, p3}, LX/5We;->A1C(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1998334
+    .line 1998355
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998335
+    .line 1998356
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998336
+    .line 1998357
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998337
+    .line 1998358
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998338
+    .line 1998359
     return-void
 .end method
 
@@ -383,22 +383,22 @@
 
     const/16 v0, 0x21
 
-    .line 1998339
+    .line 1998360
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998340
+    .line 1998361
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998341
+    .line 1998362
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998342
+    .line 1998363
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998343
+    .line 1998364
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998344
+    .line 1998365
     return-void
 .end method
 
@@ -407,22 +407,22 @@
 
     const/16 v0, 0xc
 
-    .line 1998345
+    .line 1998366
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998346
+    .line 1998367
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998347
+    .line 1998368
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998348
+    .line 1998369
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998349
+    .line 1998370
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998350
+    .line 1998371
     return-void
 .end method
 
@@ -431,24 +431,24 @@
 
     const/16 v0, 0xc
 
-    .line 1998351
+    .line 1998372
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998352
+    .line 1998373
     sget-object v2, LX/DcI;->A00:LX/DcI;
 
-    .line 1998353
+    .line 1998374
     sget-object v1, LX/11W;->A00:LX/11W;
 
-    .line 1998354
+    .line 1998375
     invoke-static {}, LX/Chb;->A0n()LX/155;
 
     move-result-object v0
 
-    .line 1998355
+    .line 1998376
     invoke-direct {p0, v2, v1, v0}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;-><init>(LX/Dvb;Ljava/util/List;Ljava/util/Map;)V
 
-    .line 1998356
+    .line 1998377
     return-void
 .end method
 
@@ -457,26 +457,26 @@
 
     const/16 v0, 0xe
 
-    .line 1998357
+    .line 1998378
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
     const/4 v0, 0x1
 
     invoke-static {p1, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1998358
+    .line 1998379
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998359
+    .line 1998380
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998360
+    .line 1998381
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998361
+    .line 1998382
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998362
+    .line 1998383
     return-void
 .end method
 
@@ -485,16 +485,16 @@
 
     const/4 v0, 0x0
 
-    .line 1998363
+    .line 1998384
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998364
+    .line 1998385
     sget-object v0, LX/11W;->A00:LX/11W;
 
-    .line 1998365
+    .line 1998386
     invoke-direct {p0, p1, p2, v0}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;-><init>(LX/M1z;LX/M1z;Ljava/util/List;)V
 
-    .line 1998366
+    .line 1998387
     return-void
 .end method
 
@@ -503,26 +503,26 @@
 
     const/4 v0, 0x0
 
-    .line 1998367
+    .line 1998388
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
     const/4 v0, 0x1
 
     invoke-static {p1, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1998368
+    .line 1998389
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998369
+    .line 1998390
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998370
+    .line 1998391
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998371
+    .line 1998392
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998372
+    .line 1998393
     return-void
 .end method
 
@@ -531,30 +531,30 @@
 
     const/16 v0, 0x18
 
-    .line 1998373
+    .line 1998394
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998374
+    .line 1998395
     invoke-static {p3, p2}, LX/5We;->A1C(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1998375
+    .line 1998396
     const/4 v0, 0x3
 
     invoke-static {p1, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1998376
+    .line 1998397
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998377
+    .line 1998398
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998378
+    .line 1998399
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998379
+    .line 1998400
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998380
+    .line 1998401
     return-void
 .end method
 
@@ -565,14 +565,14 @@
 
     const/16 v2, 0x1c
 
-    .line 1998381
+    .line 1998402
     iput v2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
     and-int/lit8 v0, p2, 0x2
 
     if-eqz v0, :cond_1
 
-    .line 1998382
+    .line 1998403
     const/16 v0, 0x7fff
 
     new-instance v1, LX/2Tj;
@@ -586,7 +586,7 @@
 
     move-object p1, v3
 
-    .line 1998383
+    .line 1998404
     :cond_0
     iput v2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
@@ -594,22 +594,22 @@
 
     invoke-static {v1, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1998384
+    .line 1998405
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998385
+    .line 1998406
     iput-object v3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998386
+    .line 1998407
     iput-object v1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998387
+    .line 1998408
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998388
+    .line 1998409
     return-void
 
-    .line 1998389
+    .line 1998410
     :cond_1
     move-object v1, v3
 
@@ -621,26 +621,26 @@
 
     const/16 v0, 0x8
 
-    .line 1998390
+    .line 1998411
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
     const/4 v0, 0x3
 
     invoke-static {p3, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1998391
+    .line 1998412
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998392
+    .line 1998413
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998393
+    .line 1998414
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998394
+    .line 1998415
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998395
+    .line 1998416
     return-void
 .end method
 
@@ -649,30 +649,30 @@
 
     const/16 v0, 0x10
 
-    .line 1998396
+    .line 1998417
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998397
+    .line 1998418
     invoke-static {p1, p2}, LX/5We;->A1C(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1998398
+    .line 1998419
     const/4 v0, 0x3
 
     invoke-static {p3, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1998399
+    .line 1998420
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998400
+    .line 1998421
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998401
+    .line 1998422
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998402
+    .line 1998423
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998403
+    .line 1998424
     return-void
 .end method
 
@@ -681,22 +681,22 @@
 
     const/16 v0, 0x9
 
-    .line 1998404
+    .line 1998425
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998405
+    .line 1998426
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998406
+    .line 1998427
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998407
+    .line 1998428
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998408
+    .line 1998429
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998409
+    .line 1998430
     return-void
 .end method
 
@@ -705,142 +705,37 @@
 
     const/16 v3, 0x22
 
-    .line 1998410
+    .line 1998431
     iput v3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998411
+    .line 1998432
     const/4 v0, 0x0
 
     new-array v2, v0, [Ljava/lang/Object;
 
     const v0, 0x7f124013    # 1.9439998E38f
 
-    .line 1998412
+    .line 1998433
     new-instance v1, LX/96S;
 
     invoke-direct {v1, v2, v0}, LX/96S;-><init>([Ljava/lang/Object;I)V
 
-    .line 1998413
+    .line 1998434
     iget-object v0, p1, Lcom/instagram/model/shopping/Merchant;->A09:Ljava/lang/String;
 
-    .line 1998414
+    .line 1998435
     if-nez v0, :cond_0
 
     const-string v0, ""
 
-    .line 1998415
+    .line 1998436
     :cond_0
     invoke-static {v0}, LX/Chb;->A0R(Ljava/lang/CharSequence;)LX/AAF;
 
     move-result-object v0
 
-    .line 1998416
-    iput v3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
-
-    .line 1998417
-    invoke-direct {p0}, LX/0SY;-><init>()V
-
-    .line 1998418
-    iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
-
-    .line 1998419
-    iput-object v1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
-
-    .line 1998420
-    iput-object v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
-
-    .line 1998421
-    return-void
-.end method
-
-.method public constructor <init>(Lcom/instagram/model/shopping/productfeed/ProductTile;)V
-    .locals 2
-
-    const/16 v1, 0x1f
-
-    .line 1998422
-    iput v1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
-
-    const/4 v0, 0x0
-
-    .line 1998423
-    invoke-direct {p0, v1, p1, v0, v0}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    .line 1998424
-    return-void
-.end method
-
-.method public constructor <init>(Lcom/instagram/model/shopping/productfeed/ShoppingModuleLoggingInfo;Lcom/instagram/model/shopping/productfeed/ShoppingRankingLoggingInfo;)V
-    .locals 2
-
-    const/16 v1, 0x19
-
-    .line 1998425
-    iput v1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
-
-    const/4 v0, 0x0
-
-    .line 1998426
-    invoke-direct {p0, v1, v0, p1, p2}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    .line 1998427
-    return-void
-.end method
-
-.method public constructor <init>(Lcom/instagram/ui/widget/mediapicker/Folder;Ljava/util/List;Ljava/util/List;)V
-    .locals 1
-
-    const/16 v0, 0x14
-
-    .line 1998428
-    iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
-
-    const/4 v0, 0x3
-
-    invoke-static {p3, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
-
-    .line 1998429
-    invoke-direct {p0}, LX/0SY;-><init>()V
-
-    .line 1998430
-    iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
-
-    .line 1998431
-    iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
-
-    .line 1998432
-    iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
-
-    .line 1998433
-    return-void
-.end method
-
-.method public constructor <init>(Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Long;Lkotlin/jvm/internal/DefaultConstructorMarker;II)V
-    .locals 2
-
-    const/16 v1, 0x1b
-
-    .line 1998434
-    iput v1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
-
-    const/4 v0, 0x0
-
-    .line 1998435
-    invoke-direct {p0, v1, v0, v0, v0}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    .line 1998436
-    return-void
-.end method
-
-.method public constructor <init>(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;I)V
-    .locals 0
-
     .line 1998437
-    iput p4, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
-
-    rsub-int/lit8 p4, p4, 0xa
-
-    if-eqz p4, :cond_0
+    iput v3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
     .line 1998438
     invoke-direct {p0}, LX/0SY;-><init>()V
@@ -849,25 +744,130 @@
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
     .line 1998440
-    iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
+    iput-object v1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
     .line 1998441
-    iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
+    iput-object v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
     .line 1998442
     return-void
+.end method
+
+.method public constructor <init>(Lcom/instagram/model/shopping/productfeed/ProductTile;)V
+    .locals 2
+
+    const/16 v1, 0x1f
 
     .line 1998443
+    iput v1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
+
+    const/4 v0, 0x0
+
+    .line 1998444
+    invoke-direct {p0, v1, p1, v0, v0}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 1998445
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/instagram/model/shopping/productfeed/ShoppingModuleLoggingInfo;Lcom/instagram/model/shopping/productfeed/ShoppingRankingLoggingInfo;)V
+    .locals 2
+
+    const/16 v1, 0x19
+
+    .line 1998446
+    iput v1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
+
+    const/4 v0, 0x0
+
+    .line 1998447
+    invoke-direct {p0, v1, v0, p1, p2}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 1998448
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/instagram/ui/widget/mediapicker/Folder;Ljava/util/List;Ljava/util/List;)V
+    .locals 1
+
+    const/16 v0, 0x14
+
+    .line 1998449
+    iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
+
+    const/4 v0, 0x3
+
+    invoke-static {p3, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
+
+    .line 1998450
+    invoke-direct {p0}, LX/0SY;-><init>()V
+
+    .line 1998451
+    iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
+
+    .line 1998452
+    iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
+
+    .line 1998453
+    iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
+
+    .line 1998454
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Long;Lkotlin/jvm/internal/DefaultConstructorMarker;II)V
+    .locals 2
+
+    const/16 v1, 0x1b
+
+    .line 1998455
+    iput v1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
+
+    const/4 v0, 0x0
+
+    .line 1998456
+    invoke-direct {p0, v1, v0, v0, v0}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 1998457
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;I)V
+    .locals 0
+
+    .line 1998458
+    iput p4, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
+
+    rsub-int/lit8 p4, p4, 0xa
+
+    if-eqz p4, :cond_0
+
+    .line 1998459
+    invoke-direct {p0}, LX/0SY;-><init>()V
+
+    .line 1998460
+    iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
+
+    .line 1998461
+    iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
+
+    .line 1998462
+    iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
+
+    .line 1998463
+    return-void
+
+    .line 1998464
     :cond_0
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998444
+    .line 1998465
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998445
+    .line 1998466
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998446
+    .line 1998467
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
     return-void
@@ -878,18 +878,18 @@
 
     const/16 v0, 0x17
 
-    .line 1998447
+    .line 1998468
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998448
+    .line 1998469
     invoke-static {p3}, LX/Chb;->A0R(Ljava/lang/CharSequence;)LX/AAF;
 
     move-result-object v0
 
-    .line 1998449
+    .line 1998470
     invoke-direct {p0, v0, p1, p2}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;-><init>(LX/96T;Ljava/lang/Integer;Ljava/lang/Integer;)V
 
-    .line 1998450
+    .line 1998471
     return-void
 .end method
 
@@ -898,25 +898,25 @@
 
     const/16 v0, 0x15
 
-    .line 1998451
+    .line 1998472
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998452
+    .line 1998473
     invoke-static {p2, p3}, LX/5We;->A1D(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1998453
+    .line 1998474
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1998454
+    .line 1998475
     iput-object p1, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998455
+    .line 1998476
     iput-object p2, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998456
+    .line 1998477
     iput-object p3, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998457
+    .line 1998478
     return-void
 .end method
 
@@ -925,18 +925,18 @@
 
     const/16 v0, 0x15
 
-    .line 1998458
+    .line 1998479
     iput v0, p0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
     const/4 v1, 0x0
 
-    .line 1998459
+    .line 1998480
     sget-object v0, LX/11W;->A00:LX/11W;
 
-    .line 1998460
+    .line 1998481
     invoke-direct {p0, v1, v0, v0}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;-><init>(Ljava/lang/Integer;Ljava/util/List;Ljava/util/List;)V
 
-    .line 1998461
+    .line 1998482
     return-void
 .end method
 
@@ -945,12 +945,12 @@
 
     const/4 v15, 0x1
 
-    .line 1998462
+    .line 1998483
     move-object/from16 v2, p0
 
     iput v15, v2, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998463
+    .line 1998484
     const/4 v4, 0x0
 
     const/16 v16, 0x0
@@ -983,29 +983,29 @@
 
     invoke-direct/range {v3 .. v18}, LX/GHt;-><init>(Lcom/facebook/rtc/views/omnigrid/GridSelfViewLocation;LX/HRz;LX/HRz;LX/HRz;LX/HRz;LX/HRz;LX/HRz;LX/HRz;LX/HRz;Ljava/lang/Object;IZZZZ)V
 
-    .line 1998464
+    .line 1998485
     sget-object v1, LX/Icw;->A00:LX/Icw;
 
-    .line 1998465
+    .line 1998486
     new-instance v0, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S0200000_I0;
 
     invoke-direct {v0, v3, v1}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S0200000_I0;-><init>(LX/GHt;LX/0Vv;)V
 
-    .line 1998466
+    .line 1998487
     iput v15, v2, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A03:I
 
-    .line 1998467
+    .line 1998488
     invoke-direct {v2}, LX/0SY;-><init>()V
 
-    .line 1998468
+    .line 1998489
     move-object/from16 v1, p1
 
     iput-object v1, v2, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
-    .line 1998469
+    .line 1998490
     iput-object v0, v2, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A00:Ljava/lang/Object;
 
-    .line 1998470
+    .line 1998491
     const/4 v1, 0x5
 
     new-instance v0, Lkotlin/jvm/internal/KtLambdaShape20S0100000_I1_1;
@@ -1018,7 +1018,7 @@
 
     iput-object v0, v2, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1998471
+    .line 1998492
     return-void
 .end method
 

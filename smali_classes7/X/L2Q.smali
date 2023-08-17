@@ -708,7 +708,6 @@
     :try_end_a
     .catch Ljava/io/IOException; {:try_start_a .. :try_end_a} :catch_2
     .catch Ljava/lang/RuntimeException; {:try_start_a .. :try_end_a} :catch_2
-    .catch Ljava/io/IOException; {:try_start_a .. :try_end_a} :catch_5
     .catchall {:try_start_a .. :try_end_a} :catchall_3
 
     .line 267
@@ -721,7 +720,6 @@
     goto :goto_4
     :try_end_b
     .catch Ljava/io/IOException; {:try_start_b .. :try_end_b} :catch_1
-    .catch Ljava/io/IOException; {:try_start_b .. :try_end_b} :catch_5
     .catchall {:try_start_b .. :try_end_b} :catchall_3
 
     .line 271

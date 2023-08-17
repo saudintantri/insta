@@ -45,7 +45,7 @@
     .locals 0
 
     .line 0
-    invoke-static {p0}, LX/Chf;->A0I(Landroid/content/Context;)Landroid/graphics/Typeface;
+    invoke-static {p0}, LX/Chf;->A0J(Landroid/content/Context;)Landroid/graphics/Typeface;
 
     .line 1
     .line 2
@@ -73,7 +73,7 @@
     move-result-object v0
 
     .line 4
-    invoke-static {v0}, LX/Chf;->A0I(Landroid/content/Context;)Landroid/graphics/Typeface;
+    invoke-static {v0}, LX/Chf;->A0J(Landroid/content/Context;)Landroid/graphics/Typeface;
 
     .line 5
     .line 6

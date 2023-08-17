@@ -250,7 +250,6 @@
     move-result v1
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
     .line 100
     :try_start_2
@@ -447,7 +446,6 @@
     if-eqz v9, :cond_7
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
-    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
 
     .line 187
     .line 188

@@ -560,7 +560,7 @@
 
     .line 66
     :cond_1
-    invoke-static {v2}, LX/Chh;->A00(I)I
+    invoke-static {v2}, LX/Chh;->A01(I)I
 
     .line 67
     .line 68

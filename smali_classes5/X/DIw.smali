@@ -627,7 +627,7 @@
 
     .line 17
     .line 18
-    invoke-static {p0}, LX/Chi;->A0B(Landroidx/fragment/app/Fragment;)Landroid/view/View;
+    invoke-static {p0}, LX/Chi;->A0C(Landroidx/fragment/app/Fragment;)Landroid/view/View;
 
     .line 19
     .line 20

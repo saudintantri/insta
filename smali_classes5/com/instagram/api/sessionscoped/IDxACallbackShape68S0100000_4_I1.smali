@@ -553,7 +553,7 @@
     move-result-object v0
 
     .line 107
-    invoke-static {v0, v3, v9}, LX/Chi;->A0t(Landroid/app/Activity;Landroid/content/Intent;Landroidx/fragment/app/Fragment;)V
+    invoke-static {v0, v3, v9}, LX/Chi;->A0v(Landroid/app/Activity;Landroid/content/Intent;Landroidx/fragment/app/Fragment;)V
 
     .line 108
     .line 109
@@ -1152,7 +1152,7 @@
     move-result-object v0
 
     .line 410
-    invoke-static {v0, v4, v12}, LX/Chi;->A0t(Landroid/app/Activity;Landroid/content/Intent;Landroidx/fragment/app/Fragment;)V
+    invoke-static {v0, v4, v12}, LX/Chi;->A0v(Landroid/app/Activity;Landroid/content/Intent;Landroidx/fragment/app/Fragment;)V
 
     .line 411
     .line 412

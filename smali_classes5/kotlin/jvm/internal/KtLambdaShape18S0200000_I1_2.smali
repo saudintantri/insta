@@ -1915,7 +1915,7 @@
     .line 876
     .line 877
     :pswitch_10
-    invoke-static {p1}, LX/Chh;->A0M(Ljava/lang/Object;)LX/2Sh;
+    invoke-static {p1}, LX/Chh;->A0N(Ljava/lang/Object;)LX/2Sh;
 
     .line 878
     .line 879
@@ -2318,7 +2318,7 @@
 
     .line 1072
     :pswitch_14
-    invoke-static {p1}, LX/Chh;->A0M(Ljava/lang/Object;)LX/2Sh;
+    invoke-static {p1}, LX/Chh;->A0N(Ljava/lang/Object;)LX/2Sh;
 
     .line 1073
     .line 1074
@@ -2366,7 +2366,7 @@
 
     .line 1095
     :pswitch_15
-    invoke-static {p1}, LX/Chh;->A0M(Ljava/lang/Object;)LX/2Sh;
+    invoke-static {p1}, LX/Chh;->A0N(Ljava/lang/Object;)LX/2Sh;
 
     .line 1096
     .line 1097
@@ -2406,7 +2406,7 @@
 
     .line 1114
     :pswitch_16
-    invoke-static {p1}, LX/Chh;->A0M(Ljava/lang/Object;)LX/2Sh;
+    invoke-static {p1}, LX/Chh;->A0N(Ljava/lang/Object;)LX/2Sh;
 
     .line 1115
     .line 1116

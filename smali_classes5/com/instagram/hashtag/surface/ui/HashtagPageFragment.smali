@@ -5768,7 +5768,7 @@
     .line 1329
     .line 1330
     .line 1331
-    invoke-static {v11, v0}, LX/Che;->A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+    invoke-static {v11, v0}, LX/Che;->A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
 
     .line 1332
     .line 1333
@@ -7163,7 +7163,7 @@
 
     .line 361
     .line 362
-    invoke-static {v3, v0, v2}, LX/Che;->A0G(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
+    invoke-static {v3, v0, v2}, LX/Che;->A0H(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
 
     .line 363
     .line 364
@@ -8870,7 +8870,7 @@
 
     .line 1240
     .line 1241
-    invoke-static {v6, v0, v3}, LX/Chf;->A0W(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
+    invoke-static {v6, v0, v3}, LX/Chf;->A0X(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
 
     .line 1242
     .line 1243

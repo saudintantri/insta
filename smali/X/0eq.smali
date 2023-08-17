@@ -2211,7 +2211,6 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_2
     .catch Ljava/io/FileNotFoundException; {:try_start_1 .. :try_end_1} :catch_6
     .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_5
-    .catch Ljava/nio/BufferUnderflowException; {:try_start_1 .. :try_end_1} :catch_4
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_3
 
     .line 504

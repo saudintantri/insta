@@ -64,7 +64,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0}, LX/Chi;->A0I(Ljava/lang/Object;)LX/05l;
+    invoke-static {v0}, LX/Chi;->A0J(Ljava/lang/Object;)LX/05l;
 
     .line 10
     .line 11
@@ -639,7 +639,7 @@
 
     .line 286
     .line 287
-    invoke-static {v0}, LX/Chg;->A0W(LX/01o;)LX/FJJ;
+    invoke-static {v0}, LX/Chg;->A0U(LX/01o;)LX/FJJ;
 
     .line 288
     .line 289
@@ -710,7 +710,7 @@
 
     .line 320
     .line 321
-    invoke-static {v1, v2, v0}, LX/Chf;->A0W(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
+    invoke-static {v1, v2, v0}, LX/Chf;->A0X(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
 
     .line 322
     .line 323
@@ -1205,7 +1205,7 @@
 
     .line 560
     .line 561
-    invoke-static {v0}, LX/Chg;->A0W(LX/01o;)LX/FJJ;
+    invoke-static {v0}, LX/Chg;->A0U(LX/01o;)LX/FJJ;
 
     .line 562
     .line 563
@@ -1276,7 +1276,7 @@
 
     .line 594
     .line 595
-    invoke-static {v1, v2, v0}, LX/Chf;->A0W(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
+    invoke-static {v1, v2, v0}, LX/Chf;->A0X(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
 
     .line 596
     .line 597
@@ -4062,7 +4062,7 @@
 
     .line 1954
     .line 1955
-    invoke-static {v1, v2, v0}, LX/Chf;->A0W(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
+    invoke-static {v1, v2, v0}, LX/Chf;->A0X(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
 
     .line 1956
     .line 1957

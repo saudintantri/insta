@@ -2517,7 +2517,6 @@
     :try_end_2
     .catch Ljava/nio/BufferOverflowException; {:try_start_2 .. :try_end_2} :catch_0
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_18
-    .catch Ljava/nio/BufferOverflowException; {:try_start_2 .. :try_end_2} :catch_18
     .catch Ljava/nio/BufferUnderflowException; {:try_start_2 .. :try_end_2} :catch_17
 
     .line 1266
@@ -2893,7 +2892,6 @@
     :try_end_8
     .catch Ljava/nio/BufferOverflowException; {:try_start_8 .. :try_end_8} :catch_3
     .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_18
-    .catch Ljava/nio/BufferOverflowException; {:try_start_8 .. :try_end_8} :catch_18
     .catch Ljava/nio/BufferUnderflowException; {:try_start_8 .. :try_end_8} :catch_17
 
     .line 1431
@@ -3258,7 +3256,6 @@
     :try_end_b
     .catch Ljava/nio/BufferOverflowException; {:try_start_b .. :try_end_b} :catch_5
     .catch Ljava/io/IOException; {:try_start_b .. :try_end_b} :catch_18
-    .catch Ljava/nio/BufferOverflowException; {:try_start_b .. :try_end_b} :catch_18
     .catch Ljava/nio/BufferUnderflowException; {:try_start_b .. :try_end_b} :catch_17
 
     .line 1599
@@ -3538,7 +3535,6 @@
     :try_end_d
     .catch Ljava/nio/BufferOverflowException; {:try_start_d .. :try_end_d} :catch_6
     .catch Ljava/io/IOException; {:try_start_d .. :try_end_d} :catch_18
-    .catch Ljava/nio/BufferOverflowException; {:try_start_d .. :try_end_d} :catch_18
     .catch Ljava/nio/BufferUnderflowException; {:try_start_d .. :try_end_d} :catch_17
 
     .line 1735
@@ -5164,7 +5160,6 @@
     :try_end_10
     .catch Ljava/nio/BufferOverflowException; {:try_start_10 .. :try_end_10} :catch_7
     .catch Ljava/io/IOException; {:try_start_10 .. :try_end_10} :catch_18
-    .catch Ljava/nio/BufferOverflowException; {:try_start_10 .. :try_end_10} :catch_18
     .catch Ljava/nio/BufferUnderflowException; {:try_start_10 .. :try_end_10} :catch_17
 
     .line 2561
@@ -5540,7 +5535,6 @@
     :try_end_16
     .catch Ljava/nio/BufferOverflowException; {:try_start_16 .. :try_end_16} :catch_a
     .catch Ljava/io/IOException; {:try_start_16 .. :try_end_16} :catch_18
-    .catch Ljava/nio/BufferOverflowException; {:try_start_16 .. :try_end_16} :catch_18
     .catch Ljava/nio/BufferUnderflowException; {:try_start_16 .. :try_end_16} :catch_17
 
     .line 2726
@@ -5838,7 +5832,6 @@
     :try_end_19
     .catch Ljava/nio/BufferOverflowException; {:try_start_19 .. :try_end_19} :catch_c
     .catch Ljava/io/IOException; {:try_start_19 .. :try_end_19} :catch_18
-    .catch Ljava/nio/BufferOverflowException; {:try_start_19 .. :try_end_19} :catch_18
     .catch Ljava/nio/BufferUnderflowException; {:try_start_19 .. :try_end_19} :catch_17
 
     .line 2862
@@ -6389,7 +6382,6 @@
     :try_end_1b
     .catch Ljava/nio/BufferOverflowException; {:try_start_1b .. :try_end_1b} :catch_d
     .catch Ljava/io/IOException; {:try_start_1b .. :try_end_1b} :catch_18
-    .catch Ljava/nio/BufferOverflowException; {:try_start_1b .. :try_end_1b} :catch_18
     .catch Ljava/nio/BufferUnderflowException; {:try_start_1b .. :try_end_1b} :catch_17
 
     .line 3136
@@ -8702,7 +8694,6 @@
     :try_end_1f
     .catch Ljava/nio/BufferOverflowException; {:try_start_1f .. :try_end_1f} :catch_e
     .catch Ljava/io/IOException; {:try_start_1f .. :try_end_1f} :catch_18
-    .catch Ljava/nio/BufferOverflowException; {:try_start_1f .. :try_end_1f} :catch_18
     .catch Ljava/nio/BufferUnderflowException; {:try_start_1f .. :try_end_1f} :catch_17
 
     .line 4303
@@ -9082,7 +9073,6 @@
     :try_end_25
     .catch Ljava/nio/BufferOverflowException; {:try_start_25 .. :try_end_25} :catch_11
     .catch Ljava/io/IOException; {:try_start_25 .. :try_end_25} :catch_18
-    .catch Ljava/nio/BufferOverflowException; {:try_start_25 .. :try_end_25} :catch_18
     .catch Ljava/nio/BufferUnderflowException; {:try_start_25 .. :try_end_25} :catch_17
 
     .line 4470
@@ -9400,7 +9390,6 @@
     :try_end_28
     .catch Ljava/nio/BufferOverflowException; {:try_start_28 .. :try_end_28} :catch_13
     .catch Ljava/io/IOException; {:try_start_28 .. :try_end_28} :catch_18
-    .catch Ljava/nio/BufferOverflowException; {:try_start_28 .. :try_end_28} :catch_18
     .catch Ljava/nio/BufferUnderflowException; {:try_start_28 .. :try_end_28} :catch_17
 
     .line 4616
@@ -9955,7 +9944,6 @@
     :try_end_2a
     .catch Ljava/nio/BufferOverflowException; {:try_start_2a .. :try_end_2a} :catch_14
     .catch Ljava/io/IOException; {:try_start_2a .. :try_end_2a} :catch_18
-    .catch Ljava/nio/BufferOverflowException; {:try_start_2a .. :try_end_2a} :catch_18
     .catch Ljava/nio/BufferUnderflowException; {:try_start_2a .. :try_end_2a} :catch_17
 
     .line 4892

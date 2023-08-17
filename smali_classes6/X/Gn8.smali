@@ -278,7 +278,7 @@
     .line 126
     .line 127
     .line 128
-    const v0, 0x7f0700f9
+    const v0, 0x7f0700f7
 
     .line 129
     .line 130

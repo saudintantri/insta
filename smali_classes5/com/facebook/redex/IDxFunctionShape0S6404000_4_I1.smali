@@ -388,7 +388,7 @@
 
     .line 43
     .line 44
-    invoke-static {v13}, LX/Chi;->A0P(LX/1iX;)LX/39m;
+    invoke-static {v13}, LX/Chi;->A0Q(LX/1iX;)LX/39m;
 
     .line 45
     .line 46

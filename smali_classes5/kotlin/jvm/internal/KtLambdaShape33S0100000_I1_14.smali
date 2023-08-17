@@ -295,7 +295,7 @@
     move-result-object v0
 
     .line 117
-    invoke-static {v1, v0, v2}, LX/Che;->A0G(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
+    invoke-static {v1, v0, v2}, LX/Che;->A0H(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
 
     .line 118
     .line 119
@@ -439,7 +439,7 @@
     move-result-object v0
 
     .line 189
-    invoke-static {v2, v0, v1}, LX/Che;->A0G(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
+    invoke-static {v2, v0, v1}, LX/Che;->A0H(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
 
     .line 190
     .line 191
@@ -905,7 +905,7 @@
 
     .line 414
     .line 415
-    invoke-static {v0}, LX/Chg;->A0O(LX/01o;)LX/Cy5;
+    invoke-static {v0}, LX/Chg;->A0N(LX/01o;)LX/Cy5;
 
     .line 416
     .line 417

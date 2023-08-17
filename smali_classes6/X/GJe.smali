@@ -437,7 +437,7 @@
 
     .line 178
     .line 179
-    const v2, 0x7f0700d6
+    const v2, 0x7f0700d5
 
     .line 180
     .line 181
@@ -463,7 +463,7 @@
     move-result-wide v24
 
     .line 193
-    const v2, 0x7f0700d6
+    const v2, 0x7f0700d5
 
     .line 194
     .line 195

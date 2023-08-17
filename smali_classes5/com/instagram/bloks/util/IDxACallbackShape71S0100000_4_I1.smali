@@ -251,7 +251,7 @@
 
     .line 12
     .line 13
-    invoke-static {p1}, LX/Chi;->A0q(LX/2Rp;)Ljava/lang/Throwable;
+    invoke-static {p1}, LX/Chi;->A0s(LX/2Rp;)Ljava/lang/Throwable;
 
     .line 14
     .line 15

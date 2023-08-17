@@ -1898,7 +1898,6 @@
     invoke-direct {v1, v0}, Ljava/io/ObjectInputStream;-><init>(Ljava/io/InputStream;)V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
 
     .line 232
     .line 233
@@ -1927,7 +1926,6 @@
     goto :goto_4
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_2
 
     .line 244
     :catchall_0
@@ -1947,7 +1945,6 @@
     throw v0
     :try_end_6
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_2
 
     .line 249
     :catch_1

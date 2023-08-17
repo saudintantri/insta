@@ -153,7 +153,7 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/facebook/rsys/dolbymodule/gen/DolbyModule;LX/5e6;LX/5gb;LX/Kt2;LX/5gP;LX/5gR;LX/7Fd;LX/5gX;Lcom/instagram/rtc/rsys/proxies/IGRTCSyncedClockHolder;Lcom/instagram/service/session/UserSession;Ljava/lang/Integer;Ljava/lang/String;LX/0Xg;LX/0Vv;LX/0Vv;LX/0VH;Z)V
     .locals 15
 
-    .line 2842246
+    .line 2842267
     const/4 v6, 0x3
 
     const/4 v0, 0x5
@@ -168,90 +168,90 @@
 
     invoke-static {v1, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2842247
+    .line 2842268
     invoke-direct {p0}, Lcom/facebook/rsys/callmanager/gen/CallClient;-><init>()V
 
-    .line 2842248
+    .line 2842269
     move-object/from16 v0, p13
 
     iput-object v0, p0, LX/MVE;->A0c:Ljava/lang/String;
 
-    .line 2842249
+    .line 2842270
     move-object/from16 v0, p1
 
     iput-object v0, p0, LX/MVE;->A07:Landroid/content/Context;
 
-    .line 2842250
+    .line 2842271
     move-object/from16 v0, p11
 
     iput-object v0, p0, LX/MVE;->A0a:Lcom/instagram/service/session/UserSession;
 
-    .line 2842251
+    .line 2842272
     iput-object v2, p0, LX/MVE;->A0U:LX/7Fd;
 
-    .line 2842252
+    .line 2842273
     move-object/from16 v0, p10
 
     iput-object v0, p0, LX/MVE;->A0Y:Lcom/instagram/rtc/rsys/proxies/IGRTCSyncedClockHolder;
 
-    .line 2842253
+    .line 2842274
     move-object/from16 v0, p17
 
     iput-object v0, p0, LX/MVE;->A0k:LX/0VH;
 
-    .line 2842254
+    .line 2842275
     move-object/from16 v0, p15
 
     iput-object v0, p0, LX/MVE;->A0e:LX/0Vv;
 
-    .line 2842255
+    .line 2842276
     move-object/from16 v0, p9
 
     iput-object v0, p0, LX/MVE;->A0X:LX/5gX;
 
-    .line 2842256
+    .line 2842277
     move-object/from16 v0, p6
 
     iput-object v0, p0, LX/MVE;->A0Q:LX/5gP;
 
-    .line 2842257
+    .line 2842278
     move-object/from16 v0, p7
 
     iput-object v0, p0, LX/MVE;->A0T:LX/5gR;
 
-    .line 2842258
+    .line 2842279
     move-object/from16 v0, p2
 
     iput-object v0, p0, LX/MVE;->A0f:Lcom/facebook/rsys/dolbymodule/gen/DolbyModule;
 
-    .line 2842259
+    .line 2842280
     move/from16 v0, p18
 
     iput-boolean v0, p0, LX/MVE;->A0l:Z
 
-    .line 2842260
+    .line 2842281
     iput-object v1, p0, LX/MVE;->A0b:Ljava/lang/Integer;
 
-    .line 2842261
+    .line 2842282
     move-object/from16 v0, p4
 
     iput-object v0, p0, LX/MVE;->A0C:LX/5gb;
 
-    .line 2842262
+    .line 2842283
     invoke-static {}, Ljava/util/concurrent/Executors;->newSingleThreadExecutor()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
 
     iput-object v0, p0, LX/MVE;->A0d:Ljava/util/concurrent/ExecutorService;
 
-    .line 2842263
+    .line 2842284
     new-instance v0, LX/MWn;
 
     invoke-direct {v0}, LX/MWn;-><init>()V
 
     iput-object v0, p0, LX/MVE;->A0B:LX/MWn;
 
-    .line 2842264
+    .line 2842285
     new-instance v0, LX/MWO;
 
     move-object/from16 v5, p3
@@ -260,49 +260,49 @@
 
     iput-object v0, p0, LX/MVE;->A0g:Lcom/facebook/rsys/spark/gen/AudioGraphListener;
 
-    .line 2842265
+    .line 2842286
     new-instance v0, LX/HPN;
 
     invoke-direct {v0, p0}, LX/HPN;-><init>(LX/MVE;)V
 
     iput-object v0, p0, LX/MVE;->A0G:LX/HPN;
 
-    .line 2842266
+    .line 2842287
     iget-object v0, p0, LX/MVE;->A0f:Lcom/facebook/rsys/dolbymodule/gen/DolbyModule;
 
     iput-object v0, p0, LX/MVE;->A09:Lcom/facebook/rsys/dolbymodule/gen/DolbyModule;
 
-    .line 2842267
+    .line 2842288
     iget-object v2, p0, LX/MVE;->A0a:Lcom/instagram/service/session/UserSession;
 
-    .line 2842268
+    .line 2842289
     sget-object v3, LX/0Sq;->A05:LX/0Sq;
 
     const-wide v0, 0x8109f40000143aL
 
-    .line 2842269
+    .line 2842290
     invoke-static {v3, v2, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v0
 
-    .line 2842270
+    .line 2842291
     const/4 v2, 0x0
 
     if-eqz v0, :cond_7
 
-    .line 2842271
+    .line 2842292
     new-instance v0, LX/Jrb;
 
     invoke-direct {v0}, LX/Jrb;-><init>()V
 
-    .line 2842272
+    .line 2842293
     :goto_0
     iput-object v0, p0, LX/MVE;->A0I:LX/Jrb;
 
-    .line 2842273
+    .line 2842294
     iget-object v7, p0, LX/MVE;->A07:Landroid/content/Context;
 
-    .line 2842274
+    .line 2842295
     const/16 v0, 0x8
 
     new-instance v13, Lkotlin/jvm/internal/KtLambdaShape13S0200000_I1_2;
@@ -311,26 +311,26 @@
 
     invoke-direct {v13, v0, v1, p0}, Lkotlin/jvm/internal/KtLambdaShape13S0200000_I1_2;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2842275
+    .line 2842296
     iget-object v0, p0, LX/MVE;->A0f:Lcom/facebook/rsys/dolbymodule/gen/DolbyModule;
 
     if-eqz v0, :cond_6
 
-    .line 2842276
+    .line 2842297
     iget-object v4, p0, LX/MVE;->A0a:Lcom/instagram/service/session/UserSession;
 
-    .line 2842277
+    .line 2842298
     const-wide v0, 0x8109f40002143bL
 
-    .line 2842278
+    .line 2842299
     invoke-static {v3, v4, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v0
 
-    .line 2842279
+    .line 2842300
     if-eqz v0, :cond_6
 
-    .line 2842280
+    .line 2842301
     iget-object v0, p0, LX/MVE;->A0I:LX/Jrb;
 
     if-eqz v0, :cond_6
@@ -339,14 +339,14 @@
 
     invoke-direct {v14, v0, v6}, Lkotlin/jvm/internal/IDxRImplShape164S0000000_6_I1;-><init>(Ljava/lang/Object;I)V
 
-    .line 2842281
+    .line 2842302
     :goto_1
     iget-object v10, p0, LX/MVE;->A0a:Lcom/instagram/service/session/UserSession;
 
-    .line 2842282
+    .line 2842303
     iget-object v11, p0, LX/MVE;->A0c:Ljava/lang/String;
 
-    .line 2842283
+    .line 2842304
     const v0, 0x1001a046
 
     const/4 v4, 0x0
@@ -355,7 +355,7 @@
 
     invoke-direct {v12, v0, v6, v4, v4}, LX/0OM;-><init>(IIZZ)V
 
-    .line 2842284
+    .line 2842305
     new-instance v9, LX/HEO;
 
     invoke-direct {v9, p0}, LX/HEO;-><init>(LX/MVE;)V
@@ -372,7 +372,7 @@
 
     iput-object v0, p0, LX/MVE;->A08:LX/Jra;
 
-    .line 2842285
+    .line 2842306
     iget-object v6, p0, LX/MVE;->A07:Landroid/content/Context;
 
     const/16 v0, 0x51
@@ -387,77 +387,77 @@
 
     iput-object v0, p0, LX/MVE;->A0W:LX/GPR;
 
-    .line 2842286
+    .line 2842307
     iget-object v6, p0, LX/MVE;->A0a:Lcom/instagram/service/session/UserSession;
 
-    .line 2842287
+    .line 2842308
     const-wide v0, 0x8105bf00000a55L
 
-    .line 2842288
+    .line 2842309
     invoke-static {v3, v6, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v0
 
-    .line 2842289
+    .line 2842310
     if-eqz v0, :cond_5
 
-    .line 2842290
+    .line 2842311
     new-instance v0, LX/MWr;
 
     invoke-direct {v0}, LX/MWr;-><init>()V
 
-    .line 2842291
+    .line 2842312
     :goto_2
     iput-object v0, p0, LX/MVE;->A0S:LX/MWr;
 
-    .line 2842292
+    .line 2842313
     new-instance v0, LX/Maj;
 
     invoke-direct {v0, p0}, LX/Maj;-><init>(LX/MVE;)V
 
-    .line 2842293
+    .line 2842314
     invoke-static {v0}, Lcom/instagram/rtc/rsys/proxies/IGRTCFeatureProvider$CProxy;->createFeatureProvider(Lcom/instagram/rtc/rsys/proxies/IGRTCFeatureProviderProxy;)Lcom/instagram/rtc/rsys/proxies/IGRTCFeatureProvider;
 
     move-result-object v0
 
-    .line 2842294
+    .line 2842315
     invoke-static {v0}, LX/02K;->A05(Ljava/lang/Object;)V
 
     iput-object v0, p0, LX/MVE;->A0j:Lcom/instagram/rtc/rsys/proxies/IGRTCFeatureProvider;
 
-    .line 2842295
+    .line 2842316
     iget-object v7, p0, LX/MVE;->A07:Landroid/content/Context;
 
-    .line 2842296
+    .line 2842317
     iget-object v6, p0, LX/MVE;->A0a:Lcom/instagram/service/session/UserSession;
 
-    .line 2842297
+    .line 2842318
     iget-object v1, p0, LX/MVE;->A0b:Ljava/lang/Integer;
 
     sget-object v0, LX/001;->A00:Ljava/lang/Integer;
 
-    .line 2842298
+    .line 2842319
     invoke-static {v1, v0}, LX/5We;->A1X(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
-    .line 2842299
+    .line 2842320
     invoke-static {v7, v6, v0}, LX/4s5;->A00(Landroid/content/Context;Lcom/instagram/service/session/UserSession;Z)Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    .line 2842300
+    .line 2842321
     new-instance v1, LX/MVh;
 
     invoke-direct {v1}, LX/MVh;-><init>()V
 
-    .line 2842301
+    .line 2842322
     :goto_3
     iput-object v1, p0, LX/MVE;->A0A:Lcom/facebook/rsys/externalcall/gen/ExternalCallProxy;
 
-    .line 2842302
+    .line 2842323
     iget-object v7, p0, LX/MVE;->A0T:LX/5gR;
 
     new-instance v0, LX/MVz;
@@ -466,21 +466,21 @@
 
     iput-object v0, p0, LX/MVE;->A0i:LX/MVz;
 
-    .line 2842303
+    .line 2842324
     new-instance v0, LX/MVS;
 
     invoke-direct {v0}, LX/MVS;-><init>()V
 
     iput-object v0, p0, LX/MVE;->A0h:LX/MVS;
 
-    .line 2842304
+    .line 2842325
     new-instance v0, LX/MW5;
 
     invoke-direct {v0}, LX/MW5;-><init>()V
 
     iput-object v0, p0, LX/MVE;->A0D:LX/MW5;
 
-    .line 2842305
+    .line 2842326
     new-instance v0, LX/MW2;
 
     move-object/from16 v1, p14
@@ -489,7 +489,7 @@
 
     iput-object v0, p0, LX/MVE;->A0L:LX/MW2;
 
-    .line 2842306
+    .line 2842327
     iget-object v6, p0, LX/MVE;->A0c:Ljava/lang/String;
 
     const/4 v0, 0x1
@@ -504,21 +504,21 @@
 
     iput-object v0, p0, LX/MVE;->A0P:LX/GPZ;
 
-    .line 2842307
+    .line 2842328
     new-instance v0, LX/MVs;
 
     invoke-direct {v0}, LX/MVs;-><init>()V
 
     iput-object v0, p0, LX/MVE;->A0K:LX/MVs;
 
-    .line 2842308
+    .line 2842329
     new-instance v0, LX/MW8;
 
     invoke-direct {v0}, LX/MW8;-><init>()V
 
     iput-object v0, p0, LX/MVE;->A0M:LX/MW8;
 
-    .line 2842309
+    .line 2842330
     iget-object v6, p0, LX/MVE;->A0a:Lcom/instagram/service/session/UserSession;
 
     new-instance v0, LX/GPd;
@@ -527,36 +527,36 @@
 
     iput-object v0, p0, LX/MVE;->A0R:LX/GPd;
 
-    .line 2842310
+    .line 2842331
     const-wide v0, 0x8105a300010a23L
 
-    .line 2842311
+    .line 2842332
     invoke-static {v3, v6, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v0
 
-    .line 2842312
+    .line 2842333
     if-eqz v0, :cond_0
 
-    .line 2842313
+    .line 2842334
     iget-object v0, p0, LX/MVE;->A0a:Lcom/instagram/service/session/UserSession;
 
     new-instance v2, LX/9gM;
 
     invoke-direct {v2, v0}, LX/9gM;-><init>(Lcom/instagram/service/session/UserSession;)V
 
-    .line 2842314
+    .line 2842335
     :cond_0
     iput-object v2, p0, LX/MVE;->A0J:LX/9gM;
 
-    .line 2842315
+    .line 2842336
     new-instance v0, LX/GPV;
 
     invoke-direct {v0}, LX/GPV;-><init>()V
 
     iput-object v0, p0, LX/MVE;->A0N:LX/GPV;
 
-    .line 2842316
+    .line 2842337
     iget-object v6, p0, LX/MVE;->A0a:Lcom/instagram/service/session/UserSession;
 
     new-instance v0, LX/MVO;
@@ -565,7 +565,7 @@
 
     iput-object v0, p0, LX/MVE;->A0V:LX/MVO;
 
-    .line 2842317
+    .line 2842338
     iget-object v5, p0, LX/MVE;->A0T:LX/5gR;
 
     new-instance v0, LX/7Fb;
@@ -574,7 +574,7 @@
 
     iput-object v0, p0, LX/MVE;->A0F:LX/7Fb;
 
-    .line 2842318
+    .line 2842339
     iget-object v1, p0, LX/MVE;->A07:Landroid/content/Context;
 
     sget-object v2, LX/MVE;->A0m:Lorg/webrtc/EglBase$Context;
@@ -585,21 +585,21 @@
 
     iput-object v0, p0, LX/MVE;->A0Z:LX/Hd7;
 
-    .line 2842319
+    .line 2842340
     new-instance v0, LX/MVM;
 
     invoke-direct {v0}, LX/MVM;-><init>()V
 
     iput-object v0, p0, LX/MVE;->A0H:LX/MVM;
 
-    .line 2842320
+    .line 2842341
     new-instance v0, LX/GPX;
 
     invoke-direct {v0}, LX/GPX;-><init>()V
 
     iput-object v0, p0, LX/MVE;->A0O:LX/GPX;
 
-    .line 2842321
+    .line 2842342
     iget-object v1, p0, LX/MVE;->A0a:Lcom/instagram/service/session/UserSession;
 
     new-instance v0, LX/MoL;
@@ -608,90 +608,90 @@
 
     iput-object v0, p0, LX/MVE;->A0E:LX/MoL;
 
-    .line 2842322
+    .line 2842343
     sput-object v2, Lcom/facebook/rtc/platform/client/sharedcontextholder/EglContextHolder;->eglBaseContext:Lorg/webrtc/EglBase$Context;
 
-    .line 2842323
+    .line 2842344
     iget-object v2, p0, LX/MVE;->A0a:Lcom/instagram/service/session/UserSession;
 
-    .line 2842324
+    .line 2842345
     const-wide v0, 0x8106d000000cd1L
 
-    .line 2842325
+    .line 2842346
     invoke-static {v3, v2, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v0
 
-    .line 2842326
+    .line 2842347
     if-eqz v0, :cond_1
 
-    .line 2842327
+    .line 2842348
     iget-object v0, p0, LX/MVE;->A08:LX/Jra;
 
     iget-object v1, p0, LX/MVE;->A0G:LX/HPN;
 
-    .line 2842328
+    .line 2842349
     iget-object v0, v0, LX/Jra;->A07:LX/Kuh;
 
     invoke-static {v1, v4}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2842329
+    .line 2842350
     iget-object v0, v0, LX/Kuh;->A02:LX/4cP;
 
-    .line 2842330
+    .line 2842351
     iget-object v0, v0, LX/4cP;->A03:LX/LlW;
 
     invoke-virtual {v0, v1}, LX/LlW;->add(Ljava/lang/Object;)Z
 
-    .line 2842331
+    .line 2842352
     :cond_1
     iget-object v0, p0, LX/MVE;->A08:LX/Jra;
 
-    .line 2842332
+    .line 2842353
     iget-object v0, v0, LX/Jra;->A07:LX/Kuh;
 
-    .line 2842333
+    .line 2842354
     iget-object v1, v0, LX/Kuh;->A02:LX/4cP;
 
-    .line 2842334
+    .line 2842355
     instance-of v0, v1, LX/Jrd;
 
     if-eqz v0, :cond_2
 
-    .line 2842335
+    .line 2842356
     iget-object v0, p0, LX/MVE;->A0I:LX/Jrb;
 
     if-eqz v0, :cond_2
 
-    .line 2842336
+    .line 2842357
     iget-object v0, v0, LX/Jrb;->A01:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v1}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 2842337
+    .line 2842358
     :cond_2
     return-void
 
-    .line 2842338
+    .line 2842359
     :cond_3
     const-wide v0, 0x810b57000016fbL
 
-    .line 2842339
+    .line 2842360
     invoke-static {v3, v6, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v0
 
-    .line 2842340
+    .line 2842361
     if-eqz v0, :cond_4
 
-    .line 2842341
+    .line 2842362
     new-instance v1, LX/MVi;
 
     invoke-direct {v1, v7}, LX/MVi;-><init>(Landroid/content/Context;)V
 
     goto/16 :goto_3
 
-    .line 2842342
+    .line 2842363
     :cond_4
     new-instance v0, LX/Esx;
 
@@ -703,19 +703,19 @@
 
     goto/16 :goto_3
 
-    .line 2842343
+    .line 2842364
     :cond_5
     move-object v0, v2
 
     goto/16 :goto_2
 
-    .line 2842344
+    .line 2842365
     :cond_6
     move-object v14, v2
 
     goto/16 :goto_1
 
-    .line 2842345
+    .line 2842366
     :cond_7
     move-object v0, v2
 

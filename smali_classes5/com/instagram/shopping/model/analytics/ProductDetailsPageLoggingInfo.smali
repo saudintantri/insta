@@ -73,7 +73,7 @@
     move-result-wide v0
 
     .line 12
-    invoke-static {v0, v1}, LX/Che;->A08(J)LX/2E0;
+    invoke-static {v0, v1}, LX/Che;->A09(J)LX/2E0;
 
     .line 13
     .line 14

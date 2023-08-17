@@ -81,12 +81,12 @@
     :cond_1
     and-int/lit16 v0, v1, 0x80
 
-    .line 2579611
+    .line 2579632
     invoke-static {v0}, LX/5We;->A1J(I)Z
 
     move-result v2
 
-    .line 2579612
+    .line 2579633
     and-int/lit16 v0, v1, 0x100
 
     if-eqz v0, :cond_2
@@ -140,101 +140,101 @@
     :cond_8
     const/high16 v0, 0x100000
 
-    .line 2579613
+    .line 2579634
     move/from16 v8, p21
 
     invoke-static {v1, v0, v8}, LX/IzK;->A1V(IIZ)Z
 
     move-result v1
 
-    .line 2579614
+    .line 2579635
     const/4 v0, 0x2
 
     invoke-static {p3, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2579615
+    .line 2579636
     invoke-direct {p0}, LX/1gD;-><init>()V
 
-    .line 2579616
+    .line 2579637
     iput-object p6, p0, LX/JcJ;->A0A:Ljava/lang/String;
 
-    .line 2579617
+    .line 2579638
     iput-object p3, p0, LX/JcJ;->A03:LX/1gS;
 
-    .line 2579618
+    .line 2579639
     move-object/from16 v0, p11
 
     iput-object v0, p0, LX/JcJ;->A0B:LX/0Xg;
 
-    .line 2579619
+    .line 2579640
     move-object/from16 v0, p7
 
     iput-object v0, p0, LX/JcJ;->A08:Ljava/lang/String;
 
-    .line 2579620
+    .line 2579641
     move-object/from16 v0, p8
 
     iput-object v0, p0, LX/JcJ;->A07:Ljava/lang/String;
 
-    .line 2579621
+    .line 2579642
     iput-object v7, p0, LX/JcJ;->A06:Ljava/lang/String;
 
-    .line 2579622
+    .line 2579643
     iput-object p4, p0, LX/JcJ;->A04:LX/1gP;
 
-    .line 2579623
+    .line 2579644
     iput-boolean v2, p0, LX/JcJ;->A0D:Z
 
-    .line 2579624
+    .line 2579645
     iput-object v6, p0, LX/JcJ;->A09:Ljava/lang/String;
 
-    .line 2579625
+    .line 2579646
     iput-object p5, p0, LX/JcJ;->A05:LX/1jb;
 
-    .line 2579626
+    .line 2579647
     iput v5, p0, LX/JcJ;->A00:I
 
-    .line 2579627
+    .line 2579648
     iput-object p1, p0, LX/JcJ;->A01:Landroid/text/TextUtils$TruncateAt;
 
-    .line 2579628
+    .line 2579649
     iput-boolean v4, p0, LX/JcJ;->A0C:Z
 
-    .line 2579629
+    .line 2579650
     iput-object p2, p0, LX/JcJ;->A02:Landroid/view/View$OnTouchListener;
 
-    .line 2579630
+    .line 2579651
     move/from16 v0, p15
 
     iput-boolean v0, p0, LX/JcJ;->A0F:Z
 
-    .line 2579631
+    .line 2579652
     move/from16 v0, p16
 
     iput-boolean v0, p0, LX/JcJ;->A0E:Z
 
-    .line 2579632
+    .line 2579653
     move/from16 v0, p17
 
     iput-boolean v0, p0, LX/JcJ;->A0K:Z
 
-    .line 2579633
+    .line 2579654
     move/from16 v0, p18
 
     iput-boolean v0, p0, LX/JcJ;->A0G:Z
 
-    .line 2579634
+    .line 2579655
     move/from16 v0, p19
 
     iput-boolean v0, p0, LX/JcJ;->A0H:Z
 
-    .line 2579635
+    .line 2579656
     iput-boolean v3, p0, LX/JcJ;->A0I:Z
 
-    .line 2579636
+    .line 2579657
     iput-boolean v1, p0, LX/JcJ;->A0J:Z
 
-    .line 2579637
+    .line 2579658
     return-void
 .end method
 

@@ -268,7 +268,7 @@
     move-result v0
 
     .line 81
-    invoke-static {v1, v0}, LX/Chf;->A0Z(Lcom/instagram/model/mediasize/ImageInfo;I)Lcom/instagram/model/mediasize/ExtendedImageUrl;
+    invoke-static {v1, v0}, LX/Chf;->A0b(Lcom/instagram/model/mediasize/ImageInfo;I)Lcom/instagram/model/mediasize/ExtendedImageUrl;
 
     .line 82
     .line 83

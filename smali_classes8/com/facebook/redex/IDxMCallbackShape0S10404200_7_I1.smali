@@ -54,12 +54,12 @@
 .method public constructor <init>(LX/2Ir;LX/2IS;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIIIIJJ)V
     .locals 3
 
-    .line 2903739
+    .line 2903760
     move/from16 v2, p19
 
     iput v2, p0, Lcom/facebook/redex/IDxMCallbackShape0S10404200_7_I1;->A0K:I
 
-    .line 2903740
+    .line 2903761
     iput-object p1, p0, Lcom/facebook/redex/IDxMCallbackShape0S10404200_7_I1;->A06:Ljava/lang/Object;
 
     iput-object p2, p0, Lcom/facebook/redex/IDxMCallbackShape0S10404200_7_I1;->A07:Ljava/lang/Object;
@@ -96,7 +96,7 @@
 
     if-eqz p19, :cond_0
 
-    .line 2903741
+    .line 2903762
     iput-object p6, p0, Lcom/facebook/redex/IDxMCallbackShape0S10404200_7_I1;->A0F:Ljava/lang/String;
 
     iput-object p7, p0, Lcom/facebook/redex/IDxMCallbackShape0S10404200_7_I1;->A0J:Ljava/lang/String;
@@ -119,13 +119,13 @@
 
     iput-object v0, p0, Lcom/facebook/redex/IDxMCallbackShape0S10404200_7_I1;->A0I:Ljava/lang/String;
 
-    .line 2903742
+    .line 2903763
     :goto_0
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 
-    .line 2903743
+    .line 2903764
     :cond_0
     iput-object p6, p0, Lcom/facebook/redex/IDxMCallbackShape0S10404200_7_I1;->A0J:Ljava/lang/String;
 

@@ -1038,7 +1038,7 @@
     move-result-object v4
 
     .line 504
-    const v0, 0x7f0700bc
+    const v0, 0x7f0700bb
 
     .line 505
     .line 506

@@ -270,7 +270,6 @@
     invoke-virtual {v0, v8}, Landroid/view/Display;->getRealMetrics(Landroid/util/DisplayMetrics;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_4
 
     .line 108
     .line 109
@@ -629,7 +628,6 @@
     goto :goto_9
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_4
 
     .line 279
     :catch_1

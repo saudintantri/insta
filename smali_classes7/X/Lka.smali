@@ -1354,7 +1354,6 @@
     :try_end_b
     .catch Ljava/lang/Exception; {:try_start_b .. :try_end_b} :catch_7
     .catch LX/KHx; {:try_start_b .. :try_end_b} :catch_8
-    .catch Ljava/lang/Exception; {:try_start_b .. :try_end_b} :catch_a
     .catchall {:try_start_b .. :try_end_b} :catchall_d
 
     .line 611
@@ -1609,7 +1608,6 @@
     :try_end_d
     .catch Ljava/lang/Exception; {:try_start_d .. :try_end_d} :catch_7
     .catch LX/KHx; {:try_start_d .. :try_end_d} :catch_8
-    .catch Ljava/lang/Exception; {:try_start_d .. :try_end_d} :catch_a
     .catchall {:try_start_d .. :try_end_d} :catchall_d
 
     .line 737
@@ -1655,7 +1653,6 @@
     :try_end_f
     .catch Ljava/lang/Exception; {:try_start_f .. :try_end_f} :catch_7
     .catch LX/KHx; {:try_start_f .. :try_end_f} :catch_8
-    .catch Ljava/lang/Exception; {:try_start_f .. :try_end_f} :catch_a
     .catchall {:try_start_f .. :try_end_f} :catchall_d
 
     .line 756
@@ -2557,7 +2554,6 @@
     move-result-object v26
     :try_end_23
     .catch Ljava/io/IOException; {:try_start_23 .. :try_end_23} :catch_3
-    .catch Ljava/io/IOException; {:try_start_23 .. :try_end_23} :catch_4
     .catch Ljava/lang/Exception; {:try_start_23 .. :try_end_23} :catch_a
     .catchall {:try_start_23 .. :try_end_23} :catchall_d
 
@@ -2776,7 +2772,6 @@
     throw v0
     :try_end_24
     .catch Ljava/io/IOException; {:try_start_24 .. :try_end_24} :catch_2
-    .catch Ljava/io/IOException; {:try_start_24 .. :try_end_24} :catch_4
     .catch Ljava/lang/Exception; {:try_start_24 .. :try_end_24} :catch_a
     .catchall {:try_start_24 .. :try_end_24} :catchall_d
 
@@ -3976,7 +3971,6 @@
     :try_end_32
     .catch Ljava/lang/Exception; {:try_start_32 .. :try_end_32} :catch_7
     .catch LX/KHx; {:try_start_32 .. :try_end_32} :catch_8
-    .catch Ljava/lang/Exception; {:try_start_32 .. :try_end_32} :catch_a
     .catchall {:try_start_32 .. :try_end_32} :catchall_d
 
     .line 1826
@@ -4149,7 +4143,6 @@
     :try_end_35
     .catch Ljava/lang/Exception; {:try_start_35 .. :try_end_35} :catch_7
     .catch LX/KHx; {:try_start_35 .. :try_end_35} :catch_8
-    .catch Ljava/lang/Exception; {:try_start_35 .. :try_end_35} :catch_a
     .catchall {:try_start_35 .. :try_end_35} :catchall_d
 
     .line 1899

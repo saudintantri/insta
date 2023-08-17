@@ -404,7 +404,6 @@
     invoke-direct {v10}, Lorg/json/JSONObject;-><init>()V
     :try_end_1
     .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_4
-    .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_5
 
     .line 71
     .line 72
@@ -614,8 +613,6 @@
     div-double v0, v0, v17
     :try_end_2
     .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_1
-    .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_4
-    .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_5
 
     .line 176
     .line 177
@@ -686,9 +683,6 @@
     goto :goto_1
     :try_end_3
     .catch Lorg/json/JSONException; {:try_start_3 .. :try_end_3} :catch_0
-    .catch Lorg/json/JSONException; {:try_start_3 .. :try_end_3} :catch_1
-    .catch Lorg/json/JSONException; {:try_start_3 .. :try_end_3} :catch_4
-    .catch Lorg/json/JSONException; {:try_start_3 .. :try_end_3} :catch_5
 
     .line 213
     :catch_0
@@ -717,8 +711,6 @@
     goto :goto_2
     :try_end_4
     .catch Lorg/json/JSONException; {:try_start_4 .. :try_end_4} :catch_1
-    .catch Lorg/json/JSONException; {:try_start_4 .. :try_end_4} :catch_4
-    .catch Lorg/json/JSONException; {:try_start_4 .. :try_end_4} :catch_5
 
     .line 224
     :catch_1
@@ -750,7 +742,6 @@
     invoke-direct {v2}, Lorg/json/JSONObject;-><init>()V
     :try_end_5
     .catch Lorg/json/JSONException; {:try_start_5 .. :try_end_5} :catch_4
-    .catch Lorg/json/JSONException; {:try_start_5 .. :try_end_5} :catch_5
 
     .line 236
     .line 237
@@ -768,8 +759,6 @@
     goto :goto_3
     :try_end_6
     .catch Lorg/json/JSONException; {:try_start_6 .. :try_end_6} :catch_2
-    .catch Lorg/json/JSONException; {:try_start_6 .. :try_end_6} :catch_4
-    .catch Lorg/json/JSONException; {:try_start_6 .. :try_end_6} :catch_5
 
     .line 244
     :catch_2
@@ -871,7 +860,6 @@
     div-double/2addr v0, v8
     :try_end_7
     .catch Lorg/json/JSONException; {:try_start_7 .. :try_end_7} :catch_4
-    .catch Lorg/json/JSONException; {:try_start_7 .. :try_end_7} :catch_5
 
     .line 292
     :try_start_8
@@ -928,8 +916,6 @@
     goto :goto_4
     :try_end_8
     .catch Lorg/json/JSONException; {:try_start_8 .. :try_end_8} :catch_3
-    .catch Lorg/json/JSONException; {:try_start_8 .. :try_end_8} :catch_4
-    .catch Lorg/json/JSONException; {:try_start_8 .. :try_end_8} :catch_5
 
     .line 321
     :cond_7
@@ -1064,7 +1050,6 @@
     goto :goto_5
     :try_end_9
     .catch Lorg/json/JSONException; {:try_start_9 .. :try_end_9} :catch_4
-    .catch Lorg/json/JSONException; {:try_start_9 .. :try_end_9} :catch_5
 
     .line 389
     :catch_4

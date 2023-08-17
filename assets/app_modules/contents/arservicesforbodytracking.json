@@ -1,8 +1,8 @@
 {
-  "AndroidManifest.xml": "4bc420ab5505096b09104ab2dff1a7500f4b0142ae73fada61385ddda395430f",
+  "AndroidManifest.xml": "8558d30c9e25af5c3eaa4943f0521772137af459adadf76d5ab37ab3c0dc084e",
   "assets/arservicesforbodytracking2.dex": "3c0282c13eab90d9793f82b03f07d7b057def687b2ba8b027ccf70efdb560c99",
-  "assets/libs.txt": "6f2b3f7aa26b8acc07ebafec430ece4c5f9d746720231fb65fdad9bdee7c800e",
-  "assets/libs.zstd": "931ec4b696003e2e4f6f95f87dd66e6c21623a29d8f8ca746507e077b8266b2d",
+  "assets/libs.txt": "8e32ac7f2a62deff858291ae2f084895514990e94b6a58bd4d4634dce2fe9c70",
+  "assets/libs.zstd": "e17cd924f1cc3803ea33cdeb93142f8a53b1a9fe6de8f84e9a4d642ba14bbd75",
   "assets/metadata.txt": "74249d60bf4001cc3008e824437a4bbb892eb264f5fa9b2b4bf31d535fe172ae",
   "assets/resources.arsc": "f06347533c1cc22b49f71e08fbc45af98475296371ea6e7e7e6f339634ac16f0"
 }

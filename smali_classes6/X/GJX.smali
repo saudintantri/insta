@@ -67,7 +67,7 @@
     move-object v8, v4
 
     .line 11
-    const v1, 0x7f0700d8
+    const v1, 0x7f0700d7
 
     .line 12
     .line 13

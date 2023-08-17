@@ -2264,7 +2264,7 @@
     .line 335
     .line 336
     .line 337
-    invoke-static {v9, v0}, LX/Che;->A01(Landroid/content/Context;I)I
+    invoke-static {v9, v0}, LX/Che;->A02(Landroid/content/Context;I)I
 
     .line 338
     .line 339
@@ -3982,7 +3982,7 @@
 
     .line 660
     .line 661
-    invoke-static {v7, v0, v1}, LX/Che;->A0G(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
+    invoke-static {v7, v0, v1}, LX/Che;->A0H(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
 
     .line 662
     .line 663
@@ -4305,7 +4305,7 @@
 
     .line 822
     .line 823
-    invoke-static {v2, v0, v1}, LX/Chf;->A0W(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
+    invoke-static {v2, v0, v1}, LX/Chf;->A0X(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
 
     .line 824
     .line 825
@@ -4317,7 +4317,7 @@
 
     .line 828
     .line 829
-    invoke-static {v1}, LX/Che;->A09(LX/1r8;)LX/2tM;
+    invoke-static {v1}, LX/Che;->A0A(LX/1r8;)LX/2tM;
 
     .line 830
     .line 831

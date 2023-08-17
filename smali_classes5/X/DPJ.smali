@@ -184,7 +184,7 @@
 
     .line 77
     .line 78
-    invoke-static {v0}, LX/Chh;->A04(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
+    invoke-static {v0}, LX/Chh;->A05(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
 
     .line 79
     .line 80
@@ -287,7 +287,7 @@
 
     .line 130
     .line 131
-    invoke-static {v2, v4}, LX/Chg;->A1F(LX/0AX;Ljava/lang/String;)V
+    invoke-static {v2, v4}, LX/Chg;->A1E(LX/0AX;Ljava/lang/String;)V
 
     .line 132
     .line 133

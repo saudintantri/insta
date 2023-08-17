@@ -25,7 +25,7 @@
     .line 5
     .line 6
     .line 7
-    invoke-static {}, LX/Chf;->A0c()LX/3t2;
+    invoke-static {}, LX/Chf;->A0e()LX/3t2;
 
     .line 8
     .line 9

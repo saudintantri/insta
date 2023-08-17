@@ -8,7 +8,7 @@
         <ImageView android:id="@id/front_picture" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="15.0dip" />
     </RelativeLayout>
     <ImageView android:id="@id/picture_glimmer" android:layout_width="58.0dip" android:layout_height="58.0dip" android:src="@drawable/direct_widget_light_gray_circle" android:scaleType="centerCrop" />
-    <TextView android:textSize="@dimen/abc_text_size_menu_header_material" android:textColor="@color/igds_primary_text" android:ellipsize="end" android:id="@id/username" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a3" android:maxLines="1" />
+    <TextView android:textSize="@dimen/abc_text_size_menu_header_material" android:textColor="@color/igds_primary_text" android:ellipsize="end" android:id="@id/username" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f1200a3" android:maxLines="1" />
     <ImageView android:id="@id/username_glimmer" android:layout_width="35.0dip" android:layout_height="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/direct_widget_light_gray_rectangle" />
     <ImageView android:id="@id/unread_indicator" android:paddingTop="2.0dip" android:visibility="invisible" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/appwidget_blue_circle" />
 </LinearLayout>

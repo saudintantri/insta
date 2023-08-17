@@ -396,7 +396,6 @@
     goto :goto_1
     :try_end_2
     .catch Ljava/lang/IllegalArgumentException; {:try_start_2 .. :try_end_2} :catch_0
-    .catch Ljava/lang/IllegalArgumentException; {:try_start_2 .. :try_end_2} :catch_6
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     .line 151
@@ -577,7 +576,6 @@
     goto :goto_2
     :try_end_4
     .catch Ljava/lang/IllegalArgumentException; {:try_start_4 .. :try_end_4} :catch_1
-    .catch Ljava/lang/IllegalArgumentException; {:try_start_4 .. :try_end_4} :catch_6
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
     .line 238
@@ -806,7 +804,6 @@
     goto :goto_3
     :try_end_6
     .catch Ljava/lang/IllegalArgumentException; {:try_start_6 .. :try_end_6} :catch_2
-    .catch Ljava/lang/IllegalArgumentException; {:try_start_6 .. :try_end_6} :catch_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
     .line 349

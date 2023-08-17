@@ -60,7 +60,7 @@
     move-result v5
 
     .line 28
-    const v0, 0x7f070155
+    const v0, 0x7f07014f
 
     .line 29
     .line 30
@@ -190,7 +190,7 @@
     .line 83
     .line 84
     .line 85
-    const v3, 0x7f070179
+    const v3, 0x7f070171
 
     .line 86
     .line 87
@@ -211,7 +211,7 @@
     .line 95
     .line 96
     .line 97
-    const v3, 0x7f0700d4
+    const v3, 0x7f0700d3
 
     .line 98
     .line 99

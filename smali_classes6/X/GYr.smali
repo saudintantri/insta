@@ -1862,7 +1862,7 @@
     .line 108
     .line 109
     .line 110
-    invoke-static {v1}, LX/Che;->A03(Z)I
+    invoke-static {v1}, LX/Che;->A04(Z)I
 
     .line 111
     .line 112
@@ -1936,7 +1936,7 @@
 
     .line 147
     :cond_5
-    invoke-static {v1}, LX/Che;->A03(Z)I
+    invoke-static {v1}, LX/Che;->A04(Z)I
 
     .line 148
     .line 149

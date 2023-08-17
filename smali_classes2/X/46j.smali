@@ -1192,7 +1192,6 @@
     :try_end_9
     .catch LX/46k; {:try_start_9 .. :try_end_9} :catch_2
     .catch Ljava/io/IOException; {:try_start_9 .. :try_end_9} :catch_2
-    .catch LX/46k; {:try_start_9 .. :try_end_9} :catch_4
 
     .line 503
     .line 504

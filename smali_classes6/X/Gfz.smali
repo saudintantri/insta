@@ -871,7 +871,7 @@
 .method public final A0R(Landroid/graphics/Canvas;Landroid/text/Spannable;Landroid/text/TextPaint;LX/2ge;FFI)V
     .locals 27
 
-    .line 2184191
+    .line 2184212
     move-object/from16 v11, p0
 
     invoke-virtual {v11}, LX/GpW;->A0P()I
@@ -880,10 +880,10 @@
 
     rem-int v2, p7, v0
 
-    .line 2184192
+    .line 2184213
     iget-object v13, v11, LX/Gfz;->A03:Ljava/util/ArrayList;
 
-    .line 2184193
+    .line 2184214
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
     move-result v0
@@ -892,15 +892,15 @@
 
     if-eqz v0, :cond_19
 
-    .line 2184194
+    .line 2184215
     invoke-static {v11}, LX/Gfz;->A00(LX/Gfz;)I
 
     move-result v0
 
-    .line 2184195
+    .line 2184216
     if-eqz v0, :cond_19
 
-    .line 2184196
+    .line 2184217
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
     move-result v0
@@ -911,12 +911,12 @@
 
     div-int/2addr v1, v0
 
-    .line 2184197
+    .line 2184218
     const/4 v3, 0x1
 
     if-lt v2, v1, :cond_0
 
-    .line 2184198
+    .line 2184219
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
     move-result v0
@@ -927,28 +927,28 @@
 
     div-int/2addr v1, v0
 
-    .line 2184199
+    .line 2184220
     if-ge v2, v1, :cond_18
 
     const/4 v4, 0x1
 
-    .line 2184200
+    .line 2184221
     :cond_0
     :goto_0
     invoke-static {v13, v3}, LX/92l;->A03(Ljava/util/List;I)I
 
     move-result v0
 
-    .line 2184201
+    .line 2184222
     invoke-static {v4, v0}, Ljava/lang/Math;->min(II)I
 
     move-result v0
 
-    .line 2184202
+    .line 2184223
     :goto_1
     move v10, v2
 
-    .line 2184203
+    .line 2184224
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
     move-result v1
@@ -959,10 +959,10 @@
 
     div-int/2addr v3, v1
 
-    .line 2184204
+    .line 2184225
     if-lt v2, v3, :cond_1
 
-    .line 2184205
+    .line 2184226
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
     move-result v1
@@ -973,25 +973,25 @@
 
     div-int/2addr v3, v1
 
-    .line 2184206
+    .line 2184227
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
     move-result v1
 
     if-ge v2, v3, :cond_17
 
-    .line 2184207
+    .line 2184228
     mul-int/lit16 v3, v1, 0x1f4
 
     iget v1, v11, LX/Gfz;->A00:I
 
     div-int/2addr v3, v1
 
-    .line 2184208
+    .line 2184229
     :goto_2
     sub-int/2addr v10, v3
 
-    .line 2184209
+    .line 2184230
     :cond_1
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
@@ -1003,10 +1003,10 @@
 
     div-int/2addr v3, v1
 
-    .line 2184210
+    .line 2184231
     if-lt v2, v3, :cond_16
 
-    .line 2184211
+    .line 2184232
     invoke-interface {v13}, Ljava/util/List;->size()I
 
     move-result v1
@@ -1017,7 +1017,7 @@
 
     if-ne v0, v1, :cond_15
 
-    .line 2184212
+    .line 2184233
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
     move-result v1
@@ -1028,7 +1028,7 @@
 
     div-int/2addr v3, v1
 
-    .line 2184213
+    .line 2184234
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
     move-result v1
@@ -1039,18 +1039,18 @@
 
     div-int/2addr v2, v1
 
-    .line 2184214
+    .line 2184235
     add-int/2addr v3, v2
 
     if-le v10, v3, :cond_15
 
-    .line 2184215
+    .line 2184236
     :goto_3
     if-eqz v18, :cond_2
 
     const/4 v0, 0x0
 
-    .line 2184216
+    .line 2184237
     :cond_2
     :goto_4
     invoke-virtual {v13, v0}, Ljava/util/AbstractList;->get(I)Ljava/lang/Object;
@@ -1059,7 +1059,7 @@
 
     check-cast v9, LX/HJ8;
 
-    .line 2184217
+    .line 2184238
     iget-object v1, v11, LX/3zO;->A0P:Landroid/text/TextPaint;
 
     move-object/from16 v25, v1
@@ -1068,32 +1068,32 @@
 
     move-result v23
 
-    .line 2184218
+    .line 2184239
     const/high16 v1, 0x40800000    # 4.0f
 
     div-float v23, v23, v1
 
-    .line 2184219
+    .line 2184240
     invoke-virtual/range {v25 .. v25}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v20
 
-    .line 2184220
+    .line 2184241
     const v1, 0x3e99999a    # 0.3f
 
     mul-float v20, v20, v1
 
-    .line 2184221
+    .line 2184242
     invoke-virtual/range {v25 .. v25}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v21
 
-    .line 2184222
+    .line 2184243
     const v1, 0x3df5c28f    # 0.12f
 
     mul-float v21, v21, v1
 
-    .line 2184223
+    .line 2184244
     iget-object v1, v11, LX/Gfz;->A05:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1115,10 +1115,10 @@
 
     check-cast v8, LX/IJw;
 
-    .line 2184224
+    .line 2184245
     if-eqz v18, :cond_a
 
-    .line 2184225
+    .line 2184246
     iget-object v6, v11, LX/Gfz;->A04:Ljava/util/List;
 
     const/4 v4, 0x0
@@ -1127,7 +1127,7 @@
 
     const/4 v7, 0x0
 
-    .line 2184226
+    .line 2184247
     :goto_6
     invoke-interface {v6}, Ljava/util/List;->size()I
 
@@ -1137,26 +1137,26 @@
 
     const/4 v3, 0x0
 
-    .line 2184227
+    .line 2184248
     :goto_7
     invoke-interface {v6, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 2184228
+    .line 2184249
     invoke-static {v1}, LX/Chb;->A06(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 2184229
+    .line 2184250
     if-ge v3, v1, :cond_4
 
-    .line 2184230
+    .line 2184251
     invoke-static {v6, v5, v3}, LX/Gfz;->A01(Ljava/util/List;II)Landroid/graphics/RectF;
 
     move-result-object v1
 
-    .line 2184231
+    .line 2184252
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
     move-result v2
@@ -1165,12 +1165,12 @@
 
     if-lez v1, :cond_3
 
-    .line 2184232
+    .line 2184253
     invoke-static {v6, v5, v3}, LX/Gfz;->A01(Ljava/util/List;II)Landroid/graphics/RectF;
 
     move-result-object v4
 
-    .line 2184233
+    .line 2184254
     move v7, v2
 
     :cond_3
@@ -1183,11 +1183,11 @@
 
     goto :goto_6
 
-    .line 2184234
+    .line 2184255
     :cond_5
     if-eqz v4, :cond_11
 
-    .line 2184235
+    .line 2184256
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
     move-result v1
@@ -1198,10 +1198,10 @@
 
     div-int/2addr v2, v1
 
-    .line 2184236
+    .line 2184257
     sub-int v3, v10, v2
 
-    .line 2184237
+    .line 2184258
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
     move-result v1
@@ -1212,12 +1212,12 @@
 
     div-int/2addr v2, v1
 
-    .line 2184238
+    .line 2184259
     sub-int/2addr v3, v2
 
     int-to-float v3, v3
 
-    .line 2184239
+    .line 2184260
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
     move-result v1
@@ -1228,19 +1228,19 @@
 
     div-int/2addr v2, v1
 
-    .line 2184240
+    .line 2184261
     int-to-float v1, v2
 
     div-float/2addr v3, v1
 
-    .line 2184241
+    .line 2184262
     iget-object v1, v11, LX/Gfz;->A02:Landroid/animation/TimeInterpolator;
 
     invoke-interface {v1, v3}, Landroid/animation/TimeInterpolator;->getInterpolation(F)F
 
     move-result v3
 
-    .line 2184242
+    .line 2184263
     invoke-virtual {v4}, Landroid/graphics/RectF;->width()F
 
     move-result v2
@@ -1251,26 +1251,26 @@
 
     mul-float/2addr v1, v2
 
-    .line 2184243
+    .line 2184264
     iget v5, v4, Landroid/graphics/RectF;->right:F
 
     sub-float/2addr v5, v2
 
     add-float/2addr v5, v1
 
-    .line 2184244
+    .line 2184265
     iget v4, v4, Landroid/graphics/RectF;->left:F
 
     add-float/2addr v4, v2
 
     sub-float/2addr v4, v1
 
-    .line 2184245
+    .line 2184266
     invoke-interface {v6}, Ljava/util/List;->listIterator()Ljava/util/ListIterator;
 
     move-result-object v12
 
-    .line 2184246
+    .line 2184267
     :cond_6
     :goto_8
     invoke-interface {v12}, Ljava/util/ListIterator;->hasNext()Z
@@ -1279,7 +1279,7 @@
 
     if-eqz v1, :cond_11
 
-    .line 2184247
+    .line 2184268
     invoke-interface {v12}, Ljava/util/ListIterator;->next()Ljava/lang/Object;
 
     move-result-object v6
@@ -1288,12 +1288,12 @@
 
     if-eqz v6, :cond_6
 
-    .line 2184248
+    .line 2184269
     invoke-interface {v6}, Ljava/util/List;->listIterator()Ljava/util/ListIterator;
 
     move-result-object v7
 
-    .line 2184249
+    .line 2184270
     :cond_7
     :goto_9
     invoke-interface {v7}, Ljava/util/ListIterator;->hasNext()Z
@@ -1302,7 +1302,7 @@
 
     if-eqz v1, :cond_9
 
-    .line 2184250
+    .line 2184271
     invoke-interface {v7}, Ljava/util/ListIterator;->next()Ljava/lang/Object;
 
     move-result-object v3
@@ -1311,21 +1311,21 @@
 
     if-eqz v3, :cond_7
 
-    .line 2184251
+    .line 2184272
     invoke-virtual {v11}, LX/3zO;->A0M()Z
 
     move-result v1
 
     if-eqz v1, :cond_8
 
-    .line 2184252
+    .line 2184273
     iget v1, v3, Landroid/graphics/RectF;->left:F
 
     invoke-static {v1, v4}, Ljava/lang/Math;->max(FF)F
 
     move-result v2
 
-    .line 2184253
+    .line 2184274
     iget v1, v3, Landroid/graphics/RectF;->right:F
 
     invoke-static {v2, v1}, Ljava/lang/Math;->min(FF)F
@@ -1334,7 +1334,7 @@
 
     iput v1, v3, Landroid/graphics/RectF;->left:F
 
-    .line 2184254
+    .line 2184275
     :goto_a
     invoke-virtual {v3}, Landroid/graphics/RectF;->width()F
 
@@ -1346,12 +1346,12 @@
 
     if-gtz v1, :cond_7
 
-    .line 2184255
+    .line 2184276
     invoke-interface {v7}, Ljava/util/ListIterator;->remove()V
 
     goto :goto_9
 
-    .line 2184256
+    .line 2184277
     :cond_8
     iget v1, v3, Landroid/graphics/RectF;->right:F
 
@@ -1359,7 +1359,7 @@
 
     move-result v2
 
-    .line 2184257
+    .line 2184278
     iget v1, v3, Landroid/graphics/RectF;->left:F
 
     invoke-static {v2, v1}, Ljava/lang/Math;->max(FF)F
@@ -1370,7 +1370,7 @@
 
     goto :goto_a
 
-    .line 2184258
+    .line 2184279
     :cond_9
     invoke-interface {v6}, Ljava/util/List;->size()I
 
@@ -1378,16 +1378,16 @@
 
     if-nez v1, :cond_6
 
-    .line 2184259
+    .line 2184280
     invoke-interface {v12}, Ljava/util/ListIterator;->remove()V
 
     goto :goto_8
 
-    .line 2184260
+    .line 2184281
     :cond_a
     iget-object v12, v9, LX/HJ8;->A00:Ljava/util/List;
 
-    .line 2184261
+    .line 2184282
     invoke-interface {v12}, Ljava/util/List;->size()I
 
     move-result v1
@@ -1396,12 +1396,12 @@
 
     if-lt v1, v2, :cond_e
 
-    .line 2184262
+    .line 2184283
     sub-int v7, v0, v2
 
     if-ltz v7, :cond_e
 
-    .line 2184263
+    .line 2184284
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
     move-result v1
@@ -1412,12 +1412,12 @@
 
     div-int/2addr v3, v1
 
-    .line 2184264
+    .line 2184285
     if-gt v10, v3, :cond_11
 
     int-to-float v4, v10
 
-    .line 2184265
+    .line 2184286
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
     move-result v1
@@ -1428,7 +1428,7 @@
 
     div-int/2addr v3, v1
 
-    .line 2184266
+    .line 2184287
     int-to-float v3, v3
 
     const/high16 v1, 0x41900000    # 18.0f
@@ -1437,12 +1437,12 @@
 
     div-float/2addr v4, v3
 
-    .line 2184267
+    .line 2184288
     iget-object v3, v11, LX/Gfz;->A02:Landroid/animation/TimeInterpolator;
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 2184268
+    .line 2184289
     invoke-static {v4, v1}, Ljava/lang/Math;->min(FF)F
 
     move-result v1
@@ -1451,12 +1451,12 @@
 
     move-result v16
 
-    .line 2184269
+    .line 2184290
     iget-object v6, v11, LX/Gfz;->A04:Ljava/util/List;
 
     const/4 v5, 0x0
 
-    .line 2184270
+    .line 2184291
     :goto_b
     invoke-interface {v12}, Ljava/util/List;->size()I
 
@@ -1464,22 +1464,22 @@
 
     if-ge v5, v1, :cond_f
 
-    .line 2184271
+    .line 2184292
     invoke-interface {v6}, Ljava/util/List;->size()I
 
     move-result v1
 
     if-lt v5, v1, :cond_b
 
-    .line 2184272
+    .line 2184293
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 2184273
+    .line 2184294
     invoke-interface {v6, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2184274
+    .line 2184295
     :cond_b
     invoke-interface {v6, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -1489,38 +1489,38 @@
 
     const/4 v3, 0x0
 
-    .line 2184275
+    .line 2184296
     :goto_c
     invoke-interface {v12, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 2184276
+    .line 2184297
     invoke-static {v1}, LX/Chb;->A06(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 2184277
+    .line 2184298
     if-ge v3, v1, :cond_d
 
-    .line 2184278
+    .line 2184299
     invoke-interface {v4}, Ljava/util/List;->size()I
 
     move-result v1
 
     if-lt v3, v1, :cond_c
 
-    .line 2184279
+    .line 2184300
     invoke-static {v12, v5, v3}, LX/Gfz;->A01(Ljava/util/List;II)Landroid/graphics/RectF;
 
     move-result-object v14
 
-    .line 2184280
+    .line 2184301
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1, v14}, Landroid/graphics/RectF;-><init>(Landroid/graphics/RectF;)V
 
-    .line 2184281
+    .line 2184302
     invoke-interface {v4, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_c
@@ -1533,7 +1533,7 @@
 
     goto :goto_b
 
-    .line 2184282
+    .line 2184303
     :cond_e
     iget-object v1, v11, LX/Gfz;->A04:Ljava/util/List;
 
@@ -1541,7 +1541,7 @@
 
     goto :goto_d
 
-    .line 2184283
+    .line 2184304
     :cond_f
     invoke-virtual {v13, v7}, Ljava/util/AbstractList;->get(I)Ljava/lang/Object;
 
@@ -1549,44 +1549,44 @@
 
     check-cast v1, LX/HJ8;
 
-    .line 2184284
+    .line 2184305
     iget-object v14, v1, LX/HJ8;->A00:Ljava/util/List;
 
-    .line 2184285
+    .line 2184306
     invoke-static {v12, v2}, LX/92l;->A03(Ljava/util/List;I)I
 
     move-result v3
 
-    .line 2184286
+    .line 2184307
     invoke-interface {v12, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v7
 
     check-cast v7, Ljava/util/List;
 
-    .line 2184287
+    .line 2184308
     invoke-static {v7, v2}, LX/92l;->A03(Ljava/util/List;I)I
 
     move-result v1
 
-    .line 2184288
+    .line 2184309
     invoke-static {v6, v3, v1}, LX/Gfz;->A01(Ljava/util/List;II)Landroid/graphics/RectF;
 
     move-result-object v6
 
-    .line 2184289
+    .line 2184310
     invoke-static {v7, v2}, LX/92l;->A03(Ljava/util/List;I)I
 
     move-result v1
 
-    .line 2184290
+    .line 2184311
     invoke-interface {v7, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Landroid/graphics/RectF;
 
-    .line 2184291
+    .line 2184312
     iget v4, v5, Landroid/graphics/RectF;->right:F
 
     iget v1, v5, Landroid/graphics/RectF;->left:F
@@ -1595,38 +1595,38 @@
 
     const/4 v1, 0x0
 
-    .line 2184292
+    .line 2184313
     invoke-interface {v14}, Ljava/util/List;->size()I
 
     move-result v3
 
     if-eqz v3, :cond_10
 
-    .line 2184293
+    .line 2184314
     invoke-static {v14, v2}, LX/92l;->A03(Ljava/util/List;I)I
 
     move-result v3
 
-    .line 2184294
+    .line 2184315
     invoke-interface {v14, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/util/List;
 
-    .line 2184295
+    .line 2184316
     invoke-static {v3, v2}, LX/92l;->A03(Ljava/util/List;I)I
 
     move-result v2
 
-    .line 2184296
+    .line 2184317
     invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Landroid/graphics/RectF;
 
-    .line 2184297
+    .line 2184318
     invoke-interface {v3}, Ljava/util/List;->size()I
 
     move-result v15
@@ -1637,7 +1637,7 @@
 
     if-ne v15, v3, :cond_10
 
-    .line 2184298
+    .line 2184319
     invoke-interface {v14}, Ljava/util/List;->size()I
 
     move-result v3
@@ -1648,7 +1648,7 @@
 
     if-ne v3, v7, :cond_10
 
-    .line 2184299
+    .line 2184320
     iget v1, v2, Landroid/graphics/RectF;->right:F
 
     iget v2, v2, Landroid/graphics/RectF;->left:F
@@ -1662,22 +1662,22 @@
 
     add-float/2addr v4, v1
 
-    .line 2184300
+    .line 2184321
     invoke-virtual {v11}, LX/3zO;->A0M()Z
 
     move-result v1
 
-    .line 2184301
+    .line 2184322
     if-eqz v1, :cond_14
 
-    .line 2184302
+    .line 2184323
     iget v1, v5, Landroid/graphics/RectF;->right:F
 
     sub-float/2addr v1, v4
 
     iput v1, v6, Landroid/graphics/RectF;->left:F
 
-    .line 2184303
+    .line 2184324
     :cond_11
     :goto_d
     iget-object v3, v11, LX/Gfz;->A04:Ljava/util/List;
@@ -1688,7 +1688,7 @@
 
     if-nez v1, :cond_12
 
-    .line 2184304
+    .line 2184325
     invoke-interface {v3}, Ljava/util/List;->size()I
 
     move-result v5
@@ -1697,7 +1697,7 @@
 
     sub-int/2addr v5, v2
 
-    .line 2184305
+    .line 2184326
     invoke-interface {v3, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -1710,56 +1710,56 @@
 
     if-nez v1, :cond_12
 
-    .line 2184306
+    .line 2184327
     invoke-interface {v3, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/util/List;
 
-    .line 2184307
+    .line 2184328
     invoke-static {v1, v2}, LX/92l;->A03(Ljava/util/List;I)I
 
     move-result v4
 
-    .line 2184308
+    .line 2184329
     invoke-static {v3, v5, v4}, LX/Gfz;->A01(Ljava/util/List;II)Landroid/graphics/RectF;
 
     move-result-object v1
 
-    .line 2184309
+    .line 2184330
     iget v2, v1, Landroid/graphics/RectF;->right:F
 
     iget-object v1, v11, LX/Gfz;->A01:Ljava/util/List;
 
-    .line 2184310
+    .line 2184331
     invoke-static {v1, v5, v4}, LX/Gfz;->A01(Ljava/util/List;II)Landroid/graphics/RectF;
 
     move-result-object v1
 
-    .line 2184311
+    .line 2184332
     iget v1, v1, Landroid/graphics/RectF;->right:F
 
     cmpl-float v1, v2, v1
 
     if-nez v1, :cond_12
 
-    .line 2184312
+    .line 2184333
     invoke-static {v3, v5, v4}, LX/Gfz;->A01(Ljava/util/List;II)Landroid/graphics/RectF;
 
     move-result-object v1
 
-    .line 2184313
+    .line 2184334
     iget v2, v1, Landroid/graphics/RectF;->left:F
 
     iget-object v1, v11, LX/Gfz;->A01:Ljava/util/List;
 
-    .line 2184314
+    .line 2184335
     invoke-static {v1, v5, v4}, LX/Gfz;->A01(Ljava/util/List;II)Landroid/graphics/RectF;
 
     move-result-object v1
 
-    .line 2184315
+    .line 2184336
     iget v1, v1, Landroid/graphics/RectF;->left:F
 
     cmpl-float v1, v2, v1
@@ -1771,7 +1771,7 @@
     :cond_12
     const/16 v24, 0x0
 
-    .line 2184316
+    .line 2184337
     :cond_13
     move-object/from16 v19, v3
 
@@ -1781,25 +1781,25 @@
 
     move-result-object v2
 
-    .line 2184317
+    .line 2184338
     invoke-virtual/range {v25 .. v25}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v1
 
-    .line 2184318
+    .line 2184339
     invoke-virtual {v8, v2, v1}, LX/IJw;->A00(Ljava/util/List;F)V
 
-    .line 2184319
+    .line 2184340
     invoke-virtual {v8}, LX/IJw;->onPreDraw()Z
 
-    .line 2184320
+    .line 2184341
     move-object/from16 v1, v26
 
     invoke-virtual {v8, v1}, LX/IJw;->ANs(Landroid/graphics/Canvas;)V
 
     goto/16 :goto_5
 
-    .line 2184321
+    .line 2184342
     :cond_14
     iget v1, v5, Landroid/graphics/RectF;->left:F
 
@@ -1809,7 +1809,7 @@
 
     goto :goto_d
 
-    .line 2184322
+    .line 2184343
     :cond_15
     const/16 v18, 0x0
 
@@ -1820,7 +1820,7 @@
 
     goto/16 :goto_4
 
-    .line 2184323
+    .line 2184344
     :cond_17
     mul-int/lit16 v3, v1, 0x45e
 
@@ -1828,22 +1828,22 @@
 
     div-int/2addr v3, v1
 
-    .line 2184324
+    .line 2184345
     sub-int v10, v2, v3
 
     add-int/lit8 v3, v0, -0x2
 
-    .line 2184325
+    .line 2184346
     invoke-static {v11}, LX/Gfz;->A00(LX/Gfz;)I
 
     move-result v1
 
-    .line 2184326
+    .line 2184347
     mul-int/2addr v3, v1
 
     goto/16 :goto_2
 
-    .line 2184327
+    .line 2184348
     :cond_18
     invoke-virtual {v11}, LX/GpW;->A0P()I
 
@@ -1855,25 +1855,25 @@
 
     div-int/2addr v1, v0
 
-    .line 2184328
+    .line 2184349
     sub-int v1, v2, v1
 
-    .line 2184329
+    .line 2184350
     invoke-static {v11}, LX/Gfz;->A00(LX/Gfz;)I
 
     move-result v0
 
-    .line 2184330
+    .line 2184351
     div-int/2addr v1, v0
 
-    .line 2184331
+    .line 2184352
     invoke-interface {v13}, Ljava/util/List;->size()I
 
     move-result v0
 
     add-int/lit8 v0, v0, -0x3
 
-    .line 2184332
+    .line 2184353
     invoke-static {v1, v0}, Ljava/lang/Math;->min(II)I
 
     move-result v0
@@ -1882,35 +1882,35 @@
 
     goto/16 :goto_0
 
-    .line 2184333
+    .line 2184354
     :cond_19
     const/4 v0, 0x0
 
     goto/16 :goto_1
 
-    .line 2184334
+    .line 2184355
     :cond_1a
     iget-object v3, v11, LX/Gfz;->A06:Ljava/util/List;
 
-    .line 2184335
+    .line 2184356
     iget-object v2, v9, LX/HJ8;->A02:LX/HNu;
 
     if-eqz v2, :cond_1b
 
-    .line 2184336
+    .line 2184357
     iget v1, v9, LX/HJ8;->A01:I
 
-    .line 2184337
+    .line 2184358
     move-object/from16 v0, v26
 
     invoke-static {v0, v3}, LX/5We;->A1B(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2184338
+    .line 2184359
     const/4 v5, 0x0
 
     const/4 v8, 0x0
 
-    .line 2184339
+    .line 2184360
     move-object v4, v0
 
     move-object v6, v2
@@ -1923,7 +1923,7 @@
 
     invoke-static/range {v4 .. v10}, LX/Hhv;->A01(Landroid/graphics/Canvas;Landroid/graphics/Paint;LX/HNu;Ljava/util/List;FFI)V
 
-    .line 2184340
+    .line 2184361
     :cond_1b
     return-void
 .end method

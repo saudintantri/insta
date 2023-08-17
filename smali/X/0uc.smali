@@ -157,7 +157,6 @@
     :try_end_1
     .catch Ljava/lang/RuntimeException; {:try_start_1 .. :try_end_1} :catch_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_1 .. :try_end_1} :catch_2
-    .catch Ljava/lang/RuntimeException; {:try_start_1 .. :try_end_1} :catch_1
 
     .line 71
     :catch_0
@@ -431,7 +430,6 @@
     goto :goto_3
     :try_end_4
     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_4 .. :try_end_4} :catch_3
-    .catch Ljava/security/NoSuchAlgorithmException; {:try_start_4 .. :try_end_4} :catch_5
 
     .line 191
     :catch_3

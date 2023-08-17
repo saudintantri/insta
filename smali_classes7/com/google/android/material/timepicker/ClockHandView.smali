@@ -502,7 +502,7 @@
 
     .line 84
     .line 85
-    invoke-static {v0, p1}, LX/Chg;->A03(FF)F
+    invoke-static {v0, p1}, LX/Chh;->A00(FF)F
 
     .line 86
     .line 87

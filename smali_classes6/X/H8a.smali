@@ -125,7 +125,7 @@
     add-float/2addr v4, v3
 
     .line 51
-    invoke-static {v4, v7}, LX/Chg;->A03(FF)F
+    invoke-static {v4, v7}, LX/Chh;->A00(FF)F
 
     .line 52
     .line 53
@@ -243,7 +243,7 @@
     add-float/2addr v3, v0
 
     .line 102
-    invoke-static {v3, v7}, LX/Chg;->A03(FF)F
+    invoke-static {v3, v7}, LX/Chh;->A00(FF)F
 
     .line 103
     .line 104

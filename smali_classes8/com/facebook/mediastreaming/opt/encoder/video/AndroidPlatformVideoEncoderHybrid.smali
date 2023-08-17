@@ -303,23 +303,23 @@
 
     invoke-static {v2, v3}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2840889
+    .line 2840910
     move-object/from16 v0, p0
 
     iget-object v7, v0, Lcom/facebook/mediastreaming/opt/encoder/video/AndroidPlatformVideoEncoderHybrid;->impl:LX/Myp;
 
-    .line 2840890
+    .line 2840911
     iput-object v2, v7, LX/Myp;->A0C:Ljava/lang/String;
 
-    .line 2840891
+    .line 2840912
     const-string v0, "prepare "
 
-    .line 2840892
+    .line 2840913
     invoke-static {v0}, LX/5Wd;->A0z(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
-    .line 2840893
+    .line 2840914
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v0, " encoder:w="
@@ -338,7 +338,7 @@
 
     invoke-virtual {v1, v9}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 2840894
+    .line 2840915
     move/from16 v10, p4
 
     move/from16 v11, p5
@@ -349,7 +349,7 @@
 
     invoke-static {v1, v10, v11, v12, v13}, LX/MHb;->A1T(Ljava/lang/StringBuilder;IIII)V
 
-    .line 2840895
+    .line 2840916
     move/from16 v14, p8
 
     invoke-virtual {v1, v14}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
@@ -370,17 +370,17 @@
 
     const-string v5, "mss:AndroidPlatformVideoEncoderImpl"
 
-    .line 2840896
+    .line 2840917
     invoke-static {v5, v1, v0}, LX/MzH;->A05(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2840897
+    .line 2840918
     iget-object v6, v7, LX/Myp;->A0B:Ljava/lang/Integer;
 
     sget-object v0, LX/001;->A00:Ljava/lang/Integer;
 
     if-eq v6, v0, :cond_0
 
-    .line 2840898
+    .line 2840919
     const-string v4, "Calling prepare when "
 
     iget-object v2, v7, LX/Myp;->A0C:Ljava/lang/String;
@@ -399,48 +399,48 @@
 
     invoke-static {v5, v1, v0}, LX/MzH;->A06(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2840899
+    .line 2840920
     return-void
 
-    .line 2840900
+    .line 2840921
     :cond_0
     iget-object v1, v7, LX/Myp;->A0L:Ljava/util/List;
 
-    .line 2840901
+    .line 2840922
     iget-object v0, v7, LX/Myp;->A0O:LX/01o;
 
     invoke-interface {v0}, LX/01o;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 2840902
+    .line 2840923
     invoke-interface {v1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2840903
+    .line 2840924
     move/from16 v1, p12
 
     iput-boolean v1, v7, LX/Myp;->A0D:Z
 
-    .line 2840904
+    .line 2840925
     move/from16 v0, p13
 
     iput-boolean v0, v7, LX/Myp;->A0F:Z
 
-    .line 2840905
+    .line 2840926
     iput-boolean v2, v7, LX/Myp;->A0E:Z
 
     if-nez p12, :cond_3
 
-    .line 2840906
+    .line 2840927
     new-instance v0, LX/N2P;
 
     invoke-direct {v0}, LX/N2P;-><init>()V
 
-    .line 2840907
+    .line 2840928
     :goto_0
     iput-object v0, v7, LX/Myp;->A0A:LX/NGx;
 
-    .line 2840908
+    .line 2840929
     iget-object v2, v7, LX/Myp;->A0M:Ljava/util/concurrent/atomic/AtomicLong;
 
     const-wide/16 v0, 0x0
@@ -449,19 +449,19 @@
 
     const/4 v0, 0x0
 
-    .line 2840909
+    .line 2840930
     iput-object v0, v7, LX/Myp;->A06:Landroid/media/MediaFormat;
 
-    .line 2840910
+    .line 2840931
     iput v3, v7, LX/Myp;->A01:I
 
-    .line 2840911
+    .line 2840932
     iput v3, v7, LX/Myp;->A03:I
 
-    .line 2840912
+    .line 2840933
     iput v3, v7, LX/Myp;->A02:I
 
-    .line 2840913
+    .line 2840934
     iget v1, v7, LX/Myp;->A00:F
 
     const/4 v0, 0x0
@@ -474,11 +474,11 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 2840914
+    .line 2840935
     :goto_1
     iput v1, v7, LX/Myp;->A00:F
 
-    .line 2840915
+    .line 2840936
     :cond_1
     move/from16 v15, p9
 
@@ -488,14 +488,14 @@
 
     invoke-virtual/range {v7 .. v17}, LX/Myp;->A05(IIIIIIFZII)V
 
-    .line 2840916
+    .line 2840937
     sget-object v0, LX/001;->A01:Ljava/lang/Integer;
 
     iput-object v0, v7, LX/Myp;->A0B:Ljava/lang/Integer;
 
     return-void
 
-    .line 2840917
+    .line 2840938
     :cond_2
     int-to-float v1, v8
 
@@ -505,7 +505,7 @@
 
     goto :goto_1
 
-    .line 2840918
+    .line 2840939
     :cond_3
     new-instance v0, LX/N2O;
 

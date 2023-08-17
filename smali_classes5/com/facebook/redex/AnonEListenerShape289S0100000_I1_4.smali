@@ -1958,7 +1958,7 @@
 
     .line 982
     .line 983
-    invoke-static {v0}, LX/Chg;->A0Q(LX/01o;)Lcom/instagram/model/shopping/Product;
+    invoke-static {v0}, LX/Chg;->A0P(LX/01o;)Lcom/instagram/model/shopping/Product;
 
     .line 984
     .line 985
@@ -2165,7 +2165,7 @@
     move-result-object v1
 
     .line 1088
-    invoke-static {v3}, LX/Chg;->A0Q(LX/01o;)Lcom/instagram/model/shopping/Product;
+    invoke-static {v3}, LX/Chg;->A0P(LX/01o;)Lcom/instagram/model/shopping/Product;
 
     .line 1089
     .line 1090

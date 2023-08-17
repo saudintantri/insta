@@ -646,7 +646,7 @@
     .line 42
     .line 43
     :cond_0
-    invoke-static {v2, v1}, LX/Che;->A04(II)Landroid/animation/ValueAnimator;
+    invoke-static {v2, v1}, LX/Che;->A05(II)Landroid/animation/ValueAnimator;
 
     .line 44
     .line 45
@@ -870,7 +870,7 @@
     .line 47
     .line 48
     .line 49
-    invoke-static {v2, v1}, LX/Che;->A04(II)Landroid/animation/ValueAnimator;
+    invoke-static {v2, v1}, LX/Che;->A05(II)Landroid/animation/ValueAnimator;
 
     .line 50
     .line 51

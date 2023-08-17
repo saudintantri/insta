@@ -631,7 +631,7 @@
     move-result v0
 
     .line 131
-    invoke-static {v0, v4}, LX/Chg;->A03(FF)F
+    invoke-static {v0, v4}, LX/Chh;->A00(FF)F
 
     .line 132
     .line 133
@@ -829,7 +829,7 @@
     move-result v0
 
     .line 222
-    invoke-static {v0, v4}, LX/Chg;->A03(FF)F
+    invoke-static {v0, v4}, LX/Chh;->A00(FF)F
 
     .line 223
     .line 224

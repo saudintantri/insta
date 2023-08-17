@@ -6704,7 +6704,7 @@
 
     .line 35
     .line 36
-    invoke-static {v11}, LX/Che;->A03(Z)I
+    invoke-static {v11}, LX/Che;->A04(Z)I
 
     .line 37
     .line 38
@@ -6729,7 +6729,7 @@
 
     .line 48
     .line 49
-    invoke-static {v11}, LX/Che;->A03(Z)I
+    invoke-static {v11}, LX/Che;->A04(Z)I
 
     .line 50
     .line 51

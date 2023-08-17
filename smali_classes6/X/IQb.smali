@@ -386,9 +386,7 @@
     :try_end_1
     .catch LX/46k; {:try_start_1 .. :try_end_1} :catch_0
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_2
     .catch Ljava/lang/RuntimeException; {:try_start_1 .. :try_end_1} :catch_3
-    .catch LX/46k; {:try_start_1 .. :try_end_1} :catch_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 170

@@ -489,24 +489,24 @@
 .method public final inflate(Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
     .locals 8
 
-    .line 271243538
+    .line 271243559
     iget-object v0, p0, LX/1kx;->A00:Landroid/graphics/drawable/Drawable;
 
     if-eqz v0, :cond_0
 
-    .line 271243539
+    .line 271243560
     invoke-virtual {v0, p1, p2, p3, p4}, Landroid/graphics/drawable/Drawable;->inflate(Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
 
-    .line 271243540
+    .line 271243561
     return-void
 
-    .line 271243541
+    .line 271243562
     :cond_0
     invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;->getEventType()I
 
     move-result v1
 
-    .line 271243542
+    .line 271243563
     invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;->getDepth()I
 
     move-result v0
@@ -518,7 +518,7 @@
     :goto_0
     if-eq v1, v6, :cond_9
 
-    .line 271243543
+    .line 271243564
     invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;->getDepth()I
 
     move-result v0
@@ -534,14 +534,14 @@
 
     if-ne v1, v0, :cond_4
 
-    .line 271243544
+    .line 271243565
     invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     move-result-object v2
 
     const-string v0, "animated-vector"
 
-    .line 271243545
+    .line 271243566
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -550,18 +550,18 @@
 
     if-eqz v0, :cond_6
 
-    .line 271243546
+    .line 271243567
     sget-object v0, LX/4ma;->A00:[I
 
-    .line 271243547
+    .line 271243568
     if-nez p4, :cond_5
 
-    .line 271243548
+    .line 271243569
     invoke-virtual {p1, p3, v0}, Landroid/content/res/Resources;->obtainAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object v4
 
-    .line 271243549
+    .line 271243570
     :goto_1
     invoke-virtual {v4, v1, v1}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -569,41 +569,41 @@
 
     if-eqz v0, :cond_3
 
-    .line 271243550
+    .line 271243571
     invoke-static {p4, p1, v0}, LX/1kw;->A00(Landroid/content/res/Resources$Theme;Landroid/content/res/Resources;I)LX/1kw;
 
     move-result-object v3
 
-    .line 271243551
+    .line 271243572
     iput-boolean v1, v3, LX/1kw;->A01:Z
 
-    .line 271243552
+    .line 271243573
     iget-object v0, p0, LX/JKo;->A03:Landroid/graphics/drawable/Drawable$Callback;
 
     invoke-virtual {v3, v0}, LX/1kw;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
 
-    .line 271243553
+    .line 271243574
     iget-object v2, p0, LX/JKo;->A00:LX/J7C;
 
     iget-object v1, v2, LX/J7C;->A02:LX/1kw;
 
     if-eqz v1, :cond_2
 
-    .line 271243554
+    .line 271243575
     const/4 v0, 0x0
 
     invoke-virtual {v1, v0}, LX/1kw;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
 
-    .line 271243555
+    .line 271243576
     :cond_2
     iput-object v3, v2, LX/J7C;->A02:LX/1kw;
 
-    .line 271243556
+    .line 271243577
     :cond_3
     :goto_2
     invoke-virtual {v4}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 271243557
+    .line 271243578
     :cond_4
     invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;->next()I
 
@@ -611,7 +611,7 @@
 
     goto :goto_0
 
-    .line 271243558
+    .line 271243579
     :cond_5
     invoke-virtual {p4, p3, v0, v1, v1}, Landroid/content/res/Resources$Theme;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -619,53 +619,53 @@
 
     goto :goto_1
 
-    .line 271243559
+    .line 271243580
     :cond_6
     const-string v0, "target"
 
-    .line 271243560
+    .line 271243581
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_4
 
-    .line 271243561
+    .line 271243582
     sget-object v0, LX/4ma;->A01:[I
 
-    .line 271243562
+    .line 271243583
     invoke-virtual {p1, p3, v0}, Landroid/content/res/Resources;->obtainAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object v4
 
-    .line 271243563
+    .line 271243584
     invoke-virtual {v4, v1}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 271243564
+    .line 271243585
     invoke-virtual {v4, v6, v1}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    .line 271243565
+    .line 271243586
     iget-object v0, p0, LX/JKo;->A02:Landroid/content/Context;
 
     if-eqz v0, :cond_8
 
-    .line 271243566
+    .line 271243587
     invoke-static {v0, v1}, Landroid/animation/AnimatorInflater;->loadAnimator(Landroid/content/Context;I)Landroid/animation/Animator;
 
     move-result-object v2
 
-    .line 271243567
+    .line 271243588
     iget-object v7, p0, LX/JKo;->A00:LX/J7C;
 
     iget-object v0, v7, LX/J7C;->A02:LX/1kw;
 
-    .line 271243568
+    .line 271243589
     iget-object v0, v0, LX/1kw;->A00:LX/4OI;
 
     iget-object v0, v0, LX/4OI;->A08:LX/4dA;
@@ -676,73 +676,73 @@
 
     move-result-object v0
 
-    .line 271243569
+    .line 271243590
     invoke-virtual {v2, v0}, Landroid/animation/Animator;->setTarget(Ljava/lang/Object;)V
 
-    .line 271243570
+    .line 271243591
     iget-object v1, v7, LX/J7C;->A03:Ljava/util/ArrayList;
 
     if-nez v1, :cond_7
 
-    .line 271243571
+    .line 271243592
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 271243572
+    .line 271243593
     iput-object v1, v7, LX/J7C;->A03:Ljava/util/ArrayList;
 
-    .line 271243573
+    .line 271243594
     invoke-static {}, LX/IzJ;->A0V()LX/06a;
 
     move-result-object v0
 
-    .line 271243574
+    .line 271243595
     iput-object v0, v7, LX/J7C;->A01:LX/06a;
 
-    .line 271243575
+    .line 271243596
     :cond_7
     invoke-virtual {v1, v2}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 271243576
+    .line 271243597
     iget-object v0, v7, LX/J7C;->A01:LX/06a;
 
     invoke-virtual {v0, v2, v3}, LX/00n;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_2
 
-    .line 271243577
+    .line 271243598
     :cond_8
     invoke-virtual {v4}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 271243578
+    .line 271243599
     const-string v0, "Context can\'t be null when inflating animators"
 
-    .line 271243579
+    .line 271243600
     invoke-static {v0}, LX/5Wd;->A0d(Ljava/lang/String;)Ljava/lang/IllegalStateException;
 
     move-result-object v0
 
-    .line 271243580
+    .line 271243601
     throw v0
 
-    .line 271243581
+    .line 271243602
     :cond_9
     iget-object v0, p0, LX/JKo;->A00:LX/J7C;
 
-    .line 271243582
+    .line 271243603
     iget-object v1, v0, LX/J7C;->A00:Landroid/animation/AnimatorSet;
 
     if-nez v1, :cond_a
 
-    .line 271243583
+    .line 271243604
     new-instance v1, Landroid/animation/AnimatorSet;
 
     invoke-direct {v1}, Landroid/animation/AnimatorSet;-><init>()V
 
     iput-object v1, v0, LX/J7C;->A00:Landroid/animation/AnimatorSet;
 
-    .line 271243584
+    .line 271243605
     :cond_a
     iget-object v0, v0, LX/J7C;->A03:Ljava/util/ArrayList;
 

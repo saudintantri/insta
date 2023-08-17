@@ -1777,7 +1777,7 @@
     move-result-object v0
 
     .line 24
-    invoke-static {v0, v1}, LX/Chj;->A0W(Landroid/content/Context;Landroid/view/View;)V
+    invoke-static {v0, v1}, LX/Chj;->A0V(Landroid/content/Context;Landroid/view/View;)V
 
     .line 25
     .line 26

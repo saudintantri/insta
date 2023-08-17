@@ -2244,7 +2244,7 @@
 
     .line 372
     .line 373
-    invoke-static {v11, v12}, LX/Chi;->A1A(LX/0AW;Lcom/instagram/service/session/UserSession;)V
+    invoke-static {v11, v12}, LX/Chi;->A1B(LX/0AW;Lcom/instagram/service/session/UserSession;)V
 
     .line 374
     .line 375
@@ -3375,7 +3375,7 @@
 
     .line 41
     .line 42
-    invoke-static {v0}, LX/Chf;->A0m(LX/1M5;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chf;->A0o(LX/1M5;)Ljava/lang/String;
 
     .line 43
     .line 44
@@ -4798,7 +4798,7 @@
 
     .line 542
     .line 543
-    invoke-static {v5, v0, v4}, LX/Che;->A0G(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
+    invoke-static {v5, v0, v4}, LX/Che;->A0H(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
 
     .line 544
     .line 545
@@ -6848,7 +6848,7 @@
 
     .line 169
     .line 170
-    invoke-static {v1}, LX/Chf;->A0r(Ljava/util/Iterator;)Ljava/lang/String;
+    invoke-static {v1}, LX/Chf;->A0s(Ljava/util/Iterator;)Ljava/lang/String;
 
     .line 171
     .line 172

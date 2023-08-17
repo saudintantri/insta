@@ -4178,7 +4178,7 @@
     .line 1034
     .line 1035
     .line 1036
-    invoke-static {v6, v0, v1}, LX/Chf;->A0y(Landroid/content/Context;Landroid/widget/ImageView;I)V
+    invoke-static {v6, v0, v1}, LX/Chf;->A0z(Landroid/content/Context;Landroid/widget/ImageView;I)V
 
     .line 1037
     .line 1038
@@ -4700,12 +4700,6 @@
     .line 1412
     .line 1413
     .line 1414
-    .line 1415
-    .line 1416
-    .line 1417
-    .line 1418
-    .line 1419
-    .line 1420
 .end method
 
 .method public final bridge synthetic onCreateViewHolder(Landroid/view/ViewGroup;I)LX/3E3;

@@ -12,7 +12,7 @@
     .locals 1
 
     .line 0
-    invoke-static {p1}, LX/Che;->A0D(Lcom/instagram/service/session/UserSession;)LX/38H;
+    invoke-static {p1}, LX/Che;->A0E(Lcom/instagram/service/session/UserSession;)LX/38H;
 
     .line 1
     .line 2
@@ -136,7 +136,7 @@
 
     .line 48
     .line 49
-    invoke-static {v4, v1, v0}, LX/Chg;->A1A(LX/0AX;LX/25W;Ljava/lang/String;)V
+    invoke-static {v4, v1, v0}, LX/Chg;->A19(LX/0AX;LX/25W;Ljava/lang/String;)V
 
     .line 50
     .line 51

@@ -443,7 +443,7 @@
 
     .line 88
     .line 89
-    invoke-static {v0}, LX/Che;->A03(Z)I
+    invoke-static {v0}, LX/Che;->A04(Z)I
 
     .line 90
     .line 91
@@ -1060,7 +1060,7 @@
     move-result v3
 
     .line 28
-    const v0, 0x7f070178
+    const v0, 0x7f070170
 
     .line 29
     .line 30
@@ -1155,7 +1155,7 @@
     .line 75
     .line 76
     .line 77
-    invoke-static {v1, p1, v2, v0}, LX/Chj;->A0X(Landroid/content/Context;LX/3D0;Lcom/instagram/ui/widget/slideouticon/SlideInAndOutIconView;I)V
+    invoke-static {v1, p1, v2, v0}, LX/Chj;->A0W(Landroid/content/Context;LX/3D0;Lcom/instagram/ui/widget/slideouticon/SlideInAndOutIconView;I)V
 
     .line 78
     .line 79

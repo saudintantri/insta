@@ -122,7 +122,7 @@
 
     const/4 v8, 0x0
 
-    .line 271243799
+    .line 271243820
     move-object/from16 v9, p0
 
     invoke-direct {v9}, LX/0SY;-><init>()V
@@ -151,10 +151,10 @@
 
     if-nez v13, :cond_2
 
-    .line 271243800
+    .line 271243821
     sget-object v14, Lcom/facebook/dcp/model/Type;->A05:Lcom/facebook/dcp/model/Type;
 
-    .line 271243801
+    .line 271243822
     :cond_2
     iput-object v14, v9, Lcom/facebook/dcp/model/DcpData;->A04:Lcom/facebook/dcp/model/Type;
 
@@ -196,10 +196,10 @@
 
     if-nez v4, :cond_5
 
-    .line 271243802
+    .line 271243823
     sget-object v12, LX/11W;->A00:LX/11W;
 
-    .line 271243803
+    .line 271243824
     :cond_5
     iput-object v12, v9, Lcom/facebook/dcp/model/DcpData;->A09:Ljava/util/List;
 
@@ -207,10 +207,10 @@
 
     if-nez v4, :cond_6
 
-    .line 271243804
+    .line 271243825
     sget-object v11, LX/11W;->A00:LX/11W;
 
-    .line 271243805
+    .line 271243826
     :cond_6
     iput-object v11, v9, Lcom/facebook/dcp/model/DcpData;->A08:Ljava/util/List;
 
@@ -218,10 +218,10 @@
 
     if-nez v4, :cond_7
 
-    .line 271243806
+    .line 271243827
     sget-object v3, LX/11W;->A00:LX/11W;
 
-    .line 271243807
+    .line 271243828
     :cond_7
     iput-object v3, v9, Lcom/facebook/dcp/model/DcpData;->A0A:Ljava/util/List;
 
@@ -229,12 +229,12 @@
 
     if-nez v3, :cond_8
 
-    .line 271243808
+    .line 271243829
     invoke-static {}, LX/Chb;->A0n()LX/155;
 
     move-result-object v2
 
-    .line 271243809
+    .line 271243830
     :cond_8
     iput-object v2, v9, Lcom/facebook/dcp/model/DcpData;->A0C:Ljava/util/Map;
 
@@ -242,12 +242,12 @@
 
     if-nez v2, :cond_9
 
-    .line 271243810
+    .line 271243831
     invoke-static {}, LX/Chb;->A0n()LX/155;
 
     move-result-object v1
 
-    .line 271243811
+    .line 271243832
     :cond_9
     iput-object v1, v9, Lcom/facebook/dcp/model/DcpData;->A0B:Ljava/util/Map;
 
@@ -255,12 +255,12 @@
 
     if-nez v1, :cond_a
 
-    .line 271243812
+    .line 271243833
     invoke-static {}, LX/Chb;->A0n()LX/155;
 
     move-result-object v0
 
-    .line 271243813
+    .line 271243834
     :cond_a
     iput-object v0, v9, Lcom/facebook/dcp/model/DcpData;->A0D:Ljava/util/Map;
 

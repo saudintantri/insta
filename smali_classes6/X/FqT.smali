@@ -134,7 +134,7 @@
 
     const/4 v1, 0x2
 
-    .line 2009414
+    .line 2009435
     move-object/from16 v4, p15
 
     move-object/from16 v17, p1
@@ -143,24 +143,24 @@
 
     invoke-static {v3, v1, v4}, LX/5We;->A18(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 2009415
+    .line 2009436
     move-object/from16 v12, p4
 
     move-object/from16 v11, p5
 
     invoke-static {v12, v11}, LX/5We;->A1E(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2009416
+    .line 2009437
     move-object/from16 v8, p9
 
     move-object/from16 v6, p12
 
     invoke-static {v6, v8}, LX/5We;->A1F(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2009417
+    .line 2009438
     const/16 v5, 0xa
 
-    .line 2009418
+    .line 2009439
     move-object/from16 v3, p16
 
     move-object/from16 v14, p2
@@ -171,17 +171,17 @@
 
     invoke-static {v5, v9, v14, v10, v3}, LX/FnE;->A0v(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2009419
+    .line 2009440
     const/16 v13, 0xe
 
-    .line 2009420
+    .line 2009441
     move-object/from16 v7, p10
 
     move-object/from16 v5, p13
 
     invoke-static {v5, v13, v7}, LX/FnC;->A1K(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 2009421
+    .line 2009442
     const/16 v15, 0x10
 
     move-object/from16 v16, p8
@@ -196,139 +196,139 @@
 
     invoke-static {v13, v15}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2009422
+    .line 2009443
     move-object/from16 v15, p0
 
     invoke-direct {v15}, Ljava/lang/Object;-><init>()V
 
-    .line 2009423
+    .line 2009444
     iput-object v0, v15, LX/FqT;->A0R:Lcom/instagram/service/session/UserSession;
 
-    .line 2009424
+    .line 2009445
     move-object/from16 v0, v17
 
     iput-object v0, v15, LX/FqT;->A08:Landroid/content/Context;
 
-    .line 2009425
+    .line 2009446
     iput-object v4, v15, LX/FqT;->A0S:LX/4US;
 
-    .line 2009426
+    .line 2009447
     move-object/from16 v0, p11
 
     iput-object v0, v15, LX/FqT;->A0c:LX/5Js;
 
-    .line 2009427
+    .line 2009448
     iput-object v12, v15, LX/FqT;->A0E:LX/6Mr;
 
-    .line 2009428
+    .line 2009449
     iput-object v11, v15, LX/FqT;->A0F:LX/55F;
 
-    .line 2009429
+    .line 2009450
     iput-object v6, v15, LX/FqT;->A0K:LX/5GO;
 
-    .line 2009430
+    .line 2009451
     iput-object v8, v15, LX/FqT;->A0I:LX/4lP;
 
-    .line 2009431
+    .line 2009452
     iput-object v9, v15, LX/FqT;->A0H:LX/10z;
 
-    .line 2009432
+    .line 2009453
     iput-object v14, v15, LX/FqT;->A0Z:Landroid/view/View;
 
-    .line 2009433
+    .line 2009454
     iput-object v10, v15, LX/FqT;->A0G:Lcom/instagram/camera/mpfacade/touch/TouchEventForwardingView;
 
-    .line 2009434
+    .line 2009455
     iput-object v3, v15, LX/FqT;->A0T:Lcom/instagram/ui/widget/shutterbutton/ShutterButton;
 
-    .line 2009435
+    .line 2009456
     iput-object v5, v15, LX/FqT;->A0d:LX/46f;
 
-    .line 2009436
+    .line 2009457
     iput-object v7, v15, LX/FqT;->A0J:Lcom/instagram/creation/capture/quickcapture/aspectratioutil/TargetViewSizeProvider;
 
-    .line 2009437
+    .line 2009458
     const v0, 0x7f0a18b2
 
-    .line 2009438
+    .line 2009459
     invoke-virtual {v14, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 2009439
+    .line 2009460
     const-string v4, "null cannot be cast to non-null type android.view.ViewStub"
 
     invoke-static {v0, v4}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2009440
+    .line 2009461
     invoke-static {v0}, LX/92l;->A0A(Ljava/lang/Object;)Landroid/view/View;
 
     move-result-object v3
 
-    .line 2009441
+    .line 2009462
     invoke-static {v1}, LX/000;->A00(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2009442
+    .line 2009463
     invoke-static {v3, v0}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v3, Landroidx/constraintlayout/widget/ConstraintLayout;
 
     iput-object v3, v15, LX/FqT;->A0C:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    .line 2009443
+    .line 2009464
     const/16 v0, 0x35
 
-    .line 2009444
+    .line 2009465
     invoke-static {v15, v0}, LX/Che;->A0Y(Ljava/lang/Object;I)LX/01o;
 
     move-result-object v0
 
-    .line 2009445
+    .line 2009466
     iput-object v0, v15, LX/FqT;->A0X:LX/01o;
 
-    .line 2009446
+    .line 2009467
     invoke-static {}, LX/FnA;->A14()Ljava/util/LinkedList;
 
     move-result-object v0
 
-    .line 2009447
+    .line 2009468
     iput-object v0, v15, LX/FqT;->A0W:Ljava/util/Queue;
 
-    .line 2009448
+    .line 2009469
     invoke-static {}, LX/FnA;->A14()Ljava/util/LinkedList;
 
     move-result-object v0
 
-    .line 2009449
+    .line 2009470
     iput-object v0, v15, LX/FqT;->A0V:Ljava/util/Queue;
 
-    .line 2009450
+    .line 2009471
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 2009451
+    .line 2009472
     iput-object v0, v15, LX/FqT;->A0U:Ljava/util/ArrayList;
 
-    .line 2009452
+    .line 2009473
     sget-object v0, LX/4UY;->A0H:LX/4UY;
 
     iput-object v0, v15, LX/FqT;->A01:LX/4UY;
 
-    .line 2009453
+    .line 2009474
     sget-object v0, LX/001;->A01:Ljava/lang/Integer;
 
     iput-object v0, v15, LX/FqT;->A02:Ljava/lang/Integer;
 
-    .line 2009454
+    .line 2009475
     iput-boolean v2, v15, LX/FqT;->A03:Z
 
-    .line 2009455
+    .line 2009476
     iget-object v6, v15, LX/FqT;->A0R:Lcom/instagram/service/session/UserSession;
 
-    .line 2009456
+    .line 2009477
     iget-object v5, v15, LX/FqT;->A08:Landroid/content/Context;
 
     const/16 v0, 0x11
@@ -341,7 +341,7 @@
 
     check-cast v5, Landroidx/fragment/app/FragmentActivity;
 
-    .line 2009457
+    .line 2009478
     new-instance v3, Lcom/facebook/redex/IDxProviderShape173S0100000_5_I1;
 
     invoke-direct {v3, v15, v2}, Lcom/facebook/redex/IDxProviderShape173S0100000_5_I1;-><init>(Ljava/lang/Object;I)V
@@ -362,44 +362,44 @@
 
     invoke-direct/range {v7 .. v12}, LX/Fru;-><init>(Landroidx/fragment/app/Fragment;Landroidx/fragment/app/FragmentActivity;LX/4iY;Lcom/instagram/service/session/UserSession;LX/01L;)V
 
-    .line 2009458
+    .line 2009479
     iput-object v0, v15, LX/FqT;->A0L:LX/Fru;
 
-    .line 2009459
+    .line 2009480
     iget-object v0, v15, LX/FqT;->A01:LX/4UY;
 
-    .line 2009460
+    .line 2009481
     iget v3, v0, LX/4UY;->A00:I
 
-    .line 2009461
+    .line 2009482
     new-instance v0, Landroidx/recyclerview/widget/GridLayoutManager;
 
     invoke-direct {v0, v3}, Landroidx/recyclerview/widget/GridLayoutManager;-><init>(I)V
 
     iput-object v0, v15, LX/FqT;->A0D:Landroidx/recyclerview/widget/GridLayoutManager;
 
-    .line 2009462
+    .line 2009483
     invoke-static/range {v16 .. v16}, LX/Chd;->A0F(LX/2tA;)Landroid/view/View;
 
     move-result-object v5
 
-    .line 2009463
+    .line 2009484
     check-cast v5, Lcom/instagram/creation/capture/quickcapture/layout/MultiTouchRecyclerView;
 
-    .line 2009464
+    .line 2009485
     iget-object v0, v15, LX/FqT;->A0D:Landroidx/recyclerview/widget/GridLayoutManager;
 
     invoke-virtual {v5, v0}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(LX/3DT;)V
 
-    .line 2009465
+    .line 2009486
     iget-object v0, v15, LX/FqT;->A0L:LX/Fru;
 
     invoke-virtual {v5, v0}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(LX/3Ax;)V
 
-    .line 2009466
+    .line 2009487
     iput-object v5, v15, LX/FqT;->A0M:Lcom/instagram/creation/capture/quickcapture/layout/MultiTouchRecyclerView;
 
-    .line 2009467
+    .line 2009488
     iget-object v0, v15, LX/FqT;->A0L:LX/Fru;
 
     new-instance v3, LX/4Mp;
@@ -412,10 +412,10 @@
 
     iput-object v0, v15, LX/FqT;->A0b:LX/4Mk;
 
-    .line 2009468
+    .line 2009489
     invoke-virtual {v0, v5}, LX/4Mk;->A0A(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    .line 2009469
+    .line 2009490
     iget-object v3, v15, LX/FqT;->A0J:Lcom/instagram/creation/capture/quickcapture/aspectratioutil/TargetViewSizeProvider;
 
     invoke-interface {v3}, Lcom/instagram/creation/capture/quickcapture/aspectratioutil/intf/NineSixteenLayoutConfig;->getHeight()I
@@ -426,7 +426,7 @@
 
     iput v0, v15, LX/FqT;->A05:F
 
-    .line 2009470
+    .line 2009491
     invoke-interface {v3}, Lcom/instagram/creation/capture/quickcapture/aspectratioutil/intf/NineSixteenLayoutConfig;->getWidth()I
 
     move-result v0
@@ -435,7 +435,7 @@
 
     iput v0, v15, LX/FqT;->A06:F
 
-    .line 2009471
+    .line 2009492
     iget-object v0, v15, LX/FqT;->A08:Landroid/content/Context;
 
     invoke-static {v0}, LX/0M8;->A00(Landroid/content/Context;)I
@@ -448,11 +448,11 @@
 
     const-wide/high16 v5, 0x3ff0000000000000L    # 1.0
 
-    .line 2009472
+    .line 2009493
     :goto_0
     iput-wide v5, v15, LX/FqT;->A04:D
 
-    .line 2009473
+    .line 2009494
     iget-object v3, v15, LX/FqT;->A0Z:Landroid/view/View;
 
     const v0, 0x7f0a187b
@@ -463,110 +463,110 @@
 
     invoke-static {v0, v4}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2009474
+    .line 2009495
     invoke-static {v0}, LX/92l;->A0A(Ljava/lang/Object;)Landroid/view/View;
 
     move-result-object v3
 
-    .line 2009475
+    .line 2009496
     const-string v0, "null cannot be cast to non-null type com.instagram.creation.photo.crop.LayoutImageView"
 
-    .line 2009476
+    .line 2009497
     invoke-static {v3, v0}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v3, Lcom/instagram/creation/photo/crop/LayoutImageView;
 
-    .line 2009477
+    .line 2009498
     iput-object v3, v15, LX/FqT;->A0Q:Lcom/instagram/creation/photo/crop/LayoutImageView;
 
-    .line 2009478
+    .line 2009499
     iget-object v3, v15, LX/FqT;->A0Z:Landroid/view/View;
 
     const v0, 0x7f0a187d
 
-    .line 2009479
+    .line 2009500
     invoke-static {v3, v0}, LX/Chb;->A0E(Landroid/view/View;I)Landroid/view/ViewStub;
 
     move-result-object v0
 
-    .line 2009480
+    .line 2009501
     iput-object v0, v15, LX/FqT;->A0a:Landroid/view/ViewStub;
 
     new-array v3, v1, [I
 
-    .line 2009481
+    .line 2009502
     iget-object v0, v15, LX/FqT;->A0T:Lcom/instagram/ui/widget/shutterbutton/ShutterButton;
 
     invoke-virtual {v0, v3}, Landroid/view/View;->getLocationOnScreen([I)V
 
-    .line 2009482
+    .line 2009503
     aget v0, v3, v2
 
     iput v0, v15, LX/FqT;->A07:I
 
-    .line 2009483
+    .line 2009504
     iget-object v3, v15, LX/FqT;->A0Z:Landroid/view/View;
 
-    .line 2009484
+    .line 2009505
     const v0, 0x7f0a0700
 
-    .line 2009485
+    .line 2009506
     invoke-static {v3, v0}, LX/5Wd;->A0I(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 2009486
+    .line 2009507
     iput-object v0, v15, LX/FqT;->A0Y:Landroid/view/View;
 
-    .line 2009487
+    .line 2009508
     iget-object v3, v15, LX/FqT;->A0Z:Landroid/view/View;
 
-    .line 2009488
+    .line 2009509
     const v0, 0x7f0a18b5
 
-    .line 2009489
+    .line 2009510
     invoke-static {v3, v0}, LX/5We;->A0H(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 2009490
+    .line 2009511
     check-cast v0, Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    .line 2009491
+    .line 2009512
     iput-object v0, v15, LX/FqT;->A0B:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    .line 2009492
+    .line 2009513
     iget-object v3, v15, LX/FqT;->A0Z:Landroid/view/View;
 
-    .line 2009493
+    .line 2009514
     const v0, 0x7f0a18b1
 
-    .line 2009494
+    .line 2009515
     invoke-static {v3, v0}, LX/5Wd;->A0I(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 2009495
+    .line 2009516
     iput-object v0, v15, LX/FqT;->A09:Landroid/view/View;
 
-    .line 2009496
+    .line 2009517
     iget-object v3, v15, LX/FqT;->A0Z:Landroid/view/View;
 
-    .line 2009497
+    .line 2009518
     const v0, 0x7f0a18b4
 
-    .line 2009498
+    .line 2009519
     invoke-static {v3, v0}, LX/5We;->A0H(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 2009499
+    .line 2009520
     check-cast v0, Lcom/instagram/creation/capture/quickcapture/layout/MultiTouchRecyclerView;
 
-    .line 2009500
+    .line 2009521
     iput-object v0, v15, LX/FqT;->A0N:Lcom/instagram/creation/capture/quickcapture/layout/MultiTouchRecyclerView;
 
-    .line 2009501
+    .line 2009522
     iget-object v3, v15, LX/FqT;->A0Z:Landroid/view/View;
 
     const v0, 0x7f0a18b0
@@ -577,25 +577,25 @@
 
     invoke-static {v0, v4}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2009502
+    .line 2009523
     invoke-static {v0}, LX/92l;->A0A(Ljava/lang/Object;)Landroid/view/View;
 
     move-result-object v3
 
-    .line 2009503
+    .line 2009524
     invoke-static {v2}, LX/000;->A00(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2009504
+    .line 2009525
     invoke-static {v3, v0}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v3, Landroid/widget/ImageView;
 
-    .line 2009505
+    .line 2009526
     iput-object v3, v15, LX/FqT;->A0A:Landroid/widget/ImageView;
 
-    .line 2009506
+    .line 2009527
     iget-object v5, v15, LX/FqT;->A08:Landroid/content/Context;
 
     iget v4, v15, LX/FqT;->A06:F
@@ -606,16 +606,16 @@
 
     invoke-direct {v0, v5, v4, v3}, LX/4yS;-><init>(Landroid/content/Context;FF)V
 
-    .line 2009507
+    .line 2009528
     iput-object v0, v15, LX/FqT;->A0O:LX/4yS;
 
-    .line 2009508
+    .line 2009529
     iget-object v5, v15, LX/FqT;->A0I:LX/4lP;
 
-    .line 2009509
+    .line 2009530
     sget-object v4, LX/580;->A0I:LX/580;
 
-    .line 2009510
+    .line 2009531
     const/4 v3, 0x0
 
     new-instance v0, Lcom/facebook/redex/IDxObserverShape278S0100000_5_I1;
@@ -624,7 +624,7 @@
 
     invoke-virtual {v5, v0, v4}, LX/4lP;->A0E(LX/4SZ;LX/580;)V
 
-    .line 2009511
+    .line 2009532
     iget-object v4, v15, LX/FqT;->A0I:LX/4lP;
 
     sget-object v3, LX/580;->A0d:LX/580;
@@ -635,49 +635,49 @@
 
     invoke-virtual {v4, v0, v3}, LX/4lP;->A0E(LX/4SZ;LX/580;)V
 
-    .line 2009512
+    .line 2009533
     iget-object v3, v15, LX/FqT;->A0I:LX/4lP;
 
-    .line 2009513
+    .line 2009534
     sget-object v2, LX/580;->A0l:LX/580;
 
-    .line 2009514
+    .line 2009535
     new-instance v0, Lcom/facebook/redex/IDxObserverShape278S0100000_5_I1;
 
     invoke-direct {v0, v15, v1}, Lcom/facebook/redex/IDxObserverShape278S0100000_5_I1;-><init>(Ljava/lang/Object;I)V
 
     invoke-virtual {v3, v0, v2}, LX/4lP;->A0E(LX/4SZ;LX/580;)V
 
-    .line 2009515
+    .line 2009536
     iget-object v0, v15, LX/FqT;->A0S:LX/4US;
 
     invoke-virtual {v0, v15}, LX/4US;->A02(LX/4KG;)V
 
-    .line 2009516
+    .line 2009537
     new-instance v1, LX/3BD;
 
     invoke-direct {v1, v13}, LX/3BD;-><init>(LX/05m;)V
 
     const-class v0, LX/4Z3;
 
-    .line 2009517
+    .line 2009538
     invoke-static {v1, v0}, LX/Chc;->A0T(LX/3BD;Ljava/lang/Class;)LX/3Ib;
 
     move-result-object v0
 
-    .line 2009518
+    .line 2009539
     check-cast v0, LX/4Z3;
 
     iput-object v0, v15, LX/FqT;->A0P:LX/4Z3;
 
-    .line 2009519
+    .line 2009540
     iget-object v3, v0, LX/4Z3;->A04:LX/3BO;
 
     const-string v0, "null cannot be cast to non-null type androidx.lifecycle.LiveData<com.instagram.util.mediacapture.Video>"
 
     invoke-static {v3, v0}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2009520
+    .line 2009541
     invoke-virtual {v13}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()LX/05g;
 
     move-result-object v2
@@ -690,22 +690,22 @@
 
     invoke-virtual {v3, v2, v0}, LX/3BP;->A06(LX/05g;LX/1Qs;)V
 
-    .line 2009521
+    .line 2009542
     iget-object v0, v15, LX/FqT;->A0d:LX/46f;
 
-    .line 2009522
+    .line 2009543
     iget-object v1, v0, LX/46f;->A03:LX/3BO;
 
-    .line 2009523
+    .line 2009544
     const/4 v0, 0x3
 
-    .line 2009524
+    .line 2009545
     invoke-static {v13, v1, v15, v0}, LX/FnC;->A17(LX/05g;LX/3BP;Ljava/lang/Object;I)V
 
-    .line 2009525
+    .line 2009546
     return-void
 
-    .line 2009526
+    .line 2009547
     :cond_0
     const-wide v5, 0x3ff553f7ced91687L    # 1.333
 

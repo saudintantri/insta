@@ -221,7 +221,7 @@
 
     .line 41
     .line 42
-    invoke-static {v0}, LX/Chh;->A0P(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
+    invoke-static {v0}, LX/Chh;->A0Q(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
 
     .line 43
     .line 44
@@ -979,7 +979,7 @@
     .line 419
     .line 420
     .line 421
-    invoke-static {v0, v1}, LX/Chj;->A02(Lcom/facebook/redex/AnonCListenerShape1S1200000_I1;I)I
+    invoke-static {v0, v1}, LX/Chj;->A01(Lcom/facebook/redex/AnonCListenerShape1S1200000_I1;I)I
 
     .line 422
     .line 423
@@ -1002,7 +1002,7 @@
     .line 431
     .line 432
     .line 433
-    invoke-static {v0, v1}, LX/Chj;->A02(Lcom/facebook/redex/AnonCListenerShape1S1200000_I1;I)I
+    invoke-static {v0, v1}, LX/Chj;->A01(Lcom/facebook/redex/AnonCListenerShape1S1200000_I1;I)I
 
     .line 434
     .line 435
@@ -4519,7 +4519,7 @@
 
     .line 2206
     .line 2207
-    invoke-static {}, LX/Chf;->A0h()Ljava/lang/String;
+    invoke-static {}, LX/Chf;->A0j()Ljava/lang/String;
 
     .line 2208
     .line 2209

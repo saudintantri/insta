@@ -956,7 +956,7 @@
     .locals 1
 
     .line 0
-    invoke-static {p1}, LX/Chg;->A05(Landroid/content/Context;)I
+    invoke-static {p1}, LX/Chg;->A04(Landroid/content/Context;)I
 
     .line 1
     .line 2
@@ -998,7 +998,7 @@
     move-result-object v1
 
     .line 4
-    const v0, 0x7f0700ed
+    const v0, 0x7f0700ec
 
     .line 5
     .line 6
@@ -1756,7 +1756,7 @@
 
     .line 79
     .line 80
-    invoke-static {v3, v5}, LX/Chf;->A0f(LX/01o;I)Ljava/lang/Object;
+    invoke-static {v3, v5}, LX/Chf;->A0h(LX/01o;I)Ljava/lang/Object;
 
     .line 81
     .line 82

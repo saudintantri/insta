@@ -135,6 +135,8 @@
     </style>
     <style name="Animation.AppCompat.Dialog" parent="@style/Base.Animation.AppCompat.Dialog" />
     <style name="Animation.AppCompat.DropDownUp" parent="@style/Base.Animation.AppCompat.DropDownUp" />
+    <item type="style" name="APKTOOL_DUMMY_19" />
+    <item type="style" name="APKTOOL_DUMMY_1a" />
     <style name="Animation.Design.BottomSheetDialog" parent="@style/Animation.AppCompat.Dialog">
         <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
@@ -293,7 +295,7 @@
         <item name="placeholder">?igdsHighlightBackground</item>
         <item name="strokeColor">?avatarInnerStroke</item>
         <item name="strokeOnOutside">true</item>
-        <item name="strokeWidth">@dimen/circular_avatar_stroke_width</item>
+        <item name="strokeWidth">@dimen/bottom_sheet_divider_height</item>
     </style>
     <style name="Avatar.ActionBar" parent="@style/Avatar">
         <item name="android:layout_width">@dimen/abc_dialog_padding_material</item>
@@ -528,6 +530,7 @@
         <item name="android:windowEnterAnimation">@anim/abc_grow_fade_in_from_bottom</item>
         <item name="android:windowExitAnimation">@anim/abc_shrink_fade_out_from_bottom</item>
     </style>
+    <item type="style" name="APKTOOL_DUMMY_6e" />
     <style name="Base.CardView" parent="@android:style/Widget">
         <item name="cardCornerRadius">@dimen/abc_control_corner_material</item>
         <item name="cardElevation">@dimen/abc_control_corner_material</item>
@@ -663,7 +666,7 @@
         <item name="TokenTextViewPillStyle">@style/TokenTextViewPill</item>
         <item name="actionBarBackgroundColor">@color/igds_loading_shimmer_light</item>
         <item name="actionBarButtonWidth">?actionBarHeight</item>
-        <item name="actionBarHeight">@dimen/instagram_default_action_bar_height</item>
+        <item name="actionBarHeight">@dimen/abc_action_bar_stacked_max_height</item>
         <item name="actionBarHeightWithShadow">@dimen/action_bar_plus_shadow_height</item>
         <item name="actionBarIconBottomSpacing">0.0dip</item>
         <item name="actionBarIconEndSpacing">0.0dip</item>
@@ -677,7 +680,7 @@
         <item name="actionBarTitleStyle">@style/igds_emphasized_title</item>
         <item name="activityAvatar">@style/Avatar.Large</item>
         <item name="activityAvatarReelRing">@style/AvatarReelRing.Large</item>
-        <item name="appName">@string/(name removed)_APKTOOL_DUPLICATENAME_0x7f12004d</item>
+        <item name="appName">@string/APKTOOL_DUPLICATE_string_0x7f12004d</item>
         <item name="backButtonIcon">@drawable/instagram_arrow_back_24</item>
         <item name="backgroundColorHighlight">@color/red_5</item>
         <item name="backgroundDrawable">@drawable/bg_simple_row</item>
@@ -769,7 +772,7 @@
         <item name="tabBarAvatarBorderSelector">@drawable/tab_avatar_border_selector</item>
         <item name="tabBarAvatarSize">@dimen/achievement_details_description_bottom_padding</item>
         <item name="tabBarBackgroundColor">@color/igds_loading_shimmer_light</item>
-        <item name="tabBarHeight">@dimen/tab_bar_height_whiteout</item>
+        <item name="tabBarHeight">@dimen/abc_action_bar_stacked_max_height</item>
         <item name="tabBarSeparatorHeight">@dimen/abc_edit_text_inset_bottom_material</item>
         <item name="textEditHintTextColor">@color/textedit_hint_color</item>
         <item name="tintPickerStyle">@style/Widget.TintPicker</item>
@@ -3705,6 +3708,7 @@
     <style name="FbPayNuxShimmerRow.Title" parent="@style/FbPayNuxShimmerRow">
         <item name="android:layout_height">@dimen/account_discovery_bottom_gap</item>
     </style>
+    <item type="style" name="APKTOOL_DUMMY_207" />
     <style name="FbPayShippingOptionsListStyle">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -3722,6 +3726,7 @@
         <item name="android:layout_marginStart">@dimen/abc_action_bar_elevation_material</item>
         <item name="android:layout_marginEnd">@dimen/abc_floating_window_z</item>
     </style>
+    <item type="style" name="APKTOOL_DUMMY_20a" />
     <style name="FbpayBannerPrimaryTextStyle">
         <item name="android:paddingLeft">@dimen/account_discovery_bottom_gap</item>
         <item name="android:paddingTop">@dimen/abc_floating_window_z</item>
@@ -4419,6 +4424,8 @@
         <item name="android:textSize">@dimen/add_payment_bottom_sheet_row_subtitle_size</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+    <item type="style" name="APKTOOL_DUMMY_26b" />
+    <item type="style" name="APKTOOL_DUMMY_26c" />
     <style name="IgPanorama" parent="@style/IgPanoramaBase">
         <item name="android:navigationBarColor">@color/igds_cta_banner_background</item>
         <item name="android:windowLightNavigationBar">true</item>
@@ -4568,6 +4575,7 @@
         <item name="android:windowAnimationStyle">@android:style/Animation</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
     </style>
+    <item type="style" name="APKTOOL_DUMMY_282" />
     <style name="IgTranslucentWindowPanavisionSoftUpdateButtons" parent="@style/IgPanorama">
         <item name="android:windowBackground">@color/fds_transparent</item>
         <item name="android:windowNoTitle">true</item>
@@ -4603,6 +4611,7 @@
         <item name="android:textColor">@drawable/button_textcolor_selector_night</item>
         <item name="android:background">@drawable/button_state_drawable_night</item>
     </style>
+    <item type="style" name="APKTOOL_DUMMY_28b" />
     <style name="IgUpdatableButtonStyle.Panavision.SoftUpdate" parent="@style/IgButton">
         <item name="android:textColor">?updatableButtonTextSelector</item>
         <item name="android:background">@drawable/button_state_drawable_panavision_soft_update</item>
@@ -4612,6 +4621,7 @@
         <item name="android:layout_width">@dimen/abc_action_bar_stacked_max_height</item>
         <item name="android:adjustViewBounds">true</item>
     </style>
+    <item type="style" name="APKTOOL_DUMMY_28e" />
     <style name="IgUpdatableButtonStyleWithDisabledState.Panavision.SoftUpdate" parent="@style/IgUpdatableButtonStyle">
         <item name="android:textColor">@drawable/button_textcolor_selector</item>
         <item name="android:background">@drawable/button_state_with_disabled_state_drawable_panavision_soft_update</item>
@@ -4704,7 +4714,6 @@
     </style>
     <style name="InThreadComposerTextArea">
         <item name="android:textColor">?textColorPrimary</item>
-        <item name="android:textColorHint">?textColorTertiary</item>
         <item name="android:textColorHint">@color/igds_secondary_text</item>
         <item name="android:ellipsize">end</item>
         <item name="android:background">@null</item>
@@ -6992,6 +7001,7 @@
     <style name="TextAppearance.AppCompat.SearchResult.Title" parent="@style/Base.TextAppearance.AppCompat.SearchResult.Title" />
     <style name="TextAppearance.AppCompat.Subhead" parent="@style/Base.TextAppearance.AppCompat.Subhead" />
     <style name="TextAppearance.AppCompat.Title" parent="@style/Base.TextAppearance.AppCompat.Title" />
+    <item type="style" name="APKTOOL_DUMMY_410" />
     <style name="TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" />
     <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle" />
     <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title" />
@@ -7002,6 +7012,8 @@
     <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Large" />
     <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Small" />
     <style name="TextAppearance.AppCompat.Widget.Switch" parent="@style/Base.TextAppearance.AppCompat.Button" />
+    <item type="style" name="APKTOOL_DUMMY_41b" />
+    <item type="style" name="APKTOOL_DUMMY_41c" />
     <style name="TextAppearance.Design.CollapsingToolbar.Expanded" parent="@style/TextAppearance.AppCompat.Display1">
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
@@ -7171,6 +7183,8 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <item type="style" name="APKTOOL_DUMMY_443" />
+    <item type="style" name="APKTOOL_DUMMY_444" />
     <style name="Theme.Design.Light.BottomSheetDialog" parent="@style/Theme.AppCompat.Light.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
@@ -7799,6 +7813,8 @@
         <item name="android:shadowDy">0.0</item>
         <item name="android:shadowRadius">7.2</item>
     </style>
+    <item type="style" name="APKTOOL_DUMMY_4b7" />
+    <item type="style" name="APKTOOL_DUMMY_4b8" />
     <style name="Widget.Design.AppBarLayout" parent="@android:style/Widget">
         <item name="android:background">?colorPrimary</item>
         <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
@@ -8857,21 +8873,29 @@
         <item name="android:textSize">12.0sp</item>
         <item name="android:textColor">@color/grey_6</item>
     </style>
-    <style name="APKTOOL_DUMMY_19" />
-    <style name="APKTOOL_DUMMY_1a" />
-    <style name="APKTOOL_DUMMY_6e" />
-    <style name="APKTOOL_DUMMY_207" />
-    <style name="APKTOOL_DUMMY_20a" />
-    <style name="APKTOOL_DUMMY_26b" />
-    <style name="APKTOOL_DUMMY_26c" />
-    <style name="APKTOOL_DUMMY_282" />
-    <style name="APKTOOL_DUMMY_28b" />
-    <style name="APKTOOL_DUMMY_28e" />
-    <style name="APKTOOL_DUMMY_410" />
-    <style name="APKTOOL_DUMMY_41b" />
-    <style name="APKTOOL_DUMMY_41c" />
-    <style name="APKTOOL_DUMMY_443" />
-    <style name="APKTOOL_DUMMY_444" />
-    <style name="APKTOOL_DUMMY_4b7" />
-    <style name="APKTOOL_DUMMY_4b8" />
+    <style name="InstanderFollow">
+        <item name="android:textColor">#ff616161</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="DfInstagramPreference" parent="@style/IgPanorama">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorAccent">@color/blue_5</item>
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="dialogCornerRadius">?android:dialogCornerRadius</item>
+    </style>
 </resources>

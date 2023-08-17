@@ -322,7 +322,7 @@
     const/4 v2, 0x3
 
     .line 116
-    invoke-static {}, LX/Chg;->A0z()LX/1BX;
+    invoke-static {}, LX/Chg;->A0y()LX/1BX;
 
     .line 117
     .line 118

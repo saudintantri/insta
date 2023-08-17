@@ -200,7 +200,7 @@
     .line 50
     .line 51
     .line 52
-    invoke-static {p1, p2}, LX/Chi;->A0k(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
+    invoke-static {p1, p2}, LX/Chi;->A0m(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
 
     .line 53
     .line 54

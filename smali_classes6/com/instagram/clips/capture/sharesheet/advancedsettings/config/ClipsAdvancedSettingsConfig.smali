@@ -94,117 +94,117 @@
 
     invoke-static {p3, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2101852
+    .line 2101873
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 2101853
+    .line 2101874
     iput-boolean p9, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0L:Z
 
-    .line 2101854
+    .line 2101875
     iput-boolean p10, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0F:Z
 
-    .line 2101855
+    .line 2101876
     iput-boolean p11, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A06:Z
 
-    .line 2101856
+    .line 2101877
     iput-boolean p12, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0M:Z
 
-    .line 2101857
+    .line 2101878
     iput-boolean p13, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0N:Z
 
-    .line 2101858
+    .line 2101879
     iput-boolean p14, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0K:Z
 
-    .line 2101859
+    .line 2101880
     move/from16 v0, p15
 
     iput-boolean v0, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0J:Z
 
-    .line 2101860
+    .line 2101881
     move/from16 v0, p16
 
     iput-boolean v0, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0B:Z
 
-    .line 2101861
+    .line 2101882
     iput-object p6, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0O:Ljava/lang/String;
 
-    .line 2101862
+    .line 2101883
     iput-object p7, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0P:Ljava/lang/String;
 
-    .line 2101863
+    .line 2101884
     iput-object p4, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A03:Ljava/lang/Boolean;
 
-    .line 2101864
+    .line 2101885
     move/from16 v0, p17
 
     iput-boolean v0, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0D:Z
 
-    .line 2101865
+    .line 2101886
     iput-object p8, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A05:Ljava/util/List;
 
-    .line 2101866
+    .line 2101887
     iput-object p2, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A01:Lcom/instagram/brandedcontent/model/BrandedContentProjectMetadata;
 
-    .line 2101867
+    .line 2101888
     iput-object p1, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A00:Lcom/instagram/brandedcontent/model/BrandedContentGatingInfo;
 
-    .line 2101868
+    .line 2101889
     move/from16 v0, p18
 
     iput-boolean v0, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0I:Z
 
-    .line 2101869
+    .line 2101890
     iput-object p3, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A02:Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsFanClubConfig;
 
-    .line 2101870
+    .line 2101891
     move/from16 v0, p19
 
     iput-boolean v0, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0R:Z
 
-    .line 2101871
+    .line 2101892
     move/from16 v0, p20
 
     iput-boolean v0, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0Q:Z
 
-    .line 2101872
+    .line 2101893
     move/from16 v0, p21
 
     iput-boolean v0, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0G:Z
 
-    .line 2101873
+    .line 2101894
     iput-object p5, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A04:Ljava/lang/Integer;
 
-    .line 2101874
+    .line 2101895
     move/from16 v0, p22
 
     iput-boolean v0, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A07:Z
 
-    .line 2101875
+    .line 2101896
     move/from16 v0, p23
 
     iput-boolean v0, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A08:Z
 
-    .line 2101876
+    .line 2101897
     move/from16 v0, p24
 
     iput-boolean v0, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0C:Z
 
-    .line 2101877
+    .line 2101898
     move/from16 v0, p25
 
     iput-boolean v0, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A09:Z
 
-    .line 2101878
+    .line 2101899
     move/from16 v0, p26
 
     iput-boolean v0, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0E:Z
 
-    .line 2101879
+    .line 2101900
     move/from16 v0, p27
 
     iput-boolean v0, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0H:Z
 
-    .line 2101880
+    .line 2101901
     move/from16 v0, p28
 
     iput-boolean v0, p0, Lcom/instagram/clips/capture/sharesheet/advancedsettings/config/ClipsAdvancedSettingsConfig;->A0A:Z

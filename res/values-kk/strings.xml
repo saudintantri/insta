@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120004">Мекенжай</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120009">Браузерді жабу</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000a">%1$s құрылғыңыздың камерасын пайдаланғысы келеді.</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000b">%1$s құрылғыңыздың геодеректерін пайдаланғысы келеді.</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000c">Рұқсат беру</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Блоктау</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000e">Бұл сайтқа арналған қауіпсіздік сертификатына қатысты мәселе туындады</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120010">Қауіпсіздік қатесі</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Қауіпсіздік кілті</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Растау</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002e">ОК</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">Электрондық пошта</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003b">Бұл техникалық қатеге байланысты болуы мүмкін. Оны түзетіп жатырмыз. Осы бетті қайта жүктеп көріңіз.</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003c">Жаңарту</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003d">Дәл қазір бет қолжетімді емес</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Тегіңіз</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003f">Бетті жүктеу мүмкін емес</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120041">%1$s қолданбасында ашу</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Қосымша опциялар</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Есіміңіз</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120058">Атауы</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f1200a2">Телефон</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120004">Мекенжай</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120009">Браузерді жабу</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12000a">%1$s құрылғыңыздың камерасын пайдаланғысы келеді.</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12000b">%1$s құрылғыңыздың геодеректерін пайдаланғысы келеді.</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12000c">Рұқсат беру</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12000d">Блоктау</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12000e">Бұл сайтқа арналған қауіпсіздік сертификатына қатысты мәселе туындады</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120010">Қауіпсіздік қатесі</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120015">Қауіпсіздік кілті</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12002c">Растау</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12002e">ОК</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003a">Электрондық пошта</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003b">Бұл техникалық қатеге байланысты болуы мүмкін. Оны түзетіп жатырмыз. Осы бетті қайта жүктеп көріңіз.</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003c">Жаңарту</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003d">Дәл қазір бет қолжетімді емес</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003e">Тегіңіз</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003f">Бетті жүктеу мүмкін емес</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120041">%1$s қолданбасында ашу</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120042">Қосымша опциялар</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120043">Есіміңіз</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120058">Атауы</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f1200a2">Телефон</string>
 </resources>

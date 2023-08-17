@@ -623,7 +623,7 @@
     move-result-object v3
 
     .line 81
-    invoke-static {}, LX/Chg;->A0C()Lcom/facebook/quicklog/MarkerEditor;
+    invoke-static {}, LX/Chg;->A0B()Lcom/facebook/quicklog/MarkerEditor;
 
     .line 82
     .line 83
@@ -861,7 +861,7 @@
     move-result-object v3
 
     .line 69
-    invoke-static {}, LX/Chg;->A0C()Lcom/facebook/quicklog/MarkerEditor;
+    invoke-static {}, LX/Chg;->A0B()Lcom/facebook/quicklog/MarkerEditor;
 
     .line 70
     .line 71
@@ -1124,7 +1124,7 @@
     move-result-object v2
 
     .line 94
-    invoke-static {}, LX/Chg;->A0C()Lcom/facebook/quicklog/MarkerEditor;
+    invoke-static {}, LX/Chg;->A0B()Lcom/facebook/quicklog/MarkerEditor;
 
     .line 95
     .line 96
@@ -1323,7 +1323,7 @@
     move-result-object v2
 
     .line 68
-    invoke-static {}, LX/Chg;->A0C()Lcom/facebook/quicklog/MarkerEditor;
+    invoke-static {}, LX/Chg;->A0B()Lcom/facebook/quicklog/MarkerEditor;
 
     .line 69
     .line 70

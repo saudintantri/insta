@@ -237,7 +237,7 @@
 
     .line 99
     .line 100
-    invoke-static {v5, v4}, LX/Chi;->A0k(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
+    invoke-static {v5, v4}, LX/Chi;->A0m(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
 
     .line 101
     .line 102

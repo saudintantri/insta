@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <anim name="APKTOOL_DUMMY_4" />
-    <anim name="APKTOOL_DUMMY_5" />
-    <anim name="APKTOOL_DUMMY_1d" />
-    <anim name="APKTOOL_DUMMY_1e" />
-    <anim name="APKTOOL_DUMMY_4e" />
-    <anim name="APKTOOL_DUMMY_5d" />
-    <anim name="APKTOOL_DUMMY_5f" />
-    <anim name="APKTOOL_DUMMY_60" />
+    <item type="anim" name="APKTOOL_DUMMY_4" />
+    <item type="anim" name="APKTOOL_DUMMY_5" />
+    <item type="anim" name="APKTOOL_DUMMY_1d" />
+    <item type="anim" name="APKTOOL_DUMMY_1e" />
+    <item type="anim" name="APKTOOL_DUMMY_4e" />
+    <item type="anim" name="APKTOOL_DUMMY_5d" />
+    <item type="anim" name="APKTOOL_DUMMY_5f" />
+    <item type="anim" name="APKTOOL_DUMMY_60" />
 </resources>

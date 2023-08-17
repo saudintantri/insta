@@ -103,7 +103,7 @@
 
     const/4 v4, 0x0
 
-    .line 1345083110
+    .line 1345083131
     move-object v0, p0
 
     move-object v1, p1
@@ -124,7 +124,7 @@
 
     const/4 v3, 0x1
 
-    .line 1076647652
+    .line 1076647673
     move-object v0, p0
 
     move-object v1, p1
@@ -147,7 +147,7 @@
 
     const/4 v5, 0x0
 
-    .line 808212184
+    .line 808212205
     move-object v0, p0
 
     move-object v1, p1
@@ -223,54 +223,54 @@
 .method public constructor <init>(Lorg/webrtc/EglBase$Context;ZZZZZZLorg/webrtc/Predicate;)V
     .locals 1
 
-    .line 539776687
+    .line 539776708
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 539776688
+    .line 539776709
     iput v0, p0, Lorg/webrtc/HardwareVideoEncoderFactory;->periodicKeyFrameInterval:I
 
     const/4 v0, 0x0
 
-    .line 539776689
+    .line 539776710
     iput-boolean v0, p0, Lorg/webrtc/HardwareVideoEncoderFactory;->addH264HighProfileByDefault:Z
 
-    .line 539776690
+    .line 539776711
     instance-of v0, p1, Lorg/webrtc/EglBase14$Context;
 
     if-eqz v0, :cond_0
 
-    .line 539776691
+    .line 539776712
     check-cast p1, Lorg/webrtc/EglBase14$Context;
 
     :goto_0
     iput-object p1, p0, Lorg/webrtc/HardwareVideoEncoderFactory;->sharedContext:Lorg/webrtc/EglBase14$Context;
 
-    .line 539776692
+    .line 539776713
     iput-boolean p6, p0, Lorg/webrtc/HardwareVideoEncoderFactory;->enableMTKH264Encoder:Z
 
-    .line 539776693
+    .line 539776714
     iput-boolean p7, p0, Lorg/webrtc/HardwareVideoEncoderFactory;->enableMTKH265Encoder:Z
 
-    .line 539776694
+    .line 539776715
     iput-boolean p2, p0, Lorg/webrtc/HardwareVideoEncoderFactory;->enableIntelVp8Encoder:Z
 
-    .line 539776695
+    .line 539776716
     iput-boolean p3, p0, Lorg/webrtc/HardwareVideoEncoderFactory;->enableExynosVp8Encoder:Z
 
-    .line 539776696
+    .line 539776717
     iput-boolean p4, p0, Lorg/webrtc/HardwareVideoEncoderFactory;->enableH264HighProfile:Z
 
-    .line 539776697
+    .line 539776718
     iput-boolean p5, p0, Lorg/webrtc/HardwareVideoEncoderFactory;->addH264HighProfileByDefault:Z
 
-    .line 539776698
+    .line 539776719
     iput-object p8, p0, Lorg/webrtc/HardwareVideoEncoderFactory;->codecAllowedPredicate:Lorg/webrtc/Predicate;
 
     return-void
 
-    .line 539776699
+    .line 539776720
     :cond_0
     const/4 p1, 0x0
 

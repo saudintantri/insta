@@ -635,7 +635,6 @@
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catch Ljava/lang/NumberFormatException; {:try_start_1 .. :try_end_1} :catch_0
     .catch Ljava/lang/NullPointerException; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_6
     .catchall {:try_start_1 .. :try_end_1} :catchall_2
 
     .line 298
@@ -704,7 +703,6 @@
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
     .catch Ljava/lang/NumberFormatException; {:try_start_3 .. :try_end_3} :catch_1
     .catch Ljava/lang/NullPointerException; {:try_start_3 .. :try_end_3} :catch_1
-    .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_6
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
 
     .line 326
@@ -761,7 +759,6 @@
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_2
     .catch Ljava/lang/NullPointerException; {:try_start_5 .. :try_end_5} :catch_2
     .catch Ljava/lang/IllegalArgumentException; {:try_start_5 .. :try_end_5} :catch_2
-    .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_6
     .catchall {:try_start_5 .. :try_end_5} :catchall_2
 
     .line 348
@@ -814,7 +811,6 @@
     .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_3
     .catch Ljava/lang/NullPointerException; {:try_start_7 .. :try_end_7} :catch_3
     .catch Ljava/lang/IllegalArgumentException; {:try_start_7 .. :try_end_7} :catch_3
-    .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_6
     .catchall {:try_start_7 .. :try_end_7} :catchall_2
 
     .line 368
@@ -887,7 +883,6 @@
     .catch Ljava/io/IOException; {:try_start_9 .. :try_end_9} :catch_4
     .catch Ljava/lang/NullPointerException; {:try_start_9 .. :try_end_9} :catch_4
     .catch Ljava/lang/IllegalArgumentException; {:try_start_9 .. :try_end_9} :catch_4
-    .catch Ljava/io/IOException; {:try_start_9 .. :try_end_9} :catch_6
     .catchall {:try_start_9 .. :try_end_9} :catchall_2
 
     .line 398
@@ -1187,7 +1182,6 @@
     invoke-direct {v6, v0}, Ljava/io/ObjectOutputStream;-><init>(Ljava/io/OutputStream;)V
     :try_end_b
     .catch Ljava/io/IOException; {:try_start_b .. :try_end_b} :catch_5
-    .catch Ljava/io/IOException; {:try_start_b .. :try_end_b} :catch_6
     .catchall {:try_start_b .. :try_end_b} :catchall_2
 
     .line 542
@@ -1619,7 +1613,6 @@
     goto :goto_11
     :try_end_d
     .catch Ljava/io/IOException; {:try_start_d .. :try_end_d} :catch_5
-    .catch Ljava/io/IOException; {:try_start_d .. :try_end_d} :catch_6
     .catchall {:try_start_d .. :try_end_d} :catchall_2
 
     .line 752
@@ -1640,7 +1633,6 @@
     throw v0
     :try_end_f
     .catch Ljava/io/IOException; {:try_start_f .. :try_end_f} :catch_5
-    .catch Ljava/io/IOException; {:try_start_f .. :try_end_f} :catch_6
     .catchall {:try_start_f .. :try_end_f} :catchall_2
 
     .line 757

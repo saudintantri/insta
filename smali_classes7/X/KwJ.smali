@@ -172,7 +172,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0}, LX/Chf;->A0z(Landroid/content/SharedPreferences;)V
+    invoke-static {v0}, LX/Chf;->A10(Landroid/content/SharedPreferences;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 

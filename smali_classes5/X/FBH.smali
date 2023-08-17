@@ -108,7 +108,7 @@
     const/4 v0, 0x0
 
     .line 12
-    invoke-static {v4, v3, v0}, LX/Che;->A02(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
+    invoke-static {v4, v3, v0}, LX/Che;->A03(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
 
     .line 13
     .line 14

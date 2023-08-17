@@ -161,7 +161,7 @@
 
     .line 65
     .line 66
-    invoke-static {v1}, LX/Chf;->A0k(Lcom/instagram/common/typedurl/ImageUrl;)Ljava/lang/String;
+    invoke-static {v1}, LX/Chf;->A0m(Lcom/instagram/common/typedurl/ImageUrl;)Ljava/lang/String;
 
     .line 67
     .line 68
@@ -353,7 +353,7 @@
 
     .line 160
     .line 161
-    invoke-static {v0}, LX/Chf;->A0k(Lcom/instagram/common/typedurl/ImageUrl;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chf;->A0m(Lcom/instagram/common/typedurl/ImageUrl;)Ljava/lang/String;
 
     .line 162
     .line 163
@@ -622,7 +622,7 @@
 
     .line 293
     .line 294
-    invoke-static {v0}, LX/Chf;->A0k(Lcom/instagram/common/typedurl/ImageUrl;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chf;->A0m(Lcom/instagram/common/typedurl/ImageUrl;)Ljava/lang/String;
 
     .line 295
     .line 296

@@ -345,7 +345,7 @@
 
     .line 138
     .line 139
-    invoke-static {v4}, LX/Chi;->A0P(LX/1iX;)LX/39m;
+    invoke-static {v4}, LX/Chi;->A0Q(LX/1iX;)LX/39m;
 
     .line 140
     .line 141

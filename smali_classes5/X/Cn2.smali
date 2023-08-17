@@ -1023,7 +1023,7 @@
     .line 83
     .line 84
     .line 85
-    invoke-static {v2, v1}, LX/Chf;->A15(Landroid/widget/EditText;Ljava/lang/String;)V
+    invoke-static {v2, v1}, LX/Chf;->A16(Landroid/widget/EditText;Ljava/lang/String;)V
 
     .line 86
     .line 87

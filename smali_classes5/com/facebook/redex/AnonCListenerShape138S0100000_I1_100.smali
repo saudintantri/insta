@@ -273,7 +273,7 @@
     move-result-object v0
 
     .line 118
-    invoke-static {v0, v9, v10}, LX/Chi;->A0T(LX/6z0;Ljava/lang/Object;I)LX/6z1;
+    invoke-static {v0, v9, v10}, LX/Chi;->A0U(LX/6z0;Ljava/lang/Object;I)LX/6z1;
 
     .line 119
     .line 120

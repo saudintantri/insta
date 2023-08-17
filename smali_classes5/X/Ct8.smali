@@ -72,7 +72,7 @@
     .line 268435480
     .line 268435481
     .line 268435482
-    invoke-static {}, LX/Chf;->A0a()Lcom/instagram/model/shopping/productfeed/ShoppingModuleLoggingInfo;
+    invoke-static {}, LX/Chf;->A0c()Lcom/instagram/model/shopping/productfeed/ShoppingModuleLoggingInfo;
 
     .line 268435483
     .line 268435484

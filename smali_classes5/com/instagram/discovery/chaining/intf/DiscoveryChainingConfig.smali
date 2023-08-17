@@ -84,125 +84,125 @@
 .method public constructor <init>(Landroid/os/Bundle;Lcom/instagram/discovery/chaining/model/DiscoveryChainingItem;Lcom/instagram/explore/topiccluster/ExploreTopicCluster;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/HashMap;ZZZZZZZZZ)V
     .locals 1
 
-    .line 1667238
+    .line 1667236
     invoke-static {p2, p8}, LX/5We;->A1C(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1667239
+    .line 1667237
     invoke-static {p9, p10}, LX/92p;->A1R(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1667240
+    .line 1667238
     const/4 v0, 0x5
 
     invoke-static {p11, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1667241
+    .line 1667239
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1667242
+    .line 1667240
     iput-object p2, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A01:Lcom/instagram/discovery/chaining/model/DiscoveryChainingItem;
 
-    .line 1667243
+    .line 1667241
     iput-object p8, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A07:Ljava/lang/String;
 
-    .line 1667244
+    .line 1667242
     iput-object p9, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A08:Ljava/lang/String;
 
-    .line 1667245
+    .line 1667243
     iput-object p10, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0D:Ljava/lang/String;
 
-    .line 1667246
+    .line 1667244
     iput-object p11, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0A:Ljava/lang/String;
 
-    .line 1667247
+    .line 1667245
     move/from16 v0, p19
 
     iput-boolean v0, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0J:Z
 
-    .line 1667248
+    .line 1667246
     move/from16 v0, p20
 
     iput-boolean v0, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0I:Z
 
-    .line 1667249
+    .line 1667247
     move/from16 v0, p21
 
     iput-boolean v0, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0P:Z
 
-    .line 1667250
+    .line 1667248
     move/from16 v0, p22
 
     iput-boolean v0, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0Q:Z
 
-    .line 1667251
+    .line 1667249
     move/from16 v0, p23
 
     iput-boolean v0, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0N:Z
 
-    .line 1667252
+    .line 1667250
     move/from16 v0, p24
 
     iput-boolean v0, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0M:Z
 
-    .line 1667253
+    .line 1667251
     move/from16 v0, p25
 
     iput-boolean v0, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0K:Z
 
-    .line 1667254
+    .line 1667252
     iput-object p3, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A02:Lcom/instagram/explore/topiccluster/ExploreTopicCluster;
 
-    .line 1667255
+    .line 1667253
     iput-object p1, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A00:Landroid/os/Bundle;
 
-    .line 1667256
+    .line 1667254
     iput-object p12, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0B:Ljava/lang/String;
 
-    .line 1667257
+    .line 1667255
     iput-object p13, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0G:Ljava/lang/String;
 
-    .line 1667258
+    .line 1667256
     iput-object p4, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A06:Ljava/lang/Integer;
 
-    .line 1667259
+    .line 1667257
     iput-object p14, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0E:Ljava/lang/String;
 
-    .line 1667260
+    .line 1667258
     move-object/from16 v0, p18
 
     iput-object v0, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0H:Ljava/util/HashMap;
 
-    .line 1667261
+    .line 1667259
     iput-object p5, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A04:Ljava/lang/Integer;
 
-    .line 1667262
+    .line 1667260
     iput-object p6, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A03:Ljava/lang/Integer;
 
-    .line 1667263
+    .line 1667261
     move-object/from16 v0, p15
 
     iput-object v0, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0F:Ljava/lang/String;
 
-    .line 1667264
+    .line 1667262
     move-object/from16 v0, p16
 
     iput-object v0, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0C:Ljava/lang/String;
 
-    .line 1667265
+    .line 1667263
     move/from16 v0, p26
 
     iput-boolean v0, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0O:Z
 
-    .line 1667266
+    .line 1667264
     move/from16 v0, p27
 
     iput-boolean v0, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A0L:Z
 
-    .line 1667267
+    .line 1667265
     move-object/from16 v0, p17
 
     iput-object v0, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A09:Ljava/lang/String;
 
-    .line 1667268
+    .line 1667266
     iput-object p7, p0, Lcom/instagram/discovery/chaining/intf/DiscoveryChainingConfig;->A05:Ljava/lang/Integer;
 
     return-void
@@ -482,7 +482,7 @@
 
     .line 142
     :cond_1
-    invoke-static {p1, v0}, LX/Chg;->A0u(Landroid/os/Parcel;Ljava/util/AbstractMap;)Ljava/util/Iterator;
+    invoke-static {p1, v0}, LX/Chg;->A0t(Landroid/os/Parcel;Ljava/util/AbstractMap;)Ljava/util/Iterator;
 
     .line 143
     .line 144
@@ -503,7 +503,7 @@
 
     .line 151
     .line 152
-    invoke-static {p1, v1}, LX/Chg;->A18(Landroid/os/Parcel;Ljava/util/Iterator;)V
+    invoke-static {p1, v1}, LX/Chg;->A17(Landroid/os/Parcel;Ljava/util/Iterator;)V
 
     .line 153
     .line 154

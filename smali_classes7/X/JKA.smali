@@ -109,7 +109,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v0}, LX/Chg;->A03(FF)F
+    invoke-static {v1, v0}, LX/Chh;->A00(FF)F
 
     .line 18
     .line 19

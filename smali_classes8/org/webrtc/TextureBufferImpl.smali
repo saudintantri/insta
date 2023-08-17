@@ -248,7 +248,7 @@
 .method public constructor <init>(IILorg/webrtc/VideoFrame$TextureBuffer$Type;ILandroid/graphics/Matrix;Landroid/os/Handler;Lorg/webrtc/YuvConverter;Lorg/webrtc/TextureBufferImpl$RefCountMonitor;)V
     .locals 11
 
-    .line 539776700
+    .line 539776721
     move-object v0, p0
 
     move v1, p1

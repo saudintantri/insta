@@ -882,12 +882,9 @@
     .line 275
     .line 276
     const/4 v5, 0x0
-    :try_end_2
-    .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_1
 
     .line 277
     :goto_a
-    :try_start_3
     invoke-virtual {v7}, Lorg/json/JSONArray;->length()I
 
     .line 278
@@ -906,12 +903,11 @@
     .line 285
     .line 286
     move-result-object v4
-    :try_end_3
-    .catch Lorg/json/JSONException; {:try_start_3 .. :try_end_3} :catch_1
-    .catch Lorg/json/JSONException; {:try_start_3 .. :try_end_3} :catch_1
+    :try_end_2
+    .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_1
 
     .line 287
-    :try_start_4
+    :try_start_3
     iget-object v0, v6, LX/2oj;->A00:Ljava/util/Map;
 
     .line 288
@@ -994,10 +990,8 @@
 
     .line 327
     if-nez v0, :cond_c
-    :try_end_4
-    .catch Lorg/json/JSONException; {:try_start_4 .. :try_end_4} :catch_0
-    .catch Lorg/json/JSONException; {:try_start_4 .. :try_end_4} :catch_1
-    .catch Lorg/json/JSONException; {:try_start_4 .. :try_end_4} :catch_1
+    :try_end_3
+    .catch Lorg/json/JSONException; {:try_start_3 .. :try_end_3} :catch_0
 
     .line 328
     .line 329

@@ -731,7 +731,7 @@
 
     .line 44
     .line 45
-    invoke-static {v2, v15}, LX/Chi;->A0k(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
+    invoke-static {v2, v15}, LX/Chi;->A0m(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
 
     .line 46
     .line 47

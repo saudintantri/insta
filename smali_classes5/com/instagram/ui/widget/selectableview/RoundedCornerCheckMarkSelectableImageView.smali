@@ -519,7 +519,7 @@
     .line 106
     .line 107
     .line 108
-    invoke-static {v3, v1, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/widget/ImageView;I)V
+    invoke-static {v3, v1, v0}, LX/Chf;->A0z(Landroid/content/Context;Landroid/widget/ImageView;I)V
 
     .line 109
     .line 110

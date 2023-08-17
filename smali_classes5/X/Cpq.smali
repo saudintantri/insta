@@ -65,7 +65,7 @@
 
     move-object/from16 v26, v9
 
-    .line 1558461
+    .line 1558460
     :cond_2
     const/4 v3, 0x0
 
@@ -75,28 +75,28 @@
 
     const/4 v4, 0x1
 
-    .line 1558462
+    .line 1558461
     iget-object v1, v0, Lcom/instagram/model/shopping/productfeed/ProductTile;->A08:Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileMetadata;
 
-    .line 1558463
+    .line 1558462
     if-eqz v1, :cond_15
 
-    .line 1558464
+    .line 1558463
     iget-object v2, v1, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileMetadata;->A00:Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileDecoration;
 
-    .line 1558465
+    .line 1558464
     if-eqz v2, :cond_16
 
-    .line 1558466
+    .line 1558465
     iget-boolean v1, v2, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileDecoration;->A06:Z
 
-    .line 1558467
+    .line 1558466
     if-nez v1, :cond_16
 
     :goto_0
     const/4 v6, 0x0
 
-    .line 1558468
+    .line 1558467
     :cond_3
     invoke-virtual {v0}, Lcom/instagram/model/shopping/productfeed/ProductTile;->A03()Ljava/lang/String;
 
@@ -104,10 +104,10 @@
 
     invoke-static {v5}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1558469
+    .line 1558468
     iget-object v1, v0, Lcom/instagram/model/shopping/productfeed/ProductTile;->A00:LX/1M5;
 
-    .line 1558470
+    .line 1558469
     if-eqz v1, :cond_4
 
     invoke-virtual {v1}, LX/1M5;->A0w()Lcom/instagram/model/mediasize/ImageInfo;
@@ -128,45 +128,45 @@
 
     if-eqz v6, :cond_14
 
-    .line 1558471
+    .line 1558470
     iget-object v1, v0, Lcom/instagram/model/shopping/productfeed/ProductTile;->A01:Lcom/instagram/model/shopping/Product;
+
+    .line 1558471
+    invoke-static {v1}, LX/02K;->A09(Ljava/lang/Object;)V
 
     .line 1558472
-    invoke-static {v1}, LX/02K;->A09(Ljava/lang/Object;)V
+    iget-object v1, v1, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
     .line 1558473
-    iget-object v1, v1, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
+    iget-object v1, v1, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0C:Lcom/instagram/model/shopping/Merchant;
 
     .line 1558474
-    iget-object v1, v1, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0C:Lcom/instagram/model/shopping/Merchant;
-
-    .line 1558475
     iget-object v6, v1, Lcom/instagram/model/shopping/Merchant;->A02:Lcom/instagram/common/typedurl/ImageUrl;
 
-    .line 1558476
+    .line 1558475
     if-eqz v6, :cond_17
 
-    .line 1558477
+    .line 1558476
     iget-object v1, v0, Lcom/instagram/model/shopping/productfeed/ProductTile;->A01:Lcom/instagram/model/shopping/Product;
 
-    .line 1558478
+    .line 1558477
     invoke-static {v1}, LX/02K;->A09(Ljava/lang/Object;)V
 
-    .line 1558479
+    .line 1558478
     iget-object v1, v1, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
-    .line 1558480
+    .line 1558479
     iget-object v1, v1, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0C:Lcom/instagram/model/shopping/Merchant;
 
-    .line 1558481
+    .line 1558480
     iget-object v1, v1, Lcom/instagram/model/shopping/Merchant;->A09:Ljava/lang/String;
 
-    .line 1558482
+    .line 1558481
     invoke-static {v1}, LX/02K;->A09(Ljava/lang/Object;)V
 
     const/16 v19, 0xc
 
-    .line 1558483
+    .line 1558482
     new-instance v10, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S2110000_I1;
 
     move-object v15, v10
@@ -181,37 +181,37 @@
 
     invoke-direct/range {v15 .. v20}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S2110000_I1;-><init>(Lcom/instagram/common/typedurl/ImageUrl;Ljava/lang/String;Ljava/lang/String;IZ)V
 
-    .line 1558484
+    .line 1558483
     :goto_1
     move-object/from16 v8, p5
 
     if-eqz v2, :cond_8
 
-    .line 1558485
+    .line 1558484
     iget-boolean v1, v2, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileDecoration;->A03:Z
 
-    .line 1558486
+    .line 1558485
     if-ne v1, v4, :cond_a
 
-    .line 1558487
+    .line 1558486
     iget-object v1, v0, Lcom/instagram/model/shopping/productfeed/ProductTile;->A01:Lcom/instagram/model/shopping/Product;
 
-    .line 1558488
+    .line 1558487
     invoke-static {v1}, LX/02K;->A09(Ljava/lang/Object;)V
 
-    .line 1558489
+    .line 1558488
     iget-object v1, v1, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
-    .line 1558490
+    .line 1558489
     iget-object v1, v1, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0C:Lcom/instagram/model/shopping/Merchant;
 
-    .line 1558491
+    .line 1558490
     iget-object v1, v1, Lcom/instagram/model/shopping/Merchant;->A09:Ljava/lang/String;
 
-    .line 1558492
+    .line 1558491
     const/16 v22, 0x3ec
 
-    .line 1558493
+    .line 1558492
     new-instance v8, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S2530000_I1;
 
     move-object v15, v8
@@ -236,47 +236,47 @@
 
     invoke-direct/range {v15 .. v25}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S2530000_I1;-><init>(Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S0110000_I1;LX/97j;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;IZZZ)V
 
-    .line 1558494
+    .line 1558493
     :goto_2
     move-object/from16 v4, p0
 
     iget-object v2, v4, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A01:Ljava/lang/Object;
 
-    .line 1558495
+    .line 1558494
     if-eqz v2, :cond_7
 
-    .line 1558496
+    .line 1558495
     iget-object v1, v0, Lcom/instagram/model/shopping/productfeed/ProductTile;->A00:LX/1M5;
 
-    .line 1558497
+    .line 1558496
     invoke-static {v2, v1}, LX/02K;->A0H(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_7
 
-    .line 1558498
+    .line 1558497
     iget-object v12, v4, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02:Ljava/lang/Object;
 
     check-cast v12, LX/CsP;
 
-    .line 1558499
+    .line 1558498
     :goto_3
     const v2, 0x7f122db3
 
-    .line 1558500
+    .line 1558499
     iget-object v1, v0, Lcom/instagram/model/shopping/productfeed/ProductTile;->A01:Lcom/instagram/model/shopping/Product;
 
-    .line 1558501
+    .line 1558500
     invoke-static {v1}, LX/02K;->A09(Ljava/lang/Object;)V
 
-    .line 1558502
+    .line 1558501
     iget-object v1, v1, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
-    .line 1558503
+    .line 1558502
     iget-object v1, v1, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0g:Ljava/lang/String;
 
-    .line 1558504
+    .line 1558503
     invoke-static {v1}, LX/02K;->A05(Ljava/lang/Object;)V
 
     filled-new-array {v1}, [Ljava/lang/Object;
@@ -287,10 +287,10 @@
 
     invoke-direct {v11, v1, v2}, LX/97j;-><init>([Ljava/lang/Object;I)V
 
-    .line 1558505
+    .line 1558504
     new-instance v7, LX/Cpn;
 
-    .line 1558506
+    .line 1558505
     move/from16 v15, p15
 
     move-object/from16 v13, p9
@@ -303,7 +303,7 @@
 
     invoke-direct/range {v7 .. v18}, LX/Cpn;-><init>(Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S2530000_I1;Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0002000_I1;Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S2110000_I1;LX/97j;LX/CsP;Ljava/lang/String;Ljava/util/List;ZZZZ)V
 
-    .line 1558507
+    .line 1558506
     move/from16 v30, p12
 
     move/from16 v29, p11
@@ -316,10 +316,10 @@
 
     move-object/from16 v21, v9
 
-    .line 1558508
+    .line 1558507
     move-object/from16 v18, v9
 
-    .line 1558509
+    .line 1558508
     :goto_4
     const/16 v1, 0x1b
 
@@ -327,7 +327,7 @@
 
     invoke-direct {v2, v1, v11, v0}, Lkotlin/jvm/internal/KtLambdaShape20S0200000_I1;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1558510
+    .line 1558509
     const/16 v17, 0x2
 
     new-instance v10, Lkotlin/jvm/internal/KtLambdaShape0S2202000_I1;
@@ -342,7 +342,7 @@
 
     invoke-direct/range {v10 .. v17}, Lkotlin/jvm/internal/KtLambdaShape0S2202000_I1;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;III)V
 
-    .line 1558511
+    .line 1558510
     new-instance v16, LX/Cpt;
 
     move-object/from16 v22, v16
@@ -361,10 +361,10 @@
 
     invoke-direct/range {v22 .. v28}, LX/Cpt;-><init>(Lcom/instagram/model/shopping/productfeed/ProductTile;LX/1wS;Ljava/lang/String;IIZ)V
 
-    .line 1558512
+    .line 1558511
     new-instance v1, LX/Cpo;
 
-    .line 1558513
+    .line 1558512
     move-object/from16 v12, p3
 
     move-object v11, v1
@@ -379,15 +379,15 @@
 
     invoke-direct/range {v11 .. v18}, LX/Cpo;-><init>(LX/0YK;LX/42i;LX/0Vv;LX/0Vv;LX/0Vv;LX/0VH;LX/0VH;)V
 
-    .line 1558514
+    .line 1558513
     new-instance v0, LX/Cpp;
 
     invoke-direct {v0, v7, v1, v5}, LX/Cpp;-><init>(LX/Cpn;LX/Cpo;Ljava/lang/String;)V
 
-    .line 1558515
+    .line 1558514
     return-object v0
 
-    .line 1558516
+    .line 1558515
     :cond_6
     new-instance v21, LX/Cpr;
 
@@ -403,7 +403,7 @@
 
     invoke-direct/range {v21 .. v31}, LX/Cpr;-><init>(Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S1110000_I1;Lcom/instagram/model/shopping/productfeed/ProductTile;LX/1wS;LX/Fbi;LX/2Tj;Ljava/lang/String;Ljava/lang/String;IIZ)V
 
-    .line 1558517
+    .line 1558516
     new-instance v18, LX/Cps;
 
     move-object/from16 v32, v18
@@ -424,17 +424,17 @@
 
     goto :goto_4
 
-    .line 1558518
+    .line 1558517
     :cond_7
     sget-object v12, LX/CsP;->A01:LX/CsP;
 
     goto/16 :goto_3
 
-    .line 1558519
+    .line 1558518
     :cond_8
     if-eqz p1, :cond_9
 
-    .line 1558520
+    .line 1558519
     invoke-virtual/range {p1 .. p1}, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0300000_I1;->A02()Ljava/util/Date;
 
     move-result-object v1
@@ -451,7 +451,7 @@
 
     const/16 v22, 0x2ec
 
-    .line 1558521
+    .line 1558520
     new-instance v8, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S2530000_I1;
 
     move-object v15, v8
@@ -476,11 +476,11 @@
 
     goto/16 :goto_2
 
-    .line 1558522
+    .line 1558521
     :cond_9
     iget-object v1, v0, Lcom/instagram/model/shopping/productfeed/ProductTile;->A01:Lcom/instagram/model/shopping/Product;
 
-    .line 1558523
+    .line 1558522
     if-eqz v1, :cond_b
 
     invoke-virtual {v1}, Lcom/instagram/model/shopping/Product;->A0E()Z
@@ -489,7 +489,7 @@
 
     if-ne v1, v4, :cond_b
 
-    .line 1558524
+    .line 1558523
     sget-object v6, LX/0Sq;->A05:LX/0Sq;
 
     const-wide v1, 0x81066d00000bddL
@@ -498,14 +498,14 @@
 
     move-result-object v1
 
-    .line 1558525
+    .line 1558524
     invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v1
 
     if-eqz v1, :cond_b
 
-    .line 1558526
+    .line 1558525
     const v6, 0x7f122f69
 
     new-array v2, v3, [Ljava/lang/Object;
@@ -516,7 +516,7 @@
 
     const/16 v22, 0x3e8
 
-    .line 1558527
+    .line 1558526
     new-instance v8, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S2530000_I1;
 
     move-object v15, v8
@@ -543,17 +543,17 @@
 
     goto/16 :goto_2
 
-    .line 1558528
+    .line 1558527
     :cond_a
     iget-object v7, v2, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileDecoration;->A00:Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileSocialContext;
 
-    .line 1558529
+    .line 1558528
     if-eqz v7, :cond_8
 
-    .line 1558530
+    .line 1558529
     iget-object v2, v7, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileSocialContext;->A02:Ljava/lang/String;
 
-    .line 1558531
+    .line 1558530
     const-string v1, "saved"
 
     invoke-static {v2, v1}, LX/02K;->A0H(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -562,10 +562,10 @@
 
     if-eqz v1, :cond_c
 
-    .line 1558532
+    .line 1558531
     iget-object v2, v0, Lcom/instagram/model/shopping/productfeed/ProductTile;->A01:Lcom/instagram/model/shopping/Product;
 
-    .line 1558533
+    .line 1558532
     if-eqz v2, :cond_c
 
     invoke-static {v8}, LX/6I8;->A00(Lcom/instagram/service/session/UserSession;)LX/4li;
@@ -578,17 +578,17 @@
 
     if-nez v1, :cond_c
 
-    .line 1558534
+    .line 1558533
     :cond_b
     move-object v8, v9
 
     goto/16 :goto_2
 
-    .line 1558535
+    .line 1558534
     :cond_c
     iget-object v2, v7, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileSocialContext;->A02:Ljava/lang/String;
 
-    .line 1558536
+    .line 1558535
     const-string v1, "in_cart"
 
     invoke-static {v2, v1}, LX/02K;->A0H(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -597,34 +597,34 @@
 
     if-eqz v1, :cond_e
 
-    .line 1558537
+    .line 1558536
     iget-object v6, v0, Lcom/instagram/model/shopping/productfeed/ProductTile;->A01:Lcom/instagram/model/shopping/Product;
 
-    .line 1558538
+    .line 1558537
     if-eqz v6, :cond_e
 
-    .line 1558539
+    .line 1558538
     invoke-static {v8}, LX/4Xo;->A00(Lcom/instagram/service/session/UserSession;)LX/4Xo;
 
     move-result-object v8
 
-    .line 1558540
+    .line 1558539
     iget-object v1, v6, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
-    .line 1558541
+    .line 1558540
     iget-object v1, v1, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0C:Lcom/instagram/model/shopping/Merchant;
 
-    .line 1558542
+    .line 1558541
     if-eqz v1, :cond_10
 
-    .line 1558543
+    .line 1558542
     iget-object v2, v1, Lcom/instagram/model/shopping/Merchant;->A07:Ljava/lang/String;
 
-    .line 1558544
+    .line 1558543
     :goto_5
     invoke-static {v2}, LX/0yH;->A08(Ljava/lang/Object;)V
 
-    .line 1558545
+    .line 1558544
     iget-object v1, v8, LX/4Xo;->A05:LX/6I7;
 
     invoke-virtual {v1, v2}, LX/6I7;->A06(Ljava/lang/String;)LX/ES0;
@@ -633,15 +633,15 @@
 
     if-eqz v1, :cond_e
 
-    .line 1558546
+    .line 1558545
     invoke-virtual {v1}, LX/ES0;->A00()LX/Eb8;
 
     move-result-object v1
 
-    .line 1558547
+    .line 1558546
     invoke-virtual {v1}, LX/Eb8;->A01()Ljava/util/List;
 
-    .line 1558548
+    .line 1558547
     invoke-virtual {v1}, LX/Eb8;->A01()Ljava/util/List;
 
     move-result-object v1
@@ -663,47 +663,47 @@
 
     check-cast v1, Lcom/instagram/model/shopping/Product;
 
-    .line 1558549
+    .line 1558548
     iget-object v1, v1, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
-    .line 1558550
+    .line 1558549
     iget-object v2, v1, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0j:Ljava/lang/String;
 
-    .line 1558551
+    .line 1558550
     iget-object v1, v6, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
-    .line 1558552
+    .line 1558551
     iget-object v1, v1, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0j:Ljava/lang/String;
 
-    .line 1558553
+    .line 1558552
     invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_d
 
-    .line 1558554
+    .line 1558553
     :cond_e
     iget-object v6, v7, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileSocialContext;->A01:Ljava/lang/String;
 
-    .line 1558555
+    .line 1558554
     iget-object v1, v7, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileSocialContext;->A00:Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileSocialContext$Metadata;
 
-    .line 1558556
+    .line 1558555
     if-eqz v1, :cond_12
 
-    .line 1558557
+    .line 1558556
     iget-object v1, v1, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileSocialContext$Metadata;->A00:Ljava/util/List;
 
-    .line 1558558
+    .line 1558557
     if-eqz v1, :cond_12
 
-    .line 1558559
+    .line 1558558
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 1558560
+    .line 1558559
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v7
@@ -720,27 +720,27 @@
 
     move-result-object v1
 
-    .line 1558561
+    .line 1558560
     check-cast v1, Lcom/instagram/model/shopping/Merchant;
 
-    .line 1558562
+    .line 1558561
     iget-object v1, v1, Lcom/instagram/model/shopping/Merchant;->A02:Lcom/instagram/common/typedurl/ImageUrl;
 
-    .line 1558563
+    .line 1558562
     if-eqz v1, :cond_f
 
-    .line 1558564
+    .line 1558563
     invoke-virtual {v2, v1}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_6
 
-    .line 1558565
+    .line 1558564
     :cond_10
     const/4 v2, 0x0
 
     goto :goto_5
 
-    .line 1558566
+    .line 1558565
     :cond_11
     invoke-virtual {v2}, Ljava/util/AbstractCollection;->isEmpty()Z
 
@@ -756,7 +756,7 @@
     :cond_13
     const/16 v22, 0x3ac
 
-    .line 1558567
+    .line 1558566
     new-instance v8, Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S2530000_I1;
 
     move-object v15, v8
@@ -783,17 +783,17 @@
 
     goto/16 :goto_2
 
-    .line 1558568
+    .line 1558567
     :cond_14
     move-object v10, v9
 
     goto/16 :goto_1
 
-    .line 1558569
+    .line 1558568
     :cond_15
     move-object v2, v9
 
-    .line 1558570
+    .line 1558569
     :cond_16
     const/4 v6, 0x1
 
@@ -801,11 +801,11 @@
 
     goto/16 :goto_0
 
-    .line 1558571
+    .line 1558570
     :cond_17
     const-string v1, "Merchant profile pic URL required"
 
-    .line 1558572
+    .line 1558571
     new-instance v0, Ljava/lang/IllegalStateException;
 
     invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V

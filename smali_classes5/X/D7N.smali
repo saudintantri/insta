@@ -49,7 +49,7 @@
     move-result-object v1
 
     .line 17
-    const v0, 0x7f0700d3
+    const v0, 0x7f0700d2
 
     .line 18
     .line 19
@@ -119,7 +119,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-static {v0, v3}, LX/Chg;->A04(II)I
+    invoke-static {v0, v3}, LX/Chg;->A03(II)I
 
     .line 12
     .line 13

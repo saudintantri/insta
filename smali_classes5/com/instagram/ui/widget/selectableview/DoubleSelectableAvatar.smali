@@ -320,7 +320,7 @@
     .line 84
     .line 85
     .line 86
-    invoke-static {v4, v1, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/widget/ImageView;I)V
+    invoke-static {v4, v1, v0}, LX/Chf;->A0z(Landroid/content/Context;Landroid/widget/ImageView;I)V
 
     .line 87
     .line 88

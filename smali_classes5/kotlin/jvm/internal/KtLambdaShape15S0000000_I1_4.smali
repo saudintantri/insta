@@ -615,7 +615,7 @@
     .line 286
     .line 287
     .line 288
-    invoke-static {v1, v0}, LX/Che;->A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+    invoke-static {v1, v0}, LX/Che;->A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
 
     .line 289
     .line 290
@@ -727,7 +727,7 @@
     .line 339
     .line 340
     .line 341
-    invoke-static {v1, v0}, LX/Che;->A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+    invoke-static {v1, v0}, LX/Che;->A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
 
     .line 342
     .line 343
@@ -1143,7 +1143,7 @@
 
     .line 538
     :pswitch_23
-    invoke-static {v3}, LX/Chh;->A0M(Ljava/lang/Object;)LX/2Sh;
+    invoke-static {v3}, LX/Chh;->A0N(Ljava/lang/Object;)LX/2Sh;
 
     .line 539
     .line 540
@@ -1167,7 +1167,7 @@
 
     .line 549
     :pswitch_24
-    invoke-static {v3}, LX/Chh;->A0M(Ljava/lang/Object;)LX/2Sh;
+    invoke-static {v3}, LX/Chh;->A0N(Ljava/lang/Object;)LX/2Sh;
 
     .line 550
     .line 551
@@ -1191,7 +1191,7 @@
 
     .line 560
     :pswitch_25
-    invoke-static {v3}, LX/Chh;->A0M(Ljava/lang/Object;)LX/2Sh;
+    invoke-static {v3}, LX/Chh;->A0N(Ljava/lang/Object;)LX/2Sh;
 
     .line 561
     .line 562
@@ -1215,7 +1215,7 @@
 
     .line 571
     :pswitch_26
-    invoke-static {v3}, LX/Chh;->A0M(Ljava/lang/Object;)LX/2Sh;
+    invoke-static {v3}, LX/Chh;->A0N(Ljava/lang/Object;)LX/2Sh;
 
     .line 572
     .line 573
@@ -1239,7 +1239,7 @@
 
     .line 582
     :pswitch_27
-    invoke-static {v3}, LX/Chh;->A0M(Ljava/lang/Object;)LX/2Sh;
+    invoke-static {v3}, LX/Chh;->A0N(Ljava/lang/Object;)LX/2Sh;
 
     .line 583
     .line 584
@@ -1259,7 +1259,7 @@
 
     .line 591
     :pswitch_28
-    invoke-static {v3}, LX/Chh;->A0M(Ljava/lang/Object;)LX/2Sh;
+    invoke-static {v3}, LX/Chh;->A0N(Ljava/lang/Object;)LX/2Sh;
 
     .line 592
     .line 593

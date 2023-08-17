@@ -69,7 +69,7 @@
 
     .line 17
     .line 18
-    invoke-static {v0, v2}, LX/Chi;->A0z(Landroid/widget/TextView;F)V
+    invoke-static {v0, v2}, LX/Chi;->A11(Landroid/widget/TextView;F)V
 
     .line 19
     .line 20

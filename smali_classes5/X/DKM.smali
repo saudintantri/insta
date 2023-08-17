@@ -612,7 +612,7 @@
     move-result-object v0
 
     .line 27
-    invoke-static {v2, v0}, LX/Chg;->A1S(LX/19z;Ljava/lang/String;)V
+    invoke-static {v2, v0}, LX/Chg;->A1R(LX/19z;Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -1491,7 +1491,7 @@
 
     .line 265
     .line 266
-    invoke-static {v0}, LX/Chg;->A0W(LX/01o;)LX/FJJ;
+    invoke-static {v0}, LX/Chg;->A0U(LX/01o;)LX/FJJ;
 
     .line 267
     .line 268
@@ -1950,7 +1950,7 @@
 
     .line 87
     .line 88
-    invoke-static {v0}, LX/Chg;->A0W(LX/01o;)LX/FJJ;
+    invoke-static {v0}, LX/Chg;->A0U(LX/01o;)LX/FJJ;
 
     .line 89
     .line 90

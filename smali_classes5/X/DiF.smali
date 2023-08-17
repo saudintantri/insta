@@ -942,7 +942,7 @@
     .line 125
     .line 126
     :cond_2
-    invoke-static {v3}, LX/Chf;->A1D(LX/0AX;)V
+    invoke-static {v3}, LX/Chf;->A1E(LX/0AX;)V
 
     .line 127
     .line 128
@@ -1897,7 +1897,7 @@
     move-result-object v1
 
     .line 48
-    invoke-static {v1, v2}, LX/Chi;->A1C(LX/0AX;Lcom/instagram/model/shopping/Product;)V
+    invoke-static {v1, v2}, LX/Chi;->A1D(LX/0AX;Lcom/instagram/model/shopping/Product;)V
 
     .line 49
     .line 50

@@ -82,7 +82,7 @@
 
     .line 3
     .line 4
-    invoke-static {v0, v1}, LX/Chi;->A0W(Ljava/lang/Object;Ljava/util/Map;)LX/3t2;
+    invoke-static {v0, v1}, LX/Chi;->A0X(Ljava/lang/Object;Ljava/util/Map;)LX/3t2;
 
     .line 5
     .line 6
@@ -185,7 +185,7 @@
     .line 38
     .line 39
     .line 40
-    invoke-static {v2, v0}, LX/Che;->A01(Landroid/content/Context;I)I
+    invoke-static {v2, v0}, LX/Che;->A02(Landroid/content/Context;I)I
 
     .line 41
     .line 42
@@ -210,7 +210,7 @@
     .line 51
     .line 52
     .line 53
-    invoke-static {}, LX/Chf;->A0c()LX/3t2;
+    invoke-static {}, LX/Chf;->A0e()LX/3t2;
 
     .line 54
     .line 55

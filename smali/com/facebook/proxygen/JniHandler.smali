@@ -19,57 +19,29 @@
 .method public constructor <init>(Lcom/facebook/proxygen/HTTPRequestHandler;Lcom/facebook/proxygen/HTTPResponseHandler;)V
     .locals 1
 
-    .line 0
+    .line 268435456
     const/4 v0, 0x0
 
-    .line 1
+    .line 268435457
     invoke-direct {p0, p1, p2, v0}, Lcom/facebook/proxygen/JniHandler;-><init>(Lcom/facebook/proxygen/HTTPRequestHandler;Lcom/facebook/proxygen/HTTPResponseHandler;Lcom/facebook/proxygen/HTTPTransportCallback;)V
 
-    .line 2
-    .line 3
-    .line 4
-    return-void
-    .line 5
-    .line 6
-    .line 7
-.end method
-
-.method public constructor <init>(Lcom/facebook/proxygen/HTTPRequestHandler;Lcom/facebook/proxygen/HTTPResponseHandler;Lcom/facebook/proxygen/HTTPTransportCallback;)V
-    .locals 0
-
-    .line 268435456
-    invoke-direct {p0}, Lcom/facebook/proxygen/NativeHandleImpl;-><init>()V
-
-    .line 268435457
     .line 268435458
     .line 268435459
-    invoke-static {p1}, Lcom/facebook/proxygen/utils/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
-
     .line 268435460
+    return-void
     .line 268435461
     .line 268435462
-    invoke-static {p2}, Lcom/facebook/proxygen/utils/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
-
     .line 268435463
     .line 268435464
     .line 268435465
-    iput-object p1, p0, Lcom/facebook/proxygen/JniHandler;->mRequestHandler:Lcom/facebook/proxygen/HTTPRequestHandler;
-
     .line 268435466
     .line 268435467
-    iput-object p2, p0, Lcom/facebook/proxygen/JniHandler;->mResponseHandler:Lcom/facebook/proxygen/HTTPResponseHandler;
-
     .line 268435468
     .line 268435469
-    iput-object p3, p0, Lcom/facebook/proxygen/JniHandler;->mTransportCallback:Lcom/facebook/proxygen/HTTPTransportCallback;
-
     .line 268435470
     .line 268435471
-    iput-object p0, p1, Lcom/facebook/proxygen/HTTPRequestHandler;->mDelegate:Lcom/facebook/proxygen/JniHandler;
-
     .line 268435472
     .line 268435473
-    return-void
     .line 268435474
     .line 268435475
     .line 268435476
@@ -97,46 +69,44 @@
     .line 268435498
     .line 268435499
     .line 268435500
-    .line 268435501
-    .line 268435502
-    .line 268435503
-    .line 268435504
-    .line 268435505
-    .line 268435506
-    .line 268435507
-    .line 268435508
-    .line 268435509
-    .line 268435510
-    .line 268435511
-    .line 268435512
-    .line 268435513
-    .line 268435514
-    .line 268435515
-    .line 268435516
-    .line 268435517
-    .line 268435518
-    .line 268435519
-    .line 268435520
-    .line 268435521
-    .line 268435522
-    .line 268435523
-    .line 268435524
-    .line 268435525
-    .line 268435526
-    .line 268435527
-    .line 268435528
-    .line 268435529
-    .line 268435530
-    .line 268435531
-    .line 268435532
-    .line 268435533
-    .line 268435534
-    .line 268435535
-    .line 268435536
-    .line 268435537
-    .line 268435538
-    .line 268435539
-    .line 268435540
+.end method
+
+.method public constructor <init>(Lcom/facebook/proxygen/HTTPRequestHandler;Lcom/facebook/proxygen/HTTPResponseHandler;Lcom/facebook/proxygen/HTTPTransportCallback;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Lcom/facebook/proxygen/NativeHandleImpl;-><init>()V
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-static {p1}, Lcom/facebook/proxygen/utils/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-static {p2}, Lcom/facebook/proxygen/utils/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object p1, p0, Lcom/facebook/proxygen/JniHandler;->mRequestHandler:Lcom/facebook/proxygen/HTTPRequestHandler;
+
+    .line 10
+    .line 11
+    iput-object p2, p0, Lcom/facebook/proxygen/JniHandler;->mResponseHandler:Lcom/facebook/proxygen/HTTPResponseHandler;
+
+    .line 12
+    .line 13
+    iput-object p3, p0, Lcom/facebook/proxygen/JniHandler;->mTransportCallback:Lcom/facebook/proxygen/HTTPTransportCallback;
+
+    .line 14
+    .line 15
+    iput-object p0, p1, Lcom/facebook/proxygen/HTTPRequestHandler;->mDelegate:Lcom/facebook/proxygen/JniHandler;
+
+    .line 16
+    .line 17
+    return-void
 .end method
 
 .method private native cancelNative()V
@@ -185,7 +155,6 @@
     :cond_0
     return-void
     .line 8
-    .line 9
 .end method
 
 .method public bodyBytesReceived(J)V
@@ -208,7 +177,6 @@
     :cond_0
     return-void
     .line 8
-    .line 9
 .end method
 
 .method public cancel()V
@@ -232,6 +200,7 @@
     .line 7
     .line 8
     return-void
+    .line 9
 .end method
 
 .method public changePriority(BZ)V
@@ -246,8 +215,6 @@
     return-void
     .line 4
     .line 5
-    .line 6
-    .line 7
 .end method
 
 .method public finalize()V
@@ -280,7 +247,6 @@
     .line 10
     .line 11
     throw v0
-    .line 12
 .end method
 
 .method public firstByteFlushed()V
@@ -353,6 +319,7 @@
 
     .line 10
     return v0
+    .line 11
 .end method
 
 .method public headerBytesGenerated(JJ)V
@@ -374,6 +341,8 @@
     .line 7
     :cond_0
     return-void
+    .line 8
+    .line 9
 .end method
 
 .method public headerBytesReceived(JJ)V
@@ -395,6 +364,8 @@
     .line 7
     :cond_0
     return-void
+    .line 8
+    .line 9
 .end method
 
 .method public lastByteAcked(J)V
@@ -417,7 +388,6 @@
     :cond_0
     return-void
     .line 8
-    .line 9
 .end method
 
 .method public lastByteFlushed()V
@@ -455,6 +425,8 @@
     .line 4
     .line 5
     return-void
+    .line 6
+    .line 7
 .end method
 
 .method public onEOM()V
@@ -482,6 +454,7 @@
     .line 9
     .line 10
     return-void
+    .line 11
 .end method
 
 .method public onError(Lcom/facebook/proxygen/HTTPRequestError;)V
@@ -530,8 +503,6 @@
     .line 7
     .line 8
     .line 9
-    .line 10
-    .line 11
 .end method
 
 .method public sendBody([BII)Z
@@ -547,6 +518,11 @@
 
     .line 4
     return v0
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
 .end method
 
 .method public sendEOM()Z
@@ -562,11 +538,12 @@
 
     .line 4
     return v0
-    .line 5
 .end method
 
 .method public sendHeaders(Lorg/apache/http/client/methods/HttpUriRequest;)Z
     .locals 1
+
+    invoke-static {p0, p1}, Lcom/dfinstagram/hooks;->jniHandlerSendHeaders(Lcom/facebook/proxygen/JniHandler;Lorg/apache/http/client/methods/HttpUriRequest;)V
 
     .line 0
     invoke-direct {p0, p1}, Lcom/facebook/proxygen/JniHandler;->sendHeadersNative(Lorg/apache/http/client/methods/HttpUriRequest;)Z
@@ -578,11 +555,12 @@
 
     .line 4
     return v0
-    .line 5
 .end method
 
 .method public sendRequestWithBodyAndEom(Lorg/apache/http/client/methods/HttpUriRequest;[BII)Z
     .locals 1
+
+    invoke-static {p0, p1, p2, p3, p4}, Lcom/dfinstagram/hooks;->jniHandlerSendRequest(Lcom/facebook/proxygen/JniHandler;Lorg/apache/http/client/methods/HttpUriRequest;[BII)V
 
     .line 0
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/facebook/proxygen/JniHandler;->sendRequestWithBodyAndEOMNative(Lorg/apache/http/client/methods/HttpUriRequest;[BII)Z
@@ -594,16 +572,4 @@
 
     .line 4
     return v0
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
 .end method

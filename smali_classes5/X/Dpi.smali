@@ -200,7 +200,7 @@
     move-result v0
 
     .line 73
-    invoke-static {v0}, LX/Chh;->A00(I)I
+    invoke-static {v0}, LX/Chh;->A01(I)I
 
     .line 74
     .line 75
@@ -216,7 +216,7 @@
     move-result v0
 
     .line 81
-    invoke-static {v0}, LX/Chh;->A00(I)I
+    invoke-static {v0}, LX/Chh;->A01(I)I
 
     .line 82
     .line 83
@@ -236,7 +236,7 @@
     move-result v0
 
     .line 91
-    invoke-static {v0}, LX/Chh;->A00(I)I
+    invoke-static {v0}, LX/Chh;->A01(I)I
 
     .line 92
     .line 93
@@ -252,7 +252,7 @@
     move-result v0
 
     .line 99
-    invoke-static {v0}, LX/Chh;->A00(I)I
+    invoke-static {v0}, LX/Chh;->A01(I)I
 
     .line 100
     .line 101
@@ -296,7 +296,7 @@
     move-result v0
 
     .line 119
-    invoke-static {v0}, LX/Chh;->A00(I)I
+    invoke-static {v0}, LX/Chh;->A01(I)I
 
     .line 120
     .line 121

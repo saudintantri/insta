@@ -66,14 +66,14 @@
 
     invoke-static {v2, v1}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 270430960
+    .line 270430981
     move-object/from16 v0, p0
 
     move-object/from16 v3, p2
 
     invoke-direct {v0, v2, v3}, Landroidx/constraintlayout/widget/ConstraintLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 270430961
+    .line 270430982
     const v3, 0x7f0a0567
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -122,7 +122,7 @@
 
     iput-object v3, v0, Lcom/instagram/affiliate/view/AffiliateIntroBrandsCellView;->A0B:Ljava/util/List;
 
-    .line 270430962
+    .line 270430983
     const v3, 0x7f0a0575
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -169,7 +169,7 @@
 
     iput-object v3, v0, Lcom/instagram/affiliate/view/AffiliateIntroBrandsCellView;->A0D:Ljava/util/List;
 
-    .line 270430963
+    .line 270430984
     const v3, 0x7f0a056b
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -210,14 +210,14 @@
 
     move-result-object v3
 
-    .line 270430964
+    .line 270430985
     invoke-static {v3}, LX/0ym;->A04([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v5
 
     iput-object v5, v0, Lcom/instagram/affiliate/view/AffiliateIntroBrandsCellView;->A0C:Ljava/util/List;
 
-    .line 270430965
+    .line 270430986
     iget-object v4, v0, Lcom/instagram/affiliate/view/AffiliateIntroBrandsCellView;->A0B:Ljava/util/List;
 
     iget-object v3, v0, Lcom/instagram/affiliate/view/AffiliateIntroBrandsCellView;->A0D:Ljava/util/List;
@@ -234,7 +234,7 @@
 
     const/16 v3, 0x1b
 
-    .line 270430966
+    .line 270430987
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v7
@@ -277,7 +277,7 @@
 
     move-result-object v3
 
-    .line 270430967
+    .line 270430988
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v13
@@ -320,7 +320,7 @@
 
     move-result-object v5
 
-    .line 270430968
+    .line 270430989
     filled-new-array/range {v7 .. v12}, [Ljava/lang/Integer;
 
     move-result-object v4
@@ -333,7 +333,7 @@
 
     move-result-object v3
 
-    .line 270430969
+    .line 270430990
     invoke-static {v3}, LX/0ym;->A04([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v3
@@ -342,7 +342,7 @@
 
     const-wide v3, 0x3fcd70a3d70a3d71L    # 0.23
 
-    .line 270430970
+    .line 270430991
     invoke-static {v3, v4}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v3
@@ -367,7 +367,7 @@
 
     const-wide v3, 0x3fd851eb851eb852L    # 0.38
 
-    .line 270430971
+    .line 270430992
     invoke-static {v3, v4}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v7
@@ -396,7 +396,7 @@
 
     const-wide v3, 0x3fdae147ae147ae1L    # 0.42
 
-    .line 270430972
+    .line 270430993
     invoke-static {v3, v4}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v7
@@ -427,7 +427,7 @@
 
     move-result-object v3
 
-    .line 270430973
+    .line 270430994
     invoke-static {v3}, LX/0ym;->A04([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v3
@@ -436,7 +436,7 @@
 
     const-wide v3, 0x3fe6666666666666L    # 0.7
 
-    .line 270430974
+    .line 270430995
     invoke-static {v3, v4}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v6
@@ -463,19 +463,19 @@
 
     iput-object v3, v0, Lcom/instagram/affiliate/view/AffiliateIntroBrandsCellView;->A05:Ljava/util/List;
 
-    .line 270430975
+    .line 270430996
     const v5, 0x7f0a01d4
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
 
-    .line 270430976
+    .line 270430997
     invoke-static {v3}, LX/5Wd;->A17(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v7
 
-    .line 270430977
+    .line 270430998
     iget-object v6, v0, Lcom/instagram/affiliate/view/AffiliateIntroBrandsCellView;->A0B:Ljava/util/List;
 
     iget-object v4, v0, Lcom/instagram/affiliate/view/AffiliateIntroBrandsCellView;->A0D:Ljava/util/List;
@@ -494,7 +494,7 @@
 
     const-wide/16 v3, 0x15e
 
-    .line 270430978
+    .line 270430999
     invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v7
@@ -523,7 +523,7 @@
 
     const-wide/16 v3, 0x1f4
 
-    .line 270430979
+    .line 270431000
     invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v8
@@ -558,7 +558,7 @@
 
     const v3, 0x3f4ccccd    # 0.8f
 
-    .line 270430980
+    .line 270431001
     invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v7
@@ -591,7 +591,7 @@
 
     iput-object v3, v0, Lcom/instagram/affiliate/view/AffiliateIntroBrandsCellView;->A09:Ljava/util/List;
 
-    .line 270430981
+    .line 270431002
     invoke-static {v2}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v3
@@ -600,38 +600,38 @@
 
     invoke-virtual {v3, v2, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    .line 270430982
+    .line 270431003
     invoke-static {v0, v5}, LX/5Wd;->A0H(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v2
 
-    .line 270430983
+    .line 270431004
     check-cast v2, Lcom/instagram/common/ui/base/IgSimpleImageView;
 
     iput-object v2, v0, Lcom/instagram/affiliate/view/AffiliateIntroBrandsCellView;->A06:Lcom/instagram/common/ui/base/IgSimpleImageView;
 
-    .line 270430984
+    .line 270431005
     const v1, 0x7f080495
 
     invoke-virtual {v2, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 270430985
+    .line 270431006
     const v1, 0x7f0a05a2
 
-    .line 270430986
+    .line 270431007
     invoke-static {v0, v1}, LX/5Wd;->A0H(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v1
 
-    .line 270430987
+    .line 270431008
     check-cast v1, Lcom/instagram/affiliate/view/IgCircularFlow;
 
     iput-object v1, v0, Lcom/instagram/affiliate/view/AffiliateIntroBrandsCellView;->A01:Lcom/instagram/affiliate/view/IgCircularFlow;
 
-    .line 270430988
+    .line 270431009
     iput v5, v1, Lcom/instagram/affiliate/view/IgCircularFlow;->A00:I
 
-    .line 270430989
+    .line 270431010
     return-void
 .end method
 
@@ -639,7 +639,7 @@
     .locals 1
 
     .line 536870912
-    invoke-static {p2, p3}, LX/Chh;->A06(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
+    invoke-static {p2, p3}, LX/Chh;->A07(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
 
     .line 536870913
     .line 536870914

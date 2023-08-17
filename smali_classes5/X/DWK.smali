@@ -148,7 +148,7 @@
     const/4 v5, 0x0
 
     .line 45
-    invoke-static {v1}, LX/Chi;->A0l(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v1}, LX/Chi;->A0n(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 46
     .line 47

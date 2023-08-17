@@ -806,7 +806,7 @@
 
     .line 38
     .line 39
-    invoke-static {p1, v0, v1, v2}, LX/Chf;->A13(Landroid/view/View;LX/1U0;LX/0hh;LX/3Bm;)V
+    invoke-static {p1, v0, v1, v2}, LX/Chf;->A14(Landroid/view/View;LX/1U0;LX/0hh;LX/3Bm;)V
 
     .line 40
     .line 41
@@ -1915,7 +1915,7 @@
 
     .line 509
     .line 510
-    invoke-static {v6, v3, v8, v9, v4}, LX/Chi;->A0V(Landroidx/fragment/app/FragmentActivity;LX/0YK;Lcom/instagram/service/session/UserSession;LX/2qH;Ljava/lang/String;)LX/ERN;
+    invoke-static {v6, v3, v8, v9, v4}, LX/Chi;->A0W(Landroidx/fragment/app/FragmentActivity;LX/0YK;Lcom/instagram/service/session/UserSession;LX/2qH;Ljava/lang/String;)LX/ERN;
 
     .line 511
     .line 512

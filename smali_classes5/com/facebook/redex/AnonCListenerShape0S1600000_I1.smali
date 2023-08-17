@@ -1714,7 +1714,7 @@
 
     .line 754
     .line 755
-    invoke-static {v2, v1}, LX/Chi;->A1S(LX/4Xu;I)V
+    invoke-static {v2, v1}, LX/Chi;->A1T(LX/4Xu;I)V
 
     .line 756
     .line 757

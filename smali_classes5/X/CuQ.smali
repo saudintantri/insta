@@ -818,7 +818,7 @@
     .line 365
     .line 366
     .line 367
-    const v0, 0x7f0701ef
+    const v0, 0x7f0701e6
 
     .line 368
     .line 369
@@ -1391,12 +1391,12 @@
     .line 663
     .line 664
     .line 665
-    invoke-static {v6, v1, v0}, LX/Chf;->A0x(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {v6, v1, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
 
     .line 666
     .line 667
     .line 668
-    invoke-static {v1}, LX/Chf;->A10(Landroid/graphics/drawable/Drawable;)V
+    invoke-static {v1}, LX/Chf;->A11(Landroid/graphics/drawable/Drawable;)V
 
     .line 669
     .line 670

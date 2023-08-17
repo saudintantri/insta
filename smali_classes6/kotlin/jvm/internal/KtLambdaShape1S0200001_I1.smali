@@ -912,7 +912,7 @@
     .line 406
     .line 407
     :pswitch_5
-    invoke-static {v11}, LX/Chi;->A0D(Ljava/lang/Object;)LX/Cc6;
+    invoke-static {v11}, LX/Chi;->A0E(Ljava/lang/Object;)LX/Cc6;
 
     .line 408
     .line 409

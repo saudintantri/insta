@@ -88,7 +88,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {v0, v3, v5}, LX/Chj;->A0a(Landroid/graphics/drawable/Drawable;LX/6Zc;LX/4av;)V
+    invoke-static {v0, v3, v5}, LX/Chj;->A0Z(Landroid/graphics/drawable/Drawable;LX/6Zc;LX/4av;)V
 
     .line 30
     .line 31

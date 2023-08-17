@@ -74,7 +74,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {p0, v0}, LX/Chj;->A03(Lcom/facebook/redex/AnonCListenerShape1S1201000_I1;I)I
+    invoke-static {p0, v0}, LX/Chj;->A02(Lcom/facebook/redex/AnonCListenerShape1S1201000_I1;I)I
 
     .line 9
     .line 10
@@ -333,7 +333,7 @@
     .line 138
     .line 139
     .line 140
-    invoke-static {p0, v0}, LX/Chj;->A03(Lcom/facebook/redex/AnonCListenerShape1S1201000_I1;I)I
+    invoke-static {p0, v0}, LX/Chj;->A02(Lcom/facebook/redex/AnonCListenerShape1S1201000_I1;I)I
 
     .line 141
     .line 142
@@ -408,7 +408,7 @@
     .line 177
     .line 178
     .line 179
-    invoke-static {p0, v0}, LX/Chj;->A03(Lcom/facebook/redex/AnonCListenerShape1S1201000_I1;I)I
+    invoke-static {p0, v0}, LX/Chj;->A02(Lcom/facebook/redex/AnonCListenerShape1S1201000_I1;I)I
 
     .line 180
     .line 181
@@ -431,7 +431,7 @@
     .line 189
     .line 190
     .line 191
-    invoke-static {p0, v0}, LX/Chj;->A03(Lcom/facebook/redex/AnonCListenerShape1S1201000_I1;I)I
+    invoke-static {p0, v0}, LX/Chj;->A02(Lcom/facebook/redex/AnonCListenerShape1S1201000_I1;I)I
 
     .line 192
     .line 193
@@ -454,7 +454,7 @@
     .line 201
     .line 202
     .line 203
-    invoke-static {p0, v0}, LX/Chj;->A03(Lcom/facebook/redex/AnonCListenerShape1S1201000_I1;I)I
+    invoke-static {p0, v0}, LX/Chj;->A02(Lcom/facebook/redex/AnonCListenerShape1S1201000_I1;I)I
 
     .line 204
     .line 205

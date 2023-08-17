@@ -40,7 +40,7 @@
     .line 12
     .line 13
     .line 14
-    invoke-static {v1, v0}, LX/Chi;->A1N(LX/37R;LX/3IH;)V
+    invoke-static {v1, v0}, LX/Chi;->A1O(LX/37R;LX/3IH;)V
 
     .line 15
     .line 16

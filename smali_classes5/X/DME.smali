@@ -444,7 +444,7 @@
     .locals 0
 
     .line 0
-    invoke-static {p0}, LX/Chi;->A14(LX/081;)V
+    invoke-static {p0}, LX/Chi;->A16(LX/081;)V
 
     .line 1
     .line 2
@@ -1229,7 +1229,7 @@
     .line 34
     .line 35
     .line 36
-    invoke-static {p0}, LX/Che;->A07(LX/081;)Landroid/view/View;
+    invoke-static {p0}, LX/Che;->A08(LX/081;)Landroid/view/View;
 
     .line 37
     .line 38

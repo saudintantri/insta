@@ -218,7 +218,7 @@
 
     .line 38
     .line 39
-    invoke-static {v2, v1, v7}, LX/Chf;->A0Y(LX/AYq;Lcom/instagram/guides/intf/GuideCreationType;Ljava/lang/String;)Lcom/instagram/guides/intf/GuideCreationLoggerState;
+    invoke-static {v2, v1, v7}, LX/Chf;->A0Z(LX/AYq;Lcom/instagram/guides/intf/GuideCreationType;Ljava/lang/String;)Lcom/instagram/guides/intf/GuideCreationLoggerState;
 
     .line 40
     .line 41
@@ -675,7 +675,7 @@
     .line 265
     .line 266
     :cond_6
-    invoke-static {v4, v1, v2}, LX/Chf;->A0Y(LX/AYq;Lcom/instagram/guides/intf/GuideCreationType;Ljava/lang/String;)Lcom/instagram/guides/intf/GuideCreationLoggerState;
+    invoke-static {v4, v1, v2}, LX/Chf;->A0Z(LX/AYq;Lcom/instagram/guides/intf/GuideCreationType;Ljava/lang/String;)Lcom/instagram/guides/intf/GuideCreationLoggerState;
 
     .line 267
     .line 268
@@ -1002,7 +1002,7 @@
 
     .line 425
     .line 426
-    invoke-static {v2, v1, v7}, LX/Chf;->A0Y(LX/AYq;Lcom/instagram/guides/intf/GuideCreationType;Ljava/lang/String;)Lcom/instagram/guides/intf/GuideCreationLoggerState;
+    invoke-static {v2, v1, v7}, LX/Chf;->A0Z(LX/AYq;Lcom/instagram/guides/intf/GuideCreationType;Ljava/lang/String;)Lcom/instagram/guides/intf/GuideCreationLoggerState;
 
     .line 427
     .line 428

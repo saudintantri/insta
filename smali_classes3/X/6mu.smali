@@ -147,7 +147,7 @@
 
     .line 45
     .line 46
-    const v0, 0x7f0700f1
+    const v0, 0x7f0700f0
 
     .line 47
     .line 48

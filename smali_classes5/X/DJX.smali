@@ -114,7 +114,7 @@
     .locals 1
 
     .line 0
-    invoke-static {p0}, LX/Chi;->A0U(Landroidx/fragment/app/Fragment;)Lcom/instagram/service/session/UserSession;
+    invoke-static {p0}, LX/Chi;->A0V(Landroidx/fragment/app/Fragment;)Lcom/instagram/service/session/UserSession;
 
     .line 1
     .line 2

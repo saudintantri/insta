@@ -116,7 +116,7 @@
     const/4 v7, 0x0
 
     .line 23
-    invoke-static {p1, p0, v7}, LX/Chg;->A08(Landroid/content/Context;Ljava/lang/Object;I)Landroid/view/GestureDetector;
+    invoke-static {p1, p0, v7}, LX/Chg;->A07(Landroid/content/Context;Ljava/lang/Object;I)Landroid/view/GestureDetector;
 
     .line 24
     .line 25
@@ -414,7 +414,7 @@
     move-result-object v0
 
     .line 171
-    invoke-static {v0}, LX/Chf;->A10(Landroid/graphics/drawable/Drawable;)V
+    invoke-static {v0}, LX/Chf;->A11(Landroid/graphics/drawable/Drawable;)V
 
     .line 172
     .line 173

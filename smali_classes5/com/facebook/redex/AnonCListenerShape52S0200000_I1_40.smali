@@ -569,7 +569,7 @@
     .line 260
     .line 261
     :goto_3
-    invoke-static {}, LX/Chf;->A0E()J
+    invoke-static {}, LX/Chf;->A0F()J
 
     .line 262
     .line 263
@@ -603,7 +603,7 @@
 
     .line 278
     .line 279
-    invoke-static {v4, v6, v9, v1}, LX/Chf;->A1K(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
+    invoke-static {v4, v6, v9, v1}, LX/Chf;->A1L(LX/0SF;LX/1GH;Lcom/instagram/model/direct/DirectThreadKey;LX/3us;)V
 
     .line 280
     .line 281

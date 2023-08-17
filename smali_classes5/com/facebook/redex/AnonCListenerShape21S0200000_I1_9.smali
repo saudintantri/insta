@@ -583,7 +583,7 @@
     .line 272
     .line 273
     .line 274
-    invoke-static {p0, v0}, LX/Chj;->A04(Lcom/facebook/redex/AnonCListenerShape21S0200000_I1_9;I)I
+    invoke-static {p0, v0}, LX/Chj;->A03(Lcom/facebook/redex/AnonCListenerShape21S0200000_I1_9;I)I
 
     .line 275
     .line 276
@@ -606,7 +606,7 @@
     .line 284
     .line 285
     .line 286
-    invoke-static {p0, v0}, LX/Chj;->A04(Lcom/facebook/redex/AnonCListenerShape21S0200000_I1_9;I)I
+    invoke-static {p0, v0}, LX/Chj;->A03(Lcom/facebook/redex/AnonCListenerShape21S0200000_I1_9;I)I
 
     .line 287
     .line 288

@@ -334,7 +334,7 @@
 
     .line 84
     .line 85
-    invoke-static {v0}, LX/Chi;->A0K(Ljava/lang/Object;)Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0200000_I1;
+    invoke-static {v0}, LX/Chi;->A0L(Ljava/lang/Object;)Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape1S0200000_I1;
 
     .line 86
     .line 87

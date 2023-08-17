@@ -970,7 +970,7 @@
     .line 449
     .line 450
     .line 451
-    invoke-static {v5, v7}, LX/Che;->A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+    invoke-static {v5, v7}, LX/Che;->A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
 
     .line 452
     .line 453

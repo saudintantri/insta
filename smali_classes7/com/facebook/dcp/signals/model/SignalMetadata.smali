@@ -122,7 +122,7 @@
 
     const/4 v9, 0x0
 
-    .line 271243768
+    .line 271243789
     invoke-direct {p0}, LX/0SY;-><init>()V
 
     and-int/lit8 v6, p10, 0x1
@@ -147,10 +147,10 @@
 
     if-nez v6, :cond_2
 
-    .line 271243769
+    .line 271243790
     sget-object p3, Lcom/facebook/dcp/model/Type;->A0C:Lcom/facebook/dcp/model/Type;
 
-    .line 271243770
+    .line 271243791
     :cond_2
     iput-object p3, p0, Lcom/facebook/dcp/signals/model/SignalMetadata;->A08:Lcom/facebook/dcp/model/Type;
 
@@ -158,12 +158,12 @@
 
     if-nez v6, :cond_3
 
-    .line 271243771
+    .line 271243792
     invoke-static {}, LX/IzN;->A0M()Lcom/facebook/dcp/model/DcpData;
 
     move-result-object p1
 
-    .line 271243772
+    .line 271243793
     :cond_3
     iput-object p1, p0, Lcom/facebook/dcp/signals/model/SignalMetadata;->A06:Lcom/facebook/dcp/model/DcpData;
 
@@ -242,12 +242,12 @@
 
     if-nez v6, :cond_5
 
-    .line 271243773
+    .line 271243794
     new-instance p2, Lcom/facebook/dcp/model/LogLevel;
 
     invoke-direct {p2, v9}, Lcom/facebook/dcp/model/LogLevel;-><init>(I)V
 
-    .line 271243774
+    .line 271243795
     :cond_5
     iput-object p2, p0, Lcom/facebook/dcp/signals/model/SignalMetadata;->A07:Lcom/facebook/dcp/model/LogLevel;
 

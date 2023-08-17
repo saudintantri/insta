@@ -204,7 +204,7 @@
     .line 77
     .line 78
     :cond_2
-    invoke-static {v2, v0}, LX/Che;->A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+    invoke-static {v2, v0}, LX/Che;->A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
 
     .line 79
     .line 80

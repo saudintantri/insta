@@ -1568,7 +1568,6 @@
     move-result v1
     :try_end_3
     .catch Lorg/json/JSONException; {:try_start_3 .. :try_end_3} :catch_2
-    .catch Lorg/json/JSONException; {:try_start_3 .. :try_end_3} :catch_3
 
     .line 739
     :try_start_4
@@ -1642,7 +1641,6 @@
     goto/16 :goto_1
     :try_end_5
     .catch Lorg/json/JSONException; {:try_start_5 .. :try_end_5} :catch_2
-    .catch Lorg/json/JSONException; {:try_start_5 .. :try_end_5} :catch_3
 
     .line 773
     .line 774

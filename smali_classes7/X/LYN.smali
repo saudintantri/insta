@@ -46,17 +46,17 @@
 
     const/4 v0, 0x7
 
-    .line 2765442
+    .line 2765463
     move-object/from16 v5, p14
 
     move-object/from16 v6, p9
 
     invoke-static {v6, v0, v5}, LX/92n;->A1O(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 2765443
+    .line 2765464
     const/16 v0, 0xa
 
-    .line 2765444
+    .line 2765465
     move-object/from16 v1, p11
 
     move-object/from16 v9, p2
@@ -67,40 +67,40 @@
 
     invoke-static {v0, v9, v4, v1, v8}, LX/FnE;->A0v(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2765445
+    .line 2765466
     const/16 v0, 0xe
 
     move-object/from16 v3, p13
 
     invoke-static {v3, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2765446
+    .line 2765467
     move-object/from16 v2, p0
 
     invoke-direct {v2}, Ljava/lang/Object;-><init>()V
 
-    .line 2765447
+    .line 2765468
     move-object/from16 v0, p8
 
     iput-object v0, v2, LX/LYN;->A08:LX/LzV;
 
-    .line 2765448
+    .line 2765469
     move-object/from16 v0, p4
 
     iput-object v0, v2, LX/LYN;->A05:LX/Kf3;
 
-    .line 2765449
+    .line 2765470
     move-object/from16 v0, p6
 
     iput-object v0, v2, LX/LYN;->A06:LX/KxB;
 
-    .line 2765450
+    .line 2765471
     iput-object v4, v2, LX/LYN;->A07:LX/HhK;
 
-    .line 2765451
+    .line 2765472
     iput-object v1, v2, LX/LYN;->A0A:LX/M2D;
 
-    .line 2765452
+    .line 2765473
     const/4 v1, 0x4
 
     new-instance v0, Lcom/instagram/common/callbacks/IDxRCallbackShape85S0100000_7_I1;
@@ -109,21 +109,21 @@
 
     iput-object v0, v2, LX/LYN;->A0B:LX/5FA;
 
-    .line 2765453
+    .line 2765474
     new-instance v4, LX/LYE;
 
     invoke-direct {v4, v2}, LX/LYE;-><init>(LX/LYN;)V
 
     const/16 v1, 0x64
 
-    .line 2765454
+    .line 2765475
     new-instance v0, LX/5Ws;
 
     invoke-direct {v0, v4, v1}, LX/5Ws;-><init>(LX/5Wr;I)V
 
     iput-object v0, v2, LX/LYN;->A0D:LX/5Ws;
 
-    .line 2765455
+    .line 2765476
     new-instance v0, LX/L2d;
 
     move-object/from16 v10, p1
@@ -132,18 +132,18 @@
 
     iput-object v0, v2, LX/LYN;->A0C:LX/L2d;
 
-    .line 2765456
+    .line 2765477
     iget-object v1, v2, LX/LYN;->A05:LX/Kf3;
 
-    .line 2765457
+    .line 2765478
     move/from16 v4, p15
 
     if-eqz p15, :cond_1
 
-    .line 2765458
+    .line 2765479
     sget-object v0, LX/65l;->A02:LX/65l;
 
-    .line 2765459
+    .line 2765480
     :goto_0
     move-object/from16 v13, p5
 
@@ -151,12 +151,12 @@
 
     move-result-object v0
 
-    .line 2765460
+    .line 2765481
     invoke-virtual {v0, v10, v13}, LX/6Bo;->A00(Landroid/content/Context;Lcom/instagram/service/session/UserSession;)Lcom/instagram/video/live/mvvm/model/repository/IgLiveCobroadcastRepository;
 
     move-result-object v18
 
-    .line 2765461
+    .line 2765482
     new-instance v14, LX/Kwd;
 
     move-object v15, v1
@@ -173,32 +173,32 @@
 
     iput-object v14, v2, LX/LYN;->A0E:LX/Kwd;
 
-    .line 2765462
+    .line 2765483
     new-instance v1, LX/KWc;
 
     invoke-direct {v1, v2}, LX/KWc;-><init>(LX/LYN;)V
 
-    .line 2765463
+    .line 2765484
     sget-object v0, LX/L2u;->A00:LX/01o;
 
-    .line 2765464
+    .line 2765485
     invoke-interface {v0}, LX/01o;->getValue()Ljava/lang/Object;
 
     move-result-object v12
 
     check-cast v12, LX/L2u;
 
-    .line 2765465
+    .line 2765486
     new-instance v15, LX/Kc7;
 
     move-object/from16 v0, p10
 
     invoke-direct {v15, v10, v0, v4}, LX/Kc7;-><init>(Landroid/content/Context;LX/Kmr;Z)V
 
-    .line 2765466
+    .line 2765487
     iget-object v11, v2, LX/LYN;->A05:LX/Kf3;
 
-    .line 2765467
+    .line 2765488
     new-instance v9, LX/L3u;
 
     move-object/from16 v17, p12
@@ -211,43 +211,43 @@
 
     iput-object v9, v2, LX/LYN;->A09:LX/L3u;
 
-    .line 2765468
+    .line 2765489
     iput-object v3, v9, LX/L3u;->A06:Ljava/lang/String;
 
-    .line 2765469
+    .line 2765490
     iget-object v0, v2, LX/LYN;->A05:LX/Kf3;
 
     iget v4, v0, LX/Kf3;->A01:I
 
     iput v4, v2, LX/LYN;->A01:I
 
-    .line 2765470
+    .line 2765491
     iget v3, v0, LX/Kf3;->A00:I
 
     div-int/2addr v3, v7
 
     iput v3, v2, LX/LYN;->A00:I
 
-    .line 2765471
+    .line 2765492
     const/4 v2, 0x0
 
-    .line 2765472
+    .line 2765493
     iget-object v1, v9, LX/L3u;->A02:LX/L4o;
 
     if-eqz v1, :cond_0
 
-    .line 2765473
+    .line 2765494
     new-instance v0, LX/Lj7;
 
     invoke-direct {v0, v1, v4, v3}, LX/Lj7;-><init>(LX/L4o;II)V
 
     invoke-static {v2, v1, v0}, LX/L4o;->A02(LX/Mxb;LX/L4o;Ljava/lang/Runnable;)V
 
-    .line 2765474
+    .line 2765495
     :cond_0
     return-void
 
-    .line 2765475
+    .line 2765496
     :cond_1
     sget-object v0, LX/65l;->A03:LX/65l;
 

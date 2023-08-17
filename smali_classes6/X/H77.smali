@@ -58,7 +58,7 @@
     .line 25
     .line 26
     :cond_1
-    invoke-static {v2, v0}, LX/Che;->A01(Landroid/content/Context;I)I
+    invoke-static {v2, v0}, LX/Che;->A02(Landroid/content/Context;I)I
 
     .line 27
     .line 28

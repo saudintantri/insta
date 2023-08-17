@@ -72,47 +72,37 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-static {p1}, LX/Chf;->A0A(Landroid/content/Context;)I
 
     .line 21
     .line 22
     .line 23
-    move-result-object v1
+    move-result v0
 
     .line 24
-    const v0, 0x7f0701af
+    int-to-float v0, v0
 
     .line 25
+    iput v0, p0, LX/ClP;->A08:F
+
     .line 26
     .line 27
-    invoke-static {v1, v0}, LX/Chb;->A01(Landroid/content/res/Resources;I)F
+    iget-object v1, p0, LX/ClP;->A09:Landroid/graphics/Paint;
 
     .line 28
     .line 29
-    .line 30
-    move-result v0
-
-    .line 31
-    iput v0, p0, LX/ClP;->A08:F
-
-    .line 32
-    .line 33
-    iget-object v1, p0, LX/ClP;->A09:Landroid/graphics/Paint;
-
-    .line 34
-    .line 35
     const v0, 0x7f0601aa
 
-    .line 36
-    .line 37
-    .line 38
+    .line 30
+    .line 31
+    .line 32
     invoke-static {p1, v1, v0}, LX/5Wd;->A1B(Landroid/content/Context;Landroid/graphics/Paint;I)V
 
-    .line 39
-    .line 40
-    .line 41
+    .line 33
+    .line 34
+    .line 35
     return-void
-    .line 42
+    .line 36
 .end method
 
 .method private final A00(Landroid/graphics/Canvas;)V

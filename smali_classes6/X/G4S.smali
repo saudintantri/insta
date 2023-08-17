@@ -123,7 +123,7 @@
     .line 47
     .line 48
     .line 49
-    invoke-static {p0, v0, v2}, LX/Chi;->A16(LX/3Ib;LX/0VH;LX/1TA;)V
+    invoke-static {p0, v0, v2}, LX/Chi;->A18(LX/3Ib;LX/0VH;LX/1TA;)V
 
     .line 50
     .line 51
@@ -149,7 +149,7 @@
     .line 61
     .line 62
     .line 63
-    invoke-static {p0, v0, v2}, LX/Chi;->A16(LX/3Ib;LX/0VH;LX/1TA;)V
+    invoke-static {p0, v0, v2}, LX/Chi;->A18(LX/3Ib;LX/0VH;LX/1TA;)V
 
     .line 64
     .line 65
@@ -204,7 +204,7 @@
 
     .line 1
     .line 2
-    invoke-static {v0}, LX/Chh;->A0P(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
+    invoke-static {v0}, LX/Chh;->A0Q(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
 
     .line 3
     .line 4

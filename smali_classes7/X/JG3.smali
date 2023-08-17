@@ -188,7 +188,7 @@
 
     .line 21
     .line 22
-    const v0, 0x7f070189
+    const v0, 0x7f070181
 
     .line 23
     .line 24
@@ -201,7 +201,7 @@
     move-result v3
 
     .line 29
-    const v0, 0x7f070191
+    const v0, 0x7f070189
 
     .line 30
     .line 31
@@ -1618,7 +1618,7 @@
     add-int/2addr v4, v0
 
     .line 294
-    const v0, 0x7f07018a
+    const v0, 0x7f070182
 
     .line 295
     .line 296
@@ -1635,7 +1635,7 @@
 
     .line 302
     .line 303
-    const v0, 0x7f070186
+    const v0, 0x7f07017e
 
     .line 304
     .line 305
@@ -1675,7 +1675,7 @@
     add-int/2addr v2, v1
 
     .line 323
-    const v0, 0x7f070184
+    const v0, 0x7f07017c
 
     .line 324
     .line 325

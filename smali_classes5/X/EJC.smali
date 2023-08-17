@@ -45,7 +45,7 @@
 
     .line 12
     .line 13
-    invoke-static {p1}, LX/Chf;->A0m(LX/1M5;)Ljava/lang/String;
+    invoke-static {p1}, LX/Chf;->A0o(LX/1M5;)Ljava/lang/String;
 
     .line 14
     .line 15

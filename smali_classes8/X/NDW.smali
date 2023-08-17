@@ -820,15 +820,15 @@
 .method public constructor <init>(LX/Kvy;LX/Kgy;)V
     .locals 16
 
-    .line 271340968
+    .line 271340989
     move-object/from16 v12, p0
 
     invoke-direct {v12}, Ljava/util/AbstractMap;-><init>()V
 
-    .line 271340969
+    .line 271340990
     const/4 v1, 0x4
 
-    .line 271340970
+    .line 271340991
     const/high16 v0, 0x10000
 
     invoke-static {v1, v0}, Ljava/lang/Math;->min(II)I
@@ -837,88 +837,88 @@
 
     iput v0, v12, LX/NDW;->A03:I
 
-    .line 271340971
+    .line 271340992
     sget-object v0, LX/Mcd;->A01:LX/Mcd;
 
-    .line 271340972
+    .line 271340993
     iput-object v0, v12, LX/NDW;->A0F:LX/Mcd;
 
-    .line 271340973
+    .line 271340994
     iput-object v0, v12, LX/NDW;->A0G:LX/Mcd;
 
-    .line 271340974
+    .line 271340995
     instance-of v0, v0, LX/MXf;
 
     if-eqz v0, :cond_2
 
-    .line 271340975
+    .line 271340996
     sget-object v0, LX/109;->A00:LX/109;
 
-    .line 271340976
+    .line 271340997
     :goto_0
     iput-object v0, v12, LX/NDW;->A09:LX/2ow;
 
-    .line 271340977
+    .line 271340998
     iput-object v0, v12, LX/NDW;->A0A:LX/2ow;
 
-    .line 271340978
+    .line 271340999
     const-wide/16 v14, -0x1
 
-    .line 271340979
+    .line 271341000
     iput-wide v14, v12, LX/NDW;->A08:J
 
-    .line 271340980
+    .line 271341001
     sget-object v6, LX/Md4;->A01:LX/Md4;
 
-    .line 271340981
+    .line 271341002
     iput-object v6, v12, LX/NDW;->A0H:LX/NFM;
 
-    .line 271340982
+    .line 271341003
     const-wide/16 v2, 0x0
 
-    .line 271340983
+    .line 271341004
     iput-wide v2, v12, LX/NDW;->A07:J
 
-    .line 271340984
+    .line 271341005
     sget-object v0, LX/AYy;->A01:LX/AYy;
 
-    .line 271340985
+    .line 271341006
     iput-object v0, v12, LX/NDW;->A06:LX/CfN;
 
-    .line 271340986
+    .line 271341007
     sget-object v0, LX/NDW;->A0M:Ljava/util/Queue;
 
-    .line 271340987
+    .line 271341008
     iput-object v0, v12, LX/NDW;->A0I:Ljava/util/Queue;
 
-    .line 271340988
+    .line 271341009
     sget-object v0, LX/Kvy;->A02:LX/34f;
 
-    .line 271340989
+    .line 271341010
     iput-object v0, v12, LX/NDW;->A0B:LX/34f;
 
-    .line 271340990
+    .line 271341011
     cmp-long v0, v14, v2
 
-    .line 271340991
+    .line 271341012
     invoke-static {v0}, LX/FnC;->A1R(I)Z
 
     move-result v1
 
-    .line 271340992
+    .line 271341013
     sget-object v0, LX/Mck;->A00:[LX/Mck;
 
     aget-object v0, v0, v1
 
-    .line 271340993
+    .line 271341014
     iput-object v0, v12, LX/NDW;->A0E:LX/Mck;
 
-    .line 271340994
+    .line 271341015
     move-object/from16 v0, p1
 
     iget-object v5, v0, LX/Kvy;->A00:LX/0yM;
 
-    .line 271340995
+    .line 271341016
     invoke-interface {v5}, LX/0yM;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -927,43 +927,43 @@
 
     iput-object v0, v12, LX/NDW;->A0C:LX/NHL;
 
-    .line 271340996
+    .line 271341017
     move-object/from16 v0, p2
 
     iput-object v0, v12, LX/NDW;->A0D:LX/Kgy;
 
-    .line 271340997
+    .line 271341018
     const/16 v1, 0x10
 
-    .line 271340998
+    .line 271341019
     const/high16 v0, 0x40000000    # 2.0f
 
     invoke-static {v1, v0}, Ljava/lang/Math;->min(II)I
 
     move-result v7
 
-    .line 271340999
+    .line 271341020
     iget-wide v0, v12, LX/NDW;->A08:J
 
     cmp-long v4, v0, v2
 
-    .line 271341000
+    .line 271341021
     invoke-static {v4}, LX/FnC;->A1R(I)Z
 
     move-result v10
 
-    .line 271341001
+    .line 271341022
     if-eqz v10, :cond_0
 
-    .line 271341002
+    .line 271341023
     iget-object v2, v12, LX/NDW;->A0H:LX/NFM;
 
     if-ne v2, v6, :cond_0
 
-    .line 271341003
+    .line 271341024
     int-to-long v2, v7
 
-    .line 271341004
+    .line 271341025
     invoke-static {v2, v3, v0, v1}, Ljava/lang/Math;->min(JJ)J
 
     move-result-wide v2
@@ -979,7 +979,7 @@
 
     const/4 v9, 0x0
 
-    .line 271341005
+    .line 271341026
     :goto_1
     iget v2, v12, LX/NDW;->A03:I
 
@@ -1002,32 +1002,32 @@
 
     goto :goto_1
 
-    .line 271341006
+    .line 271341027
     :cond_2
     sget-object v0, LX/23S;->A00:LX/23S;
 
-    .line 271341007
+    .line 271341028
     goto :goto_0
 
-    .line 271341008
+    .line 271341029
     :cond_3
     rsub-int/lit8 v2, v9, 0x20
 
-    .line 271341009
+    .line 271341030
     iput v2, v12, LX/NDW;->A05:I
 
     add-int/lit8 v2, v6, -0x1
 
-    .line 271341010
+    .line 271341031
     iput v2, v12, LX/NDW;->A04:I
 
-    .line 271341011
+    .line 271341032
     new-array v2, v6, [LX/NDj;
 
-    .line 271341012
+    .line 271341033
     iput-object v2, v12, LX/NDW;->A0J:[LX/NDj;
 
-    .line 271341013
+    .line 271341034
     div-int v3, v7, v6
 
     mul-int v2, v3, v6
@@ -1044,11 +1044,11 @@
 
     goto :goto_2
 
-    .line 271341014
+    .line 271341035
     :cond_5
     if-eqz v10, :cond_7
 
-    .line 271341015
+    .line 271341036
     int-to-long v2, v6
 
     div-long v14, v0, v2
@@ -1057,10 +1057,10 @@
 
     add-long/2addr v14, v8
 
-    .line 271341016
+    .line 271341037
     rem-long/2addr v0, v2
 
-    .line 271341017
+    .line 271341038
     :goto_3
     iget-object v7, v12, LX/NDW;->A0J:[LX/NDj;
 
@@ -1076,7 +1076,7 @@
 
     sub-long/2addr v14, v8
 
-    .line 271341018
+    .line 271341039
     :cond_6
     invoke-interface {v5}, LX/0yM;->get()Ljava/lang/Object;
 
@@ -1084,19 +1084,19 @@
 
     check-cast v11, LX/NHL;
 
-    .line 271341019
+    .line 271341040
     new-instance v10, LX/NDj;
 
     invoke-direct/range {v10 .. v15}, LX/NDj;-><init>(LX/NHL;LX/NDW;IJ)V
 
-    .line 271341020
+    .line 271341041
     aput-object v10, v7, v4
 
     add-int/lit8 v4, v4, 0x1
 
     goto :goto_3
 
-    .line 271341021
+    .line 271341042
     :cond_7
     :goto_4
     iget-object v1, v12, LX/NDW;->A0J:[LX/NDj;
@@ -1105,19 +1105,19 @@
 
     if-ge v4, v0, :cond_8
 
-    .line 271341022
+    .line 271341043
     invoke-interface {v5}, LX/0yM;->get()Ljava/lang/Object;
 
     move-result-object v11
 
     check-cast v11, LX/NHL;
 
-    .line 271341023
+    .line 271341044
     new-instance v10, LX/NDj;
 
     invoke-direct/range {v10 .. v15}, LX/NDj;-><init>(LX/NHL;LX/NDW;IJ)V
 
-    .line 271341024
+    .line 271341045
     aput-object v10, v1, v4
 
     add-int/lit8 v4, v4, 0x1
@@ -3899,12 +3899,12 @@
 .method public final replace(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 19
 
-    .line 271341056
+    .line 271341077
     move-object/from16 v7, p1
 
     invoke-static {v7}, LX/0yH;->A08(Ljava/lang/Object;)V
 
-    .line 271341057
+    .line 271341078
     move-object/from16 v6, p3
 
     invoke-static {v6}, LX/0yH;->A08(Ljava/lang/Object;)V
@@ -3913,22 +3913,22 @@
 
     if-eqz p2, :cond_4
 
-    .line 271341058
+    .line 271341079
     move-object/from16 v0, p0
 
     invoke-virtual {v0, v7}, LX/NDW;->A00(Ljava/lang/Object;)I
 
     move-result v4
 
-    .line 271341059
+    .line 271341080
     invoke-virtual {v0, v4}, LX/NDW;->A01(I)LX/NDj;
 
     move-result-object v12
 
-    .line 271341060
+    .line 271341081
     invoke-virtual {v12}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
 
-    .line 271341061
+    .line 271341082
     :try_start_0
     iget-object v10, v12, LX/NDj;->A05:LX/NDW;
 
@@ -3938,13 +3938,13 @@
 
     move-result-wide v0
 
-    .line 271341062
+    .line 271341083
     invoke-virtual {v12, v0, v1}, LX/NDj;->A0G(J)V
 
-    .line 271341063
+    .line 271341084
     iget-object v5, v12, LX/NDj;->A0D:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
-    .line 271341064
+    .line 271341085
     invoke-virtual {v5}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->length()I
 
     move-result v2
@@ -3955,7 +3955,7 @@
 
     and-int v3, v4, v2
 
-    .line 271341065
+    .line 271341086
     invoke-virtual {v5, v3}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->get(I)Ljava/lang/Object;
 
     move-result-object v14
@@ -3967,12 +3967,12 @@
     :goto_0
     if-eqz v15, :cond_3
 
-    .line 271341066
+    .line 271341087
     invoke-interface {v15}, LX/NHg;->getKey()Ljava/lang/Object;
 
     move-result-object v8
 
-    .line 271341067
+    .line 271341088
     invoke-interface {v15}, LX/NHg;->Aod()I
 
     move-result v2
@@ -3983,39 +3983,39 @@
 
     iget-object v2, v10, LX/NDW;->A09:LX/2ow;
 
-    .line 271341068
+    .line 271341089
     invoke-virtual {v2, v7, v8}, LX/2ow;->A01(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 271341069
+    .line 271341090
     invoke-interface {v15}, LX/NHg;->BLV()LX/NHY;
 
     move-result-object v13
 
-    .line 271341070
+    .line 271341091
     invoke-interface {v13}, LX/NHY;->get()Ljava/lang/Object;
 
     move-result-object v4
 
     if-nez v4, :cond_1
 
-    .line 271341071
+    .line 271341092
     invoke-interface {v13}, LX/NHY;->isActive()Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    .line 271341072
+    .line 271341093
     invoke-static {v12}, LX/NDj;->A00(LX/NDj;)V
 
-    .line 271341073
+    .line 271341094
     sget-object v16, LX/McW;->A01:LX/McW;
 
-    .line 271341074
+    .line 271341095
     move-object/from16 v17, v8
 
     move-object/from16 v18, v4
@@ -4024,20 +4024,20 @@
 
     move-result-object v1
 
-    .line 271341075
+    .line 271341096
     iget v0, v12, LX/NDj;->A0C:I
 
     sub-int/2addr v0, v11
 
-    .line 271341076
+    .line 271341097
     invoke-virtual {v5, v3, v1}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->set(ILjava/lang/Object;)V
 
-    .line 271341077
+    .line 271341098
     iput v0, v12, LX/NDj;->A0C:I
 
     goto :goto_1
 
-    .line 271341078
+    .line 271341099
     :cond_0
     invoke-interface {v15}, LX/NHg;->AyQ()LX/NHg;
 
@@ -4045,7 +4045,7 @@
 
     goto :goto_0
 
-    .line 271341079
+    .line 271341100
     :cond_1
     iget-object v2, v10, LX/NDW;->A0A:LX/2ow;
 
@@ -4055,38 +4055,38 @@
 
     if-eqz v2, :cond_2
 
-    .line 271341080
+    .line 271341101
     invoke-static {v12}, LX/NDj;->A00(LX/NDj;)V
 
-    .line 271341081
+    .line 271341102
     invoke-interface {v13}, LX/NHY;->BNF()I
 
     move-result v3
 
     sget-object v2, LX/McW;->A04:LX/McW;
 
-    .line 271341082
+    .line 271341103
     invoke-virtual {v12, v2, v7, v4, v3}, LX/NDj;->A0K(LX/McW;Ljava/lang/Object;Ljava/lang/Object;I)V
 
-    .line 271341083
+    .line 271341104
     invoke-virtual {v12, v15, v6, v0, v1}, LX/NDj;->A0J(LX/NHg;Ljava/lang/Object;J)V
 
-    .line 271341084
+    .line 271341105
     invoke-virtual {v12, v15}, LX/NDj;->A0H(LX/NHg;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 271341085
+    .line 271341106
     invoke-virtual {v12}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    .line 271341086
+    .line 271341107
     invoke-virtual {v12}, LX/NDj;->A0E()V
 
     const/4 v0, 0x1
 
     return v0
 
-    .line 271341087
+    .line 271341108
     :cond_2
     :try_start_1
     iget-object v0, v12, LX/NDj;->A08:Ljava/util/Queue;
@@ -4097,28 +4097,28 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 271341088
+    .line 271341109
     :catchall_0
     move-exception v0
 
-    .line 271341089
+    .line 271341110
     invoke-virtual {v12}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    .line 271341090
+    .line 271341111
     invoke-virtual {v12}, LX/NDj;->A0E()V
 
-    .line 271341091
+    .line 271341112
     throw v0
 
-    .line 271341092
+    .line 271341113
     :cond_3
     :goto_1
     invoke-virtual {v12}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    .line 271341093
+    .line 271341114
     invoke-virtual {v12}, LX/NDj;->A0E()V
 
-    .line 271341094
+    .line 271341115
     :cond_4
     const/4 v0, 0x0
 

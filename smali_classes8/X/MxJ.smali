@@ -53,23 +53,23 @@
 
     const-string v1, "HyperThriftReader.parse"
 
-    .line 2874067
+    .line 2874088
     sget-object v0, Lcom/facebook/systrace/SystraceMessage;->A00:LX/0rb;
 
     invoke-static {v0, v1, v2, v3}, Lcom/facebook/systrace/SystraceMessage;->A01(LX/0rb;Ljava/lang/String;J)LX/0rc;
 
     move-result-object v1
 
-    .line 2874068
+    .line 2874089
     const-string v0, "type"
 
-    .line 2874069
+    .line 2874090
     invoke-virtual {v1, p1, v0}, LX/0rc;->A00(Ljava/lang/Object;Ljava/lang/String;)LX/0rc;
 
-    .line 2874070
+    .line 2874091
     invoke-virtual {v1}, LX/0rc;->A02()V
 
-    .line 2874071
+    .line 2874092
     :try_start_0
     iget-object v0, p0, LX/MxJ;->A00:LX/KiD;
 
@@ -77,27 +77,27 @@
 
     move-result-object v12
 
-    .line 2874072
+    .line 2874093
     iget-object v11, v12, LX/KaY;->A02:[LX/KaX;
 
     array-length v8, v11
 
     new-array v7, v8, [Ljava/lang/Object;
 
-    .line 2874073
+    .line 2874094
     iget-object v10, p0, LX/MxJ;->A01:LX/2RK;
 
     monitor-enter v12
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2874074
+    .line 2874095
     :try_start_1
     iget-object v0, v12, LX/KaY;->A01:Ljava/util/Map;
 
     if-nez v0, :cond_1
 
-    .line 2874075
+    .line 2874096
     if-eqz v8, :cond_0
 
     const/4 v6, 0x0
@@ -108,33 +108,33 @@
 
     if-eqz v0, :cond_0
 
-    .line 2874076
+    .line 2874097
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v0
 
-    .line 2874077
+    .line 2874098
     iput-object v0, v12, LX/KaY;->A01:Ljava/util/Map;
 
-    .line 2874078
+    .line 2874099
     :goto_0
     if-ge v6, v8, :cond_1
 
     aget-object v1, v11, v6
 
-    .line 2874079
+    .line 2874100
     iget-object v0, v1, LX/KaX;->A00:LX/KcS;
 
     iget-byte v0, v0, LX/KcS;->A00:B
 
     invoke-static {v0}, LX/KKa;->A00(B)B
 
-    .line 2874080
+    .line 2874101
     iget-object v5, v12, LX/KaY;->A01:Ljava/util/Map;
 
     iget-short v0, v1, LX/KaX;->A02:S
 
-    .line 2874081
+    .line 2874102
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -147,14 +147,14 @@
 
     invoke-direct {v0, v1}, LX/N7m;-><init>(LX/N7l;)V
 
-    .line 2874082
+    .line 2874103
     invoke-interface {v5, v4, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v6, v6, 0x1
 
     goto :goto_0
 
-    .line 2874083
+    .line 2874104
     :cond_0
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
@@ -164,12 +164,12 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 2874084
+    .line 2874105
     :cond_1
     :try_start_2
     monitor-exit v12
 
-    .line 2874085
+    .line 2874106
     iget-object v6, v10, LX/2RK;->A00:LX/2Ra;
 
     iget-short v0, v10, LX/2RK;->A03:S
@@ -178,15 +178,15 @@
 
     const/4 v0, 0x0
 
-    .line 2874086
+    .line 2874107
     iput-short v0, v10, LX/2RK;->A03:S
 
-    .line 2874087
+    .line 2874108
     const/4 v9, 0x0
 
     goto :goto_1
 
-    .line 2874088
+    .line 2874109
     :catchall_0
     move-exception v1
 
@@ -194,18 +194,18 @@
 
     goto :goto_2
 
-    .line 2874089
+    .line 2874110
     :goto_1
     invoke-virtual {v10}, LX/2RK;->A07()LX/2RL;
 
     move-result-object v0
 
-    .line 2874090
+    .line 2874111
     iget-byte v5, v0, LX/2RL;->A00:B
 
     if-nez v5, :cond_5
 
-    .line 2874091
+    .line 2874112
     iget-object v4, v6, LX/2Ra;->A01:[S
 
     iget v1, v6, LX/2Ra;->A00:I
@@ -216,17 +216,17 @@
 
     aget-short v0, v4, v1
 
-    .line 2874092
+    .line 2874113
     iput-short v0, v10, LX/2RK;->A03:S
 
-    .line 2874093
+    .line 2874114
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
     move-result v0
 
     sparse-switch v0, :sswitch_data_0
 
-    .line 2874094
+    .line 2874115
     :cond_2
     const-string v0, "structName="
 
@@ -234,16 +234,16 @@
 
     move-result-object v0
 
-    .line 2874095
+    .line 2874116
     invoke-static {v0}, LX/5Wd;->A0b(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;
 
     move-result-object v1
 
-    .line 2874096
+    .line 2874117
     :goto_2
     throw v1
 
-    .line 2874097
+    .line 2874118
     :sswitch_0
     const-string v0, "com.facebook.fbwebrtc.multiway.VideoUploadInfo"
 
@@ -253,12 +253,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874098
+    .line 2874119
     const-class v0, Lcom/facebook/fbwebrtc/multiway/VideoUploadInfo;
 
     goto/16 :goto_3
 
-    .line 2874099
+    .line 2874120
     :sswitch_1
     const-string v0, "com.facebook.fbwebrtc.multiway.MultipleRelaysAllocationParameters"
 
@@ -268,12 +268,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874100
+    .line 2874121
     const-class v0, Lcom/facebook/fbwebrtc/multiway/MultipleRelaysAllocationParameters;
 
     goto/16 :goto_3
 
-    .line 2874101
+    .line 2874122
     :sswitch_2
     const-string v0, "com.facebook.fbwebrtc.OtherDismissPayload"
 
@@ -283,12 +283,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874102
+    .line 2874123
     const-class v0, Lcom/facebook/fbwebrtc/OtherDismissPayload;
 
     goto/16 :goto_3
 
-    .line 2874103
+    .line 2874124
     :sswitch_3
     const-string v0, "com.facebook.fbwebrtc.multiway.RingRequest"
 
@@ -298,12 +298,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874104
+    .line 2874125
     const-class v0, Lcom/facebook/fbwebrtc/multiway/RingRequest;
 
     goto/16 :goto_3
 
-    .line 2874105
+    .line 2874126
     :sswitch_4
     const-string v0, "com.facebook.logginginfra.falco.QPLSamplingConfig"
 
@@ -313,12 +313,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874106
+    .line 2874127
     const-class v0, Lcom/facebook/logginginfra/falco/QPLSamplingConfig;
 
     goto/16 :goto_3
 
-    .line 2874107
+    .line 2874128
     :sswitch_5
     const-string v0, "com.facebook.fbwebrtc.multiway.SignalingMessageFromClient"
 
@@ -328,12 +328,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874108
+    .line 2874129
     const-class v0, Lcom/facebook/fbwebrtc/multiway/SignalingMessageFromClient;
 
     goto/16 :goto_3
 
-    .line 2874109
+    .line 2874130
     :sswitch_6
     const-string v0, "com.facebook.fbwebrtc.multiway.JoinRequest"
 
@@ -343,12 +343,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874110
+    .line 2874131
     const-class v0, Lcom/facebook/fbwebrtc/multiway/JoinRequest;
 
     goto/16 :goto_3
 
-    .line 2874111
+    .line 2874132
     :sswitch_7
     const-string v0, "com.facebook.fbwebrtc.multiway.ClientResult"
 
@@ -358,12 +358,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874112
+    .line 2874133
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ClientResult;
 
     goto/16 :goto_3
 
-    .line 2874113
+    .line 2874134
     :sswitch_8
     const-string v0, "com.facebook.fbwebrtc.SdpNegotiatePayload"
 
@@ -373,12 +373,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874114
+    .line 2874135
     const-class v0, Lcom/facebook/fbwebrtc/SdpNegotiatePayload;
 
     goto/16 :goto_3
 
-    .line 2874115
+    .line 2874136
     :sswitch_9
     const-string v0, "com.facebook.logginginfra.falco.ProcessRequestDirective"
 
@@ -388,12 +388,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874116
+    .line 2874137
     const-class v0, Lcom/facebook/logginginfra/falco/ProcessRequestDirective;
 
     goto/16 :goto_3
 
-    .line 2874117
+    .line 2874138
     :sswitch_a
     const-string v0, "com.facebook.fbwebrtc.multiway.ConnectRequest"
 
@@ -403,12 +403,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874118
+    .line 2874139
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ConnectRequest;
 
     goto/16 :goto_3
 
-    .line 2874119
+    .line 2874140
     :sswitch_b
     const-string v0, "com.facebook.fbwebrtc.PranswerPayload"
 
@@ -418,12 +418,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874120
+    .line 2874141
     const-class v0, Lcom/facebook/fbwebrtc/PranswerPayload;
 
     goto/16 :goto_3
 
-    .line 2874121
+    .line 2874142
     :sswitch_c
     const-string v0, "com.facebook.fbwebrtc.MediaDescription"
 
@@ -433,12 +433,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874122
+    .line 2874143
     const-class v0, Lcom/facebook/fbwebrtc/MediaDescription;
 
     goto/16 :goto_3
 
-    .line 2874123
+    .line 2874144
     :sswitch_d
     const-string v0, "com.facebook.fbwebrtc.multiway.Endpoint"
 
@@ -448,12 +448,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874124
+    .line 2874145
     const-class v0, Lcom/facebook/fbwebrtc/multiway/Endpoint;
 
     goto/16 :goto_3
 
-    .line 2874125
+    .line 2874146
     :sswitch_e
     const-string v0, "com.facebook.fbwebrtc.multiway.QuickExperimentValue"
 
@@ -463,12 +463,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874126
+    .line 2874147
     const-class v0, Lcom/facebook/fbwebrtc/multiway/QuickExperimentValue;
 
     goto/16 :goto_3
 
-    .line 2874127
+    .line 2874148
     :sswitch_f
     const-string v0, "com.facebook.fbwebrtc.multiway.IceCandidate"
 
@@ -478,12 +478,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874128
+    .line 2874149
     const-class v0, Lcom/facebook/fbwebrtc/multiway/IceCandidate;
 
     goto/16 :goto_3
 
-    .line 2874129
+    .line 2874150
     :sswitch_10
     const-string v0, "com.facebook.fbwebrtc.multiway.LoggingOptions"
 
@@ -493,12 +493,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874130
+    .line 2874151
     const-class v0, Lcom/facebook/fbwebrtc/multiway/LoggingOptions;
 
     goto/16 :goto_3
 
-    .line 2874131
+    .line 2874152
     :sswitch_11
     const-string v0, "com.facebook.fbwebrtc.multiway.AddParticipantsRequest"
 
@@ -508,12 +508,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874132
+    .line 2874153
     const-class v0, Lcom/facebook/fbwebrtc/multiway/AddParticipantsRequest;
 
     goto/16 :goto_3
 
-    .line 2874133
+    .line 2874154
     :sswitch_12
     const-string v0, "com.facebook.fbwebrtc.multiway.DataMessageRequest"
 
@@ -523,12 +523,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874134
+    .line 2874155
     const-class v0, Lcom/facebook/fbwebrtc/multiway/DataMessageRequest;
 
     goto/16 :goto_3
 
-    .line 2874135
+    .line 2874156
     :sswitch_13
     const-string v0, "com.facebook.fbwebrtc.CodecDescription"
 
@@ -538,12 +538,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874136
+    .line 2874157
     const-class v0, Lcom/facebook/fbwebrtc/CodecDescription;
 
     goto/16 :goto_3
 
-    .line 2874137
+    .line 2874158
     :sswitch_14
     const-string v0, "com.facebook.logginginfra.falco.FunnelSamplingConfig"
 
@@ -553,12 +553,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874138
+    .line 2874159
     const-class v0, Lcom/facebook/logginginfra/falco/FunnelSamplingConfig;
 
     goto/16 :goto_3
 
-    .line 2874139
+    .line 2874160
     :sswitch_15
     const-string v0, "com.facebook.fbwebrtc.multiway.QuickExperiment"
 
@@ -568,12 +568,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874140
+    .line 2874161
     const-class v0, Lcom/facebook/fbwebrtc/multiway/QuickExperiment;
 
     goto/16 :goto_3
 
-    .line 2874141
+    .line 2874162
     :sswitch_16
     const-string v0, "com.facebook.logginginfra.falco.Batch"
 
@@ -583,12 +583,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874142
+    .line 2874163
     const-class v0, Lcom/facebook/logginginfra/falco/Batch;
 
     goto/16 :goto_3
 
-    .line 2874143
+    .line 2874164
     :sswitch_17
     const-string v0, "com.facebook.logginginfra.falco.Event"
 
@@ -598,12 +598,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874144
+    .line 2874165
     const-class v0, Lcom/facebook/logginginfra/falco/Event;
 
     goto/16 :goto_3
 
-    .line 2874145
+    .line 2874166
     :sswitch_18
     const-string v0, "com.facebook.logginginfra.falco.Checksum"
 
@@ -613,12 +613,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874146
+    .line 2874167
     const-class v0, Lcom/facebook/logginginfra/falco/Checksum;
 
     goto/16 :goto_3
 
-    .line 2874147
+    .line 2874168
     :sswitch_19
     const-string v0, "com.facebook.logginginfra.falco.Proxy"
 
@@ -628,12 +628,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874148
+    .line 2874169
     const-class v0, Lcom/facebook/logginginfra/falco/Proxy;
 
     goto/16 :goto_3
 
-    .line 2874149
+    .line 2874170
     :sswitch_1a
     const/16 v0, 0x117
 
@@ -647,12 +647,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874150
+    .line 2874171
     const-class v0, Lcom/facebook/fbwebrtc/multiway/RtcMessageHeader;
 
     goto/16 :goto_3
 
-    .line 2874151
+    .line 2874172
     :sswitch_1b
     const-string v0, "com.facebook.fbwebrtc.Extmap"
 
@@ -662,12 +662,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874152
+    .line 2874173
     const-class v0, Lcom/facebook/fbwebrtc/Extmap;
 
     goto/16 :goto_3
 
-    .line 2874153
+    .line 2874174
     :sswitch_1c
     const-string v0, "com.facebook.fbwebrtc.multiway.ProxygenAllocationResult"
 
@@ -677,12 +677,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874154
+    .line 2874175
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ProxygenAllocationResult;
 
     goto/16 :goto_3
 
-    .line 2874155
+    .line 2874176
     :sswitch_1d
     const-string v0, "com.facebook.fbwebrtc.multiway.VideoUploadRequest"
 
@@ -692,12 +692,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874156
+    .line 2874177
     const-class v0, Lcom/facebook/fbwebrtc/multiway/VideoUploadRequest;
 
     goto/16 :goto_3
 
-    .line 2874157
+    .line 2874178
     :sswitch_1e
     const-string v0, "com.facebook.logginginfra.falco.SamplingChecksum"
 
@@ -707,12 +707,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874158
+    .line 2874179
     const-class v0, Lcom/facebook/logginginfra/falco/SamplingChecksum;
 
     goto/16 :goto_3
 
-    .line 2874159
+    .line 2874180
     :sswitch_1f
     const-string v0, "com.facebook.fbwebrtc.NotifyMediaStatePayload"
 
@@ -722,12 +722,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874160
+    .line 2874181
     const-class v0, Lcom/facebook/fbwebrtc/NotifyMediaStatePayload;
 
     goto/16 :goto_3
 
-    .line 2874161
+    .line 2874182
     :sswitch_20
     const-string v0, "com.facebook.logginginfra.falco.ClientSource"
 
@@ -737,12 +737,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874162
+    .line 2874183
     const-class v0, Lcom/facebook/logginginfra/falco/ClientSource;
 
     goto/16 :goto_3
 
-    .line 2874163
+    .line 2874184
     :sswitch_21
     const-string v0, "com.facebook.fbwebrtc.multiway.ApprovalRequest"
 
@@ -752,12 +752,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874164
+    .line 2874185
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ApprovalRequest;
 
     goto/16 :goto_3
 
-    .line 2874165
+    .line 2874186
     :sswitch_22
     const-string v0, "com.facebook.fbwebrtc.HangUpPayload"
 
@@ -767,12 +767,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874166
+    .line 2874187
     const-class v0, Lcom/facebook/fbwebrtc/HangUpPayload;
 
     goto/16 :goto_3
 
-    .line 2874167
+    .line 2874188
     :sswitch_23
     const-string v0, "com.facebook.logginginfra.falco.Identifier"
 
@@ -782,12 +782,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874168
+    .line 2874189
     const-class v0, Lcom/facebook/logginginfra/falco/Identifier;
 
     goto/16 :goto_3
 
-    .line 2874169
+    .line 2874190
     :sswitch_24
     const-string v0, "com.facebook.fbwebrtc.GenericDataMessage"
 
@@ -797,12 +797,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874170
+    .line 2874191
     const-class v0, Lcom/facebook/fbwebrtc/GenericDataMessage;
 
     goto/16 :goto_3
 
-    .line 2874171
+    .line 2874192
     :sswitch_25
     const-string v0, "com.facebook.fbwebrtc.multiway.SignalingMessageToClient"
 
@@ -812,12 +812,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874172
+    .line 2874193
     const-class v0, Lcom/facebook/fbwebrtc/multiway/SignalingMessageToClient;
 
     goto/16 :goto_3
 
-    .line 2874173
+    .line 2874194
     :sswitch_26
     const-string v0, "com.facebook.fbwebrtc.multiway.QuickExperimentResult"
 
@@ -827,12 +827,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874174
+    .line 2874195
     const-class v0, Lcom/facebook/fbwebrtc/multiway/QuickExperimentResult;
 
     goto/16 :goto_3
 
-    .line 2874175
+    .line 2874196
     :sswitch_27
     const-string v0, "com.facebook.fbwebrtc.multiway.UserProfile"
 
@@ -842,12 +842,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874176
+    .line 2874197
     const-class v0, Lcom/facebook/fbwebrtc/multiway/UserProfile;
 
     goto/16 :goto_3
 
-    .line 2874177
+    .line 2874198
     :sswitch_28
     const-string v0, "com.facebook.fbwebrtc.multiway.ClientMediaStatus"
 
@@ -857,12 +857,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874178
+    .line 2874199
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ClientMediaStatus;
 
     goto/16 :goto_3
 
-    .line 2874179
+    .line 2874200
     :sswitch_29
     const-string v0, "com.facebook.fbwebrtc.multiway.ClientMediaUpdate"
 
@@ -872,12 +872,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874180
+    .line 2874201
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ClientMediaUpdate;
 
     goto/16 :goto_3
 
-    .line 2874181
+    .line 2874202
     :sswitch_2a
     const-string v0, "com.facebook.fbwebrtc.multiway.DataMessage"
 
@@ -887,12 +887,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874182
+    .line 2874203
     const-class v0, Lcom/facebook/fbwebrtc/multiway/DataMessage;
 
     goto/16 :goto_3
 
-    .line 2874183
+    .line 2874204
     :sswitch_2b
     const-string v0, "com.facebook.fbwebrtc.SwitchToMultiwayPayload"
 
@@ -902,12 +902,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874184
+    .line 2874205
     const-class v0, Lcom/facebook/fbwebrtc/SwitchToMultiwayPayload;
 
     goto/16 :goto_3
 
-    .line 2874185
+    .line 2874206
     :sswitch_2c
     const-string v0, "com.facebook.fbwebrtc.multiway.ClientMediaUpdateRequest"
 
@@ -917,12 +917,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874186
+    .line 2874207
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ClientMediaUpdateRequest;
 
     goto/16 :goto_3
 
-    .line 2874187
+    .line 2874208
     :sswitch_2d
     const-string v0, "com.facebook.fbwebrtc.multiway.DataHeader"
 
@@ -932,12 +932,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874188
+    .line 2874209
     const-class v0, Lcom/facebook/fbwebrtc/multiway/DataHeader;
 
     goto/16 :goto_3
 
-    .line 2874189
+    .line 2874210
     :sswitch_2e
     const-string v0, "com.facebook.fbwebrtc.multiway.P2PMessageRequest"
 
@@ -947,12 +947,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874190
+    .line 2874211
     const-class v0, Lcom/facebook/fbwebrtc/multiway/P2PMessageRequest;
 
     goto/16 :goto_3
 
-    .line 2874191
+    .line 2874212
     :sswitch_2f
     const-string v0, "com.facebook.fbwebrtc.OkPayload"
 
@@ -962,12 +962,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874192
+    .line 2874213
     const-class v0, Lcom/facebook/fbwebrtc/OkPayload;
 
     goto/16 :goto_3
 
-    .line 2874193
+    .line 2874214
     :sswitch_30
     const-string v0, "com.facebook.logginginfra.falco.PartitioningKey"
 
@@ -977,12 +977,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874194
+    .line 2874215
     const-class v0, Lcom/facebook/logginginfra/falco/PartitioningKey;
 
     goto/16 :goto_3
 
-    .line 2874195
+    .line 2874216
     :sswitch_31
     const-string v0, "com.facebook.fbwebrtc.multiway.ReceiverBottleneck"
 
@@ -992,12 +992,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874196
+    .line 2874217
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ReceiverBottleneck;
 
     goto/16 :goto_3
 
-    .line 2874197
+    .line 2874218
     :sswitch_32
     const-string v0, "com.facebook.fbwebrtc.multiway.ClientSessionInfo"
 
@@ -1007,12 +1007,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874198
+    .line 2874219
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ClientSessionInfo;
 
     goto/16 :goto_3
 
-    .line 2874199
+    .line 2874220
     :sswitch_33
     const-string v0, "com.facebook.fbwebrtc.multiway.ClientInfo"
 
@@ -1022,12 +1022,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874200
+    .line 2874221
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ClientInfo;
 
     goto/16 :goto_3
 
-    .line 2874201
+    .line 2874222
     :sswitch_34
     const-string v0, "com.facebook.fbwebrtc.AnswerPayload"
 
@@ -1037,12 +1037,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874202
+    .line 2874223
     const-class v0, Lcom/facebook/fbwebrtc/AnswerPayload;
 
     goto/16 :goto_3
 
-    .line 2874203
+    .line 2874224
     :sswitch_35
     const-string v0, "com.facebook.logginginfra.falco.FunnelPartialSampling"
 
@@ -1052,12 +1052,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874204
+    .line 2874225
     const-class v0, Lcom/facebook/logginginfra/falco/FunnelPartialSampling;
 
     goto/16 :goto_3
 
-    .line 2874205
+    .line 2874226
     :sswitch_36
     const-string v0, "com.facebook.fbwebrtc.multiway.ClientEvent"
 
@@ -1067,12 +1067,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874206
+    .line 2874227
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ClientEvent;
 
     goto/16 :goto_3
 
-    .line 2874207
+    .line 2874228
     :sswitch_37
     const-string v0, "com.facebook.fbwebrtc.multiway.ProxygenCandidate"
 
@@ -1082,12 +1082,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874208
+    .line 2874229
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ProxygenCandidate;
 
     goto/16 :goto_3
 
-    .line 2874209
+    .line 2874230
     :sswitch_38
     const-string v0, "com.facebook.logginginfra.falco.PigeonPartialSampling"
 
@@ -1097,12 +1097,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874210
+    .line 2874231
     const-class v0, Lcom/facebook/logginginfra/falco/PigeonPartialSampling;
 
     goto/16 :goto_3
 
-    .line 2874211
+    .line 2874232
     :sswitch_39
     const-string v0, "com.facebook.fbwebrtc.multiway.ClientEventResponse"
 
@@ -1112,12 +1112,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874212
+    .line 2874233
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ClientEventResponse;
 
     goto/16 :goto_3
 
-    .line 2874213
+    .line 2874234
     :sswitch_3a
     const-string v0, "com.facebook.fbwebrtc.multiway.TransferRequest"
 
@@ -1127,12 +1127,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874214
+    .line 2874235
     const-class v0, Lcom/facebook/fbwebrtc/multiway/TransferRequest;
 
     goto/16 :goto_3
 
-    .line 2874215
+    .line 2874236
     :sswitch_3b
     const-string v0, "com.facebook.fbwebrtc.multiway.BweDebugInfo"
 
@@ -1142,12 +1142,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874216
+    .line 2874237
     const-class v0, Lcom/facebook/fbwebrtc/multiway/BweDebugInfo;
 
     goto/16 :goto_3
 
-    .line 2874217
+    .line 2874238
     :sswitch_3c
     const-string v0, "com.facebook.logginginfra.falco.Request"
 
@@ -1157,12 +1157,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874218
+    .line 2874239
     const-class v0, Lcom/facebook/logginginfra/falco/Request;
 
     goto/16 :goto_3
 
-    .line 2874219
+    .line 2874240
     :sswitch_3d
     const-string v0, "com.facebook.fbwebrtc.AnswerAckPayload"
 
@@ -1172,12 +1172,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874220
+    .line 2874241
     const-class v0, Lcom/facebook/fbwebrtc/AnswerAckPayload;
 
     goto/16 :goto_3
 
-    .line 2874221
+    .line 2874242
     :sswitch_3e
     const-string v0, "com.facebook.logginginfra.falco.FetchSamplingConfigDirective"
 
@@ -1187,12 +1187,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874222
+    .line 2874243
     const-class v0, Lcom/facebook/logginginfra/falco/FetchSamplingConfigDirective;
 
     goto/16 :goto_3
 
-    .line 2874223
+    .line 2874244
     :sswitch_3f
     const-string v0, "com.facebook.fbwebrtc.multiway.IceCandidateRequest"
 
@@ -1202,12 +1202,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874224
+    .line 2874245
     const-class v0, Lcom/facebook/fbwebrtc/multiway/IceCandidateRequest;
 
     goto/16 :goto_3
 
-    .line 2874225
+    .line 2874246
     :sswitch_40
     const-string v0, "com.facebook.fbwebrtc.multiway.SubscriptionRequest"
 
@@ -1217,12 +1217,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874226
+    .line 2874247
     const-class v0, Lcom/facebook/fbwebrtc/multiway/SubscriptionRequest;
 
     goto/16 :goto_3
 
-    .line 2874227
+    .line 2874248
     :sswitch_41
     const-string v0, "com.facebook.fbwebrtc.IceCandidatePayload"
 
@@ -1232,12 +1232,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874228
+    .line 2874249
     const-class v0, Lcom/facebook/fbwebrtc/IceCandidatePayload;
 
     goto/16 :goto_3
 
-    .line 2874229
+    .line 2874250
     :sswitch_42
     const-string v0, "com.facebook.logginginfra.falco.BackendServiceSource"
 
@@ -1247,12 +1247,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874230
+    .line 2874251
     const-class v0, Lcom/facebook/logginginfra/falco/BackendServiceSource;
 
     goto/16 :goto_3
 
-    .line 2874231
+    .line 2874252
     :sswitch_43
     const-string v0, "com.facebook.fbwebrtc.multiway.ConferenceStateRequest"
 
@@ -1262,12 +1262,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874232
+    .line 2874253
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ConferenceStateRequest;
 
     goto/16 :goto_3
 
-    .line 2874233
+    .line 2874254
     :sswitch_44
     const/16 v0, 0x35
 
@@ -1281,12 +1281,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874234
+    .line 2874255
     const-class v0, Lcom/facebook/fbwebrtc/multiway/RtcMessageBody;
 
     goto/16 :goto_3
 
-    .line 2874235
+    .line 2874256
     :sswitch_45
     const-string v0, "com.facebook.fbwebrtc.OfferAckPayload"
 
@@ -1296,12 +1296,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874236
+    .line 2874257
     const-class v0, Lcom/facebook/fbwebrtc/OfferAckPayload;
 
     goto/16 :goto_3
 
-    .line 2874237
+    .line 2874258
     :sswitch_46
     const-string v0, "com.facebook.fbwebrtc.multiway.DebugInfo"
 
@@ -1311,12 +1311,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874238
+    .line 2874259
     const-class v0, Lcom/facebook/fbwebrtc/multiway/DebugInfo;
 
     goto/16 :goto_3
 
-    .line 2874239
+    .line 2874260
     :sswitch_47
     const/16 v0, 0x5ec
 
@@ -1330,12 +1330,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874240
+    .line 2874261
     const-class v0, Lcom/facebook/fbwebrtc/multiway/RingResponse;
 
     goto/16 :goto_3
 
-    .line 2874241
+    .line 2874262
     :sswitch_48
     const-string v0, "com.facebook.fbwebrtc.multiway.SpeakerDetail"
 
@@ -1345,12 +1345,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874242
+    .line 2874263
     const-class v0, Lcom/facebook/fbwebrtc/multiway/SpeakerDetail;
 
     goto/16 :goto_3
 
-    .line 2874243
+    .line 2874264
     :sswitch_49
     const-string v0, "com.facebook.fbwebrtc.multiway.SessionDescription"
 
@@ -1360,12 +1360,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874244
+    .line 2874265
     const-class v0, Lcom/facebook/fbwebrtc/multiway/SessionDescription;
 
     goto/16 :goto_3
 
-    .line 2874245
+    .line 2874266
     :sswitch_4a
     const-string v0, "com.facebook.fbwebrtc.SessionDescription"
 
@@ -1375,12 +1375,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874246
+    .line 2874267
     const-class v0, Lcom/facebook/fbwebrtc/SessionDescription;
 
     goto/16 :goto_3
 
-    .line 2874247
+    .line 2874268
     :sswitch_4b
     const-string v0, "com.facebook.fbwebrtc.multiway.Subscription"
 
@@ -1390,12 +1390,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874248
+    .line 2874269
     const-class v0, Lcom/facebook/fbwebrtc/multiway/Subscription;
 
     goto/16 :goto_3
 
-    .line 2874249
+    .line 2874270
     :sswitch_4c
     const-string v0, "com.facebook.fbwebrtc.multiway.RtcMultiwayMessage"
 
@@ -1405,12 +1405,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874250
+    .line 2874271
     const-class v0, Lcom/facebook/fbwebrtc/multiway/RtcMultiwayMessage;
 
     goto/16 :goto_3
 
-    .line 2874251
+    .line 2874272
     :sswitch_4d
     const-string v0, "com.facebook.fbwebrtc.ClientReportedEventPayload"
 
@@ -1420,12 +1420,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874252
+    .line 2874273
     const-class v0, Lcom/facebook/fbwebrtc/ClientReportedEventPayload;
 
     goto/16 :goto_3
 
-    .line 2874253
+    .line 2874274
     :sswitch_4e
     const-string v0, "com.facebook.logginginfra.falco.Integration"
 
@@ -1435,12 +1435,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874254
+    .line 2874275
     const-class v0, Lcom/facebook/logginginfra/falco/Integration;
 
     goto/16 :goto_3
 
-    .line 2874255
+    .line 2874276
     :sswitch_4f
     const-string v0, "com.facebook.fbwebrtc.RingPayload"
 
@@ -1450,12 +1450,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874256
+    .line 2874277
     const-class v0, Lcom/facebook/fbwebrtc/RingPayload;
 
     goto/16 :goto_3
 
-    .line 2874257
+    .line 2874278
     :sswitch_50
     const-string v0, "com.facebook.logginginfra.falco.FunnelSamplingType"
 
@@ -1465,12 +1465,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874258
+    .line 2874279
     const-class v0, Lcom/facebook/logginginfra/falco/FunnelSamplingType;
 
     goto/16 :goto_3
 
-    .line 2874259
+    .line 2874280
     :sswitch_51
     const-string v0, "com.facebook.logginginfra.falco.BladeRunnerIntegration"
 
@@ -1480,12 +1480,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874260
+    .line 2874281
     const-class v0, Lcom/facebook/logginginfra/falco/BladeRunnerIntegration;
 
     goto/16 :goto_3
 
-    .line 2874261
+    .line 2874282
     :sswitch_52
     const-string v0, "com.facebook.fbwebrtc.multiway.UnsubscribeResponse"
 
@@ -1495,12 +1495,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874262
+    .line 2874283
     const-class v0, Lcom/facebook/fbwebrtc/multiway/UnsubscribeResponse;
 
     goto/16 :goto_3
 
-    .line 2874263
+    .line 2874284
     :sswitch_53
     const-string v0, "com.facebook.logginginfra.falco.BackendServiceIntegration"
 
@@ -1510,12 +1510,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874264
+    .line 2874285
     const-class v0, Lcom/facebook/logginginfra/falco/BackendServiceIntegration;
 
     goto/16 :goto_3
 
-    .line 2874265
+    .line 2874286
     :sswitch_54
     const-string v0, "com.facebook.logginginfra.falco.WebClientSource"
 
@@ -1525,12 +1525,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874266
+    .line 2874287
     const-class v0, Lcom/facebook/logginginfra/falco/WebClientSource;
 
     goto/16 :goto_3
 
-    .line 2874267
+    .line 2874288
     :sswitch_55
     const-string v0, "com.facebook.logginginfra.falco.Source"
 
@@ -1540,12 +1540,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874268
+    .line 2874289
     const-class v0, Lcom/facebook/logginginfra/falco/Source;
 
     goto/16 :goto_3
 
-    .line 2874269
+    .line 2874290
     :sswitch_56
     const-string v0, "com.facebook.fbwebrtc.SdpUpdatePayload"
 
@@ -1555,12 +1555,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874270
+    .line 2874291
     const-class v0, Lcom/facebook/fbwebrtc/SdpUpdatePayload;
 
     goto/16 :goto_3
 
-    .line 2874271
+    .line 2874292
     :sswitch_57
     const-string v0, "com.facebook.logginginfra.falco.Upload"
 
@@ -1570,12 +1570,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874272
+    .line 2874293
     const-class v0, Lcom/facebook/logginginfra/falco/Upload;
 
     goto/16 :goto_3
 
-    .line 2874273
+    .line 2874294
     :sswitch_58
     const-string v0, "com.facebook.fbwebrtc.multiway.RtcReceiver"
 
@@ -1585,12 +1585,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874274
+    .line 2874295
     const-class v0, Lcom/facebook/fbwebrtc/multiway/RtcReceiver;
 
     goto/16 :goto_3
 
-    .line 2874275
+    .line 2874296
     :sswitch_59
     const-string v0, "com.facebook.fbwebrtc.TrackInfo"
 
@@ -1600,12 +1600,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874276
+    .line 2874297
     const-class v0, Lcom/facebook/fbwebrtc/TrackInfo;
 
     goto/16 :goto_3
 
-    .line 2874277
+    .line 2874298
     :sswitch_5a
     const-string v0, "com.facebook.fbwebrtc.multiway.UpdateRequest"
 
@@ -1615,12 +1615,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874278
+    .line 2874299
     const-class v0, Lcom/facebook/fbwebrtc/multiway/UpdateRequest;
 
     goto/16 :goto_3
 
-    .line 2874279
+    .line 2874300
     :sswitch_5b
     const-string v0, "com.facebook.logginginfra.falco.EventPayload"
 
@@ -1630,12 +1630,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874280
+    .line 2874301
     const-class v0, Lcom/facebook/logginginfra/falco/EventPayload;
 
     goto/16 :goto_3
 
-    .line 2874281
+    .line 2874302
     :sswitch_5c
     const-string v0, "com.facebook.logginginfra.falco.PigeonNestDirective"
 
@@ -1645,12 +1645,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874282
+    .line 2874303
     const-class v0, Lcom/facebook/logginginfra/falco/PigeonNestDirective;
 
     goto/16 :goto_3
 
-    .line 2874283
+    .line 2874304
     :sswitch_5d
     const-string v0, "com.facebook.fbwebrtc.multiway.ConnectResponse"
 
@@ -1660,12 +1660,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874284
+    .line 2874305
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ConnectResponse;
 
     goto/16 :goto_3
 
-    .line 2874285
+    .line 2874306
     :sswitch_5e
     const-string v0, "com.facebook.fbwebrtc.multiway.RtcException"
 
@@ -1675,12 +1675,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874286
+    .line 2874307
     const-class v0, Lcom/facebook/fbwebrtc/multiway/RtcException;
 
     goto/16 :goto_3
 
-    .line 2874287
+    .line 2874308
     :sswitch_5f
     const-string v0, "com.facebook.logginginfra.falco.Session"
 
@@ -1690,12 +1690,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874288
+    .line 2874309
     const-class v0, Lcom/facebook/logginginfra/falco/Session;
 
     goto/16 :goto_3
 
-    .line 2874289
+    .line 2874310
     :sswitch_60
     const-string v0, "com.facebook.logginginfra.falco.PigeonEventSamplingConfig"
 
@@ -1705,12 +1705,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874290
+    .line 2874311
     const-class v0, Lcom/facebook/logginginfra/falco/PigeonEventSamplingConfig;
 
     goto/16 :goto_3
 
-    .line 2874291
+    .line 2874312
     :sswitch_61
     const/16 v0, 0x1b3
 
@@ -1724,12 +1724,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874292
+    .line 2874313
     const-class v0, Lcom/facebook/fbwebrtc/multiway/HangupRequest;
 
     goto/16 :goto_3
 
-    .line 2874293
+    .line 2874314
     :sswitch_62
     const-string v0, "com.facebook.fbwebrtc.multiway.DominantSpeakerInfo"
 
@@ -1739,12 +1739,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874294
+    .line 2874315
     const-class v0, Lcom/facebook/fbwebrtc/multiway/DominantSpeakerInfo;
 
     goto/16 :goto_3
 
-    .line 2874295
+    .line 2874316
     :sswitch_63
     const-string v0, "com.facebook.fbwebrtc.multiway.RtcSender"
 
@@ -1754,12 +1754,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874296
+    .line 2874317
     const-class v0, Lcom/facebook/fbwebrtc/multiway/RtcSender;
 
     goto/16 :goto_3
 
-    .line 2874297
+    .line 2874318
     :sswitch_64
     const-string v0, "com.facebook.fbwebrtc.multiway.ClientConditional"
 
@@ -1769,12 +1769,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874298
+    .line 2874319
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ClientConditional;
 
     goto/16 :goto_3
 
-    .line 2874299
+    .line 2874320
     :sswitch_65
     const-string v0, "com.facebook.fbwebrtc.multiway.DismissRequest"
 
@@ -1784,12 +1784,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874300
+    .line 2874321
     const-class v0, Lcom/facebook/fbwebrtc/multiway/DismissRequest;
 
     goto/16 :goto_3
 
-    .line 2874301
+    .line 2874322
     :sswitch_66
     const-string v0, "com.facebook.fbwebrtc.multiway.DataMessageBody"
 
@@ -1799,12 +1799,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874302
+    .line 2874323
     const-class v0, Lcom/facebook/fbwebrtc/multiway/DataMessageBody;
 
     goto/16 :goto_3
 
-    .line 2874303
+    .line 2874324
     :sswitch_67
     const-string v0, "com.facebook.fbwebrtc.multiway.ServerMediaUpdateResponse"
 
@@ -1814,12 +1814,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874304
+    .line 2874325
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ServerMediaUpdateResponse;
 
     goto/16 :goto_3
 
-    .line 2874305
+    .line 2874326
     :sswitch_68
     const-string v0, "com.facebook.fbwebrtc.multiway.ServerInfo"
 
@@ -1829,12 +1829,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874306
+    .line 2874327
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ServerInfo;
 
     goto/16 :goto_3
 
-    .line 2874307
+    .line 2874328
     :sswitch_69
     const-string v0, "com.facebook.fbwebrtc.multiway.ResolutionData"
 
@@ -1844,12 +1844,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874308
+    .line 2874329
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ResolutionData;
 
     goto/16 :goto_3
 
-    .line 2874309
+    .line 2874330
     :sswitch_6a
     const-string v0, "com.facebook.logginginfra.falco.PigeonNestResponse"
 
@@ -1859,12 +1859,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874310
+    .line 2874331
     const-class v0, Lcom/facebook/logginginfra/falco/PigeonNestResponse;
 
     goto/16 :goto_3
 
-    .line 2874311
+    .line 2874332
     :sswitch_6b
     const-string v0, "com.facebook.fbwebrtc.OfferNackPayload"
 
@@ -1874,12 +1874,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874312
+    .line 2874333
     const-class v0, Lcom/facebook/fbwebrtc/OfferNackPayload;
 
     goto/16 :goto_3
 
-    .line 2874313
+    .line 2874334
     :sswitch_6c
     const-string v0, "com.facebook.fbwebrtc.multiway.UnsubscribeRequest"
 
@@ -1889,12 +1889,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874314
+    .line 2874335
     const-class v0, Lcom/facebook/fbwebrtc/multiway/UnsubscribeRequest;
 
     goto/16 :goto_3
 
-    .line 2874315
+    .line 2874336
     :sswitch_6d
     const-string v0, "com.facebook.fbwebrtc.Sdp"
 
@@ -1904,12 +1904,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874316
+    .line 2874337
     const-class v0, Lcom/facebook/fbwebrtc/Sdp;
 
     goto/16 :goto_3
 
-    .line 2874317
+    .line 2874338
     :sswitch_6e
     const-string v0, "com.facebook.fbwebrtc.multiway.ReceiveTrackDebugInfo"
 
@@ -1919,12 +1919,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874318
+    .line 2874339
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ReceiveTrackDebugInfo;
 
     goto/16 :goto_3
 
-    .line 2874319
+    .line 2874340
     :sswitch_6f
     const-string v0, "com.facebook.logginginfra.falco.SamplingRequest"
 
@@ -1934,12 +1934,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874320
+    .line 2874341
     const-class v0, Lcom/facebook/logginginfra/falco/SamplingRequest;
 
     goto/16 :goto_3
 
-    .line 2874321
+    .line 2874342
     :sswitch_70
     const-string v0, "com.facebook.fbwebrtc.OfferPayload"
 
@@ -1949,12 +1949,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874322
+    .line 2874343
     const-class v0, Lcom/facebook/fbwebrtc/OfferPayload;
 
     goto/16 :goto_3
 
-    .line 2874323
+    .line 2874344
     :sswitch_71
     const-string v0, "com.facebook.fbwebrtc.multiway.MediaDescriptionUpdate"
 
@@ -1964,12 +1964,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874324
+    .line 2874345
     const-class v0, Lcom/facebook/fbwebrtc/multiway/MediaDescriptionUpdate;
 
     goto/16 :goto_3
 
-    .line 2874325
+    .line 2874346
     :sswitch_72
     const-string v0, "com.facebook.fbwebrtc.IceCandidateSdp"
 
@@ -1979,12 +1979,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874326
+    .line 2874347
     const-class v0, Lcom/facebook/fbwebrtc/IceCandidateSdp;
 
     goto/16 :goto_3
 
-    .line 2874327
+    .line 2874348
     :sswitch_73
     const-string v0, "com.facebook.fbwebrtc.VideoRequestPayload"
 
@@ -1994,12 +1994,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874328
+    .line 2874349
     const-class v0, Lcom/facebook/fbwebrtc/VideoRequestPayload;
 
     goto/16 :goto_3
 
-    .line 2874329
+    .line 2874350
     :sswitch_74
     const-string v0, "com.facebook.logginginfra.falco.FunnelFullSampling"
 
@@ -2009,12 +2009,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874330
+    .line 2874351
     const-class v0, Lcom/facebook/logginginfra/falco/FunnelFullSampling;
 
     goto/16 :goto_3
 
-    .line 2874331
+    .line 2874352
     :sswitch_75
     const-string v0, "com.facebook.logginginfra.falco.EncodedData"
 
@@ -2024,12 +2024,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874332
+    .line 2874353
     const-class v0, Lcom/facebook/logginginfra/falco/EncodedData;
 
     goto/16 :goto_3
 
-    .line 2874333
+    .line 2874354
     :sswitch_76
     const-string v0, "com.facebook.fbwebrtc.multiway.DisplayOptions"
 
@@ -2039,12 +2039,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874334
+    .line 2874355
     const-class v0, Lcom/facebook/fbwebrtc/multiway/DisplayOptions;
 
     goto/16 :goto_3
 
-    .line 2874335
+    .line 2874356
     :sswitch_77
     const-string v0, "com.facebook.logginginfra.falco.FunnelEventSamplingConfig"
 
@@ -2054,12 +2054,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874336
+    .line 2874357
     const-class v0, Lcom/facebook/logginginfra/falco/FunnelEventSamplingConfig;
 
     goto/16 :goto_3
 
-    .line 2874337
+    .line 2874358
     :sswitch_78
     const-string v0, "com.facebook.fbwebrtc.multiway.ServerOnlyParticipantState"
 
@@ -2069,12 +2069,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874338
+    .line 2874359
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ServerOnlyParticipantState;
 
     goto/16 :goto_3
 
-    .line 2874339
+    .line 2874360
     :sswitch_79
     const-string v0, "com.facebook.fbwebrtc.WebrtcMessagePayload"
 
@@ -2084,12 +2084,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874340
+    .line 2874361
     const-class v0, Lcom/facebook/fbwebrtc/WebrtcMessagePayload;
 
     goto/16 :goto_3
 
-    .line 2874341
+    .line 2874362
     :sswitch_7a
     const-string v0, "com.facebook.fbwebrtc.multiway.E2eeData"
 
@@ -2099,12 +2099,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874342
+    .line 2874363
     const-class v0, Lcom/facebook/fbwebrtc/multiway/E2eeData;
 
     goto/16 :goto_3
 
-    .line 2874343
+    .line 2874364
     :sswitch_7b
     const-string v0, "com.facebook.logginginfra.falco.Response"
 
@@ -2114,12 +2114,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874344
+    .line 2874365
     const-class v0, Lcom/facebook/logginginfra/falco/Response;
 
     goto/16 :goto_3
 
-    .line 2874345
+    .line 2874366
     :sswitch_7c
     const-string v0, "com.facebook.fbwebrtc.RtcpFbVal"
 
@@ -2129,12 +2129,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874346
+    .line 2874367
     const-class v0, Lcom/facebook/fbwebrtc/RtcpFbVal;
 
     goto/16 :goto_3
 
-    .line 2874347
+    .line 2874368
     :sswitch_7d
     const-string v0, "com.facebook.fbwebrtc.multiway.UpdateResponse"
 
@@ -2144,12 +2144,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874348
+    .line 2874369
     const-class v0, Lcom/facebook/fbwebrtc/multiway/UpdateResponse;
 
     goto/16 :goto_3
 
-    .line 2874349
+    .line 2874370
     :sswitch_7e
     const-string v0, "com.facebook.fbwebrtc.multiway.AudioDuplicationDebugInfo"
 
@@ -2159,12 +2159,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874350
+    .line 2874371
     const-class v0, Lcom/facebook/fbwebrtc/multiway/AudioDuplicationDebugInfo;
 
     goto/16 :goto_3
 
-    .line 2874351
+    .line 2874372
     :sswitch_7f
     const-string v0, "com.facebook.logginginfra.falco.FacebookIdentity"
 
@@ -2174,12 +2174,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874352
+    .line 2874373
     const-class v0, Lcom/facebook/logginginfra/falco/FacebookIdentity;
 
     goto/16 :goto_3
 
-    .line 2874353
+    .line 2874374
     :sswitch_80
     const-string v0, "com.facebook.logginginfra.falco.Identity"
 
@@ -2189,12 +2189,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874354
+    .line 2874375
     const-class v0, Lcom/facebook/logginginfra/falco/Identity;
 
     goto/16 :goto_3
 
-    .line 2874355
+    .line 2874376
     :sswitch_81
     const-string v0, "com.facebook.fbwebrtc.multiway.Snapshot"
 
@@ -2204,12 +2204,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874356
+    .line 2874377
     const-class v0, Lcom/facebook/fbwebrtc/multiway/Snapshot;
 
     goto/16 :goto_3
 
-    .line 2874357
+    .line 2874378
     :sswitch_82
     const-string v0, "com.facebook.logginginfra.falco.ScalingFactor"
 
@@ -2219,12 +2219,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874358
+    .line 2874379
     const-class v0, Lcom/facebook/logginginfra/falco/ScalingFactor;
 
     goto/16 :goto_3
 
-    .line 2874359
+    .line 2874380
     :sswitch_83
     const-string v0, "com.facebook.fbwebrtc.multiway.QuickExperimentExposureLoggingEvent"
 
@@ -2234,12 +2234,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874360
+    .line 2874381
     const-class v0, Lcom/facebook/fbwebrtc/multiway/QuickExperimentExposureLoggingEvent;
 
     goto/16 :goto_3
 
-    .line 2874361
+    .line 2874382
     :sswitch_84
     const-string v0, "com.facebook.logginginfra.falco.PigeonSamplingType"
 
@@ -2249,12 +2249,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874362
+    .line 2874383
     const-class v0, Lcom/facebook/logginginfra/falco/PigeonSamplingType;
 
     goto/16 :goto_3
 
-    .line 2874363
+    .line 2874384
     :sswitch_85
     const-string v0, "com.facebook.fbwebrtc.WebrtcMessageEndpoint"
 
@@ -2264,12 +2264,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874364
+    .line 2874385
     const-class v0, Lcom/facebook/fbwebrtc/WebrtcMessageEndpoint;
 
     goto/16 :goto_3
 
-    .line 2874365
+    .line 2874386
     :sswitch_86
     const-string v0, "com.facebook.fbwebrtc.multiway.DominantSpeakerNotification"
 
@@ -2279,12 +2279,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874366
+    .line 2874387
     const-class v0, Lcom/facebook/fbwebrtc/multiway/DominantSpeakerNotification;
 
     goto/16 :goto_3
 
-    .line 2874367
+    .line 2874388
     :sswitch_87
     const-string v0, "com.facebook.logginginfra.falco.AppScopedIdentity"
 
@@ -2294,12 +2294,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874368
+    .line 2874389
     const-class v0, Lcom/facebook/logginginfra/falco/AppScopedIdentity;
 
     goto/16 :goto_3
 
-    .line 2874369
+    .line 2874390
     :sswitch_88
     const-string v0, "com.facebook.fbwebrtc.AckPayload"
 
@@ -2309,12 +2309,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874370
+    .line 2874391
     const-class v0, Lcom/facebook/fbwebrtc/AckPayload;
 
     goto/16 :goto_3
 
-    .line 2874371
+    .line 2874392
     :sswitch_89
     const-string v0, "com.facebook.fbwebrtc.multiway.SessionDescriptionUpdate"
 
@@ -2324,12 +2324,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874372
+    .line 2874393
     const-class v0, Lcom/facebook/fbwebrtc/multiway/SessionDescriptionUpdate;
 
     goto/16 :goto_3
 
-    .line 2874373
+    .line 2874394
     :sswitch_8a
     const-string v0, "com.facebook.fbwebrtc.PrOfferAckPayload"
 
@@ -2339,12 +2339,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874374
+    .line 2874395
     const-class v0, Lcom/facebook/fbwebrtc/PrOfferAckPayload;
 
     goto/16 :goto_3
 
-    .line 2874375
+    .line 2874396
     :sswitch_8b
     const-string v0, "com.facebook.logginginfra.falco.ForegroundSession"
 
@@ -2354,12 +2354,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874376
+    .line 2874397
     const-class v0, Lcom/facebook/logginginfra/falco/ForegroundSession;
 
     goto/16 :goto_3
 
-    .line 2874377
+    .line 2874398
     :sswitch_8c
     const-string v0, "com.facebook.fbwebrtc.NackPayload"
 
@@ -2369,12 +2369,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874378
+    .line 2874399
     const-class v0, Lcom/facebook/fbwebrtc/NackPayload;
 
     goto/16 :goto_3
 
-    .line 2874379
+    .line 2874400
     :sswitch_8d
     const-string v0, "com.facebook.fbwebrtc.multiway.RtcMessageBodyVariant"
 
@@ -2384,12 +2384,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874380
+    .line 2874401
     const-class v0, Lcom/facebook/fbwebrtc/multiway/RtcMessageBodyVariant;
 
     goto/16 :goto_3
 
-    .line 2874381
+    .line 2874402
     :sswitch_8e
     const-string v0, "com.facebook.fbwebrtc.multiway.ServerMediaUpdateRequest"
 
@@ -2399,12 +2399,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874382
+    .line 2874403
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ServerMediaUpdateRequest;
 
     goto/16 :goto_3
 
-    .line 2874383
+    .line 2874404
     :sswitch_8f
     const-string v0, "com.facebook.fbwebrtc.multiway.SyncPayload"
 
@@ -2414,12 +2414,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874384
+    .line 2874405
     const-class v0, Lcom/facebook/fbwebrtc/multiway/SyncPayload;
 
     goto/16 :goto_3
 
-    .line 2874385
+    .line 2874406
     :sswitch_90
     const-string v0, "com.facebook.fbwebrtc.multiway.RemoveParticipantsRequest"
 
@@ -2429,12 +2429,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874386
+    .line 2874407
     const-class v0, Lcom/facebook/fbwebrtc/multiway/RemoveParticipantsRequest;
 
     goto/16 :goto_3
 
-    .line 2874387
+    .line 2874408
     :sswitch_91
     const-string v0, "com.facebook.logginginfra.falco.PigeonSamplingConfig"
 
@@ -2444,12 +2444,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874388
+    .line 2874409
     const-class v0, Lcom/facebook/logginginfra/falco/PigeonSamplingConfig;
 
     goto/16 :goto_3
 
-    .line 2874389
+    .line 2874410
     :sswitch_92
     const-string v0, "com.facebook.fbwebrtc.multiway.SubscriptionOptions"
 
@@ -2459,12 +2459,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874390
+    .line 2874411
     const-class v0, Lcom/facebook/fbwebrtc/multiway/SubscriptionOptions;
 
     goto/16 :goto_3
 
-    .line 2874391
+    .line 2874412
     :sswitch_93
     const-string v0, "com.facebook.fbwebrtc.multiway.ServerMediaUpdate"
 
@@ -2474,12 +2474,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874392
+    .line 2874413
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ServerMediaUpdate;
 
     goto/16 :goto_3
 
-    .line 2874393
+    .line 2874414
     :sswitch_94
     const-string v0, "com.facebook.logginginfra.falco.PigeonNestRequest"
 
@@ -2489,12 +2489,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874394
+    .line 2874415
     const-class v0, Lcom/facebook/logginginfra/falco/PigeonNestRequest;
 
     goto/16 :goto_3
 
-    .line 2874395
+    .line 2874416
     :sswitch_95
     const-string v0, "com.facebook.logginginfra.falco.PrivacyContext"
 
@@ -2504,12 +2504,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874396
+    .line 2874417
     const-class v0, Lcom/facebook/logginginfra/falco/PrivacyContext;
 
     goto/16 :goto_3
 
-    .line 2874397
+    .line 2874418
     :sswitch_96
     const-string v0, "com.facebook.fbwebrtc.multiway.TopicConfiguration"
 
@@ -2519,12 +2519,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874398
+    .line 2874419
     const-class v0, Lcom/facebook/fbwebrtc/multiway/TopicConfiguration;
 
     goto/16 :goto_3
 
-    .line 2874399
+    .line 2874420
     :sswitch_97
     const-string v0, "com.facebook.fbwebrtc.SsrcObject"
 
@@ -2534,12 +2534,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874400
+    .line 2874421
     const-class v0, Lcom/facebook/fbwebrtc/SsrcObject;
 
     goto/16 :goto_3
 
-    .line 2874401
+    .line 2874422
     :sswitch_98
     const-string v0, "com.facebook.fbwebrtc.multiway.ConferenceStateResponse"
 
@@ -2549,12 +2549,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874402
+    .line 2874423
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ConferenceStateResponse;
 
     goto/16 :goto_3
 
-    .line 2874403
+    .line 2874424
     :sswitch_99
     const-string v0, "com.facebook.fbwebrtc.multiway.ProxygenAllocation"
 
@@ -2564,12 +2564,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874404
+    .line 2874425
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ProxygenAllocation;
 
     goto/16 :goto_3
 
-    .line 2874405
+    .line 2874426
     :sswitch_9a
     const-string v0, "com.facebook.fbwebrtc.SsrcGroup"
 
@@ -2579,12 +2579,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874406
+    .line 2874427
     const-class v0, Lcom/facebook/fbwebrtc/SsrcGroup;
 
     goto/16 :goto_3
 
-    .line 2874407
+    .line 2874428
     :sswitch_9b
     const-string v0, "com.facebook.fbwebrtc.multiway.DataMessageResponse"
 
@@ -2594,12 +2594,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874408
+    .line 2874429
     const-class v0, Lcom/facebook/fbwebrtc/multiway/DataMessageResponse;
 
     goto/16 :goto_3
 
-    .line 2874409
+    .line 2874430
     :sswitch_9c
     const-string v0, "com.facebook.fbwebrtc.multiway.StateSyncTopicConfigMap"
 
@@ -2609,12 +2609,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874410
+    .line 2874431
     const-class v0, Lcom/facebook/fbwebrtc/multiway/StateSyncTopicConfigMap;
 
     goto/16 :goto_3
 
-    .line 2874411
+    .line 2874432
     :sswitch_9d
     const-string v0, "com.facebook.fbwebrtc.multiway.E2eeEnforcement"
 
@@ -2624,12 +2624,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874412
+    .line 2874433
     const-class v0, Lcom/facebook/fbwebrtc/multiway/E2eeEnforcement;
 
     goto/16 :goto_3
 
-    .line 2874413
+    .line 2874434
     :sswitch_9e
     const-string v0, "com.facebook.fbwebrtc.CryptoParam"
 
@@ -2639,12 +2639,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874414
+    .line 2874435
     const-class v0, Lcom/facebook/fbwebrtc/CryptoParam;
 
     goto/16 :goto_3
 
-    .line 2874415
+    .line 2874436
     :sswitch_9f
     const-string v0, "com.facebook.fbwebrtc.WebrtcMessageHeader"
 
@@ -2654,12 +2654,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874416
+    .line 2874437
     const-class v0, Lcom/facebook/fbwebrtc/WebrtcMessageHeader;
 
     goto/16 :goto_3
 
-    .line 2874417
+    .line 2874438
     :sswitch_a0
     const-string v0, "com.facebook.fbwebrtc.Bandwidth"
 
@@ -2669,12 +2669,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874418
+    .line 2874439
     const-class v0, Lcom/facebook/fbwebrtc/Bandwidth;
 
     goto/16 :goto_3
 
-    .line 2874419
+    .line 2874440
     :sswitch_a1
     const-string v0, "com.facebook.fbwebrtc.multiway.SfuAllocation"
 
@@ -2684,12 +2684,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874420
+    .line 2874441
     const-class v0, Lcom/facebook/fbwebrtc/multiway/SfuAllocation;
 
     goto/16 :goto_3
 
-    .line 2874421
+    .line 2874442
     :sswitch_a2
     const-string v0, "com.facebook.fbwebrtc.multiway.ClientEventRequest"
 
@@ -2699,12 +2699,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874422
+    .line 2874443
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ClientEventRequest;
 
     goto/16 :goto_3
 
-    .line 2874423
+    .line 2874444
     :sswitch_a3
     const-string v0, "com.facebook.logginginfra.falco.PigeonFullSampling"
 
@@ -2714,12 +2714,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874424
+    .line 2874445
     const-class v0, Lcom/facebook/logginginfra/falco/PigeonFullSampling;
 
     goto/16 :goto_3
 
-    .line 2874425
+    .line 2874446
     :sswitch_a4
     const-string v0, "com.facebook.logginginfra.falco.SamplingConfig"
 
@@ -2729,12 +2729,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874426
+    .line 2874447
     const-class v0, Lcom/facebook/logginginfra/falco/SamplingConfig;
 
     goto/16 :goto_3
 
-    .line 2874427
+    .line 2874448
     :sswitch_a5
     const-string v0, "com.facebook.fbwebrtc.multiway.GroupOfUsers"
 
@@ -2744,12 +2744,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874428
+    .line 2874449
     const-class v0, Lcom/facebook/fbwebrtc/multiway/GroupOfUsers;
 
     goto/16 :goto_3
 
-    .line 2874429
+    .line 2874450
     :sswitch_a6
     const-string v0, "com.facebook.fbwebrtc.multiway.ParticipantState"
 
@@ -2759,12 +2759,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874430
+    .line 2874451
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ParticipantState;
 
     goto/16 :goto_3
 
-    .line 2874431
+    .line 2874452
     :sswitch_a7
     const-string v0, "com.facebook.fbwebrtc.multiway.NotifyRequest"
 
@@ -2774,12 +2774,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874432
+    .line 2874453
     const-class v0, Lcom/facebook/fbwebrtc/multiway/NotifyRequest;
 
     goto :goto_3
 
-    .line 2874433
+    .line 2874454
     :sswitch_a8
     const-string v0, "com.facebook.logginginfra.falco.MobileClientSource"
 
@@ -2789,12 +2789,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874434
+    .line 2874455
     const-class v0, Lcom/facebook/logginginfra/falco/MobileClientSource;
 
     goto :goto_3
 
-    .line 2874435
+    .line 2874456
     :sswitch_a9
     const-string v0, "com.facebook.fbwebrtc.multiway.SyncAck"
 
@@ -2804,12 +2804,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874436
+    .line 2874457
     const-class v0, Lcom/facebook/fbwebrtc/multiway/SyncAck;
 
     goto :goto_3
 
-    .line 2874437
+    .line 2874458
     :sswitch_aa
     const-string v0, "com.facebook.fbwebrtc.multiway.ClientMediaUpdateResponse"
 
@@ -2819,12 +2819,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874438
+    .line 2874459
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ClientMediaUpdateResponse;
 
     goto :goto_3
 
-    .line 2874439
+    .line 2874460
     :sswitch_ab
     const-string v0, "com.facebook.fbwebrtc.multiway.ClientTrackInfo"
 
@@ -2834,12 +2834,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874440
+    .line 2874461
     const-class v0, Lcom/facebook/fbwebrtc/multiway/ClientTrackInfo;
 
     goto :goto_3
 
-    .line 2874441
+    .line 2874462
     :sswitch_ac
     const-string v0, "com.facebook.fbwebrtc.multiway.NotifyResponse"
 
@@ -2849,12 +2849,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874442
+    .line 2874463
     const-class v0, Lcom/facebook/fbwebrtc/multiway/NotifyResponse;
 
     goto :goto_3
 
-    .line 2874443
+    .line 2874464
     :sswitch_ad
     const-string v0, "com.facebook.fbwebrtc.multiway.EndpointSettings"
 
@@ -2864,12 +2864,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874444
+    .line 2874465
     const-class v0, Lcom/facebook/fbwebrtc/multiway/EndpointSettings;
 
     goto :goto_3
 
-    .line 2874445
+    .line 2874466
     :sswitch_ae
     const-string v0, "com.facebook.fbwebrtc.multiway.SsrcGroup"
 
@@ -2879,12 +2879,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874446
+    .line 2874467
     const-class v0, Lcom/facebook/fbwebrtc/multiway/SsrcGroup;
 
     goto :goto_3
 
-    .line 2874447
+    .line 2874468
     :sswitch_af
     const-string v0, "com.facebook.fbwebrtc.StreamInfo"
 
@@ -2894,12 +2894,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874448
+    .line 2874469
     const-class v0, Lcom/facebook/fbwebrtc/StreamInfo;
 
     goto :goto_3
 
-    .line 2874449
+    .line 2874470
     :sswitch_b0
     const-string v0, "com.facebook.fbwebrtc.multiway.JoinResponse"
 
@@ -2909,12 +2909,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874450
+    .line 2874471
     const-class v0, Lcom/facebook/fbwebrtc/multiway/JoinResponse;
 
     goto :goto_3
 
-    .line 2874451
+    .line 2874472
     :sswitch_b1
     const-string v0, "com.facebook.fbwebrtc.multiway.Media"
 
@@ -2924,12 +2924,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874452
+    .line 2874473
     const-class v0, Lcom/facebook/fbwebrtc/multiway/Media;
 
     goto :goto_3
 
-    .line 2874453
+    .line 2874474
     :sswitch_b2
     const-string v0, "com.facebook.fbwebrtc.multiway.State"
 
@@ -2939,12 +2939,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2874454
+    .line 2874475
     const-class v0, Lcom/facebook/fbwebrtc/multiway/State;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 2874455
+    .line 2874476
     :goto_3
     :try_start_3
     invoke-virtual {v0}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
@@ -2953,18 +2953,18 @@
 
     check-cast v6, Lcom/facebook/hyperthrift/HyperThriftBase;
 
-    .line 2874456
+    .line 2874477
     iput-object p1, v6, Lcom/facebook/hyperthrift/HyperThriftBase;->A00:Ljava/lang/String;
 
-    .line 2874457
+    .line 2874478
     iput-object v7, v6, Lcom/facebook/hyperthrift/HyperThriftBase;->A01:[Ljava/lang/Object;
 
-    .line 2874458
+    .line 2874479
     const/4 v0, 0x1
 
     if-ne v9, v0, :cond_9
 
-    .line 2874459
+    .line 2874480
     const/4 v5, -0x1
 
     const/4 v4, 0x0
@@ -2976,13 +2976,13 @@
     .catch Ljava/lang/InstantiationException; {:try_start_3 .. :try_end_3} :catch_0
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 2874460
+    .line 2874481
     :try_start_4
     aget-object v1, v7, v4
 
     if-eqz v1, :cond_3
 
-    .line 2874461
+    .line 2874482
     sget-object v0, Lcom/facebook/hyperthrift/HyperThriftBase;->A02:Ljava/lang/Object;
 
     if-eq v1, v0, :cond_3
@@ -2991,7 +2991,7 @@
 
     move v5, v4
 
-    .line 2874462
+    .line 2874483
     :cond_3
     add-int/lit8 v4, v4, 0x1
 
@@ -3006,26 +3006,26 @@
 
     move-result-object v0
 
-    .line 2874463
+    .line 2874484
     invoke-static {v0}, LX/5Wd;->A0d(Ljava/lang/String;)Ljava/lang/IllegalStateException;
 
     move-result-object v1
 
-    .line 2874464
+    .line 2874485
     goto/16 :goto_2
 
-    .line 2874465
+    .line 2874486
     :catch_0
     move-exception v0
 
-    .line 2874466
+    .line 2874487
     new-instance v1, Ljava/lang/RuntimeException;
 
     invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
 
     goto/16 :goto_2
 
-    .line 2874467
+    .line 2874488
     :cond_5
     iget-short v1, v0, LX/2RL;->A03:S
 
@@ -3033,13 +3033,13 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    .line 2874468
+    .line 2874489
     :try_start_5
     iget-object v4, v12, LX/KaY;->A00:Landroid/util/SparseIntArray;
 
     if-nez v4, :cond_7
 
-    .line 2874469
+    .line 2874490
     new-instance v4, Landroid/util/SparseIntArray;
 
     invoke-direct {v4, v8}, Landroid/util/SparseIntArray;-><init>(I)V
@@ -3049,10 +3049,10 @@
     :goto_5
     if-ge v13, v8, :cond_6
 
-    .line 2874470
+    .line 2874491
     aget-object v0, v11, v13
 
-    .line 2874471
+    .line 2874492
     iget-short v0, v0, LX/KaX;->A02:S
 
     invoke-virtual {v4, v0, v13}, Landroid/util/SparseIntArray;->put(II)V
@@ -3061,11 +3061,11 @@
 
     goto :goto_5
 
-    .line 2874472
+    .line 2874493
     :cond_6
     iput-object v4, v12, LX/KaY;->A00:Landroid/util/SparseIntArray;
 
-    .line 2874473
+    .line 2874494
     :cond_7
     const/4 v0, -0x1
 
@@ -3078,15 +3078,15 @@
     :try_start_6
     monitor-exit v12
 
-    .line 2874474
+    .line 2874495
     if-ltz v4, :cond_8
 
-    .line 2874475
+    .line 2874496
     aget-object v0, v11, v4
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_1
 
-    .line 2874476
+    .line 2874497
     :try_start_7
     iget-object v0, v0, LX/KaX;->A00:LX/KcS;
 
@@ -3104,7 +3104,7 @@
     :catch_1
     move-exception v13
 
-    .line 2874477
+    .line 2874498
     :try_start_8
     invoke-static {v1}, Ljava/lang/Short;->valueOf(S)Ljava/lang/Short;
 
@@ -3120,26 +3120,26 @@
 
     invoke-static {v1, v0, v13, v4}, LX/0Li;->A0L(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
 
-    .line 2874478
+    .line 2874499
     :cond_8
     const v0, 0x7fffffff
 
     invoke-static {v10, v5, v0}, LX/Mfj;->A00(LX/2RK;BI)V
 
-    .line 2874479
+    .line 2874500
     :goto_6
     add-int/lit8 v9, v9, 0x1
 
-    .line 2874480
+    .line 2874501
     goto/16 :goto_1
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_1
 
-    .line 2874481
+    .line 2874502
     :cond_9
     const v0, 0x3ca8f6a3
 
-    .line 2874482
+    .line 2874503
     invoke-static {v2, v3, v0}, LX/0qv;->A00(JI)V
 
     return-object v6
@@ -3151,7 +3151,7 @@
 
     invoke-static {v2, v3, v0}, LX/0qv;->A00(JI)V
 
-    .line 2874483
+    .line 2874504
     throw v1
 
     nop

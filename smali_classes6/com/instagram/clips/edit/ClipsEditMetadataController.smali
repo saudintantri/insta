@@ -2413,7 +2413,7 @@
 
     .line 47
     .line 48
-    invoke-static {v0, v3}, LX/Chf;->A1C(LX/0AP;LX/0AX;)V
+    invoke-static {v0, v3}, LX/Chf;->A1D(LX/0AP;LX/0AX;)V
 
     .line 49
     .line 50
@@ -3138,7 +3138,6 @@
     goto :goto_3
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
 
     .line 409
     :catch_0

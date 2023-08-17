@@ -153,44 +153,44 @@
 
     if-nez v0, :cond_9
 
-    .line 270428714
+    .line 270428735
     move-object v1, p4
 
-    .line 270428715
+    .line 270428736
     :cond_9
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 270428716
+    .line 270428737
     iput-object p5, p0, LX/Cq9;->A09:Ljava/lang/String;
 
-    .line 270428717
+    .line 270428738
     iput-object p2, p0, LX/Cq9;->A01:Lcom/instagram/discovery/filters/analytics/FiltersLoggingInfo;
 
-    .line 270428718
+    .line 270428739
     iput-object p6, p0, LX/Cq9;->A06:Ljava/lang/String;
 
-    .line 270428719
+    .line 270428740
     iput-object p7, p0, LX/Cq9;->A08:Ljava/lang/String;
 
-    .line 270428720
+    .line 270428741
     iput-object p8, p0, LX/Cq9;->A05:Ljava/lang/String;
 
-    .line 270428721
+    .line 270428742
     iput-object p9, p0, LX/Cq9;->A07:Ljava/lang/String;
 
-    .line 270428722
+    .line 270428743
     iput-object p1, p0, LX/Cq9;->A00:Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S1200000_I0;
 
-    .line 270428723
+    .line 270428744
     iput-object p10, p0, LX/Cq9;->A04:Ljava/lang/String;
 
-    .line 270428724
+    .line 270428745
     iput-object p3, p0, LX/Cq9;->A02:Lcom/instagram/model/shopping/productfeed/ShoppingModuleLoggingInfo;
 
-    .line 270428725
+    .line 270428746
     iput-object v1, p0, LX/Cq9;->A03:Lcom/instagram/model/shopping/productfeed/ShoppingRankingLoggingInfo;
 
-    .line 270428726
+    .line 270428747
     return-void
 .end method
 

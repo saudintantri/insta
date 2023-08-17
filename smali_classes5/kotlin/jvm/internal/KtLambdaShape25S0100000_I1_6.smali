@@ -64,7 +64,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0}, LX/Chi;->A0I(Ljava/lang/Object;)LX/05l;
+    invoke-static {v0}, LX/Chi;->A0J(Ljava/lang/Object;)LX/05l;
 
     .line 10
     .line 11
@@ -2902,7 +2902,7 @@
 
     .line 1397
     .line 1398
-    invoke-static {v0}, LX/Chg;->A0E(LX/01o;)Lcom/instagram/clips/viewer/recipesheet/RecipeSheetParams;
+    invoke-static {v0}, LX/Chg;->A0D(LX/01o;)Lcom/instagram/clips/viewer/recipesheet/RecipeSheetParams;
 
     .line 1399
     .line 1400
@@ -3301,7 +3301,7 @@
 
     .line 1589
     .line 1590
-    invoke-static {v0}, LX/Chi;->A0H(Ljava/lang/Object;)LX/05l;
+    invoke-static {v0}, LX/Chi;->A0I(Ljava/lang/Object;)LX/05l;
 
     .line 1591
     .line 1592
@@ -3370,7 +3370,7 @@
     .line 1621
     .line 1622
     .line 1623
-    invoke-static {v1, v4, v0}, LX/Chg;->A12(Landroid/content/res/Resources;LX/56I;I)V
+    invoke-static {v1, v4, v0}, LX/Chg;->A11(Landroid/content/res/Resources;LX/56I;I)V
 
     .line 1624
     .line 1625
@@ -3556,7 +3556,7 @@
 
     .line 1711
     .line 1712
-    invoke-static {v0}, LX/Chi;->A0U(Landroidx/fragment/app/Fragment;)Lcom/instagram/service/session/UserSession;
+    invoke-static {v0}, LX/Chi;->A0V(Landroidx/fragment/app/Fragment;)Lcom/instagram/service/session/UserSession;
 
     .line 1713
     .line 1714
@@ -3596,19 +3596,19 @@
 
     .line 1729
     .line 1730
-    iget-object v1, v0, LX/3B5;->A0A:Landroid/content/Context;
+    iget-object v2, v0, LX/3B5;->A0A:Landroid/content/Context;
 
     .line 1731
     .line 1732
-    invoke-static {v1}, LX/02K;->A05(Ljava/lang/Object;)V
+    invoke-static {v2}, LX/02K;->A05(Ljava/lang/Object;)V
 
     .line 1733
     .line 1734
     .line 1735
-    const/4 v0, 0x3
+    const/4 v1, 0x3
 
     .line 1736
-    invoke-static {v1, v0}, LX/Chj;->A00(Landroid/content/Context;I)I
+    invoke-static {v2}, LX/Chf;->A0A(Landroid/content/Context;)I
 
     .line 1737
     .line 1738
@@ -3616,574 +3616,574 @@
     move-result v0
 
     .line 1740
-    int-to-float v0, v0
+    invoke-static {v0, v1}, LX/Che;->A01(II)I
 
     .line 1741
-    invoke-static {v1, v0}, LX/0Oc;->A01(Landroid/content/Context;F)F
-
     .line 1742
     .line 1743
-    .line 1744
     move-result v0
 
+    .line 1744
+    int-to-float v0, v0
+
     .line 1745
-    float-to-double v0, v0
+    invoke-static {v2, v0}, LX/0Oc;->A01(Landroid/content/Context;F)F
 
     .line 1746
-    invoke-static {v0, v1}, Ljava/lang/Double;->doubleToRawLongBits(D)J
-
     .line 1747
     .line 1748
+    move-result v0
+
     .line 1749
-    move-result-wide v0
+    float-to-double v0, v0
 
     .line 1750
-    new-instance v6, LX/2sp;
+    invoke-static {v0, v1}, Ljava/lang/Double;->doubleToRawLongBits(D)J
 
     .line 1751
     .line 1752
-    invoke-direct {v6, v0, v1}, LX/2sp;-><init>(J)V
-
     .line 1753
-    .line 1754
-    .line 1755
-    return-object v6
+    move-result-wide v0
 
+    .line 1754
+    new-instance v6, LX/2sp;
+
+    .line 1755
     .line 1756
-    :pswitch_34
-    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+    invoke-direct {v6, v0, v1}, LX/2sp;-><init>(J)V
 
     .line 1757
     .line 1758
-    check-cast v0, LX/J1S;
-
     .line 1759
+    return-object v6
+
     .line 1760
-    iget-object v0, v0, LX/J1S;->A05:LX/3B5;
+    :pswitch_34
+    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
     .line 1761
     .line 1762
-    iget-object v3, v0, LX/3B5;->A0A:Landroid/content/Context;
+    check-cast v0, LX/J1S;
 
     .line 1763
     .line 1764
-    invoke-static {v3}, LX/02K;->A05(Ljava/lang/Object;)V
+    iget-object v0, v0, LX/J1S;->A05:LX/3B5;
 
     .line 1765
     .line 1766
-    .line 1767
-    const/4 v5, 0x0
+    iget-object v3, v0, LX/3B5;->A0A:Landroid/content/Context;
 
+    .line 1767
     .line 1768
-    const/high16 v0, 0x3f100000    # 0.5625f
+    invoke-static {v3}, LX/02K;->A05(Ljava/lang/Object;)V
 
     .line 1769
     .line 1770
-    invoke-static {v3, v0}, LX/6GM;->A00(Landroid/content/Context;F)Landroid/util/Size;
-
     .line 1771
-    .line 1772
-    .line 1773
-    move-result-object v2
+    const/4 v5, 0x0
 
+    .line 1772
+    const/high16 v0, 0x3f100000    # 0.5625f
+
+    .line 1773
     .line 1774
-    invoke-virtual {v2}, Landroid/util/Size;->getWidth()I
+    invoke-static {v3, v0}, LX/6GM;->A00(Landroid/content/Context;F)Landroid/util/Size;
 
     .line 1775
     .line 1776
     .line 1777
-    move-result v0
+    move-result-object v2
 
     .line 1778
-    int-to-float v0, v0
+    invoke-virtual {v2}, Landroid/util/Size;->getWidth()I
 
     .line 1779
-    invoke-static {v3, v0}, LX/0Oc;->A01(Landroid/content/Context;F)F
-
     .line 1780
     .line 1781
+    move-result v0
+
     .line 1782
-    move-result v1
+    int-to-float v0, v0
 
     .line 1783
-    invoke-virtual {v2}, Landroid/util/Size;->getHeight()I
+    invoke-static {v3, v0}, LX/0Oc;->A01(Landroid/content/Context;F)F
 
     .line 1784
     .line 1785
     .line 1786
-    move-result v0
+    move-result v1
 
     .line 1787
-    int-to-float v0, v0
+    invoke-virtual {v2}, Landroid/util/Size;->getHeight()I
 
     .line 1788
-    invoke-static {v3, v0}, LX/0Oc;->A01(Landroid/content/Context;F)F
-
     .line 1789
     .line 1790
-    .line 1791
     move-result v0
 
+    .line 1791
+    int-to-float v0, v0
+
     .line 1792
-    invoke-static {v1}, LX/3d7;->A01(F)I
+    invoke-static {v3, v0}, LX/0Oc;->A01(Landroid/content/Context;F)F
 
     .line 1793
     .line 1794
     .line 1795
-    move-result v1
+    move-result v0
 
     .line 1796
-    invoke-static {v0}, LX/3d7;->A01(F)I
+    invoke-static {v1}, LX/3d7;->A01(F)I
 
     .line 1797
     .line 1798
     .line 1799
-    move-result v0
+    move-result v1
 
     .line 1800
-    new-instance v8, Landroid/util/Size;
+    invoke-static {v0}, LX/3d7;->A01(F)I
 
     .line 1801
     .line 1802
-    invoke-direct {v8, v1, v0}, Landroid/util/Size;-><init>(II)V
-
     .line 1803
-    .line 1804
-    .line 1805
-    sget-object v7, LX/1gP;->A02:LX/Ck5;
-
-    .line 1806
-    .line 1807
-    move-object v6, v7
-
-    .line 1808
-    invoke-virtual {v8}, Landroid/util/Size;->getWidth()I
-
-    .line 1809
-    .line 1810
-    .line 1811
     move-result v0
 
+    .line 1804
+    new-instance v8, Landroid/util/Size;
+
+    .line 1805
+    .line 1806
+    invoke-direct {v8, v1, v0}, Landroid/util/Size;-><init>(II)V
+
+    .line 1807
+    .line 1808
+    .line 1809
+    sget-object v7, LX/1gP;->A02:LX/Ck5;
+
+    .line 1810
+    .line 1811
+    move-object v6, v7
+
     .line 1812
-    int-to-double v0, v0
+    invoke-virtual {v8}, Landroid/util/Size;->getWidth()I
 
     .line 1813
-    invoke-static {v0, v1}, Ljava/lang/Double;->doubleToRawLongBits(D)J
-
     .line 1814
     .line 1815
+    move-result v0
+
     .line 1816
-    move-result-wide v2
+    int-to-double v0, v0
 
     .line 1817
-    sget-object v1, LX/J2g;->A0O:LX/J2g;
+    invoke-static {v0, v1}, Ljava/lang/Double;->doubleToRawLongBits(D)J
 
     .line 1818
     .line 1819
-    new-instance v0, LX/LIz;
-
     .line 1820
+    move-result-wide v2
+
     .line 1821
-    invoke-direct {v0, v1, v2, v3}, LX/LIz;-><init>(LX/J2g;J)V
+    sget-object v1, LX/J2g;->A0O:LX/J2g;
 
     .line 1822
     .line 1823
+    new-instance v0, LX/LIz;
+
     .line 1824
+    .line 1825
+    invoke-direct {v0, v1, v2, v3}, LX/LIz;-><init>(LX/J2g;J)V
+
+    .line 1826
+    .line 1827
+    .line 1828
     if-ne v7, v7, :cond_1a
 
-    .line 1825
-    .line 1826
+    .line 1829
+    .line 1830
     move-object v7, v5
 
-    .line 1827
+    .line 1831
     :cond_1a
     new-instance v4, LX/1gP;
 
-    .line 1828
-    .line 1829
+    .line 1832
+    .line 1833
     invoke-direct {v4, v7, v0}, LX/1gP;-><init>(LX/1gP;LX/1gQ;)V
 
-    .line 1830
-    .line 1831
-    .line 1832
-    invoke-virtual {v8}, Landroid/util/Size;->getHeight()I
-
-    .line 1833
     .line 1834
     .line 1835
-    move-result v0
-
     .line 1836
-    int-to-double v0, v0
+    invoke-virtual {v8}, Landroid/util/Size;->getHeight()I
 
     .line 1837
-    invoke-static {v0, v1}, Ljava/lang/Double;->doubleToRawLongBits(D)J
-
     .line 1838
     .line 1839
+    move-result v0
+
     .line 1840
-    move-result-wide v2
+    int-to-double v0, v0
 
     .line 1841
-    sget-object v1, LX/J2g;->A01:LX/J2g;
+    invoke-static {v0, v1}, Ljava/lang/Double;->doubleToRawLongBits(D)J
 
     .line 1842
     .line 1843
-    new-instance v0, LX/LIz;
-
     .line 1844
+    move-result-wide v2
+
     .line 1845
-    invoke-direct {v0, v1, v2, v3}, LX/LIz;-><init>(LX/J2g;J)V
+    sget-object v1, LX/J2g;->A01:LX/J2g;
 
     .line 1846
     .line 1847
+    new-instance v0, LX/LIz;
+
     .line 1848
+    .line 1849
+    invoke-direct {v0, v1, v2, v3}, LX/LIz;-><init>(LX/J2g;J)V
+
+    .line 1850
+    .line 1851
+    .line 1852
     if-eq v4, v6, :cond_1b
 
-    .line 1849
-    .line 1850
+    .line 1853
+    .line 1854
     move-object v5, v4
 
-    .line 1851
+    .line 1855
     :cond_1b
     new-instance v6, LX/1gP;
 
-    .line 1852
-    .line 1853
-    invoke-direct {v6, v5, v0}, LX/1gP;-><init>(LX/1gP;LX/1gQ;)V
-
-    .line 1854
-    .line 1855
     .line 1856
-    return-object v6
-
     .line 1857
-    :pswitch_35
-    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+    invoke-direct {v6, v5, v0}, LX/1gP;-><init>(LX/1gP;LX/1gQ;)V
 
     .line 1858
     .line 1859
-    check-cast v0, LX/GJZ;
-
     .line 1860
+    return-object v6
+
     .line 1861
-    iget-object v0, v0, LX/GJZ;->A00:LX/Cyb;
+    :pswitch_35
+    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
     .line 1862
     .line 1863
-    iget-object v6, v0, LX/Cyb;->A03:LX/DAI;
+    check-cast v0, LX/GJZ;
 
     .line 1864
     .line 1865
-    return-object v6
+    iget-object v0, v0, LX/GJZ;->A00:LX/Cyb;
 
     .line 1866
+    .line 1867
+    iget-object v6, v0, LX/Cyb;->A03:LX/DAI;
+
+    .line 1868
+    .line 1869
+    return-object v6
+
+    .line 1870
     :pswitch_36
     iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 1867
-    .line 1868
-    check-cast v0, LX/Dfh;
-
-    .line 1869
-    .line 1870
-    iget-object v2, v0, LX/Dfh;->A01:Lcom/instagram/service/session/UserSession;
-
     .line 1871
     .line 1872
-    iget-object v1, v0, LX/Dfh;->A02:Ljava/lang/String;
+    check-cast v0, LX/Dfh;
 
     .line 1873
     .line 1874
-    iget-object v0, v0, LX/Dfh;->A00:LX/Dqj;
+    iget-object v2, v0, LX/Dfh;->A01:Lcom/instagram/service/session/UserSession;
 
     .line 1875
     .line 1876
-    new-instance v6, Lcom/instagram/clips/repository/ClipsPlayedByListPagingSource;
+    iget-object v1, v0, LX/Dfh;->A02:Ljava/lang/String;
 
     .line 1877
     .line 1878
-    invoke-direct {v6, v0, v2, v1}, Lcom/instagram/clips/repository/ClipsPlayedByListPagingSource;-><init>(LX/Dqj;Lcom/instagram/service/session/UserSession;Ljava/lang/String;)V
+    iget-object v0, v0, LX/Dfh;->A00:LX/Dqj;
 
     .line 1879
     .line 1880
-    .line 1881
-    return-object v6
+    new-instance v6, Lcom/instagram/clips/repository/ClipsPlayedByListPagingSource;
 
+    .line 1881
     .line 1882
-    :pswitch_37
-    const/16 v4, 0x32
+    invoke-direct {v6, v0, v2, v1}, Lcom/instagram/clips/repository/ClipsPlayedByListPagingSource;-><init>(LX/Dqj;Lcom/instagram/service/session/UserSession;Ljava/lang/String;)V
 
     .line 1883
     .line 1884
-    const/4 v5, 0x0
-
     .line 1885
-    const/16 v9, 0x3a
+    return-object v6
 
     .line 1886
-    .line 1887
-    const/4 v2, 0x0
+    :pswitch_37
+    const/16 v4, 0x32
 
+    .line 1887
     .line 1888
-    new-instance v3, Landroidx/paging/PagingConfig;
+    const/4 v5, 0x0
 
     .line 1889
-    .line 1890
-    move v6, v5
+    const/16 v9, 0x3a
 
+    .line 1890
     .line 1891
-    move v7, v5
+    const/4 v2, 0x0
 
     .line 1892
-    move v8, v5
+    new-instance v3, Landroidx/paging/PagingConfig;
 
     .line 1893
-    invoke-direct/range {v3 .. v9}, Landroidx/paging/PagingConfig;-><init>(IIIZII)V
-
     .line 1894
+    move v6, v5
+
     .line 1895
+    move v7, v5
+
     .line 1896
-    iget-object v1, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+    move v8, v5
 
     .line 1897
-    .line 1898
-    const/16 v0, 0x23
+    invoke-direct/range {v3 .. v9}, Landroidx/paging/PagingConfig;-><init>(IIIZII)V
 
+    .line 1898
     .line 1899
     .line 1900
-    invoke-static {v1, v0}, LX/Chb;->A0t(Ljava/lang/Object;I)Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;
+    iget-object v1, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
     .line 1901
     .line 1902
-    .line 1903
-    move-result-object v0
+    const/16 v0, 0x23
 
+    .line 1903
     .line 1904
-    new-instance v1, Lkotlin/coroutines/jvm/internal/IDxSLambdaShape674S0100000_3_I1;
+    invoke-static {v1, v0}, LX/Chb;->A0t(Ljava/lang/Object;I)Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;
 
     .line 1905
     .line 1906
+    .line 1907
+    move-result-object v0
+
+    .line 1908
+    new-instance v1, Lkotlin/coroutines/jvm/internal/IDxSLambdaShape674S0100000_3_I1;
+
+    .line 1909
+    .line 1910
     invoke-direct {v1, v2, v0, v5}, Lkotlin/coroutines/jvm/internal/IDxSLambdaShape674S0100000_3_I1;-><init>(LX/1Br;LX/0Xg;I)V
 
-    .line 1907
-    .line 1908
-    .line 1909
-    new-instance v0, Landroidx/paging/PageFetcher;
-
-    .line 1910
     .line 1911
-    invoke-direct {v0, v3, v1}, Landroidx/paging/PageFetcher;-><init>(Landroidx/paging/PagingConfig;LX/0Vv;)V
-
     .line 1912
     .line 1913
+    new-instance v0, Landroidx/paging/PageFetcher;
+
     .line 1914
+    .line 1915
+    invoke-direct {v0, v3, v1}, Landroidx/paging/PageFetcher;-><init>(Landroidx/paging/PagingConfig;LX/0Vv;)V
+
+    .line 1916
+    .line 1917
+    .line 1918
     iget-object v6, v0, Landroidx/paging/PageFetcher;->A03:LX/1TA;
 
-    .line 1915
-    .line 1916
+    .line 1919
+    .line 1920
     return-object v6
 
-    .line 1917
+    .line 1921
     :pswitch_38
     iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 1918
-    .line 1919
-    check-cast v0, LX/DJ7;
-
-    .line 1920
-    .line 1921
-    iget-object v2, v0, LX/DJ7;->A0W:Lcom/instagram/service/session/UserSession;
-
     .line 1922
     .line 1923
-    const/4 v1, 0x0
+    check-cast v0, LX/DJ7;
 
     .line 1924
+    .line 1925
+    iget-object v2, v0, LX/DJ7;->A0W:Lcom/instagram/service/session/UserSession;
+
+    .line 1926
+    .line 1927
+    const/4 v1, 0x0
+
+    .line 1928
     if-nez v2, :cond_1c
 
-    .line 1925
-    .line 1926
+    .line 1929
+    .line 1930
     invoke-static {}, LX/92k;->A0o()V
 
-    .line 1927
-    .line 1928
-    .line 1929
+    .line 1931
+    .line 1932
+    .line 1933
     throw v1
 
-    .line 1930
+    .line 1934
     :cond_1c
     const/4 v0, 0x2
 
-    .line 1931
+    .line 1935
     new-instance v6, LX/4lf;
 
-    .line 1932
-    .line 1933
-    invoke-direct {v6, v2, v1, v1, v0}, LX/4lf;-><init>(Lcom/instagram/service/session/UserSession;Ljava/lang/Integer;Lkotlin/jvm/internal/DefaultConstructorMarker;I)V
-
-    .line 1934
-    .line 1935
     .line 1936
-    return-object v6
-
     .line 1937
-    :pswitch_39
-    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+    invoke-direct {v6, v2, v1, v1, v0}, LX/4lf;-><init>(Lcom/instagram/service/session/UserSession;Ljava/lang/Integer;Lkotlin/jvm/internal/DefaultConstructorMarker;I)V
 
     .line 1938
     .line 1939
-    invoke-static {v0}, LX/92q;->A0F(Ljava/lang/Object;)Landroidx/fragment/app/FragmentActivity;
-
     .line 1940
-    .line 1941
-    .line 1942
-    move-result-object v6
-
-    .line 1943
     return-object v6
 
+    .line 1941
+    :pswitch_39
+    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+
+    .line 1942
+    .line 1943
+    invoke-static {v0}, LX/92q;->A0F(Ljava/lang/Object;)Landroidx/fragment/app/FragmentActivity;
+
     .line 1944
+    .line 1945
+    .line 1946
+    move-result-object v6
+
+    .line 1947
+    return-object v6
+
+    .line 1948
     :pswitch_3a
     iget-object v8, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 1945
-    .line 1946
-    check-cast v8, LX/DJ7;
-
-    .line 1947
-    .line 1948
-    iget-object v1, v8, LX/DJ7;->A0W:Lcom/instagram/service/session/UserSession;
-
     .line 1949
     .line 1950
-    const/4 v9, 0x0
+    check-cast v8, LX/DJ7;
 
     .line 1951
-    if-nez v1, :cond_1d
-
     .line 1952
-    .line 1953
-    const-string v0, "userSession"
+    iget-object v1, v8, LX/DJ7;->A0W:Lcom/instagram/service/session/UserSession;
 
+    .line 1953
     .line 1954
+    const/4 v9, 0x0
+
     .line 1955
-    :goto_10
-    invoke-static {v0}, LX/02K;->A0D(Ljava/lang/String;)V
+    if-nez v1, :cond_1d
 
     .line 1956
     .line 1957
-    .line 1958
-    throw v9
+    const-string v0, "userSession"
 
+    .line 1958
     .line 1959
-    :cond_1d
-    invoke-virtual {v8}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    :goto_10
+    invoke-static {v0}, LX/02K;->A0D(Ljava/lang/String;)V
 
     .line 1960
     .line 1961
     .line 1962
-    move-result-object v0
+    throw v9
 
     .line 1963
-    invoke-static {v0}, LX/Chc;->A0M(Landroid/content/Context;)Landroid/content/Context;
+    :cond_1d
+    invoke-virtual {v8}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
 
     .line 1964
     .line 1965
     .line 1966
-    move-result-object v7
+    move-result-object v0
 
     .line 1967
-    iget-object v14, v8, LX/DJ7;->A09:LX/4v2;
+    invoke-static {v0}, LX/Chc;->A0M(Landroid/content/Context;)Landroid/content/Context;
 
     .line 1968
     .line 1969
-    if-nez v14, :cond_1e
-
     .line 1970
+    move-result-object v7
+
     .line 1971
-    const-string v0, "analyticsModule"
+    iget-object v14, v8, LX/DJ7;->A09:LX/4v2;
 
     .line 1972
     .line 1973
-    goto :goto_10
+    if-nez v14, :cond_1e
 
     .line 1974
+    .line 1975
+    const-string v0, "analyticsModule"
+
+    .line 1976
+    .line 1977
+    goto :goto_10
+
+    .line 1978
     :cond_1e
     iget-object v11, v8, LX/DJ7;->A03:Lcom/instagram/clips/intf/ClipsViewerConfig;
 
-    .line 1975
-    .line 1976
-    if-nez v11, :cond_1f
-
-    .line 1977
-    .line 1978
-    const-string v0, "clipsViewerConfig"
-
     .line 1979
     .line 1980
-    goto :goto_10
+    if-nez v11, :cond_1f
 
     .line 1981
+    .line 1982
+    const-string v0, "clipsViewerConfig"
+
+    .line 1983
+    .line 1984
+    goto :goto_10
+
+    .line 1985
     :cond_1f
     iget-object v10, v8, LX/DJ7;->A02:LX/4xY;
 
-    .line 1982
-    .line 1983
-    if-nez v10, :cond_20
-
-    .line 1984
-    .line 1985
-    const-string v0, "realtimeSignalProvider"
-
     .line 1986
     .line 1987
-    goto :goto_10
+    if-nez v10, :cond_20
 
     .line 1988
+    .line 1989
+    const-string v0, "realtimeSignalProvider"
+
+    .line 1990
+    .line 1991
+    goto :goto_10
+
+    .line 1992
     :cond_20
     iget-object v13, v8, LX/DJ7;->A0P:LX/4dg;
 
-    .line 1989
-    .line 1990
-    if-nez v13, :cond_21
-
-    .line 1991
-    .line 1992
-    const-string v0, "sessionTracker"
-
     .line 1993
     .line 1994
-    goto :goto_10
+    if-nez v13, :cond_21
 
     .line 1995
+    .line 1996
+    const-string v0, "sessionTracker"
+
+    .line 1997
+    .line 1998
+    goto :goto_10
+
+    .line 1999
     :cond_21
     iget-object v12, v8, LX/DJ7;->A0N:LX/4QY;
 
-    .line 1996
-    .line 1997
-    if-nez v12, :cond_22
-
-    .line 1998
-    .line 1999
-    const-string v0, "sessionIdProvider"
-
     .line 2000
     .line 2001
-    goto :goto_10
+    if-nez v12, :cond_22
 
     .line 2002
+    .line 2003
+    const-string v0, "sessionIdProvider"
+
+    .line 2004
+    .line 2005
+    goto :goto_10
+
+    .line 2006
     :cond_22
     iget-object v0, v8, LX/DJ7;->A01:LX/4qa;
-
-    .line 2003
-    .line 2004
-    if-eqz v0, :cond_23
-
-    .line 2005
-    .line 2006
-    iget-object v0, v0, LX/4qa;->A00:LX/Bha;
 
     .line 2007
     .line 2008
@@ -4191,1041 +4191,1049 @@
 
     .line 2009
     .line 2010
-    iget-object v9, v0, LX/Bha;->A0B:LX/20Q;
+    iget-object v0, v0, LX/4qa;->A00:LX/Bha;
 
     .line 2011
     .line 2012
-    check-cast v9, LX/8hS;
+    if-eqz v0, :cond_23
 
     .line 2013
     .line 2014
-    :cond_23
-    new-instance v6, LX/Cwe;
+    iget-object v9, v0, LX/Bha;->A0B:LX/20Q;
 
     .line 2015
     .line 2016
-    move-object v15, v1
+    check-cast v9, LX/8hS;
 
     .line 2017
-    invoke-direct/range {v6 .. v15}, LX/Cwe;-><init>(Landroid/content/Context;LX/0CH;LX/8hS;LX/4xY;Lcom/instagram/clips/intf/ClipsViewerConfig;LX/4QY;LX/4dg;LX/1qw;Lcom/instagram/service/session/UserSession;)V
-
     .line 2018
+    :cond_23
+    new-instance v6, LX/Cwe;
+
     .line 2019
     .line 2020
-    return-object v6
+    move-object v15, v1
 
     .line 2021
-    :pswitch_3b
-    iget-object v1, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+    invoke-direct/range {v6 .. v15}, LX/Cwe;-><init>(Landroid/content/Context;LX/0CH;LX/8hS;LX/4xY;Lcom/instagram/clips/intf/ClipsViewerConfig;LX/4QY;LX/4dg;LX/1qw;Lcom/instagram/service/session/UserSession;)V
 
     .line 2022
     .line 2023
-    check-cast v1, LX/J1S;
-
     .line 2024
+    return-object v6
+
     .line 2025
-    invoke-static {v1}, LX/J1X;->A02(LX/1gU;)I
+    :pswitch_3b
+    iget-object v1, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
     .line 2026
     .line 2027
-    .line 2028
-    move-result v0
+    check-cast v1, LX/J1S;
 
+    .line 2028
     .line 2029
-    int-to-long v2, v0
+    invoke-static {v1}, LX/J1X;->A02(LX/1gU;)I
 
     .line 2030
-    new-instance v4, LX/5SO;
-
     .line 2031
     .line 2032
-    invoke-direct {v4}, LX/5SO;-><init>()V
-
-    .line 2033
-    .line 2034
-    .line 2035
-    const v0, 0x7f060160
-
-    .line 2036
-    .line 2037
-    .line 2038
-    invoke-static {v1, v0}, LX/J1X;->A03(LX/1gU;I)I
-
-    .line 2039
-    .line 2040
-    .line 2041
     move-result v0
 
+    .line 2033
+    int-to-long v2, v0
+
+    .line 2034
+    new-instance v4, LX/5SO;
+
+    .line 2035
+    .line 2036
+    invoke-direct {v4}, LX/5SO;-><init>()V
+
+    .line 2037
+    .line 2038
+    .line 2039
+    const v0, 0x7f060160
+
+    .line 2040
+    .line 2041
     .line 2042
-    invoke-virtual {v4, v0}, LX/5SO;->A0C(I)V
+    invoke-static {v1, v0}, LX/J1X;->A03(LX/1gU;I)I
 
     .line 2043
     .line 2044
     .line 2045
-    const v0, 0x7f06025a
-
-    .line 2046
-    .line 2047
-    .line 2048
-    invoke-static {v1, v0}, LX/J1X;->A03(LX/1gU;I)I
-
-    .line 2049
-    .line 2050
-    .line 2051
     move-result v0
 
+    .line 2046
+    invoke-virtual {v4, v0}, LX/5SO;->A0C(I)V
+
+    .line 2047
+    .line 2048
+    .line 2049
+    const v0, 0x7f06025a
+
+    .line 2050
+    .line 2051
     .line 2052
-    iget-object v1, v4, LX/5SP;->A00:LX/5SQ;
+    invoke-static {v1, v0}, LX/J1X;->A03(LX/1gU;I)I
 
     .line 2053
     .line 2054
-    iput v0, v1, LX/5SQ;->A09:I
-
     .line 2055
+    move-result v0
+
     .line 2056
-    const/4 v0, 0x0
+    iget-object v1, v4, LX/5SP;->A00:LX/5SQ;
 
     .line 2057
-    iput v0, v1, LX/5SQ;->A06:I
-
     .line 2058
-    .line 2059
-    invoke-virtual {v4, v2, v3}, LX/5SP;->A0A(J)V
+    iput v0, v1, LX/5SQ;->A09:I
 
+    .line 2059
     .line 2060
-    .line 2061
-    .line 2062
     const/4 v0, 0x0
 
+    .line 2061
+    iput v0, v1, LX/5SQ;->A06:I
+
+    .line 2062
     .line 2063
-    iput v0, v1, LX/5SQ;->A03:F
+    invoke-virtual {v4, v2, v3}, LX/5SP;->A0A(J)V
 
     .line 2064
     .line 2065
+    .line 2066
+    const/4 v0, 0x0
+
+    .line 2067
+    iput v0, v1, LX/5SQ;->A03:F
+
+    .line 2068
+    .line 2069
     invoke-virtual {v4}, LX/5SP;->A01()LX/5SQ;
 
-    .line 2066
-    .line 2067
-    .line 2068
+    .line 2070
+    .line 2071
+    .line 2072
     move-result-object v6
 
-    .line 2069
+    .line 2073
     return-object v6
 
-    .line 2070
+    .line 2074
     :pswitch_3c
     iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 2071
-    .line 2072
-    check-cast v0, LX/2KZ;
-
-    .line 2073
-    .line 2074
-    iget-boolean v0, v0, LX/2KZ;->A18:Z
-
     .line 2075
     .line 2076
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    check-cast v0, LX/2KZ;
 
     .line 2077
     .line 2078
-    .line 2079
-    move-result-object v6
+    iget-boolean v0, v0, LX/2KZ;->A18:Z
 
+    .line 2079
     .line 2080
-    return-object v6
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 2081
+    .line 2082
+    .line 2083
+    move-result-object v6
+
+    .line 2084
+    return-object v6
+
+    .line 2085
     :pswitch_3d
     iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 2082
-    .line 2083
-    check-cast v0, LX/2KZ;
-
-    .line 2084
-    .line 2085
-    iget-boolean v0, v0, LX/2KZ;->A1C:Z
-
     .line 2086
     .line 2087
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    check-cast v0, LX/2KZ;
 
     .line 2088
     .line 2089
-    .line 2090
-    move-result-object v6
+    iget-boolean v0, v0, LX/2KZ;->A1C:Z
 
+    .line 2090
     .line 2091
-    return-object v6
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 2092
+    .line 2093
+    .line 2094
+    move-result-object v6
+
+    .line 2095
+    return-object v6
+
+    .line 2096
     :pswitch_3e
     iget-object v1, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 2093
-    .line 2094
+    .line 2097
+    .line 2098
     check-cast v1, LX/1gS;
 
-    .line 2095
-    .line 2096
+    .line 2099
+    .line 2100
     const/4 v0, 0x0
 
-    .line 2097
+    .line 2101
     new-instance v6, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;
 
-    .line 2098
-    .line 2099
-    invoke-direct {v6, v1, v0}, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;-><init>(LX/1gS;I)V
-
-    .line 2100
-    .line 2101
     .line 2102
-    return-object v6
-
     .line 2103
-    :pswitch_3f
-    iget-object v1, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+    invoke-direct {v6, v1, v0}, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;-><init>(LX/1gS;I)V
 
     .line 2104
     .line 2105
-    check-cast v1, LX/1gS;
-
     .line 2106
-    .line 2107
-    const/4 v0, 0x1
-
-    .line 2108
-    new-instance v6, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;
-
-    .line 2109
-    .line 2110
-    invoke-direct {v6, v1, v0}, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;-><init>(LX/1gS;I)V
-
-    .line 2111
-    .line 2112
-    .line 2113
     return-object v6
 
+    .line 2107
+    :pswitch_3f
+    iget-object v1, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+
+    .line 2108
+    .line 2109
+    check-cast v1, LX/1gS;
+
+    .line 2110
+    .line 2111
+    const/4 v0, 0x1
+
+    .line 2112
+    new-instance v6, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;
+
+    .line 2113
     .line 2114
-    :pswitch_40
-    sget-object v2, LX/Cjz;->A00:LX/Cjz;
+    invoke-direct {v6, v1, v0}, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;-><init>(LX/1gS;I)V
 
     .line 2115
     .line 2116
-    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
-
     .line 2117
+    return-object v6
+
     .line 2118
-    check-cast v0, LX/J2U;
+    :pswitch_40
+    sget-object v2, LX/Cjz;->A00:LX/Cjz;
 
     .line 2119
     .line 2120
-    iget-object v6, v0, LX/J2U;->A08:Lcom/instagram/service/session/UserSession;
+    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
     .line 2121
     .line 2122
-    iget-object v3, v0, LX/J2U;->A01:LX/2Vs;
+    check-cast v0, LX/J2U;
 
     .line 2123
     .line 2124
-    iget-object v5, v0, LX/J2U;->A03:LX/J2v;
+    iget-object v6, v0, LX/J2U;->A08:Lcom/instagram/service/session/UserSession;
 
     .line 2125
     .line 2126
-    const/4 v7, 0x0
+    iget-object v3, v0, LX/J2U;->A01:LX/2Vs;
 
     .line 2127
-    move-object v4, v3
-
     .line 2128
-    invoke-virtual/range {v2 .. v7}, LX/Cjz;->A00(LX/2Vs;LX/2Vs;LX/J2v;Lcom/instagram/service/session/UserSession;I)Z
+    iget-object v5, v0, LX/J2U;->A03:LX/J2v;
 
     .line 2129
     .line 2130
+    const/4 v7, 0x0
+
     .line 2131
-    move-result v0
+    move-object v4, v3
 
     .line 2132
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-virtual/range {v2 .. v7}, LX/Cjz;->A00(LX/2Vs;LX/2Vs;LX/J2v;Lcom/instagram/service/session/UserSession;I)Z
 
     .line 2133
     .line 2134
     .line 2135
-    move-result-object v6
+    move-result v0
 
     .line 2136
-    return-object v6
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 2137
+    .line 2138
+    .line 2139
+    move-result-object v6
+
+    .line 2140
+    return-object v6
+
+    .line 2141
     :pswitch_41
     sget-object v3, LX/Cjz;->A00:LX/Cjz;
 
-    .line 2138
-    .line 2139
-    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
-
-    .line 2140
-    .line 2141
-    check-cast v0, LX/J2U;
-
     .line 2142
     .line 2143
-    iget-object v2, v0, LX/J2U;->A08:Lcom/instagram/service/session/UserSession;
+    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
     .line 2144
     .line 2145
-    iget-object v1, v0, LX/J2U;->A03:LX/J2v;
+    check-cast v0, LX/J2U;
 
     .line 2146
     .line 2147
-    const/4 v0, 0x0
+    iget-object v2, v0, LX/J2U;->A08:Lcom/instagram/service/session/UserSession;
 
     .line 2148
-    invoke-virtual {v3, v1, v2, v0}, LX/Cjz;->A01(LX/J2v;Lcom/instagram/service/session/UserSession;I)Z
-
     .line 2149
+    iget-object v1, v0, LX/J2U;->A03:LX/J2v;
+
     .line 2150
     .line 2151
-    move-result v0
+    const/4 v0, 0x0
 
     .line 2152
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-virtual {v3, v1, v2, v0}, LX/Cjz;->A01(LX/J2v;Lcom/instagram/service/session/UserSession;I)Z
 
     .line 2153
     .line 2154
     .line 2155
-    move-result-object v6
+    move-result v0
 
     .line 2156
-    return-object v6
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 2157
+    .line 2158
+    .line 2159
+    move-result-object v6
+
+    .line 2160
+    return-object v6
+
+    .line 2161
     :pswitch_42
     const/4 v0, 0x1
 
-    .line 2158
+    .line 2162
     new-instance v6, Landroid/text/TextPaint;
 
-    .line 2159
-    .line 2160
+    .line 2163
+    .line 2164
     invoke-direct {v6, v0}, Landroid/text/TextPaint;-><init>(I)V
 
-    .line 2161
-    .line 2162
-    .line 2163
-    iget-object v4, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
-
-    .line 2164
     .line 2165
-    check-cast v4, LX/J1S;
-
     .line 2166
     .line 2167
-    const/16 v0, 0xc
+    iget-object v4, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
     .line 2168
     .line 2169
-    int-to-float v0, v0
+    check-cast v4, LX/J1S;
 
     .line 2170
-    invoke-static {v0}, Ljava/lang/Float;->floatToRawIntBits(F)I
-
     .line 2171
+    const/16 v0, 0xc
+
     .line 2172
     .line 2173
-    move-result v0
-
-    .line 2174
-    int-to-long v2, v0
-
-    .line 2175
-    const-wide/high16 v0, 0x7ffa000000000000L
-
-    .line 2176
-    .line 2177
-    or-long/2addr v2, v0
-
-    .line 2178
-    invoke-virtual {v4, v2, v3}, LX/J1S;->D9z(J)I
-
-    .line 2179
-    .line 2180
-    .line 2181
-    move-result v0
-
-    .line 2182
     int-to-float v0, v0
 
-    .line 2183
-    invoke-virtual {v6, v0}, Landroid/graphics/Paint;->setTextSize(F)V
+    .line 2174
+    invoke-static {v0}, Ljava/lang/Float;->floatToRawIntBits(F)I
 
+    .line 2175
+    .line 2176
+    .line 2177
+    move-result v0
+
+    .line 2178
+    int-to-long v2, v0
+
+    .line 2179
+    const-wide/high16 v0, 0x7ffa000000000000L
+
+    .line 2180
+    .line 2181
+    or-long/2addr v2, v0
+
+    .line 2182
+    invoke-virtual {v4, v2, v3}, LX/J1S;->D9z(J)I
+
+    .line 2183
     .line 2184
     .line 2185
+    move-result v0
+
     .line 2186
-    const-string v1, "sans-serif-medium"
+    int-to-float v0, v0
 
     .line 2187
+    invoke-virtual {v6, v0}, Landroid/graphics/Paint;->setTextSize(F)V
+
     .line 2188
-    const/4 v0, 0x0
-
     .line 2189
-    invoke-static {v1, v0}, Landroid/graphics/Typeface;->create(Ljava/lang/String;I)Landroid/graphics/Typeface;
-
     .line 2190
+    const-string v1, "sans-serif-medium"
+
     .line 2191
     .line 2192
-    move-result-object v0
+    const/4 v0, 0x0
 
     .line 2193
-    invoke-virtual {v6, v0}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+    invoke-static {v1, v0}, Landroid/graphics/Typeface;->create(Ljava/lang/String;I)Landroid/graphics/Typeface;
 
     .line 2194
     .line 2195
     .line 2196
-    return-object v6
+    move-result-object v0
 
     .line 2197
-    :pswitch_43
-    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+    invoke-virtual {v6, v0}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
     .line 2198
     .line 2199
-    check-cast v0, LX/Fsz;
-
     .line 2200
+    return-object v6
+
     .line 2201
-    iget v0, v0, LX/Fsz;->A00:I
+    :pswitch_43
+    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
     .line 2202
     .line 2203
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    check-cast v0, LX/Fsz;
 
     .line 2204
     .line 2205
-    .line 2206
-    move-result-object v6
+    iget v0, v0, LX/Fsz;->A00:I
 
+    .line 2206
     .line 2207
-    return-object v6
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 2208
+    .line 2209
+    .line 2210
+    move-result-object v6
+
+    .line 2211
+    return-object v6
+
+    .line 2212
     :pswitch_44
     iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 2209
-    .line 2210
-    check-cast v0, LX/FsK;
-
-    .line 2211
-    .line 2212
-    new-instance v6, LX/CkX;
-
     .line 2213
     .line 2214
-    invoke-direct {v6, v0}, LX/CkX;-><init>(LX/FsK;)V
+    check-cast v0, LX/FsK;
 
     .line 2215
     .line 2216
-    .line 2217
-    return-object v6
+    new-instance v6, LX/CkX;
 
+    .line 2217
     .line 2218
-    :pswitch_45
-    sget-object v2, LX/EZi;->A00:LX/EZi;
+    invoke-direct {v6, v0}, LX/CkX;-><init>(LX/FsK;)V
 
     .line 2219
     .line 2220
-    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
-
     .line 2221
+    return-object v6
+
     .line 2222
-    check-cast v0, LX/Jby;
+    :pswitch_45
+    sget-object v2, LX/EZi;->A00:LX/EZi;
 
     .line 2223
     .line 2224
-    iget-object v1, v0, LX/Jby;->A01:Lcom/instagram/service/session/UserSession;
+    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
     .line 2225
     .line 2226
-    iget-object v0, v0, LX/Jby;->A00:Lcom/instagram/model/shopping/Product;
+    check-cast v0, LX/Jby;
 
     .line 2227
     .line 2228
-    invoke-virtual {v2, v0, v1}, LX/EZi;->A00(Lcom/instagram/model/shopping/Product;Lcom/instagram/service/session/UserSession;)LX/Dn9;
+    iget-object v1, v0, LX/Jby;->A01:Lcom/instagram/service/session/UserSession;
 
     .line 2229
     .line 2230
-    .line 2231
-    move-result-object v6
+    iget-object v0, v0, LX/Jby;->A00:Lcom/instagram/model/shopping/Product;
 
+    .line 2231
     .line 2232
-    return-object v6
+    invoke-virtual {v2, v0, v1}, LX/EZi;->A00(Lcom/instagram/model/shopping/Product;Lcom/instagram/service/session/UserSession;)LX/Dn9;
 
     .line 2233
+    .line 2234
+    .line 2235
+    move-result-object v6
+
+    .line 2236
+    return-object v6
+
+    .line 2237
     :pswitch_46
     iget-object v2, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 2234
-    .line 2235
-    check-cast v2, LX/GJY;
-
-    .line 2236
-    .line 2237
-    iget-object v0, v2, LX/GJY;->A01:Lcom/instagram/service/session/UserSession;
-
     .line 2238
     .line 2239
-    invoke-static {v0}, LX/6I8;->A00(Lcom/instagram/service/session/UserSession;)LX/4li;
+    check-cast v2, LX/GJY;
 
     .line 2240
     .line 2241
-    .line 2242
-    move-result-object v1
+    iget-object v0, v2, LX/GJY;->A01:Lcom/instagram/service/session/UserSession;
 
+    .line 2242
     .line 2243
-    iget-object v0, v2, LX/GJY;->A00:Lcom/instagram/model/shopping/Product;
+    invoke-static {v0}, LX/6I8;->A00(Lcom/instagram/service/session/UserSession;)LX/4li;
 
     .line 2244
     .line 2245
-    invoke-virtual {v1, v0}, LX/4li;->A05(LX/2UV;)Z
-
     .line 2246
-    .line 2247
-    .line 2248
-    move-result v0
+    move-result-object v1
 
+    .line 2247
+    iget-object v0, v2, LX/GJY;->A00:Lcom/instagram/model/shopping/Product;
+
+    .line 2248
     .line 2249
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-virtual {v1, v0}, LX/4li;->A05(LX/2UV;)Z
 
     .line 2250
     .line 2251
     .line 2252
-    move-result-object v6
+    move-result v0
 
     .line 2253
-    return-object v6
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 2254
+    .line 2255
+    .line 2256
+    move-result-object v6
+
+    .line 2257
+    return-object v6
+
+    .line 2258
     :pswitch_47
     iget-object v1, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 2255
-    .line 2256
+    .line 2259
+    .line 2260
     check-cast v1, LX/1gS;
 
-    .line 2257
-    .line 2258
+    .line 2261
+    .line 2262
     const/4 v0, 0x2
 
-    .line 2259
+    .line 2263
     new-instance v6, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;
 
-    .line 2260
-    .line 2261
-    invoke-direct {v6, v1, v0}, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;-><init>(LX/1gS;I)V
-
-    .line 2262
-    .line 2263
     .line 2264
-    return-object v6
-
     .line 2265
-    :pswitch_48
-    iget-object v1, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+    invoke-direct {v6, v1, v0}, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;-><init>(LX/1gS;I)V
 
     .line 2266
     .line 2267
-    check-cast v1, LX/1gS;
-
     .line 2268
-    .line 2269
-    const/4 v0, 0x3
-
-    .line 2270
-    new-instance v6, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;
-
-    .line 2271
-    .line 2272
-    invoke-direct {v6, v1, v0}, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;-><init>(LX/1gS;I)V
-
-    .line 2273
-    .line 2274
-    .line 2275
     return-object v6
 
-    .line 2276
-    :pswitch_49
+    .line 2269
+    :pswitch_48
     iget-object v1, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+
+    .line 2270
+    .line 2271
+    check-cast v1, LX/1gS;
+
+    .line 2272
+    .line 2273
+    const/4 v0, 0x3
+
+    .line 2274
+    new-instance v6, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;
+
+    .line 2275
+    .line 2276
+    invoke-direct {v6, v1, v0}, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;-><init>(LX/1gS;I)V
 
     .line 2277
     .line 2278
-    check-cast v1, LX/1gS;
-
     .line 2279
-    .line 2280
-    const/4 v0, 0x4
-
-    .line 2281
-    new-instance v6, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;
-
-    .line 2282
-    .line 2283
-    invoke-direct {v6, v1, v0}, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;-><init>(LX/1gS;I)V
-
-    .line 2284
-    .line 2285
-    .line 2286
     return-object v6
 
+    .line 2280
+    :pswitch_49
+    iget-object v1, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+
+    .line 2281
+    .line 2282
+    check-cast v1, LX/1gS;
+
+    .line 2283
+    .line 2284
+    const/4 v0, 0x4
+
+    .line 2285
+    new-instance v6, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;
+
+    .line 2286
     .line 2287
-    :pswitch_4a
-    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+    invoke-direct {v6, v1, v0}, Lcom/facebook/redex/IDxListenerShape517S0100000_4_I1;-><init>(LX/1gS;I)V
 
     .line 2288
     .line 2289
-    check-cast v0, Lcom/instagram/service/session/UserSession;
-
     .line 2290
+    return-object v6
+
     .line 2291
-    invoke-static {v0}, LX/4vn;->A00(Lcom/instagram/service/session/UserSession;)LX/4U8;
+    :pswitch_4a
+    iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
     .line 2292
     .line 2293
-    .line 2294
-    move-result-object v6
+    check-cast v0, Lcom/instagram/service/session/UserSession;
 
+    .line 2294
     .line 2295
-    return-object v6
+    invoke-static {v0}, LX/4vn;->A00(Lcom/instagram/service/session/UserSession;)LX/4U8;
 
     .line 2296
+    .line 2297
+    .line 2298
+    move-result-object v6
+
+    .line 2299
+    return-object v6
+
+    .line 2300
     :pswitch_4b
     iget-object v3, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 2297
-    .line 2298
-    check-cast v3, Lcom/instagram/service/session/UserSession;
-
-    .line 2299
-    .line 2300
-    sget-object v2, LX/0Sq;->A05:LX/0Sq;
-
     .line 2301
     .line 2302
-    const-wide v0, 0x8108a4000c1060L
+    check-cast v3, Lcom/instagram/service/session/UserSession;
 
     .line 2303
     .line 2304
+    sget-object v2, LX/0Sq;->A05:LX/0Sq;
+
     .line 2305
     .line 2306
-    .line 2307
-    invoke-static {v2, v3, v0, v1}, LX/0Qd;->A02(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Ljava/lang/Boolean;
+    const-wide v0, 0x8108a4000c1060L
 
+    .line 2307
     .line 2308
     .line 2309
     .line 2310
-    move-result-object v6
-
     .line 2311
-    return-object v6
+    invoke-static {v2, v3, v0, v1}, LX/0Qd;->A02(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Ljava/lang/Boolean;
 
     .line 2312
+    .line 2313
+    .line 2314
+    move-result-object v6
+
+    .line 2315
+    return-object v6
+
+    .line 2316
     :pswitch_4c
     iget-object v1, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 2313
-    .line 2314
-    check-cast v1, Landroidx/fragment/app/Fragment;
-
-    .line 2315
-    .line 2316
-    iget-object v6, v1, Landroidx/fragment/app/Fragment;->mParentFragment:Landroidx/fragment/app/Fragment;
-
     .line 2317
     .line 2318
-    instance-of v0, v6, LX/DLd;
+    check-cast v1, Landroidx/fragment/app/Fragment;
 
     .line 2319
     .line 2320
-    if-eqz v0, :cond_24
+    iget-object v6, v1, Landroidx/fragment/app/Fragment;->mParentFragment:Landroidx/fragment/app/Fragment;
 
     .line 2321
     .line 2322
-    if-eqz v6, :cond_24
+    instance-of v0, v6, LX/DLd;
 
     .line 2323
     .line 2324
-    return-object v6
+    if-eqz v0, :cond_24
 
     .line 2325
-    :cond_24
-    return-object v1
-
     .line 2326
-    :pswitch_4d
-    iget-object v6, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+    if-eqz v6, :cond_24
 
     .line 2327
     .line 2328
-    check-cast v6, LX/DJv;
+    return-object v6
 
     .line 2329
+    :cond_24
+    return-object v1
+
     .line 2330
-    iget-object v1, v6, LX/DJv;->A0M:LX/01o;
+    :pswitch_4d
+    iget-object v6, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
     .line 2331
     .line 2332
-    invoke-static {v1}, LX/92l;->A0Y(LX/01o;)Lcom/instagram/service/session/UserSession;
+    check-cast v6, LX/DJv;
 
     .line 2333
     .line 2334
-    .line 2335
-    move-result-object v5
+    iget-object v1, v6, LX/DJv;->A0M:LX/01o;
 
+    .line 2335
     .line 2336
-    iget-object v4, v6, LX/DJv;->A0J:LX/01o;
+    invoke-static {v1}, LX/92l;->A0Y(LX/01o;)Lcom/instagram/service/session/UserSession;
 
     .line 2337
     .line 2338
-    invoke-static {v4}, LX/Chc;->A0i(LX/01o;)LX/1M5;
-
     .line 2339
-    .line 2340
-    .line 2341
-    move-result-object v0
+    move-result-object v5
 
+    .line 2340
+    iget-object v4, v6, LX/DJv;->A0J:LX/01o;
+
+    .line 2341
     .line 2342
-    invoke-static {v0}, LX/Ees;->A02(LX/1M5;)Ljava/util/List;
+    invoke-static {v4}, LX/Chc;->A0i(LX/01o;)LX/1M5;
 
     .line 2343
     .line 2344
     .line 2345
-    move-result-object v3
+    move-result-object v0
 
     .line 2346
-    invoke-static {v1}, LX/92l;->A0Y(LX/01o;)Lcom/instagram/service/session/UserSession;
+    invoke-static {v0}, LX/Ees;->A02(LX/1M5;)Ljava/util/List;
 
     .line 2347
     .line 2348
     .line 2349
-    move-result-object v2
+    move-result-object v3
 
     .line 2350
-    invoke-static {v4}, LX/Chc;->A0i(LX/01o;)LX/1M5;
+    invoke-static {v1}, LX/92l;->A0Y(LX/01o;)Lcom/instagram/service/session/UserSession;
 
     .line 2351
     .line 2352
     .line 2353
-    move-result-object v1
+    move-result-object v2
 
     .line 2354
-    invoke-virtual {v6}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+    invoke-static {v4}, LX/Chc;->A0i(LX/01o;)LX/1M5;
 
     .line 2355
     .line 2356
     .line 2357
-    move-result-object v0
+    move-result-object v1
 
     .line 2358
-    invoke-static {v0, v1, v2}, LX/Ees;->A01(Landroid/content/Context;LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/util/List;
+    invoke-virtual {v6}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
 
     .line 2359
     .line 2360
     .line 2361
-    move-result-object v1
+    move-result-object v0
 
     .line 2362
-    invoke-static {v4}, LX/Chc;->A0i(LX/01o;)LX/1M5;
+    invoke-static {v0, v1, v2}, LX/Ees;->A01(Landroid/content/Context;LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/util/List;
 
     .line 2363
     .line 2364
     .line 2365
-    move-result-object v0
+    move-result-object v1
 
     .line 2366
-    new-instance v6, LX/Eqy;
+    invoke-static {v4}, LX/Chc;->A0i(LX/01o;)LX/1M5;
 
     .line 2367
     .line 2368
-    invoke-direct {v6, v0, v5, v3, v1}, LX/Eqy;-><init>(LX/1M5;Lcom/instagram/service/session/UserSession;Ljava/util/List;Ljava/util/List;)V
-
     .line 2369
-    .line 2370
-    .line 2371
-    return-object v6
+    move-result-object v0
 
+    .line 2370
+    new-instance v6, LX/Eqy;
+
+    .line 2371
     .line 2372
-    :pswitch_4e
-    iget-object v2, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
+    invoke-direct {v6, v0, v5, v3, v1}, LX/Eqy;-><init>(LX/1M5;Lcom/instagram/service/session/UserSession;Ljava/util/List;Ljava/util/List;)V
 
     .line 2373
     .line 2374
-    check-cast v2, LX/CuU;
-
     .line 2375
+    return-object v6
+
     .line 2376
-    iget-object v1, v2, LX/CuU;->A03:Ljava/lang/Integer;
+    :pswitch_4e
+    iget-object v2, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
     .line 2377
     .line 2378
-    sget-object v0, LX/001;->A0u:Ljava/lang/Integer;
+    check-cast v2, LX/CuU;
 
     .line 2379
     .line 2380
-    if-ne v1, v0, :cond_27
+    iget-object v1, v2, LX/CuU;->A03:Ljava/lang/Integer;
 
     .line 2381
     .line 2382
-    iget-object v3, v2, LX/CuU;->A0B:Lcom/instagram/service/session/UserSession;
+    sget-object v0, LX/001;->A0u:Ljava/lang/Integer;
 
     .line 2383
     .line 2384
-    invoke-static {v3}, LX/5We;->A0J(Ljava/lang/Object;)LX/0Sq;
+    if-ne v1, v0, :cond_27
 
     .line 2385
     .line 2386
-    .line 2387
-    move-result-object v2
+    iget-object v3, v2, LX/CuU;->A0B:Lcom/instagram/service/session/UserSession;
 
+    .line 2387
     .line 2388
-    const-wide v0, 0x810c9b00021a1cL
+    invoke-static {v3}, LX/5We;->A0J(Ljava/lang/Object;)LX/0Sq;
 
     .line 2389
     .line 2390
     .line 2391
+    move-result-object v2
+
     .line 2392
+    const-wide v0, 0x810c9b00021a1cL
+
     .line 2393
+    .line 2394
+    .line 2395
+    .line 2396
+    .line 2397
     goto :goto_11
 
-    .line 2394
+    .line 2398
     :pswitch_4f
     iget-object v3, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 2395
-    .line 2396
-    check-cast v3, Lcom/instagram/service/session/UserSession;
-
-    .line 2397
-    .line 2398
-    sget-object v2, LX/0Sq;->A05:LX/0Sq;
-
     .line 2399
     .line 2400
-    const-wide v0, 0x8108a4001d1070L
+    check-cast v3, Lcom/instagram/service/session/UserSession;
 
     .line 2401
     .line 2402
+    sget-object v2, LX/0Sq;->A05:LX/0Sq;
+
     .line 2403
     .line 2404
-    .line 2405
-    invoke-static {v2, v3, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
+    const-wide v0, 0x8108a4001d1070L
 
+    .line 2405
     .line 2406
     .line 2407
     .line 2408
-    move-result v0
-
     .line 2409
-    if-nez v0, :cond_25
+    invoke-static {v2, v3, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     .line 2410
     .line 2411
-    const-wide v0, 0x8108a4001e1071L
-
     .line 2412
+    move-result v0
+
     .line 2413
+    if-nez v0, :cond_25
+
     .line 2414
     .line 2415
-    .line 2416
-    :goto_11
-    invoke-static {v2, v3, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
+    const-wide v0, 0x8108a4001e1071L
 
+    .line 2416
     .line 2417
     .line 2418
     .line 2419
-    move-result v0
-
     .line 2420
-    if-eqz v0, :cond_27
+    :goto_11
+    invoke-static {v2, v3, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     .line 2421
     .line 2422
+    .line 2423
+    move-result v0
+
+    .line 2424
+    if-eqz v0, :cond_27
+
+    .line 2425
+    .line 2426
     :cond_25
     :goto_12
     const/4 v0, 0x1
 
-    .line 2423
+    .line 2427
     :cond_26
     :goto_13
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
-    .line 2424
-    .line 2425
-    .line 2426
+    .line 2428
+    .line 2429
+    .line 2430
     move-result-object v6
 
-    .line 2427
+    .line 2431
     return-object v6
 
-    .line 2428
+    .line 2432
     :cond_27
     const/4 v0, 0x0
 
-    .line 2429
+    .line 2433
     goto :goto_13
 
-    .line 2430
+    .line 2434
     :pswitch_50
     iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 2431
-    .line 2432
-    check-cast v0, LX/G9a;
-
-    .line 2433
-    .line 2434
-    iget-object v1, v0, LX/G9a;->A03:Landroid/view/View;
-
     .line 2435
     .line 2436
-    const v0, 0x7f0a094e
+    check-cast v0, LX/G9a;
 
     .line 2437
     .line 2438
-    .line 2439
-    invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    iget-object v1, v0, LX/G9a;->A03:Landroid/view/View;
 
+    .line 2439
     .line 2440
+    const v0, 0x7f0a094e
+
     .line 2441
     .line 2442
-    move-result-object v6
-
     .line 2443
-    return-object v6
+    invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     .line 2444
+    .line 2445
+    .line 2446
+    move-result-object v6
+
+    .line 2447
+    return-object v6
+
+    .line 2448
     :pswitch_51
     iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 2445
-    .line 2446
-    check-cast v0, LX/DLm;
-
-    .line 2447
-    .line 2448
-    iget-object v0, v0, LX/DLm;->A0D:LX/01o;
-
     .line 2449
     .line 2450
-    invoke-static {v0}, LX/92l;->A0Y(LX/01o;)Lcom/instagram/service/session/UserSession;
+    check-cast v0, LX/DLm;
 
     .line 2451
     .line 2452
-    .line 2453
-    move-result-object v0
+    iget-object v0, v0, LX/DLm;->A0D:LX/01o;
 
+    .line 2453
     .line 2454
-    invoke-static {v0}, LX/5df;->A00(Lcom/instagram/service/session/UserSession;)LX/5dg;
+    invoke-static {v0}, LX/92l;->A0Y(LX/01o;)Lcom/instagram/service/session/UserSession;
 
     .line 2455
     .line 2456
     .line 2457
-    move-result-object v6
+    move-result-object v0
 
     .line 2458
-    return-object v6
+    invoke-static {v0}, LX/5df;->A00(Lcom/instagram/service/session/UserSession;)LX/5dg;
 
     .line 2459
+    .line 2460
+    .line 2461
+    move-result-object v6
+
+    .line 2462
+    return-object v6
+
+    .line 2463
     :pswitch_52
     iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 2460
-    .line 2461
-    check-cast v0, LX/DLm;
-
-    .line 2462
-    .line 2463
-    iget-object v0, v0, LX/DLm;->A0D:LX/01o;
-
     .line 2464
     .line 2465
-    invoke-static {v0}, LX/92l;->A0Y(LX/01o;)Lcom/instagram/service/session/UserSession;
+    check-cast v0, LX/DLm;
 
     .line 2466
     .line 2467
-    .line 2468
-    move-result-object v0
+    iget-object v0, v0, LX/DLm;->A0D:LX/01o;
 
+    .line 2468
     .line 2469
-    invoke-static {v0}, LX/2r2;->A00(Lcom/instagram/service/session/UserSession;)LX/1NW;
+    invoke-static {v0}, LX/92l;->A0Y(LX/01o;)Lcom/instagram/service/session/UserSession;
 
     .line 2470
     .line 2471
     .line 2472
-    move-result-object v6
+    move-result-object v0
 
     .line 2473
-    return-object v6
+    invoke-static {v0}, LX/2r2;->A00(Lcom/instagram/service/session/UserSession;)LX/1NW;
 
     .line 2474
+    .line 2475
+    .line 2476
+    move-result-object v6
+
+    .line 2477
+    return-object v6
+
+    .line 2478
     :pswitch_53
     iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 2475
-    .line 2476
-    check-cast v0, LX/DLm;
-
-    .line 2477
-    .line 2478
-    iget-object v0, v0, LX/DLm;->A0D:LX/01o;
-
     .line 2479
     .line 2480
-    invoke-static {v0}, LX/92l;->A0Y(LX/01o;)Lcom/instagram/service/session/UserSession;
+    check-cast v0, LX/DLm;
 
     .line 2481
     .line 2482
-    .line 2483
-    move-result-object v0
+    iget-object v0, v0, LX/DLm;->A0D:LX/01o;
 
+    .line 2483
     .line 2484
-    invoke-static {v0}, LX/46B;->A00(Lcom/instagram/service/session/UserSession;)LX/46B;
+    invoke-static {v0}, LX/92l;->A0Y(LX/01o;)Lcom/instagram/service/session/UserSession;
 
     .line 2485
     .line 2486
     .line 2487
-    move-result-object v6
+    move-result-object v0
 
     .line 2488
-    return-object v6
+    invoke-static {v0}, LX/46B;->A00(Lcom/instagram/service/session/UserSession;)LX/46B;
 
     .line 2489
+    .line 2490
+    .line 2491
+    move-result-object v6
+
+    .line 2492
+    return-object v6
+
+    .line 2493
     :pswitch_54
     iget-object v0, v1, Lkotlin/jvm/internal/KtLambdaShape25S0100000_I1_6;->A00:Ljava/lang/Object;
 
-    .line 2490
-    .line 2491
-    check-cast v0, LX/DSi;
-
-    .line 2492
-    .line 2493
-    iget-object v6, v0, LX/DSi;->A01:LX/1M5;
-
     .line 2494
     .line 2495
-    return-object v6
+    check-cast v0, LX/DSi;
 
     .line 2496
+    .line 2497
+    iget-object v6, v0, LX/DSi;->A01:LX/1M5;
+
+    .line 2498
+    .line 2499
+    return-object v6
+
+    .line 2500
     :cond_28
     invoke-static {v1}, LX/02K;->A0D(Ljava/lang/String;)V
 
-    .line 2497
-    .line 2498
-    .line 2499
+    .line 2501
+    .line 2502
+    .line 2503
     throw v6
 
-    .line 2500
+    .line 2504
     :pswitch_data_0
     .packed-switch 0x1
         :pswitch_2a
@@ -5329,10 +5337,6 @@
         :pswitch_22
     .end packed-switch
 
-    .line 2501
-    .line 2502
-    .line 2503
-    .line 2504
     .line 2505
     .line 2506
     .line 2507

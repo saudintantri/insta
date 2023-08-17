@@ -1289,18 +1289,18 @@
 
     check-cast v6, LX/Gg2;
 
-    .line 2200513
+    .line 2200534
     invoke-virtual {v0}, Landroid/graphics/Canvas;->save()I
 
-    .line 2200514
+    .line 2200535
     invoke-virtual {v6}, LX/GpW;->A0P()I
 
     move-result v11
 
-    .line 2200515
+    .line 2200536
     rem-int v2, p7, v11
 
-    .line 2200516
+    .line 2200537
     invoke-virtual {v6}, LX/GpW;->A0P()I
 
     move-result v1
@@ -1309,7 +1309,7 @@
 
     int-to-float v4, v1
 
-    .line 2200517
+    .line 2200538
     invoke-virtual {v6}, LX/GpW;->A0P()I
 
     move-result v1
@@ -1322,24 +1322,24 @@
 
     const/high16 v17, 0x447a0000    # 1000.0f
 
-    .line 2200518
+    .line 2200539
     move/from16 v1, v17
 
     invoke-static {v3, v1}, Ljava/lang/Math;->min(FF)F
 
     move-result v1
 
-    .line 2200519
+    .line 2200540
     sub-float/2addr v4, v1
 
     const/4 v7, 0x0
 
-    .line 2200520
+    .line 2200541
     invoke-static {v4, v7}, Ljava/lang/Math;->max(FF)F
 
     move-result v5
 
-    .line 2200521
+    .line 2200542
     iget-object v1, v6, LX/Gg2;->A01:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1361,18 +1361,18 @@
 
     check-cast v12, LX/G0X;
 
-    .line 2200522
+    .line 2200543
     iget-object v1, v12, LX/G0X;->A04:Ljava/util/ArrayList;
 
     move-object/from16 v18, v1
 
-    .line 2200523
+    .line 2200544
     iget-object v13, v12, LX/G0X;->A05:Ljava/util/ArrayList;
 
-    .line 2200524
+    .line 2200545
     const/4 v10, 0x0
 
-    .line 2200525
+    .line 2200546
     :goto_1
     invoke-virtual/range {v18 .. v18}, Ljava/util/AbstractCollection;->size()I
 
@@ -1388,7 +1388,7 @@
 
     if-ge v10, v1, :cond_1
 
-    .line 2200526
+    .line 2200547
     move-object/from16 v1, v18
 
     invoke-virtual {v1, v10}, Ljava/util/AbstractList;->get(I)Ljava/lang/Object;
@@ -1397,7 +1397,7 @@
 
     check-cast v14, LX/HRD;
 
-    .line 2200527
+    .line 2200548
     invoke-virtual {v13, v10}, Ljava/util/AbstractList;->get(I)Ljava/lang/Object;
 
     move-result-object v9
@@ -1408,47 +1408,47 @@
 
     cmpg-float v1, v15, v5
 
-    .line 2200528
+    .line 2200549
     iget-object v8, v6, LX/Gg2;->A00:Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     if-gez v1, :cond_0
 
-    .line 2200529
+    .line 2200550
     invoke-static {v6, v15, v10, v4}, LX/Gg2;->A00(LX/Gg2;FIZ)F
 
     move-result v1
 
-    .line 2200530
+    .line 2200551
     invoke-virtual {v8, v1}, Landroid/view/animation/AccelerateDecelerateInterpolator;->getInterpolation(F)F
 
     move-result v3
 
-    .line 2200531
+    .line 2200552
     const/4 v1, 0x1
 
-    .line 2200532
+    .line 2200553
     invoke-static {v6, v15, v10, v1}, LX/Gg2;->A00(LX/Gg2;FIZ)F
 
     move-result v1
 
-    .line 2200533
+    .line 2200554
     invoke-virtual {v8, v1}, Landroid/view/animation/AccelerateDecelerateInterpolator;->getInterpolation(F)F
 
     move-result v1
 
-    .line 2200534
+    .line 2200555
     :goto_2
     iput v3, v14, LX/HRD;->A00:F
 
-    .line 2200535
+    .line 2200556
     iput v1, v9, LX/HRD;->A00:F
 
-    .line 2200536
+    .line 2200557
     add-int/lit8 v10, v10, 0x1
 
     goto :goto_1
 
-    .line 2200537
+    .line 2200558
     :cond_0
     add-int/lit16 v1, v11, -0xc8
 
@@ -1456,12 +1456,12 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 2200538
+    .line 2200559
     invoke-static {v15, v5, v3, v1, v7}, LX/0Qk;->A02(FFFFF)F
 
     move-result v1
 
-    .line 2200539
+    .line 2200560
     invoke-virtual {v8, v1}, Landroid/view/animation/AccelerateDecelerateInterpolator;->getInterpolation(F)F
 
     move-result v3
@@ -1470,16 +1470,16 @@
 
     goto :goto_2
 
-    .line 2200540
+    .line 2200561
     :cond_1
     invoke-virtual {v12}, LX/G0X;->onPreDraw()Z
 
-    .line 2200541
+    .line 2200562
     invoke-virtual {v12, v0}, LX/G0X;->ANs(Landroid/graphics/Canvas;)V
 
     goto :goto_0
 
-    .line 2200542
+    .line 2200563
     :cond_2
     iget-object v1, v6, LX/Gg2;->A02:Ljava/util/List;
 
@@ -1492,7 +1492,7 @@
     :goto_3
     if-ge v4, v10, :cond_3d
 
-    .line 2200543
+    .line 2200564
     move-object/from16 v1, v18
 
     invoke-interface {v1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1503,12 +1503,12 @@
 
     check-cast v11, Ljava/util/List;
 
-    .line 2200544
+    .line 2200565
     invoke-interface {v11}, Ljava/util/List;->size()I
 
     move-result v9
 
-    .line 2200545
+    .line 2200566
     invoke-virtual {v6}, LX/GpW;->A0P()I
 
     move-result v1
@@ -1519,14 +1519,14 @@
 
     mul-float/2addr v3, v1
 
-    .line 2200546
+    .line 2200567
     move/from16 v1, v17
 
     invoke-static {v3, v1}, Ljava/lang/Math;->min(FF)F
 
     move-result v16
 
-    .line 2200547
+    .line 2200568
     int-to-float v12, v4
 
     int-to-float v1, v10
@@ -1545,7 +1545,7 @@
 
     const/4 v8, 0x0
 
-    .line 2200548
+    .line 2200569
     :goto_4
     invoke-interface {v11, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -1577,16 +1577,16 @@
 
     const/high16 v1, 0x437f0000    # 255.0f
 
-    .line 2200549
+    .line 2200570
     invoke-static {v14, v3, v15, v7, v1}, LX/0Qk;->A02(FFFFF)F
 
     move-result v1
 
-    .line 2200550
+    .line 2200571
     :goto_5
     float-to-int v14, v1
 
-    .line 2200551
+    .line 2200572
     iget-object v3, v13, LX/HLe;->A02:Landroid/text/Spanned;
 
     const-class v1, LX/4P8;
@@ -1599,70 +1599,70 @@
 
     if-eqz v3, :cond_3
 
-    .line 2200552
+    .line 2200573
     invoke-static {v14}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
-    .line 2200553
+    .line 2200574
     iput-object v1, v3, LX/4P8;->A03:Ljava/lang/Integer;
 
-    .line 2200554
+    .line 2200575
     iput v7, v3, LX/4P8;->A01:F
 
-    .line 2200555
+    .line 2200576
     iput v7, v3, LX/4P8;->A00:F
 
-    .line 2200556
+    .line 2200577
     :cond_3
     iget-object v1, v13, LX/HLe;->A04:Landroid/text/TextPaint;
 
     invoke-virtual {v1, v14}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 2200557
+    .line 2200578
     invoke-virtual {v0}, Landroid/graphics/Canvas;->save()I
 
-    .line 2200558
+    .line 2200579
     iget v3, v13, LX/HLe;->A00:F
 
     iget v1, v13, LX/HLe;->A01:F
 
     invoke-virtual {v0, v3, v1}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 2200559
+    .line 2200580
     iget-object v1, v13, LX/HLe;->A03:Landroid/text/StaticLayout;
 
     invoke-virtual {v1, v0}, Landroid/text/Layout;->draw(Landroid/graphics/Canvas;)V
 
-    .line 2200560
+    .line 2200581
     invoke-virtual {v0}, Landroid/graphics/Canvas;->restore()V
 
-    .line 2200561
+    .line 2200582
     add-int/lit8 v8, v8, 0x1
 
-    .line 2200562
+    .line 2200583
     if-ge v8, v9, :cond_5
 
     goto :goto_4
 
-    .line 2200563
+    .line 2200584
     :cond_4
     const/high16 v1, 0x437f0000    # 255.0f
 
-    .line 2200564
+    .line 2200585
     invoke-static {v14, v3, v5, v1, v7}, LX/0Qk;->A02(FFFFF)F
 
     move-result v1
 
     goto :goto_5
 
-    .line 2200565
+    .line 2200586
     :cond_5
     add-int/lit8 v4, v4, 0x1
 
     goto/16 :goto_3
 
-    .line 2200566
+    .line 2200587
     :cond_6
     instance-of v1, v3, LX/Gg3;
 
@@ -1672,17 +1672,17 @@
 
     check-cast v10, LX/Gg3;
 
-    .line 2200567
+    .line 2200588
     invoke-virtual {v0}, Landroid/graphics/Canvas;->save()I
 
-    .line 2200568
+    .line 2200589
     invoke-virtual {v10}, LX/GpW;->A0P()I
 
     move-result v1
 
     if-eqz v1, :cond_3e
 
-    .line 2200569
+    .line 2200590
     invoke-virtual {v10}, LX/GpW;->A0P()I
 
     move-result v1
@@ -1699,17 +1699,17 @@
 
     div-float/2addr v3, v1
 
-    .line 2200570
+    .line 2200591
     invoke-static {v10, v3}, LX/Gg3;->A00(LX/Gg3;F)F
 
     move-result v11
 
     const/4 v1, 0x0
 
-    .line 2200571
+    .line 2200592
     invoke-virtual {v0, v1, v11}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 2200572
+    .line 2200593
     iget-object v1, v10, LX/Gg3;->A02:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1729,12 +1729,12 @@
 
     check-cast v1, Landroid/view/ViewTreeObserver$OnPreDrawListener;
 
-    .line 2200573
+    .line 2200594
     invoke-interface {v1}, Landroid/view/ViewTreeObserver$OnPreDrawListener;->onPreDraw()Z
 
     goto :goto_6
 
-    .line 2200574
+    .line 2200595
     :cond_7
     iget-object v2, v10, LX/Gg3;->A01:Ljava/util/List;
 
@@ -1748,7 +1748,7 @@
 
     sub-float v1, v3, v1
 
-    .line 2200575
+    .line 2200596
     invoke-static {v10, v1}, LX/Gg3;->A00(LX/Gg3;F)F
 
     move-result v12
@@ -1757,7 +1757,7 @@
 
     sub-float v1, v3, v1
 
-    .line 2200576
+    .line 2200597
     invoke-static {v10, v1}, LX/Gg3;->A00(LX/Gg3;F)F
 
     move-result v9
@@ -1766,7 +1766,7 @@
 
     sub-float v1, v3, v1
 
-    .line 2200577
+    .line 2200598
     invoke-static {v10, v1}, LX/Gg3;->A00(LX/Gg3;F)F
 
     move-result v8
@@ -1775,12 +1775,12 @@
 
     sub-float/2addr v3, v1
 
-    .line 2200578
+    .line 2200599
     invoke-static {v10, v3}, LX/Gg3;->A00(LX/Gg3;F)F
 
     move-result v7
 
-    .line 2200579
+    .line 2200600
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v6
@@ -1806,21 +1806,21 @@
 
     sub-float v1, v7, v11
 
-    .line 2200580
+    .line 2200601
     iput v4, v5, LX/G0W;->A01:F
 
-    .line 2200581
+    .line 2200602
     iput v2, v5, LX/G0W;->A00:F
 
-    .line 2200582
+    .line 2200603
     iput v3, v5, LX/G0W;->A03:F
 
-    .line 2200583
+    .line 2200604
     iput v1, v5, LX/G0W;->A02:F
 
     goto :goto_7
 
-    .line 2200584
+    .line 2200605
     :cond_8
     instance-of v1, v3, LX/Gg0;
 
@@ -1832,20 +1832,20 @@
 
     const/4 v1, 0x0
 
-    .line 2200585
+    .line 2200606
     invoke-static {v1, v0, v5}, LX/92n;->A00(ILjava/lang/Object;Ljava/lang/Object;)I
 
     move-result v8
 
-    .line 2200586
+    .line 2200607
     invoke-virtual {v3}, LX/GpW;->A0P()I
 
     move-result v1
 
-    .line 2200587
+    .line 2200608
     rem-int v2, p7, v1
 
-    .line 2200588
+    .line 2200609
     invoke-virtual {v3}, LX/GpW;->A0P()I
 
     move-result v1
@@ -1862,14 +1862,14 @@
 
     move-result v6
 
-    .line 2200589
+    .line 2200610
     invoke-virtual {v3}, LX/GpW;->A0P()I
 
     move-result v1
 
     int-to-float v4, v1
 
-    .line 2200590
+    .line 2200611
     invoke-virtual {v3}, LX/GpW;->A0P()I
 
     move-result v1
@@ -1882,7 +1882,7 @@
 
     move-result v1
 
-    .line 2200591
+    .line 2200612
     const/high16 v10, 0x40000000    # 2.0f
 
     mul-float/2addr v1, v10
@@ -1895,7 +1895,7 @@
 
     move-result v4
 
-    .line 2200592
+    .line 2200613
     int-to-float v2, v2
 
     const/high16 v7, 0x3f800000    # 1.0f
@@ -1904,7 +1904,7 @@
 
     if-gtz v1, :cond_d
 
-    .line 2200593
+    .line 2200614
     iget-object v1, v3, LX/Gg0;->A02:Landroid/view/animation/OvershootInterpolator;
 
     div-float/2addr v2, v6
@@ -1913,34 +1913,34 @@
 
     move-result v7
 
-    .line 2200594
+    .line 2200615
     :cond_9
     :goto_8
     iget v2, v3, LX/Gg0;->A00:I
 
     int-to-float v1, v2
 
-    .line 2200595
+    .line 2200616
     invoke-static {v1, v7}, LX/FnA;->A05(FF)I
 
     move-result v1
 
-    .line 2200596
+    .line 2200617
     invoke-static {v1, v2}, Ljava/lang/Math;->min(II)I
 
     move-result v6
 
-    .line 2200597
+    .line 2200618
     invoke-virtual {v0}, Landroid/graphics/Canvas;->save()I
 
-    .line 2200598
+    .line 2200619
     iget-object v1, v3, LX/3zO;->A0P:Landroid/text/TextPaint;
 
     invoke-virtual {v1}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v2
 
-    .line 2200599
+    .line 2200620
     const/high16 v1, 0x3e800000    # 0.25f
 
     mul-float/2addr v2, v1
@@ -1953,10 +1953,10 @@
 
     invoke-virtual {v0, v9, v1}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 2200600
+    .line 2200621
     iget-object v1, v3, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200601
+    .line 2200622
     invoke-virtual {v1}, Landroid/text/Layout;->getHeight()I
 
     move-result v1
@@ -1965,42 +1965,42 @@
 
     div-float/2addr v9, v10
 
-    .line 2200602
+    .line 2200623
     iget-object v2, v3, LX/3zO;->A0B:Landroid/text/Layout$Alignment;
 
-    .line 2200603
+    .line 2200624
     if-eqz v2, :cond_c
 
     sget-object v1, LX/E3K;->A00:[I
 
-    .line 2200604
+    .line 2200625
     invoke-static {v2, v1}, LX/Chb;->A05(Ljava/lang/Enum;[I)I
 
     move-result v2
 
-    .line 2200605
+    .line 2200626
     const/4 v1, 0x1
 
     if-eq v2, v1, :cond_a
 
     if-ne v2, v8, :cond_c
 
-    .line 2200606
+    .line 2200627
     iget-object v1, v3, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200607
+    .line 2200628
     invoke-virtual {v1}, Landroid/text/Layout;->getWidth()I
 
     move-result v1
 
     int-to-float v4, v1
 
-    .line 2200608
+    .line 2200629
     :cond_a
     :goto_9
     invoke-virtual {v0, v7, v7, v4, v9}, Landroid/graphics/Canvas;->scale(FFFF)V
 
-    .line 2200609
+    .line 2200630
     const-class v1, LX/4P8;
 
     invoke-static {v5, v1}, LX/3zP;->A00(Landroid/text/Spanned;Ljava/lang/Class;)Ljava/lang/Object;
@@ -2011,15 +2011,15 @@
 
     if-eqz v2, :cond_b
 
-    .line 2200610
+    .line 2200631
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
-    .line 2200611
+    .line 2200632
     iput-object v1, v2, LX/4P8;->A03:Ljava/lang/Integer;
 
-    .line 2200612
+    .line 2200633
     :cond_b
     iget-object v1, v3, LX/Gg0;->A03:Ljava/util/ArrayList;
 
@@ -2040,24 +2040,24 @@
 
     check-cast v2, LX/IJx;
 
-    .line 2200613
+    .line 2200634
     iget-object v1, v2, LX/IJx;->A00:Landroid/graphics/Paint;
 
     invoke-virtual {v1, v6}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 2200614
+    .line 2200635
     invoke-virtual {v2}, LX/IJx;->onPreDraw()Z
 
-    .line 2200615
+    .line 2200636
     invoke-virtual {v2, v0}, LX/IJx;->ANs(Landroid/graphics/Canvas;)V
 
     goto :goto_a
 
-    .line 2200616
+    .line 2200637
     :cond_c
     iget-object v1, v3, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200617
+    .line 2200638
     invoke-virtual {v1}, Landroid/text/Layout;->getWidth()I
 
     move-result v1
@@ -2068,7 +2068,7 @@
 
     goto :goto_9
 
-    .line 2200618
+    .line 2200639
     :cond_d
     cmpg-float v1, v2, v4
 
@@ -2084,7 +2084,7 @@
 
     div-float/2addr v2, v6
 
-    .line 2200619
+    .line 2200640
     iget-object v1, v3, LX/Gg0;->A01:Landroid/view/animation/AccelerateInterpolator;
 
     sub-float/2addr v7, v2
@@ -2100,13 +2100,13 @@
 
     goto/16 :goto_8
 
-    .line 2200620
+    .line 2200641
     :cond_f
     iget-object v1, v3, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
     goto/16 :goto_25
 
-    .line 2200621
+    .line 2200642
     :cond_10
     instance-of v1, v3, LX/Gfx;
 
@@ -2118,10 +2118,10 @@
 
     const/4 v8, 0x0
 
-    .line 2200622
+    .line 2200643
     invoke-static {v0, v8, v5}, LX/5We;->A16(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 2200623
+    .line 2200644
     invoke-interface {v5}, Ljava/lang/CharSequence;->length()I
 
     move-result v1
@@ -2138,7 +2138,7 @@
 
     if-nez v1, :cond_3e
 
-    .line 2200624
+    .line 2200645
     iget-object v1, v6, LX/Gfx;->A08:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
@@ -2158,34 +2158,34 @@
 
     check-cast v1, LX/IJu;
 
-    .line 2200625
+    .line 2200646
     invoke-virtual {v1}, LX/IJu;->onPreDraw()Z
 
-    .line 2200626
+    .line 2200647
     invoke-virtual {v1, v0}, LX/IJu;->ANs(Landroid/graphics/Canvas;)V
 
     goto :goto_b
 
-    .line 2200627
+    .line 2200648
     :cond_11
     iget-object v5, v6, LX/Gfx;->A04:Landroid/graphics/Paint;
 
-    .line 2200628
+    .line 2200649
     iget v1, v6, LX/Gfx;->A01:I
 
     int-to-float v11, v1
 
     const/16 v10, 0x3e8
 
-    .line 2200629
+    .line 2200650
     rem-int v9, p7, v10
 
-    .line 2200630
+    .line 2200651
     invoke-static {v10}, LX/Chb;->A00(I)F
 
     move-result v4
 
-    .line 2200631
+    .line 2200652
     int-to-float v3, v9
 
     cmpg-float v1, v3, v4
@@ -2199,15 +2199,15 @@
     :cond_12
     div-float/2addr v3, v4
 
-    .line 2200632
+    .line 2200653
     mul-float/2addr v11, v3
 
     float-to-int v1, v11
 
-    .line 2200633
+    .line 2200654
     invoke-virtual {v5, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 2200634
+    .line 2200655
     iget-object v9, v6, LX/Gfx;->A07:Ljava/util/ArrayList;
 
     invoke-virtual {v9}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
@@ -2221,12 +2221,12 @@
 
     if-eqz v1, :cond_14
 
-    .line 2200635
+    .line 2200656
     invoke-static {v4}, LX/FnB;->A0e(Ljava/util/Iterator;)Ljava/lang/Number;
 
     move-result-object v3
 
-    .line 2200636
+    .line 2200657
     invoke-static {v3}, LX/02K;->A03(Ljava/lang/Object;)V
 
     invoke-virtual {v3}, Ljava/lang/Number;->intValue()I
@@ -2235,21 +2235,21 @@
 
     if-gt v2, v1, :cond_13
 
-    .line 2200637
+    .line 2200658
     invoke-virtual {v9, v3}, Ljava/util/AbstractList;->indexOf(Ljava/lang/Object;)I
 
     move-result v4
 
-    .line 2200638
+    .line 2200659
     :goto_c
     invoke-static {}, Ljava/text/BreakIterator;->getCharacterInstance()Ljava/text/BreakIterator;
 
     move-result-object v3
 
-    .line 2200639
+    .line 2200660
     iget-object v1, v6, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200640
+    .line 2200661
     invoke-virtual {v1}, Landroid/text/Layout;->getText()Ljava/lang/CharSequence;
 
     move-result-object v1
@@ -2260,10 +2260,10 @@
 
     invoke-virtual {v3, v1}, Ljava/text/BreakIterator;->setText(Ljava/lang/String;)V
 
-    .line 2200641
+    .line 2200662
     iget-object v2, v6, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200642
+    .line 2200663
     invoke-virtual {v3, v4}, Ljava/text/BreakIterator;->next(I)I
 
     move-result v1
@@ -2272,31 +2272,31 @@
 
     move-result v10
 
-    .line 2200643
+    .line 2200664
     iget-object v3, v6, LX/Gfx;->A06:Ljava/util/ArrayList;
 
-    .line 2200644
+    .line 2200665
     sub-int/2addr v4, v12
 
     invoke-static {v4, v8}, Ljava/lang/Math;->max(II)I
 
     move-result v1
 
-    .line 2200645
+    .line 2200666
     invoke-static {v7, v1}, LX/92q;->A0W(Ljava/util/AbstractList;I)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 2200646
+    .line 2200667
     check-cast v2, LX/HNu;
 
-    .line 2200647
+    .line 2200668
     iget v1, v6, LX/Gfx;->A00:F
 
-    .line 2200648
+    .line 2200669
     const/4 v9, 0x0
 
-    .line 2200649
+    .line 2200670
     move-object v4, v0
 
     move-object v6, v2
@@ -2309,13 +2309,13 @@
 
     return-void
 
-    .line 2200650
+    .line 2200671
     :cond_14
     iget v4, v6, LX/Gfx;->A02:I
 
     goto :goto_c
 
-    .line 2200651
+    .line 2200672
     :cond_15
     instance-of v1, v3, LX/Gfw;
 
@@ -2327,12 +2327,12 @@
 
     const/4 v1, 0x0
 
-    .line 2200652
+    .line 2200673
     invoke-static {v1, v0, v5}, LX/92n;->A00(ILjava/lang/Object;Ljava/lang/Object;)I
 
     move-result v4
 
-    .line 2200653
+    .line 2200674
     iget-object v3, v8, LX/Gfw;->A03:Ljava/util/List;
 
     const/16 v1, 0xfa0
@@ -2347,12 +2347,12 @@
 
     move-result-object v1
 
-    .line 2200654
+    .line 2200675
     invoke-static {v1}, LX/5Wd;->A00(Ljava/lang/Object;)F
 
     move-result v10
 
-    .line 2200655
+    .line 2200676
     rem-int v2, p7, v6
 
     int-to-float v3, v2
@@ -2369,14 +2369,14 @@
 
     if-nez v1, :cond_18
 
-    .line 2200656
+    .line 2200677
     iget v1, v8, LX/Gfw;->A01:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v9
 
-    .line 2200657
+    .line 2200678
     :cond_16
     :goto_d
     const-class v1, LX/G0J;
@@ -2389,36 +2389,36 @@
 
     if-eqz v2, :cond_17
 
-    .line 2200658
+    .line 2200679
     iget v1, v8, LX/Gfw;->A00:F
 
     mul-float/2addr v10, v1
 
-    .line 2200659
+    .line 2200680
     invoke-static {v10}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v1
 
     iput-object v1, v2, LX/G0J;->A02:Ljava/lang/Float;
 
-    .line 2200660
+    .line 2200681
     iput-object v9, v2, LX/G0J;->A03:Ljava/lang/Integer;
 
-    .line 2200661
+    .line 2200682
     :cond_17
     iget-object v1, v8, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200662
+    .line 2200683
     :goto_e
     invoke-virtual {v1, v0}, Landroid/text/Layout;->draw(Landroid/graphics/Canvas;)V
 
     return-void
 
-    .line 2200663
+    .line 2200684
     :cond_18
     const/4 v9, 0x0
 
-    .line 2200664
+    .line 2200685
     const/high16 v1, 0x3f800000    # 1.0f
 
     cmpg-float v1, v10, v1
@@ -2435,7 +2435,7 @@
 
     const-wide v1, 0x400921fb54442d18L    # Math.PI
 
-    .line 2200665
+    .line 2200686
     mul-double/2addr v3, v1
 
     invoke-static {v3, v4}, Ljava/lang/Math;->cos(D)D
@@ -2471,7 +2471,7 @@
 
     check-cast v6, LX/Gfy;
 
-    .line 2200666
+    .line 2200687
     rem-int/lit16 v1, v2, 0x3e8
 
     int-to-float v9, v1
@@ -2480,7 +2480,7 @@
 
     div-float/2addr v9, v1
 
-    .line 2200667
+    .line 2200688
     iget-object v8, v6, LX/Gfy;->A00:Landroid/animation/TimeInterpolator;
 
     const/high16 v2, 0x3e800000    # 0.25f
@@ -2491,7 +2491,7 @@
 
     const/16 v4, -0xa
 
-    .line 2200668
+    .line 2200689
     :goto_f
     iget-object v1, v6, LX/Gfy;->A01:Ljava/util/List;
 
@@ -2512,7 +2512,7 @@
 
     check-cast v1, Landroid/view/ViewTreeObserver$OnPreDrawListener;
 
-    .line 2200669
+    .line 2200690
     invoke-interface {v1}, Landroid/view/ViewTreeObserver$OnPreDrawListener;->onPreDraw()Z
 
     goto :goto_10
@@ -2536,7 +2536,7 @@
 
     mul-float/2addr v9, v4
 
-    .line 2200670
+    .line 2200691
     invoke-interface {v8, v9}, Landroid/animation/TimeInterpolator;->getInterpolation(F)F
 
     move-result v1
@@ -2562,7 +2562,7 @@
 
     mul-float/2addr v9, v4
 
-    .line 2200671
+    .line 2200692
     invoke-interface {v8, v9}, Landroid/animation/TimeInterpolator;->getInterpolation(F)F
 
     move-result v1
@@ -2575,13 +2575,13 @@
 
     sub-int/2addr v3, v1
 
-    .line 2200672
+    .line 2200693
     :cond_1c
     move v4, v3
 
     goto :goto_f
 
-    .line 2200673
+    .line 2200694
     :cond_1d
     iget-object v1, v6, LX/Gfy;->A02:Ljava/util/List;
 
@@ -2602,18 +2602,18 @@
 
     check-cast v1, LX/G0b;
 
-    .line 2200674
+    .line 2200695
     iput v4, v1, LX/G0b;->A00:I
 
     goto :goto_11
 
-    .line 2200675
+    .line 2200696
     :cond_1e
     iget-object v1, v6, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
     goto/16 :goto_e
 
-    .line 2200676
+    .line 2200697
     :cond_1f
     instance-of v1, v3, LX/Gg4;
 
@@ -2625,7 +2625,7 @@
 
     const/4 v3, 0x0
 
-    .line 2200677
+    .line 2200698
     move-object/from16 v27, p3
 
     move-object/from16 v1, v27
@@ -2634,15 +2634,15 @@
 
     move-result v8
 
-    .line 2200678
+    .line 2200699
     const/4 v7, 0x2
 
-    .line 2200679
+    .line 2200700
     move-object/from16 v1, p4
 
     invoke-static {v5, v7, v1}, LX/5We;->A18(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 2200680
+    .line 2200701
     invoke-interface {v5}, Ljava/lang/CharSequence;->length()I
 
     move-result v1
@@ -2651,7 +2651,7 @@
 
     const/16 v13, 0x12c
 
-    .line 2200681
+    .line 2200702
     iget-object v6, v4, LX/Gg4;->A02:Landroid/view/animation/OvershootInterpolator;
 
     int-to-float v12, v2
@@ -2676,16 +2676,16 @@
 
     mul-float/2addr v10, v9
 
-    .line 2200682
+    .line 2200703
     iput v10, v4, LX/Gg4;->A00:F
 
     sub-float v2, v9, v10
 
-    .line 2200683
+    .line 2200704
     :goto_12
     iput v2, v4, LX/Gg4;->A01:F
 
-    .line 2200684
+    .line 2200705
     :goto_13
     int-to-float v1, v8
 
@@ -2693,24 +2693,24 @@
 
     iput v10, v4, LX/Gg4;->A00:F
 
-    .line 2200685
+    .line 2200706
     add-float/2addr v2, v1
 
     iput v2, v4, LX/Gg4;->A01:F
 
-    .line 2200686
+    .line 2200707
     iget-object v1, v4, LX/Gg4;->A06:Ljava/util/List;
 
     move-object/from16 v20, v1
 
     invoke-interface/range {v20 .. v20}, Ljava/util/List;->clear()V
 
-    .line 2200687
+    .line 2200708
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v13
 
-    .line 2200688
+    .line 2200709
     iget-object v1, v4, LX/Gg4;->A03:Ljava/util/ArrayList;
 
     move-object/from16 v26, v1
@@ -2736,93 +2736,93 @@
 
     check-cast v12, Ljava/util/List;
 
-    .line 2200689
+    .line 2200710
     invoke-interface {v12}, Ljava/util/List;->size()I
 
     move-result v11
 
-    .line 2200690
+    .line 2200711
     shr-int/lit8 v16, v11, 0x1
 
-    .line 2200691
+    .line 2200712
     rem-int/lit8 v1, v14, 0x2
 
     if-nez v1, :cond_24
 
-    .line 2200692
+    .line 2200713
     iget v10, v4, LX/Gg4;->A00:F
 
-    .line 2200693
+    .line 2200714
     :goto_15
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200694
+    .line 2200715
     invoke-virtual {v1, v14}, Landroid/text/Layout;->getLineLeft(I)F
 
     move-result v9
 
-    .line 2200695
+    .line 2200716
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200696
+    .line 2200717
     invoke-virtual {v1, v14}, Landroid/text/Layout;->getLineRight(I)F
 
     move-result v2
 
-    .line 2200697
+    .line 2200718
     iget-object v15, v4, LX/3zO;->A0B:Landroid/text/Layout$Alignment;
 
-    .line 2200698
+    .line 2200719
     if-eqz v15, :cond_23
 
     sget-object v1, LX/E3L;->A00:[I
 
-    .line 2200699
+    .line 2200720
     invoke-static {v15, v1}, LX/Chb;->A05(Ljava/lang/Enum;[I)I
 
     move-result v1
 
-    .line 2200700
+    .line 2200721
     if-eq v1, v8, :cond_22
 
     if-ne v1, v7, :cond_23
 
-    .line 2200701
+    .line 2200722
     invoke-static {v12, v10, v3, v11}, LX/Gg4;->A00(Ljava/util/List;FII)F
 
     move-result v1
 
-    .line 2200702
+    .line 2200723
     :goto_16
     add-float/2addr v2, v1
 
-    .line 2200703
+    .line 2200724
     :goto_17
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200704
+    .line 2200725
     invoke-virtual {v1, v14}, Landroid/text/Layout;->getLineTop(I)I
 
     move-result v1
 
     int-to-float v10, v1
 
-    .line 2200705
+    .line 2200726
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200706
+    .line 2200727
     invoke-virtual {v1, v14}, Landroid/text/Layout;->getLineBottom(I)I
 
     move-result v1
 
     int-to-float v1, v1
 
-    .line 2200707
+    .line 2200728
     invoke-static {v9, v10, v2, v1}, LX/FnA;->A0K(FFFF)Landroid/graphics/RectF;
 
     move-result-object v10
 
-    .line 2200708
+    .line 2200729
     invoke-virtual {v10}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -2831,26 +2831,26 @@
 
     if-lez v1, :cond_21
 
-    .line 2200709
+    .line 2200730
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200710
+    .line 2200731
     invoke-virtual {v1}, Landroid/text/Layout;->getText()Ljava/lang/CharSequence;
 
     move-result-object v9
 
-    .line 2200711
+    .line 2200732
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200712
+    .line 2200733
     invoke-virtual {v1, v14}, Landroid/text/Layout;->getLineStart(I)I
 
     move-result v2
 
-    .line 2200713
+    .line 2200734
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200714
+    .line 2200735
     invoke-virtual {v1, v14}, Landroid/text/Layout;->getLineEnd(I)I
 
     move-result v1
@@ -2859,63 +2859,63 @@
 
     move-result-object v1
 
-    .line 2200715
+    .line 2200736
     invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v9
 
-    .line 2200716
+    .line 2200737
     invoke-static {v9, v3}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
     const-string v2, "\n"
 
     const-string v1, ""
 
-    .line 2200717
+    .line 2200738
     invoke-static {v9, v2, v1}, LX/12J;->A0O(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2200718
+    .line 2200739
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_21
 
-    .line 2200719
+    .line 2200740
     invoke-virtual {v13, v10}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
-    .line 2200720
+    .line 2200741
     :cond_20
     :goto_18
     move/from16 v14, v17
 
     goto/16 :goto_14
 
-    .line 2200721
+    .line 2200742
     :cond_21
     invoke-static {v13}, LX/92l;->A1a(Ljava/util/AbstractCollection;)Z
 
     move-result v1
 
-    .line 2200722
+    .line 2200743
     if-eqz v1, :cond_20
 
-    .line 2200723
+    .line 2200744
     move-object/from16 v1, v20
 
     invoke-interface {v1, v13}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2200724
+    .line 2200745
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v13
 
-    .line 2200725
+    .line 2200746
     goto :goto_18
 
-    .line 2200726
+    .line 2200747
     :cond_22
     move/from16 v1, v16
 
@@ -2925,7 +2925,7 @@
 
     sub-float/2addr v9, v1
 
-    .line 2200727
+    .line 2200748
     move/from16 v1, v16
 
     invoke-static {v12, v10, v1, v11}, LX/Gg4;->A00(Ljava/util/List;FII)F
@@ -2934,7 +2934,7 @@
 
     goto :goto_16
 
-    .line 2200728
+    .line 2200749
     :cond_23
     invoke-static {v12, v10, v3, v11}, LX/Gg4;->A00(Ljava/util/List;FII)F
 
@@ -2944,13 +2944,13 @@
 
     goto :goto_17
 
-    .line 2200729
+    .line 2200750
     :cond_24
     iget v10, v4, LX/Gg4;->A01:F
 
     goto/16 :goto_15
 
-    .line 2200730
+    .line 2200751
     :cond_25
     const/16 v1, 0xbb8
 
@@ -2962,19 +2962,19 @@
 
     if-gez v1, :cond_26
 
-    .line 2200731
+    .line 2200752
     iput v9, v4, LX/Gg4;->A00:F
 
     const/high16 v10, 0x3f000000    # 0.5f
 
-    .line 2200732
+    .line 2200753
     iput v6, v4, LX/Gg4;->A01:F
 
     const/4 v2, 0x0
 
     goto/16 :goto_13
 
-    .line 2200733
+    .line 2200754
     :cond_26
     add-float/2addr v2, v11
 
@@ -2986,41 +2986,41 @@
 
     sub-float/2addr v9, v2
 
-    .line 2200734
+    .line 2200755
     iput v9, v4, LX/Gg4;->A00:F
 
     move v10, v9
 
     goto/16 :goto_12
 
-    .line 2200735
+    .line 2200756
     :cond_27
     iput v6, v4, LX/Gg4;->A00:F
 
     const/4 v10, 0x0
 
-    .line 2200736
+    .line 2200757
     iput v9, v4, LX/Gg4;->A01:F
 
     const/high16 v2, 0x3f000000    # 0.5f
 
     goto/16 :goto_13
 
-    .line 2200737
+    .line 2200758
     :cond_28
     invoke-static {v13}, LX/92l;->A1a(Ljava/util/AbstractCollection;)Z
 
     move-result v1
 
-    .line 2200738
+    .line 2200759
     if-eqz v1, :cond_29
 
-    .line 2200739
+    .line 2200760
     move-object/from16 v1, v20
 
     invoke-interface {v1, v13}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2200740
+    .line 2200761
     :cond_29
     iget-object v1, v4, LX/Gg4;->A04:Ljava/util/ArrayList;
 
@@ -3041,131 +3041,131 @@
 
     check-cast v9, LX/IJw;
 
-    .line 2200741
+    .line 2200762
     iget-object v10, v4, LX/3zO;->A0P:Landroid/text/TextPaint;
 
     invoke-virtual {v10}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v21
 
-    .line 2200742
+    .line 2200763
     const v1, 0x3e99999a    # 0.3f
 
     mul-float v21, v21, v1
 
-    .line 2200743
+    .line 2200764
     sget-object v13, LX/0Sq;->A06:LX/0Sq;
 
     const-wide v1, 0x41071100080d48L
 
-    .line 2200744
+    .line 2200765
     invoke-static {v13, v1, v2}, LX/92n;->A1X(LX/0Sq;J)Z
 
     move-result v12
 
-    .line 2200745
+    .line 2200766
     invoke-virtual {v10}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v22
 
-    .line 2200746
+    .line 2200767
     const v11, 0x3e4ccccd    # 0.2f
 
     if-eqz v12, :cond_2a
 
-    .line 2200747
+    .line 2200768
     const/4 v11, 0x0
 
-    .line 2200748
+    .line 2200769
     :cond_2a
     mul-float v22, v22, v11
 
-    .line 2200749
+    .line 2200770
     invoke-static {v13, v1, v2}, LX/07p;->A01(LX/0Sq;J)Ljava/lang/Boolean;
 
-    .line 2200750
+    .line 2200771
     const v1, -0x43dc28f6    # -0.01f
 
-    .line 2200751
+    .line 2200772
     invoke-virtual {v10}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v23
 
-    .line 2200752
+    .line 2200773
     mul-float v23, v23, v1
 
-    .line 2200753
+    .line 2200774
     invoke-virtual {v10}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v24
 
-    .line 2200754
+    .line 2200775
     const/high16 v1, 0x40800000    # 4.0f
 
     div-float v24, v24, v1
 
-    .line 2200755
+    .line 2200776
     move/from16 v25, v8
 
     invoke-static/range {v20 .. v25}, LX/5ZO;->A03(Ljava/util/List;FFFFZ)Ljava/util/List;
 
     move-result-object v2
 
-    .line 2200756
+    .line 2200777
     invoke-virtual {v10}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v1
 
-    .line 2200757
+    .line 2200778
     invoke-virtual {v9, v2, v1}, LX/IJw;->A00(Ljava/util/List;F)V
 
-    .line 2200758
+    .line 2200779
     invoke-virtual {v9}, LX/IJw;->onPreDraw()Z
 
-    .line 2200759
+    .line 2200780
     invoke-virtual {v9, v0}, LX/IJw;->ANs(Landroid/graphics/Canvas;)V
 
     goto :goto_19
 
-    .line 2200760
+    .line 2200781
     :cond_2b
     invoke-virtual {v0}, Landroid/graphics/Canvas;->save()I
 
-    .line 2200761
+    .line 2200782
     iget v9, v4, LX/3zO;->A07:I
 
-    .line 2200762
+    .line 2200783
     iget-object v2, v4, LX/3zO;->A0B:Landroid/text/Layout$Alignment;
 
-    .line 2200763
+    .line 2200784
     if-eqz v2, :cond_2c
 
     sget-object v1, LX/E3L;->A00:[I
 
-    .line 2200764
+    .line 2200785
     invoke-static {v2, v1}, LX/Chb;->A05(Ljava/lang/Enum;[I)I
 
     move-result v2
 
-    .line 2200765
+    .line 2200786
     if-eq v2, v8, :cond_34
 
     const/4 v1, 0x0
 
     if-eq v2, v7, :cond_2d
 
-    .line 2200766
+    .line 2200787
     :cond_2c
     sub-int/2addr v9, v9
 
     int-to-float v1, v9
 
-    .line 2200767
+    .line 2200788
     :cond_2d
     :goto_1a
     invoke-virtual {v0, v1, v6}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 2200768
+    .line 2200789
     invoke-virtual/range {v26 .. v26}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
 
     move-result-object v16
@@ -3187,81 +3187,81 @@
 
     check-cast v11, Ljava/util/List;
 
-    .line 2200769
+    .line 2200790
     invoke-virtual {v0}, Landroid/graphics/Canvas;->save()I
 
-    .line 2200770
+    .line 2200791
     invoke-interface {v11}, Ljava/util/List;->size()I
 
     move-result v13
 
     if-lez v13, :cond_2e
 
-    .line 2200771
+    .line 2200792
     iget-object v2, v4, LX/3zO;->A0B:Landroid/text/Layout$Alignment;
 
-    .line 2200772
+    .line 2200793
     if-eqz v2, :cond_33
 
     sget-object v1, LX/E3L;->A00:[I
 
-    .line 2200773
+    .line 2200794
     invoke-static {v2, v1}, LX/Chb;->A05(Ljava/lang/Enum;[I)I
 
     move-result v1
 
-    .line 2200774
+    .line 2200795
     if-eq v1, v8, :cond_31
 
     if-ne v1, v7, :cond_33
 
-    .line 2200775
+    .line 2200796
     invoke-static {v3, v13}, LX/2dz;->A0A(II)LX/2Dg;
 
     move-result-object v1
 
-    .line 2200776
+    .line 2200797
     :goto_1c
     invoke-static {v0, v4, v1, v12, v8}, LX/Gg4;->A02(Landroid/graphics/Canvas;LX/Gg4;LX/2Dh;IZ)V
 
-    .line 2200777
+    .line 2200798
     :cond_2e
     :goto_1d
     invoke-virtual {v0}, Landroid/graphics/Canvas;->restore()V
 
-    .line 2200778
+    .line 2200799
     invoke-static {v11}, LX/5Wd;->A1a(Ljava/util/Collection;)Z
 
     move-result v1
 
-    .line 2200779
+    .line 2200800
     if-eqz v1, :cond_30
 
-    .line 2200780
+    .line 2200801
     invoke-interface {v11, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, LX/HGh;
 
-    .line 2200781
+    .line 2200802
     iget-object v2, v1, LX/HGh;->A01:Landroid/text/StaticLayout;
 
-    .line 2200782
+    .line 2200803
     invoke-virtual {v2}, Landroid/text/Layout;->getHeight()I
 
     move-result v1
 
-    .line 2200783
+    .line 2200804
     int-to-float v9, v1
 
-    .line 2200784
+    .line 2200805
     iget v1, v4, LX/3zO;->A03:F
 
-    .line 2200785
+    .line 2200806
     mul-float/2addr v9, v1
 
-    .line 2200786
+    .line 2200807
     invoke-virtual {v2}, Landroid/text/Layout;->getText()Ljava/lang/CharSequence;
 
     move-result-object v2
@@ -3270,21 +3270,21 @@
 
     const-string v1, "\n"
 
-    .line 2200787
+    .line 2200808
     invoke-static {v2, v1, v3}, LX/12I;->A0M(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Z)Z
 
     move-result v1
 
-    .line 2200788
+    .line 2200809
     if-eqz v1, :cond_2f
 
     const/high16 v2, 0x40000000    # 2.0f
 
-    .line 2200789
+    .line 2200810
     :goto_1e
     div-float/2addr v9, v2
 
-    .line 2200790
+    .line 2200811
     :goto_1f
     invoke-virtual {v0, v6, v9}, Landroid/graphics/Canvas;->translate(FF)V
 
@@ -3292,11 +3292,11 @@
 
     goto :goto_1b
 
-    .line 2200791
+    .line 2200812
     :cond_2f
     iget v2, v4, LX/3zO;->A02:F
 
-    .line 2200792
+    .line 2200813
     const/high16 v1, 0x3f800000    # 1.0f
 
     add-float/2addr v2, v1
@@ -3308,35 +3308,35 @@
 
     goto :goto_1f
 
-    .line 2200793
+    .line 2200814
     :cond_31
     shr-int/lit8 v10, v13, 0x1
 
-    .line 2200794
+    .line 2200815
     rem-int/lit8 v9, v13, 0x2
 
-    .line 2200795
+    .line 2200816
     invoke-interface {v11, v10}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, LX/HGh;
 
-    .line 2200796
+    .line 2200817
     iget v2, v1, LX/HGh;->A00:F
 
-    .line 2200797
+    .line 2200818
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200798
+    .line 2200819
     invoke-virtual {v1, v12}, Landroid/text/Layout;->getLineLeft(I)F
 
     move-result v14
 
-    .line 2200799
+    .line 2200820
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200800
+    .line 2200821
     invoke-virtual {v1, v12}, Landroid/text/Layout;->getLineRight(I)F
 
     move-result v1
@@ -3349,12 +3349,12 @@
 
     sub-float/2addr v2, v14
 
-    .line 2200801
+    .line 2200822
     invoke-virtual {v0, v2, v6}, Landroid/graphics/Canvas;->translate(FF)V
 
     add-int/lit8 v1, v10, -0x1
 
-    .line 2200802
+    .line 2200823
     invoke-static {v1, v3}, LX/2dz;->A07(II)LX/2Dh;
 
     move-result-object v1
@@ -3363,7 +3363,7 @@
 
     if-ne v9, v8, :cond_32
 
-    .line 2200803
+    .line 2200824
     invoke-interface {v11, v10}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -3377,18 +3377,18 @@
     :cond_32
     add-int/2addr v10, v9
 
-    .line 2200804
+    .line 2200825
     invoke-static {v10, v13}, LX/2dz;->A0A(II)LX/2Dg;
 
     move-result-object v1
 
     goto :goto_1c
 
-    .line 2200805
+    .line 2200826
     :cond_33
     add-int/lit8 v1, v13, -0x1
 
-    .line 2200806
+    .line 2200827
     invoke-static {v1, v3}, LX/2dz;->A07(II)LX/2Dh;
 
     move-result-object v1
@@ -3397,7 +3397,7 @@
 
     goto :goto_1d
 
-    .line 2200807
+    .line 2200828
     :cond_34
     sub-int/2addr v9, v9
 
@@ -3407,11 +3407,11 @@
 
     goto/16 :goto_1a
 
-    .line 2200808
+    .line 2200829
     :cond_35
     invoke-virtual {v0}, Landroid/graphics/Canvas;->restore()V
 
-    .line 2200809
+    .line 2200830
     iget-object v1, v4, LX/Gg4;->A05:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
@@ -3431,10 +3431,10 @@
 
     check-cast v6, LX/HmC;
 
-    .line 2200810
+    .line 2200831
     iget-object v2, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200811
+    .line 2200832
     invoke-interface {v5, v6}, Landroid/text/Spannable;->getSpanStart(Ljava/lang/Object;)I
 
     move-result v1
@@ -3443,55 +3443,55 @@
 
     move-result v2
 
-    .line 2200812
+    .line 2200833
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200813
+    .line 2200834
     invoke-virtual {v1}, Landroid/text/Layout;->getWidth()I
 
     move-result v12
 
-    .line 2200814
+    .line 2200835
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200815
+    .line 2200836
     invoke-virtual {v1, v2}, Landroid/text/Layout;->getLineTop(I)I
 
     move-result v13
 
-    .line 2200816
+    .line 2200837
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200817
+    .line 2200838
     invoke-virtual {v1, v2}, Landroid/text/Layout;->getLineBaseline(I)I
 
     move-result v14
 
-    .line 2200818
+    .line 2200839
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200819
+    .line 2200840
     invoke-virtual {v1, v2}, Landroid/text/Layout;->getLineBottom(I)I
 
     move-result v15
 
-    .line 2200820
+    .line 2200841
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200821
+    .line 2200842
     invoke-virtual {v1, v2}, Landroid/text/Layout;->getLineStart(I)I
 
     move-result v17
 
-    .line 2200822
+    .line 2200843
     iget-object v1, v4, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200823
+    .line 2200844
     invoke-virtual {v1, v2}, Landroid/text/Layout;->getLineEnd(I)I
 
     move-result v18
 
-    .line 2200824
+    .line 2200845
     move-object v8, v6
 
     move-object v9, v0
@@ -3508,7 +3508,7 @@
 
     goto :goto_20
 
-    .line 2200825
+    .line 2200846
     :cond_36
     move-object v9, v3
 
@@ -3516,10 +3516,10 @@
 
     const/4 v8, 0x0
 
-    .line 2200826
+    .line 2200847
     invoke-static {v0, v8, v5}, LX/5We;->A16(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 2200827
+    .line 2200848
     invoke-interface {v5}, Ljava/lang/CharSequence;->length()I
 
     move-result v1
@@ -3536,48 +3536,48 @@
 
     if-nez v1, :cond_3e
 
-    .line 2200828
+    .line 2200849
     invoke-virtual {v0}, Landroid/graphics/Canvas;->save()I
 
-    .line 2200829
+    .line 2200850
     iget v1, v9, LX/3zO;->A07:I
 
-    .line 2200830
+    .line 2200851
     sub-int/2addr v1, v1
 
-    .line 2200831
+    .line 2200852
     invoke-static {v1}, LX/Chb;->A00(I)F
 
     move-result v3
 
-    .line 2200832
+    .line 2200853
     const/4 v1, 0x0
 
     invoke-virtual {v0, v3, v1}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 2200833
+    .line 2200854
     invoke-virtual {v9}, LX/GpW;->A0P()I
 
     move-result v1
 
     rem-int v6, p7, v1
 
-    .line 2200834
+    .line 2200855
     invoke-virtual {v9}, LX/GpW;->A0P()I
 
     move-result v4
 
-    .line 2200835
+    .line 2200856
     const/16 v3, 0x5dc
 
-    .line 2200836
+    .line 2200857
     iget v1, v9, LX/Gg1;->A01:I
 
     if-gtz v1, :cond_38
 
     const/4 v3, 0x0
 
-    .line 2200837
+    .line 2200858
     :goto_21
     sub-int/2addr v4, v3
 
@@ -3585,36 +3585,36 @@
 
     const/4 v6, 0x0
 
-    .line 2200838
+    .line 2200859
     :goto_22
     iget-object v4, v9, LX/Gg1;->A06:Ljava/util/ArrayList;
 
-    .line 2200839
+    .line 2200860
     invoke-static {v4}, LX/92l;->A1a(Ljava/util/AbstractCollection;)Z
 
     move-result v1
 
-    .line 2200840
+    .line 2200861
     if-eqz v1, :cond_39
 
-    .line 2200841
+    .line 2200862
     invoke-static {}, Ljava/text/BreakIterator;->getCharacterInstance()Ljava/text/BreakIterator;
 
     move-result-object v3
 
-    .line 2200842
+    .line 2200863
     invoke-virtual {v5}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v3, v1}, Ljava/text/BreakIterator;->setText(Ljava/lang/String;)V
 
-    .line 2200843
+    .line 2200864
     invoke-virtual {v3, v6}, Ljava/text/BreakIterator;->next(I)I
 
     move-result v11
 
-    .line 2200844
+    .line 2200865
     invoke-virtual {v4}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
 
     move-result-object v13
@@ -3632,25 +3632,25 @@
 
     check-cast v10, LX/IJv;
 
-    .line 2200845
+    .line 2200866
     iget-object v12, v9, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200846
+    .line 2200867
     invoke-static {v12}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 2200847
+    .line 2200868
     iget-object v1, v9, LX/3zO;->A0P:Landroid/text/TextPaint;
 
     invoke-virtual {v1}, Landroid/graphics/Paint;->getTextSize()F
 
     move-result v4
 
-    .line 2200848
+    .line 2200869
     invoke-interface {v5, v10}, Landroid/text/Spannable;->getSpanStart(Ljava/lang/Object;)I
 
     move-result v3
 
-    .line 2200849
+    .line 2200870
     invoke-interface {v5, v10}, Landroid/text/Spannable;->getSpanEnd(Ljava/lang/Object;)I
 
     move-result v1
@@ -3659,28 +3659,28 @@
 
     move-result v1
 
-    .line 2200850
+    .line 2200871
     invoke-static {v12, v4, v3, v1}, LX/7fF;->A00(Landroid/text/Layout;FII)Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 2200851
+    .line 2200872
     invoke-static {v1}, LX/FnD;->A0t(Ljava/util/List;)Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 2200852
+    .line 2200873
     iput-object v1, v10, LX/IJv;->A01:Ljava/util/ArrayList;
 
-    .line 2200853
+    .line 2200874
     invoke-virtual {v10}, LX/IJv;->onPreDraw()Z
 
-    .line 2200854
+    .line 2200875
     invoke-virtual {v10, v0}, LX/IJv;->ANs(Landroid/graphics/Canvas;)V
 
     goto :goto_23
 
-    .line 2200855
+    .line 2200876
     :cond_37
     invoke-static {v6, v4}, Ljava/lang/Math;->min(II)I
 
@@ -3692,7 +3692,7 @@
 
     div-float/2addr v3, v1
 
-    .line 2200856
+    .line 2200877
     iget v1, v9, LX/Gg1;->A02:I
 
     int-to-float v1, v1
@@ -3703,7 +3703,7 @@
 
     goto :goto_22
 
-    .line 2200857
+    .line 2200878
     :cond_38
     invoke-virtual {v9}, LX/GpW;->A0P()I
 
@@ -3717,19 +3717,19 @@
 
     goto :goto_21
 
-    .line 2200858
+    .line 2200879
     :cond_39
     iget-object v5, v9, LX/Gg1;->A03:Landroid/graphics/Paint;
 
-    .line 2200859
+    .line 2200880
     iget v1, v9, LX/Gg1;->A00:I
 
     int-to-float v11, v1
 
-    .line 2200860
+    .line 2200881
     const/16 v10, 0x3e8
 
-    .line 2200861
+    .line 2200882
     iget v1, v9, LX/Gg1;->A01:I
 
     if-lez v1, :cond_3b
@@ -3744,18 +3744,18 @@
 
     div-int/2addr v10, v1
 
-    .line 2200862
+    .line 2200883
     if-lez v10, :cond_3b
 
-    .line 2200863
+    .line 2200884
     rem-int v2, p7, v10
 
-    .line 2200864
+    .line 2200885
     invoke-static {v10}, LX/Chb;->A00(I)F
 
     move-result v4
 
-    .line 2200865
+    .line 2200886
     int-to-float v3, v2
 
     cmpg-float v1, v3, v4
@@ -3769,24 +3769,24 @@
     :cond_3a
     div-float/2addr v3, v4
 
-    .line 2200866
+    .line 2200887
     :goto_24
     mul-float/2addr v11, v3
 
     float-to-int v1, v11
 
-    .line 2200867
+    .line 2200888
     invoke-virtual {v5, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 2200868
+    .line 2200889
     invoke-static {}, Ljava/text/BreakIterator;->getCharacterInstance()Ljava/text/BreakIterator;
 
     move-result-object v3
 
-    .line 2200869
+    .line 2200890
     iget-object v1, v9, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200870
+    .line 2200891
     invoke-virtual {v1}, Landroid/text/Layout;->getText()Ljava/lang/CharSequence;
 
     move-result-object v1
@@ -3797,10 +3797,10 @@
 
     invoke-virtual {v3, v1}, Ljava/text/BreakIterator;->setText(Ljava/lang/String;)V
 
-    .line 2200871
+    .line 2200892
     iget-object v2, v9, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200872
+    .line 2200893
     invoke-virtual {v3, v6}, Ljava/text/BreakIterator;->next(I)I
 
     move-result v1
@@ -3809,38 +3809,38 @@
 
     move-result v10
 
-    .line 2200873
+    .line 2200894
     invoke-virtual {v7}, Ljava/util/AbstractCollection;->size()I
 
     move-result v1
 
     if-gt v6, v1, :cond_3d
 
-    .line 2200874
+    .line 2200895
     iget-object v2, v9, LX/Gg1;->A05:Ljava/util/ArrayList;
 
-    .line 2200875
+    .line 2200896
     sub-int/2addr v6, v14
 
     invoke-static {v6, v8}, Ljava/lang/Math;->max(II)I
 
     move-result v1
 
-    .line 2200876
+    .line 2200897
     invoke-static {v7, v1}, LX/92q;->A0W(Ljava/util/AbstractList;I)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 2200877
+    .line 2200898
     check-cast v1, LX/HNu;
 
-    .line 2200878
+    .line 2200899
     sget v8, LX/Gg1;->A08:F
 
-    .line 2200879
+    .line 2200900
     sget v9, LX/Gg1;->A07:F
 
-    .line 2200880
+    .line 2200901
     move-object v4, v0
 
     move-object v6, v1
@@ -3851,26 +3851,26 @@
 
     goto :goto_26
 
-    .line 2200881
+    .line 2200902
     :cond_3b
     const/4 v3, 0x0
 
     goto :goto_24
 
-    .line 2200882
+    .line 2200903
     :cond_3c
     iget-object v1, v10, LX/3zO;->A0D:Landroid/text/StaticLayout;
 
-    .line 2200883
+    .line 2200904
     :goto_25
     invoke-virtual {v1, v0}, Landroid/text/Layout;->draw(Landroid/graphics/Canvas;)V
 
-    .line 2200884
+    .line 2200905
     :cond_3d
     :goto_26
     invoke-virtual {v0}, Landroid/graphics/Canvas;->restore()V
 
-    .line 2200885
+    .line 2200906
     :cond_3e
     return-void
 .end method

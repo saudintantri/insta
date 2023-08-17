@@ -7365,7 +7365,7 @@
     move-result-object v8
 
     .line 3412
-    invoke-static {v7}, LX/Chf;->A0s(Lcom/instagram/user/model/User;)Ljava/lang/Throwable;
+    invoke-static {v7}, LX/Chf;->A0t(Lcom/instagram/user/model/User;)Ljava/lang/Throwable;
 
     .line 3413
     .line 3414

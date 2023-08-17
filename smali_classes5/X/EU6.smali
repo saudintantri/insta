@@ -463,7 +463,7 @@
     .line 203
     .line 204
     .line 205
-    invoke-static {v0, v2}, LX/Chf;->A0B(Landroid/view/View;I)I
+    invoke-static {v0, v2}, LX/Chf;->A0C(Landroid/view/View;I)I
 
     .line 206
     .line 207

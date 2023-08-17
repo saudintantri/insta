@@ -420,7 +420,6 @@
     :try_end_7
     .catch Ljava/lang/SecurityException; {:try_start_7 .. :try_end_7} :catch_1
     .catch Ljava/lang/RuntimeException; {:try_start_7 .. :try_end_7} :catch_0
-    .catch Ljava/lang/SecurityException; {:try_start_7 .. :try_end_7} :catch_2
     .catchall {:try_start_7 .. :try_end_7} :catchall_3
 
     .line 178
@@ -476,7 +475,6 @@
     :try_end_9
     .catch Ljava/lang/SecurityException; {:try_start_9 .. :try_end_9} :catch_1
     .catch Ljava/lang/RuntimeException; {:try_start_9 .. :try_end_9} :catch_0
-    .catch Ljava/lang/SecurityException; {:try_start_9 .. :try_end_9} :catch_2
     .catchall {:try_start_9 .. :try_end_9} :catchall_3
 
     .line 201
@@ -504,7 +502,6 @@
     :try_end_b
     .catch Ljava/lang/SecurityException; {:try_start_b .. :try_end_b} :catch_1
     .catch Ljava/lang/RuntimeException; {:try_start_b .. :try_end_b} :catch_0
-    .catch Ljava/lang/SecurityException; {:try_start_b .. :try_end_b} :catch_2
     .catchall {:try_start_b .. :try_end_b} :catchall_3
 
     .line 208

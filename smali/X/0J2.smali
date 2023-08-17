@@ -3366,8 +3366,6 @@
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_2 .. :try_end_2} :catch_1
-    .catch Ljava/lang/NoSuchMethodException; {:try_start_2 .. :try_end_2} :catch_4
-    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_5
 
     .line 88
     :goto_1
@@ -3389,7 +3387,6 @@
     goto :goto_5
     :try_end_3
     .catch Ljava/lang/NoSuchMethodException; {:try_start_3 .. :try_end_3} :catch_1
-    .catch Ljava/lang/NoSuchMethodException; {:try_start_3 .. :try_end_3} :catch_4
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_5
 
     .line 96
@@ -3496,7 +3493,6 @@
     goto :goto_4
     :try_end_4
     .catch Ljava/lang/NoSuchMethodException; {:try_start_4 .. :try_end_4} :catch_1
-    .catch Ljava/lang/NoSuchMethodException; {:try_start_4 .. :try_end_4} :catch_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_5
 
     .line 142
@@ -3692,7 +3688,6 @@
     .catch Ljava/lang/IllegalAccessException; {:try_start_7 .. :try_end_7} :catch_3
     .catch Ljava/lang/IllegalArgumentException; {:try_start_7 .. :try_end_7} :catch_3
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_7 .. :try_end_7} :catch_3
-    .catch Ljava/lang/Exception; {:try_start_7 .. :try_end_7} :catch_5
 
     .line 226
     :goto_7
@@ -4705,7 +4700,6 @@
     const/4 v2, 0x0
     :try_end_1
     .catch Ljava/lang/NoSuchFieldException; {:try_start_1 .. :try_end_1} :catch_1
-    .catch Ljava/lang/NoSuchFieldException; {:try_start_1 .. :try_end_1} :catch_2
 
     .line 49
     :try_start_2
@@ -4737,7 +4731,6 @@
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
     .catch Ljava/lang/NoSuchFieldException; {:try_start_2 .. :try_end_2} :catch_1
-    .catch Ljava/lang/NoSuchFieldException; {:try_start_2 .. :try_end_2} :catch_2
 
     .line 62
     :catch_0
@@ -4843,7 +4836,6 @@
     goto :goto_1
     :try_end_3
     .catch Ljava/lang/NoSuchFieldException; {:try_start_3 .. :try_end_3} :catch_1
-    .catch Ljava/lang/NoSuchFieldException; {:try_start_3 .. :try_end_3} :catch_2
 
     .line 106
     :catch_1

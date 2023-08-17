@@ -89,7 +89,7 @@
     const/4 v4, 0x3
 
     .line 29
-    invoke-static {v1, v4}, LX/Chj;->A00(Landroid/content/Context;I)I
+    invoke-static {v1}, LX/Chf;->A0A(Landroid/content/Context;)I
 
     .line 30
     .line 31
@@ -97,193 +97,209 @@
     move-result v0
 
     .line 33
-    shl-int/lit8 v0, v0, 0x1
+    invoke-static {v0, v4}, LX/Che;->A01(II)I
 
     .line 34
     .line 35
-    invoke-static {v1}, LX/0Oc;->A08(Landroid/content/Context;)I
-
     .line 36
-    .line 37
-    .line 38
-    move-result v15
-
-    .line 39
-    sub-int/2addr v15, v0
-
-    .line 40
-    div-int/2addr v15, v4
-
-    .line 41
-    iget-object v3, v9, LX/ExL;->A04:Landroid/content/Context;
-
-    .line 42
-    .line 43
-    const/high16 v2, 0x3f100000    # 0.5625f
-
-    .line 44
-    .line 45
-    const/4 v11, 0x0
-
-    .line 46
-    invoke-static {v3, v4}, LX/Chj;->A00(Landroid/content/Context;I)I
-
-    .line 47
-    .line 48
-    .line 49
     move-result v0
 
+    .line 37
+    shl-int/lit8 v0, v0, 0x1
+
+    .line 38
+    .line 39
+    invoke-static {v1}, LX/0Oc;->A08(Landroid/content/Context;)I
+
+    .line 40
+    .line 41
+    .line 42
+    move-result v15
+
+    .line 43
+    sub-int/2addr v15, v0
+
+    .line 44
+    div-int/2addr v15, v4
+
+    .line 45
+    iget-object v3, v9, LX/ExL;->A04:Landroid/content/Context;
+
+    .line 46
+    .line 47
+    const/high16 v2, 0x3f100000    # 0.5625f
+
+    .line 48
+    .line 49
+    const/4 v11, 0x0
+
     .line 50
-    shl-int/lit8 v1, v0, 0x1
+    invoke-static {v3}, LX/Chf;->A0A(Landroid/content/Context;)I
 
     .line 51
     .line 52
-    invoke-static {v3}, LX/0Oc;->A08(Landroid/content/Context;)I
-
     .line 53
-    .line 54
-    .line 55
     move-result v0
 
-    .line 56
-    sub-int/2addr v0, v1
+    .line 54
+    invoke-static {v0, v4}, LX/Che;->A01(II)I
 
+    .line 55
+    .line 56
     .line 57
-    div-int/2addr v0, v4
+    move-result v0
 
     .line 58
-    int-to-float v0, v0
+    shl-int/lit8 v1, v0, 0x1
 
     .line 59
-    div-float/2addr v0, v2
-
     .line 60
-    invoke-static {v0}, Ljava/lang/Math;->round(F)I
+    invoke-static {v3}, LX/0Oc;->A08(Landroid/content/Context;)I
 
     .line 61
     .line 62
     .line 63
-    move-result v1
+    move-result v0
 
     .line 64
-    iget-object v13, v9, LX/ExL;->A04:Landroid/content/Context;
+    sub-int/2addr v0, v1
 
     .line 65
+    div-int/2addr v0, v4
+
     .line 66
-    const/16 v17, 0x1
+    int-to-float v0, v0
 
     .line 67
+    div-float/2addr v0, v2
+
     .line 68
-    sget-object v14, LX/001;->A00:Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Math;->round(F)I
 
     .line 69
     .line 70
-    new-instance v7, LX/4pq;
-
     .line 71
+    move-result v1
+
     .line 72
-    move-object v12, v7
+    iget-object v13, v9, LX/ExL;->A04:Landroid/content/Context;
 
     .line 73
-    move/from16 v16, v1
-
     .line 74
-    .line 75
-    invoke-direct/range {v12 .. v17}, LX/4pq;-><init>(Landroid/content/Context;Ljava/lang/Integer;IIZ)V
+    const/16 v17, 0x1
 
+    .line 75
     .line 76
+    sget-object v14, LX/001;->A00:Ljava/lang/Integer;
+
     .line 77
     .line 78
-    new-instance v0, LX/D0N;
+    new-instance v7, LX/4pq;
 
     .line 79
     .line 80
-    invoke-direct {v0, v7, v9, v15, v1}, LX/D0N;-><init>(LX/4pq;LX/ExL;II)V
+    move-object v12, v7
 
     .line 81
+    move/from16 v16, v1
+
     .line 82
     .line 83
-    iput-object v0, v9, LX/ExL;->A07:LX/D0N;
+    invoke-direct/range {v12 .. v17}, LX/4pq;-><init>(Landroid/content/Context;Ljava/lang/Integer;IIZ)V
 
     .line 84
     .line 85
-    iget-object v0, v9, LX/ExL;->A05:Landroidx/fragment/app/Fragment;
-
     .line 86
-    .line 87
-    invoke-static {v0}, LX/05o;->A00(LX/05g;)LX/05o;
+    new-instance v0, LX/D0N;
 
+    .line 87
     .line 88
+    invoke-direct {v0, v7, v9, v15, v1}, LX/D0N;-><init>(LX/4pq;LX/ExL;II)V
+
     .line 89
     .line 90
-    move-result-object v4
-
     .line 91
-    const/4 v5, 0x0
+    iput-object v0, v9, LX/ExL;->A07:LX/D0N;
 
     .line 92
-    invoke-static {}, LX/Chc;->A0p()Ljava/lang/Integer;
-
     .line 93
+    iget-object v0, v9, LX/ExL;->A05:Landroidx/fragment/app/Fragment;
+
     .line 94
     .line 95
-    move-result-object v10
+    invoke-static {v0}, LX/05o;->A00(LX/05g;)LX/05o;
 
     .line 96
-    sget-object v6, LX/4jU;->A04:LX/4jU;
-
     .line 97
     .line 98
-    new-instance v3, LX/4aQ;
+    move-result-object v4
 
     .line 99
+    const/4 v5, 0x0
+
     .line 100
-    move-object v8, v5
+    invoke-static {}, LX/Chc;->A0p()Ljava/lang/Integer;
 
     .line 101
-    move v12, v11
-
     .line 102
-    move v13, v11
-
     .line 103
-    move v14, v11
+    move-result-object v10
 
     .line 104
-    move v15, v11
+    sget-object v6, LX/4jU;->A04:LX/4jU;
 
     .line 105
-    invoke-direct/range {v3 .. v15}, LX/4aQ;-><init>(LX/05o;LX/Fod;LX/4jU;LX/4pq;Lcom/instagram/service/session/UserSession;LX/52v;Ljava/lang/Integer;IZZZZ)V
-
     .line 106
+    new-instance v3, LX/4aQ;
+
     .line 107
     .line 108
-    iget-object v2, v9, LX/ExL;->A07:LX/D0N;
+    move-object v8, v5
 
     .line 109
+    move v12, v11
+
     .line 110
-    iget-object v1, v9, LX/ExL;->A04:Landroid/content/Context;
+    move v13, v11
 
     .line 111
+    move v14, v11
+
     .line 112
-    new-instance v0, LX/57T;
+    move v15, v11
 
     .line 113
-    .line 114
-    invoke-direct {v0, v1, v2, v3}, LX/57T;-><init>(Landroid/content/Context;LX/6JS;LX/4aQ;)V
+    invoke-direct/range {v3 .. v15}, LX/4aQ;-><init>(LX/05o;LX/Fod;LX/4jU;LX/4pq;Lcom/instagram/service/session/UserSession;LX/52v;Ljava/lang/Integer;IZZZZ)V
 
+    .line 114
     .line 115
     .line 116
-    .line 117
-    iput-object v0, v9, LX/ExL;->A03:LX/57T;
+    iget-object v2, v9, LX/ExL;->A07:LX/D0N;
 
+    .line 117
     .line 118
+    iget-object v1, v9, LX/ExL;->A04:Landroid/content/Context;
+
     .line 119
-    return-void
     .line 120
+    new-instance v0, LX/57T;
+
     .line 121
     .line 122
+    invoke-direct {v0, v1, v2, v3}, LX/57T;-><init>(Landroid/content/Context;LX/6JS;LX/4aQ;)V
+
     .line 123
+    .line 124
+    .line 125
+    iput-object v0, v9, LX/ExL;->A03:LX/57T;
+
+    .line 126
+    .line 127
+    return-void
+    .line 128
+    .line 129
+    .line 130
+    .line 131
 .end method
 
 
@@ -719,214 +735,218 @@
     .line 51
     .line 52
     .line 53
-    invoke-static {v2, v1}, LX/Chj;->A00(Landroid/content/Context;I)I
+    invoke-static {v2}, LX/Chf;->A0A(Landroid/content/Context;)I
 
     .line 54
     .line 55
     .line 56
-    move-result v1
+    move-result v0
 
     .line 57
-    new-instance v0, LX/6Gh;
+    invoke-static {v0, v1}, LX/Che;->A01(II)I
 
     .line 58
     .line 59
+    .line 60
+    move-result v1
+
+    .line 61
+    new-instance v0, LX/6Gh;
+
+    .line 62
+    .line 63
     invoke-direct {v0, v1, v5, v5}, LX/6Gh;-><init>(IIZ)V
 
-    .line 60
-    .line 61
-    .line 62
-    invoke-virtual {v3, v0}, Landroidx/recyclerview/widget/RecyclerView;->A0y(LX/3IL;)V
-
-    .line 63
     .line 64
     .line 65
-    invoke-virtual {v3, v5}, Landroid/view/View;->setVisibility(I)V
-
     .line 66
+    invoke-virtual {v3, v0}, Landroidx/recyclerview/widget/RecyclerView;->A0y(LX/3IL;)V
+
     .line 67
     .line 68
-    iput-object v3, p0, LX/ExL;->A00:Landroidx/recyclerview/widget/RecyclerView;
-
     .line 69
-    .line 70
-    const v0, 0x7f0a131b
+    invoke-virtual {v3, v5}, Landroid/view/View;->setVisibility(I)V
 
+    .line 70
     .line 71
     .line 72
-    .line 73
-    invoke-static {p1, v0}, LX/5Wd;->A0R(Landroid/view/View;I)Lcom/instagram/common/ui/base/IgTextView;
+    iput-object v3, p0, LX/ExL;->A00:Landroidx/recyclerview/widget/RecyclerView;
 
+    .line 73
     .line 74
+    const v0, 0x7f0a131b
+
     .line 75
     .line 76
-    move-result-object v0
-
     .line 77
-    iput-object v0, p0, LX/ExL;->A01:Lcom/instagram/common/ui/base/IgTextView;
+    invoke-static {p1, v0}, LX/5Wd;->A0R(Landroid/view/View;I)Lcom/instagram/common/ui/base/IgTextView;
 
     .line 78
     .line 79
-    const v0, 0x7f0a135f
-
     .line 80
-    .line 81
-    .line 82
-    invoke-virtual {p1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
-
-    .line 83
-    .line 84
-    .line 85
-    move-result-object v1
-
-    .line 86
-    const/4 v0, 0x2
-
-    .line 87
-    invoke-static {v0}, LX/000;->A00(I)Ljava/lang/String;
-
-    .line 88
-    .line 89
-    .line 90
     move-result-object v0
 
+    .line 81
+    iput-object v0, p0, LX/ExL;->A01:Lcom/instagram/common/ui/base/IgTextView;
+
+    .line 82
+    .line 83
+    const v0, 0x7f0a135f
+
+    .line 84
+    .line 85
+    .line 86
+    invoke-virtual {p1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
+
+    .line 87
+    .line 88
+    .line 89
+    move-result-object v1
+
+    .line 90
+    const/4 v0, 0x2
+
     .line 91
-    invoke-static {v1, v0}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0}, LX/000;->A00(I)Ljava/lang/String;
 
     .line 92
     .line 93
     .line 94
-    invoke-virtual {v1, v5}, Landroid/view/View;->setVisibility(I)V
+    move-result-object v0
 
     .line 95
+    invoke-static {v1, v0}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
+
     .line 96
     .line 97
-    const v0, 0x7f0a137b
-
     .line 98
+    invoke-virtual {v1, v5}, Landroid/view/View;->setVisibility(I)V
+
     .line 99
     .line 100
-    invoke-virtual {p1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
-
     .line 101
+    const v0, 0x7f0a137b
+
     .line 102
     .line 103
-    move-result-object v1
-
     .line 104
-    const/4 v0, 0x6
+    invoke-virtual {p1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     .line 105
-    invoke-static {v0}, LX/000;->A00(I)Ljava/lang/String;
-
     .line 106
     .line 107
+    move-result-object v1
+
     .line 108
-    move-result-object v4
+    const/4 v0, 0x6
 
     .line 109
-    invoke-static {v1, v4}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0}, LX/000;->A00(I)Ljava/lang/String;
 
     .line 110
     .line 111
     .line 112
-    const/16 v3, 0x8
+    move-result-object v4
 
     .line 113
-    .line 114
-    invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
+    invoke-static {v1, v4}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
 
+    .line 114
     .line 115
     .line 116
-    .line 117
-    const v0, 0x7f0a1310
+    const/16 v3, 0x8
 
+    .line 117
     .line 118
+    invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
+
     .line 119
     .line 120
-    invoke-virtual {p1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
-
     .line 121
+    const v0, 0x7f0a1310
+
     .line 122
     .line 123
-    move-result-object v1
-
     .line 124
-    const/4 v0, 0x7
+    invoke-virtual {p1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     .line 125
-    invoke-static {v0}, LX/92j;->A00(I)Ljava/lang/String;
-
     .line 126
     .line 127
+    move-result-object v1
+
     .line 128
-    move-result-object v2
+    const/4 v0, 0x7
 
     .line 129
-    invoke-static {v1, v2}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0}, LX/92j;->A00(I)Ljava/lang/String;
 
     .line 130
     .line 131
     .line 132
-    invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
+    move-result-object v2
 
     .line 133
+    invoke-static {v1, v2}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
+
     .line 134
     .line 135
-    const v0, 0x7f0a1373
-
     .line 136
+    invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
+
     .line 137
     .line 138
-    invoke-virtual {p1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
-
     .line 139
+    const v0, 0x7f0a1373
+
     .line 140
     .line 141
-    move-result-object v1
-
     .line 142
-    invoke-static {v1, v2}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     .line 143
     .line 144
     .line 145
-    const/4 v0, 0x4
+    move-result-object v1
 
     .line 146
-    invoke-virtual {v1, v0}, Landroid/view/View;->setVisibility(I)V
+    invoke-static {v1, v2}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 147
     .line 148
     .line 149
-    const v0, 0x7f0a16cc
+    const/4 v0, 0x4
 
     .line 150
+    invoke-virtual {v1, v0}, Landroid/view/View;->setVisibility(I)V
+
     .line 151
     .line 152
-    invoke-virtual {p1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
-
     .line 153
+    const v0, 0x7f0a16cc
+
     .line 154
     .line 155
-    move-result-object v0
-
     .line 156
-    invoke-static {v0, v4}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->requireViewById(I)Landroid/view/View;
 
     .line 157
     .line 158
     .line 159
-    invoke-virtual {v0, v5}, Landroid/view/View;->setVisibility(I)V
+    move-result-object v0
 
     .line 160
+    invoke-static {v0, v4}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
+
     .line 161
     .line 162
-    return-void
     .line 163
+    invoke-virtual {v0, v5}, Landroid/view/View;->setVisibility(I)V
+
     .line 164
     .line 165
     .line 166
+    return-void
     .line 167
     .line 168
     .line 169

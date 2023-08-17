@@ -96,7 +96,7 @@
 
     const/4 v13, 0x0
 
-    .line 2322157
+    .line 2322178
     :cond_1
     and-int/lit8 v0, p17, 0x8
 
@@ -186,14 +186,14 @@
 
     and-int v15, p17, v0
 
-    .line 2322158
+    .line 2322179
     move/from16 v0, p18
 
     invoke-static {v15, v0}, LX/Chc;->A1a(IZ)Z
 
     move-result v15
 
-    .line 2322159
+    .line 2322180
     const/high16 v0, 0x10000
 
     and-int v0, p17, v0
@@ -211,168 +211,168 @@
 
     const/4 v2, 0x0
 
-    .line 2322160
+    .line 2322181
     :cond_f
     move-object/from16 v0, p6
 
     iget-object v3, v0, LX/HyC;->A00:LX/0lf;
 
-    .line 2322161
+    .line 2322182
     const-string v0, "ig_direct_board_tap"
 
-    .line 2322162
+    .line 2322183
     invoke-static {v3, v0}, LX/5Wd;->A0O(LX/0lf;Ljava/lang/String;)LX/0AW;
 
     move-result-object v3
 
-    .line 2322163
+    .line 2322184
     const/16 v0, 0x527
 
-    .line 2322164
+    .line 2322185
     invoke-static {v3, v0}, LX/5Wd;->A0P(LX/0AW;I)Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;
 
     move-result-object v3
 
-    .line 2322165
+    .line 2322186
     invoke-static {v3}, LX/5Wd;->A1Y(LX/0AX;)Z
 
     move-result v0
 
-    .line 2322166
+    .line 2322187
     if-eqz v0, :cond_10
 
-    .line 2322167
+    .line 2322188
     const-string v0, "board_id"
 
-    .line 2322168
+    .line 2322189
     invoke-virtual {v3, v0, v14}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2322169
+    .line 2322190
     invoke-virtual {v3, v13}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A5E(Ljava/lang/String;)V
 
-    .line 2322170
+    .line 2322191
     const-string v0, "call_id"
 
-    .line 2322171
+    .line 2322192
     invoke-virtual {v3, v0, v9}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2322172
+    .line 2322193
     const-string v9, "item_type"
 
-    .line 2322173
+    .line 2322194
     move-object/from16 v0, v17
 
     invoke-virtual {v3, v0, v9}, LX/0AX;->A1f(LX/0AP;Ljava/lang/String;)V
 
-    .line 2322174
+    .line 2322195
     const-string v9, "action_type"
 
-    .line 2322175
+    .line 2322196
     move-object/from16 v0, p0
 
     invoke-virtual {v3, v0, v9}, LX/0AX;->A1f(LX/0AP;Ljava/lang/String;)V
 
-    .line 2322176
+    .line 2322197
     const-string v0, "participant_ids"
 
-    .line 2322177
+    .line 2322198
     invoke-virtual {v3, v0, v12}, LX/0AX;->A1l(Ljava/lang/String;Ljava/util/List;)V
 
-    .line 2322178
+    .line 2322199
     const-string v0, "active_participant_ids"
 
-    .line 2322179
+    .line 2322200
     invoke-virtual {v3, v0, v11}, LX/0AX;->A1l(Ljava/lang/String;Ljava/util/List;)V
 
-    .line 2322180
+    .line 2322201
     const-string v0, "nonactive_participant_ids"
 
-    .line 2322181
+    .line 2322202
     invoke-virtual {v3, v0, v10}, LX/0AX;->A1l(Ljava/lang/String;Ljava/util/List;)V
 
-    .line 2322182
+    .line 2322203
     move-object/from16 v0, v18
 
     invoke-static {v0, v3}, LX/92k;->A0z(LX/0AP;LX/0AX;)V
 
-    .line 2322183
+    .line 2322204
     const/16 v0, 0x9c
 
     invoke-static {v0}, LX/92j;->A00(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2322184
+    .line 2322205
     invoke-virtual {v3, v0, v8}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2322185
+    .line 2322206
     const-string v0, "media_id"
 
-    .line 2322186
+    .line 2322207
     invoke-virtual {v3, v0, v1}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2322187
+    .line 2322208
     invoke-virtual {v3, v7}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A1s(LX/49Q;)V
 
-    .line 2322188
+    .line 2322209
     const-string v1, "media_source"
 
-    .line 2322189
+    .line 2322210
     move-object/from16 v0, v16
 
     invoke-virtual {v3, v0, v1}, LX/0AX;->A1f(LX/0AP;Ljava/lang/String;)V
 
-    .line 2322190
+    .line 2322211
     const-string v0, "unique_board_session_id"
 
-    .line 2322191
+    .line 2322212
     invoke-virtual {v3, v0, v6}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2322192
+    .line 2322213
     const-string v0, "sticker_type"
 
-    .line 2322193
+    .line 2322214
     invoke-virtual {v3, v5, v0}, LX/0AX;->A1f(LX/0AP;Ljava/lang/String;)V
 
-    .line 2322194
+    .line 2322215
     invoke-static {v15}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v1
 
-    .line 2322195
+    .line 2322216
     const/16 v0, 0x48c
 
     invoke-static {v0}, LX/000;->A00(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2322196
+    .line 2322217
     invoke-virtual {v3, v0, v1}, LX/0AX;->A1h(Ljava/lang/String;Ljava/lang/Boolean;)V
 
-    .line 2322197
+    .line 2322218
     const/16 v0, 0x4bc
 
     invoke-static {v0}, LX/000;->A00(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2322198
+    .line 2322219
     invoke-virtual {v3, v0, v4}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2322199
+    .line 2322220
     const/16 v0, 0x11e
 
     invoke-static {v0}, LX/000;->A00(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2322200
+    .line 2322221
     invoke-virtual {v3, v0, v2}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2322201
+    .line 2322222
     invoke-virtual {v3}, LX/0AX;->BcK()V
 
-    .line 2322202
+    .line 2322223
     :cond_10
     return-void
 .end method

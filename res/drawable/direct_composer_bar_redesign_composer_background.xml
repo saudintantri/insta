@@ -2,5 +2,5 @@
 <shape android:shape="rectangle"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <solid android:color="@color/igds_highlight_background" />
-    <corners android:radius="@dimen/direct_composer_background_corner_radius" />
+    <corners android:radius="@dimen/asset_picker_static_sticker_last_row_padding" />
 </shape>

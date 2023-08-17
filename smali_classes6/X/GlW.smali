@@ -654,7 +654,7 @@
 
     .line 284
     :cond_b
-    invoke-static {v4}, LX/Chf;->A0N(Landroid/view/View;)Landroid/view/ViewPropertyAnimator;
+    invoke-static {v4}, LX/Chf;->A0O(Landroid/view/View;)Landroid/view/ViewPropertyAnimator;
 
     .line 285
     .line 286

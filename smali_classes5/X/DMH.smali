@@ -2746,7 +2746,7 @@
 
     .line 742
     .line 743
-    invoke-static {v3, v0, v2}, LX/Chf;->A0W(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
+    invoke-static {v3, v0, v2}, LX/Chf;->A0X(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
 
     .line 744
     .line 745
@@ -3587,7 +3587,7 @@
 
     .line 73
     :goto_2
-    invoke-static {v6}, LX/Chf;->A0m(LX/1M5;)Ljava/lang/String;
+    invoke-static {v6}, LX/Chf;->A0o(LX/1M5;)Ljava/lang/String;
 
     .line 74
     .line 75
@@ -4119,7 +4119,7 @@
 
     .line 11
     .line 12
-    invoke-static {p0, v0}, LX/Chg;->A1W(LX/4LX;I)V
+    invoke-static {p0, v0}, LX/Chg;->A1V(LX/4LX;I)V
 
     .line 13
     .line 14
@@ -4223,7 +4223,7 @@
     const/4 v4, 0x0
 
     .line 11
-    invoke-static {p0, v4}, LX/Chg;->A1W(LX/4LX;I)V
+    invoke-static {p0, v4}, LX/Chg;->A1V(LX/4LX;I)V
 
     .line 12
     .line 13

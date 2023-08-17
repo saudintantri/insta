@@ -1590,7 +1590,7 @@
     move-result v10
 
     .line 369
-    invoke-static {v14, v10}, LX/Chf;->A0t(Ljava/util/AbstractList;I)Ljava/util/List;
+    invoke-static {v14, v10}, LX/Chf;->A0u(Ljava/util/AbstractList;I)Ljava/util/List;
 
     .line 370
     .line 371
@@ -2769,7 +2769,7 @@
 
     .line 949
     .line 950
-    invoke-static {v10, v7}, LX/Chf;->A0t(Ljava/util/AbstractList;I)Ljava/util/List;
+    invoke-static {v10, v7}, LX/Chf;->A0u(Ljava/util/AbstractList;I)Ljava/util/List;
 
     .line 951
     .line 952
@@ -2896,7 +2896,7 @@
 
     .line 1011
     .line 1012
-    invoke-static {v10, v7}, LX/Chf;->A0t(Ljava/util/AbstractList;I)Ljava/util/List;
+    invoke-static {v10, v7}, LX/Chf;->A0u(Ljava/util/AbstractList;I)Ljava/util/List;
 
     .line 1013
     .line 1014
@@ -3027,7 +3027,7 @@
 
     .line 1075
     .line 1076
-    invoke-static {v10, v7}, LX/Chf;->A0t(Ljava/util/AbstractList;I)Ljava/util/List;
+    invoke-static {v10, v7}, LX/Chf;->A0u(Ljava/util/AbstractList;I)Ljava/util/List;
 
     .line 1077
     .line 1078
@@ -3158,7 +3158,7 @@
 
     .line 1139
     .line 1140
-    invoke-static {v11, v7}, LX/Chf;->A0t(Ljava/util/AbstractList;I)Ljava/util/List;
+    invoke-static {v11, v7}, LX/Chf;->A0u(Ljava/util/AbstractList;I)Ljava/util/List;
 
     .line 1141
     .line 1142
@@ -3346,7 +3346,7 @@
 
     .line 1231
     .line 1232
-    invoke-static {v11, v7}, LX/Chf;->A0t(Ljava/util/AbstractList;I)Ljava/util/List;
+    invoke-static {v11, v7}, LX/Chf;->A0u(Ljava/util/AbstractList;I)Ljava/util/List;
 
     .line 1233
     .line 1234

@@ -60,7 +60,7 @@
     move-result-object v1
 
     .line 20
-    invoke-static {}, LX/Chf;->A0a()Lcom/instagram/model/shopping/productfeed/ShoppingModuleLoggingInfo;
+    invoke-static {}, LX/Chf;->A0c()Lcom/instagram/model/shopping/productfeed/ShoppingModuleLoggingInfo;
 
     .line 21
     .line 22

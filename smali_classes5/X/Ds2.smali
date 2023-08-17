@@ -72,7 +72,7 @@
 
     .line 31
     .line 32
-    invoke-static {v1, p2, p2}, LX/Chi;->A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-static {v1, p2, p2}, LX/Chi;->A1K(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 33
     .line 34

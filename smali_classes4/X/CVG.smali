@@ -212,7 +212,7 @@
     move-result-wide v5
 
     .line 90
-    const v4, 0x7f0700d6
+    const v4, 0x7f0700d5
 
     .line 91
     .line 92

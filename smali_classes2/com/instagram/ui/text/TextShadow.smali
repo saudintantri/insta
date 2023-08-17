@@ -27,7 +27,7 @@
     .locals 3
 
     .line 0
-    const v2, 0x7f070157
+    const v2, 0x7f070151
 
     .line 1
     .line 2

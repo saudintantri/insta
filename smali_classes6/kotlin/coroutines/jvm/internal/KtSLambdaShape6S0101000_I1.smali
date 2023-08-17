@@ -8395,7 +8395,7 @@
     .line 3323
     .line 3324
     :cond_23
-    invoke-static {}, LX/Chg;->A0v()LX/8xM;
+    invoke-static {}, LX/Chg;->A0u()LX/8xM;
 
     .line 3325
     .line 3326

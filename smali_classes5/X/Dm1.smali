@@ -232,7 +232,7 @@
     move-result-object v0
 
     .line 108
-    invoke-static {v9, v0, v1}, LX/Chi;->A16(LX/3Ib;LX/0VH;LX/1TA;)V
+    invoke-static {v9, v0, v1}, LX/Chi;->A18(LX/3Ib;LX/0VH;LX/1TA;)V
 
     .line 109
     .line 110
@@ -254,7 +254,7 @@
     .line 118
     .line 119
     .line 120
-    invoke-static {v9, v0, v2}, LX/Chi;->A16(LX/3Ib;LX/0VH;LX/1TA;)V
+    invoke-static {v9, v0, v2}, LX/Chi;->A18(LX/3Ib;LX/0VH;LX/1TA;)V
 
     .line 121
     .line 122

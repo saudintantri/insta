@@ -61,7 +61,7 @@
     move-result v0
 
     .line 4
-    invoke-static {p2, p1, v0}, LX/Chg;->A0M(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)LX/DbF;
+    invoke-static {p2, p1, v0}, LX/Chg;->A0L(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)LX/DbF;
 
     .line 5
     .line 6

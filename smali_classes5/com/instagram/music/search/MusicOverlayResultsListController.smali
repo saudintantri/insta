@@ -845,7 +845,7 @@
     move-object v3, p1
 
     .line 3
-    invoke-static {p0, p1, v0}, LX/Che;->A02(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
+    invoke-static {p0, p1, v0}, LX/Che;->A03(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
 
     .line 4
     .line 5
@@ -2527,7 +2527,7 @@
     .line 199
     .line 200
     .line 201
-    invoke-static {v2, v4}, LX/Chg;->A1C(LX/0AX;LX/4Qd;)V
+    invoke-static {v2, v4}, LX/Chg;->A1B(LX/0AX;LX/4Qd;)V
 
     .line 202
     .line 203
@@ -2666,7 +2666,7 @@
 
     .line 47
     .line 48
-    invoke-static {v3, v4, v5}, LX/Che;->A02(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
+    invoke-static {v3, v4, v5}, LX/Che;->A03(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
 
     .line 49
     .line 50
@@ -2707,7 +2707,7 @@
 
     .line 68
     .line 69
-    invoke-static {}, LX/Chf;->A0F()J
+    invoke-static {}, LX/Chf;->A0G()J
 
     .line 70
     .line 71
@@ -3030,7 +3030,7 @@
 
     .line 234
     .line 235
-    invoke-static {v2, v7, v0, v1}, LX/Chg;->A1D(LX/0AX;LX/4Qd;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v7, v0, v1}, LX/Chg;->A1C(LX/0AX;LX/4Qd;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 236
     .line 237
@@ -3115,7 +3115,7 @@
 
     .line 281
     .line 282
-    invoke-static {v2, v0, v6}, LX/Chf;->A1I(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0, v6}, LX/Chf;->A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 283
     .line 284
@@ -3359,7 +3359,7 @@
 
     .line 403
     .line 404
-    invoke-static {v8, v4, v5}, LX/Che;->A02(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
+    invoke-static {v8, v4, v5}, LX/Che;->A03(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
 
     .line 405
     .line 406
@@ -4019,7 +4019,7 @@
 
     .line 165
     .line 166
-    invoke-static {v3, v5, v0, v8}, LX/Chg;->A1D(LX/0AX;LX/4Qd;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v5, v0, v8}, LX/Chg;->A1C(LX/0AX;LX/4Qd;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 167
     .line 168
@@ -4134,7 +4134,7 @@
 
     .line 228
     .line 229
-    invoke-static {v3, v1, v0}, LX/Chf;->A1I(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v1, v0}, LX/Chf;->A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 230
     .line 231
@@ -4900,7 +4900,7 @@
     const/4 v7, 0x0
 
     .line 22
-    invoke-static {p0, p1, v7}, LX/Che;->A02(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
+    invoke-static {p0, p1, v7}, LX/Che;->A03(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
 
     .line 23
     .line 24
@@ -5142,7 +5142,7 @@
 
     .line 146
     .line 147
-    invoke-static {v2, v3, v0, v1}, LX/Chg;->A1D(LX/0AX;LX/4Qd;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3, v0, v1}, LX/Chg;->A1C(LX/0AX;LX/4Qd;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 148
     .line 149
@@ -6137,7 +6137,7 @@
 
     .line 23
     .line 24
-    invoke-static {v3, v4, v0, v1}, LX/Chg;->A1R(LX/19z;LX/2ug;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4, v0, v1}, LX/Chg;->A1Q(LX/19z;LX/2ug;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
     .line 26

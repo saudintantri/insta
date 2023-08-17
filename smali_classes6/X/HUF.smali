@@ -91,7 +91,7 @@
 
     .line 30
     .line 31
-    const v0, 0x7f0700f1
+    const v0, 0x7f0700f0
 
     .line 32
     .line 33

@@ -154,7 +154,7 @@
 
     .line 2
     .line 3
-    invoke-static {v1, p3}, LX/Chg;->A0Y(Ljava/util/Set;I)Ljava/lang/Integer;
+    invoke-static {v1, p3}, LX/Chg;->A0W(Ljava/util/Set;I)Ljava/lang/Integer;
 
     .line 4
     .line 5
@@ -277,7 +277,7 @@
 
     .line 22
     .line 23
-    invoke-static {v0, v1}, LX/Chg;->A1O(LX/06L;I)V
+    invoke-static {v0, v1}, LX/Chg;->A1N(LX/06L;I)V
 
     .line 24
     .line 25

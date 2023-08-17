@@ -189,18 +189,18 @@
 
     invoke-static {p1, v2}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 807304352
+    .line 807304373
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 v4, -0x1
 
-    .line 807304353
+    .line 807304374
     iput v4, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A02:I
 
-    .line 807304354
+    .line 807304375
     iput v4, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A03:I
 
-    .line 807304355
+    .line 807304376
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -211,142 +211,142 @@
 
     move-result-object v3
 
-    .line 807304356
+    .line 807304377
     const/4 v0, -0x2
 
-    .line 807304357
+    .line 807304378
     invoke-static {v3, v4, v0}, LX/92m;->A10(Landroid/view/View;II)V
 
-    .line 807304358
+    .line 807304379
     invoke-virtual {v3}, Landroid/view/View;->getId()I
 
     move-result v0
 
     if-ne v0, v4, :cond_0
 
-    .line 807304359
+    .line 807304380
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v0
 
-    .line 807304360
+    .line 807304381
     invoke-virtual {v3, v0}, Landroid/view/View;->setId(I)V
 
-    .line 807304361
+    .line 807304382
     :cond_0
     const v1, 0x7f070019
 
-    .line 807304362
+    .line 807304383
     const v0, 0x7f07000d
 
-    .line 807304363
+    .line 807304384
     invoke-static {v3, v1, v0, v1, v0}, LX/0Oc;->A0d(Landroid/view/View;IIII)V
 
-    .line 807304364
+    .line 807304385
     iput-object v3, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A04:Landroid/view/View;
 
-    .line 807304365
+    .line 807304386
     const v0, 0x7f0a21c2
 
-    .line 807304366
+    .line 807304387
     invoke-static {v3, v0}, LX/5Wd;->A0H(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 807304367
+    .line 807304388
     check-cast v0, Landroid/widget/TextView;
 
     iput-object v0, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A05:Landroid/widget/TextView;
 
-    .line 807304368
+    .line 807304389
     iget-object v1, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A04:Landroid/view/View;
 
     const v0, 0x7f0a0180
 
-    .line 807304369
+    .line 807304390
     invoke-static {v1, v0}, LX/5Wd;->A0H(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 807304370
+    .line 807304391
     check-cast v0, Landroid/widget/LinearLayout;
 
     iput-object v0, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A0A:Landroid/widget/LinearLayout;
 
-    .line 807304371
+    .line 807304392
     iget-object v1, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A04:Landroid/view/View;
 
     const v0, 0x7f0a2a45
 
-    .line 807304372
+    .line 807304393
     invoke-static {v1, v0}, LX/5Wd;->A0H(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 807304373
+    .line 807304394
     check-cast v0, Landroid/widget/TextView;
 
     iput-object v0, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A0C:Landroid/widget/TextView;
 
-    .line 807304374
+    .line 807304395
     iget-object v1, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A04:Landroid/view/View;
 
     const v0, 0x7f0a01b1
 
-    .line 807304375
+    .line 807304396
     invoke-static {v1, v0}, LX/5Wd;->A0H(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 807304376
+    .line 807304397
     check-cast v0, Landroid/widget/TextView;
 
     iput-object v0, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A0B:Landroid/widget/TextView;
 
-    .line 807304377
+    .line 807304398
     iget-object v1, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A04:Landroid/view/View;
 
     const v0, 0x7f0a16b6
 
-    .line 807304378
+    .line 807304399
     invoke-static {v1, v0}, LX/5Wd;->A0H(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 807304379
+    .line 807304400
     check-cast v0, Lcom/instagram/ui/widget/gradientspinneravatarview/GradientSpinnerAvatarView;
 
     iput-object v0, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A07:Lcom/instagram/ui/widget/gradientspinneravatarview/GradientSpinnerAvatarView;
 
-    .line 807304380
+    .line 807304401
     iget-object v1, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A04:Landroid/view/View;
 
     const v0, 0x7f0a2d05
 
-    .line 807304381
+    .line 807304402
     invoke-static {v1, v0}, LX/5Wd;->A0H(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 807304382
+    .line 807304403
     check-cast v0, Lcom/instagram/ui/widget/stackedavatar/StackedAvatarView;
 
     iput-object v0, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A08:Lcom/instagram/ui/widget/stackedavatar/StackedAvatarView;
 
-    .line 807304383
+    .line 807304404
     iget-object v1, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A04:Landroid/view/View;
 
     const v0, 0x7f0a17cd
 
-    .line 807304384
+    .line 807304405
     invoke-static {v1, v0}, LX/5We;->A0Q(Landroid/view/View;I)LX/2tA;
 
     move-result-object v0
 
-    .line 807304385
+    .line 807304406
     iput-object v0, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A06:LX/2tA;
 
-    .line 807304386
+    .line 807304407
     iget-object v1, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A04:Landroid/view/View;
 
     const v0, 0x7f0a2f48
@@ -355,17 +355,17 @@
 
     move-result-object v0
 
-    .line 807304387
+    .line 807304408
     invoke-virtual {v0, v2}, Landroid/view/View;->setImportantForAccessibility(I)V
 
-    .line 807304388
+    .line 807304409
     iget-object v1, p0, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;->A04:Landroid/view/View;
 
     const/4 v0, 0x2
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setImportantForAccessibility(I)V
 
-    .line 807304389
+    .line 807304410
     invoke-virtual {p1}, Landroid/content/Context;->getTheme()Landroid/content/res/Resources$Theme;
 
     move-result-object v2
@@ -380,7 +380,7 @@
 
     invoke-static {v1}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 807304390
+    .line 807304411
     :try_start_0
     invoke-virtual {v1, v0, p4}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
@@ -390,7 +390,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 807304391
+    .line 807304412
     invoke-virtual {v1}, Landroid/content/res/TypedArray;->recycle()V
 
     return-void
@@ -407,7 +407,7 @@
     .locals 3
 
     .line 1073741824
-    invoke-static {p2, p5}, LX/Chh;->A06(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
+    invoke-static {p2, p5}, LX/Chh;->A07(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
 
     .line 1073741825
     .line 1073741826
@@ -415,7 +415,7 @@
     move-result-object v2
 
     .line 1073741828
-    invoke-static {p5, p3}, LX/Chh;->A02(II)I
+    invoke-static {p5, p3}, LX/Chh;->A03(II)I
 
     .line 1073741829
     .line 1073741830
@@ -454,7 +454,7 @@
 
     const/4 v0, 0x0
 
-    .line 1344175525
+    .line 1344175546
     invoke-direct {p0, p1, v1, v0, p2}, Lcom/instagram/igds/components/peoplecell/IgdsPeopleCell;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IZ)V
 
     return-void

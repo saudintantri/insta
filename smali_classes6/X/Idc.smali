@@ -816,7 +816,7 @@
     move-result-object v37
 
     .line 378
-    invoke-static {v8}, LX/Chh;->A00(I)I
+    invoke-static {v8}, LX/Chh;->A01(I)I
 
     .line 379
     .line 380

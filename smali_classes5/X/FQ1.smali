@@ -136,7 +136,7 @@
     move-result-object v0
 
     .line 53
-    invoke-static {v2, v0}, LX/Chf;->A1N(LX/2KL;LX/1M5;)V
+    invoke-static {v2, v0}, LX/Chg;->A1W(LX/2KL;LX/1M5;)V
 
     .line 54
     .line 55
@@ -219,7 +219,7 @@
     move-result-object v0
 
     .line 95
-    invoke-static {v4, v0, v5, v3, v1}, LX/Chi;->A1M(LX/6hm;LX/1M5;LX/1qw;Lcom/instagram/service/session/UserSession;Ljava/lang/Object;)V
+    invoke-static {v4, v0, v5, v3, v1}, LX/Chi;->A1N(LX/6hm;LX/1M5;LX/1qw;Lcom/instagram/service/session/UserSession;Ljava/lang/Object;)V
 
     .line 96
     .line 97

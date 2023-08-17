@@ -43,7 +43,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1}, LX/Chi;->A0P(LX/1iX;)LX/39m;
+    invoke-static {p1}, LX/Chi;->A0Q(LX/1iX;)LX/39m;
 
     .line 9
     .line 10

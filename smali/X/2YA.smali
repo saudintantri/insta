@@ -52,7 +52,7 @@
 .method public final A00()Ljava/lang/String;
     .locals 1
 
-    const-string v0, "eviction.v2"
+    const-string/jumbo v0, "eviction.v2"
 
     return-object v0
 .end method

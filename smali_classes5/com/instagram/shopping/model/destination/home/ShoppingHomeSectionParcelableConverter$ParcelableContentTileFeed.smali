@@ -105,7 +105,7 @@
 
     .line 5
     .line 6
-    invoke-static {p1, v0, p2}, LX/Chi;->A0w(Landroid/os/Parcel;Lcom/instagram/shopping/model/destination/home/ProductFeedHeader;I)V
+    invoke-static {p1, v0, p2}, LX/Chi;->A0y(Landroid/os/Parcel;Lcom/instagram/shopping/model/destination/home/ProductFeedHeader;I)V
 
     .line 7
     .line 8

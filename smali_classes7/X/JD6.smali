@@ -11,17 +11,17 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1344988650
+    .line 1344988671
     invoke-direct {p0}, LX/JAL;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 1344988651
+    .line 1344988672
     iput v0, p0, LX/JD6;->A00:I
 
     const v0, 0x800013
 
-    .line 1344988652
+    .line 1344988673
     iput v0, p0, LX/JAL;->A00:I
 
     return-void

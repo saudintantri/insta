@@ -1570,7 +1570,7 @@
 
     .line 52
     .line 53
-    invoke-static {v0}, LX/Chf;->A1B(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-static {v0}, LX/Chf;->A1C(Landroidx/recyclerview/widget/RecyclerView;)V
 
     .line 54
     .line 55

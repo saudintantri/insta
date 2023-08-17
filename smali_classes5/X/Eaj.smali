@@ -41,7 +41,7 @@
     move-object v3, p3
 
     .line 13
-    invoke-static {p3}, LX/Che;->A0D(Lcom/instagram/service/session/UserSession;)LX/38H;
+    invoke-static {p3}, LX/Che;->A0E(Lcom/instagram/service/session/UserSession;)LX/38H;
 
     .line 14
     .line 15

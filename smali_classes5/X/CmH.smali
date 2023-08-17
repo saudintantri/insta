@@ -673,7 +673,7 @@
 
     .line 13
     .line 14
-    invoke-static {v0, p2}, LX/Chf;->A0K(Ljava/lang/Object;Ljava/lang/Object;)Landroid/os/Bundle;
+    invoke-static {v0, p2}, LX/Chf;->A0L(Ljava/lang/Object;Ljava/lang/Object;)Landroid/os/Bundle;
 
     .line 15
     .line 16
@@ -1245,7 +1245,7 @@
     move-result-object v3
 
     .line 46
-    invoke-static {v1}, LX/Chf;->A0J(LX/6cT;)Landroid/os/Bundle;
+    invoke-static {v1}, LX/Chf;->A0K(LX/6cT;)Landroid/os/Bundle;
 
     .line 47
     .line 48

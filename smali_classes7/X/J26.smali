@@ -69,21 +69,21 @@
 .method public constructor <init>(LX/1gS;LX/1gS;LX/5L5;LX/J1o;Lcom/instagram/clips/intf/ClipsViewerConfig;LX/2Vs;LX/4yG;LX/Cji;LX/5KZ;LX/5C7;LX/4V1;LX/0YK;LX/4wg;Lcom/instagram/service/session/UserSession;Ljava/lang/String;LX/0Vv;ZZZZZZZZZZZZ)V
     .locals 2
 
-    .line 2454567
+    .line 2454588
     const/4 v0, 0x3
 
-    .line 2454568
+    .line 2454589
     invoke-static {p12, v0, p10}, LX/5We;->A19(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 2454569
+    .line 2454590
     const/4 v0, 0x7
 
     invoke-static {p5, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2454570
+    .line 2454591
     invoke-static {p7, p8}, LX/5We;->A1F(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2454571
+    .line 2454592
     const/16 v0, 0xa
 
     invoke-static {p11, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
@@ -92,150 +92,150 @@
 
     invoke-static {p3, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2454572
+    .line 2454593
     invoke-direct {p0}, LX/1gD;-><init>()V
 
-    .line 2454573
+    .line 2454594
     iput-object p6, p0, LX/J26;->A05:LX/2Vs;
 
-    .line 2454574
+    .line 2454595
     move-object/from16 v0, p14
 
     iput-object v0, p0, LX/J26;->A0E:Lcom/instagram/service/session/UserSession;
 
-    .line 2454575
+    .line 2454596
     iput-object p12, p0, LX/J26;->A0B:LX/0YK;
 
-    .line 2454576
+    .line 2454597
     iput-object p9, p0, LX/J26;->A08:LX/5KZ;
 
-    .line 2454577
+    .line 2454598
     iput-object p10, p0, LX/J26;->A09:LX/5C7;
 
-    .line 2454578
+    .line 2454599
     iput-object p4, p0, LX/J26;->A03:LX/J1o;
 
-    .line 2454579
+    .line 2454600
     iput-object p5, p0, LX/J26;->A04:Lcom/instagram/clips/intf/ClipsViewerConfig;
 
-    .line 2454580
+    .line 2454601
     iput-object p7, p0, LX/J26;->A06:LX/4yG;
 
-    .line 2454581
+    .line 2454602
     iput-object p8, p0, LX/J26;->A07:LX/Cji;
 
-    .line 2454582
+    .line 2454603
     iput-object p11, p0, LX/J26;->A0A:LX/4V1;
 
-    .line 2454583
+    .line 2454604
     iput-object p13, p0, LX/J26;->A0T:LX/4wg;
 
-    .line 2454584
+    .line 2454605
     move-object/from16 v0, p16
 
     iput-object v0, p0, LX/J26;->A0G:LX/0Vv;
 
-    .line 2454585
+    .line 2454606
     move/from16 v0, p17
 
     iput-boolean v0, p0, LX/J26;->A0N:Z
 
-    .line 2454586
+    .line 2454607
     move-object/from16 v0, p15
 
     iput-object v0, p0, LX/J26;->A0F:Ljava/lang/String;
 
-    .line 2454587
+    .line 2454608
     move/from16 v0, p18
 
     iput-boolean v0, p0, LX/J26;->A0H:Z
 
-    .line 2454588
+    .line 2454609
     move/from16 v0, p19
 
     iput-boolean v0, p0, LX/J26;->A0J:Z
 
-    .line 2454589
+    .line 2454610
     move/from16 v0, p20
 
     iput-boolean v0, p0, LX/J26;->A0I:Z
 
-    .line 2454590
+    .line 2454611
     move/from16 v0, p21
 
     iput-boolean v0, p0, LX/J26;->A0K:Z
 
-    .line 2454591
+    .line 2454612
     move/from16 v0, p22
 
     iput-boolean v0, p0, LX/J26;->A0S:Z
 
-    .line 2454592
+    .line 2454613
     iput-object p3, p0, LX/J26;->A02:LX/5L5;
 
-    .line 2454593
+    .line 2454614
     iput-object p1, p0, LX/J26;->A00:LX/1gS;
 
-    .line 2454594
+    .line 2454615
     iput-object p2, p0, LX/J26;->A01:LX/1gS;
 
-    .line 2454595
+    .line 2454616
     move/from16 v0, p23
 
     iput-boolean v0, p0, LX/J26;->A0L:Z
 
-    .line 2454596
+    .line 2454617
     move/from16 v0, p24
 
     iput-boolean v0, p0, LX/J26;->A0M:Z
 
-    .line 2454597
+    .line 2454618
     move/from16 v0, p25
 
     iput-boolean v0, p0, LX/J26;->A0P:Z
 
-    .line 2454598
+    .line 2454619
     move/from16 v0, p26
 
     iput-boolean v0, p0, LX/J26;->A0O:Z
 
-    .line 2454599
+    .line 2454620
     move/from16 v0, p27
 
     iput-boolean v0, p0, LX/J26;->A0R:Z
 
-    .line 2454600
+    .line 2454621
     move/from16 v0, p28
 
     iput-boolean v0, p0, LX/J26;->A0Q:Z
 
-    .line 2454601
+    .line 2454622
     iget-object v0, p6, LX/2Vs;->A01:LX/1M5;
 
-    .line 2454602
+    .line 2454623
     const-string v1, "Required value was null."
 
     if-eqz v0, :cond_0
 
     iput-object v0, p0, LX/J26;->A0C:LX/1M5;
 
-    .line 2454603
+    .line 2454624
     iget-object v0, p9, LX/5KZ;->A04:LX/2KZ;
 
-    .line 2454604
+    .line 2454625
     if-eqz v0, :cond_0
 
     iput-object v0, p0, LX/J26;->A0D:LX/2KZ;
 
     return-void
 
-    .line 2454605
+    .line 2454626
     :cond_0
     invoke-static {v1}, LX/5Wd;->A0d(Ljava/lang/String;)Ljava/lang/IllegalStateException;
 
     move-result-object v0
 
-    .line 2454606
+    .line 2454627
     throw v0
 .end method
 

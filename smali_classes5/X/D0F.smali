@@ -303,7 +303,7 @@
     move-result-object v0
 
     .line 126
-    invoke-static {v1, v0, v4}, LX/Chg;->A0B(Landroidx/fragment/app/Fragment;LX/05m;Lcom/instagram/service/session/UserSession;)LX/3Ib;
+    invoke-static {v1, v0, v4}, LX/Chg;->A0A(Landroidx/fragment/app/Fragment;LX/05m;Lcom/instagram/service/session/UserSession;)LX/3Ib;
 
     .line 127
     .line 128
@@ -4539,7 +4539,7 @@
     .line 171
     .line 172
     .line 173
-    invoke-static {v3, v4}, LX/Chg;->A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/4Qd;)V
+    invoke-static {v3, v4}, LX/Chg;->A1I(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/4Qd;)V
 
     .line 174
     .line 175

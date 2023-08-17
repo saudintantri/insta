@@ -1448,7 +1448,7 @@
 
     .line 19
     .line 20
-    invoke-static {v7, v5}, LX/Chg;->A03(FF)F
+    invoke-static {v7, v5}, LX/Chh;->A00(FF)F
 
     .line 21
     .line 22
@@ -1761,7 +1761,7 @@
 
     .line 163
     :goto_3
-    invoke-static {v7, v4}, LX/Chg;->A03(FF)F
+    invoke-static {v7, v4}, LX/Chh;->A00(FF)F
 
     .line 164
     .line 165

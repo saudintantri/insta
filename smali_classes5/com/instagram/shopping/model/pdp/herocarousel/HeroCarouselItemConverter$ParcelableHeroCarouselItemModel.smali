@@ -135,63 +135,63 @@
 .method public constructor <init>(LX/Djf;)V
     .locals 1
 
-    .line 807304271
+    .line 807304292
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 807304272
+    .line 807304293
     iget-object v0, p1, LX/Djf;->A02:Ljava/lang/String;
 
-    .line 807304273
+    .line 807304294
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A05:Ljava/lang/String;
 
-    .line 807304274
+    .line 807304295
     iget-object v0, p1, LX/ER0;->A02:Ljava/lang/Integer;
 
-    .line 807304275
+    .line 807304296
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A02:Ljava/lang/Integer;
 
-    .line 807304276
+    .line 807304297
     iget-object v0, p1, LX/Djf;->A01:LX/1M5;
 
-    .line 807304277
+    .line 807304298
     iget-object v0, v0, LX/1M5;->A0d:LX/1MC;
 
-    .line 807304278
+    .line 807304299
     iget-object v0, v0, LX/1MC;->A3s:Ljava/lang/String;
 
-    .line 807304279
+    .line 807304300
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A09:Ljava/lang/String;
 
-    .line 807304280
+    .line 807304301
     iget-object v0, p1, LX/Djf;->A00:LX/1M5;
 
-    .line 807304281
+    .line 807304302
     iget-object v0, v0, LX/1M5;->A0d:LX/1MC;
 
-    .line 807304282
+    .line 807304303
     iget-object v0, v0, LX/1MC;->A3s:Ljava/lang/String;
 
-    .line 807304283
+    .line 807304304
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A08:Ljava/lang/String;
 
     const/4 v0, 0x0
 
-    .line 807304284
+    .line 807304305
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A00:Lcom/instagram/model/mediasize/ImageInfo;
 
-    .line 807304285
+    .line 807304306
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A06:Ljava/lang/String;
 
-    .line 807304286
+    .line 807304307
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A04:Ljava/lang/String;
 
-    .line 807304287
+    .line 807304308
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A03:Ljava/lang/String;
 
-    .line 807304288
+    .line 807304309
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A01:Lcom/instagram/model/shopping/ProductArEffectMetadata;
 
-    .line 807304289
+    .line 807304310
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A07:Ljava/lang/String;
 
     return-void
@@ -200,57 +200,57 @@
 .method public constructor <init>(LX/Djg;)V
     .locals 1
 
-    .line 1075739967
+    .line 1075739988
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1075739968
+    .line 1075739989
     iget-object v0, p1, LX/Djg;->A02:Ljava/lang/String;
 
-    .line 1075739969
+    .line 1075739990
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A05:Ljava/lang/String;
 
-    .line 1075739970
+    .line 1075739991
     iget-object v0, p1, LX/ER0;->A02:Ljava/lang/Integer;
 
-    .line 1075739971
+    .line 1075739992
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A02:Ljava/lang/Integer;
 
-    .line 1075739972
+    .line 1075739993
     iget-object v0, p1, LX/Djg;->A00:LX/1M5;
 
-    .line 1075739973
+    .line 1075739994
     iget-object v0, v0, LX/1M5;->A0d:LX/1MC;
 
-    .line 1075739974
+    .line 1075739995
     iget-object v0, v0, LX/1MC;->A3s:Ljava/lang/String;
 
-    .line 1075739975
+    .line 1075739996
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A09:Ljava/lang/String;
 
-    .line 1075739976
+    .line 1075739997
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A08:Ljava/lang/String;
 
     const/4 v0, 0x0
 
-    .line 1075739977
+    .line 1075739998
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A00:Lcom/instagram/model/mediasize/ImageInfo;
 
-    .line 1075739978
+    .line 1075739999
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A06:Ljava/lang/String;
 
-    .line 1075739979
+    .line 1075740000
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A04:Ljava/lang/String;
 
-    .line 1075739980
+    .line 1075740001
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A03:Ljava/lang/String;
 
-    .line 1075739981
+    .line 1075740002
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A01:Lcom/instagram/model/shopping/ProductArEffectMetadata;
 
-    .line 1075739982
+    .line 1075740003
     iget-object v0, p1, LX/Djg;->A01:Lcom/instagram/model/reels/Reel;
 
-    .line 1075739983
+    .line 1075740004
     invoke-virtual {v0}, Lcom/instagram/model/reels/Reel;->getId()Ljava/lang/String;
 
     move-result-object v0
@@ -263,60 +263,60 @@
 .method public constructor <init>(LX/Dji;)V
     .locals 2
 
-    .line 1344175503
+    .line 1344175524
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1344175504
+    .line 1344175525
     iget-object v0, p1, LX/Dji;->A02:Ljava/lang/String;
 
-    .line 1344175505
+    .line 1344175526
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A05:Ljava/lang/String;
 
-    .line 1344175506
+    .line 1344175527
     iget-object v0, p1, LX/ER0;->A02:Ljava/lang/Integer;
 
-    .line 1344175507
+    .line 1344175528
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A02:Ljava/lang/Integer;
 
     const/4 v1, 0x0
 
-    .line 1344175508
+    .line 1344175529
     iput-object v1, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A09:Ljava/lang/String;
 
-    .line 1344175509
+    .line 1344175530
     iput-object v1, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A08:Ljava/lang/String;
 
-    .line 1344175510
+    .line 1344175531
     iget-object v0, p1, LX/Dji;->A00:Lcom/instagram/model/mediasize/ImageInfo;
 
-    .line 1344175511
+    .line 1344175532
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A00:Lcom/instagram/model/mediasize/ImageInfo;
 
-    .line 1344175512
+    .line 1344175533
     iget-object v0, p1, LX/Dji;->A03:Ljava/lang/String;
 
-    .line 1344175513
+    .line 1344175534
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A06:Ljava/lang/String;
 
-    .line 1344175514
+    .line 1344175535
     iget-object v0, p1, LX/Dji;->A06:Ljava/lang/String;
 
-    .line 1344175515
+    .line 1344175536
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A04:Ljava/lang/String;
 
-    .line 1344175516
+    .line 1344175537
     iget-object v0, p1, LX/Dji;->A05:Ljava/lang/String;
 
-    .line 1344175517
+    .line 1344175538
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A03:Ljava/lang/String;
 
-    .line 1344175518
+    .line 1344175539
     iget-object v0, p1, LX/Dji;->A01:Lcom/instagram/model/shopping/ProductArEffectMetadata;
 
-    .line 1344175519
+    .line 1344175540
     iput-object v0, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A01:Lcom/instagram/model/shopping/ProductArEffectMetadata;
 
-    .line 1344175520
+    .line 1344175541
     iput-object v1, p0, Lcom/instagram/shopping/model/pdp/herocarousel/HeroCarouselItemConverter$ParcelableHeroCarouselItemModel;->A07:Ljava/lang/String;
 
     return-void

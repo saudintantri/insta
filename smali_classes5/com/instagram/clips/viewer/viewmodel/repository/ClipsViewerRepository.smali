@@ -213,7 +213,7 @@
 
     .line 54
     .line 55
-    invoke-static {p0, v0}, LX/Chg;->A0D(Ljava/lang/Object;I)Lcom/facebook/redex/IDxFCollectorShape156S0100000_4_I1;
+    invoke-static {p0, v0}, LX/Chg;->A0C(Ljava/lang/Object;I)Lcom/facebook/redex/IDxFCollectorShape156S0100000_4_I1;
 
     .line 56
     .line 57
@@ -247,7 +247,7 @@
     .line 70
     .line 71
     :cond_3
-    invoke-static {}, LX/Chg;->A0v()LX/8xM;
+    invoke-static {}, LX/Chg;->A0u()LX/8xM;
 
     .line 72
     .line 73

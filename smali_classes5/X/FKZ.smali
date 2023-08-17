@@ -169,7 +169,7 @@
 
     .line 31
     .line 32
-    invoke-static {v1}, LX/Chf;->A0s(Lcom/instagram/user/model/User;)Ljava/lang/Throwable;
+    invoke-static {v1}, LX/Chf;->A0t(Lcom/instagram/user/model/User;)Ljava/lang/Throwable;
 
     .line 33
     .line 34
@@ -461,7 +461,7 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0, p3}, LX/Chg;->A14(Landroid/os/BaseBundle;Ljava/lang/String;)V
+    invoke-static {v0, p3}, LX/Chg;->A13(Landroid/os/BaseBundle;Ljava/lang/String;)V
 
     .line 8
     .line 9

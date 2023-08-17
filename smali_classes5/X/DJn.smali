@@ -1700,7 +1700,7 @@
     .line 79
     .line 80
     .line 81
-    invoke-static {v6, v9}, LX/Chh;->A0O(LX/1M5;Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
+    invoke-static {v6, v9}, LX/Chh;->A0P(LX/1M5;Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
 
     .line 82
     .line 83
@@ -2005,7 +2005,7 @@
 
     .line 127
     .line 128
-    invoke-static {v1, v0}, LX/Chf;->A1A(Landroidx/recyclerview/widget/GridLayoutManager;LX/6GL;)V
+    invoke-static {v1, v0}, LX/Chf;->A1B(Landroidx/recyclerview/widget/GridLayoutManager;LX/6GL;)V
 
     .line 129
     .line 130

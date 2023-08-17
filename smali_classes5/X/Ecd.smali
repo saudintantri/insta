@@ -700,7 +700,7 @@
     .line 299
     .line 300
     .line 301
-    invoke-static {v4}, LX/Chf;->A0O(Landroid/view/View;)LX/2gw;
+    invoke-static {v4}, LX/Chf;->A0P(Landroid/view/View;)LX/2gw;
 
     .line 302
     .line 303
@@ -1848,7 +1848,7 @@
     move-result-object v0
 
     .line 891
-    invoke-static {v0}, LX/Chh;->A0P(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
+    invoke-static {v0}, LX/Chh;->A0Q(Lcom/instagram/video/live/mvvm/model/repository/core/IgLiveBroadcastInfoManager;)LX/5hr;
 
     .line 892
     .line 893

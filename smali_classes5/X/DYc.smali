@@ -15,7 +15,7 @@
     move-object v3, p3
 
     .line 1
-    invoke-static {p3}, LX/Che;->A0D(Lcom/instagram/service/session/UserSession;)LX/38H;
+    invoke-static {p3}, LX/Che;->A0E(Lcom/instagram/service/session/UserSession;)LX/38H;
 
     .line 2
     .line 3
@@ -149,7 +149,7 @@
     move-result-object v2
 
     .line 32
-    invoke-static {v0, v1}, LX/Che;->A08(J)LX/2E0;
+    invoke-static {v0, v1}, LX/Che;->A09(J)LX/2E0;
 
     .line 33
     .line 34
@@ -352,7 +352,7 @@
     move-result-object v2
 
     .line 32
-    invoke-static {v0, v1}, LX/Che;->A08(J)LX/2E0;
+    invoke-static {v0, v1}, LX/Che;->A09(J)LX/2E0;
 
     .line 33
     .line 34

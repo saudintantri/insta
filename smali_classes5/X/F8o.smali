@@ -314,7 +314,7 @@
     .line 36
     .line 37
     :goto_0
-    invoke-static {v0}, LX/Chh;->A00(I)I
+    invoke-static {v0}, LX/Chh;->A01(I)I
 
     .line 38
     .line 39

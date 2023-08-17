@@ -125,7 +125,7 @@
     .line 48
     .line 49
     .line 50
-    invoke-static {v1, v3}, LX/Chg;->A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/4Qd;)V
+    invoke-static {v1, v3}, LX/Chg;->A1I(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/4Qd;)V
 
     .line 51
     .line 52

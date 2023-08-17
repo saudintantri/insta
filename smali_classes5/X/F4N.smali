@@ -146,7 +146,7 @@
 
     .line 18
     .line 19
-    invoke-static {v3, v0, v2, v1, p1}, LX/Chi;->A0S(Landroid/app/Activity;LX/0YK;Lcom/instagram/service/session/UserSession;Ljava/lang/String;Ljava/lang/String;)LX/1Ks;
+    invoke-static {v3, v0, v2, v1, p1}, LX/Chi;->A0T(Landroid/app/Activity;LX/0YK;Lcom/instagram/service/session/UserSession;Ljava/lang/String;Ljava/lang/String;)LX/1Ks;
 
     .line 20
     .line 21

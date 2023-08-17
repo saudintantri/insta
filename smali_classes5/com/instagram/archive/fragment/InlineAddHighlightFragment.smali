@@ -380,7 +380,7 @@
     move-result-object v0
 
     .line 49
-    invoke-static {v0, v5}, LX/Che;->A05(Landroid/content/Context;I)Landroid/graphics/drawable/ColorDrawable;
+    invoke-static {v0, v5}, LX/Che;->A06(Landroid/content/Context;I)Landroid/graphics/drawable/ColorDrawable;
 
     .line 50
     .line 51
@@ -405,7 +405,7 @@
     move-result-object v0
 
     .line 62
-    invoke-static {v0, v4}, LX/Che;->A05(Landroid/content/Context;I)Landroid/graphics/drawable/ColorDrawable;
+    invoke-static {v0, v4}, LX/Che;->A06(Landroid/content/Context;I)Landroid/graphics/drawable/ColorDrawable;
 
     .line 63
     .line 64

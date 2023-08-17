@@ -507,7 +507,7 @@
 
     .line 223
     :cond_a
-    invoke-static {v1, v5}, LX/Chj;->A0g(Landroidx/fragment/app/Fragment;I)V
+    invoke-static {v1, v5}, LX/Chj;->A0f(Landroidx/fragment/app/Fragment;I)V
 
     .line 224
     .line 225
@@ -762,7 +762,7 @@
 
     .line 343
     .line 344
-    invoke-static {v1, v4}, LX/Chj;->A0g(Landroidx/fragment/app/Fragment;I)V
+    invoke-static {v1, v4}, LX/Chj;->A0f(Landroidx/fragment/app/Fragment;I)V
 
     .line 345
     .line 346

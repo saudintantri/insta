@@ -740,7 +740,7 @@
 
     .line 261
     .line 262
-    invoke-static {v2, v1}, LX/Chg;->A1V(LX/19z;Ljava/util/Iterator;)V
+    invoke-static {v2, v1}, LX/Chg;->A1U(LX/19z;Ljava/util/Iterator;)V
 
     .line 263
     .line 264
@@ -1433,7 +1433,7 @@
 
     .line 610
     .line 611
-    invoke-static {v2, v3}, LX/Chg;->A0D(Ljava/lang/Object;I)Lcom/facebook/redex/IDxFCollectorShape156S0100000_4_I1;
+    invoke-static {v2, v3}, LX/Chg;->A0C(Ljava/lang/Object;I)Lcom/facebook/redex/IDxFCollectorShape156S0100000_4_I1;
 
     .line 612
     .line 613

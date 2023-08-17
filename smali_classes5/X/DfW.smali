@@ -88,7 +88,7 @@
 
     .line 29
     .line 30
-    const v0, 0x7f070120
+    const v0, 0x7f07011a
 
     .line 31
     .line 32

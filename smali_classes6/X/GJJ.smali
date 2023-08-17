@@ -200,112 +200,112 @@
 .method public constructor <init>(Lcom/instagram/common/typedurl/ImageUrl;IIZZZZZZZZZZZZZZZZZZZZZZZZ)V
     .locals 1
 
-    .line 2101881
+    .line 2101902
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 2101882
+    .line 2101903
     iput-boolean p4, p0, LX/GJJ;->A0Q:Z
 
-    .line 2101883
+    .line 2101904
     iput-boolean p5, p0, LX/GJJ;->A0C:Z
 
-    .line 2101884
+    .line 2101905
     iput-boolean p6, p0, LX/GJJ;->A0L:Z
 
-    .line 2101885
+    .line 2101906
     iput-boolean p7, p0, LX/GJJ;->A0F:Z
 
-    .line 2101886
+    .line 2101907
     iput p2, p0, LX/GJJ;->A00:I
 
-    .line 2101887
+    .line 2101908
     iput-boolean p8, p0, LX/GJJ;->A06:Z
 
-    .line 2101888
+    .line 2101909
     iput-boolean p9, p0, LX/GJJ;->A03:Z
 
-    .line 2101889
+    .line 2101910
     iput-boolean p10, p0, LX/GJJ;->A09:Z
 
-    .line 2101890
+    .line 2101911
     iput-boolean p11, p0, LX/GJJ;->A08:Z
 
-    .line 2101891
+    .line 2101912
     iput-boolean p12, p0, LX/GJJ;->A0A:Z
 
-    .line 2101892
+    .line 2101913
     iput-boolean p13, p0, LX/GJJ;->A05:Z
 
-    .line 2101893
+    .line 2101914
     iput-boolean p14, p0, LX/GJJ;->A04:Z
 
-    .line 2101894
+    .line 2101915
     move/from16 v0, p15
 
     iput-boolean v0, p0, LX/GJJ;->A0I:Z
 
-    .line 2101895
+    .line 2101916
     move/from16 v0, p16
 
     iput-boolean v0, p0, LX/GJJ;->A0N:Z
 
-    .line 2101896
+    .line 2101917
     move/from16 v0, p17
 
     iput-boolean v0, p0, LX/GJJ;->A0B:Z
 
-    .line 2101897
+    .line 2101918
     move/from16 v0, p18
 
     iput-boolean v0, p0, LX/GJJ;->A0K:Z
 
-    .line 2101898
+    .line 2101919
     move/from16 v0, p19
 
     iput-boolean v0, p0, LX/GJJ;->A0H:Z
 
-    .line 2101899
+    .line 2101920
     move/from16 v0, p20
 
     iput-boolean v0, p0, LX/GJJ;->A0E:Z
 
-    .line 2101900
+    .line 2101921
     move/from16 v0, p21
 
     iput-boolean v0, p0, LX/GJJ;->A0D:Z
 
-    .line 2101901
+    .line 2101922
     move/from16 v0, p22
 
     iput-boolean v0, p0, LX/GJJ;->A0O:Z
 
-    .line 2101902
+    .line 2101923
     move/from16 v0, p23
 
     iput-boolean v0, p0, LX/GJJ;->A0P:Z
 
-    .line 2101903
+    .line 2101924
     move/from16 v0, p24
 
     iput-boolean v0, p0, LX/GJJ;->A0M:Z
 
-    .line 2101904
+    .line 2101925
     iput p3, p0, LX/GJJ;->A01:I
 
-    .line 2101905
+    .line 2101926
     move/from16 v0, p25
 
     iput-boolean v0, p0, LX/GJJ;->A0G:Z
 
-    .line 2101906
+    .line 2101927
     iput-object p1, p0, LX/GJJ;->A02:Lcom/instagram/common/typedurl/ImageUrl;
 
-    .line 2101907
+    .line 2101928
     move/from16 v0, p26
 
     iput-boolean v0, p0, LX/GJJ;->A0J:Z
 
-    .line 2101908
+    .line 2101929
     move/from16 v0, p27
 
     iput-boolean v0, p0, LX/GJJ;->A07:Z

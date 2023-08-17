@@ -57,6 +57,8 @@
     .line 24
     long-to-int v0, v2
 
+    const v0, 0xea60
+
     .line 25
     return v0
 
@@ -114,6 +116,8 @@
     .line 19
     .line 20
     move-result v0
+
+    const/4 v0, 0x1
 
     .line 21
     return v0

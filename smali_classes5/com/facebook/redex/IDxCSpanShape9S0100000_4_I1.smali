@@ -202,7 +202,7 @@
     move-result-object v0
 
     .line 82
-    invoke-static {v0}, LX/Chf;->A0J(LX/6cT;)Landroid/os/Bundle;
+    invoke-static {v0}, LX/Chf;->A0K(LX/6cT;)Landroid/os/Bundle;
 
     .line 83
     .line 84
@@ -218,7 +218,7 @@
     move-result-object v0
 
     .line 90
-    invoke-static {v0, v1, v5, v3, v2}, LX/Chi;->A0u(Landroid/app/Activity;Landroid/os/Bundle;Landroidx/fragment/app/Fragment;LX/0SF;Ljava/lang/Class;)V
+    invoke-static {v0, v1, v5, v3, v2}, LX/Chi;->A0w(Landroid/app/Activity;Landroid/os/Bundle;Landroidx/fragment/app/Fragment;LX/0SF;Ljava/lang/Class;)V
 
     .line 91
     .line 92

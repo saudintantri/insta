@@ -27,7 +27,7 @@
 
     .line 6
     .line 7
-    invoke-static {p1, v0}, LX/Chg;->A0y(Ljava/lang/Object;I)Lkotlin/jvm/internal/KtLambdaShape56S0100000_I1_37;
+    invoke-static {p1, v0}, LX/Chg;->A0x(Ljava/lang/Object;I)Lkotlin/jvm/internal/KtLambdaShape56S0100000_I1_37;
 
     .line 8
     .line 9
@@ -51,7 +51,7 @@
 
     .line 18
     .line 19
-    invoke-static {p1, v0}, LX/Chg;->A0y(Ljava/lang/Object;I)Lkotlin/jvm/internal/KtLambdaShape56S0100000_I1_37;
+    invoke-static {p1, v0}, LX/Chg;->A0x(Ljava/lang/Object;I)Lkotlin/jvm/internal/KtLambdaShape56S0100000_I1_37;
 
     .line 20
     .line 21

@@ -739,7 +739,7 @@
     move-result v9
 
     .line 87
-    const v0, 0x7f0700f6
+    const v0, 0x7f070031
 
     .line 88
     .line 89

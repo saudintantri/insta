@@ -12,7 +12,7 @@
     .locals 1
 
     .line 0
-    invoke-static {p2}, LX/Che;->A0D(Lcom/instagram/service/session/UserSession;)LX/38H;
+    invoke-static {p2}, LX/Che;->A0E(Lcom/instagram/service/session/UserSession;)LX/38H;
 
     .line 1
     .line 2
@@ -129,7 +129,7 @@
     move-result-object v11
 
     .line 38
-    invoke-static {v3, v4}, LX/Che;->A08(J)LX/2E0;
+    invoke-static {v3, v4}, LX/Che;->A09(J)LX/2E0;
 
     .line 39
     .line 40
@@ -297,7 +297,7 @@
     move-result-object v11
 
     .line 38
-    invoke-static {v3, v4}, LX/Che;->A08(J)LX/2E0;
+    invoke-static {v3, v4}, LX/Che;->A09(J)LX/2E0;
 
     .line 39
     .line 40

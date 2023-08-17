@@ -671,7 +671,7 @@
     .locals 2
 
     .line 805306368
-    invoke-static {p2, p4}, LX/Chh;->A06(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
+    invoke-static {p2, p4}, LX/Chh;->A07(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
 
     .line 805306369
     .line 805306370
@@ -679,7 +679,7 @@
     move-result-object v1
 
     .line 805306372
-    invoke-static {p4, p3}, LX/Chh;->A02(II)I
+    invoke-static {p4, p3}, LX/Chh;->A03(II)I
 
     .line 805306373
     .line 805306374
@@ -1489,7 +1489,7 @@
 
     .line 95
     .line 96
-    invoke-static {v1, v0}, LX/Chg;->A03(FF)F
+    invoke-static {v1, v0}, LX/Chh;->A00(FF)F
 
     .line 97
     .line 98

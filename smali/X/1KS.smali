@@ -2045,7 +2045,7 @@
 .end method
 
 .method public onBody(Ljava/nio/ByteBuffer;)V
-    .locals 5
+    .locals 8
 
     .line 0
     const/4 v4, 0x0
@@ -2053,10 +2053,36 @@
     .line 1
     invoke-static {p1, v4}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2
-    .line 3
-    .line 4
     :try_start_0
+    move-object v7, p1
+
+    iget-object v5, p0, LX/1KS;->A0B:Lcom/facebook/tigon/iface/TigonRequest;
+
+    invoke-interface {v5}, Lcom/facebook/tigon/iface/TigonRequest;->url()Ljava/lang/String;
+
+    move-result-object v5
+
+    const-string v6, "/feed/timeline/"
+
+    invoke-virtual {v5, v6}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v5
+
+    if-eqz v5, :cond_0
+
+    const-string v6, "disable_suggested_posts"
+
+    invoke-static {v6}, Lcom/dfinstagram/dfinstagram;->getBoolTrueEz(Ljava/lang/String;)Z
+
+    move-result v5
+
+    if-eqz v5, :cond_0
+
+    invoke-static {v7}, Lcom/dfinstagram/hooks;->modifyTigonBuffer(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+
+    move-result-object v7
+
+    :cond_0
     iget-boolean v0, p0, LX/1KS;->A04:Z
 
     .line 5
@@ -2064,7 +2090,7 @@
     const/4 v3, 0x1
 
     .line 7
-    if-nez v0, :cond_0
+    if-nez v0, :cond_1
 
     .line 8
     .line 9
@@ -2090,12 +2116,12 @@
 
     .line 20
     .line 21
-    :cond_0
+    :cond_1
     iget v1, p0, LX/1KS;->A02:I
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Ljava/nio/Buffer;->remaining()I
+    invoke-virtual {v7}, Ljava/nio/Buffer;->remaining()I
 
     .line 24
     .line 25
@@ -2114,11 +2140,11 @@
 
     .line 31
     .line 32
-    if-eqz v0, :cond_1
+    if-eqz v0, :cond_2
 
     .line 33
     .line 34
-    invoke-virtual {p1}, Ljava/nio/Buffer;->remaining()I
+    invoke-virtual {v7}, Ljava/nio/Buffer;->remaining()I
 
     .line 35
     .line 36
@@ -2130,7 +2156,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {p1, v2}, Ljava/nio/ByteBuffer;->get([B)Ljava/nio/ByteBuffer;
+    invoke-virtual {v7, v2}, Ljava/nio/ByteBuffer;->get([B)Ljava/nio/ByteBuffer;
 
     .line 41
     .line 42
@@ -2139,7 +2165,7 @@
 
     .line 44
     .line 45
-    if-eqz v1, :cond_2
+    if-eqz v1, :cond_3
 
     .line 46
     .line 47
@@ -2193,7 +2219,7 @@
     throw v0
 
     .line 66
-    :cond_1
+    :cond_2
     const/16 v3, 0x1000
 
     .line 67
@@ -2207,7 +2233,7 @@
 
     .line 72
     :goto_0
-    invoke-virtual {p1}, Ljava/nio/Buffer;->hasRemaining()Z
+    invoke-virtual {v7}, Ljava/nio/Buffer;->hasRemaining()Z
 
     .line 73
     .line 74
@@ -2215,11 +2241,11 @@
     move-result v0
 
     .line 76
-    if-eqz v0, :cond_2
+    if-eqz v0, :cond_3
 
     .line 77
     .line 78
-    invoke-virtual {p1}, Ljava/nio/Buffer;->remaining()I
+    invoke-virtual {v7}, Ljava/nio/Buffer;->remaining()I
 
     .line 79
     .line 80
@@ -2248,7 +2274,7 @@
     move-result-object v0
 
     .line 93
-    invoke-virtual {p1, v0, v4, v1}, Ljava/nio/ByteBuffer;->get([BII)Ljava/nio/ByteBuffer;
+    invoke-virtual {v7, v0, v4, v1}, Ljava/nio/ByteBuffer;->get([BII)Ljava/nio/ByteBuffer;
 
     .line 94
     .line 95
@@ -2288,7 +2314,7 @@
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
     .line 113
-    :cond_2
+    :cond_3
     :goto_1
     iget-object v0, p0, LX/1KS;->A0A:Lcom/facebook/tigon/TigonXplatService;
 

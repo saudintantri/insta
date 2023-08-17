@@ -42,7 +42,7 @@
     move-result v0
 
     .line 16
-    invoke-static {v2, v0}, LX/Che;->A04(II)Landroid/animation/ValueAnimator;
+    invoke-static {v2, v0}, LX/Che;->A05(II)Landroid/animation/ValueAnimator;
 
     .line 17
     .line 18
@@ -74,7 +74,7 @@
     move-result v0
 
     .line 32
-    invoke-static {v2, v0}, LX/Che;->A04(II)Landroid/animation/ValueAnimator;
+    invoke-static {v2, v0}, LX/Che;->A05(II)Landroid/animation/ValueAnimator;
 
     .line 33
     .line 34

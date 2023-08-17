@@ -198,7 +198,7 @@
     const/4 v0, 0x0
 
     .line 60
-    invoke-static {v5, v2, v3, v1, v0}, LX/Chj;->A0h(Landroidx/fragment/app/Fragment;Ljava/lang/String;Ljava/util/ArrayList;ZZ)V
+    invoke-static {v5, v2, v3, v1, v0}, LX/Chj;->A0g(Landroidx/fragment/app/Fragment;Ljava/lang/String;Ljava/util/ArrayList;ZZ)V
 
     .line 61
     .line 62
@@ -303,7 +303,7 @@
     move-result-object v0
 
     .line 112
-    invoke-static {v0, v2, v3}, LX/Chi;->A0t(Landroid/app/Activity;Landroid/content/Intent;Landroidx/fragment/app/Fragment;)V
+    invoke-static {v0, v2, v3}, LX/Chi;->A0v(Landroid/app/Activity;Landroid/content/Intent;Landroidx/fragment/app/Fragment;)V
 
     .line 113
     .line 114

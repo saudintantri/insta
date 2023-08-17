@@ -919,7 +919,7 @@
 
     .line 61
     .line 62
-    invoke-static {v2, v1}, LX/Chg;->A1V(LX/19z;Ljava/util/Iterator;)V
+    invoke-static {v2, v1}, LX/Chg;->A1U(LX/19z;Ljava/util/Iterator;)V
 
     .line 63
     .line 64
@@ -1181,7 +1181,7 @@
     move-result v0
 
     .line 48
-    invoke-static {v1, v0}, LX/Chg;->A1O(LX/06L;I)V
+    invoke-static {v1, v0}, LX/Chg;->A1N(LX/06L;I)V
 
     .line 49
     .line 50
@@ -1803,7 +1803,7 @@
     .line 183
     .line 184
     .line 185
-    invoke-static {v2, v0, v8}, LX/Chg;->A1A(LX/0AX;LX/25W;Ljava/lang/String;)V
+    invoke-static {v2, v0, v8}, LX/Chg;->A19(LX/0AX;LX/25W;Ljava/lang/String;)V
 
     .line 186
     .line 187
@@ -5259,7 +5259,7 @@
     .line 11
     .line 12
     .line 13
-    invoke-static {p0}, LX/Chf;->A0b(Landroidx/fragment/app/Fragment;)LX/2Br;
+    invoke-static {p0}, LX/Chf;->A0d(Landroidx/fragment/app/Fragment;)LX/2Br;
 
     .line 14
     .line 15
@@ -5502,7 +5502,7 @@
 
     .line 58
     .line 59
-    invoke-static {v0}, LX/Chh;->A04(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
+    invoke-static {v0}, LX/Chh;->A05(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
 
     .line 60
     .line 61

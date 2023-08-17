@@ -160,7 +160,7 @@
     .line 39
     .line 40
     .line 41
-    invoke-static {v2}, LX/Chg;->A0s(Landroid/location/Location;)Ljava/lang/String;
+    invoke-static {v2}, LX/Chg;->A0q(Landroid/location/Location;)Ljava/lang/String;
 
     .line 42
     .line 43
@@ -177,7 +177,7 @@
     .line 48
     .line 49
     .line 50
-    invoke-static {v2}, LX/Chg;->A0r(Landroid/location/Location;)Ljava/lang/String;
+    invoke-static {v2}, LX/Chg;->A0p(Landroid/location/Location;)Ljava/lang/String;
 
     .line 51
     .line 52

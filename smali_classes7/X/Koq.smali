@@ -2288,9 +2288,7 @@
     invoke-direct {v14, v0, v15}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
     :try_end_e
     .catch Ljava/lang/RuntimeException; {:try_start_e .. :try_end_e} :catch_1
-    .catch Ljava/lang/RuntimeException; {:try_start_e .. :try_end_e} :catch_2
     .catch Ljava/io/IOException; {:try_start_e .. :try_end_e} :catch_4
-    .catch Ljava/lang/RuntimeException; {:try_start_e .. :try_end_e} :catch_3
     .catchall {:try_start_e .. :try_end_e} :catchall_7
 
     .line 1111
@@ -2313,9 +2311,7 @@
     :try_end_f
     .catch Ljava/text/ParseException; {:try_start_f .. :try_end_f} :catch_0
     .catch Ljava/lang/RuntimeException; {:try_start_f .. :try_end_f} :catch_1
-    .catch Ljava/lang/RuntimeException; {:try_start_f .. :try_end_f} :catch_2
     .catch Ljava/io/IOException; {:try_start_f .. :try_end_f} :catch_4
-    .catch Ljava/lang/RuntimeException; {:try_start_f .. :try_end_f} :catch_3
     .catchall {:try_start_f .. :try_end_f} :catchall_7
 
     .line 1120
@@ -2385,9 +2381,7 @@
     invoke-virtual {v4}, Landroid/util/JsonReader;->endObject()V
     :try_end_10
     .catch Ljava/lang/RuntimeException; {:try_start_10 .. :try_end_10} :catch_1
-    .catch Ljava/lang/RuntimeException; {:try_start_10 .. :try_end_10} :catch_2
     .catch Ljava/io/IOException; {:try_start_10 .. :try_end_10} :catch_4
-    .catch Ljava/lang/RuntimeException; {:try_start_10 .. :try_end_10} :catch_3
     .catchall {:try_start_10 .. :try_end_10} :catchall_7
 
     .line 1150
@@ -2430,7 +2424,6 @@
     :try_end_11
     .catch Ljava/lang/RuntimeException; {:try_start_11 .. :try_end_11} :catch_2
     .catch Ljava/io/IOException; {:try_start_11 .. :try_end_11} :catch_4
-    .catch Ljava/lang/RuntimeException; {:try_start_11 .. :try_end_11} :catch_3
     .catchall {:try_start_11 .. :try_end_11} :catchall_7
 
     .line 1166
@@ -4080,7 +4073,6 @@
     invoke-interface {v14}, Ljava/io/Closeable;->close()V
     :try_end_1d
     .catch Ljava/io/IOException; {:try_start_1d .. :try_end_1d} :catch_a
-    .catch Ljava/io/IOException; {:try_start_1d .. :try_end_1d} :catch_f
     .catchall {:try_start_1d .. :try_end_1d} :catchall_4
 
     .line 1942
@@ -4091,7 +4083,6 @@
     invoke-interface {v13}, Ljava/io/Closeable;->close()V
     :try_end_1e
     .catch Ljava/io/IOException; {:try_start_1e .. :try_end_1e} :catch_b
-    .catch Ljava/io/IOException; {:try_start_1e .. :try_end_1e} :catch_f
     .catchall {:try_start_1e .. :try_end_1e} :catchall_4
 
     .line 1945
@@ -5166,7 +5157,6 @@
     invoke-interface {v14}, Ljava/io/Closeable;->close()V
     :try_end_21
     .catch Ljava/io/IOException; {:try_start_21 .. :try_end_21} :catch_c
-    .catch Ljava/io/IOException; {:try_start_21 .. :try_end_21} :catch_f
     .catchall {:try_start_21 .. :try_end_21} :catchall_4
 
     .line 2466
@@ -5186,7 +5176,6 @@
     goto :goto_27
     :try_end_22
     .catch Ljava/io/IOException; {:try_start_22 .. :try_end_22} :catch_d
-    .catch Ljava/io/IOException; {:try_start_22 .. :try_end_22} :catch_f
     .catchall {:try_start_22 .. :try_end_22} :catchall_4
 
     .line 2474

@@ -1309,10 +1309,10 @@
 
     invoke-static {v10, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2501251
+    .line 2501272
     iput-wide v2, p0, LX/J58;->A00:J
 
-    .line 2501252
+    .line 2501273
     iget-object v5, p0, LX/J58;->A08:LX/M35;
 
     invoke-interface {v5}, LX/M35;->Abq()Z
@@ -1323,15 +1323,15 @@
 
     if-eqz v0, :cond_0
 
-    .line 2501253
+    .line 2501274
     iget-object v0, p0, LX/J58;->A09:LX/FwH;
 
-    .line 2501254
+    .line 2501275
     iget-boolean v0, v0, LX/FwH;->A08:Z
 
     xor-int/lit8 v0, v0, 0x1
 
-    .line 2501255
+    .line 2501276
     const/4 v7, 0x1
 
     if-eqz v0, :cond_1
@@ -1339,64 +1339,64 @@
     :cond_0
     const/4 v7, 0x0
 
-    .line 2501256
+    .line 2501277
     :cond_1
     move/from16 v0, p5
 
     invoke-interface {v5, v0}, LX/M35;->D0W(F)V
 
-    .line 2501257
+    .line 2501278
     move/from16 v0, p6
 
     invoke-interface {v5, v0}, LX/M35;->D0X(F)V
 
-    .line 2501258
+    .line 2501279
     move/from16 v0, p7
 
     invoke-interface {v5, v0}, LX/M35;->Csn(F)V
 
-    .line 2501259
+    .line 2501280
     invoke-interface {v5, v6}, LX/M35;->D2B(F)V
 
-    .line 2501260
+    .line 2501281
     invoke-interface {v5, v6}, LX/M35;->D2C(F)V
 
-    .line 2501261
+    .line 2501282
     move/from16 v0, p10
 
     invoke-interface {v5, v0}, LX/M35;->Cvc(F)V
 
-    .line 2501262
+    .line 2501283
     invoke-static/range {p17 .. p18}, LX/3kD;->A01(J)I
 
     move-result v0
 
     invoke-interface {v5, v0}, LX/M35;->Csq(I)V
 
-    .line 2501263
+    .line 2501284
     invoke-static/range {p19 .. p20}, LX/3kD;->A01(J)I
 
     move-result v0
 
     invoke-interface {v5, v0}, LX/M35;->D1F(I)V
 
-    .line 2501264
+    .line 2501285
     move/from16 v0, p13
 
     invoke-interface {v5, v0}, LX/M35;->D0P(F)V
 
-    .line 2501265
+    .line 2501286
     invoke-interface {v5, v6}, LX/M35;->D0N(F)V
 
-    .line 2501266
+    .line 2501287
     invoke-interface {v5, v6}, LX/M35;->D0O(F)V
 
-    .line 2501267
+    .line 2501288
     move/from16 v0, p14
 
     invoke-interface {v5, v0}, LX/M35;->CtS(F)V
 
-    .line 2501268
+    .line 2501289
     const/16 v0, 0x20
 
     shr-long v0, p15, v0
@@ -1407,7 +1407,7 @@
 
     move-result v1
 
-    .line 2501269
+    .line 2501290
     invoke-interface {v5}, LX/M35;->getWidth()I
 
     move-result v0
@@ -1418,7 +1418,7 @@
 
     invoke-interface {v5, v1}, LX/M35;->Cz0(F)V
 
-    .line 2501270
+    .line 2501291
     const-wide v0, 0xffffffffL
 
     and-long v2, p15, v0
@@ -1429,7 +1429,7 @@
 
     move-result v1
 
-    .line 2501271
+    .line 2501292
     invoke-interface {v5}, LX/M35;->getHeight()I
 
     move-result v0
@@ -1440,15 +1440,15 @@
 
     invoke-interface {v5, v1}, LX/M35;->Cz1(F)V
 
-    .line 2501272
+    .line 2501293
     move-object/from16 v9, p2
 
     if-eqz p21, :cond_2
 
-    .line 2501273
+    .line 2501294
     sget-object v1, LX/3kF;->A00:LX/3kH;
 
-    .line 2501274
+    .line 2501295
     const/4 v0, 0x1
 
     if-ne v9, v1, :cond_3
@@ -1459,13 +1459,13 @@
     :cond_3
     invoke-interface {v5, v0}, LX/M35;->Ctu(Z)V
 
-    .line 2501275
+    .line 2501296
     if-eqz p21, :cond_4
 
-    .line 2501276
+    .line 2501297
     sget-object v1, LX/3kF;->A00:LX/3kH;
 
-    .line 2501277
+    .line 2501298
     const/4 v0, 0x1
 
     if-eq v9, v1, :cond_5
@@ -1476,52 +1476,52 @@
     :cond_5
     invoke-interface {v5, v0}, LX/M35;->Ctt(Z)V
 
-    .line 2501278
+    .line 2501299
     invoke-interface {v5, v8}, LX/M35;->D0A(LX/KIE;)V
 
-    .line 2501279
+    .line 2501300
     iget-object v8, p0, LX/J58;->A09:LX/FwH;
 
-    .line 2501280
+    .line 2501301
     invoke-interface {v5}, LX/M35;->AVF()F
 
     move-result v12
 
-    .line 2501281
+    .line 2501302
     invoke-interface {v5}, LX/M35;->Abq()Z
 
     move-result v14
 
-    .line 2501282
+    .line 2501303
     invoke-interface {v5}, LX/M35;->Aj8()F
 
     move-result v13
 
-    .line 2501283
+    .line 2501304
     invoke-virtual/range {v8 .. v14}, LX/FwH;->A04(LX/3kH;LX/3j6;LX/3oa;FFZ)Z
 
     move-result v1
 
-    .line 2501284
+    .line 2501305
     invoke-virtual {v8}, LX/FwH;->A01()Landroid/graphics/Outline;
 
     move-result-object v0
 
     invoke-interface {v5, v0}, LX/M35;->CyU(Landroid/graphics/Outline;)V
 
-    .line 2501285
+    .line 2501306
     invoke-interface {v5}, LX/M35;->Abq()Z
 
     move-result v0
 
     if-eqz v0, :cond_a
 
-    .line 2501286
+    .line 2501307
     iget-boolean v0, v8, LX/FwH;->A08:Z
 
     xor-int/lit8 v0, v0, 0x1
 
-    .line 2501287
+    .line 2501308
     if-nez v0, :cond_a
 
     :goto_0
@@ -1531,11 +1531,11 @@
 
     if-eqz v1, :cond_9
 
-    .line 2501288
+    .line 2501309
     :cond_6
     invoke-virtual {p0}, LX/J58;->invalidate()V
 
-    .line 2501289
+    .line 2501310
     :cond_7
     :goto_1
     iget-boolean v0, p0, LX/J58;->A04:Z
@@ -1550,33 +1550,33 @@
 
     if-lez v0, :cond_8
 
-    .line 2501290
+    .line 2501311
     iget-object v0, p0, LX/J58;->A02:LX/0Xg;
 
     if-eqz v0, :cond_8
 
     invoke-interface {v0}, LX/0Xg;->invoke()Ljava/lang/Object;
 
-    .line 2501291
+    .line 2501312
     :cond_8
     iget-object v1, p0, LX/J58;->A0B:LX/J59;
 
     const/4 v0, 0x1
 
-    .line 2501292
+    .line 2501313
     iput-boolean v0, v1, LX/J59;->A00:Z
 
-    .line 2501293
+    .line 2501314
     iput-boolean v0, v1, LX/J59;->A01:Z
 
-    .line 2501294
+    .line 2501315
     return-void
 
-    .line 2501295
+    .line 2501316
     :cond_9
     iget-object v1, p0, LX/J58;->A07:Landroidx/compose/ui/platform/AndroidComposeView;
 
-    .line 2501296
+    .line 2501317
     invoke-virtual {v1}, Landroidx/compose/ui/platform/AndroidComposeView;->getParent()Landroid/view/ViewParent;
 
     move-result-object v0
@@ -1587,7 +1587,7 @@
 
     goto :goto_1
 
-    .line 2501297
+    .line 2501318
     :cond_a
     const/4 v4, 0x0
 

@@ -142,7 +142,7 @@
 
     .line 38
     .line 39
-    invoke-static {v1}, LX/Chg;->A0Q(LX/01o;)Lcom/instagram/model/shopping/Product;
+    invoke-static {v1}, LX/Chg;->A0P(LX/01o;)Lcom/instagram/model/shopping/Product;
 
     .line 40
     .line 41
@@ -150,7 +150,7 @@
     move-result-object v0
 
     .line 43
-    invoke-static {v0}, LX/Chf;->A0n(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chf;->A0p(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     .line 44
     .line 45
@@ -174,7 +174,7 @@
 
     .line 54
     .line 55
-    invoke-static {v1}, LX/Chg;->A0Q(LX/01o;)Lcom/instagram/model/shopping/Product;
+    invoke-static {v1}, LX/Chg;->A0P(LX/01o;)Lcom/instagram/model/shopping/Product;
 
     .line 56
     .line 57
@@ -211,7 +211,7 @@
 
     .line 73
     :goto_0
-    invoke-static {v1}, LX/Chg;->A0Q(LX/01o;)Lcom/instagram/model/shopping/Product;
+    invoke-static {v1}, LX/Chg;->A0P(LX/01o;)Lcom/instagram/model/shopping/Product;
 
     .line 74
     .line 75

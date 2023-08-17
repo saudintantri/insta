@@ -46,7 +46,7 @@
 
     .line 8
     .line 9
-    invoke-static {p0, v0}, LX/Chf;->A0T(Ljava/lang/Object;I)LX/1F1;
+    invoke-static {p0, v0}, LX/Chf;->A0U(Ljava/lang/Object;I)LX/1F1;
 
     .line 10
     .line 11
@@ -62,7 +62,7 @@
 
     .line 16
     .line 17
-    invoke-static {p0, v0}, LX/Chf;->A0T(Ljava/lang/Object;I)LX/1F1;
+    invoke-static {p0, v0}, LX/Chf;->A0U(Ljava/lang/Object;I)LX/1F1;
 
     .line 18
     .line 19

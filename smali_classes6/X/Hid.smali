@@ -216,55 +216,55 @@
 .method public static A02(LX/FsB;LX/Hh7;LX/Hb8;Lcom/facebook/videolite/transcoder/base/composition/MediaComposition;ZZZZ)LX/Hh7;
     .locals 26
 
-    .line 2271818
+    .line 2271839
     sget-object v9, LX/Hh7;->A0M:Landroid/graphics/RectF;
 
-    .line 2271819
+    .line 2271840
     sget-object v19, LX/001;->A00:Ljava/lang/Integer;
 
-    .line 2271820
+    .line 2271841
     move-object/from16 v1, p1
 
     if-eqz p1, :cond_33
 
-    .line 2271821
+    .line 2271842
     iget v0, v1, LX/Hh7;->A05:I
 
     move/from16 v20, v0
 
-    .line 2271822
+    .line 2271843
     iget-object v9, v1, LX/Hh7;->A0D:Landroid/graphics/RectF;
 
-    .line 2271823
+    .line 2271844
     iget-object v0, v1, LX/Hh7;->A0G:Ljava/lang/Integer;
 
     move-object/from16 v19, v0
 
-    .line 2271824
+    .line 2271845
     iget-object v0, v1, LX/Hh7;->A0F:LX/Hce;
 
     move-object/from16 v17, v0
 
-    .line 2271825
+    .line 2271846
     iget v2, v1, LX/Hh7;->A00:F
 
-    .line 2271826
+    .line 2271847
     iget v0, v1, LX/Hh7;->A0C:I
 
     move/from16 v16, v0
 
-    .line 2271827
+    .line 2271848
     iget v0, v1, LX/Hh7;->A03:I
 
     move/from16 v18, v0
 
-    .line 2271828
+    .line 2271849
     iget-object v15, v1, LX/Hh7;->A0I:Ljava/util/List;
 
-    .line 2271829
+    .line 2271850
     if-eqz v15, :cond_0
 
-    .line 2271830
+    .line 2271851
     invoke-interface {v15}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -278,7 +278,7 @@
 
     sget-object v1, LX/3nv;->A04:LX/3nv;
 
-    .line 2271831
+    .line 2271852
     iget-object v0, v0, Lcom/facebook/videolite/transcoder/base/composition/MediaComposition;->A02:Ljava/util/HashMap;
 
     invoke-virtual {v0, v1}, Ljava/util/AbstractMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -289,18 +289,18 @@
 
     if-eqz v0, :cond_32
 
-    .line 2271832
+    .line 2271853
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_32
 
-    .line 2271833
+    .line 2271854
     :cond_1
     const/16 v22, 0x1
 
-    .line 2271834
+    .line 2271855
     :goto_0
     move-object/from16 v12, p0
 
@@ -314,12 +314,12 @@
 
     if-eq v14, v0, :cond_31
 
-    .line 2271835
+    .line 2271856
     iget v1, v12, LX/FsB;->A04:I
 
     move/from16 p0, v1
 
-    .line 2271836
+    .line 2271857
     iget v0, v12, LX/FsB;->A02:I
 
     move/from16 p1, v0
@@ -327,7 +327,7 @@
     :goto_1
     int-to-float v7, v1
 
-    .line 2271837
+    .line 2271858
     invoke-virtual {v9}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -336,7 +336,7 @@
 
     int-to-float v5, v0
 
-    .line 2271838
+    .line 2271859
     invoke-virtual {v9}, Landroid/graphics/RectF;->height()F
 
     move-result v0
@@ -355,7 +355,7 @@
 
     if-lez v10, :cond_30
 
-    .line 2271839
+    .line 2271860
     invoke-static {v2, v1}, LX/GxA;->A00(FF)Z
 
     move-result v10
@@ -373,7 +373,7 @@
     :goto_2
     const/4 v13, 0x1
 
-    .line 2271840
+    .line 2271861
     :goto_3
     move-object/from16 v10, p2
 
@@ -385,62 +385,62 @@
 
     if-le v0, v4, :cond_2a
 
-    .line 2271841
+    .line 2271862
     iget v1, v10, LX/Hb8;->A01:I
 
     if-le v0, v1, :cond_2a
 
-    .line 2271842
+    .line 2271863
     mul-int/2addr v4, v1
 
-    .line 2271843
+    .line 2271864
     div-int/2addr v4, v0
 
     move v0, v1
 
-    .line 2271844
+    .line 2271865
     :cond_2
     :goto_4
     iget-boolean v1, v10, LX/Hb8;->A03:Z
 
     if-eqz v1, :cond_3
 
-    .line 2271845
+    .line 2271866
     iget v1, v10, LX/Hb8;->A01:I
 
     if-le v0, v4, :cond_29
 
-    .line 2271846
+    .line 2271867
     if-ge v0, v1, :cond_3
 
-    .line 2271847
+    .line 2271868
     mul-int/2addr v4, v1
 
     div-int/2addr v4, v0
 
-    .line 2271848
+    .line 2271869
     move v0, v1
 
-    .line 2271849
+    .line 2271870
     :cond_3
     :goto_5
     if-eqz p4, :cond_27
 
-    .line 2271850
+    .line 2271871
     invoke-static {}, LX/Hid;->A00()Landroid/media/MediaCodecInfo$CodecCapabilities;
 
     move-result-object v2
 
     if-eqz v2, :cond_26
 
-    .line 2271851
+    .line 2271872
     invoke-virtual {v2}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v1
 
     if-eqz v1, :cond_26
 
-    .line 2271852
+    .line 2271873
     invoke-virtual {v2}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v1
@@ -449,7 +449,7 @@
 
     move-result v25
 
-    .line 2271853
+    .line 2271874
     :goto_6
     invoke-static {}, LX/Hid;->A00()Landroid/media/MediaCodecInfo$CodecCapabilities;
 
@@ -457,14 +457,14 @@
 
     if-eqz v2, :cond_28
 
-    .line 2271854
+    .line 2271875
     invoke-virtual {v2}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v1
 
     if-eqz v1, :cond_28
 
-    .line 2271855
+    .line 2271876
     invoke-virtual {v2}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v1
@@ -473,11 +473,11 @@
 
     move-result v24
 
-    .line 2271856
+    .line 2271877
     :goto_7
     if-nez p7, :cond_6
 
-    .line 2271857
+    .line 2271878
     rem-int v1, v0, v25
 
     if-eqz v1, :cond_4
@@ -500,7 +500,7 @@
 
     move v0, v2
 
-    .line 2271858
+    .line 2271879
     :cond_4
     rem-int v1, v4, v24
 
@@ -510,34 +510,34 @@
 
     add-int/2addr v4, v1
 
-    .line 2271859
+    .line 2271880
     :cond_5
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 2271860
+    .line 2271881
     invoke-static {v0, v4}, LX/FnC;->A0E(Ljava/lang/Object;I)Landroid/util/Pair;
 
     move-result-object v1
 
-    .line 2271861
+    .line 2271882
     iget-object v0, v1, Landroid/util/Pair;->first:Ljava/lang/Object;
 
-    .line 2271862
+    .line 2271883
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2271863
+    .line 2271884
     iget-object v1, v1, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    .line 2271864
+    .line 2271885
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v4
 
-    .line 2271865
+    .line 2271886
     :cond_6
     int-to-float v1, v0
 
@@ -547,7 +547,7 @@
 
     div-float v11, v2, v3
 
-    .line 2271866
+    .line 2271887
     iget v3, v9, Landroid/graphics/RectF;->left:F
 
     iget v6, v9, Landroid/graphics/RectF;->top:F
@@ -564,12 +564,12 @@
 
     add-float/2addr v2, v6
 
-    .line 2271867
+    .line 2271888
     invoke-static {v3, v6, v1, v2}, LX/FnA;->A0K(FFFF)Landroid/graphics/RectF;
 
     move-result-object v23
 
-    .line 2271868
+    .line 2271889
     if-eqz p5, :cond_23
 
     if-le v4, v0, :cond_23
@@ -586,27 +586,27 @@
 
     move v0, v1
 
-    .line 2271869
+    .line 2271890
     :cond_7
     :goto_8
     if-eqz p7, :cond_22
 
-    .line 2271870
+    .line 2271891
     invoke-static {}, LX/Hid;->A00()Landroid/media/MediaCodecInfo$CodecCapabilities;
 
     move-result-object v2
 
-    .line 2271871
+    .line 2271892
     if-eqz v2, :cond_21
 
-    .line 2271872
+    .line 2271893
     invoke-virtual {v2}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v1
 
     if-eqz v1, :cond_21
 
-    .line 2271873
+    .line 2271894
     invoke-virtual {v2}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v1
@@ -615,23 +615,23 @@
 
     move-result-object v22
 
-    .line 2271874
+    .line 2271895
     :goto_9
     invoke-static {}, LX/Hid;->A00()Landroid/media/MediaCodecInfo$CodecCapabilities;
 
     move-result-object v2
 
-    .line 2271875
+    .line 2271896
     if-eqz v2, :cond_20
 
-    .line 2271876
+    .line 2271897
     invoke-virtual {v2}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v1
 
     if-eqz v1, :cond_20
 
-    .line 2271877
+    .line 2271898
     invoke-virtual {v2}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v1
@@ -640,18 +640,18 @@
 
     move-result-object v21
 
-    .line 2271878
+    .line 2271899
     :goto_a
     new-instance v9, LX/Hh7;
 
     invoke-direct {v9}, LX/Hh7;-><init>()V
 
-    .line 2271879
+    .line 2271900
     invoke-static {}, LX/5Wd;->A0y()Ljava/lang/StringBuilder;
 
     move-result-object v7
 
-    .line 2271880
+    .line 2271901
     const-string v2, "getCorrectedResolution: Input targetWidth="
 
     const-string v1, " targetHeight = "
@@ -669,14 +669,14 @@
     :cond_8
     const-string v0, "getCorrectedResolution-1"
 
-    .line 2271881
+    .line 2271902
     invoke-virtual {v7, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v4, 0x500
 
     const/16 v0, 0x2d0
 
-    .line 2271882
+    .line 2271903
     :cond_9
     invoke-static {v0, v4}, LX/Hid;->A04(II)Z
 
@@ -684,7 +684,7 @@
 
     if-nez v1, :cond_a
 
-    .line 2271883
+    .line 2271904
     invoke-static {v4, v0}, LX/Hid;->A04(II)Z
 
     move-result v1
@@ -695,10 +695,10 @@
 
     const-string v1, "getCorrectedResolution-2"
 
-    .line 2271884
+    .line 2271905
     invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2271885
+    .line 2271906
     iput v8, v9, LX/Hh7;->A0A:I
 
     move v1, v4
@@ -710,12 +710,12 @@
     :cond_a
     const/4 v6, 0x1
 
-    .line 2271886
+    .line 2271907
     move v5, v0
 
     move v1, v4
 
-    .line 2271887
+    .line 2271908
     rem-int v2, v0, v25
 
     if-eqz v2, :cond_b
@@ -736,7 +736,7 @@
 
     float-to-int v1, v3
 
-    .line 2271888
+    .line 2271909
     :cond_b
     rem-int v2, v1, v24
 
@@ -746,18 +746,18 @@
 
     add-int/2addr v1, v2
 
-    .line 2271889
+    .line 2271910
     :cond_c
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
-    .line 2271890
+    .line 2271911
     invoke-static {v2, v1}, LX/FnC;->A0E(Ljava/lang/Object;I)Landroid/util/Pair;
 
     move-result-object v3
 
-    .line 2271891
+    .line 2271912
     invoke-static {v0, v4}, LX/Hid;->A04(II)Z
 
     move-result v1
@@ -766,20 +766,20 @@
 
     iget-object v1, v3, Landroid/util/Pair;->first:Ljava/lang/Object;
 
-    .line 2271892
+    .line 2271913
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v2
 
-    .line 2271893
+    .line 2271914
     iget-object v1, v3, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    .line 2271894
+    .line 2271915
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 2271895
+    .line 2271916
     invoke-static {v2, v1}, LX/Hid;->A04(II)Z
 
     move-result v1
@@ -788,26 +788,26 @@
 
     const-string v0, "getCorrectedResolution-3"
 
-    .line 2271896
+    .line 2271917
     invoke-virtual {v7, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2271897
+    .line 2271918
     iget-object v0, v3, Landroid/util/Pair;->first:Ljava/lang/Object;
 
-    .line 2271898
+    .line 2271919
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2271899
+    .line 2271920
     iget-object v1, v3, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    .line 2271900
+    .line 2271921
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v4
 
-    .line 2271901
+    .line 2271922
     :cond_d
     invoke-static {v0, v4}, LX/Hid;->A04(II)Z
 
@@ -817,20 +817,20 @@
 
     iget-object v1, v3, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    .line 2271902
+    .line 2271923
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v2
 
-    .line 2271903
+    .line 2271924
     iget-object v1, v3, Landroid/util/Pair;->first:Ljava/lang/Object;
 
-    .line 2271904
+    .line 2271925
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 2271905
+    .line 2271926
     invoke-static {v2, v1}, LX/Hid;->A04(II)Z
 
     move-result v1
@@ -841,35 +841,35 @@
 
     const-string v0, "getCorrectedResolution-4"
 
-    .line 2271906
+    .line 2271927
     invoke-virtual {v7, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2271907
+    .line 2271928
     iget-object v0, v3, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    .line 2271908
+    .line 2271929
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2271909
+    .line 2271930
     iget-object v1, v3, Landroid/util/Pair;->first:Ljava/lang/Object;
 
-    .line 2271910
+    .line 2271931
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v4
 
-    .line 2271911
+    .line 2271932
     iput v8, v9, LX/Hh7;->A0A:I
 
-    .line 2271912
+    .line 2271933
     :cond_e
     move v5, v0
 
     move v1, v4
 
-    .line 2271913
+    .line 2271934
     rem-int v2, v0, v25
 
     if-eqz v2, :cond_f
@@ -888,7 +888,7 @@
 
     float-to-int v1, v3
 
-    .line 2271914
+    .line 2271935
     :cond_f
     rem-int v2, v1, v24
 
@@ -896,18 +896,18 @@
 
     sub-int/2addr v1, v2
 
-    .line 2271915
+    .line 2271936
     :cond_10
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
-    .line 2271916
+    .line 2271937
     invoke-static {v2, v1}, LX/FnC;->A0E(Ljava/lang/Object;I)Landroid/util/Pair;
 
     move-result-object v3
 
-    .line 2271917
+    .line 2271938
     invoke-static {v0, v4}, LX/Hid;->A04(II)Z
 
     move-result v1
@@ -916,20 +916,20 @@
 
     iget-object v1, v3, Landroid/util/Pair;->first:Ljava/lang/Object;
 
-    .line 2271918
+    .line 2271939
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v2
 
-    .line 2271919
+    .line 2271940
     iget-object v1, v3, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    .line 2271920
+    .line 2271941
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 2271921
+    .line 2271942
     invoke-static {v2, v1}, LX/Hid;->A04(II)Z
 
     move-result v1
@@ -938,26 +938,26 @@
 
     const-string v0, "getCorrectedResolution-5"
 
-    .line 2271922
+    .line 2271943
     invoke-virtual {v7, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2271923
+    .line 2271944
     iget-object v0, v3, Landroid/util/Pair;->first:Ljava/lang/Object;
 
-    .line 2271924
+    .line 2271945
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2271925
+    .line 2271946
     iget-object v1, v3, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    .line 2271926
+    .line 2271947
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v4
 
-    .line 2271927
+    .line 2271948
     :cond_11
     invoke-static {v0, v4}, LX/Hid;->A04(II)Z
 
@@ -967,20 +967,20 @@
 
     iget-object v1, v3, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    .line 2271928
+    .line 2271949
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v2
 
-    .line 2271929
+    .line 2271950
     iget-object v1, v3, Landroid/util/Pair;->first:Ljava/lang/Object;
 
-    .line 2271930
+    .line 2271951
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 2271931
+    .line 2271952
     invoke-static {v2, v1}, LX/Hid;->A04(II)Z
 
     move-result v1
@@ -991,55 +991,55 @@
 
     const-string v0, "getCorrectedResolution-6"
 
-    .line 2271932
+    .line 2271953
     invoke-virtual {v7, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2271933
+    .line 2271954
     iget-object v0, v3, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    .line 2271934
+    .line 2271955
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2271935
+    .line 2271956
     iget-object v1, v3, Landroid/util/Pair;->first:Ljava/lang/Object;
 
-    .line 2271936
+    .line 2271957
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v4
 
-    .line 2271937
+    .line 2271958
     iput v8, v9, LX/Hh7;->A0A:I
 
-    .line 2271938
+    .line 2271959
     :cond_12
     invoke-static {v4, v0}, LX/5We;->A1N(II)Z
 
     move-result v3
 
-    .line 2271939
+    .line 2271960
     invoke-virtual/range {v21 .. v21}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
 
     move-result-object v1
 
-    .line 2271940
+    .line 2271961
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v2
 
-    .line 2271941
+    .line 2271962
     invoke-virtual/range {v22 .. v22}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
 
     move-result-object v1
 
-    .line 2271942
+    .line 2271963
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 2271943
+    .line 2271964
     if-gt v2, v1, :cond_13
 
     const/4 v6, 0x0
@@ -1049,7 +1049,7 @@
 
     if-eqz p5, :cond_1e
 
-    .line 2271944
+    .line 2271965
     invoke-static {v0, v4}, LX/Hid;->A04(II)Z
 
     move-result v1
@@ -1060,62 +1060,62 @@
 
     move-result-object v1
 
-    .line 2271945
+    .line 2271966
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 2271946
+    .line 2271967
     if-le v4, v1, :cond_14
 
     const-string v1, "getCorrectedResolution-7"
 
-    .line 2271947
+    .line 2271968
     invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     int-to-double v5, v0
 
     int-to-double v0, v4
 
-    .line 2271948
+    .line 2271969
     div-double/2addr v5, v0
 
-    .line 2271949
+    .line 2271970
     invoke-virtual/range {v22 .. v22}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    .line 2271950
+    .line 2271971
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2271951
+    .line 2271972
     invoke-virtual/range {v22 .. v22}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
 
     move-result-object v1
 
-    .line 2271952
+    .line 2271973
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 2271953
+    .line 2271974
     int-to-double v1, v1
 
     mul-double/2addr v5, v1
 
     double-to-int v4, v5
 
-    .line 2271954
+    .line 2271975
     div-int v4, v4, v24
 
     mul-int v4, v4, v24
 
-    .line 2271955
+    .line 2271976
     iput v8, v9, LX/Hh7;->A0A:I
 
-    .line 2271956
+    .line 2271977
     :cond_14
     invoke-static {v0, v4}, LX/Hid;->A04(II)Z
 
@@ -1127,62 +1127,62 @@
 
     move-result-object v1
 
-    .line 2271957
+    .line 2271978
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 2271958
+    .line 2271979
     if-le v0, v1, :cond_15
 
     const-string v1, "getCorrectedResolution-8"
 
-    .line 2271959
+    .line 2271980
     invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     int-to-double v2, v4
 
     int-to-double v0, v0
 
-    .line 2271960
+    .line 2271981
     div-double/2addr v2, v0
 
-    .line 2271961
+    .line 2271982
     invoke-virtual/range {v21 .. v21}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    .line 2271962
+    .line 2271983
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v4
 
-    .line 2271963
+    .line 2271984
     invoke-virtual/range {v21 .. v21}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    .line 2271964
+    .line 2271985
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2271965
+    .line 2271986
     int-to-double v0, v0
 
     mul-double/2addr v2, v0
 
     double-to-int v0, v2
 
-    .line 2271966
+    .line 2271987
     div-int v0, v0, v25
 
     mul-int v0, v0, v25
 
-    .line 2271967
+    .line 2271988
     iput v8, v9, LX/Hh7;->A0A:I
 
-    .line 2271968
+    .line 2271989
     :cond_15
     :goto_b
     invoke-static {v0, v4}, LX/Hid;->A04(II)Z
@@ -1195,59 +1195,59 @@
 
     move-result-object v1
 
-    .line 2271969
+    .line 2271990
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 2271970
+    .line 2271991
     if-ge v4, v1, :cond_16
 
     const-string v1, "getCorrectedResolution-11"
 
-    .line 2271971
+    .line 2271992
     invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     int-to-double v1, v0
 
     int-to-double v3, v4
 
-    .line 2271972
+    .line 2271993
     div-double/2addr v1, v3
 
-    .line 2271973
+    .line 2271994
     invoke-virtual/range {v21 .. v21}, Landroid/util/Range;->getLower()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    .line 2271974
+    .line 2271995
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v4
 
-    .line 2271975
+    .line 2271996
     invoke-virtual/range {v21 .. v21}, Landroid/util/Range;->getLower()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    .line 2271976
+    .line 2271997
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2271977
+    .line 2271998
     int-to-double v5, v0
 
     mul-double/2addr v1, v5
 
     double-to-int v0, v1
 
-    .line 2271978
+    .line 2271999
     div-int v0, v0, v25
 
     mul-int v0, v0, v25
 
-    .line 2271979
+    .line 2272000
     :cond_16
     invoke-static {v0, v4}, LX/Hid;->A04(II)Z
 
@@ -1259,59 +1259,59 @@
 
     move-result-object v1
 
-    .line 2271980
+    .line 2272001
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 2271981
+    .line 2272002
     if-ge v0, v1, :cond_17
 
     const-string v1, "getCorrectedResolution-12"
 
-    .line 2271982
+    .line 2272003
     invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     int-to-double v1, v4
 
     int-to-double v3, v0
 
-    .line 2271983
+    .line 2272004
     div-double/2addr v1, v3
 
-    .line 2271984
+    .line 2272005
     invoke-virtual/range {v22 .. v22}, Landroid/util/Range;->getLower()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    .line 2271985
+    .line 2272006
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2271986
+    .line 2272007
     invoke-virtual/range {v22 .. v22}, Landroid/util/Range;->getLower()Ljava/lang/Comparable;
 
     move-result-object v3
 
-    .line 2271987
+    .line 2272008
     invoke-static {v3}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v3
 
-    .line 2271988
+    .line 2272009
     int-to-double v3, v3
 
     mul-double/2addr v1, v3
 
     double-to-int v4, v1
 
-    .line 2271989
+    .line 2272010
     div-int v4, v4, v24
 
     mul-int v4, v4, v24
 
-    .line 2271990
+    .line 2272011
     :cond_17
     invoke-static {v0, v4}, LX/Hid;->A04(II)Z
 
@@ -1321,35 +1321,35 @@
 
     const-string v0, "getCorrectedResolution-13"
 
-    .line 2271991
+    .line 2272012
     invoke-virtual {v7, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2271992
+    .line 2272013
     invoke-virtual/range {v22 .. v22}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    .line 2271993
+    .line 2272014
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2271994
+    .line 2272015
     invoke-static {}, LX/Hid;->A00()Landroid/media/MediaCodecInfo$CodecCapabilities;
 
     move-result-object v2
 
-    .line 2271995
+    .line 2272016
     if-eqz v2, :cond_1d
 
-    .line 2271996
+    .line 2272017
     invoke-virtual {v2}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v1
 
     if-eqz v1, :cond_1d
 
-    .line 2271997
+    .line 2272018
     invoke-virtual {v2}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v1
@@ -1358,41 +1358,41 @@
 
     move-result-object v1
 
-    .line 2271998
+    .line 2272019
     :goto_c
     invoke-virtual {v1}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
 
     move-result-object v1
 
-    .line 2271999
+    .line 2272020
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v4
 
-    .line 2272000
+    .line 2272021
     :cond_18
     const-string v1, "getSupportedFrameRatesFor ="
 
-    .line 2272001
+    .line 2272022
     invoke-static {v1}, LX/5Wd;->A0z(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v5
 
-    .line 2272002
+    .line 2272023
     invoke-static {}, LX/Hid;->A00()Landroid/media/MediaCodecInfo$CodecCapabilities;
 
     move-result-object v2
 
     if-eqz v2, :cond_1c
 
-    .line 2272003
+    .line 2272024
     invoke-virtual {v2}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v1
 
     if-eqz v1, :cond_1c
 
-    .line 2272004
+    .line 2272025
     invoke-virtual {v2}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v1
@@ -1401,38 +1401,38 @@
 
     move-result-object v1
 
-    .line 2272005
+    .line 2272026
     :goto_d
     invoke-static {v1, v5}, LX/5Wd;->A0r(Ljava/lang/Object;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2272006
+    .line 2272027
     invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2272007
+    .line 2272028
     const-string v1, "getBitrateRange ="
 
-    .line 2272008
+    .line 2272029
     invoke-static {v1}, LX/5Wd;->A0z(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
-    .line 2272009
+    .line 2272030
     invoke-static {}, LX/Hid;->A00()Landroid/media/MediaCodecInfo$CodecCapabilities;
 
     move-result-object v2
 
     if-eqz v2, :cond_1b
 
-    .line 2272010
+    .line 2272031
     invoke-virtual {v2}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v1
 
     if-eqz v1, :cond_1b
 
-    .line 2272011
+    .line 2272032
     invoke-virtual {v2}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v1
@@ -1441,16 +1441,16 @@
 
     move-result-object v1
 
-    .line 2272012
+    .line 2272033
     :goto_e
     invoke-static {v1, v3}, LX/5Wd;->A0r(Ljava/lang/Object;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2272013
+    .line 2272034
     invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2272014
+    .line 2272035
     const-string v1, "mediaTranscodeParams.targetRotationDegreesClockwise = "
 
     iget v3, v9, LX/Hh7;->A0A:I
@@ -1459,61 +1459,61 @@
 
     move-result-object v1
 
-    .line 2272015
+    .line 2272036
     invoke-static {v1, v7}, LX/5Wd;->A0s(Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 2272016
+    .line 2272037
     add-int/2addr v11, v3
 
-    .line 2272017
+    .line 2272038
     :goto_f
     new-instance v1, LX/Hh7;
 
     invoke-direct {v1}, LX/Hh7;-><init>()V
 
-    .line 2272018
+    .line 2272039
     move/from16 v3, p1
 
     iput v3, v1, LX/Hh7;->A06:I
 
-    .line 2272019
+    .line 2272040
     move/from16 v3, p0
 
     iput v3, v1, LX/Hh7;->A08:I
 
-    .line 2272020
+    .line 2272041
     iput v14, v1, LX/Hh7;->A07:I
 
-    .line 2272021
+    .line 2272042
     move/from16 v3, v20
 
     iput v3, v1, LX/Hh7;->A05:I
 
-    .line 2272022
+    .line 2272043
     iput-boolean v13, v1, LX/Hh7;->A0L:Z
 
-    .line 2272023
+    .line 2272044
     iput v11, v1, LX/Hh7;->A0A:I
 
-    .line 2272024
+    .line 2272045
     iput v4, v1, LX/Hh7;->A09:I
 
-    .line 2272025
+    .line 2272046
     iput v0, v1, LX/Hh7;->A0B:I
 
-    .line 2272026
+    .line 2272047
     move-object/from16 v0, v23
 
     iput-object v0, v1, LX/Hh7;->A0D:Landroid/graphics/RectF;
 
-    .line 2272027
+    .line 2272048
     move-object/from16 v0, v19
 
     iput-object v0, v1, LX/Hh7;->A0G:Ljava/lang/Integer;
 
-    .line 2272028
+    .line 2272049
     iget v0, v10, LX/Hb8;->A00:I
 
     if-gtz v0, :cond_19
@@ -1527,10 +1527,10 @@
 
     if-eqz p6, :cond_1a
 
-    .line 2272029
+    .line 2272050
     iput v0, v1, LX/Hh7;->A04:I
 
-    .line 2272030
+    .line 2272051
     :cond_1a
     const/high16 v0, 0x41f00000    # 30.0f
 
@@ -1540,36 +1540,36 @@
 
     iput v0, v1, LX/Hh7;->A02:I
 
-    .line 2272031
+    .line 2272052
     move/from16 v0, v18
 
     iput v0, v1, LX/Hh7;->A03:I
 
-    .line 2272032
+    .line 2272053
     move-object/from16 v0, v17
 
     iput-object v0, v1, LX/Hh7;->A0F:LX/Hce;
 
-    .line 2272033
+    .line 2272054
     iput-object v15, v1, LX/Hh7;->A0I:Ljava/util/List;
 
-    .line 2272034
+    .line 2272055
     move/from16 v0, v16
 
     iput v0, v1, LX/Hh7;->A0C:I
 
-    .line 2272035
+    .line 2272056
     iput-object v2, v1, LX/Hh7;->A0H:Ljava/lang/String;
 
     return-object v1
 
-    .line 2272036
+    .line 2272057
     :cond_1b
     invoke-static {}, LX/5Wd;->A0e()Ljava/lang/Integer;
 
     move-result-object v2
 
-    .line 2272037
+    .line 2272058
     const v1, 0x7a120
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1582,11 +1582,11 @@
 
     goto :goto_e
 
-    .line 2272038
+    .line 2272059
     :cond_1c
     const-wide/16 v1, 0x0
 
-    .line 2272039
+    .line 2272060
     invoke-static {v1, v2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v3
@@ -1603,11 +1603,11 @@
 
     goto/16 :goto_d
 
-    .line 2272040
+    .line 2272061
     :cond_1d
     const/16 v1, 0x20
 
-    .line 2272041
+    .line 2272062
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -1624,7 +1624,7 @@
 
     goto/16 :goto_c
 
-    .line 2272042
+    .line 2272063
     :cond_1e
     invoke-static {v0, v4}, LX/Hid;->A04(II)Z
 
@@ -1632,64 +1632,64 @@
 
     if-nez v1, :cond_1f
 
-    .line 2272043
+    .line 2272064
     invoke-virtual/range {v21 .. v21}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
 
     move-result-object v1
 
-    .line 2272044
+    .line 2272065
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 2272045
+    .line 2272066
     if-le v4, v1, :cond_1f
 
     const-string v1, "getCorrectedResolution-9"
 
-    .line 2272046
+    .line 2272067
     invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     int-to-double v2, v0
 
     int-to-double v0, v4
 
-    .line 2272047
+    .line 2272068
     div-double/2addr v2, v0
 
-    .line 2272048
+    .line 2272069
     invoke-virtual/range {v21 .. v21}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    .line 2272049
+    .line 2272070
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v4
 
-    .line 2272050
+    .line 2272071
     invoke-virtual/range {v21 .. v21}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    .line 2272051
+    .line 2272072
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2272052
+    .line 2272073
     int-to-double v0, v0
 
     mul-double/2addr v2, v0
 
     double-to-int v1, v2
 
-    .line 2272053
+    .line 2272074
     div-int v1, v1, v25
 
     mul-int v1, v1, v25
 
-    .line 2272054
+    .line 2272075
     invoke-static {v4}, LX/Hid;->A01(I)Landroid/util/Range;
 
     move-result-object v0
@@ -1698,17 +1698,17 @@
 
     move-result-object v0
 
-    .line 2272055
+    .line 2272076
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2272056
+    .line 2272077
     invoke-static {v1, v0}, Ljava/lang/Math;->max(II)I
 
     move-result v1
 
-    .line 2272057
+    .line 2272078
     invoke-static {v4}, LX/Hid;->A01(I)Landroid/util/Range;
 
     move-result-object v0
@@ -1717,17 +1717,17 @@
 
     move-result-object v0
 
-    .line 2272058
+    .line 2272079
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2272059
+    .line 2272080
     invoke-static {v1, v0}, Ljava/lang/Math;->min(II)I
 
     move-result v0
 
-    .line 2272060
+    .line 2272081
     :cond_1f
     invoke-static {v0, v4}, LX/Hid;->A04(II)Z
 
@@ -1739,65 +1739,65 @@
 
     move-result-object v1
 
-    .line 2272061
+    .line 2272082
     invoke-static {v1}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 2272062
+    .line 2272083
     if-le v0, v1, :cond_15
 
     const-string v1, "getCorrectedResolution-10"
 
-    .line 2272063
+    .line 2272084
     invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     int-to-double v1, v4
 
     int-to-double v3, v0
 
-    .line 2272064
+    .line 2272085
     div-double/2addr v1, v3
 
-    .line 2272065
+    .line 2272086
     invoke-virtual/range {v22 .. v22}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    .line 2272066
+    .line 2272087
     invoke-static {v0}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2272067
+    .line 2272088
     invoke-virtual/range {v22 .. v22}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
 
     move-result-object v3
 
-    .line 2272068
+    .line 2272089
     invoke-static {v3}, LX/5Wd;->A05(Ljava/lang/Object;)I
 
     move-result v3
 
-    .line 2272069
+    .line 2272090
     int-to-double v3, v3
 
     mul-double/2addr v1, v3
 
     double-to-int v4, v1
 
-    .line 2272070
+    .line 2272091
     div-int v4, v4, v24
 
     mul-int v4, v4, v24
 
     goto/16 :goto_b
 
-    .line 2272071
+    .line 2272092
     :cond_20
     const/16 v1, 0x20
 
-    .line 2272072
+    .line 2272093
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -1814,11 +1814,11 @@
 
     goto/16 :goto_a
 
-    .line 2272073
+    .line 2272094
     :cond_21
     const/16 v1, 0x20
 
-    .line 2272074
+    .line 2272095
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -1835,19 +1835,19 @@
 
     goto/16 :goto_9
 
-    .line 2272075
+    .line 2272096
     :cond_22
     const/4 v2, 0x0
 
     goto/16 :goto_f
 
-    .line 2272076
+    .line 2272097
     :cond_23
     const/4 v11, 0x0
 
     if-eqz v22, :cond_7
 
-    .line 2272077
+    .line 2272098
     :cond_24
     move/from16 v1, v20
 
@@ -1868,71 +1868,71 @@
 
     goto/16 :goto_8
 
-    .line 2272078
+    .line 2272099
     :cond_26
     const/16 v25, 0x10
 
     goto/16 :goto_6
 
-    .line 2272079
+    .line 2272100
     :cond_27
     const/16 v25, 0x10
 
-    .line 2272080
+    .line 2272101
     :cond_28
     const/16 v24, 0x10
 
     goto/16 :goto_7
 
-    .line 2272081
+    .line 2272102
     :cond_29
     if-ge v4, v1, :cond_3
 
-    .line 2272082
+    .line 2272103
     mul-int/2addr v0, v1
 
     div-int/2addr v0, v4
 
-    .line 2272083
+    .line 2272104
     move v4, v1
 
     goto/16 :goto_5
 
-    .line 2272084
+    .line 2272105
     :cond_2a
     if-le v4, v0, :cond_2
 
-    .line 2272085
+    .line 2272106
     iget v1, v10, LX/Hb8;->A01:I
 
     if-le v4, v1, :cond_2
 
-    .line 2272086
+    .line 2272107
     mul-int/2addr v0, v1
 
-    .line 2272087
+    .line 2272108
     div-int/2addr v0, v4
 
     move v4, v1
 
     goto/16 :goto_4
 
-    .line 2272088
+    .line 2272109
     :cond_2b
     if-ge v0, v4, :cond_2d
 
-    .line 2272089
+    .line 2272110
     if-le v0, v2, :cond_2d
 
-    .line 2272090
+    .line 2272111
     mul-int/2addr v4, v2
 
-    .line 2272091
+    .line 2272112
     div-int/2addr v4, v0
 
     move v0, v2
 
-    .line 2272092
+    .line 2272113
     :cond_2c
     :goto_10
     iget-boolean v1, v10, LX/Hb8;->A03:Z
@@ -1941,51 +1941,51 @@
 
     if-ge v0, v4, :cond_2e
 
-    .line 2272093
+    .line 2272114
     if-ge v0, v2, :cond_3
 
-    .line 2272094
+    .line 2272115
     mul-int/2addr v4, v2
 
     div-int/2addr v4, v0
 
-    .line 2272095
+    .line 2272116
     move v0, v2
 
     goto/16 :goto_5
 
-    .line 2272096
+    .line 2272117
     :cond_2d
     if-ge v4, v0, :cond_2c
 
-    .line 2272097
+    .line 2272118
     if-le v4, v2, :cond_2c
 
-    .line 2272098
+    .line 2272119
     mul-int/2addr v0, v2
 
-    .line 2272099
+    .line 2272120
     div-int/2addr v0, v4
 
     move v4, v2
 
     goto :goto_10
 
-    .line 2272100
+    .line 2272121
     :cond_2e
     if-ge v4, v2, :cond_3
 
-    .line 2272101
+    .line 2272122
     mul-int/2addr v0, v2
 
     div-int/2addr v0, v4
 
-    .line 2272102
+    .line 2272123
     move v4, v2
 
     goto/16 :goto_5
 
-    .line 2272103
+    .line 2272124
     :cond_2f
     mul-float/2addr v2, v3
 
@@ -1998,20 +1998,20 @@
 
     goto/16 :goto_3
 
-    .line 2272104
+    .line 2272125
     :cond_31
     iget v1, v12, LX/FsB;->A02:I
 
     move/from16 p1, v1
 
-    .line 2272105
+    .line 2272126
     iget v0, v12, LX/FsB;->A04:I
 
     move/from16 p0, v0
 
     goto/16 :goto_1
 
-    .line 2272106
+    .line 2272127
     :cond_32
     const/16 v22, 0x0
 

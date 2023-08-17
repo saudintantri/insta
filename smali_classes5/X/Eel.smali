@@ -32,74 +32,7 @@
     return-void
 .end method
 
-.method public static final A00(LX/D7Q;)I
-    .locals 2
-
-    .line 0
-    invoke-static {p0}, LX/92q;->A05(LX/3E3;)Landroid/content/Context;
-
-    .line 1
-    .line 2
-    .line 3
-    move-result-object v1
-
-    .line 4
-    invoke-static {v1}, LX/0Oc;->A08(Landroid/content/Context;)I
-
-    .line 5
-    .line 6
-    .line 7
-    move-result p0
-
-    .line 8
-    invoke-static {v1}, LX/5We;->A04(Landroid/content/Context;)I
-
-    .line 9
-    .line 10
-    .line 11
-    move-result v0
-
-    .line 12
-    shl-int/lit8 v0, v0, 0x1
-
-    .line 13
-    .line 14
-    sub-int/2addr p0, v0
-
-    .line 15
-    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    .line 16
-    .line 17
-    .line 18
-    move-result-object v1
-
-    .line 19
-    const v0, 0x7f0701af
-
-    .line 20
-    .line 21
-    .line 22
-    invoke-virtual {v1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
-
-    .line 23
-    .line 24
-    .line 25
-    move-result v0
-
-    .line 26
-    shl-int/lit8 v0, v0, 0x1
-
-    .line 27
-    .line 28
-    sub-int/2addr p0, v0
-
-    .line 29
-    return p0
-    .line 30
-.end method
-
-.method public static final A01(Landroid/graphics/drawable/Drawable;LX/D7Q;)V
+.method public static final A00(Landroid/graphics/drawable/Drawable;LX/D7Q;)V
     .locals 4
 
     .line 0
@@ -179,7 +112,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-static {v1, v2, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/widget/ImageView;I)V
+    invoke-static {v1, v2, v0}, LX/Chf;->A0z(Landroid/content/Context;Landroid/widget/ImageView;I)V
 
     .line 40
     .line 41
@@ -210,7 +143,7 @@
     .line 55
 .end method
 
-.method public static final A02(Landroid/widget/TextView;Ljava/lang/String;)V
+.method public static final A01(Landroid/widget/TextView;Ljava/lang/String;)V
     .locals 1
 
     .line 0

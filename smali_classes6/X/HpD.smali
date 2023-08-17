@@ -137,7 +137,7 @@
     add-float/2addr v5, v2
 
     .line 39
-    invoke-static {p1, v5}, LX/Chg;->A03(FF)F
+    invoke-static {p1, v5}, LX/Chh;->A00(FF)F
 
     .line 40
     .line 41

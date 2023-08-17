@@ -584,7 +584,7 @@
 
     .line 152
     .line 153
-    const v1, 0x7f0700f9
+    const v1, 0x7f0700f7
 
     .line 154
     .line 155

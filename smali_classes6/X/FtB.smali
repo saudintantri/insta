@@ -44,7 +44,7 @@
     .line 18
     .line 19
     .line 20
-    invoke-static {p0, v0}, LX/Che;->A01(Landroid/content/Context;I)I
+    invoke-static {p0, v0}, LX/Che;->A02(Landroid/content/Context;I)I
 
     .line 21
     .line 22

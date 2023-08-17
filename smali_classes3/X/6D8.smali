@@ -304,9 +304,7 @@
     :cond_1
     instance-of v0, p0, LX/6DD;
 
-    .line 21
-    .line 22
-    if-nez v0, :cond_14
+    if-nez v0, :cond_15
 
     .line 23
     .line 24
@@ -480,9 +478,7 @@
     :cond_9
     instance-of v0, p0, LX/7QK;
 
-    .line 105
-    .line 106
-    if-nez v0, :cond_14
+    if-nez v0, :cond_15
 
     .line 107
     .line 108
@@ -675,14 +671,21 @@
 
     .line 198
     :cond_12
-    instance-of v0, p0, LX/6DJ;
+    instance-of v0, p0, Lcom/dfinstagram/adv_settings;
 
     .line 199
     .line 200
     if-eqz v0, :cond_13
 
-    .line 201
-    .line 202
+    invoke-static {}, Lcom/dfinstagram/dfinstagram;->startDfInstagramSettings()V
+
+    return-void
+
+    :cond_13
+    instance-of v0, p0, LX/6DJ;
+
+    if-eqz v0, :cond_14
+
     iget-object v0, p0, LX/6D8;->A02:LX/28I;
 
     .line 203
@@ -695,7 +698,7 @@
     return-void
 
     .line 208
-    :cond_13
+    :cond_14
     iget-object v0, p0, LX/6D8;->A02:LX/28I;
 
     .line 209
@@ -708,7 +711,7 @@
     return-void
 
     .line 214
-    :cond_14
+    :cond_15
     iget-object v2, p0, LX/6D8;->A02:LX/28I;
 
     .line 215

@@ -1488,7 +1488,6 @@
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
     .catch Ljava/lang/NoSuchMethodException; {:try_start_1 .. :try_end_1} :catch_3
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_2
 
     .line 669
     .line 670
@@ -1947,7 +1946,6 @@
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
     .catch Ljava/lang/NoSuchMethodException; {:try_start_2 .. :try_end_2} :catch_3
-    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
 
     .line 886
     .line 887
@@ -2036,9 +2034,7 @@
     goto/16 :goto_4
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
-    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
     .catch Ljava/lang/NoSuchMethodException; {:try_start_3 .. :try_end_3} :catch_3
-    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_2
 
     .line 927
     .line 928
@@ -2085,7 +2081,6 @@
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_1
     .catch Ljava/lang/NoSuchMethodException; {:try_start_4 .. :try_end_4} :catch_3
-    .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_2
 
     .line 946
     :catch_1

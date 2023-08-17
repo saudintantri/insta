@@ -3390,7 +3390,7 @@
     move-result-object v0
 
     .line 722
-    invoke-static {v0}, LX/Chf;->A0z(Landroid/content/SharedPreferences;)V
+    invoke-static {v0}, LX/Chf;->A10(Landroid/content/SharedPreferences;)V
 
     .line 723
     .line 724
@@ -15239,7 +15239,7 @@
     .line 6482
     .line 6483
     :cond_9b
-    invoke-static {}, LX/Chg;->A0v()LX/8xM;
+    invoke-static {}, LX/Chg;->A0u()LX/8xM;
 
     .line 6484
     .line 6485

@@ -2384,7 +2384,7 @@
     .line 1185
     .line 1186
     .line 1187
-    invoke-static {v1}, LX/Chh;->A04(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
+    invoke-static {v1}, LX/Chh;->A05(Lcom/instagram/service/session/UserSession;)Landroid/content/SharedPreferences$Editor;
 
     .line 1188
     .line 1189
@@ -2740,7 +2740,7 @@
     move-result-object v1
 
     .line 1369
-    invoke-static {v1, v3, v4}, LX/Chi;->A0t(Landroid/app/Activity;Landroid/content/Intent;Landroidx/fragment/app/Fragment;)V
+    invoke-static {v1, v3, v4}, LX/Chi;->A0v(Landroid/app/Activity;Landroid/content/Intent;Landroidx/fragment/app/Fragment;)V
 
     .line 1370
     .line 1371

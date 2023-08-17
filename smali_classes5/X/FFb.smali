@@ -34,7 +34,7 @@
 
     const/16 v26, 0x2
 
-    .line 1911253
+    .line 1911269
     move-object/from16 v3, p7
 
     move-object/from16 v1, p17
@@ -45,7 +45,7 @@
 
     move-result v25
 
-    .line 1911254
+    .line 1911270
     const/4 v13, 0x4
 
     move-object/from16 v29, p8
@@ -102,7 +102,7 @@
 
     const/16 v23, 0xc
 
-    .line 1911255
+    .line 1911271
     const/16 v22, 0xd
 
     const/16 v21, 0xe
@@ -145,12 +145,12 @@
 
     const/16 v17, 0x13
 
-    .line 1911256
+    .line 1911272
     move-object/from16 v4, p0
 
     invoke-direct {v4}, Ljava/lang/Object;-><init>()V
 
-    .line 1911257
+    .line 1911273
     new-instance v0, LX/ECR;
 
     invoke-direct {v0}, LX/ECR;-><init>()V
@@ -161,7 +161,7 @@
 
     new-array v2, v0, [LX/3IH;
 
-    .line 1911258
+    .line 1911274
     new-instance v0, LX/Dha;
 
     move-object/from16 v6, p3
@@ -176,7 +176,7 @@
 
     aput-object v0, v2, v15
 
-    .line 1911259
+    .line 1911275
     new-instance v14, LX/Dhk;
 
     move-object/from16 v0, v34
@@ -185,14 +185,14 @@
 
     aput-object v14, v2, v27
 
-    .line 1911260
+    .line 1911276
     new-instance v0, LX/DhK;
 
     invoke-direct {v0, v5}, LX/DhK;-><init>(LX/ES7;)V
 
     aput-object v0, v2, v26
 
-    .line 1911261
+    .line 1911277
     new-instance v14, LX/Dhb;
 
     move-object/from16 v0, v28
@@ -201,82 +201,82 @@
 
     aput-object v14, v2, v25
 
-    .line 1911262
+    .line 1911278
     new-instance v0, LX/DVm;
 
     invoke-direct {v0, v3, v8, v5}, LX/DVm;-><init>(Lcom/instagram/service/session/UserSession;LX/ES9;LX/ES7;)V
 
     aput-object v0, v2, v13
 
-    .line 1911263
+    .line 1911279
     new-instance v0, LX/DhU;
 
     invoke-direct {v0, v5}, LX/DhU;-><init>(LX/ES7;)V
 
     aput-object v0, v2, v24
 
-    .line 1911264
+    .line 1911280
     new-instance v0, LX/DhM;
 
     invoke-direct {v0, v5}, LX/DhM;-><init>(LX/ES7;)V
 
     aput-object v0, v2, v12
 
-    .line 1911265
+    .line 1911281
     new-instance v0, LX/Dhe;
 
     invoke-direct {v0, v3, v5}, LX/Dhe;-><init>(Lcom/instagram/service/session/UserSession;LX/ES7;)V
 
     aput-object v0, v2, v11
 
-    .line 1911266
+    .line 1911282
     new-instance v0, LX/DhR;
 
     invoke-direct {v0, v5}, LX/DhR;-><init>(LX/ES7;)V
 
     aput-object v0, v2, v10
 
-    .line 1911267
+    .line 1911283
     new-instance v0, LX/3vj;
 
     invoke-direct {v0}, LX/3vj;-><init>()V
 
     aput-object v0, v2, v9
 
-    .line 1911268
+    .line 1911284
     new-instance v0, LX/Dhf;
 
     invoke-direct {v0, v6, v5}, LX/Dhf;-><init>(LX/0YK;LX/ES7;)V
 
     aput-object v0, v2, v7
 
-    .line 1911269
+    .line 1911285
     new-instance v0, LX/DhN;
 
     invoke-direct {v0, v5}, LX/DhN;-><init>(LX/ES7;)V
 
     aput-object v0, v2, v1
 
-    .line 1911270
+    .line 1911286
     new-instance v0, LX/97i;
 
     invoke-direct {v0}, LX/97i;-><init>()V
 
     aput-object v0, v2, v23
 
-    .line 1911271
+    .line 1911287
     new-instance v0, LX/Dhj;
 
     invoke-direct {v0, v3, v8, v5}, LX/Dhj;-><init>(Lcom/instagram/service/session/UserSession;LX/ES9;LX/ES7;)V
 
     aput-object v0, v2, v22
 
-    .line 1911272
+    .line 1911288
     move-object/from16 v7, p13
 
     iget-object v0, v7, Lcom/instagram/shopping/fragment/pdp/ProductDetailsPageFragment;->A0U:LX/DiF;
 
-    .line 1911273
+    .line 1911289
     new-instance v23, LX/Dhr;
 
     move-object/from16 v27, p5
@@ -299,14 +299,14 @@
 
     aput-object v23, v2, v21
 
-    .line 1911274
+    .line 1911290
     new-instance v0, LX/DhO;
 
     invoke-direct {v0, v5}, LX/DhO;-><init>(LX/ES7;)V
 
     aput-object v0, v2, v20
 
-    .line 1911275
+    .line 1911291
     new-instance v1, LX/AIp;
 
     invoke-direct {v1, v5}, LX/AIp;-><init>(LX/ES7;)V
@@ -315,34 +315,34 @@
 
     aput-object v1, v2, v0
 
-    .line 1911276
+    .line 1911292
     new-instance v0, LX/DhP;
 
     invoke-direct {v0, v5}, LX/DhP;-><init>(LX/ES7;)V
 
     aput-object v0, v2, v19
 
-    .line 1911277
+    .line 1911293
     iget-object v1, v4, LX/FFb;->A06:LX/ECR;
 
-    .line 1911278
+    .line 1911294
     new-instance v0, LX/Dhl;
 
     invoke-direct {v0, v3, v8, v1, v5}, LX/Dhl;-><init>(Lcom/instagram/service/session/UserSession;LX/ES9;LX/ECR;LX/ES7;)V
 
     aput-object v0, v2, v18
 
-    .line 1911279
+    .line 1911295
     new-instance v0, LX/Dhc;
 
     invoke-direct {v0, v8, v5}, LX/Dhc;-><init>(LX/ES9;LX/ES7;)V
 
     aput-object v0, v2, v17
 
-    .line 1911280
+    .line 1911296
     iget-object v0, v7, Lcom/instagram/shopping/fragment/pdp/ProductDetailsPageFragment;->A0U:LX/DiF;
 
-    .line 1911281
+    .line 1911297
     new-instance v23, LX/Dhs;
 
     move-object/from16 v31, v0
@@ -353,7 +353,7 @@
 
     aput-object v23, v2, v0
 
-    .line 1911282
+    .line 1911298
     new-instance v1, LX/Dhg;
 
     invoke-direct {v1, v3, v5}, LX/Dhg;-><init>(Lcom/instagram/service/session/UserSession;LX/ES7;)V
@@ -362,7 +362,7 @@
 
     aput-object v1, v2, v0
 
-    .line 1911283
+    .line 1911299
     new-instance v1, LX/AIq;
 
     invoke-direct {v1, v5}, LX/AIq;-><init>(LX/ES7;)V
@@ -371,7 +371,7 @@
 
     aput-object v1, v2, v0
 
-    .line 1911284
+    .line 1911300
     new-instance v1, LX/AIr;
 
     invoke-direct {v1, v5}, LX/AIr;-><init>(LX/ES7;)V
@@ -380,7 +380,7 @@
 
     aput-object v1, v2, v0
 
-    .line 1911285
+    .line 1911301
     new-instance v1, LX/DhQ;
 
     invoke-direct {v1, v5}, LX/DhQ;-><init>(LX/ES7;)V
@@ -389,7 +389,7 @@
 
     aput-object v1, v2, v0
 
-    .line 1911286
+    .line 1911302
     new-instance v1, LX/Dhm;
 
     move-object/from16 v0, v37
@@ -400,7 +400,7 @@
 
     aput-object v1, v2, v0
 
-    .line 1911287
+    .line 1911303
     new-instance v1, LX/DhL;
 
     invoke-direct {v1, v5}, LX/DhL;-><init>(LX/ES7;)V
@@ -409,10 +409,10 @@
 
     aput-object v1, v2, v0
 
-    .line 1911288
+    .line 1911304
     iget-object v0, v7, Lcom/instagram/shopping/fragment/pdp/ProductDetailsPageFragment;->A0b:LX/Di8;
 
-    .line 1911289
+    .line 1911305
     new-instance v9, LX/Dhq;
 
     move-object v10, v6
@@ -431,10 +431,10 @@
 
     aput-object v9, v2, v0
 
-    .line 1911290
+    .line 1911306
     iget-object v0, v7, Lcom/instagram/shopping/fragment/pdp/ProductDetailsPageFragment;->A0b:LX/Di8;
 
-    .line 1911291
+    .line 1911307
     new-instance v9, LX/Dhp;
 
     move-object v11, v6
@@ -449,7 +449,7 @@
 
     aput-object v9, v2, v0
 
-    .line 1911292
+    .line 1911308
     new-instance v1, LX/AIs;
 
     invoke-direct {v1, v5}, LX/AIs;-><init>(LX/ES7;)V
@@ -458,7 +458,7 @@
 
     aput-object v1, v2, v0
 
-    .line 1911293
+    .line 1911309
     new-instance v1, LX/Dhd;
 
     invoke-direct {v1, v8, v5}, LX/Dhd;-><init>(LX/ES9;LX/ES7;)V
@@ -467,7 +467,7 @@
 
     aput-object v1, v2, v0
 
-    .line 1911294
+    .line 1911310
     new-instance v1, LX/AIo;
 
     invoke-direct {v1, v5}, LX/AIo;-><init>(LX/ES7;)V
@@ -476,7 +476,7 @@
 
     aput-object v1, v2, v0
 
-    .line 1911295
+    .line 1911311
     new-instance v1, LX/DhS;
 
     invoke-direct {v1, v5}, LX/DhS;-><init>(LX/ES7;)V
@@ -485,7 +485,7 @@
 
     aput-object v1, v2, v0
 
-    .line 1911296
+    .line 1911312
     new-instance v1, LX/Dhn;
 
     move-object/from16 v0, p18
@@ -496,7 +496,7 @@
 
     aput-object v1, v2, v0
 
-    .line 1911297
+    .line 1911313
     new-instance v1, LX/DhT;
 
     invoke-direct {v1, v5}, LX/DhT;-><init>(LX/ES7;)V
@@ -505,7 +505,7 @@
 
     aput-object v1, v2, v0
 
-    .line 1911298
+    .line 1911314
     new-instance v1, LX/Dhh;
 
     invoke-direct {v1, v3, v5}, LX/Dhh;-><init>(Lcom/instagram/service/session/UserSession;LX/ES7;)V
@@ -514,7 +514,7 @@
 
     aput-object v1, v2, v0
 
-    .line 1911299
+    .line 1911315
     new-instance v1, LX/DhX;
 
     invoke-direct {v1, v5}, LX/DhX;-><init>(LX/ES7;)V
@@ -523,7 +523,7 @@
 
     aput-object v1, v2, v0
 
-    .line 1911300
+    .line 1911316
     new-instance v1, LX/Dho;
 
     move-object/from16 v0, v37
@@ -534,25 +534,25 @@
 
     aput-object v1, v2, v0
 
-    .line 1911301
+    .line 1911317
     sget-object v10, LX/0Sq;->A05:LX/0Sq;
 
     const-wide v0, 0x8103780002062bL
 
-    .line 1911302
+    .line 1911318
     invoke-static {v10, v3, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v8
 
-    .line 1911303
+    .line 1911319
     if-eqz v8, :cond_1
 
-    .line 1911304
+    .line 1911320
     new-instance v9, LX/DhW;
 
     invoke-direct {v9, v5}, LX/DhW;-><init>(LX/ES7;)V
 
-    .line 1911305
+    .line 1911321
     :goto_0
     const/16 v8, 0x26
 
@@ -560,44 +560,44 @@
 
     const/16 v8, 0x27
 
-    .line 1911306
+    .line 1911322
     invoke-static {v10, v3, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v0
 
-    .line 1911307
+    .line 1911323
     if-eqz v0, :cond_0
 
-    .line 1911308
+    .line 1911324
     new-instance v0, LX/DhZ;
 
     invoke-direct {v0, v5}, LX/DhZ;-><init>(LX/ES7;)V
 
-    .line 1911309
+    .line 1911325
     :goto_1
     aput-object v0, v2, v8
 
     const/16 v8, 0x28
 
-    .line 1911310
+    .line 1911326
     iget-object v1, v7, Lcom/instagram/shopping/fragment/pdp/ProductDetailsPageFragment;->A0m:LX/DiQ;
 
-    .line 1911311
+    .line 1911327
     new-instance v0, LX/Dhi;
 
     invoke-direct {v0, v1, v5}, LX/Dhi;-><init>(LX/DiQ;LX/ES7;)V
 
     aput-object v0, v2, v8
 
-    .line 1911312
+    .line 1911328
     invoke-static {v2}, LX/0ym;->A04([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 1911313
+    .line 1911329
     sget-object v1, LX/37L;->A00:LX/37L;
 
-    .line 1911314
+    .line 1911330
     move-object/from16 v0, v36
 
     invoke-virtual {v1, v6, v0, v3}, LX/37L;->A06(LX/0YK;LX/1w5;Lcom/instagram/service/session/UserSession;)Ljava/util/List;
@@ -606,36 +606,36 @@
 
     invoke-static {v0}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1911315
+    .line 1911331
     invoke-static {v0, v2}, LX/19J;->A0g(Ljava/lang/Iterable;Ljava/util/Collection;)Ljava/util/List;
 
     move-result-object v0
 
     iput-object v0, v4, LX/FFb;->A08:Ljava/util/List;
 
-    .line 1911316
+    .line 1911332
     invoke-static/range {v22 .. v22}, LX/3Cn;->A00(Landroid/content/Context;)LX/37R;
 
     move-result-object v2
 
     iget-object v1, v4, LX/FFb;->A08:Ljava/util/List;
 
-    .line 1911317
+    .line 1911333
     iget-object v0, v2, LX/37R;->A07:Ljava/util/List;
 
     invoke-interface {v0, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 1911318
+    .line 1911334
     invoke-virtual {v2}, LX/37R;->A00()LX/3Cn;
 
     move-result-object v0
 
     iput-object v0, v4, LX/FFb;->A05:LX/3Cn;
 
-    .line 1911319
+    .line 1911335
     iget-object v1, v4, LX/FFb;->A06:LX/ECR;
 
-    .line 1911320
+    .line 1911336
     new-instance v0, LX/EZR;
 
     move-object/from16 v31, p19
@@ -662,44 +662,44 @@
 
     iput-object v0, v4, LX/FFb;->A07:LX/EZR;
 
-    .line 1911321
+    .line 1911337
     sget-object v0, LX/11W;->A00:LX/11W;
 
-    .line 1911322
+    .line 1911338
     iput-object v0, v4, LX/FFb;->A03:Ljava/util/List;
 
-    .line 1911323
+    .line 1911339
     const/4 v5, 0x0
 
     const-string v2, "top_gap_view_model_id"
 
-    .line 1911324
+    .line 1911340
     const v3, 0x7f07000d
 
-    .line 1911325
+    .line 1911341
     new-instance v1, LX/97h;
 
     move-object/from16 v0, v16
 
     invoke-direct {v1, v5, v0, v2, v3}, LX/97h;-><init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;I)V
 
-    .line 1911326
+    .line 1911342
     iput-object v1, v4, LX/FFb;->A04:LX/97h;
 
-    .line 1911327
+    .line 1911343
     const-string v2, "bottom_gap_view_model_id"
 
-    .line 1911328
+    .line 1911344
     new-instance v1, LX/97h;
 
     invoke-direct {v1, v5, v0, v2, v3}, LX/97h;-><init>(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;I)V
 
-    .line 1911329
+    .line 1911345
     iput-object v1, v4, LX/FFb;->A00:LX/97h;
 
     return-void
 
-    .line 1911330
+    .line 1911346
     :cond_0
     new-instance v0, LX/DhY;
 
@@ -707,7 +707,7 @@
 
     goto :goto_1
 
-    .line 1911331
+    .line 1911347
     :cond_1
     new-instance v9, LX/DhV;
 

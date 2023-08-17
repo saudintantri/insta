@@ -151,7 +151,7 @@
 
     .line 51
     .line 52
-    invoke-static {v1, v3, v2, v4, v0}, LX/Chg;->A17(Landroid/os/Bundle;LX/ChQ;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3, v2, v4, v0}, LX/Chg;->A16(Landroid/os/Bundle;LX/ChQ;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 53
     .line 54

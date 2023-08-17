@@ -159,7 +159,7 @@
     move-result-object v2
 
     .line 54
-    const v0, 0x7f0700d3
+    const v0, 0x7f0700d2
 
     .line 55
     .line 56
@@ -447,7 +447,7 @@
 
     .line 24
     :cond_1
-    invoke-static {v1, v4}, LX/Chg;->A04(II)I
+    invoke-static {v1, v4}, LX/Chg;->A03(II)I
 
     .line 25
     .line 26
@@ -564,7 +564,7 @@
 
     .line 18
     .line 19
-    invoke-static {v0, v2}, LX/Chg;->A04(II)I
+    invoke-static {v0, v2}, LX/Chg;->A03(II)I
 
     .line 20
     .line 21
@@ -1001,7 +1001,7 @@
     .line 43
     .line 44
     .line 45
-    invoke-static {v1, v0}, LX/Chg;->A04(II)I
+    invoke-static {v1, v0}, LX/Chg;->A03(II)I
 
     .line 46
     .line 47

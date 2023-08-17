@@ -93,7 +93,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0}, LX/Chf;->A0D(Ljava/util/List;)I
+    invoke-static {v0}, LX/Chf;->A0E(Ljava/util/List;)I
 
     .line 10
     .line 11
@@ -213,7 +213,7 @@
 
     .line 29
     .line 30
-    invoke-static {v2, v1}, LX/Che;->A0H(Ljava/util/List;I)LX/1M5;
+    invoke-static {v2, v1}, LX/Che;->A0I(Ljava/util/List;I)LX/1M5;
 
     .line 31
     .line 32
@@ -341,7 +341,7 @@
 
     .line 93
     .line 94
-    invoke-static {v2, v1}, LX/Che;->A0H(Ljava/util/List;I)LX/1M5;
+    invoke-static {v2, v1}, LX/Che;->A0I(Ljava/util/List;I)LX/1M5;
 
     .line 95
     .line 96

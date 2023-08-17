@@ -47,7 +47,7 @@
 
     .line 12
     .line 13
-    invoke-static {p1, p0}, LX/Chg;->A03(FF)F
+    invoke-static {p1, p0}, LX/Chh;->A00(FF)F
 
     .line 14
     .line 15

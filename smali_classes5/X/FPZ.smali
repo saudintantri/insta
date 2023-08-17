@@ -192,7 +192,7 @@
     .line 77
     .line 78
     .line 79
-    invoke-static {v4, v1, v2}, LX/Chj;->A0a(Landroid/graphics/drawable/Drawable;LX/6Zc;LX/4av;)V
+    invoke-static {v4, v1, v2}, LX/Chj;->A0Z(Landroid/graphics/drawable/Drawable;LX/6Zc;LX/4av;)V
 
     .line 80
     .line 81

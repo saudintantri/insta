@@ -348,7 +348,7 @@
     move-result-object p0
 
     .line 10
-    invoke-static {p0}, LX/Chf;->A0m(LX/1M5;)Ljava/lang/String;
+    invoke-static {p0}, LX/Chf;->A0o(LX/1M5;)Ljava/lang/String;
 
     .line 11
     .line 12

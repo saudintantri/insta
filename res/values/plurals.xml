@@ -224,6 +224,7 @@
         <item quantity="other">Active %1$dm ago</item>
         <item quantity="one">Active 1m ago</item>
     </plurals>
+    <item type="plurals" name="APKTOOL_DUMMY_38" />
     <plurals name="direct_edit_faq_response_field_character_limit_reached_error_translatable">
         <item quantity="other">Automated response can only contain %1$d characters.</item>
         <item quantity="one">Automated response can only contain 1 character.</item>
@@ -350,6 +351,7 @@
         <item quantity="other">%1$d follows</item>
         <item quantity="one">1 follow</item>
     </plurals>
+    <item type="plurals" name="APKTOOL_DUMMY_58" />
     <plurals name="followed_by_x_and_n_others">
         <item quantity="other">Followed by %1$s and &lt;b>%2$s others&lt;/b></item>
         <item quantity="one">Followed by %1$s and &lt;b>1 other&lt;/b></item>
@@ -866,6 +868,7 @@
         <item quantity="other">You bought %2$d badges. %1$s will see a list of everyone who bought badges.</item>
         <item quantity="one">You bought a badge. %1$s will see a list of everyone who bought badges.</item>
     </plurals>
+    <item type="plurals" name="APKTOOL_DUMMY_da" />
     <plurals name="product_guide_shop_row_subtitle">
         <item quantity="other">%1$d products</item>
         <item quantity="one">%1$d product</item>
@@ -1137,6 +1140,13 @@
         <item quantity="other">%d suggested products</item>
         <item quantity="one">1 suggested product</item>
     </plurals>
+    <item type="plurals" name="APKTOOL_DUMMY_11f" />
+    <item type="plurals" name="APKTOOL_DUMMY_120" />
+    <item type="plurals" name="APKTOOL_DUMMY_121" />
+    <item type="plurals" name="APKTOOL_DUMMY_122" />
+    <item type="plurals" name="APKTOOL_DUMMY_123" />
+    <item type="plurals" name="APKTOOL_DUMMY_124" />
+    <item type="plurals" name="APKTOOL_DUMMY_125" />
     <plurals name="tagged_accounts_plural">
         <item quantity="other">tagged accounts:</item>
         <item quantity="one">tagged account:</item>
@@ -1305,14 +1315,4 @@
         <item quantity="other">%1$s weeks left</item>
         <item quantity="one">%1$s week left</item>
     </plurals>
-    <plurals name="APKTOOL_DUMMY_38" />
-    <plurals name="APKTOOL_DUMMY_58" />
-    <plurals name="APKTOOL_DUMMY_da" />
-    <plurals name="APKTOOL_DUMMY_11f" />
-    <plurals name="APKTOOL_DUMMY_120" />
-    <plurals name="APKTOOL_DUMMY_121" />
-    <plurals name="APKTOOL_DUMMY_122" />
-    <plurals name="APKTOOL_DUMMY_123" />
-    <plurals name="APKTOOL_DUMMY_124" />
-    <plurals name="APKTOOL_DUMMY_125" />
 </resources>

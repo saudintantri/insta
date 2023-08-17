@@ -520,7 +520,6 @@
     goto/16 :goto_1
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_3
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 200

@@ -193,7 +193,7 @@
 
     .line 78
     .line 79
-    invoke-static {p1}, LX/Chf;->A0I(Landroid/content/Context;)Landroid/graphics/Typeface;
+    invoke-static {p1}, LX/Chf;->A0J(Landroid/content/Context;)Landroid/graphics/Typeface;
 
     .line 80
     .line 81

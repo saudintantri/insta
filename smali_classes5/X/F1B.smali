@@ -241,7 +241,7 @@
     move-result-object v24
 
     .line 93
-    invoke-static {}, LX/Chf;->A0E()J
+    invoke-static {}, LX/Chf;->A0F()J
 
     .line 94
     .line 95
@@ -344,7 +344,7 @@
 
     .line 144
     .line 145
-    invoke-static {v2, v0, v1}, LX/Chi;->A1Q(LX/3FX;LX/5tm;I)V
+    invoke-static {v2, v0, v1}, LX/Chi;->A1R(LX/3FX;LX/5tm;I)V
 
     .line 146
     .line 147

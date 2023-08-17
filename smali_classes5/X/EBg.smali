@@ -36,7 +36,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {v1, v0}, LX/Chf;->A0U(LX/37R;LX/3IH;)LX/3Cn;
+    invoke-static {v1, v0}, LX/Chf;->A0V(LX/37R;LX/3IH;)LX/3Cn;
 
     .line 13
     .line 14

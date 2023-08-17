@@ -78,121 +78,121 @@
 .method public constructor <init>(LX/Im6;LX/FsB;LX/Hh7;LX/HPd;Lcom/facebook/videolite/transcoder/base/composition/MediaComposition;LX/HRr;LX/Hg9;LX/GtC;LX/HQS;LX/Iom;Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Map;Ljava/util/concurrent/ExecutorService;IJJZZ)V
     .locals 33
 
-    .line 2320239
+    .line 2320260
     move-object/from16 v4, p0
 
     invoke-direct {v4}, Ljava/lang/Object;-><init>()V
 
-    .line 2320240
+    .line 2320261
     sget-object v2, LX/001;->A00:Ljava/lang/Integer;
 
     iput-object v2, v4, LX/HwH;->A07:Ljava/lang/Integer;
 
-    .line 2320241
+    .line 2320262
     invoke-static/range {p12 .. p12}, LX/Chb;->A0d(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object v0
 
-    .line 2320242
+    .line 2320263
     iput-object v0, v4, LX/HwH;->A0Q:Ljava/io/File;
 
-    .line 2320243
+    .line 2320264
     move-object/from16 v3, p6
 
     iput-object v3, v4, LX/HwH;->A0L:LX/HRr;
 
-    .line 2320244
+    .line 2320265
     move-object/from16 v0, p2
 
     iput-object v0, v4, LX/HwH;->A0I:LX/FsB;
 
-    .line 2320245
+    .line 2320266
     move-object/from16 v32, p1
 
     move-object/from16 v0, v32
 
     iput-object v0, v4, LX/HwH;->A0H:LX/Im6;
 
-    .line 2320246
+    .line 2320267
     move-object/from16 v0, p4
 
     iput-object v0, v4, LX/HwH;->A0W:LX/HPd;
 
-    .line 2320247
+    .line 2320268
     move-wide/from16 v0, p16
 
     iput-wide v0, v4, LX/HwH;->A0G:J
 
-    .line 2320248
+    .line 2320269
     move-wide/from16 v0, p18
 
     iput-wide v0, v4, LX/HwH;->A0F:J
 
-    .line 2320249
+    .line 2320270
     move-object/from16 v0, p14
 
     iput-object v0, v4, LX/HwH;->A0D:Ljava/util/concurrent/ExecutorService;
 
-    .line 2320250
+    .line 2320271
     move-object/from16 v0, p10
 
     iput-object v0, v4, LX/HwH;->A0P:LX/Iom;
 
-    .line 2320251
+    .line 2320272
     iget-object v0, v3, LX/HRr;->A0E:LX/Ipc;
 
-    .line 2320252
+    .line 2320273
     iput-object v0, v4, LX/HwH;->A0O:LX/Ipc;
 
-    .line 2320253
+    .line 2320274
     move-object/from16 v31, p3
 
     move-object/from16 v0, v31
 
     iput-object v0, v4, LX/HwH;->A0J:LX/Hh7;
 
-    .line 2320254
+    .line 2320275
     move-object/from16 v30, p8
 
     move-object/from16 v0, v30
 
     iput-object v0, v4, LX/HwH;->A0M:LX/GtC;
 
-    .line 2320255
+    .line 2320276
     move/from16 v0, p20
 
     iput-boolean v0, v4, LX/HwH;->A0V:Z
 
-    .line 2320256
+    .line 2320277
     move/from16 v0, p21
 
     iput-boolean v0, v4, LX/HwH;->A0U:Z
 
-    .line 2320257
+    .line 2320278
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 2320258
+    .line 2320279
     iput-object v0, v4, LX/HwH;->A0T:Ljava/util/List;
 
-    .line 2320259
+    .line 2320280
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 2320260
+    .line 2320281
     iput-object v0, v4, LX/HwH;->A0S:Ljava/util/List;
 
-    .line 2320261
+    .line 2320282
     invoke-static {}, LX/5Wd;->A12()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 2320262
+    .line 2320283
     iput-object v0, v4, LX/HwH;->A0R:Ljava/util/List;
 
-    .line 2320263
+    .line 2320284
     new-instance v1, LX/IWL;
 
     invoke-direct {v1}, LX/IWL;-><init>()V
@@ -203,63 +203,63 @@
 
     iput-object v0, v4, LX/HwH;->A0C:Ljava/util/TreeSet;
 
-    .line 2320264
+    .line 2320285
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v0
 
-    .line 2320265
+    .line 2320286
     iput-object v0, v4, LX/HwH;->A09:Ljava/util/HashMap;
 
-    .line 2320266
+    .line 2320287
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v0
 
-    .line 2320267
+    .line 2320288
     iput-object v0, v4, LX/HwH;->A0A:Ljava/util/HashMap;
 
-    .line 2320268
+    .line 2320289
     iput-object v2, v4, LX/HwH;->A08:Ljava/lang/Integer;
 
-    .line 2320269
+    .line 2320290
     move-object/from16 v0, p11
 
     iput-object v0, v4, LX/HwH;->A06:Ljava/lang/Integer;
 
-    .line 2320270
+    .line 2320291
     move-object/from16 v0, p5
 
     iput-object v0, v4, LX/HwH;->A03:Lcom/facebook/videolite/transcoder/base/composition/MediaComposition;
 
-    .line 2320271
+    .line 2320292
     iget-object v3, v4, LX/HwH;->A0P:LX/Iom;
 
     iget-object v2, v4, LX/HwH;->A0O:LX/Ipc;
 
     iget-object v0, v4, LX/HwH;->A0L:LX/HRr;
 
-    .line 2320272
+    .line 2320293
     iget-boolean v1, v0, LX/HRr;->A0N:Z
 
-    .line 2320273
+    .line 2320294
     new-instance v0, LX/Fxq;
 
     invoke-direct {v0, v2, v3, v1}, LX/Fxq;-><init>(LX/Ipc;LX/Iom;Z)V
 
     iput-object v0, v4, LX/HwH;->A0K:LX/Fxq;
 
-    .line 2320274
+    .line 2320295
     move-object/from16 v0, p7
 
     iput-object v0, v4, LX/HwH;->A04:LX/Hg9;
 
-    .line 2320275
+    .line 2320296
     move/from16 v0, p15
 
     iput v0, v4, LX/HwH;->A00:I
 
-    .line 2320276
+    .line 2320297
     move-object/from16 v28, p9
 
     move-object/from16 v29, p13
@@ -276,21 +276,21 @@
 
     move-result-object v3
 
-    .line 2320277
+    .line 2320298
     iget-object v1, v4, LX/HwH;->A04:LX/Hg9;
 
     if-eqz v1, :cond_d
 
-    .line 2320278
+    .line 2320299
     :try_start_0
     iget v0, v4, LX/HwH;->A00:I
 
-    .line 2320279
+    .line 2320300
     invoke-static {v0}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 2320280
+    .line 2320301
     iget-object v0, v1, LX/Hg9;->A00:Lorg/json/JSONObject;
 
     invoke-virtual {v0}, Lorg/json/JSONObject;->names()Lorg/json/JSONArray;
@@ -299,36 +299,36 @@
 
     if-nez v0, :cond_0
 
-    .line 2320281
+    .line 2320302
     invoke-static {v1}, LX/Hg9;->A00(LX/Hg9;)V
 
-    .line 2320282
+    .line 2320303
     :cond_0
     iget-object v1, v1, LX/Hg9;->A00:Lorg/json/JSONObject;
 
-    .line 2320283
+    .line 2320304
     const-string v0, "strategy_"
 
     invoke-static {v0, v2}, LX/00t;->A0L(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2320284
+    .line 2320305
     invoke-virtual {v1, v0}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v8
 
-    .line 2320285
+    .line 2320306
     if-eqz v8, :cond_d
 
     const-string v0, "uploadProtocol"
 
-    .line 2320286
+    .line 2320307
     invoke-virtual {v8, v0}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v9
 
-    .line 2320287
+    .line 2320308
     monitor-enter v3
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
@@ -337,7 +337,7 @@
     :try_start_1
     const-string v0, "mStartInvoked"
 
-    .line 2320288
+    .line 2320309
     invoke-virtual {v9, v0}, Lorg/json/JSONObject;->getBoolean(Ljava/lang/String;)Z
 
     move-result v0
@@ -346,7 +346,7 @@
 
     const-string v0, "mEndInvoked"
 
-    .line 2320289
+    .line 2320310
     invoke-virtual {v9, v0}, Lorg/json/JSONObject;->getBoolean(Ljava/lang/String;)Z
 
     move-result v0
@@ -357,21 +357,21 @@
 
     const/4 v0, 0x0
 
-    .line 2320290
+    .line 2320311
     invoke-virtual {v9, v1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 2320291
+    .line 2320312
     new-instance v0, LX/HBh;
 
     invoke-direct {v0, v1}, LX/HBh;-><init>(Ljava/lang/String;)V
 
     iput-object v0, v3, LX/Hjh;->A01:LX/HBh;
 
-    .line 2320292
+    .line 2320313
     :cond_1
     iget-object v14, v3, LX/Hjh;->A0J:Ljava/util/Set;
 
@@ -381,10 +381,10 @@
 
     move-result-object v5
 
-    .line 2320293
+    .line 2320314
     const/4 v2, 0x0
 
-    .line 2320294
+    .line 2320315
     :goto_0
     invoke-virtual {v5}, Lorg/json/JSONArray;->length()I
 
@@ -392,7 +392,7 @@
 
     if-ge v2, v0, :cond_2
 
-    .line 2320295
+    .line 2320316
     invoke-virtual {v5, v2}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v1
@@ -407,7 +407,7 @@
 
     goto :goto_0
 
-    .line 2320296
+    .line 2320317
     :cond_2
     iget-object v6, v3, LX/Hjh;->A0K:Ljava/util/Set;
 
@@ -417,10 +417,10 @@
 
     move-result-object v5
 
-    .line 2320297
+    .line 2320318
     const/4 v2, 0x0
 
-    .line 2320298
+    .line 2320319
     :goto_1
     invoke-virtual {v5}, Lorg/json/JSONArray;->length()I
 
@@ -428,7 +428,7 @@
 
     if-ge v2, v0, :cond_3
 
-    .line 2320299
+    .line 2320320
     invoke-virtual {v5, v2}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v1
@@ -443,7 +443,7 @@
 
     goto :goto_1
 
-    .line 2320300
+    .line 2320321
     :cond_3
     iget-object v7, v3, LX/Hjh;->A0H:Ljava/util/Map;
 
@@ -453,10 +453,10 @@
 
     move-result-object v6
 
-    .line 2320301
+    .line 2320322
     const/4 v5, 0x0
 
-    .line 2320302
+    .line 2320323
     :goto_2
     invoke-virtual {v6}, Lorg/json/JSONArray;->length()I
 
@@ -464,12 +464,12 @@
 
     if-ge v5, v0, :cond_4
 
-    .line 2320303
+    .line 2320324
     invoke-virtual {v6, v5}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v1
 
-    .line 2320304
+    .line 2320325
     const-string v0, "Segment"
 
     invoke-virtual {v1, v0}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
@@ -480,7 +480,7 @@
 
     invoke-direct {v2, v0}, LX/HeN;-><init>(Lorg/json/JSONObject;)V
 
-    .line 2320305
+    .line 2320326
     const-string v0, "UploadResult"
 
     invoke-virtual {v1, v0}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
@@ -491,7 +491,7 @@
 
     invoke-direct {v0, v1}, LX/HhL;-><init>(Lorg/json/JSONObject;)V
 
-    .line 2320306
+    .line 2320327
     invoke-interface {v7, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v5, v5, 0x1
@@ -500,25 +500,25 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 2320307
+    .line 2320328
     :cond_4
     :try_start_2
     monitor-exit v3
 
-    .line 2320308
+    .line 2320329
     const-string v0, "mPrevUploadedSegmentByType"
 
-    .line 2320309
+    .line 2320330
     invoke-virtual {v8, v0}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v7
 
-    .line 2320310
+    .line 2320331
     invoke-virtual {v7}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object v6
 
-    .line 2320311
+    .line 2320332
     :goto_3
     invoke-interface {v6}, Ljava/util/Iterator;->hasNext()Z
 
@@ -526,12 +526,12 @@
 
     if-eqz v0, :cond_7
 
-    .line 2320312
+    .line 2320333
     invoke-static {v6}, LX/5Wd;->A0t(Ljava/util/Iterator;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2320313
+    .line 2320334
     invoke-virtual {v7, v1}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -540,10 +540,10 @@
 
     invoke-direct {v5, v0}, LX/HeX;-><init>(Lorg/json/JSONObject;)V
 
-    .line 2320314
+    .line 2320335
     iget-object v2, v4, LX/HwH;->A0A:Ljava/util/HashMap;
 
-    .line 2320315
+    .line 2320336
     invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v1
@@ -556,22 +556,22 @@
 
     if-eq v1, v0, :cond_6
 
-    .line 2320316
+    .line 2320337
     sget-object v0, LX/Gtj;->A03:LX/Gtj;
 
     goto :goto_4
 
-    .line 2320317
+    .line 2320338
     :cond_5
     sget-object v0, LX/Gtj;->A02:LX/Gtj;
 
     goto :goto_4
 
-    .line 2320318
+    .line 2320339
     :cond_6
     sget-object v0, LX/Gtj;->A04:LX/Gtj;
 
-    .line 2320319
+    .line 2320340
     :goto_4
     invoke-virtual {v2, v0, v5}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -580,7 +580,7 @@
     :cond_7
     const-string v0, "mTranscodeResults"
 
-    .line 2320320
+    .line 2320341
     invoke-virtual {v8, v0}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object v7
@@ -589,7 +589,7 @@
 
     const/4 v5, 0x0
 
-    .line 2320321
+    .line 2320342
     :goto_5
     invoke-virtual {v7}, Lorg/json/JSONArray;->length()I
 
@@ -597,7 +597,7 @@
 
     if-ge v5, v0, :cond_8
 
-    .line 2320322
+    .line 2320343
     iget-object v2, v4, LX/HwH;->A0S:Ljava/util/List;
 
     invoke-virtual {v7, v5}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
@@ -617,12 +617,12 @@
     :cond_8
     const-string v0, "mSucceededTranscoderSegments"
 
-    .line 2320323
+    .line 2320344
     invoke-virtual {v8, v0}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object v5
 
-    .line 2320324
+    .line 2320345
     :goto_6
     invoke-virtual {v5}, Lorg/json/JSONArray;->length()I
 
@@ -630,10 +630,10 @@
 
     if-ge v6, v0, :cond_9
 
-    .line 2320325
+    .line 2320346
     iget-object v2, v4, LX/HwH;->A0R:Ljava/util/List;
 
-    .line 2320326
+    .line 2320347
     invoke-virtual {v5, v6}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v1
@@ -642,30 +642,30 @@
 
     invoke-direct {v0, v1}, LX/HeX;-><init>(Lorg/json/JSONObject;)V
 
-    .line 2320327
+    .line 2320348
     invoke-interface {v2, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v6, v6, 0x1
 
     goto :goto_6
 
-    .line 2320328
+    .line 2320349
     :cond_9
     sget-object v0, LX/001;->A0C:Ljava/lang/Integer;
 
     iput-object v0, v4, LX/HwH;->A07:Ljava/lang/Integer;
 
-    .line 2320329
+    .line 2320350
     iget-object v0, v4, LX/HwH;->A0R:Ljava/util/List;
 
-    .line 2320330
+    .line 2320351
     sget-object v13, LX/IWW;->A00:LX/IWW;
 
     new-instance v12, Ljava/util/TreeSet;
 
     invoke-direct {v12, v13}, Ljava/util/TreeSet;-><init>(Ljava/util/Comparator;)V
 
-    .line 2320331
+    .line 2320352
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v16
@@ -684,7 +684,7 @@
 
     check-cast v1, LX/HeX;
 
-    .line 2320332
+    .line 2320353
     iget-object v15, v1, LX/HeX;->A05:Ljava/io/File;
 
     if-eqz v15, :cond_a
@@ -701,7 +701,7 @@
 
     if-eqz v0, :cond_a
 
-    .line 2320333
+    .line 2320354
     iget-wide v7, v1, LX/HeX;->A02:J
 
     iget-object v11, v1, LX/HeX;->A04:LX/Gtj;
@@ -734,21 +734,21 @@
 
     invoke-direct/range {v17 .. v27}, LX/HeN;-><init>(LX/Gtj;Ljava/io/File;Ljava/lang/String;IJJJ)V
 
-    .line 2320334
+    .line 2320355
     invoke-virtual {v12, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     goto :goto_7
 
-    .line 2320335
+    .line 2320356
     :cond_b
     new-instance v2, Ljava/util/TreeSet;
 
     invoke-direct {v2, v13}, Ljava/util/TreeSet;-><init>(Ljava/util/Comparator;)V
 
-    .line 2320336
+    .line 2320357
     invoke-virtual {v2, v14}, Ljava/util/AbstractCollection;->addAll(Ljava/util/Collection;)Z
 
-    .line 2320337
+    .line 2320358
     invoke-virtual {v12}, Ljava/util/AbstractCollection;->size()I
 
     move-result v1
@@ -759,18 +759,18 @@
 
     if-ne v1, v0, :cond_c
 
-    .line 2320338
+    .line 2320359
     invoke-virtual {v2, v12}, Ljava/util/AbstractCollection;->removeAll(Ljava/util/Collection;)Z
 
-    .line 2320339
+    .line 2320360
     invoke-virtual {v2}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v0
 
-    .line 2320340
+    .line 2320361
     if-nez v0, :cond_d
 
-    .line 2320341
+    .line 2320362
     :cond_c
     sget-object v0, LX/001;->A01:Ljava/lang/Integer;
 
@@ -778,7 +778,7 @@
 
     goto :goto_8
 
-    .line 2320342
+    .line 2320363
     :catchall_0
     move-exception v0
 
@@ -789,30 +789,30 @@
     .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_0
     .catch LX/Gv3; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 2320343
+    .line 2320364
     :catch_0
     move-exception v3
 
-    .line 2320344
+    .line 2320365
     sget-object v0, LX/001;->A01:Ljava/lang/Integer;
 
     iput-object v0, v4, LX/HwH;->A07:Ljava/lang/Integer;
 
-    .line 2320345
+    .line 2320366
     iget-object v0, v4, LX/HwH;->A0L:LX/HRr;
 
-    .line 2320346
+    .line 2320367
     iget-object v2, v0, LX/HRr;->A06:LX/HFw;
 
-    .line 2320347
+    .line 2320368
     const-string v1, "videolite-crash-recovery"
 
     const-string v0, "Cannot restore state in SegmentedMediaUploadStrategy"
 
-    .line 2320348
+    .line 2320369
     invoke-static {v2, v3, v1, v0}, LX/Gxs;->A00(LX/HFw;Ljava/lang/Exception;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2320349
+    .line 2320370
     :goto_8
     move-object/from16 v24, v4
 
@@ -826,22 +826,22 @@
 
     move-result-object v3
 
-    .line 2320350
+    .line 2320371
     iget-object v0, v4, LX/HwH;->A0A:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/AbstractMap;->clear()V
 
-    .line 2320351
+    .line 2320372
     iget-object v0, v4, LX/HwH;->A0S:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 2320352
+    .line 2320373
     iget-object v0, v4, LX/HwH;->A0R:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 2320353
+    .line 2320374
     :cond_d
     iput-object v3, v4, LX/HwH;->A0N:LX/Hjh;
 
@@ -2905,7 +2905,6 @@
     goto :goto_5
     :try_end_4
     .catch Lorg/json/JSONException; {:try_start_4 .. :try_end_4} :catch_0
-    .catch Lorg/json/JSONException; {:try_start_4 .. :try_end_4} :catch_1
     .catch LX/Gv3; {:try_start_4 .. :try_end_4} :catch_1
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 

@@ -3311,7 +3311,7 @@
 
     .line 5
     .line 6
-    invoke-static {v0}, LX/Chf;->A0m(LX/1M5;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chf;->A0o(LX/1M5;)Ljava/lang/String;
 
     .line 7
     .line 8
@@ -7895,7 +7895,7 @@
     .line 159
     .line 160
     .line 161
-    invoke-static {v1, v0}, LX/Che;->A01(Landroid/content/Context;I)I
+    invoke-static {v1, v0}, LX/Che;->A02(Landroid/content/Context;I)I
 
     .line 162
     .line 163
@@ -8036,7 +8036,7 @@
     .line 228
     .line 229
     .line 230
-    invoke-static {v1, v0}, LX/Che;->A01(Landroid/content/Context;I)I
+    invoke-static {v1, v0}, LX/Che;->A02(Landroid/content/Context;I)I
 
     .line 231
     .line 232
@@ -8540,7 +8540,7 @@
     .line 472
     .line 473
     .line 474
-    invoke-static {v3, v0}, LX/Che;->A01(Landroid/content/Context;I)I
+    invoke-static {v3, v0}, LX/Che;->A02(Landroid/content/Context;I)I
 
     .line 475
     .line 476
@@ -8947,7 +8947,7 @@
     .line 180
     .line 181
     :cond_5
-    invoke-static {v2, v5, v0, v3}, LX/Chg;->A1E(LX/0AX;LX/1M5;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v5, v0, v3}, LX/Chg;->A1D(LX/0AX;LX/1M5;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 182
     .line 183
@@ -12002,7 +12002,7 @@
 
     .line 22
     .line 23
-    invoke-static {v0}, LX/Chf;->A0o(Lcom/instagram/user/model/User;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chf;->A0q(Lcom/instagram/user/model/User;)Ljava/lang/String;
 
     .line 24
     .line 25
@@ -12206,7 +12206,7 @@
 
     .line 13
     .line 14
-    invoke-static {v0}, LX/Chf;->A0o(Lcom/instagram/user/model/User;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chf;->A0q(Lcom/instagram/user/model/User;)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -12551,7 +12551,7 @@
     .line 68
     .line 69
     :cond_0
-    invoke-static {v2, v5, v0, v3}, LX/Chg;->A1E(LX/0AX;LX/1M5;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v5, v0, v3}, LX/Chg;->A1D(LX/0AX;LX/1M5;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 70
     .line 71
@@ -12884,7 +12884,7 @@
 
     .line 53
     .line 54
-    invoke-static {v0}, LX/Chf;->A0m(LX/1M5;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chf;->A0o(LX/1M5;)Ljava/lang/String;
 
     .line 55
     .line 56
@@ -13140,7 +13140,7 @@
 
     .line 183
     .line 184
-    invoke-static {v0}, LX/Chf;->A0m(LX/1M5;)Ljava/lang/String;
+    invoke-static {v0}, LX/Chf;->A0o(LX/1M5;)Ljava/lang/String;
 
     .line 185
     .line 186
@@ -15628,7 +15628,7 @@
     .line 536
     .line 537
     .line 538
-    invoke-static {v15}, LX/Chf;->A0d(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)Lcom/instagram/user/model/User;
+    invoke-static {v15}, LX/Chf;->A0f(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)Lcom/instagram/user/model/User;
 
     .line 539
     .line 540
@@ -16785,7 +16785,7 @@
     .line 165
     .line 166
     .line 167
-    invoke-static {v2, v10, v6}, LX/Chf;->A1H(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v10, v6}, LX/Chf;->A1I(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 168
     .line 169
@@ -18274,7 +18274,7 @@
 
     const/4 v6, 0x0
 
-    .line 1715097
+    .line 1715095
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0P:LX/FeS;
@@ -18283,33 +18283,33 @@
 
     if-eqz v2, :cond_0
 
-    .line 1715098
+    .line 1715096
     invoke-interface {v2, v1}, LX/FeS;->CSi(Lcom/instagram/model/direct/DirectShareTarget;)V
 
-    .line 1715099
+    .line 1715097
     :cond_0
     iget-object v2, v1, Lcom/instagram/model/direct/DirectShareTarget;->A08:LX/3wT;
 
-    .line 1715100
+    .line 1715098
     invoke-static {v2, v6}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1715101
+    .line 1715099
     instance-of v2, v2, LX/3wS;
 
-    .line 1715102
+    .line 1715100
     move-object/from16 v32, p2
 
     if-eqz v2, :cond_6
 
-    .line 1715103
+    .line 1715101
     iget-object v14, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0u:Lcom/instagram/service/session/UserSession;
 
-    .line 1715104
+    .line 1715102
     invoke-static/range {v32 .. v32}, LX/92k;->A1K(Ljava/lang/CharSequence;)Z
 
     move-result v16
 
-    .line 1715105
+    .line 1715103
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
     iget-object v2, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0m:LX/3us;
@@ -18320,12 +18320,12 @@
 
     iget v2, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A00:I
 
-    .line 1715106
+    .line 1715104
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
 
-    .line 1715107
+    .line 1715105
     iget v2, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A02:I
 
     const/4 v5, -0x1
@@ -18338,7 +18338,7 @@
 
     move-result-object v19
 
-    .line 1715108
+    .line 1715106
     :goto_0
     iget v2, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A03:I
 
@@ -18369,27 +18369,27 @@
 
     iget-object v7, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A12:Ljava/lang/String;
 
-    .line 1715109
+    .line 1715107
     iget-object v2, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0E:LX/6Zb;
 
     if-nez v2, :cond_3b
 
     move-object/from16 v2, v20
 
-    .line 1715110
+    .line 1715108
     :goto_2
     const/16 v18, 0x0
 
     if-eqz v13, :cond_2c
 
-    .line 1715111
+    .line 1715109
     invoke-interface {v13}, LX/1M6;->AvY()LX/1M5;
 
     move-result-object v5
 
     if-eqz v5, :cond_2c
 
-    .line 1715112
+    .line 1715110
     invoke-interface {v13}, LX/1M6;->AvY()LX/1M5;
 
     move-result-object v5
@@ -18400,48 +18400,48 @@
 
     if-eqz v5, :cond_2c
 
-    .line 1715113
+    .line 1715111
     invoke-interface {v13}, LX/1M6;->AvY()LX/1M5;
 
     move-result-object v5
 
-    .line 1715114
+    .line 1715112
     invoke-static {v0, v14}, LX/92o;->A0O(LX/0YK;LX/0SF;)LX/0lf;
 
     move-result-object v4
 
-    .line 1715115
+    .line 1715113
     const/16 v2, 0x17e
 
     invoke-static {v2}, LX/IzI;->A00(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1715116
+    .line 1715114
     invoke-static {v4, v2}, LX/5Wd;->A0O(LX/0lf;Ljava/lang/String;)LX/0AW;
 
     move-result-object v4
 
-    .line 1715117
+    .line 1715115
     const/16 v2, 0x6e8
 
-    .line 1715118
+    .line 1715116
     invoke-static {v4, v2}, LX/5Wd;->A0P(LX/0AW;I)Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;
 
     move-result-object v4
 
-    .line 1715119
+    .line 1715117
     invoke-static {v4}, LX/5Wd;->A1Y(LX/0AX;)Z
 
     move-result v2
 
-    .line 1715120
+    .line 1715118
     if-eqz v2, :cond_3
 
-    .line 1715121
+    .line 1715119
     invoke-static {v14, v5}, LX/92n;->A1P(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1715122
+    .line 1715120
     invoke-virtual {v5, v14}, LX/1M5;->A1C(Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
 
     move-result-object v2
@@ -18450,71 +18450,71 @@
 
     move-result-object v2
 
-    .line 1715123
+    .line 1715121
     iget-object v2, v2, LX/2E0;->A00:Ljava/lang/Long;
 
-    .line 1715124
+    .line 1715122
     invoke-static {v2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v7
 
-    .line 1715125
+    .line 1715123
     const-string v2, "a_pk"
 
-    .line 1715126
+    .line 1715124
     invoke-virtual {v4, v2, v7}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715127
+    .line 1715125
     invoke-static {v5, v14}, LX/3zn;->A09(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
 
     move-result-object v7
 
-    .line 1715128
+    .line 1715126
     const-string v2, "follow_status"
 
-    .line 1715129
+    .line 1715127
     invoke-virtual {v4, v2, v7}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715130
+    .line 1715128
     iget-object v8, v5, LX/1M5;->A0d:LX/1MC;
 
-    .line 1715131
+    .line 1715129
     iget-object v2, v8, LX/1MC;->A3s:Ljava/lang/String;
 
-    .line 1715132
+    .line 1715130
     invoke-static {v2}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1715133
+    .line 1715131
     invoke-static {v4, v2}, LX/Chb;->A1K(LX/0AX;Ljava/lang/String;)V
 
-    .line 1715134
+    .line 1715132
     invoke-static {v5}, LX/Chb;->A04(LX/1M5;)I
 
     move-result v2
 
-    .line 1715135
+    .line 1715133
     invoke-static {v2}, LX/5Wd;->A0f(I)Ljava/lang/Long;
 
     move-result-object v7
 
-    .line 1715136
+    .line 1715134
     const-string v2, "m_t"
 
-    .line 1715137
+    .line 1715135
     invoke-virtual {v4, v2, v7}, LX/0AX;->A1j(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 1715138
+    .line 1715136
     invoke-interface {v0}, LX/0YK;->getModuleName()Ljava/lang/String;
 
     move-result-object v7
 
-    .line 1715139
+    .line 1715137
     const-string v2, "source_of_action"
 
-    .line 1715140
+    .line 1715138
     invoke-virtual {v4, v2, v7}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715141
+    .line 1715139
     invoke-virtual {v5}, LX/1M5;->BIl()Ljava/lang/String;
 
     move-result-object v7
@@ -18523,30 +18523,30 @@
 
     const-string v7, ""
 
-    .line 1715142
+    .line 1715140
     :cond_1
     const-string v2, "tracking_token"
 
-    .line 1715143
+    .line 1715141
     invoke-virtual {v4, v2, v7}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715144
+    .line 1715142
     invoke-static {v5}, LX/3zn;->A06(LX/1M5;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1715145
+    .line 1715143
     invoke-static {v4, v2}, LX/92k;->A13(LX/0AX;Ljava/lang/String;)V
 
-    .line 1715146
+    .line 1715144
     invoke-static {v5, v14}, LX/3Ci;->A06(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1715147
+    .line 1715145
     invoke-virtual {v4, v2}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A3t(Ljava/lang/String;)V
 
-    .line 1715148
+    .line 1715146
     invoke-static {v5}, LX/3zn;->A07(LX/1M5;)Ljava/lang/String;
 
     move-result-object v2
@@ -18555,47 +18555,47 @@
 
     const-wide/16 v9, -0x1
 
-    .line 1715149
+    .line 1715147
     invoke-static {v9, v10}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v7
 
-    .line 1715150
+    .line 1715148
     const/16 v2, 0x1d7
 
     invoke-static {v2}, LX/000;->A00(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1715151
+    .line 1715149
     invoke-virtual {v4, v2, v7}, LX/0AX;->A1j(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 1715152
+    .line 1715150
     iget-object v2, v5, LX/1M5;->A0O:Ljava/lang/String;
 
-    .line 1715153
+    .line 1715151
     invoke-virtual {v4, v2}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A4O(Ljava/lang/String;)V
 
-    .line 1715154
+    .line 1715152
     iget-object v2, v8, LX/1MC;->A3y:Ljava/lang/String;
 
-    .line 1715155
+    .line 1715153
     invoke-virtual {v4, v2}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A4a(Ljava/lang/String;)V
 
-    .line 1715156
+    .line 1715154
     invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v2
 
     invoke-virtual {v4, v2}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A25(Ljava/lang/Boolean;)V
 
-    .line 1715157
+    .line 1715155
     iget-object v2, v8, LX/1MC;->A1y:Ljava/lang/Boolean;
 
-    .line 1715158
+    .line 1715156
     invoke-virtual {v4, v2}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A27(Ljava/lang/Boolean;)V
 
-    .line 1715159
+    .line 1715157
     invoke-virtual {v5}, LX/1M5;->A0T()J
 
     move-result-wide v7
@@ -18604,98 +18604,98 @@
 
     move-result-object v2
 
-    .line 1715160
+    .line 1715158
     invoke-virtual {v4, v2}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A3H(Ljava/lang/Long;)V
 
-    .line 1715161
+    .line 1715159
     invoke-static {v5}, LX/3zn;->A01(LX/1M5;)Ljava/lang/Long;
 
     move-result-object v2
 
     invoke-virtual {v4, v2}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A3n(Ljava/lang/Long;)V
 
-    .line 1715162
+    .line 1715160
     invoke-static {v5, v3}, LX/3zn;->A0A(LX/1M5;Ljava/lang/Integer;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1715163
+    .line 1715161
     invoke-virtual {v4, v2}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A3z(Ljava/lang/String;)V
 
-    .line 1715164
+    .line 1715162
     invoke-static {v5, v3}, LX/3zn;->A03(LX/1M5;Ljava/lang/Integer;)Ljava/lang/Long;
 
     move-result-object v2
 
     invoke-virtual {v4, v2}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A2h(Ljava/lang/Long;)V
 
-    .line 1715165
+    .line 1715163
     invoke-static {v5, v3}, LX/3zn;->A04(LX/1M5;Ljava/lang/Integer;)Ljava/lang/Long;
 
     move-result-object v2
 
     invoke-virtual {v4, v2}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A2i(Ljava/lang/Long;)V
 
-    .line 1715166
+    .line 1715164
     invoke-static {v5, v3}, LX/3zn;->A0B(LX/1M5;Ljava/lang/Integer;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1715167
+    .line 1715165
     invoke-virtual {v4, v2}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A40(Ljava/lang/String;)V
 
-    .line 1715168
+    .line 1715166
     invoke-static {v5, v3}, LX/3zn;->A05(LX/1M5;Ljava/lang/Integer;)Ljava/lang/Long;
 
     move-result-object v2
 
     invoke-virtual {v4, v2}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A2m(Ljava/lang/Long;)V
 
-    .line 1715169
+    .line 1715167
     iget-object v2, v5, LX/1M5;->A0K:Ljava/lang/String;
 
-    .line 1715170
+    .line 1715168
     if-eqz v2, :cond_2
 
-    .line 1715171
+    .line 1715169
     invoke-static {v2}, LX/5We;->A0V(Ljava/lang/String;)Ljava/lang/Long;
 
     move-result-object v2
 
-    .line 1715172
+    .line 1715170
     invoke-virtual {v4, v2}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A36(Ljava/lang/Long;)V
 
-    .line 1715173
+    .line 1715171
     :cond_2
     invoke-virtual {v4}, LX/0AX;->BcK()V
 
-    .line 1715174
+    .line 1715172
     :cond_3
     :goto_3
     iget-object v2, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0T:Lcom/instagram/direct/model/DirectForwardingParams;
 
     if-eqz v2, :cond_4
 
-    .line 1715175
+    .line 1715173
     iget-boolean v2, v2, Lcom/instagram/direct/model/DirectForwardingParams;->A05:Z
 
-    .line 1715176
+    .line 1715174
     if-nez v2, :cond_6
 
-    .line 1715177
+    .line 1715175
     :cond_4
     iget-object v2, v1, Lcom/instagram/model/direct/DirectShareTarget;->A08:LX/3wT;
 
-    .line 1715178
+    .line 1715176
     invoke-static {v2, v6}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1715179
+    .line 1715177
     instance-of v2, v2, LX/91k;
 
-    .line 1715180
+    .line 1715178
     if-nez v2, :cond_6
 
-    .line 1715181
+    .line 1715179
     iget-object v11, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0U:LX/F1t;
 
     move/from16 v9, p3
@@ -18704,7 +18704,7 @@
 
     if-eqz v11, :cond_25
 
-    .line 1715182
+    .line 1715180
     iget-object v10, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0u:Lcom/instagram/service/session/UserSession;
 
     int-to-long v4, v9
@@ -18713,7 +18713,7 @@
 
     iget-object v7, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A2L:Ljava/util/Map;
 
-    .line 1715183
+    .line 1715181
     invoke-interface {v7, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v12
@@ -18724,7 +18724,7 @@
 
     iget-object v8, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1L:Ljava/lang/String;
 
-    .line 1715184
+    .line 1715182
     iget-object v7, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A2K:Ljava/util/LinkedHashSet;
 
     invoke-virtual {v7, v1}, Ljava/util/AbstractCollection;->contains(Ljava/lang/Object;)Z
@@ -18733,10 +18733,10 @@
 
     if-eqz v7, :cond_24
 
-    .line 1715185
+    .line 1715183
     sget-object v17, LX/Doa;->A02:LX/Doa;
 
-    .line 1715186
+    .line 1715184
     :goto_4
     iget-object v7, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0c:LX/1M5;
 
@@ -18751,12 +18751,12 @@
 
     iget-object v7, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0c:LX/1M5;
 
-    .line 1715187
+    .line 1715185
     invoke-static {v13, v7, v6}, LX/5HF;->A05(LX/3us;Ljava/lang/Object;Z)Ljava/lang/String;
 
     move-result-object v25
 
-    .line 1715188
+    .line 1715186
     move/from16 v26, p5
 
     move-object/from16 v16, v11
@@ -18779,11 +18779,11 @@
 
     invoke-virtual/range {v16 .. v30}, LX/F1t;->A07(LX/Doa;LX/0YK;Lcom/instagram/model/direct/DirectShareTarget;LX/3BK;Lcom/instagram/service/session/UserSession;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IJJ)V
 
-    .line 1715189
+    .line 1715187
     :cond_6
     const/4 v2, 0x1
 
-    .line 1715190
+    .line 1715188
     :goto_5
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0W:LX/EOt;
 
@@ -18791,7 +18791,7 @@
 
     move-result-object v5
 
-    .line 1715191
+    .line 1715189
     iget-object v12, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0T:Lcom/instagram/direct/model/DirectForwardingParams;
 
     move/from16 v22, p7
@@ -18800,29 +18800,29 @@
 
     if-eqz v12, :cond_f
 
-    .line 1715192
+    .line 1715190
     iget-object v9, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0H:LX/F1W;
 
     iget-object v10, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0m:LX/3us;
 
     iget-object v7, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
-    .line 1715193
+    .line 1715191
     invoke-static {v5, v6}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
     invoke-static {v10, v2}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
     const/4 v8, 0x3
 
-    .line 1715194
+    .line 1715192
     move-object/from16 v3, v32
 
     invoke-static {v3, v8, v7}, LX/5We;->A18(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 1715195
+    .line 1715193
     iget-object v3, v1, Lcom/instagram/model/direct/DirectShareTarget;->A08:LX/3wT;
 
-    .line 1715196
+    .line 1715194
     invoke-static {v3}, LX/02K;->A05(Ljava/lang/Object;)V
 
     invoke-static {v12, v3}, LX/Dt9;->A00(Lcom/instagram/direct/model/DirectForwardingParams;LX/3wT;)Ljava/lang/Integer;
@@ -18835,7 +18835,7 @@
 
     packed-switch v3, :pswitch_data_0
 
-    .line 1715197
+    .line 1715195
     move-object v11, v5
 
     move-object v13, v1
@@ -18852,13 +18852,13 @@
 
     invoke-interface/range {v11 .. v18}, LX/FfT;->ASo(Lcom/instagram/direct/model/DirectForwardingParams;Lcom/instagram/model/direct/DirectShareTarget;LX/3us;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
-    .line 1715198
+    .line 1715196
     :goto_6
     iget-object v8, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0G:LX/ELT;
 
     if-eqz v8, :cond_8
 
-    .line 1715199
+    .line 1715197
     invoke-virtual {v1}, Lcom/instagram/model/direct/DirectShareTarget;->A0D()Z
 
     move-result v1
@@ -18873,7 +18873,7 @@
 
     const/4 v6, 0x1
 
-    .line 1715200
+    .line 1715198
     :cond_7
     iget-object v5, v8, LX/ELT;->A01:LX/1Ce;
 
@@ -18881,20 +18881,20 @@
 
     const-string v1, "ig_live_reshare_waterfall"
 
-    .line 1715201
+    .line 1715199
     invoke-static {v3, v1}, LX/0rK;->A00(LX/0YK;Ljava/lang/String;)LX/0rK;
 
     move-result-object v4
 
     invoke-static {v4, v5}, LX/1Cf;->A02(LX/0rK;LX/1Cf;)V
 
-    .line 1715202
+    .line 1715200
     const-string v1, "reshare_sent"
 
-    .line 1715203
+    .line 1715201
     invoke-static {v4, v8, v1}, LX/ELT;->A00(LX/0rK;LX/ELT;Ljava/lang/String;)V
 
-    .line 1715204
+    .line 1715202
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -18903,7 +18903,7 @@
 
     invoke-virtual {v4, v3, v1}, LX/0rK;->A08(Ljava/lang/Integer;Ljava/lang/String;)V
 
-    .line 1715205
+    .line 1715203
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -18912,42 +18912,42 @@
 
     invoke-virtual {v4, v3, v1}, LX/0rK;->A08(Ljava/lang/Integer;Ljava/lang/String;)V
 
-    .line 1715206
+    .line 1715204
     iget-object v1, v8, LX/ELT;->A02:Lcom/instagram/service/session/UserSession;
 
-    .line 1715207
+    .line 1715205
     invoke-static {v4, v1}, LX/5Wd;->A1P(LX/0rK;LX/0SF;)V
 
-    .line 1715208
+    .line 1715206
     :cond_8
     iput-boolean v2, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1g:Z
 
-    .line 1715209
+    .line 1715207
     return-void
 
-    .line 1715210
+    .line 1715208
     :pswitch_0
     iget-object v11, v9, LX/F1W;->A02:LX/1NW;
 
-    .line 1715211
+    .line 1715209
     iget-object v3, v12, Lcom/instagram/direct/model/DirectForwardingParams;->A04:Ljava/lang/String;
 
-    .line 1715212
+    .line 1715210
     new-instance v4, Lcom/instagram/model/direct/DirectThreadKey;
 
     invoke-direct {v4, v3}, Lcom/instagram/model/direct/DirectThreadKey;-><init>(Ljava/lang/String;)V
 
-    .line 1715213
+    .line 1715211
     iget-object v3, v12, Lcom/instagram/direct/model/DirectForwardingParams;->A03:Ljava/lang/String;
 
-    .line 1715214
+    .line 1715212
     invoke-virtual {v11, v4, v3}, LX/1NW;->A0R(Lcom/instagram/model/direct/DirectThreadKey;Ljava/lang/String;)LX/3uq;
 
     move-result-object v12
 
     if-eqz v12, :cond_e
 
-    .line 1715215
+    .line 1715213
     iget-object v3, v9, LX/F1W;->A03:Lcom/instagram/service/session/UserSession;
 
     invoke-virtual {v3}, Lcom/instagram/service/session/UserSession;->getUserId()Ljava/lang/String;
@@ -18960,10 +18960,10 @@
 
     if-eqz v3, :cond_9
 
-    .line 1715216
+    .line 1715214
     iget-boolean v3, v12, LX/3uq;->A1J:Z
 
-    .line 1715217
+    .line 1715215
     const/16 v23, 0x0
 
     if-eqz v3, :cond_a
@@ -18971,7 +18971,7 @@
     :cond_9
     const/16 v23, 0x1
 
-    .line 1715218
+    .line 1715216
     :cond_a
     invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
@@ -18979,19 +18979,19 @@
 
     packed-switch v3, :pswitch_data_1
 
-    .line 1715219
+    .line 1715217
     const-string v0, "Unsupported open message type"
 
-    .line 1715220
+    .line 1715218
     :goto_7
     invoke-static {v0}, LX/5Wd;->A0d(Ljava/lang/String;)Ljava/lang/IllegalStateException;
 
     move-result-object v0
 
-    .line 1715221
+    .line 1715219
     throw v0
 
-    .line 1715222
+    .line 1715220
     :pswitch_1
     invoke-virtual {v12}, LX/3uq;->A0G()LX/3BK;
 
@@ -19012,13 +19012,13 @@
 
     if-ne v11, v3, :cond_d
 
-    .line 1715223
+    .line 1715221
     iget-object v3, v12, LX/3uq;->A0b:LX/1M5;
 
-    .line 1715224
+    .line 1715222
     if-eqz v3, :cond_3e
 
-    .line 1715225
+    .line 1715223
     iget-object v4, v9, LX/F1W;->A00:Landroid/content/Context;
 
     invoke-static {}, Ljava/lang/System;->nanoTime()J
@@ -19027,7 +19027,7 @@
 
     const-string v12, ".mp4"
 
-    .line 1715226
+    .line 1715224
     move/from16 v16, v2
 
     move-object v11, v4
@@ -19038,17 +19038,17 @@
 
     move-result-object v4
 
-    .line 1715227
+    .line 1715225
     invoke-static {v4}, LX/Chb;->A0d(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object v16
 
-    .line 1715228
-    invoke-static {}, LX/Chg;->A0z()LX/1BX;
+    .line 1715226
+    invoke-static {}, LX/Chg;->A0y()LX/1BX;
 
     move-result-object v11
 
-    .line 1715229
+    .line 1715227
     new-instance v4, Lkotlin/coroutines/jvm/internal/KtSLambdaShape0S2420000_I1;
 
     move-object v13, v4
@@ -19057,18 +19057,18 @@
 
     move-object v15, v1
 
-    .line 1715230
+    .line 1715228
     move-object/from16 v17, v5
 
-    .line 1715231
+    .line 1715229
     move-object/from16 v18, v32
 
-    .line 1715232
+    .line 1715230
     move-object/from16 v19, v7
 
     move-object/from16 v20, v10
 
-    .line 1715233
+    .line 1715231
     move/from16 v21, v2
 
     invoke-direct/range {v13 .. v23}, Lkotlin/coroutines/jvm/internal/KtSLambdaShape0S2420000_I1;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;LX/1Br;IZZ)V
@@ -19083,7 +19083,7 @@
 
     if-eqz v3, :cond_3e
 
-    invoke-static {}, LX/Chg;->A0z()LX/1BX;
+    invoke-static {}, LX/Chg;->A0y()LX/1BX;
 
     move-result-object v11
 
@@ -19097,32 +19097,32 @@
 
     move-object v15, v5
 
-    .line 1715234
+    .line 1715232
     move-object/from16 v16, v1
 
-    .line 1715235
+    .line 1715233
     move-object/from16 v17, v32
 
     move-object/from16 v18, v7
 
-    .line 1715236
+    .line 1715234
     move-object/from16 v19, v10
 
-    .line 1715237
+    .line 1715235
     move/from16 v20, v6
 
-    .line 1715238
+    .line 1715236
     move/from16 v21, v22
 
     move/from16 v22, v23
 
-    .line 1715239
+    .line 1715237
     invoke-direct/range {v12 .. v22}, Lkotlin/coroutines/jvm/internal/KtSLambdaShape0S2420000_I1;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;LX/1Br;IZZ)V
 
-    .line 1715240
+    .line 1715238
     goto :goto_9
 
-    .line 1715241
+    .line 1715239
     :cond_c
     sget-object v3, LX/E3O;->A00:[I
 
@@ -19145,10 +19145,10 @@
     :pswitch_2
     iget-object v3, v12, LX/3uq;->A11:Ljava/lang/String;
 
-    .line 1715242
+    .line 1715240
     invoke-static {v3}, LX/02K;->A05(Ljava/lang/Object;)V
 
-    .line 1715243
+    .line 1715241
     move-object v8, v5
 
     move-object v9, v1
@@ -19163,11 +19163,11 @@
 
     move/from16 v14, v23
 
-    .line 1715244
+    .line 1715242
     invoke-interface/range {v8 .. v14}, LX/FfT;->Cs7(Lcom/instagram/model/direct/DirectShareTarget;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
-    .line 1715245
-    .line 1715246
+    .line 1715243
+    .line 1715244
     goto/16 :goto_6
 
     :pswitch_3
@@ -19177,13 +19177,13 @@
 
     iget-object v4, v9, LX/F1W;->A03:Lcom/instagram/service/session/UserSession;
 
-    .line 1715247
+    .line 1715245
     sget-object v3, LX/001;->A0j:Ljava/lang/Integer;
 
-    .line 1715248
+    .line 1715246
     invoke-virtual {v8, v4, v3}, LX/6bL;->A01(Lcom/instagram/service/session/UserSession;Ljava/lang/Integer;)LX/4va;
 
-    .line 1715249
+    .line 1715247
     move-result-object v3
 
     iget-object v8, v3, LX/4va;->A02:LX/57E;
@@ -19198,7 +19198,7 @@
 
     iget-object v8, v8, LX/57E;->A0C:LX/39m;
 
-    invoke-static {v8, v6, v3, v4}, LX/Che;->A0F(LX/39m;IJ)LX/39m;
+    invoke-static {v8, v6, v3, v4}, LX/Che;->A0G(LX/39m;IJ)LX/39m;
 
     move-result-object v3
 
@@ -19206,7 +19206,7 @@
 
     move-object v13, v9
 
-    .line 1715250
+    .line 1715248
     move-object v14, v5
 
     move-object v15, v1
@@ -19221,24 +19221,24 @@
 
     invoke-direct/range {v12 .. v19}, LX/ExQ;-><init>(LX/F1W;LX/FfT;Lcom/instagram/model/direct/DirectShareTarget;LX/3us;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    .line 1715251
-    .line 1715252
+    .line 1715249
+    .line 1715250
     invoke-virtual {v11, v12, v3}, LX/39n;->A02(LX/1Na;LX/39m;)V
 
     goto/16 :goto_6
 
-    .line 1715253
+    .line 1715251
     :cond_f
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0m:LX/3us;
 
     invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
-    .line 1715254
+    .line 1715252
     move-result v3
 
     const-string v7, "Media to share is null"
 
-    .line 1715255
+    .line 1715253
     sparse-switch v3, :sswitch_data_0
 
     const-string v3, "Tried to share an unsupported message type: "
@@ -19257,7 +19257,7 @@
 
     goto/16 :goto_6
 
-    .line 1715256
+    .line 1715254
     :sswitch_0
     invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -19277,7 +19277,7 @@
 
     invoke-interface/range {v4 .. v10}, LX/FfT;->CsF(Lcom/instagram/model/direct/DirectShareTarget;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
-    .line 1715257
+    .line 1715255
     goto :goto_a
 
     :sswitch_1
@@ -19295,26 +19295,26 @@
 
     move/from16 v10, v22
 
-    .line 1715258
+    .line 1715256
     move/from16 v11, v23
 
-    .line 1715259
+    .line 1715257
     invoke-interface/range {v5 .. v11}, LX/FfT;->CrV(Lcom/instagram/model/direct/DirectShareTarget;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
-    .line 1715260
+    .line 1715258
     iget-object v6, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A13:Ljava/lang/String;
 
     if-eqz v6, :cond_10
 
-    .line 1715261
+    .line 1715259
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0c:LX/1M5;
 
-    .line 1715262
+    .line 1715260
     if-eqz v4, :cond_10
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0k:Lcom/instagram/model/direct/DirectShareTarget;
 
-    .line 1715263
+    .line 1715261
     if-ne v1, v3, :cond_10
 
     iget-object v5, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0u:Lcom/instagram/service/session/UserSession;
@@ -19331,7 +19331,7 @@
 
     invoke-static {v0, v5, v3, v6, v4}, LX/5HF;->A0O(LX/0YK;LX/0SF;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715264
+    .line 1715262
     goto :goto_a
 
     :sswitch_2
@@ -19339,10 +19339,10 @@
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
-    .line 1715265
+    .line 1715263
     move-object v6, v1
 
-    .line 1715266
+    .line 1715264
     move-object v7, v4
 
     move-object/from16 v8, v32
@@ -19358,7 +19358,7 @@
     goto :goto_a
 
     :sswitch_3
-    invoke-static {v0}, LX/Chf;->A0d(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)Lcom/instagram/user/model/User;
+    invoke-static {v0}, LX/Chf;->A0f(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)Lcom/instagram/user/model/User;
 
     move-result-object v8
 
@@ -19370,31 +19370,31 @@
 
     move-object v6, v4
 
-    .line 1715267
+    .line 1715265
     move-object v7, v1
 
     move-object/from16 v9, v32
 
     move-object v10, v3
 
-    .line 1715268
+    .line 1715266
     move/from16 v11, v22
 
-    .line 1715269
+    .line 1715267
     move/from16 v12, v23
 
-    .line 1715270
+    .line 1715268
     invoke-interface/range {v5 .. v12}, LX/FfT;->Crl(LX/6Zb;Lcom/instagram/model/direct/DirectShareTarget;Lcom/instagram/user/model/User;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
     goto :goto_a
 
-    .line 1715271
+    .line 1715269
     :cond_11
     const-string v3, "share_sheet_profile"
 
     const-string v7, "User profile to share is null"
 
-    .line 1715272
+    .line 1715270
     goto/16 :goto_10
 
     :sswitch_4
@@ -19406,7 +19406,7 @@
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0b:LX/1M5;
 
-    invoke-static {v3}, LX/Chf;->A0m(LX/1M5;)Ljava/lang/String;
+    invoke-static {v3}, LX/Chf;->A0o(LX/1M5;)Ljava/lang/String;
 
     move-result-object v20
 
@@ -19416,14 +19416,14 @@
 
     move-object v14, v5
 
-    .line 1715273
+    .line 1715271
     move-object v15, v4
 
     move-object/from16 v16, v6
 
     move-object/from16 v17, v1
 
-    .line 1715274
+    .line 1715272
     move-object/from16 v19, v32
 
     move-object/from16 v21, v3
@@ -19464,7 +19464,7 @@
 
     move-object/from16 v20, v32
 
-    .line 1715275
+    .line 1715273
     move-object/from16 v21, v3
 
     move/from16 v24, v6
@@ -19485,10 +19485,10 @@
     :sswitch_6
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A13:Ljava/lang/String;
 
-    .line 1715276
+    .line 1715274
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
-    .line 1715277
+    .line 1715275
     move-object v6, v1
 
     move-object v7, v4
@@ -19497,7 +19497,7 @@
 
     move-object v9, v3
 
-    .line 1715278
+    .line 1715276
     move-object v10, v3
 
     move/from16 v11, v22
@@ -19513,12 +19513,12 @@
 
     instance-of v3, v1, Lcom/instagram/model/direct/DirectReplyToMerchantShareTarget;
 
-    .line 1715279
+    .line 1715277
     if-eqz v3, :cond_14
 
     const-string v3, "shops_messaging:shops_reply_to_merchant_share"
 
-    .line 1715280
+    .line 1715278
     :goto_b
     move-object v6, v1
 
@@ -19526,7 +19526,7 @@
 
     move-object/from16 v8, v32
 
-    .line 1715281
+    .line 1715279
     move-object v9, v3
 
     move/from16 v10, v22
@@ -19549,7 +19549,7 @@
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
-    .line 1715282
+    .line 1715280
     move-object v6, v4
 
     move-object v7, v1
@@ -19571,81 +19571,81 @@
 
     goto/16 :goto_10
 
-    .line 1715283
+    .line 1715281
     :sswitch_9
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0S:Lcom/instagram/direct/model/DirectAREffectShare;
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
-    .line 1715284
+    .line 1715282
     move-object v6, v4
 
     move-object v7, v1
 
     move-object/from16 v8, v32
 
-    .line 1715285
+    .line 1715283
     move-object v9, v3
 
     move/from16 v10, v22
 
-    .line 1715286
+    .line 1715284
     move/from16 v11, v23
 
     invoke-interface/range {v5 .. v11}, LX/FfT;->Cr3(Lcom/instagram/direct/model/DirectAREffectShare;Lcom/instagram/model/direct/DirectShareTarget;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
-    .line 1715287
+    .line 1715285
     goto/16 :goto_a
 
     :sswitch_a
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0c:LX/1M5;
 
-    .line 1715288
+    .line 1715286
     if-eqz v3, :cond_10
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->mMessageReactButton:Landroid/view/View;
 
-    .line 1715289
+    .line 1715287
     if-eqz v3, :cond_16
 
-    .line 1715290
+    .line 1715288
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0u:Lcom/instagram/service/session/UserSession;
 
     invoke-virtual {v3}, Landroid/view/View;->isSelected()Z
 
-    .line 1715291
+    .line 1715289
     move-result v8
 
-    .line 1715292
+    .line 1715290
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0c:LX/1M5;
 
     invoke-virtual {v3}, LX/1M5;->A1i()Ljava/lang/String;
 
-    .line 1715293
+    .line 1715291
     move-result-object v7
 
     invoke-static {v0, v4}, LX/0lf;->A01(LX/0YK;LX/0SF;)LX/0lf;
+
+    .line 1715292
+    move-result-object v4
+
+    .line 1715293
+    const-string v3, "direct_reshare_ask_to_remix"
+
+    invoke-static {v4, v3}, LX/5Wd;->A0O(LX/0lf;Ljava/lang/String;)LX/0AW;
 
     .line 1715294
     move-result-object v4
 
     .line 1715295
-    const-string v3, "direct_reshare_ask_to_remix"
-
-    invoke-static {v4, v3}, LX/5Wd;->A0O(LX/0lf;Ljava/lang/String;)LX/0AW;
-
-    .line 1715296
-    move-result-object v4
-
-    .line 1715297
     const/16 v3, 0x271
 
     invoke-static {v4, v3}, LX/5Wd;->A0P(LX/0AW;I)Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;
 
-    .line 1715298
+    .line 1715296
     move-result-object v6
 
-    .line 1715299
+    .line 1715297
     invoke-static {v8}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v4
@@ -19656,7 +19656,7 @@
 
     invoke-static {v6, v0}, LX/5We;->A0t(LX/0AX;LX/0YK;)V
 
-    .line 1715300
+    .line 1715298
     invoke-static {v6, v7}, LX/92k;->A15(LX/0AX;Ljava/lang/String;)V
 
     invoke-virtual {v6}, LX/0AX;->BcK()V
@@ -19676,7 +19676,7 @@
 
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0E:LX/6Zb;
 
-    .line 1715301
+    .line 1715299
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
     move-object v7, v5
@@ -19689,20 +19689,20 @@
 
     move-object/from16 v11, v32
 
-    .line 1715302
+    .line 1715300
     move-object v12, v3
 
     move/from16 v13, v22
 
-    .line 1715303
+    .line 1715301
     move/from16 v14, v23
 
-    .line 1715304
+    .line 1715302
     invoke-interface/range {v7 .. v14}, LX/FfT;->Cr8(LX/6Zb;LX/1M5;Lcom/instagram/model/direct/DirectShareTarget;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
     goto/16 :goto_a
 
-    .line 1715305
+    .line 1715303
     :cond_17
     iget-object v8, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0c:LX/1M5;
 
@@ -19718,10 +19718,10 @@
 
     new-instance v3, LX/EZj;
 
-    .line 1715306
+    .line 1715304
     invoke-direct {v3, v4}, LX/EZj;-><init>(I)V
 
-    .line 1715307
+    .line 1715305
     move-object v9, v5
 
     move-object v10, v7
@@ -19734,39 +19734,39 @@
 
     move-object/from16 v14, v32
 
-    .line 1715308
+    .line 1715306
     move-object v15, v6
 
     move/from16 v16, v22
 
-    .line 1715309
+    .line 1715307
     move/from16 v17, v23
 
-    .line 1715310
+    .line 1715308
     invoke-interface/range {v9 .. v17}, LX/FfT;->CrA(LX/6Zb;LX/EZj;LX/1M5;Lcom/instagram/model/direct/DirectShareTarget;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
     iget-object v6, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0u:Lcom/instagram/service/session/UserSession;
 
     sget-object v5, LX/0Sq;->A05:LX/0Sq;
 
-    .line 1715311
+    .line 1715309
     const-wide v3, 0x8108a400001056L
 
-    .line 1715312
+    .line 1715310
     invoke-static {v5, v6, v3, v4}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
-    .line 1715313
+    .line 1715311
     move-result v3
 
-    .line 1715314
+    .line 1715312
     if-eqz v3, :cond_10
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0u:Lcom/instagram/service/session/UserSession;
 
     invoke-static {v3}, LX/5df;->A00(Lcom/instagram/service/session/UserSession;)LX/5dg;
 
-    .line 1715315
-    .line 1715316
+    .line 1715313
+    .line 1715314
     move-result-object v5
 
     invoke-virtual {v1}, Lcom/instagram/model/direct/DirectShareTarget;->A05()Ljava/lang/String;
@@ -19775,14 +19775,14 @@
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0c:LX/1M5;
 
-    .line 1715317
+    .line 1715315
     iget-object v3, v3, LX/1M5;->A0d:LX/1MC;
 
     iget-object v8, v3, LX/1MC;->A3s:Ljava/lang/String;
 
     invoke-static {v8, v2}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1715318
+    .line 1715316
     if-eqz v4, :cond_18
 
     iput-object v4, v5, LX/5dg;->A09:Ljava/lang/String;
@@ -19792,7 +19792,7 @@
 
     const/4 v6, 0x0
 
-    .line 1715319
+    .line 1715317
     const-wide/16 v10, 0x0
 
     const/16 v12, 0x7c
@@ -19816,10 +19816,10 @@
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
-    .line 1715320
+    .line 1715318
     move-object v8, v5
 
-    .line 1715321
+    .line 1715319
     move-object v9, v4
 
     move-object v10, v7
@@ -19830,7 +19830,7 @@
 
     move-object/from16 v13, v32
 
-    .line 1715322
+    .line 1715320
     move-object v14, v3
 
     move/from16 v15, v22
@@ -19846,10 +19846,10 @@
 
     invoke-static {v4}, LX/0yH;->A08(Ljava/lang/Object;)V
 
-    .line 1715323
+    .line 1715321
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
-    .line 1715324
+    .line 1715322
     move-object v6, v4
 
     move-object v7, v1
@@ -19883,7 +19883,7 @@
 
     move-object v10, v1
 
-    .line 1715325
+    .line 1715323
     move-object/from16 v11, v32
 
     move-object v12, v3
@@ -19916,7 +19916,7 @@
 
     move-object v9, v5
 
-    .line 1715326
+    .line 1715324
     move-object v10, v4
 
     move-object v11, v1
@@ -19935,7 +19935,7 @@
 
     move/from16 v18, v23
 
-    .line 1715327
+    .line 1715325
     invoke-interface/range {v9 .. v18}, LX/FfT;->Cro(LX/6Zb;Lcom/instagram/model/direct/DirectShareTarget;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
     goto/16 :goto_a
@@ -19963,7 +19963,7 @@
 
     move-object v8, v1
 
-    .line 1715328
+    .line 1715326
     move-object/from16 v10, v32
 
     move-object v11, v4
@@ -19979,12 +19979,12 @@
     :cond_1a
     const-string v3, "share_sheet_location"
 
-    .line 1715329
+    .line 1715327
     const-string v7, "Location to share is null"
 
     goto/16 :goto_10
 
-    .line 1715330
+    .line 1715328
     :sswitch_10
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
@@ -20004,7 +20004,7 @@
 
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0K:Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;
 
-    .line 1715331
+    .line 1715329
     const/4 v3, 0x7
 
     goto :goto_c
@@ -20014,7 +20014,7 @@
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0i:Lcom/instagram/infocenter/intf/InfoCenterShareInfoIntf;
 
-    .line 1715332
+    .line 1715330
     move-object v6, v3
 
     move-object v7, v1
@@ -20033,20 +20033,20 @@
 
     const/16 v3, 0x8
 
-    .line 1715333
+    .line 1715331
     goto :goto_c
 
     :sswitch_12
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
-    .line 1715334
+    .line 1715332
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0h:Lcom/instagram/infocenter/intf/InfoCenterFactShareInfoIntf;
 
     move-object v6, v3
 
     move-object v7, v1
 
-    .line 1715335
+    .line 1715333
     move-object/from16 v8, v32
 
     move-object v9, v4
@@ -20057,7 +20057,7 @@
 
     invoke-interface/range {v5 .. v11}, LX/FfT;->CrQ(Lcom/instagram/infocenter/intf/InfoCenterFactShareInfoIntf;Lcom/instagram/model/direct/DirectShareTarget;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
-    .line 1715336
+    .line 1715334
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0K:Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragmentViewModel;
 
     const/16 v3, 0x9
@@ -20074,14 +20074,14 @@
 
     invoke-virtual {v8}, Ljava/lang/String;->isEmpty()Z
 
-    .line 1715337
+    .line 1715335
     move-result v3
 
     if-nez v3, :cond_10
 
     iget-object v6, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0u:Lcom/instagram/service/session/UserSession;
 
-    .line 1715338
+    .line 1715336
     iget-object v7, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
     iget-object v9, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1A:Ljava/lang/String;
@@ -20129,14 +20129,14 @@
 
     move-object/from16 v30, v8
 
-    .line 1715339
+    .line 1715337
     move-object/from16 v31, v7
 
     move-object/from16 v32, v6
 
     move-object/from16 v33, v4
 
-    .line 1715340
+    .line 1715338
     move-object/from16 v34, v3
 
     move/from16 v36, v22
@@ -20147,7 +20147,7 @@
 
     goto/16 :goto_a
 
-    .line 1715341
+    .line 1715339
     :cond_1b
     const-string v3, ":shops_messaging:collection_social_share"
 
@@ -20164,21 +20164,21 @@
 
     invoke-virtual {v8}, Ljava/lang/String;->isEmpty()Z
 
-    .line 1715342
+    .line 1715340
     move-result v3
 
     if-nez v3, :cond_1c
 
     iget-object v6, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0u:Lcom/instagram/service/session/UserSession;
 
-    .line 1715343
+    .line 1715341
     iget-object v7, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
     iget-object v9, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1A:Ljava/lang/String;
 
     iget-object v10, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1P:Ljava/lang/String;
 
-    .line 1715344
+    .line 1715342
     iget-object v11, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1R:Ljava/lang/String;
 
     invoke-static/range {v6 .. v11}, LX/EVt;->A01(Lcom/instagram/service/session/UserSession;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -20193,7 +20193,7 @@
     :goto_e
     iget-object v8, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1B:Ljava/lang/String;
 
-    .line 1715345
+    .line 1715343
     iget-object v7, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1A:Ljava/lang/String;
 
     iget-object v6, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1T:Ljava/lang/String;
@@ -20210,7 +20210,7 @@
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1d:Ljava/util/List;
 
-    .line 1715346
+    .line 1715344
     move-object v9, v5
 
     move-object v10, v1
@@ -20223,17 +20223,17 @@
 
     move-object v14, v6
 
-    .line 1715347
+    .line 1715345
     move-object/from16 v17, v3
 
     move/from16 v18, v22
 
     move/from16 v19, v23
 
-    .line 1715348
+    .line 1715346
     invoke-interface/range {v9 .. v19}, LX/FfT;->Crx(Lcom/instagram/model/direct/DirectShareTarget;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ZZ)V
 
-    .line 1715349
+    .line 1715347
     goto/16 :goto_a
 
     :cond_1d
@@ -20245,7 +20245,7 @@
 
     goto :goto_e
 
-    .line 1715350
+    .line 1715348
     :sswitch_15
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0u:Lcom/instagram/service/session/UserSession;
 
@@ -20265,47 +20265,47 @@
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
-    .line 1715351
+    .line 1715349
     move-object v8, v5
 
     move-object v9, v1
 
     move-object/from16 v10, v32
 
-    .line 1715352
+    .line 1715350
     move-object v11, v7
 
     move-object v13, v6
 
-    .line 1715353
+    .line 1715351
     move-object v14, v4
 
     move-object v15, v3
 
-    .line 1715354
+    .line 1715352
     move/from16 v16, v22
 
     move/from16 v17, v23
 
-    .line 1715355
+    .line 1715353
     invoke-interface/range {v8 .. v17}, LX/FfT;->CrJ(Lcom/instagram/model/direct/DirectShareTarget;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
-    .line 1715356
-    .line 1715357
+    .line 1715354
+    .line 1715355
     goto/16 :goto_a
 
     :sswitch_16
     iget-object v8, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0y:LX/FLJ;
 
-    .line 1715358
+    .line 1715356
     invoke-static {v8}, LX/0yH;->A08(Ljava/lang/Object;)V
 
     iget-object v7, v8, LX/FLJ;->A01:LX/CSP;
 
-    .line 1715359
+    .line 1715357
     if-nez v7, :cond_1e
 
-    .line 1715360
+    .line 1715358
     const v6, 0x7f12492c
 
     iget-object v3, v8, LX/FLJ;->A06:LX/CSP;
@@ -20319,42 +20319,42 @@
     :goto_f
     invoke-virtual {v0, v6, v3}, Landroidx/fragment/app/Fragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 1715361
+    .line 1715359
     move-result-object v7
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
-    .line 1715362
+    .line 1715360
     move-object v4, v5
 
     move-object v5, v1
 
-    .line 1715363
+    .line 1715361
     move-object v6, v8
 
     move-object/from16 v8, v32
 
-    .line 1715364
+    .line 1715362
     move-object v9, v3
 
-    .line 1715365
+    .line 1715363
     move/from16 v10, v22
 
     move/from16 v11, v23
 
     invoke-interface/range {v4 .. v11}, LX/FfT;->CrL(Lcom/instagram/model/direct/DirectShareTarget;LX/FLJ;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
-    .line 1715366
+    .line 1715364
     goto/16 :goto_a
 
-    .line 1715367
+    .line 1715365
     :cond_1e
     const v6, 0x7f12492d
 
-    .line 1715368
+    .line 1715366
     iget-object v3, v8, LX/FLJ;->A06:LX/CSP;
 
-    .line 1715369
+    .line 1715367
     iget-object v4, v3, LX/CSP;->A00:Ljava/lang/String;
 
     iget-object v3, v7, LX/CSP;->A00:Ljava/lang/String;
@@ -20363,7 +20363,7 @@
 
     move-result-object v3
 
-    .line 1715370
+    .line 1715368
     goto :goto_f
 
     :sswitch_17
@@ -20377,10 +20377,10 @@
 
     invoke-static {v3}, LX/62t;->A04(LX/3wT;)LX/3ty;
 
-    .line 1715371
+    .line 1715369
     move-result-object v20
 
-    .line 1715372
+    .line 1715370
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0D:LX/6Zb;
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
@@ -20391,19 +20391,19 @@
 
     move-object/from16 v18, v4
 
-    .line 1715373
+    .line 1715371
     move-object/from16 v19, v7
 
     move-object/from16 v21, v3
 
     invoke-virtual/range {v17 .. v23}, LX/5tm;->Cr6(LX/6Zb;LX/59U;LX/3ty;Ljava/lang/String;ZZ)V
 
-    .line 1715374
+    .line 1715372
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0V:LX/5tm;
 
     invoke-virtual {v1}, Lcom/instagram/model/direct/DirectShareTarget;->A00()Lcom/instagram/model/direct/DirectThreadKey;
 
-    .line 1715375
+    .line 1715373
     move-result-object v12
 
     iget-object v6, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
@@ -20424,7 +20424,7 @@
 
     move-object v9, v7
 
-    .line 1715376
+    .line 1715374
     move-object v10, v7
 
     move-object v11, v7
@@ -20437,7 +20437,7 @@
 
     move-object/from16 v17, v6
 
-    .line 1715377
+    .line 1715375
     move-object/from16 v18, v7
 
     move-object/from16 v20, v7
@@ -20446,7 +20446,7 @@
 
     invoke-static/range {v7 .. v23}, LX/ETb;->A00(LX/EZj;LX/59U;Lcom/instagram/direct/model/mentions/SendMentionData$MentionData;Lcom/instagram/direct/model/textformatting/SendTextFormatterData$TextFormatterData;LX/EY4;LX/3ty;Lcom/instagram/service/session/UserSession;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;ZZ)Ljava/lang/String;
 
-    .line 1715378
+    .line 1715376
     goto/16 :goto_a
 
     :cond_1f
@@ -20489,7 +20489,7 @@
 
     move-object/from16 v29, v8
 
-    .line 1715379
+    .line 1715377
     move-object/from16 v30, v7
 
     move-object/from16 v31, v6
@@ -20500,7 +20500,7 @@
 
     move/from16 v35, v22
 
-    .line 1715380
+    .line 1715378
     move/from16 v36, v23
 
     invoke-interface/range {v24 .. v36}, LX/FfT;->CrE(Lcom/instagram/model/direct/DirectShareTarget;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ZZ)V
@@ -20516,38 +20516,38 @@
 
     invoke-static {v3}, LX/2iP;->A00(I)Ljava/lang/String;
 
-    .line 1715381
+    .line 1715379
     move-result-object v4
 
     :cond_20
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0s:Lcom/instagram/save/model/SavedCollection;
 
-    .line 1715382
+    .line 1715380
     move-object v6, v1
 
     move-object v7, v3
 
-    .line 1715383
+    .line 1715381
     move-object/from16 v8, v32
 
     move-object v9, v4
 
     move/from16 v10, v22
 
-    .line 1715384
+    .line 1715382
     move/from16 v11, v23
 
     invoke-interface/range {v5 .. v11}, LX/FfT;->CrC(Lcom/instagram/model/direct/DirectShareTarget;Lcom/instagram/save/model/SavedCollection;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
     goto/16 :goto_a
 
-    .line 1715385
+    .line 1715383
     :sswitch_1a
-    invoke-static {v0}, LX/Chf;->A0d(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)Lcom/instagram/user/model/User;
+    invoke-static {v0}, LX/Chf;->A0f(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)Lcom/instagram/user/model/User;
 
     move-result-object v7
 
-    .line 1715386
+    .line 1715384
     if-eqz v7, :cond_21
 
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
@@ -20564,19 +20564,19 @@
 
     move-result-object v11
 
-    .line 1715387
+    .line 1715385
     move-object v6, v1
 
     move-object/from16 v8, v32
 
     move-object v9, v4
 
-    .line 1715388
+    .line 1715386
     move/from16 v12, v22
 
     move/from16 v13, v23
 
-    .line 1715389
+    .line 1715387
     invoke-interface/range {v5 .. v13}, LX/FfT;->Cs6(Lcom/instagram/model/direct/DirectShareTarget;Lcom/instagram/user/model/User;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
     goto/16 :goto_a
@@ -20584,16 +20584,16 @@
     :cond_21
     const-string v3, "share_sheet_subscription_share_xma"
 
-    .line 1715390
+    .line 1715388
     const-string v7, "Creator to share is null"
 
     goto :goto_10
 
-    .line 1715391
+    .line 1715389
     :sswitch_1b
     iget-object v6, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
-    .line 1715392
+    .line 1715390
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1F:Ljava/lang/String;
 
     invoke-static {v4}, LX/0yH;->A08(Ljava/lang/Object;)V
@@ -20605,7 +20605,7 @@
     goto/16 :goto_a
 
     :sswitch_1c
-    invoke-static {v0}, LX/Chf;->A0d(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)Lcom/instagram/user/model/User;
+    invoke-static {v0}, LX/Chf;->A0f(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)Lcom/instagram/user/model/User;
 
     move-result-object v6
 
@@ -20615,14 +20615,14 @@
 
     const-string v7, "group_member_invite"
 
-    .line 1715393
+    .line 1715391
     move-object v4, v5
 
     move-object v5, v1
 
     move-object v8, v3
 
-    .line 1715394
+    .line 1715392
     move/from16 v9, v22
 
     move/from16 v10, v23
@@ -20643,7 +20643,7 @@
 
     if-eqz v4, :cond_23
 
-    .line 1715395
+    .line 1715393
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
     move-object v6, v1
@@ -20652,15 +20652,15 @@
 
     move-object/from16 v8, v32
 
-    .line 1715396
+    .line 1715394
     move-object v9, v3
 
     move/from16 v10, v22
 
-    .line 1715397
+    .line 1715395
     invoke-interface/range {v5 .. v10}, LX/FfT;->CrZ(Lcom/instagram/model/direct/DirectShareTarget;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    .line 1715398
+    .line 1715396
     goto/16 :goto_a
 
     :cond_23
@@ -20676,7 +20676,7 @@
     :cond_24
     invoke-static {v0}, LX/Doa;->A00(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)LX/Doa;
 
-    .line 1715399
+    .line 1715397
     move-result-object v17
 
     goto/16 :goto_4
@@ -20686,7 +20686,7 @@
 
     invoke-interface {v2}, LX/4bH;->B6k()Ljava/lang/String;
 
-    .line 1715400
+    .line 1715398
     move-result-object v2
 
     invoke-virtual {v2}, Ljava/lang/String;->isEmpty()Z
@@ -20695,136 +20695,136 @@
 
     const/4 v2, 0x1
 
-    .line 1715401
+    .line 1715399
     xor-int/lit8 v13, v3, 0x1
 
     iget-object v7, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0u:Lcom/instagram/service/session/UserSession;
 
-    .line 1715402
+    .line 1715400
     iget-object v14, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1U:Ljava/lang/String;
 
     iget-object v11, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1M:Ljava/lang/String;
 
-    .line 1715403
+    .line 1715401
     const/4 v15, 0x6
 
     if-eqz v13, :cond_26
 
     const/4 v15, 0x2
 
-    .line 1715404
+    .line 1715402
     :cond_26
     iget-object v4, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0c:LX/1M5;
 
-    .line 1715405
+    .line 1715403
     iget-object v8, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A1L:Ljava/lang/String;
 
     iget-object v3, v0, Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;->A0m:LX/3us;
 
-    .line 1715406
+    .line 1715404
     invoke-static {v3, v4, v6}, LX/5HF;->A05(LX/3us;Ljava/lang/Object;Z)Ljava/lang/String;
 
-    .line 1715407
+    .line 1715405
     move-result-object v10
 
     invoke-static {v0, v7}, LX/0lf;->A01(LX/0YK;LX/0SF;)LX/0lf;
 
-    .line 1715408
+    .line 1715406
     move-result-object v3
 
     invoke-static {v3}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A0C(LX/0AR;)Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;
 
-    .line 1715409
+    .line 1715407
     move-result-object v5
 
-    .line 1715410
+    .line 1715408
     const-string v3, "entry_point"
 
-    .line 1715411
+    .line 1715409
     invoke-static {v5, v3, v14, v9}, LX/Chd;->A0Z(LX/0AX;Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/Long;
 
     move-result-object v9
 
-    .line 1715412
+    .line 1715410
     const-string v3, "relative_position"
 
-    .line 1715413
+    .line 1715411
     invoke-virtual {v5, v3, v9}, LX/0AX;->A1j(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 1715414
+    .line 1715412
     invoke-static {v12}, LX/5Wd;->A0f(I)Ljava/lang/Long;
 
     move-result-object v3
 
-    .line 1715415
+    .line 1715413
     invoke-static {v5, v3}, LX/Chb;->A1G(LX/0AX;Ljava/lang/Long;)V
 
-    .line 1715416
+    .line 1715414
     const-string v3, "share_sheet_session_id"
 
-    .line 1715417
+    .line 1715415
     invoke-static {v5, v3, v11, v13}, LX/92m;->A0W(LX/0AX;Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/Boolean;
 
-    .line 1715418
+    .line 1715416
     move-result-object v9
 
     const-string v3, "is_search"
 
-    .line 1715419
+    .line 1715417
     invoke-virtual {v5, v3, v9}, LX/0AX;->A1h(Ljava/lang/String;Ljava/lang/Boolean;)V
 
     invoke-static {v15}, LX/Drq;->A00(I)Ljava/lang/String;
 
-    .line 1715420
+    .line 1715418
     move-result-object v9
 
     const-string v3, "section_type"
 
     invoke-virtual {v5, v3, v9}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715421
+    .line 1715419
     const-string v3, "send_type"
 
     invoke-virtual {v5, v3, v10}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715422
-    .line 1715423
+    .line 1715420
+    .line 1715421
     iget-object v3, v1, Lcom/instagram/model/direct/DirectShareTarget;->A0H:Ljava/util/List;
 
     invoke-static {v3}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
-    .line 1715424
+    .line 1715422
     move-result-object v10
 
     const/4 v9, 0x5
 
     new-instance v3, Lcom/facebook/redex/IDxFunctionShape59S0000000_3_I1;
 
-    .line 1715425
+    .line 1715423
     invoke-direct {v3, v9}, Lcom/facebook/redex/IDxFunctionShape59S0000000_3_I1;-><init>(I)V
 
     invoke-static {v3, v10}, LX/2e8;->A01(LX/10N;Ljava/util/List;)Ljava/util/List;
 
     move-result-object v9
 
-    .line 1715426
+    .line 1715424
     const-string v3, "recipient_ids"
 
-    .line 1715427
+    .line 1715425
     invoke-virtual {v5, v3, v9}, LX/0AX;->A1l(Ljava/lang/String;Ljava/util/List;)V
 
     invoke-virtual {v1}, Lcom/instagram/model/direct/DirectShareTarget;->A05()Ljava/lang/String;
 
-    .line 1715428
-    .line 1715429
+    .line 1715426
+    .line 1715427
     move-result-object v3
 
     if-eqz v3, :cond_27
 
-    .line 1715430
+    .line 1715428
     invoke-virtual {v1}, Lcom/instagram/model/direct/DirectShareTarget;->A05()Ljava/lang/String;
 
-    .line 1715431
+    .line 1715429
     move-result-object v3
 
     invoke-virtual {v5, v3}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A5E(Ljava/lang/String;)V
@@ -20838,74 +20838,74 @@
 
     if-ne v3, v2, :cond_28
 
-    .line 1715432
+    .line 1715430
     iget-object v3, v1, Lcom/instagram/model/direct/DirectShareTarget;->A0H:Ljava/util/List;
 
     invoke-static {v3, v6}, LX/Chd;->A0b(Ljava/util/List;I)Ljava/lang/Object;
 
-    .line 1715433
+    .line 1715431
     move-result-object v3
 
     check-cast v3, LX/0ze;
 
-    .line 1715434
+    .line 1715432
     invoke-static {v3}, LX/2E0;->A00(LX/0ze;)LX/2E0;
 
     move-result-object v3
 
-    .line 1715435
+    .line 1715433
     invoke-virtual {v5, v3}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A1n(LX/2E0;)Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;
 
-    .line 1715436
+    .line 1715434
     :cond_28
     if-eqz v4, :cond_29
 
-    .line 1715437
+    .line 1715435
     invoke-static {v4}, LX/Chb;->A04(LX/1M5;)I
 
-    .line 1715438
+    .line 1715436
     move-result v3
 
-    .line 1715439
+    .line 1715437
     invoke-static {v3}, LX/5Wd;->A0f(I)Ljava/lang/Long;
 
-    .line 1715440
+    .line 1715438
     move-result-object v3
 
     invoke-virtual {v5, v3}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A3O(Ljava/lang/Long;)V
 
-    .line 1715441
+    .line 1715439
     :cond_29
     if-eqz v8, :cond_2a
 
     const-string v3, "request_id"
 
-    .line 1715442
+    .line 1715440
     invoke-virtual {v5, v3, v8}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2a
     if-eqz v4, :cond_2b
 
-    .line 1715443
+    .line 1715441
     iget-object v3, v4, LX/1M5;->A0d:LX/1MC;
 
-    .line 1715444
+    .line 1715442
     iget-object v3, v3, LX/1MC;->A3s:Ljava/lang/String;
 
-    .line 1715445
+    .line 1715443
     invoke-static {v5, v3}, LX/92k;->A15(LX/0AX;Ljava/lang/String;)V
 
     invoke-virtual {v4, v7}, LX/1M5;->A1C(Lcom/instagram/service/session/UserSession;)Lcom/instagram/user/model/User;
 
-    .line 1715446
+    .line 1715444
     move-result-object v3
 
-    .line 1715447
+    .line 1715445
     if-eqz v3, :cond_2b
 
     invoke-static {v4, v7}, LX/Chd;->A0d(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
 
-    .line 1715448
+    .line 1715446
     move-result-object v4
 
     const-string v3, "media_author_id"
@@ -20915,7 +20915,7 @@
     :cond_2b
     invoke-virtual {v5}, LX/0AX;->BcK()V
 
-    .line 1715449
+    .line 1715447
     goto/16 :goto_5
 
     :cond_2c
@@ -20925,7 +20925,7 @@
 
     move-result-object v5
 
-    .line 1715450
+    .line 1715448
     invoke-static/range {v16 .. v16}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v4
@@ -20934,7 +20934,7 @@
 
     invoke-virtual {v5, v3, v4}, LX/0rK;->A09(Ljava/lang/String;Ljava/lang/Boolean;)V
 
-    .line 1715451
+    .line 1715449
     invoke-interface {v0}, LX/0YK;->getModuleName()Ljava/lang/String;
 
     move-result-object v4
@@ -20943,7 +20943,7 @@
 
     invoke-virtual {v5, v3, v4}, LX/0rK;->A0D(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715452
+    .line 1715450
     invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v4
@@ -20952,18 +20952,18 @@
 
     invoke-virtual {v5, v3, v4}, LX/0rK;->A09(Ljava/lang/String;Ljava/lang/Boolean;)V
 
-    .line 1715453
+    .line 1715451
     const-string v3, "is_recent_thread"
 
-    .line 1715454
+    .line 1715452
     invoke-virtual {v5, v3, v4}, LX/0rK;->A09(Ljava/lang/String;Ljava/lang/Boolean;)V
 
-    .line 1715455
+    .line 1715453
     if-eqz v7, :cond_2d
 
     const-string v3, "comment_id"
 
-    .line 1715456
+    .line 1715454
     invoke-virtual {v5, v3, v7}, LX/0rK;->A0D(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2d
@@ -20971,24 +20971,24 @@
 
     const-string v3, "reel_id"
 
-    .line 1715457
+    .line 1715455
     invoke-virtual {v5, v3, v11}, LX/0rK;->A0D(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, LX/2pZ;->A00()LX/2pZ;
 
-    .line 1715458
+    .line 1715456
     invoke-static {v14, v11}, LX/92r;->A0I(Lcom/instagram/service/session/UserSession;Ljava/lang/String;)Lcom/instagram/model/reels/Reel;
 
     move-result-object v4
 
     sget-object v7, LX/3us;->A0z:LX/3us;
 
-    .line 1715459
+    .line 1715457
     move-object/from16 v3, v17
 
     if-ne v3, v7, :cond_32
 
-    .line 1715460
+    .line 1715458
     if-eqz v4, :cond_32
 
     invoke-virtual {v4}, Lcom/instagram/model/reels/Reel;->A0e()Z
@@ -21008,7 +21008,7 @@
 
     move-result-object v17
 
-    .line 1715461
+    .line 1715459
     invoke-virtual {v1}, Lcom/instagram/model/direct/DirectShareTarget;->A08()Ljava/util/List;
 
     move-result-object v3
@@ -21021,19 +21021,19 @@
     :goto_11
     invoke-interface/range {v16 .. v16}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 1715462
+    .line 1715460
     move-result v3
 
     if-eqz v3, :cond_31
 
-    .line 1715463
+    .line 1715461
     invoke-interface/range {v16 .. v16}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v4
 
     invoke-interface/range {v17 .. v17}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
-    .line 1715464
+    .line 1715462
     move-result-object v11
 
     :cond_30
@@ -21055,12 +21055,12 @@
 
     invoke-virtual {v7}, LX/1M5;->A24()Ljava/util/List;
 
-    .line 1715465
+    .line 1715463
     move-result-object v3
 
     invoke-interface {v3, v4}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
-    .line 1715466
+    .line 1715464
     move-result v3
 
     if-eqz v3, :cond_30
@@ -21069,7 +21069,7 @@
 
     goto :goto_11
 
-    .line 1715467
+    .line 1715465
     :cond_31
     if-eqz v18, :cond_3a
 
@@ -21078,64 +21078,64 @@
     :goto_12
     const-string v3, "recipient_type "
 
-    .line 1715468
+    .line 1715466
     invoke-virtual {v5, v3, v4}, LX/0rK;->A0D(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_32
     const-string v4, "tray_session_id"
 
-    .line 1715469
+    .line 1715467
     move-object/from16 v3, v21
 
     invoke-virtual {v5, v4, v3}, LX/0rK;->A0E(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715470
+    .line 1715468
     const-string v3, "viewer_session_id"
 
     invoke-virtual {v5, v3, v15}, LX/0rK;->A0E(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715471
-    .line 1715472
+    .line 1715469
+    .line 1715470
     const-string v3, "share_sheet_session_id"
 
-    .line 1715473
+    .line 1715471
     invoke-virtual {v5, v3, v10}, LX/0rK;->A0E(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v3, "audio_cluster_id"
 
     invoke-virtual {v5, v3, v8}, LX/0rK;->A0E(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715474
+    .line 1715472
     if-eqz v13, :cond_35
 
-    .line 1715475
+    .line 1715473
     invoke-interface {v13}, LX/1M6;->AvY()LX/1M5;
 
     move-result-object v3
 
-    .line 1715476
+    .line 1715474
     iget-object v7, v3, LX/1M5;->A0d:LX/1MC;
 
-    .line 1715477
+    .line 1715475
     iget-object v4, v7, LX/1MC;->A3s:Ljava/lang/String;
 
-    .line 1715478
+    .line 1715476
     const-string v3, "m_pk"
 
     invoke-virtual {v5, v3, v4}, LX/0rK;->A0D(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715479
-    .line 1715480
+    .line 1715477
+    .line 1715478
     const-string v4, "m_ix"
 
     if-eqz v19, :cond_33
 
     move-object/from16 v3, v19
 
-    .line 1715481
+    .line 1715479
     invoke-virtual {v5, v3, v4}, LX/0rK;->A08(Ljava/lang/Integer;Ljava/lang/String;)V
 
-    .line 1715482
+    .line 1715480
     :cond_33
     const-string v3, "recs_ix"
 
@@ -21143,73 +21143,73 @@
 
     invoke-virtual {v5, v12, v3}, LX/0rK;->A08(Ljava/lang/Integer;Ljava/lang/String;)V
 
-    .line 1715483
+    .line 1715481
     :cond_34
     const-string v4, "parent_m_pk"
 
-    .line 1715484
+    .line 1715482
     move-object/from16 v3, v22
 
     invoke-virtual {v5, v4, v3}, LX/0rK;->A0E(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715485
+    .line 1715483
     iget-object v4, v7, LX/1MC;->A44:Ljava/lang/String;
 
-    .line 1715486
+    .line 1715484
     const/16 v3, 0x22b
 
     invoke-static {v3}, LX/000;->A00(I)Ljava/lang/String;
 
-    .line 1715487
+    .line 1715485
     move-result-object v3
 
     invoke-virtual {v5, v3, v4}, LX/0rK;->A0E(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v4, v7, LX/1MC;->A41:Ljava/lang/String;
 
-    .line 1715488
+    .line 1715486
     const-string v3, "ranking_info_token"
 
-    .line 1715489
+    .line 1715487
     invoke-virtual {v5, v3, v4}, LX/0rK;->A0E(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v4, v7, LX/1MC;->A3y:Ljava/lang/String;
 
-    .line 1715490
+    .line 1715488
     const-string v3, "inventory_source"
 
-    .line 1715491
+    .line 1715489
     invoke-virtual {v5, v3, v4}, LX/0rK;->A0E(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715492
+    .line 1715490
     instance-of v3, v13, LX/1dQ;
 
-    .line 1715493
+    .line 1715491
     const-string v4, "ad"
 
-    .line 1715494
+    .line 1715492
     if-eqz v3, :cond_38
 
-    .line 1715495
+    .line 1715493
     check-cast v13, LX/1dQ;
 
     sget-object v3, LX/2kx;->A6K:LX/0YA;
 
-    .line 1715496
+    .line 1715494
     invoke-virtual {v5, v3, v4}, LX/0rK;->A07(LX/0YA;Ljava/lang/String;)V
 
-    .line 1715497
+    .line 1715495
     const-string v4, "ad_id"
 
     iget-object v3, v13, LX/1dQ;->A0G:Ljava/lang/String;
 
-    .line 1715498
+    .line 1715496
     invoke-virtual {v5, v4, v3}, LX/0rK;->A0D(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715499
+    .line 1715497
     const-string v4, "tracking_token"
 
-    .line 1715500
+    .line 1715498
     iget-object v3, v13, LX/1dQ;->A0U:Ljava/lang/String;
 
     :goto_13
@@ -21219,13 +21219,13 @@
     :goto_14
     if-eqz v2, :cond_36
 
-    .line 1715501
+    .line 1715499
     const-string v3, "sticker_template_id"
 
-    .line 1715502
+    .line 1715500
     invoke-virtual {v5, v3, v2}, LX/0rK;->A0D(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1715503
+    .line 1715501
     :cond_36
     if-eqz v9, :cond_37
 
@@ -21236,18 +21236,18 @@
 
     move-result-object v2
 
-    .line 1715504
+    .line 1715502
     invoke-static {v5, v2}, LX/5HF;->A0G(LX/0rK;Ljava/util/List;)V
 
     invoke-static {v5, v14}, LX/5Wd;->A1P(LX/0rK;LX/0SF;)V
 
-    .line 1715505
+    .line 1715503
     goto/16 :goto_3
 
     :cond_38
     invoke-interface {v13}, LX/1M6;->AvY()LX/1M5;
 
-    .line 1715506
+    .line 1715504
     move-result-object v3
 
     invoke-virtual {v3}, LX/1M5;->BZh()Z
@@ -21256,33 +21256,33 @@
 
     if-eqz v3, :cond_39
 
-    .line 1715507
+    .line 1715505
     invoke-interface {v13}, LX/1M6;->AvY()LX/1M5;
 
-    .line 1715508
+    .line 1715506
     move-result-object v7
 
     sget-object v3, LX/2kx;->A6K:LX/0YA;
 
     invoke-virtual {v5, v3, v4}, LX/0rK;->A07(LX/0YA;Ljava/lang/String;)V
 
-    .line 1715509
+    .line 1715507
     const-string v4, "ad_id"
 
     invoke-static {v7, v14}, LX/3Ci;->A06(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 1715510
+    .line 1715508
     invoke-virtual {v5, v4, v3}, LX/0rK;->A0D(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v4, "tracking_token"
 
-    .line 1715511
+    .line 1715509
     invoke-static {v7, v14}, LX/3Ci;->A0E(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
 
-    .line 1715512
-    .line 1715513
+    .line 1715510
+    .line 1715511
     move-result-object v3
 
     goto :goto_13
@@ -21290,12 +21290,12 @@
     :cond_39
     sget-object v4, LX/2kx;->A6K:LX/0YA;
 
-    .line 1715514
+    .line 1715512
     const-string v3, "organic"
 
     invoke-virtual {v5, v4, v3}, LX/0rK;->A07(LX/0YA;Ljava/lang/String;)V
 
-    .line 1715515
+    .line 1715513
     goto :goto_14
 
     :cond_3a
@@ -21901,7 +21901,7 @@
 
     .line 264
     .line 265
-    invoke-static {v4, v6, v0}, LX/Chj;->A0b(Landroid/os/BaseBundle;LX/BDT;Ljava/lang/String;)V
+    invoke-static {v4, v6, v0}, LX/Chj;->A0a(Landroid/os/BaseBundle;LX/BDT;Ljava/lang/String;)V
 
     .line 266
     .line 267
@@ -22008,7 +22008,7 @@
 
     .line 317
     .line 318
-    invoke-static {v3, v5, v0}, LX/Chj;->A0b(Landroid/os/BaseBundle;LX/BDT;Ljava/lang/String;)V
+    invoke-static {v3, v5, v0}, LX/Chj;->A0a(Landroid/os/BaseBundle;LX/BDT;Ljava/lang/String;)V
 
     .line 319
     .line 320
@@ -26057,7 +26057,7 @@
 
     .line 971
     .line 972
-    invoke-static {v0}, LX/Chf;->A0d(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)Lcom/instagram/user/model/User;
+    invoke-static {v0}, LX/Chf;->A0f(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)Lcom/instagram/user/model/User;
 
     .line 973
     .line 974
@@ -26069,7 +26069,7 @@
 
     .line 977
     .line 978
-    invoke-static {v0}, LX/Chf;->A0d(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)Lcom/instagram/user/model/User;
+    invoke-static {v0}, LX/Chf;->A0f(Lcom/instagram/direct/fragment/sharesheet/DirectShareSheetFragment;)Lcom/instagram/user/model/User;
 
     .line 979
     .line 980
@@ -29618,7 +29618,7 @@
     move-result-object v0
 
     .line 139
-    invoke-static {v0}, LX/Chf;->A0I(Landroid/content/Context;)Landroid/graphics/Typeface;
+    invoke-static {v0}, LX/Chf;->A0J(Landroid/content/Context;)Landroid/graphics/Typeface;
 
     .line 140
     .line 141
@@ -35737,7 +35737,7 @@
     move-result v0
 
     .line 3276
-    invoke-static {v8, v0}, LX/Chf;->A17(Landroid/widget/TextView;I)V
+    invoke-static {v8, v0}, LX/Chf;->A18(Landroid/widget/TextView;I)V
 
     .line 3277
     .line 3278

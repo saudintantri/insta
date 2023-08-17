@@ -2928,7 +2928,7 @@
 .method public addFrameListener(Lorg/webrtc/EglRenderer$FrameListener;FLorg/webrtc/RendererCommon$GlDrawer;Z)V
     .locals 6
 
-    .line 539776701
+    .line 539776722
     new-instance v0, Lorg/webrtc/-$$Lambda$EglRenderer$RQnwmlnL5c18V7FwaqbMl6FsQRo;
 
     move-object v1, p0

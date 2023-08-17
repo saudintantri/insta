@@ -490,7 +490,7 @@
 
     .line 134
     .line 135
-    const v0, 0x7f0700bc
+    const v0, 0x7f0700bb
 
     .line 136
     .line 137

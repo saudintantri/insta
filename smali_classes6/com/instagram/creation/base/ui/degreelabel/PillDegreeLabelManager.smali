@@ -2342,7 +2342,7 @@
 
     .line 48
     .line 49
-    invoke-static {v0, v2}, LX/Chg;->A03(FF)F
+    invoke-static {v0, v2}, LX/Chh;->A00(FF)F
 
     .line 50
     .line 51

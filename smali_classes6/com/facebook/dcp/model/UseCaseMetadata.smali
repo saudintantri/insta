@@ -70,7 +70,7 @@
 .method public constructor <init>()V
     .locals 53
 
-    .line 539313102
+    .line 539313123
     const/16 v41, 0x0
 
     const-string v31, "1"
@@ -89,20 +89,20 @@
 
     const/4 v0, 0x0
 
-    .line 539313103
+    .line 539313124
     sget-object v36, LX/11W;->A00:LX/11W;
 
-    .line 539313104
+    .line 539313125
     invoke-static {}, LX/Chb;->A0n()LX/155;
 
     move-result-object v37
 
-    .line 539313105
+    .line 539313126
     invoke-static {}, LX/Chb;->A0n()LX/155;
 
     move-result-object v6
 
-    .line 539313106
+    .line 539313127
     const-string v4, "model_name"
 
     const-wide/16 v11, 0x0
@@ -113,19 +113,19 @@
 
     const-wide/high16 v9, 0x3ff0000000000000L    # 1.0
 
-    .line 539313107
+    .line 539313128
     sget-object v2, Lcom/facebook/dcp/model/ExampleSource;->A02:Lcom/facebook/dcp/model/ExampleSource;
 
     const-wide/16 v13, 0x258
 
     const-wide/16 v15, 0xe10
 
-    .line 539313108
+    .line 539313129
     new-instance v3, Lcom/facebook/dcp/model/LogLevel;
 
     invoke-direct {v3, v0}, Lcom/facebook/dcp/model/LogLevel;-><init>(I)V
 
-    .line 539313109
+    .line 539313130
     new-instance v1, Lcom/facebook/dcp/model/PredictorMetadata;
 
     move-wide/from16 v17, v11
@@ -140,7 +140,7 @@
 
     invoke-direct/range {v1 .. v25}, Lcom/facebook/dcp/model/PredictorMetadata;-><init>(Lcom/facebook/dcp/model/ExampleSource;Lcom/facebook/dcp/model/LogLevel;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;DDJJJJJJZZZ)V
 
-    .line 539313110
+    .line 539313131
     const/16 v45, 0x1ff
 
     new-instance v30, Lcom/facebook/dcp/model/TrainerMetadata;
@@ -163,13 +163,13 @@
 
     invoke-direct/range {v40 .. v52}, Lcom/facebook/dcp/model/TrainerMetadata;-><init>(Lcom/facebook/dcp/model/ExampleSource;Lcom/facebook/dcp/model/LogLevel;Ljava/util/Map;Ljava/util/Map;IJJJZ)V
 
-    .line 539313111
+    .line 539313132
     sget-object v26, Lcom/facebook/dcp/model/DcpContext;->A05:Lcom/facebook/dcp/model/DcpContext;
 
-    .line 539313112
+    .line 539313133
     const-wide/16 v40, 0x1e
 
-    .line 539313113
+    .line 539313134
     move-object/from16 v25, p0
 
     move-object/from16 v27, v26
@@ -184,7 +184,7 @@
 
     invoke-direct/range {v25 .. v43}, Lcom/facebook/dcp/model/UseCaseMetadata;-><init>(Lcom/facebook/dcp/model/DcpContext;Lcom/facebook/dcp/model/DcpContext;Lcom/facebook/dcp/model/DcpContext;Lcom/facebook/dcp/model/PredictorMetadata;Lcom/facebook/dcp/model/TrainerMetadata;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/Map;JJZZ)V
 
-    .line 539313114
+    .line 539313135
     return-void
 .end method
 
@@ -942,70 +942,70 @@
 .method public constructor <init>(Lcom/facebook/dcp/model/DcpContext;Lcom/facebook/dcp/model/DcpContext;Lcom/facebook/dcp/model/DcpContext;Lcom/facebook/dcp/model/PredictorMetadata;Lcom/facebook/dcp/model/TrainerMetadata;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/Map;JJZZ)V
     .locals 2
 
-    .line 270876098
+    .line 270876119
     invoke-static {p6, p7}, LX/5We;->A1C(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 270876099
+    .line 270876120
     invoke-static {p8, p9, p10}, LX/FnE;->A1Y(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 270876100
+    .line 270876121
     const/16 v0, 0xb
 
     invoke-static {p4, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 270876101
+    .line 270876122
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 270876102
+    .line 270876123
     iput-object p6, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A07:Ljava/lang/String;
 
-    .line 270876103
+    .line 270876124
     iput-object p7, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A0B:Ljava/lang/String;
 
-    .line 270876104
+    .line 270876125
     iput-object p8, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A0A:Ljava/lang/String;
 
-    .line 270876105
+    .line 270876126
     iput-object p9, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A08:Ljava/lang/String;
 
-    .line 270876106
+    .line 270876127
     iput-object p10, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A09:Ljava/lang/String;
 
-    .line 270876107
+    .line 270876128
     move/from16 v0, p17
 
     iput-boolean v0, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A0F:Z
 
-    .line 270876108
+    .line 270876129
     iput-wide p13, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A01:J
 
-    .line 270876109
+    .line 270876130
     move/from16 v0, p18
 
     iput-boolean v0, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A0E:Z
 
-    .line 270876110
+    .line 270876131
     iput-object p11, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A0C:Ljava/util/List;
 
-    .line 270876111
+    .line 270876132
     iput-object p12, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A0D:Ljava/util/Map;
 
-    .line 270876112
+    .line 270876133
     iput-object p4, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A05:Lcom/facebook/dcp/model/PredictorMetadata;
 
-    .line 270876113
+    .line 270876134
     iput-object p5, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A06:Lcom/facebook/dcp/model/TrainerMetadata;
 
-    .line 270876114
+    .line 270876135
     iput-object p1, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A04:Lcom/facebook/dcp/model/DcpContext;
 
-    .line 270876115
+    .line 270876136
     iput-object p2, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A03:Lcom/facebook/dcp/model/DcpContext;
 
-    .line 270876116
+    .line 270876137
     iput-object p3, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A02:Lcom/facebook/dcp/model/DcpContext;
 
-    .line 270876117
+    .line 270876138
     move-wide/from16 v0, p15
 
     iput-wide v0, p0, Lcom/facebook/dcp/model/UseCaseMetadata;->A00:J

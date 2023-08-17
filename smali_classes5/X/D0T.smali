@@ -1258,7 +1258,7 @@
 
     .line 105
     .line 106
-    invoke-static {v4, v3}, LX/Chf;->A1A(Landroidx/recyclerview/widget/GridLayoutManager;LX/6GL;)V
+    invoke-static {v4, v3}, LX/Chf;->A1B(Landroidx/recyclerview/widget/GridLayoutManager;LX/6GL;)V
 
     .line 107
     .line 108

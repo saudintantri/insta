@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000d">Rambidza</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12000f">Dzokera</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120015">Kodhi yechengetedzo</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12002c">Simbisa</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003a">Kero yetsamba</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f12003e">Zita Remhuri</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120042">Zvimwe</string>
-    <string name="(name removed)_APKTOOL_DUPLICATENAME_0x7f120043">Zita Rekutanga</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12000d">Rambidza</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12000f">Dzokera</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120015">Kodhi yechengetedzo</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12002c">Simbisa</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003a">Kero yetsamba</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f12003e">Zita Remhuri</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120042">Zvimwe</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f120043">Zita Rekutanga</string>
 </resources>

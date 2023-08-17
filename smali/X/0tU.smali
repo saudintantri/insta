@@ -357,7 +357,6 @@
     goto :goto_6
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_2
-    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_1
 
     .line 157
     :catchall_0
@@ -373,7 +372,6 @@
     goto :goto_5
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_0
-    .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
 
     .line 162
     :catchall_1

@@ -491,17 +491,17 @@
 .method public static create(Lorg/webrtc/CameraSession$CreateSessionCallback;Lorg/webrtc/CameraSession$Events;ZLandroid/content/Context;Lorg/webrtc/SurfaceTextureHelper;IIII)V
     .locals 14
 
-    .line 2896140
+    .line 2896161
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v12
 
-    .line 2896141
+    .line 2896162
     move-object v4, p1
 
     invoke-interface {p1}, Lorg/webrtc/CameraSession$Events;->onCameraOpening()V
 
-    .line 2896142
+    .line 2896163
     :try_start_0
     move/from16 v8, p5
 
@@ -509,23 +509,23 @@
 
     move-result-object v9
 
-    .line 2896143
+    .line 2896164
     invoke-static {}, LX/0Dc;->A04()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2896144
+    .line 2896165
     invoke-static {v9}, LX/0Dc;->A03(Ljava/lang/Object;)V
 
-    .line 2896145
+    .line 2896166
     :cond_0
     if-nez v9, :cond_1
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 2896146
+    .line 2896167
     sget-object v1, Lorg/webrtc/CameraSession$FailureType;->ERROR:Lorg/webrtc/CameraSession$FailureType;
 
     const-string v0, "android.hardware.Camera.open returned null for camera id = "
@@ -536,34 +536,34 @@
 
     goto :goto_2
 
-    .line 2896147
+    .line 2896168
     :cond_1
     :try_start_1
     move-object/from16 v7, p4
 
     iget-object v0, v7, Lorg/webrtc/SurfaceTextureHelper;->surfaceTexture:Landroid/graphics/SurfaceTexture;
 
-    .line 2896148
+    .line 2896169
     invoke-virtual {v9, v0}, Landroid/hardware/Camera;->setPreviewTexture(Landroid/graphics/SurfaceTexture;)V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catch Ljava/lang/RuntimeException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 2896149
+    .line 2896170
     new-instance v10, Landroid/hardware/Camera$CameraInfo;
 
     invoke-direct {v10}, Landroid/hardware/Camera$CameraInfo;-><init>()V
 
-    .line 2896150
+    .line 2896171
     invoke-static {v8, v10}, Landroid/hardware/Camera;->getCameraInfo(ILandroid/hardware/Camera$CameraInfo;)V
 
-    .line 2896151
+    .line 2896172
     :try_start_2
     invoke-virtual {v9}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
     move-result-object v1
 
-    .line 2896152
+    .line 2896173
     move/from16 v3, p6
 
     move/from16 v2, p7
@@ -574,12 +574,12 @@
 
     move-result-object v11
 
-    .line 2896153
+    .line 2896174
     invoke-static {v1, v3, v2}, Lorg/webrtc/Camera1Session;->findClosestPictureSize(Landroid/hardware/Camera$Parameters;II)Lorg/webrtc/Size;
 
     move-result-object v0
 
-    .line 2896154
+    .line 2896175
     move/from16 v5, p2
 
     invoke-static {v9, v1, v11, v0, v5}, Lorg/webrtc/Camera1Session;->updateCameraParameters(Landroid/hardware/Camera;Landroid/hardware/Camera$Parameters;Lorg/webrtc/CameraEnumerationAndroid$CaptureFormat;Lorg/webrtc/Size;Z)V
@@ -590,20 +590,20 @@
     :try_end_2
     .catch Ljava/lang/RuntimeException; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 2896155
+    .line 2896176
     invoke-virtual {v11}, Lorg/webrtc/CameraEnumerationAndroid$CaptureFormat;->frameSize()I
 
     move-result v2
 
     const/4 v1, 0x0
 
-    .line 2896156
+    .line 2896177
     :goto_0
     invoke-static {v2}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 2896157
+    .line 2896178
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->array()[B
 
     move-result-object v0
@@ -612,18 +612,18 @@
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 2896158
+    .line 2896179
     const/4 v0, 0x3
 
     if-ge v1, v0, :cond_2
 
     goto :goto_0
 
-    .line 2896159
+    .line 2896180
     :cond_2
     invoke-virtual {v9, v3}, Landroid/hardware/Camera;->setDisplayOrientation(I)V
 
-    .line 2896160
+    .line 2896181
     new-instance v3, Lorg/webrtc/Camera1Session;
 
     move-object/from16 v6, p3
@@ -634,20 +634,20 @@
 
     return-void
 
-    .line 2896161
+    .line 2896182
     :catch_0
     move-exception v0
 
-    .line 2896162
+    .line 2896183
     invoke-static {v9}, LX/0rB;->A00(Landroid/hardware/Camera;)V
 
     goto :goto_1
 
-    .line 2896163
+    .line 2896184
     :catch_1
     move-exception v0
 
-    .line 2896164
+    .line 2896185
     :goto_1
     sget-object v1, Lorg/webrtc/CameraSession$FailureType;->ERROR:Lorg/webrtc/CameraSession$FailureType;
 
@@ -655,7 +655,7 @@
 
     move-result-object v0
 
-    .line 2896165
+    .line 2896186
     :goto_2
     invoke-interface {p0, v1, v0}, Lorg/webrtc/CameraSession$CreateSessionCallback;->onFailure(Lorg/webrtc/CameraSession$FailureType;Ljava/lang/String;)V
 

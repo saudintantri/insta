@@ -185,7 +185,7 @@
 
     .line 39
     .line 40
-    invoke-static {v7}, LX/Chi;->A0P(LX/1iX;)LX/39m;
+    invoke-static {v7}, LX/Chi;->A0Q(LX/1iX;)LX/39m;
 
     .line 41
     .line 42
@@ -354,7 +354,7 @@
     move-result-object v14
 
     .line 123
-    invoke-static {v0, v14, v2}, LX/Chj;->A0S(LX/MSK;Ljava/lang/Object;[B)Ljava/lang/String;
+    invoke-static {v0, v14, v2}, LX/Chj;->A0R(LX/MSK;Ljava/lang/Object;[B)Ljava/lang/String;
 
     .line 124
     .line 125

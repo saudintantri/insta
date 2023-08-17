@@ -622,7 +622,7 @@
 
     .line 260
     .line 261
-    invoke-static {v3, v0}, LX/Chj;->A0Q(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S4200000_I0;)Ljava/lang/Long;
+    invoke-static {v3, v0}, LX/Chj;->A0P(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/facebook/kotlin/compilerplugins/dataclassgenerate/superclass/KtCSuperShape0S4200000_I0;)Ljava/lang/Long;
 
     .line 262
     .line 263

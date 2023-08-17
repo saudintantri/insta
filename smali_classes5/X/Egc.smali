@@ -239,7 +239,7 @@
     .line 94
     .line 95
     .line 96
-    invoke-static {v6, v7}, LX/Chi;->A0k(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
+    invoke-static {v6, v7}, LX/Chi;->A0m(LX/1M5;Lcom/instagram/service/session/UserSession;)Ljava/lang/String;
 
     .line 97
     .line 98

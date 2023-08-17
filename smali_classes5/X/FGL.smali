@@ -71,7 +71,7 @@
     move-result-object v1
 
     .line 24
-    invoke-static {p1, v1}, LX/Chg;->A11(Landroid/content/Context;LX/3t2;)V
+    invoke-static {p1, v1}, LX/Chg;->A10(Landroid/content/Context;LX/3t2;)V
 
     .line 25
     .line 26
@@ -96,7 +96,7 @@
 
     .line 36
     .line 37
-    invoke-static {v0, v7}, LX/Chg;->A11(Landroid/content/Context;LX/3t2;)V
+    invoke-static {v0, v7}, LX/Chg;->A10(Landroid/content/Context;LX/3t2;)V
 
     .line 38
     .line 39
@@ -226,7 +226,7 @@
 
     .line 102
     .line 103
-    invoke-static {v0, v2}, LX/Chg;->A11(Landroid/content/Context;LX/3t2;)V
+    invoke-static {v0, v2}, LX/Chg;->A10(Landroid/content/Context;LX/3t2;)V
 
     .line 104
     .line 105

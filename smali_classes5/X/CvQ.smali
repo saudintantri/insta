@@ -168,7 +168,7 @@
     .line 32
     .line 33
     :cond_1
-    invoke-static {p0}, LX/Chf;->A0M(Landroid/view/View;)Landroid/view/ViewGroup$MarginLayoutParams;
+    invoke-static {p0}, LX/Chf;->A0N(Landroid/view/View;)Landroid/view/ViewGroup$MarginLayoutParams;
 
     .line 34
     .line 35
@@ -1225,7 +1225,7 @@
     .line 298
     .line 299
     :cond_5
-    invoke-static {v13, v0}, LX/Che;->A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+    invoke-static {v13, v0}, LX/Che;->A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
 
     .line 300
     .line 301
@@ -1410,7 +1410,7 @@
     .line 390
     .line 391
     .line 392
-    invoke-static {v13, v14, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/widget/ImageView;I)V
+    invoke-static {v13, v14, v0}, LX/Chf;->A0z(Landroid/content/Context;Landroid/widget/ImageView;I)V
 
     .line 393
     .line 394
@@ -1453,7 +1453,7 @@
     .line 413
     .line 414
     :goto_3
-    invoke-static {v13, v2, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/widget/ImageView;I)V
+    invoke-static {v13, v2, v0}, LX/Chf;->A0z(Landroid/content/Context;Landroid/widget/ImageView;I)V
 
     .line 415
     .line 416

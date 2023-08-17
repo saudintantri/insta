@@ -86,7 +86,7 @@
     move-result-object v1
 
     .line 28
-    const v0, 0x7f0701ed
+    const v0, 0x7f0701e4
 
     .line 29
     .line 30

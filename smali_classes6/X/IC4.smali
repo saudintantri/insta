@@ -4359,7 +4359,6 @@
     throw v1
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_1
-    .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_2
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
     .line 2150

@@ -1,8 +1,8 @@
 {
-  "AndroidManifest.xml": "de8ce12066e18ff27e29694a6b6b37584eb9b3ab22d66546a6e1223318612783",
+  "AndroidManifest.xml": "a09fa2868ee1267e9c4844b08a1b17ac0ded728d02381d823dfa8738fb401f50",
   "assets/arservicesforunifiedtargettracking2.dex": "12bc78645cedee5f8c2bbc6fa2a6e6183ad842ea3cd39bba4dda2d3523c14838",
-  "assets/libs.txt": "561e6c122c83eb157858de210e67c844f90ff7bc901d6dc99c5494e28dd2cea8",
-  "assets/libs.zstd": "fb9ac891c6be02221ac39f851facd2eb165188fd4605e5e437054669fc5e46ce",
+  "assets/libs.txt": "635d03c4eea96ed9079c087ddca172be42ca21bc2856c9adb9b28e72b540d01c",
+  "assets/libs.zstd": "c236ceb9f044df3da30b191a3e133faea3d9c238eb9a5981feffed4be0b6cbf6",
   "assets/metadata.txt": "1e379b2920ee0372d7bd2cc2906fad74f7bbe9e0b084768d950499dacda15e60",
   "assets/resources.arsc": "ced5281369bebd8588bc5d2f54b9a5f7320ff13a4cf71fb28012bd7d8195ef87"
 }

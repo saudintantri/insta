@@ -1733,7 +1733,6 @@
     invoke-direct {v0, v6, v3, v5}, LX/LYe;-><init>(LX/LYm;Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
     :try_end_c
     .catch Ljava/io/IOException; {:try_start_c .. :try_end_c} :catch_a
-    .catch Ljava/io/IOException; {:try_start_c .. :try_end_c} :catch_b
 
     .line 656
     .line 657
@@ -2498,7 +2497,6 @@
     goto :goto_d
     :try_end_12
     .catch Ljava/io/IOException; {:try_start_12 .. :try_end_12} :catch_a
-    .catch Ljava/io/IOException; {:try_start_12 .. :try_end_12} :catch_b
 
     .line 1011
     :cond_19
@@ -2569,7 +2567,6 @@
     throw v0
     :try_end_14
     .catch Ljava/io/IOException; {:try_start_14 .. :try_end_14} :catch_a
-    .catch Ljava/io/IOException; {:try_start_14 .. :try_end_14} :catch_b
 
     .line 1041
     :catch_a

@@ -316,7 +316,7 @@
     .line 150
     .line 151
     :pswitch_7
-    invoke-static {p0}, LX/Chf;->A0I(Landroid/content/Context;)Landroid/graphics/Typeface;
+    invoke-static {p0}, LX/Chf;->A0J(Landroid/content/Context;)Landroid/graphics/Typeface;
 
     .line 152
     .line 153

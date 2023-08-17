@@ -386,7 +386,7 @@
 
     .line 25
     :sswitch_1
-    const-string v0, "eviction.v2"
+    const-string/jumbo v0, "eviction.v2"
 
     .line 26
     .line 27
@@ -470,6 +470,8 @@
     .line 64
     .line 65
     return-object v0
+
+    nop
 
     .line 66
     :sswitch_data_0

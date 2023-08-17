@@ -384,7 +384,7 @@
     move-result-object v4
 
     .line 53
-    invoke-static {v4, v8}, LX/Chg;->A14(Landroid/os/BaseBundle;Ljava/lang/String;)V
+    invoke-static {v4, v8}, LX/Chg;->A13(Landroid/os/BaseBundle;Ljava/lang/String;)V
 
     .line 54
     .line 55
@@ -487,7 +487,7 @@
     move-result-object v1
 
     .line 106
-    invoke-static {v1, v8}, LX/Chg;->A14(Landroid/os/BaseBundle;Ljava/lang/String;)V
+    invoke-static {v1, v8}, LX/Chg;->A13(Landroid/os/BaseBundle;Ljava/lang/String;)V
 
     .line 107
     .line 108

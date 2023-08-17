@@ -33,7 +33,7 @@
     move-result-object v3
 
     .line 5
-    invoke-static {}, LX/Chf;->A0a()Lcom/instagram/model/shopping/productfeed/ShoppingModuleLoggingInfo;
+    invoke-static {}, LX/Chf;->A0c()Lcom/instagram/model/shopping/productfeed/ShoppingModuleLoggingInfo;
 
     .line 6
     .line 7

@@ -47,7 +47,7 @@
 
     .line 9
     .line 10
-    invoke-static {v1}, LX/Chf;->A0N(Landroid/view/View;)Landroid/view/ViewPropertyAnimator;
+    invoke-static {v1}, LX/Chf;->A0O(Landroid/view/View;)Landroid/view/ViewPropertyAnimator;
 
     .line 11
     .line 12

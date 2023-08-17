@@ -206,7 +206,7 @@
 
     .line 46
     .line 47
-    invoke-static {v2, v1, v3, v0}, LX/Chf;->A1J(LX/130;LX/13R;Lcom/instagram/common/typedurl/ImageUrl;Ljava/lang/String;)V
+    invoke-static {v2, v1, v3, v0}, LX/Chf;->A1K(LX/130;LX/13R;Lcom/instagram/common/typedurl/ImageUrl;Ljava/lang/String;)V
 
     .line 48
     .line 49
@@ -2164,7 +2164,7 @@
     .line 26
     .line 27
     :cond_0
-    invoke-static {p0}, LX/Chf;->A0b(Landroidx/fragment/app/Fragment;)LX/2Br;
+    invoke-static {p0}, LX/Chf;->A0d(Landroidx/fragment/app/Fragment;)LX/2Br;
 
     .line 28
     .line 29

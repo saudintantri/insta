@@ -1179,7 +1179,7 @@
     move-result-object v1
 
     .line 91
-    invoke-static {v1}, LX/Chf;->A10(Landroid/graphics/drawable/Drawable;)V
+    invoke-static {v1}, LX/Chf;->A11(Landroid/graphics/drawable/Drawable;)V
 
     .line 92
     .line 93

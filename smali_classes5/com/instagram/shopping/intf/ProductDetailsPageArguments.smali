@@ -114,161 +114,161 @@
 .method public constructor <init>(Landroid/os/Bundle;Lcom/instagram/model/shopping/Product;Lcom/instagram/model/shopping/productfeed/ProductTileMedia;Lcom/instagram/model/shopping/productfeed/ShoppingRankingLoggingInfo;Lcom/instagram/shopping/model/analytics/LiveShoppingLoggingInfo;Lcom/instagram/shopping/model/analytics/ShoppingGuideLoggingInfo;Lcom/instagram/shopping/model/analytics/ShoppingSearchLoggingInfo;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/json/JSONObject;JZZZZZ)V
     .locals 3
 
-    .line 1847585
+    .line 1847600
     move-object/from16 v0, p17
 
     invoke-static {p9, p10}, LX/5We;->A1C(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1847586
+    .line 1847601
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1847587
+    .line 1847602
     iput-object p9, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0E:Ljava/lang/String;
 
-    .line 1847588
+    .line 1847603
     iput-object p10, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0M:Ljava/lang/String;
 
-    .line 1847589
+    .line 1847604
     iput-object p11, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0N:Ljava/lang/String;
 
-    .line 1847590
+    .line 1847605
     iput-object p3, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A03:Lcom/instagram/model/shopping/productfeed/ProductTileMedia;
 
-    .line 1847591
+    .line 1847606
     iput-object p12, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0H:Ljava/lang/String;
 
-    .line 1847592
+    .line 1847607
     move-object/from16 v1, p13
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0R:Ljava/lang/String;
 
-    .line 1847593
+    .line 1847608
     move/from16 v1, p34
 
     iput-boolean v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0a:Z
 
-    .line 1847594
+    .line 1847609
     move-object/from16 v1, p14
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0I:Ljava/lang/String;
 
-    .line 1847595
+    .line 1847610
     iput-object p8, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A08:Ljava/lang/Integer;
 
-    .line 1847596
+    .line 1847611
     iput-object p2, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A02:Lcom/instagram/model/shopping/Product;
 
-    .line 1847597
+    .line 1847612
     move-object/from16 v1, p16
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0K:Ljava/lang/String;
 
-    .line 1847598
+    .line 1847613
     move/from16 v1, p35
 
     iput-boolean v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0Y:Z
 
-    .line 1847599
+    .line 1847614
     move-object/from16 v1, p18
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0F:Ljava/lang/String;
 
-    .line 1847600
+    .line 1847615
     iput-object p7, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A07:Lcom/instagram/shopping/model/analytics/ShoppingSearchLoggingInfo;
 
-    .line 1847601
+    .line 1847616
     move/from16 v1, p36
 
     iput-boolean v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0Z:Z
 
-    .line 1847602
+    .line 1847617
     iput-object p5, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A05:Lcom/instagram/shopping/model/analytics/LiveShoppingLoggingInfo;
 
-    .line 1847603
+    .line 1847618
     iput-object p6, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A06:Lcom/instagram/shopping/model/analytics/ShoppingGuideLoggingInfo;
 
-    .line 1847604
+    .line 1847619
     move-object/from16 v1, p19
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0S:Ljava/lang/String;
 
-    .line 1847605
+    .line 1847620
     move-wide/from16 v1, p32
 
     iput-wide v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A00:J
 
-    .line 1847606
+    .line 1847621
     iput-object p1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A01:Landroid/os/Bundle;
 
-    .line 1847607
+    .line 1847622
     iput-object p4, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A04:Lcom/instagram/model/shopping/productfeed/ShoppingRankingLoggingInfo;
 
-    .line 1847608
+    .line 1847623
     move-object/from16 v1, p20
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0L:Ljava/lang/String;
 
-    .line 1847609
+    .line 1847624
     move-object/from16 v1, p21
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0U:Ljava/lang/String;
 
-    .line 1847610
+    .line 1847625
     move/from16 v1, p37
 
     iput-boolean v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0X:Z
 
-    .line 1847611
+    .line 1847626
     move-object/from16 v1, p22
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0D:Ljava/lang/String;
 
-    .line 1847612
+    .line 1847627
     move-object/from16 v1, p23
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0C:Ljava/lang/String;
 
-    .line 1847613
+    .line 1847628
     move-object/from16 v1, p24
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A09:Ljava/lang/String;
 
-    .line 1847614
+    .line 1847629
     move-object/from16 v1, p25
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0B:Ljava/lang/String;
 
-    .line 1847615
+    .line 1847630
     move-object/from16 v1, p26
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0A:Ljava/lang/String;
 
-    .line 1847616
+    .line 1847631
     move-object/from16 v1, p27
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0O:Ljava/lang/String;
 
-    .line 1847617
+    .line 1847632
     move-object/from16 v1, p28
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0P:Ljava/lang/String;
 
-    .line 1847618
+    .line 1847633
     move-object/from16 v1, p31
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0V:Lorg/json/JSONObject;
 
-    .line 1847619
+    .line 1847634
     move/from16 v1, p38
 
     iput-boolean v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0W:Z
 
-    .line 1847620
+    .line 1847635
     move-object/from16 v1, p29
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0G:Ljava/lang/String;
 
-    .line 1847621
+    .line 1847636
     move-object/from16 v1, p30
 
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0T:Ljava/lang/String;
@@ -277,38 +277,38 @@
 
     if-nez p17, :cond_0
 
-    .line 1847622
+    .line 1847637
     if-eqz p2, :cond_3
 
-    .line 1847623
+    .line 1847638
     iget-object v0, p2, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
-    .line 1847624
+    .line 1847639
     iget-object v0, v0, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0C:Lcom/instagram/model/shopping/Merchant;
 
-    .line 1847625
+    .line 1847640
     if-eqz v0, :cond_3
 
-    .line 1847626
+    .line 1847641
     iget-object v0, v0, Lcom/instagram/model/shopping/Merchant;->A07:Ljava/lang/String;
 
-    .line 1847627
+    .line 1847642
     :cond_0
     :goto_0
     iput-object v0, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0J:Ljava/lang/String;
 
     if-nez p15, :cond_2
 
-    .line 1847628
+    .line 1847643
     if-eqz p2, :cond_1
 
-    .line 1847629
+    .line 1847644
     iget-object v0, p2, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
-    .line 1847630
+    .line 1847645
     iget-object v1, v0, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0j:Ljava/lang/String;
 
-    .line 1847631
+    .line 1847646
     :cond_1
     :goto_1
     iput-object v1, p0, Lcom/instagram/shopping/intf/ProductDetailsPageArguments;->A0Q:Ljava/lang/String;
@@ -320,7 +320,7 @@
 
     goto :goto_1
 
-    .line 1847632
+    .line 1847647
     :cond_3
     move-object v0, v1
 

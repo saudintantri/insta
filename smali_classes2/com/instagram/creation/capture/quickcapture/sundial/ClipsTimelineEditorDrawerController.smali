@@ -3880,7 +3880,7 @@
 
     .line 673
     .line 674
-    const v0, 0x7f0700c7
+    const v0, 0x7f0700c6
 
     .line 675
     .line 676
@@ -3937,7 +3937,7 @@
     move-result v5
 
     .line 700
-    const v0, 0x7f0700c6
+    const v0, 0x7f0700c5
 
     .line 701
     .line 702
@@ -3946,7 +3946,7 @@
 
     .line 704
     .line 705
-    const v0, 0x7f0700c8
+    const v0, 0x7f0700c7
 
     .line 706
     .line 707

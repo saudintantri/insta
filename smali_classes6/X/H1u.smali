@@ -13,7 +13,7 @@
 
     invoke-static {v9, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2217256
+    .line 2217277
     move-object/from16 v10, p12
 
     move-object/from16 v1, p11
@@ -36,12 +36,12 @@
 
     if-eqz p19, :cond_4
 
-    .line 2217257
+    .line 2217278
     const/16 v3, 0xa
 
     if-eqz p23, :cond_0
 
-    .line 2217258
+    .line 2217279
     invoke-virtual {v10}, Lcom/instagram/service/session/UserSession;->getUserId()Ljava/lang/String;
 
     move-result-object v0
@@ -52,7 +52,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 2217259
+    .line 2217280
     invoke-virtual {v9}, Lcom/instagram/model/direct/DirectShareTarget;->A03()Ljava/lang/String;
 
     move-result-object v0
@@ -64,11 +64,11 @@
     :cond_0
     const/16 v16, 0x0
 
-    .line 2217260
+    .line 2217281
     :cond_1
     if-eqz p20, :cond_2
 
-    .line 2217261
+    .line 2217282
     invoke-virtual {v1, v9, v2}, LX/46A;->A0F(Lcom/instagram/model/direct/DirectShareTarget;LX/46B;)Z
 
     move-result v0
@@ -80,23 +80,23 @@
     :cond_2
     const/4 v15, 0x0
 
-    .line 2217262
+    .line 2217283
     :cond_3
     invoke-virtual {v1, v9, v2, v3}, LX/46A;->A08(Lcom/instagram/model/direct/DirectShareTarget;LX/46B;I)I
 
     move-result v14
 
-    .line 2217263
+    .line 2217284
     new-instance v4, LX/GII;
 
     move-object/from16 v8, p8
 
     invoke-direct/range {v4 .. v16}, LX/GII;-><init>(LX/0YK;LX/3Bm;LX/FZh;LX/Ior;Lcom/instagram/model/direct/DirectShareTarget;Lcom/instagram/service/session/UserSession;IIIIZZ)V
 
-    .line 2217264
+    .line 2217285
     return-object v4
 
-    .line 2217265
+    .line 2217286
     :cond_4
     move-object/from16 v0, p15
 
@@ -106,7 +106,7 @@
 
     if-eqz p20, :cond_5
 
-    .line 2217266
+    .line 2217287
     invoke-virtual {v1, v9, v2}, LX/46A;->A0F(Lcom/instagram/model/direct/DirectShareTarget;LX/46B;)Z
 
     move-result v0
@@ -121,22 +121,22 @@
     :cond_6
     const/16 v0, 0x3c
 
-    .line 2217267
+    .line 2217288
     invoke-virtual {v1, v9, v2, v0}, LX/46A;->A08(Lcom/instagram/model/direct/DirectShareTarget;LX/46B;I)I
 
     move-result v21
 
-    .line 2217268
+    .line 2217289
     invoke-static {v9, v2}, LX/46A;->A03(Lcom/instagram/model/direct/DirectShareTarget;LX/46B;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 2217269
+    .line 2217290
     invoke-virtual {v1, v0}, LX/46A;->A0I(Ljava/util/Collection;)Z
 
     move-result v25
 
-    .line 2217270
+    .line 2217291
     move-object/from16 v17, p14
 
     move-object/from16 v14, p0
@@ -155,7 +155,7 @@
 
     move-result-object v2
 
-    .line 2217271
+    .line 2217292
     new-instance v1, LX/I8L;
 
     move-object/from16 v4, p7
@@ -166,15 +166,15 @@
 
     invoke-direct {v1, v4, v10, v3, v0}, LX/I8L;-><init>(LX/HCo;Lcom/instagram/service/session/UserSession;Ljava/lang/Integer;Z)V
 
-    .line 2217272
+    .line 2217293
     iget-object v0, v2, LX/HyB;->A08:LX/4o3;
 
-    .line 2217273
+    .line 2217294
     invoke-static {v0}, LX/5We;->A1U(Ljava/lang/Object;)Z
 
     move-result v24
 
-    .line 2217274
+    .line 2217295
     new-instance v14, LX/F5s;
 
     move-object/from16 v17, p5
@@ -197,7 +197,7 @@
 
     invoke-direct/range {v14 .. v24}, LX/F5s;-><init>(LX/FZR;LX/Fh7;LX/FZg;Lcom/instagram/model/direct/DirectShareTarget;Lcom/instagram/service/session/UserSession;Ljava/lang/Integer;IIIZ)V
 
-    .line 2217275
+    .line 2217296
     new-instance v16, LX/GIH;
 
     move/from16 v25, p21
@@ -220,6 +220,6 @@
 
     invoke-direct/range {v16 .. v25}, LX/GIH;-><init>(LX/0YK;LX/FZR;LX/3Bm;LX/FZh;LX/BZx;LX/Ioq;LX/HyB;Lcom/instagram/service/session/UserSession;Z)V
 
-    .line 2217276
+    .line 2217297
     return-object v16
 .end method

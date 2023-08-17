@@ -262,33 +262,33 @@
 .method public constructor <init>(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    .line 807748895
+    .line 807748916
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 807748896
+    .line 807748917
     invoke-static {}, LX/5Wd;->A14()Ljava/util/HashMap;
 
     move-result-object v0
 
-    .line 807748897
+    .line 807748918
     iput-object v0, p0, LX/HjS;->A06:Ljava/util/Map;
 
-    .line 807748898
+    .line 807748919
     iput-object p1, p0, LX/HjS;->A01:Ljava/io/File;
 
     const/4 v0, 0x0
 
-    .line 807748899
+    .line 807748920
     iput-object v0, p0, LX/HjS;->A02:Ljava/io/InputStream;
 
-    .line 807748900
+    .line 807748921
     invoke-virtual {p1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, LX/HjS;->A03:Ljava/lang/String;
 
-    .line 807748901
+    .line 807748922
     iget-object v0, p0, LX/HjS;->A01:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->length()J
@@ -297,10 +297,10 @@
 
     iput-wide v0, p0, LX/HjS;->A00:J
 
-    .line 807748902
+    .line 807748923
     iput-object p2, p0, LX/HjS;->A05:Ljava/lang/String;
 
-    .line 807748903
+    .line 807748924
     iput-object p3, p0, LX/HjS;->A04:Ljava/lang/String;
 
     return-void

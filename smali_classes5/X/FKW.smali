@@ -380,7 +380,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, LX/Chf;->A0K(Ljava/lang/Object;Ljava/lang/Object;)Landroid/os/Bundle;
+    invoke-static {v0, v1}, LX/Chf;->A0L(Ljava/lang/Object;Ljava/lang/Object;)Landroid/os/Bundle;
 
     .line 10
     .line 11
@@ -627,7 +627,7 @@
 
     .line 51
     :cond_2
-    invoke-static {p1, v5, p6, v4}, LX/Chg;->A0F(LX/0YK;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)LX/0rK;
+    invoke-static {p1, v5, p6, v4}, LX/Chg;->A0E(LX/0YK;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)LX/0rK;
 
     .line 52
     .line 53

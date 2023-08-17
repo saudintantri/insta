@@ -441,7 +441,7 @@
     move-result-object v1
 
     .line 17
-    const v0, 0x7f0700e8
+    const v0, 0x7f0700e7
 
     .line 18
     .line 19
@@ -832,7 +832,7 @@
     move-result-object v1
 
     .line 35
-    const v0, 0x7f0700e8
+    const v0, 0x7f0700e7
 
     .line 36
     .line 37

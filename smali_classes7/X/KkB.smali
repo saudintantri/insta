@@ -276,7 +276,6 @@
     monitor-enter v2
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_0
-    .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_1
     .catchall {:try_start_4 .. :try_end_4} :catchall_4
 
     .line 79
@@ -331,7 +330,6 @@
     throw v0
     :try_end_6
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_0
-    .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_1
     .catchall {:try_start_6 .. :try_end_6} :catchall_4
 
     .line 101

@@ -82,24 +82,24 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/Long;IZZZIZZZLcom/facebook/rsys/rooms/gen/RoomMetadataModel;Lcom/facebook/rsys/rooms/gen/RoomCapabilityModel;Ljava/lang/String;ILjava/lang/Boolean;ZZZIZZZ)V
     .locals 21
 
-    .line 2878197
+    .line 2878218
     move-object/from16 v12, p0
 
     invoke-direct {v12}, Ljava/lang/Object;-><init>()V
 
-    .line 2878198
+    .line 2878219
     move-object/from16 v20, p1
 
     invoke-static/range {v20 .. v20}, LX/1zO;->A00(Ljava/lang/Object;)V
 
-    .line 2878199
+    .line 2878220
     move/from16 v19, p3
 
     invoke-static/range {v19 .. v19}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 2878200
+    .line 2878221
     move/from16 v15, p4
 
     move/from16 v14, p5
@@ -108,14 +108,14 @@
 
     invoke-static {v0, v15, v14, v13}, LX/92p;->A1V(Ljava/lang/Object;ZZZ)V
 
-    .line 2878201
+    .line 2878222
     move/from16 v18, p7
 
     invoke-static/range {v18 .. v18}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 2878202
+    .line 2878223
     move/from16 v11, p8
 
     move/from16 v10, p9
@@ -124,24 +124,24 @@
 
     invoke-static {v0, v11, v10, v9}, LX/92p;->A1V(Ljava/lang/Object;ZZZ)V
 
-    .line 2878203
+    .line 2878224
     move-object/from16 v17, p11
 
     invoke-static/range {v17 .. v17}, LX/1zO;->A00(Ljava/lang/Object;)V
 
-    .line 2878204
+    .line 2878225
     move-object/from16 v16, p12
 
     invoke-static/range {v16 .. v16}, LX/1zO;->A00(Ljava/lang/Object;)V
 
-    .line 2878205
+    .line 2878226
     move/from16 v8, p14
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 2878206
+    .line 2878227
     move/from16 v7, p16
 
     move/from16 v6, p17
@@ -150,14 +150,14 @@
 
     invoke-static {v0, v7, v6, v5}, LX/92p;->A1V(Ljava/lang/Object;ZZZ)V
 
-    .line 2878207
+    .line 2878228
     move/from16 v4, p19
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 2878208
+    .line 2878229
     move/from16 v3, p20
 
     move/from16 v2, p21
@@ -166,86 +166,86 @@
 
     invoke-static {v0, v3, v2, v1}, LX/92p;->A1V(Ljava/lang/Object;ZZZ)V
 
-    .line 2878209
+    .line 2878230
     move-object/from16 v0, v20
 
     iput-object v0, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->linkUrl:Ljava/lang/String;
 
-    .line 2878210
+    .line 2878231
     move-object/from16 v0, p2
 
     iput-object v0, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->linkId:Ljava/lang/Long;
 
-    .line 2878211
+    .line 2878232
     move/from16 v0, v19
 
     iput v0, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->participantCount:I
 
-    .line 2878212
+    .line 2878233
     iput-boolean v15, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->active:Z
 
-    .line 2878213
+    .line 2878234
     iput-boolean v14, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->open:Z
 
-    .line 2878214
+    .line 2878235
     iput-boolean v13, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->notInAudience:Z
 
-    .line 2878215
+    .line 2878236
     move/from16 v0, v18
 
     iput v0, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->lockStatus:I
 
-    .line 2878216
+    .line 2878237
     iput-boolean v11, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->canAnonymousUserJoin:Z
 
-    .line 2878217
+    .line 2878238
     iput-boolean v10, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->isHostPresent:Z
 
-    .line 2878218
+    .line 2878239
     iput-boolean v9, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->isE2eEncrypted:Z
 
-    .line 2878219
+    .line 2878240
     move-object/from16 v0, v17
 
     iput-object v0, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->metadata:Lcom/facebook/rsys/rooms/gen/RoomMetadataModel;
 
-    .line 2878220
+    .line 2878241
     move-object/from16 v0, v16
 
     iput-object v0, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->capabilities:Lcom/facebook/rsys/rooms/gen/RoomCapabilityModel;
 
-    .line 2878221
+    .line 2878242
     move-object/from16 v0, p13
 
     iput-object v0, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->conferenceName:Ljava/lang/String;
 
-    .line 2878222
+    .line 2878243
     iput v8, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->joinPermissionSetting:I
 
-    .line 2878223
+    .line 2878244
     move-object/from16 v0, p15
 
     iput-object v0, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->isJoinPermissionMutable:Ljava/lang/Boolean;
 
-    .line 2878224
+    .line 2878245
     iput-boolean v7, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->isAudioOnly:Z
 
-    .line 2878225
+    .line 2878246
     iput-boolean v6, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->isOnlineLearningSpace:Z
 
-    .line 2878226
+    .line 2878247
     iput-boolean v5, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->roomChatIsCommunityMessagingThread:Z
 
-    .line 2878227
+    .line 2878248
     iput v4, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->groupRoomType:I
 
-    .line 2878228
+    .line 2878249
     iput-boolean v3, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->isVideoAllowed:Z
 
-    .line 2878229
+    .line 2878250
     iput-boolean v2, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->shouldDisplayBloksLobby:Z
 
-    .line 2878230
+    .line 2878251
     iput-boolean v1, v12, Lcom/facebook/rsys/rooms/gen/RoomJoiningModel;->shouldJoinWithAudio:Z
 
     return-void

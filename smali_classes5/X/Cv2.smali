@@ -472,7 +472,7 @@
 
     .line 5
     .line 6
-    invoke-static {p1, v0}, LX/Chj;->A0I(Landroid/view/MotionEvent;Landroid/view/View;)LX/6eN;
+    invoke-static {p1, v0}, LX/Chj;->A0H(Landroid/view/MotionEvent;Landroid/view/View;)LX/6eN;
 
     .line 7
     .line 8

@@ -254,7 +254,7 @@
 
     .line 98
     :pswitch_2
-    invoke-static {p1}, LX/Chi;->A0D(Ljava/lang/Object;)LX/Cc6;
+    invoke-static {p1}, LX/Chi;->A0E(Ljava/lang/Object;)LX/Cc6;
 
     .line 99
     .line 100

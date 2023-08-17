@@ -406,7 +406,7 @@
     move-result v7
 
     .line 120
-    invoke-static {v7}, LX/Chh;->A0R(I)Ljava/lang/Integer;
+    invoke-static {v7}, LX/Chi;->A0Y(I)Ljava/lang/Integer;
 
     .line 121
     .line 122
@@ -422,7 +422,7 @@
     move-result v1
 
     .line 128
-    invoke-static {v1}, LX/Chh;->A0R(I)Ljava/lang/Integer;
+    invoke-static {v1}, LX/Chi;->A0Y(I)Ljava/lang/Integer;
 
     .line 129
     .line 130

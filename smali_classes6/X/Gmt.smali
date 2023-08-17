@@ -268,7 +268,7 @@
 
     .line 91
     .line 92
-    const v0, 0x7f0701cd
+    const v0, 0x7f0701c4
 
     .line 93
     .line 94
@@ -285,7 +285,7 @@
 
     .line 100
     .line 101
-    const v0, 0x7f0701e8
+    const v0, 0x7f0701df
 
     .line 102
     .line 103

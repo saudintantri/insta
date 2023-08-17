@@ -1580,7 +1580,6 @@
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
     .catch LX/2Pt; {:try_start_2 .. :try_end_2} :catch_5
-    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_4
 
     .line 33
     :catch_0
@@ -1708,7 +1707,6 @@
     :try_end_6
     .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_3
     .catch LX/2Pt; {:try_start_6 .. :try_end_6} :catch_5
-    .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_4
 
     .line 85
     :catch_3

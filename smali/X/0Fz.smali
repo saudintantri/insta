@@ -8,7 +8,7 @@
     .locals 1
 
     .line 0
-    const v0, 0x15d56dec
+    const v0, 0x15d56e15
 
     .line 1
     .line 2
@@ -20,7 +20,7 @@
     .locals 1
 
     .line 0
-    const v0, 0x19891051
+    const v0, 0x198910ac
 
     .line 1
     .line 2

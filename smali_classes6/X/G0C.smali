@@ -361,7 +361,7 @@
 .method public final bridge synthetic append(C)Landroid/text/Editable;
     .locals 0
 
-    .line 2442630
+    .line 2442651
     invoke-virtual {p0, p1}, LX/G0C;->append(C)Landroid/text/SpannableStringBuilder;
 
     return-object p0
@@ -370,7 +370,7 @@
 .method public final bridge synthetic append(Ljava/lang/CharSequence;)Landroid/text/Editable;
     .locals 0
 
-    .line 2442632
+    .line 2442653
     invoke-virtual {p0, p1}, LX/G0C;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
 
     return-object p0
@@ -379,7 +379,7 @@
 .method public final bridge synthetic append(Ljava/lang/CharSequence;II)Landroid/text/Editable;
     .locals 0
 
-    .line 2442634
+    .line 2442655
     invoke-virtual {p0, p1, p2, p3}, LX/G0C;->append(Ljava/lang/CharSequence;II)Landroid/text/SpannableStringBuilder;
 
     return-object p0
@@ -388,7 +388,7 @@
 .method public final append(C)Landroid/text/SpannableStringBuilder;
     .locals 0
 
-    .line 2442636
+    .line 2442657
     invoke-super {p0, p1}, Landroid/text/SpannableStringBuilder;->append(C)Landroid/text/SpannableStringBuilder;
 
     return-object p0
@@ -397,7 +397,7 @@
 .method public final append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
     .locals 0
 
-    .line 2442637
+    .line 2442658
     invoke-super {p0, p1}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
 
     return-object p0
@@ -406,7 +406,7 @@
 .method public final append(Ljava/lang/CharSequence;II)Landroid/text/SpannableStringBuilder;
     .locals 0
 
-    .line 2442638
+    .line 2442659
     invoke-super {p0, p1, p2, p3}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;II)Landroid/text/SpannableStringBuilder;
 
     return-object p0
@@ -415,7 +415,7 @@
 .method public final append(Ljava/lang/CharSequence;Ljava/lang/Object;I)Landroid/text/SpannableStringBuilder;
     .locals 0
 
-    .line 2442639
+    .line 2442660
     invoke-super {p0, p1, p2, p3}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;Ljava/lang/Object;I)Landroid/text/SpannableStringBuilder;
 
     return-object p0
@@ -424,7 +424,7 @@
 .method public final bridge synthetic append(C)Ljava/lang/Appendable;
     .locals 0
 
-    .line 2442631
+    .line 2442652
     invoke-virtual {p0, p1}, LX/G0C;->append(C)Landroid/text/SpannableStringBuilder;
 
     return-object p0
@@ -433,7 +433,7 @@
 .method public final bridge synthetic append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
     .locals 0
 
-    .line 2442633
+    .line 2442654
     invoke-virtual {p0, p1}, LX/G0C;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
 
     return-object p0
@@ -442,7 +442,7 @@
 .method public final bridge synthetic append(Ljava/lang/CharSequence;II)Ljava/lang/Appendable;
     .locals 0
 
-    .line 2442635
+    .line 2442656
     invoke-virtual {p0, p1, p2, p3}, LX/G0C;->append(Ljava/lang/CharSequence;II)Landroid/text/SpannableStringBuilder;
 
     return-object p0

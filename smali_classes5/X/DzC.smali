@@ -229,7 +229,7 @@
     move-result v0
 
     .line 112
-    invoke-static {v3, v0}, LX/Chf;->A0B(Landroid/view/View;I)I
+    invoke-static {v3, v0}, LX/Chf;->A0C(Landroid/view/View;I)I
 
     .line 113
     .line 114

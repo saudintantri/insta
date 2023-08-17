@@ -12,7 +12,7 @@
     .locals 1
 
     .line 0
-    invoke-static {p1}, LX/Che;->A0D(Lcom/instagram/service/session/UserSession;)LX/38H;
+    invoke-static {p1}, LX/Che;->A0E(Lcom/instagram/service/session/UserSession;)LX/38H;
 
     .line 1
     .line 2
@@ -178,7 +178,7 @@
     .line 67
     .line 68
     .line 69
-    invoke-static {v1}, LX/Chf;->A0n(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
+    invoke-static {v1}, LX/Chf;->A0p(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     .line 70
     .line 71
@@ -186,12 +186,12 @@
     move-result-object v0
 
     .line 73
-    invoke-static {v2, v0}, LX/Chg;->A1F(LX/0AX;Ljava/lang/String;)V
+    invoke-static {v2, v0}, LX/Chg;->A1E(LX/0AX;Ljava/lang/String;)V
 
     .line 74
     .line 75
     .line 76
-    invoke-static {v2, v1}, LX/Chi;->A1C(LX/0AX;Lcom/instagram/model/shopping/Product;)V
+    invoke-static {v2, v1}, LX/Chi;->A1D(LX/0AX;Lcom/instagram/model/shopping/Product;)V
 
     .line 77
     .line 78
@@ -377,7 +377,7 @@
     .line 67
     .line 68
     .line 69
-    invoke-static {v1}, LX/Chf;->A0n(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
+    invoke-static {v1}, LX/Chf;->A0p(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     .line 70
     .line 71
@@ -385,12 +385,12 @@
     move-result-object v0
 
     .line 73
-    invoke-static {v2, v0}, LX/Chg;->A1F(LX/0AX;Ljava/lang/String;)V
+    invoke-static {v2, v0}, LX/Chg;->A1E(LX/0AX;Ljava/lang/String;)V
 
     .line 74
     .line 75
     .line 76
-    invoke-static {v2, v1}, LX/Chi;->A1C(LX/0AX;Lcom/instagram/model/shopping/Product;)V
+    invoke-static {v2, v1}, LX/Chi;->A1D(LX/0AX;Lcom/instagram/model/shopping/Product;)V
 
     .line 77
     .line 78

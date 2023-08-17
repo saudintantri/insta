@@ -115,7 +115,7 @@
     const/4 v0, 0x5
 
     .line 20
-    invoke-static {v1, v0, v2, v3}, LX/Che;->A0F(LX/39m;IJ)LX/39m;
+    invoke-static {v1, v0, v2, v3}, LX/Che;->A0G(LX/39m;IJ)LX/39m;
 
     .line 21
     .line 22

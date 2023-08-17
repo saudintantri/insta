@@ -179,7 +179,7 @@
     move-result-object v0
 
     .line 78
-    invoke-static {v2, v3, v0}, LX/Chj;->A0R(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/instagram/model/shopping/productfeed/ProductTile;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3, v0}, LX/Chj;->A0Q(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/instagram/model/shopping/productfeed/ProductTile;Ljava/lang/String;)Ljava/lang/String;
 
     .line 79
     .line 80
@@ -301,13 +301,13 @@
 
     .line 139
     .line 140
-    invoke-static {v2, v0}, LX/Chg;->A1K(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/MJV;)V
+    invoke-static {v2, v0}, LX/Chg;->A1J(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;LX/MJV;)V
 
     .line 141
     .line 142
     .line 143
     :cond_5
-    invoke-static {v2, v3}, LX/Chi;->A1D(LX/0AX;Lcom/instagram/model/shopping/productfeed/ProductTile;)V
+    invoke-static {v2, v3}, LX/Chi;->A1E(LX/0AX;Lcom/instagram/model/shopping/productfeed/ProductTile;)V
 
     .line 144
     .line 145
@@ -341,7 +341,7 @@
 
     .line 159
     .line 160
-    invoke-static {v2, v0}, LX/Chf;->A1G(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/instagram/shopping/model/analytics/ShoppingGuideLoggingInfo;)V
+    invoke-static {v2, v0}, LX/Chf;->A1H(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/instagram/shopping/model/analytics/ShoppingGuideLoggingInfo;)V
 
     .line 161
     .line 162
@@ -354,7 +354,7 @@
 
     .line 166
     .line 167
-    invoke-static {v2, v0}, LX/Chf;->A1F(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/instagram/model/shopping/productfeed/ShoppingRankingLoggingInfo;)V
+    invoke-static {v2, v0}, LX/Chf;->A1G(Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;Lcom/instagram/model/shopping/productfeed/ShoppingRankingLoggingInfo;)V
 
     .line 168
     .line 169
@@ -1125,7 +1125,7 @@
 
     .line 13
     .line 14
-    invoke-static {v3, v4}, LX/Che;->A08(J)LX/2E0;
+    invoke-static {v3, v4}, LX/Che;->A09(J)LX/2E0;
 
     .line 15
     .line 16

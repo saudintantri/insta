@@ -137,7 +137,7 @@
     .line 42
     .line 43
     .line 44
-    invoke-static {v2}, LX/Chg;->A0U(Landroid/widget/TextView;)LX/Jb2;
+    invoke-static {v2}, LX/Chg;->A0S(Landroid/widget/TextView;)LX/Jb2;
 
     .line 45
     .line 46

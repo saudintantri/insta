@@ -154,7 +154,7 @@
     move-result-object v0
 
     .line 44
-    invoke-static {v0}, LX/Chf;->A0R(Ljava/lang/String;)LX/97h;
+    invoke-static {v0}, LX/Chf;->A0S(Ljava/lang/String;)LX/97h;
 
     .line 45
     .line 46
@@ -275,7 +275,7 @@
     move-result-object v0
 
     .line 104
-    invoke-static {v0}, LX/Chf;->A0R(Ljava/lang/String;)LX/97h;
+    invoke-static {v0}, LX/Chf;->A0S(Ljava/lang/String;)LX/97h;
 
     .line 105
     .line 106
@@ -468,7 +468,7 @@
     move-result-object v0
 
     .line 200
-    invoke-static {v0}, LX/Chf;->A0R(Ljava/lang/String;)LX/97h;
+    invoke-static {v0}, LX/Chf;->A0S(Ljava/lang/String;)LX/97h;
 
     .line 201
     .line 202
@@ -639,7 +639,7 @@
     move-result-object v0
 
     .line 284
-    invoke-static {v0}, LX/Chf;->A0R(Ljava/lang/String;)LX/97h;
+    invoke-static {v0}, LX/Chf;->A0S(Ljava/lang/String;)LX/97h;
 
     .line 285
     .line 286
@@ -688,7 +688,7 @@
     move-result-object v0
 
     .line 308
-    invoke-static {v0}, LX/Chf;->A0R(Ljava/lang/String;)LX/97h;
+    invoke-static {v0}, LX/Chf;->A0S(Ljava/lang/String;)LX/97h;
 
     .line 309
     .line 310

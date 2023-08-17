@@ -187,7 +187,6 @@
     <item type="dimen" name="checkout_shimmer_loading_row_width_percentage_top_section_line_3">0.57</item>
     <item type="dimen" name="checkout_shimmer_loading_row_width_percentage_top_section_line_4">0.68</item>
     <item type="dimen" name="checkout_shimmer_loading_row_width_percentage_top_section_line_5">0.51</item>
-    <dimen name="circular_avatar_stroke_width">1.0px</dimen>
     <dimen name="clips_audio_browser_audiomixing_height">382.0dip</dimen>
     <dimen name="clips_audio_mix_control_item_popup_menu_width">157.0dip</dimen>
     <dimen name="clips_audio_mixing_screen_height">366.0dip</dimen>
@@ -246,7 +245,6 @@
     <dimen name="countdown_sticker_title_end_padding">57.0dip</dimen>
     <dimen name="countdown_sticker_width">270.0dip</dimen>
     <dimen name="counter_facepile_container_size">33.0dip</dimen>
-    <dimen name="cover_photo_picker_filmstrip_frame_width">55.0dip</dimen>
     <dimen name="cover_photo_preview_height_redesign">264.0dip</dimen>
     <dimen name="creator_content_media_grid_empty_state_padding_top">152.0dip</dimen>
     <item type="dimen" name="creator_fan_engagement_product_sticker_hint_text_size">@dimen/account_discovery_bottom_gap</item>
@@ -264,12 +262,8 @@
     <dimen name="dial_effect_picker_height">165.0dip</dimen>
     <dimen name="direct_avatar_presence_badge_size_xl">18.669983dip</dimen>
     <item type="dimen" name="direct_clips_together_indicator_font_size">@dimen/add_payment_bottom_sheet_row_subtitle_size</item>
-    <dimen name="direct_composer_background_corner_radius">25.0dip</dimen>
     <dimen name="direct_emoji_quick_reply_emoji_item_size">25.0sp</dimen>
     <item type="dimen" name="direct_gifs_drawer_item_horizontal_inset_width">@dimen/abc_button_padding_horizontal_material</item>
-    <dimen name="direct_in_thread_composer_row_height">50.0dip</dimen>
-    <dimen name="direct_in_thread_composer_side_margin">15.0dip</dimen>
-    <dimen name="direct_in_thread_composer_top_margin">8.0dip</dimen>
     <dimen name="direct_interest_channel_configure_icon_size">102.0dip</dimen>
     <dimen name="direct_likers_spacing">3.3299866dip</dimen>
     <item type="dimen" name="direct_message_composer_edittext_padding_end">@dimen/abc_floating_window_z</item>
@@ -353,8 +347,6 @@
     <dimen name="iglive_expanded_comments_view_height">230.0dip</dimen>
     <dimen name="in_app_notification_container_height">87.0dip</dimen>
     <dimen name="in_feed_tray_end_card_width">151.0dip</dimen>
-    <dimen name="instagram_default_action_bar_height">48.0dip</dimen>
-    <dimen name="instagram_extended_action_bar_height">60.0dip</dimen>
     <item type="dimen" name="interactive_response_cancel_button_text_size">@dimen/account_section_text_line_height</item>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800.0dip</dimen>
     <dimen name="join_room_button_width">266.0dip</dimen>
@@ -431,7 +423,6 @@
     <dimen name="news_feed_placeholder_text_position">72.5dip</dimen>
     <dimen name="news_feed_placeholder_text_short_width">104.5dip</dimen>
     <dimen name="own_reel_badge_size_large">20.699982dip</dimen>
-    <dimen name="photo_grid_spacing">1.0px</dimen>
     <item type="dimen" name="poll_v2_sticker_result_percentage_text_size">@dimen/abc_select_dialog_padding_start_material</item>
     <item type="dimen" name="poll_v2_sticker_title_text_size">@dimen/background_mode_button_corner_radius</item>
     <item type="dimen" name="product_card_placeholder_price_width_percentage">0.3</item>
@@ -499,7 +490,6 @@
     <dimen name="stories_about_nux_icon_text_size">45.0sp</dimen>
     <dimen name="support_personalized_ads_sticker_secondary_text_size">21.0sp</dimen>
     <dimen name="switch_icon_width">42.5dip</dimen>
-    <dimen name="tab_bar_height_whiteout">48.0dip</dimen>
     <dimen name="text_block_width">285.0dip</dimen>
     <item type="dimen" name="text_format_hint_size_directional">@dimen/background_mode_button_corner_radius</item>
     <item type="dimen" name="text_format_hint_size_elegant">@dimen/background_mode_button_corner_radius</item>
@@ -530,4 +520,7 @@
     <dimen name="universal_location_sticker_icon_offset">3.25dip</dimen>
     <dimen name="vic_sticker_share_card_stroke_radius">3.0px</dimen>
     <dimen name="videocall_avatar_background_particle_radius">2.25dip</dimen>
+    <dimen name="instander_action_bar">56.0dip</dimen>
+    <dimen name="instander_item_height">53.0dip</dimen>
+    <dimen name="instander_button_padding">7.0dip</dimen>
 </resources>

@@ -2834,7 +2834,7 @@
     move-result v3
 
     .line 11
-    const v0, 0x7f0700e8
+    const v0, 0x7f0700e7
 
     .line 12
     .line 13

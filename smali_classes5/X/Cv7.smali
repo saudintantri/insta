@@ -98,206 +98,208 @@
 
     .line 27
     .line 28
-    iget-object v2, p0, LX/Cv7;->A0E:Landroid/graphics/Paint;
+    iget-object v1, p0, LX/Cv7;->A0E:Landroid/graphics/Paint;
 
     .line 29
     .line 30
-    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-static {p1}, LX/Chf;->A0A(Landroid/content/Context;)I
 
     .line 31
     .line 32
     .line 33
-    move-result-object v1
-
-    .line 34
-    const v0, 0x7f070086
-
-    .line 35
-    .line 36
-    .line 37
-    invoke-static {v1, v0}, LX/Chb;->A01(Landroid/content/res/Resources;I)F
-
-    .line 38
-    .line 39
-    .line 40
     move-result v0
 
-    .line 41
-    invoke-virtual {v2, v0}, Landroid/graphics/Paint;->setStrokeWidth(F)V
+    .line 34
+    int-to-float v0, v0
 
-    .line 42
-    .line 43
-    .line 44
+    .line 35
+    invoke-virtual {v1, v0}, Landroid/graphics/Paint;->setStrokeWidth(F)V
+
+    .line 36
+    .line 37
+    .line 38
     iget-object v1, p0, LX/Cv7;->A0E:Landroid/graphics/Paint;
 
+    .line 39
+    .line 40
+    const v0, 0x7f0601d0
+
+    .line 41
+    .line 42
+    .line 43
+    invoke-static {p1, v1, v0}, LX/5Wd;->A1B(Landroid/content/Context;Landroid/graphics/Paint;I)V
+
+    .line 44
     .line 45
     .line 46
-    const v0, 0x7f0601d0
+    iget-object v0, p0, LX/Cv7;->A0E:Landroid/graphics/Paint;
 
     .line 47
     .line 48
-    .line 49
-    invoke-static {p1, v1, v0}, LX/5Wd;->A1B(Landroid/content/Context;Landroid/graphics/Paint;I)V
-
-    .line 50
-    .line 51
-    .line 52
-    iget-object v0, p0, LX/Cv7;->A0E:Landroid/graphics/Paint;
-
-    .line 53
-    .line 54
     invoke-static {v0}, LX/Chb;->A14(Landroid/graphics/Paint;)V
 
-    .line 55
-    .line 56
-    .line 57
+    .line 49
+    .line 50
+    .line 51
     iget-object v0, p0, LX/Cv7;->A0G:Landroid/graphics/Paint;
 
+    .line 52
+    .line 53
+    const v3, 0x7f0601ce
+
+    .line 54
+    .line 55
+    .line 56
+    invoke-static {p1, v0, v3}, LX/5Wd;->A1B(Landroid/content/Context;Landroid/graphics/Paint;I)V
+
+    .line 57
     .line 58
     .line 59
-    const v3, 0x7f0601ce
+    iget-object v1, p0, LX/Cv7;->A0G:Landroid/graphics/Paint;
 
     .line 60
     .line 61
-    .line 62
-    invoke-static {p1, v0, v3}, LX/5Wd;->A1B(Landroid/content/Context;Landroid/graphics/Paint;I)V
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
+    .line 62
     .line 63
     .line 64
+    move-result-object v0
+
     .line 65
-    iget-object v1, p0, LX/Cv7;->A0G:Landroid/graphics/Paint;
+    const v2, 0x7f0700f1
 
     .line 66
     .line 67
-    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
     .line 68
-    .line 69
-    .line 70
-    move-result-object v0
-
-    .line 71
-    const v2, 0x7f0700f2
-
-    .line 72
-    .line 73
-    .line 74
     invoke-static {v0, v2}, LX/Chb;->A01(Landroid/content/res/Resources;I)F
 
-    .line 75
-    .line 76
-    .line 77
+    .line 69
+    .line 70
+    .line 71
     move-result v0
 
-    .line 78
+    .line 72
     invoke-virtual {v1, v0}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    .line 79
-    .line 80
-    .line 81
+    .line 73
+    .line 74
+    .line 75
     iget-object v1, p0, LX/Cv7;->A0G:Landroid/graphics/Paint;
 
-    .line 82
-    .line 83
+    .line 76
+    .line 77
     sget-object v0, Landroid/graphics/Paint$Align;->RIGHT:Landroid/graphics/Paint$Align;
 
-    .line 84
-    .line 85
+    .line 78
+    .line 79
     invoke-virtual {v1, v0}, Landroid/graphics/Paint;->setTextAlign(Landroid/graphics/Paint$Align;)V
 
-    .line 86
-    .line 87
-    .line 88
+    .line 80
+    .line 81
+    .line 82
     iget-object v0, p0, LX/Cv7;->A0F:Landroid/graphics/Paint;
 
-    .line 89
-    .line 90
+    .line 83
+    .line 84
     invoke-static {p1, v0, v3}, LX/5Wd;->A1B(Landroid/content/Context;Landroid/graphics/Paint;I)V
 
-    .line 91
-    .line 92
-    .line 93
+    .line 85
+    .line 86
+    .line 87
     iget-object v1, p0, LX/Cv7;->A0F:Landroid/graphics/Paint;
 
-    .line 94
-    .line 95
+    .line 88
+    .line 89
     invoke-static {p1, v2}, LX/92m;->A01(Landroid/content/Context;I)I
 
-    .line 96
-    .line 97
-    .line 98
+    .line 90
+    .line 91
+    .line 92
     move-result v0
 
-    .line 99
+    .line 93
     int-to-float v0, v0
 
-    .line 100
+    .line 94
     invoke-virtual {v1, v0}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    .line 101
-    .line 102
-    .line 103
+    .line 95
+    .line 96
+    .line 97
     iget-object v0, p0, LX/Cv7;->A0F:Landroid/graphics/Paint;
 
-    .line 104
-    .line 105
+    .line 98
+    .line 99
     invoke-static {v0}, LX/Chb;->A13(Landroid/graphics/Paint;)V
 
-    .line 106
-    .line 107
-    .line 108
+    .line 100
+    .line 101
+    .line 102
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
-    .line 109
-    .line 110
-    .line 111
+    .line 103
+    .line 104
+    .line 105
     move-result-object v2
 
-    .line 112
+    .line 106
     invoke-static {v2}, LX/Chf;->A05(Landroid/content/Context;)I
+
+    .line 107
+    .line 108
+    .line 109
+    move-result v1
+
+    .line 110
+    iput v1, p0, LX/Cv7;->A04:I
+
+    .line 111
+    .line 112
+    invoke-static {v2}, LX/5We;->A03(Landroid/content/Context;)I
 
     .line 113
     .line 114
     .line 115
-    move-result v1
-
-    .line 116
-    iput v1, p0, LX/Cv7;->A04:I
-
-    .line 117
-    .line 118
-    invoke-static {v2}, LX/5We;->A03(Landroid/content/Context;)I
-
-    .line 119
-    .line 120
-    .line 121
     move-result v0
 
-    .line 122
+    .line 116
     sub-int/2addr v1, v0
 
-    .line 123
+    .line 117
     iput v1, p0, LX/Cv7;->A0B:I
+
+    .line 118
+    .line 119
+    invoke-static {v2}, LX/5Wf;->A04(Landroid/content/Context;)I
+
+    .line 120
+    .line 121
+    .line 122
+    move-result v0
+
+    .line 123
+    iput v0, p0, LX/Cv7;->A0A:I
 
     .line 124
     .line 125
-    invoke-static {v2}, LX/5Wf;->A04(Landroid/content/Context;)I
+    iput v0, p0, LX/Cv7;->A05:I
 
     .line 126
     .line 127
+    invoke-static {v2}, LX/Chf;->A06(Landroid/content/Context;)I
+
     .line 128
+    .line 129
+    .line 130
     move-result v0
 
-    .line 129
-    iput v0, p0, LX/Cv7;->A0A:I
-
-    .line 130
     .line 131
-    iput v0, p0, LX/Cv7;->A05:I
+    iput v0, p0, LX/Cv7;->A03:I
 
     .line 132
     .line 133
-    invoke-static {v2}, LX/Chf;->A06(Landroid/content/Context;)I
+    invoke-static {p1}, LX/5Wf;->A04(Landroid/content/Context;)I
 
     .line 134
     .line 135
@@ -305,23 +307,17 @@
     move-result v0
 
     .line 137
-    iput v0, p0, LX/Cv7;->A03:I
+    iput v0, p0, LX/Cv7;->A09:I
 
     .line 138
     .line 139
-    invoke-static {p1}, LX/5Wf;->A04(Landroid/content/Context;)I
-
+    return-void
     .line 140
     .line 141
     .line 142
-    move-result v0
-
     .line 143
-    iput v0, p0, LX/Cv7;->A09:I
-
     .line 144
     .line 145
-    return-void
     .line 146
 .end method
 

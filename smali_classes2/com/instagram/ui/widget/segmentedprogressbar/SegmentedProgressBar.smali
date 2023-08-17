@@ -403,7 +403,7 @@
     const/4 v5, 0x3
 
     .line 268435526
-    const v0, 0x7f0701e5
+    const v0, 0x7f0701dc
 
     .line 268435527
     .line 268435528

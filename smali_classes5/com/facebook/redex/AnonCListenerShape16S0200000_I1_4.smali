@@ -508,7 +508,7 @@
 
     .line 195
     .line 196
-    invoke-static {v1, v0, v2, v3}, LX/Chi;->A1G(LX/0AX;Ljava/lang/String;J)V
+    invoke-static {v1, v0, v2, v3}, LX/Chi;->A1H(LX/0AX;Ljava/lang/String;J)V
 
     .line 197
     .line 198
@@ -1335,7 +1335,7 @@
 
     .line 612
     .line 613
-    invoke-static {v1, v0, v2, v3}, LX/Chi;->A1G(LX/0AX;Ljava/lang/String;J)V
+    invoke-static {v1, v0, v2, v3}, LX/Chi;->A1H(LX/0AX;Ljava/lang/String;J)V
 
     .line 614
     .line 615
@@ -2078,7 +2078,7 @@
 
     .line 988
     .line 989
-    invoke-static {v3, v4, v0}, LX/Chj;->A0c(Landroid/os/Bundle;Landroidx/fragment/app/Fragment;LX/0SF;)V
+    invoke-static {v3, v4, v0}, LX/Chj;->A0b(Landroid/os/Bundle;Landroidx/fragment/app/Fragment;LX/0SF;)V
 
     .line 990
     .line 991

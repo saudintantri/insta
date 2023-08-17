@@ -492,7 +492,7 @@
     const/4 v0, 0x7
 
     .line 232
-    invoke-static {v2, v3, v0}, LX/Chi;->A0T(LX/6z0;Ljava/lang/Object;I)LX/6z1;
+    invoke-static {v2, v3, v0}, LX/Chi;->A0U(LX/6z0;Ljava/lang/Object;I)LX/6z1;
 
     .line 233
     .line 234

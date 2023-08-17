@@ -50,7 +50,7 @@
 
     .line 15
     .line 16
-    invoke-static {p2, v0}, LX/Chg;->A0y(Ljava/lang/Object;I)Lkotlin/jvm/internal/KtLambdaShape56S0100000_I1_37;
+    invoke-static {p2, v0}, LX/Chg;->A0x(Ljava/lang/Object;I)Lkotlin/jvm/internal/KtLambdaShape56S0100000_I1_37;
 
     .line 17
     .line 18
@@ -74,7 +74,7 @@
 
     .line 27
     .line 28
-    invoke-static {v3, v4, v1, v0}, LX/Chi;->A0G(Ljava/lang/Object;LX/0Xg;LX/0TD;I)LX/1ng;
+    invoke-static {v3, v4, v1, v0}, LX/Chi;->A0H(Ljava/lang/Object;LX/0Xg;LX/0TD;I)LX/1ng;
 
     .line 29
     .line 30
@@ -109,7 +109,7 @@
 
     .line 44
     .line 45
-    invoke-static {p1, v0}, LX/Chg;->A0y(Ljava/lang/Object;I)Lkotlin/jvm/internal/KtLambdaShape56S0100000_I1_37;
+    invoke-static {p1, v0}, LX/Chg;->A0x(Ljava/lang/Object;I)Lkotlin/jvm/internal/KtLambdaShape56S0100000_I1_37;
 
     .line 46
     .line 47
@@ -241,7 +241,7 @@
     const/4 v0, 0x7
 
     .line 114
-    invoke-static {v1, p0, v0}, LX/Chg;->A08(Landroid/content/Context;Ljava/lang/Object;I)Landroid/view/GestureDetector;
+    invoke-static {v1, p0, v0}, LX/Chg;->A07(Landroid/content/Context;Ljava/lang/Object;I)Landroid/view/GestureDetector;
 
     .line 115
     .line 116

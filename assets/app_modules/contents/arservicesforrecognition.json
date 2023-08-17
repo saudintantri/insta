@@ -1,8 +1,8 @@
 {
-  "AndroidManifest.xml": "14514a3d51b23f905b6f2fd7630adc8e39921908f55da19111ee2b5440d73098",
-  "assets/arservicesforrecognition2.dex": "afc8225c2c357f6ed4a3bef481f61c4a13ebecf27c38f0366d7eb5d38def3e3c",
-  "assets/libs.txt": "386695aabee4e204a71e2ac9e866696b96dfd7aac5e829728fc7fa4d30976074",
-  "assets/libs.zstd": "41237b6bf6acbe30c3a86ca212a49cb1dc69360e53a95252a3fb76f195ecbf1d",
-  "assets/metadata.txt": "2fcdbcd5190990b0999e20667db916c130464e60973331f99bb3be00722b2a7f",
+  "AndroidManifest.xml": "0e0172cd9a4ca967178e49a6ae70022345e57ed7d734e5b9845918dbcfa65641",
+  "assets/arservicesforrecognition2.dex": "c3202a972212d9baf691be5f6ce8b1836fb01b0bba8fe1d790f37f45a830025f",
+  "assets/libs.txt": "999ea9668f7637e3d4c2c9721ae4c03f8653bd635b78d425e6eb9920566858a1",
+  "assets/libs.zstd": "0bcdecb006ff0688748429bf02d6bd72cc91313ac6c8770731885111f9b9bada",
+  "assets/metadata.txt": "91f0adefb492e8871c0eebcad0bda67fdb7df9aae8db020a28a9f29072419f60",
   "assets/resources.arsc": "5d8a47897affcd82aea0b1edfe1b2d6fe963c228965cf25ae8480971552b7a0c"
 }

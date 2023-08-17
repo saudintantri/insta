@@ -2702,7 +2702,7 @@
 
     .line 140
     .line 141
-    invoke-static {v4, p0, v0}, LX/Che;->A0G(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
+    invoke-static {v4, p0, v0}, LX/Che;->A0H(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
 
     .line 142
     .line 143
@@ -3446,7 +3446,7 @@
     .line 41
     .line 42
     .line 43
-    invoke-static {v2, v0}, LX/Che;->A01(Landroid/content/Context;I)I
+    invoke-static {v2, v0}, LX/Che;->A02(Landroid/content/Context;I)I
 
     .line 44
     .line 45

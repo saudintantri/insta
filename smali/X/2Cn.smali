@@ -704,7 +704,7 @@
     move-result-object v1
 
     .line 19
-    const-string v0, "eviction_priority"
+    const-string/jumbo v0, "eviction_priority"
 
     .line 20
     .line 21
@@ -737,7 +737,7 @@
     move-result-object v1
 
     .line 36
-    const-string v0, "eviction_timestamps"
+    const-string/jumbo v0, "eviction_timestamps"
 
     .line 37
     .line 38

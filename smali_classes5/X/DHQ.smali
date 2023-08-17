@@ -610,7 +610,7 @@
     .line 193
     .line 194
     :cond_0
-    invoke-static {v2, v0, v8}, LX/Chf;->A0Y(LX/AYq;Lcom/instagram/guides/intf/GuideCreationType;Ljava/lang/String;)Lcom/instagram/guides/intf/GuideCreationLoggerState;
+    invoke-static {v2, v0, v8}, LX/Chf;->A0Z(LX/AYq;Lcom/instagram/guides/intf/GuideCreationType;Ljava/lang/String;)Lcom/instagram/guides/intf/GuideCreationLoggerState;
 
     .line 195
     .line 196

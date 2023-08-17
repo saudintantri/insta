@@ -214,7 +214,7 @@
 
     .line 70
     .line 71
-    invoke-static {p1, v0, p3}, LX/Chg;->A10(Landroid/content/Context;Landroid/graphics/Paint;Lcom/instagram/service/session/UserSession;)V
+    invoke-static {p1, v0, p3}, LX/Chg;->A0z(Landroid/content/Context;Landroid/graphics/Paint;Lcom/instagram/service/session/UserSession;)V
 
     .line 72
     .line 73
@@ -1648,7 +1648,7 @@
     .line 36
     .line 37
     :cond_0
-    invoke-static {p1}, LX/Chf;->A0H(Landroid/graphics/Rect;)Landroid/graphics/Bitmap;
+    invoke-static {p1}, LX/Chf;->A0I(Landroid/graphics/Rect;)Landroid/graphics/Bitmap;
 
     .line 38
     .line 39

@@ -55,7 +55,7 @@
 .method public constructor <init>(LX/1im;LX/14O;LX/5L5;LX/J1o;Lcom/instagram/clips/intf/ClipsViewerConfig;LX/2Vs;LX/4yG;LX/5Fh;LX/J1q;LX/4f2;LX/5GW;LX/Cji;LX/5KZ;LX/5C7;LX/4V1;LX/0YK;LX/6BJ;LX/4wg;Lcom/instagram/service/session/UserSession;Ljava/lang/String;Ljava/util/HashMap;Ljava/util/HashMap;Z)V
     .locals 2
 
-    .line 2451786
+    .line 2451807
     const/4 v0, 0x4
 
     invoke-static {p13, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
@@ -70,94 +70,94 @@
 
     invoke-static {v1, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2451787
+    .line 2451808
     invoke-direct {p0}, LX/1gD;-><init>()V
 
-    .line 2451788
+    .line 2451809
     iput-object p6, p0, LX/J1p;->A05:LX/2Vs;
 
-    .line 2451789
+    .line 2451810
     move-object/from16 v0, p19
 
     iput-object v0, p0, LX/J1p;->A0I:Lcom/instagram/service/session/UserSession;
 
-    .line 2451790
+    .line 2451811
     move-object/from16 v0, p16
 
     iput-object v0, p0, LX/J1p;->A0F:LX/0YK;
 
-    .line 2451791
+    .line 2451812
     iput-object p13, p0, LX/J1p;->A0C:LX/5KZ;
 
-    .line 2451792
+    .line 2451813
     move-object/from16 v0, p14
 
     iput-object v0, p0, LX/J1p;->A0D:LX/5C7;
 
-    .line 2451793
+    .line 2451814
     iput-object p5, p0, LX/J1p;->A04:Lcom/instagram/clips/intf/ClipsViewerConfig;
 
-    .line 2451794
+    .line 2451815
     iput-object p4, p0, LX/J1p;->A03:LX/J1o;
 
-    .line 2451795
+    .line 2451816
     iput-object p7, p0, LX/J1p;->A06:LX/4yG;
 
-    .line 2451796
+    .line 2451817
     iput-object p11, p0, LX/J1p;->A0A:LX/5GW;
 
-    .line 2451797
+    .line 2451818
     iput-object p10, p0, LX/J1p;->A09:LX/4f2;
 
-    .line 2451798
+    .line 2451819
     move-object/from16 v0, p21
 
     iput-object v0, p0, LX/J1p;->A0L:Ljava/util/HashMap;
 
-    .line 2451799
+    .line 2451820
     iput-object p8, p0, LX/J1p;->A07:LX/5Fh;
 
-    .line 2451800
+    .line 2451821
     iput-object p1, p0, LX/J1p;->A00:LX/1im;
 
-    .line 2451801
+    .line 2451822
     move-object/from16 v0, p22
 
     iput-object v0, p0, LX/J1p;->A0K:Ljava/util/HashMap;
 
-    .line 2451802
+    .line 2451823
     iput-object v1, p0, LX/J1p;->A0H:LX/4wg;
 
-    .line 2451803
+    .line 2451824
     move-object/from16 v0, p20
 
     iput-object v0, p0, LX/J1p;->A0J:Ljava/lang/String;
 
-    .line 2451804
+    .line 2451825
     iput-object p2, p0, LX/J1p;->A01:LX/14O;
 
-    .line 2451805
+    .line 2451826
     move-object/from16 v0, p15
 
     iput-object v0, p0, LX/J1p;->A0E:LX/4V1;
 
-    .line 2451806
+    .line 2451827
     move-object/from16 v0, p17
 
     iput-object v0, p0, LX/J1p;->A0G:LX/6BJ;
 
-    .line 2451807
+    .line 2451828
     iput-object p12, p0, LX/J1p;->A0B:LX/Cji;
 
-    .line 2451808
+    .line 2451829
     iput-object p3, p0, LX/J1p;->A02:LX/5L5;
 
-    .line 2451809
+    .line 2451830
     move/from16 v0, p23
 
     iput-boolean v0, p0, LX/J1p;->A0M:Z
 
-    .line 2451810
+    .line 2451831
     iput-object p9, p0, LX/J1p;->A08:LX/J1q;
 
     return-void

@@ -91,7 +91,7 @@
 
     .line 25
     .line 26
-    invoke-static {v5}, LX/Chi;->A0P(LX/1iX;)LX/39m;
+    invoke-static {v5}, LX/Chi;->A0Q(LX/1iX;)LX/39m;
 
     .line 27
     .line 28
@@ -110,7 +110,7 @@
     const/4 v2, 0x6
 
     .line 34
-    invoke-static {v3, v2, v0, v1}, LX/Che;->A0F(LX/39m;IJ)LX/39m;
+    invoke-static {v3, v2, v0, v1}, LX/Che;->A0G(LX/39m;IJ)LX/39m;
 
     .line 35
     .line 36

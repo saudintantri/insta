@@ -76,7 +76,7 @@
 
     .line 27
     .line 28
-    invoke-static {v0}, LX/Chf;->A0A(Landroid/view/View;)I
+    invoke-static {v0}, LX/Chf;->A0B(Landroid/view/View;)I
 
     .line 29
     .line 30
@@ -103,7 +103,7 @@
 
     .line 40
     .line 41
-    const v0, 0x7f0700c4
+    const v0, 0x7f0700c3
 
     .line 42
     .line 43
@@ -483,7 +483,7 @@
 
     .line 19
     .line 20
-    invoke-static {v0}, LX/Chf;->A0A(Landroid/view/View;)I
+    invoke-static {v0}, LX/Chf;->A0B(Landroid/view/View;)I
 
     .line 21
     .line 22

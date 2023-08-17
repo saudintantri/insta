@@ -293,10 +293,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 539681707
+    .line 539681728
     sget-object p5, LX/11W;->A00:LX/11W;
 
-    .line 539681708
+    .line 539681729
     :cond_0
     invoke-direct/range {p0 .. p5}, Lcom/instagram/creation/capture/quickcapture/arstickers/model/ArStickerFxEvent$RecordingFinished;-><init>(Ljava/util/Set;Ljava/util/Set;DLjava/util/List;)V
 

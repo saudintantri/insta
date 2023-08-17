@@ -255,7 +255,7 @@
     move-result-object v1
 
     .line 112
-    invoke-static {v1}, LX/Chf;->A0J(LX/6cT;)Landroid/os/Bundle;
+    invoke-static {v1}, LX/Chf;->A0K(LX/6cT;)Landroid/os/Bundle;
 
     .line 113
     .line 114
@@ -702,7 +702,7 @@
     move-result-object v1
 
     .line 340
-    invoke-static {v8, v10, v4, v7, v1}, LX/Chi;->A1M(LX/6hm;LX/1M5;LX/1qw;Lcom/instagram/service/session/UserSession;Ljava/lang/Object;)V
+    invoke-static {v8, v10, v4, v7, v1}, LX/Chi;->A1N(LX/6hm;LX/1M5;LX/1qw;Lcom/instagram/service/session/UserSession;Ljava/lang/Object;)V
 
     .line 341
     .line 342
@@ -952,7 +952,7 @@
     move-result-object v1
 
     .line 466
-    invoke-static {v9, v5, v10, v7, v1}, LX/Chi;->A1M(LX/6hm;LX/1M5;LX/1qw;Lcom/instagram/service/session/UserSession;Ljava/lang/Object;)V
+    invoke-static {v9, v5, v10, v7, v1}, LX/Chi;->A1N(LX/6hm;LX/1M5;LX/1qw;Lcom/instagram/service/session/UserSession;Ljava/lang/Object;)V
 
     .line 467
     .line 468
@@ -1361,7 +1361,7 @@
 
     .line 671
     .line 672
-    invoke-static {v9}, LX/Chf;->A0J(LX/6cT;)Landroid/os/Bundle;
+    invoke-static {v9}, LX/Chf;->A0K(LX/6cT;)Landroid/os/Bundle;
 
     .line 673
     .line 674
@@ -1563,7 +1563,7 @@
     move-result-object v4
 
     .line 772
-    invoke-static {v11}, LX/Chf;->A0J(LX/6cT;)Landroid/os/Bundle;
+    invoke-static {v11}, LX/Chf;->A0K(LX/6cT;)Landroid/os/Bundle;
 
     .line 773
     .line 774
@@ -1807,7 +1807,7 @@
     move-result-object v1
 
     .line 894
-    invoke-static {v1}, LX/Chf;->A0J(LX/6cT;)Landroid/os/Bundle;
+    invoke-static {v1}, LX/Chf;->A0K(LX/6cT;)Landroid/os/Bundle;
 
     .line 895
     .line 896

@@ -467,7 +467,6 @@
     :try_end_b
     .catch Ljava/lang/Exception; {:try_start_b .. :try_end_b} :catch_0
     .catch LX/KHj; {:try_start_b .. :try_end_b} :catch_4
-    .catch Ljava/lang/Exception; {:try_start_b .. :try_end_b} :catch_3
 
     .line 189
     .line 190
@@ -487,7 +486,6 @@
     :try_end_c
     .catch Ljava/lang/Exception; {:try_start_c .. :try_end_c} :catch_1
     .catch LX/KHj; {:try_start_c .. :try_end_c} :catch_4
-    .catch Ljava/lang/Exception; {:try_start_c .. :try_end_c} :catch_3
 
     .line 197
     :catch_1

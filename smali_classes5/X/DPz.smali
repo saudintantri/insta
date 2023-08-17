@@ -246,7 +246,7 @@
 
     .line 78
     .line 79
-    invoke-static {v2, v3}, LX/Chg;->A06(Landroid/view/View;I)I
+    invoke-static {v2, v3}, LX/Chg;->A05(Landroid/view/View;I)I
 
     .line 80
     .line 81
@@ -850,38 +850,38 @@
     .line 4
     .line 5
     .line 6
-    move-result v9
+    move-result v8
 
     .line 7
-    iget-object v10, p0, LX/DPz;->A00:Landroid/content/Context;
+    iget-object v9, p0, LX/DPz;->A00:Landroid/content/Context;
 
     .line 8
     .line 9
-    const/4 v8, 0x3
+    const/4 v7, 0x3
 
     .line 10
-    const/4 v7, 0x0
+    const/4 v6, 0x0
 
     .line 11
-    new-instance v6, Landroid/widget/LinearLayout;
+    new-instance v5, Landroid/widget/LinearLayout;
 
     .line 12
     .line 13
-    invoke-direct {v6, v10}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
+    invoke-direct {v5, v9}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
     .line 14
     .line 15
     .line 16
-    new-instance v5, LX/EGp;
+    new-instance v4, LX/EGp;
 
     .line 17
     .line 18
-    invoke-direct {v5}, LX/EGp;-><init>()V
+    invoke-direct {v4}, LX/EGp;-><init>()V
 
     .line 19
     .line 20
     .line 21
-    iput-object v6, v5, LX/EGp;->A00:Landroid/view/View;
+    iput-object v5, v4, LX/EGp;->A00:Landroid/view/View;
 
     .line 22
     .line 23
@@ -890,16 +890,16 @@
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v6, v0}, Landroid/view/View;->setId(I)V
+    invoke-virtual {v5, v0}, Landroid/view/View;->setId(I)V
 
     .line 27
     .line 28
     .line 29
-    const/4 v4, 0x0
+    const/4 v3, 0x0
 
     .line 30
     :cond_0
-    invoke-static {v10}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v9}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     .line 31
     .line 32
@@ -912,15 +912,15 @@
     .line 35
     .line 36
     .line 37
-    invoke-static {v1, v6, v0, v7}, LX/92n;->A0C(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;IZ)Landroid/view/View;
+    invoke-static {v1, v5, v0, v6}, LX/92n;->A0C(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;IZ)Landroid/view/View;
 
     .line 38
     .line 39
     .line 40
-    move-result-object v3
+    move-result-object v2
 
     .line 41
-    iget-object v1, v5, LX/EGp;->A01:Ljava/util/List;
+    iget-object v1, v4, LX/EGp;->A01:Ljava/util/List;
 
     .line 42
     .line 43
@@ -929,7 +929,7 @@
     .line 44
     .line 45
     .line 46
-    invoke-static {v3, v0}, LX/5Wd;->A0H(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v2, v0}, LX/5Wd;->A0H(Landroid/view/View;I)Landroid/view/View;
 
     .line 47
     .line 48
@@ -942,7 +942,7 @@
     .line 51
     .line 52
     .line 53
-    iget-object v1, v5, LX/EGp;->A02:Ljava/util/List;
+    iget-object v1, v4, LX/EGp;->A02:Ljava/util/List;
 
     .line 54
     .line 55
@@ -951,7 +951,7 @@
     .line 56
     .line 57
     .line 58
-    invoke-static {v3, v0}, LX/5Wd;->A0H(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v2, v0}, LX/5Wd;->A0H(Landroid/view/View;I)Landroid/view/View;
 
     .line 59
     .line 60
@@ -964,7 +964,7 @@
     .line 63
     .line 64
     .line 65
-    iget-object v2, v5, LX/EGp;->A03:Ljava/util/List;
+    iget-object v10, v4, LX/EGp;->A03:Ljava/util/List;
 
     .line 66
     .line 67
@@ -973,7 +973,7 @@
     .line 68
     .line 69
     .line 70
-    invoke-static {v3, v0}, LX/5We;->A0Q(Landroid/view/View;I)LX/2tA;
+    invoke-static {v2, v0}, LX/5We;->A0Q(Landroid/view/View;I)LX/2tA;
 
     .line 71
     .line 72
@@ -984,12 +984,12 @@
     const/4 v0, 0x5
 
     .line 75
-    invoke-static {v1, v10, v0}, LX/Chd;->A1M(LX/2tA;Ljava/lang/Object;I)V
+    invoke-static {v1, v9, v0}, LX/Chd;->A1M(LX/2tA;Ljava/lang/Object;I)V
 
     .line 76
     .line 77
     .line 78
-    invoke-interface {v2, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {v10, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 79
     .line 80
@@ -997,16 +997,16 @@
     const/4 v0, 0x2
 
     .line 82
-    if-ge v4, v0, :cond_1
+    if-ge v3, v0, :cond_1
 
     .line 83
     .line 84
-    invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 85
     .line 86
     .line 87
-    move-result-object v2
+    move-result-object v1
 
     .line 88
     const/4 v0, 0x1
@@ -1020,74 +1020,60 @@
     move-result-object v0
 
     .line 93
-    invoke-static {v2, v0}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, LX/02K;->A0B(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 94
     .line 95
     .line 96
-    check-cast v2, Landroid/widget/LinearLayout$LayoutParams;
+    check-cast v1, Landroid/widget/LinearLayout$LayoutParams;
 
     .line 97
     .line 98
-    invoke-virtual {v10}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-static {v9}, LX/Chf;->A0A(Landroid/content/Context;)I
 
     .line 99
     .line 100
     .line 101
-    move-result-object v1
+    move-result v0
 
     .line 102
-    const v0, 0x7f0701af
+    iput v0, v1, Landroid/widget/LinearLayout$LayoutParams;->rightMargin:I
 
     .line 103
     .line 104
-    .line 105
-    invoke-virtual {v1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    :cond_1
+    invoke-virtual {v5, v2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
+    .line 105
     .line 106
     .line 107
-    .line 108
-    move-result v0
+    add-int/lit8 v3, v3, 0x1
 
+    .line 108
     .line 109
-    iput v0, v2, Landroid/widget/LinearLayout$LayoutParams;->rightMargin:I
+    if-lt v3, v7, :cond_0
 
     .line 110
     .line 111
-    :cond_1
-    invoke-virtual {v6, v3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-virtual {v5, v4}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
     .line 112
     .line 113
     .line 114
-    add-int/lit8 v4, v4, 0x1
+    const v0, -0x6d429860
 
     .line 115
     .line 116
-    if-lt v4, v8, :cond_0
-
     .line 117
-    .line 118
-    invoke-virtual {v6, v5}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
+    invoke-static {v0, v8}, LX/0rF;->A0A(II)V
 
+    .line 118
     .line 119
     .line 120
+    return-object v5
     .line 121
-    const v0, -0x6d429860
-
     .line 122
     .line 123
-    .line 124
-    invoke-static {v0, v9}, LX/0rF;->A0A(II)V
-
-    .line 125
-    .line 126
-    .line 127
-    return-object v6
-    .line 128
-    .line 129
-    .line 130
-    .line 131
 .end method
 
 .method public final getViewTypeCount()I

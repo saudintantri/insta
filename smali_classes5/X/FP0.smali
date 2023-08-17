@@ -174,7 +174,7 @@
     .line 71
     .line 72
     .line 73
-    invoke-static {v5, v6}, LX/Chj;->A0F(Lcom/facebook/graphql/query/GraphQlQueryParamSet;Ljava/lang/String;)Lcom/facebook/graphql/calls/GQLCallInputCInputShape0S0000000;
+    invoke-static {v5, v6}, LX/Chj;->A0E(Lcom/facebook/graphql/query/GraphQlQueryParamSet;Ljava/lang/String;)Lcom/facebook/graphql/calls/GQLCallInputCInputShape0S0000000;
 
     .line 74
     .line 75

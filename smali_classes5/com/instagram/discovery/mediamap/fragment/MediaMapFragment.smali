@@ -9114,7 +9114,7 @@
     .line 406
     .line 407
     :cond_7
-    invoke-static {}, LX/Chg;->A0C()Lcom/facebook/quicklog/MarkerEditor;
+    invoke-static {}, LX/Chg;->A0B()Lcom/facebook/quicklog/MarkerEditor;
 
     .line 408
     .line 409

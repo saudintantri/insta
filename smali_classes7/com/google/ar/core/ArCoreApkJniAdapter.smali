@@ -1017,7 +1017,6 @@
     .catch Ljava/lang/RuntimeException; {:try_start_1a .. :try_end_1a} :catch_1
     .catch LX/K6i; {:try_start_1a .. :try_end_1a} :catch_3
     .catch LX/K6k; {:try_start_1a .. :try_end_1a} :catch_2
-    .catch Ljava/lang/RuntimeException; {:try_start_1a .. :try_end_1a} :catch_2
     .catchall {:try_start_1a .. :try_end_1a} :catchall_7
 
     .line 348
@@ -1222,7 +1221,6 @@
     .catch Ljava/lang/RuntimeException; {:try_start_1c .. :try_end_1c} :catch_1
     .catch LX/K6i; {:try_start_1c .. :try_end_1c} :catch_3
     .catch LX/K6k; {:try_start_1c .. :try_end_1c} :catch_2
-    .catch Ljava/lang/RuntimeException; {:try_start_1c .. :try_end_1c} :catch_2
     .catchall {:try_start_1c .. :try_end_1c} :catchall_7
 
     .line 441
@@ -1267,7 +1265,6 @@
     .catch Ljava/lang/RuntimeException; {:try_start_1e .. :try_end_1e} :catch_1
     .catch LX/K6i; {:try_start_1e .. :try_end_1e} :catch_3
     .catch LX/K6k; {:try_start_1e .. :try_end_1e} :catch_2
-    .catch Ljava/lang/RuntimeException; {:try_start_1e .. :try_end_1e} :catch_2
     .catchall {:try_start_1e .. :try_end_1e} :catchall_7
 
     .line 455

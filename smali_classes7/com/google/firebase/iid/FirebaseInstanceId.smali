@@ -920,7 +920,6 @@
     if-eqz v0, :cond_0
     :try_end_2
     .catch LX/KHr; {:try_start_2 .. :try_end_2} :catch_2
-    .catch LX/KHr; {:try_start_2 .. :try_end_2} :catch_4
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     .line 29
@@ -938,8 +937,6 @@
     :try_end_3
     .catch LX/KHr; {:try_start_3 .. :try_end_3} :catch_0
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_0
-    .catch LX/KHr; {:try_start_3 .. :try_end_3} :catch_2
-    .catch LX/KHr; {:try_start_3 .. :try_end_3} :catch_4
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
     .line 35
@@ -955,7 +952,6 @@
     invoke-static {v9, v1}, LX/IzK;->A1N(Ljava/lang/String;Ljava/lang/Object;)V
     :try_end_4
     .catch LX/KHr; {:try_start_4 .. :try_end_4} :catch_2
-    .catch LX/KHr; {:try_start_4 .. :try_end_4} :catch_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
     .line 39
@@ -971,7 +967,6 @@
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_1
     .catch LX/KHr; {:try_start_5 .. :try_end_5} :catch_2
-    .catch LX/KHr; {:try_start_5 .. :try_end_5} :catch_4
     .catchall {:try_start_5 .. :try_end_5} :catchall_0
 
     .line 45
@@ -1051,7 +1046,6 @@
     throw v0
     :try_end_6
     .catch LX/KHr; {:try_start_6 .. :try_end_6} :catch_2
-    .catch LX/KHr; {:try_start_6 .. :try_end_6} :catch_4
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
     .line 82
@@ -1100,7 +1094,6 @@
     if-nez v8, :cond_2
     :try_end_7
     .catch LX/KHr; {:try_start_7 .. :try_end_7} :catch_3
-    .catch LX/KHr; {:try_start_7 .. :try_end_7} :catch_4
     .catchall {:try_start_7 .. :try_end_7} :catchall_0
 
     .line 101

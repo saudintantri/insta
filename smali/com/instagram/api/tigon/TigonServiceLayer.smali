@@ -2766,6 +2766,10 @@
     .line 25
     .line 26
     :try_start_0
+    iget-object v0, v10, LX/39a;->A06:Ljava/net/URI;
+
+    invoke-static {v0}, Lcom/dfinstagram/hooks;->throwIfBlocked(Ljava/net/URI;)V
+
     iget-object v0, v9, Lcom/instagram/api/tigon/TigonServiceLayer;->service:Lcom/instagram/service/tigon/IGTigonService;
 
     .line 27

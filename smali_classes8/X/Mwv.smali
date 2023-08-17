@@ -70,7 +70,7 @@
 .method public constructor <init>(DDDDDDI)V
     .locals 25
 
-    .line 2873811
+    .line 2873832
     move-object/from16 v12, p0
 
     move-wide/from16 v21, p9
@@ -83,7 +83,7 @@
 
     const/4 v13, 0x0
 
-    .line 2873812
+    .line 2873833
     const/16 v16, 0x0
 
     const/16 v20, 0x1
@@ -96,21 +96,21 @@
 
     const/4 v13, 0x1
 
-    .line 2873813
+    .line 2873834
     :cond_0
     iput-boolean v13, v12, LX/Mwv;->A09:Z
 
-    .line 2873814
+    .line 2873835
     move-wide/from16 v0, p1
 
     iput-wide v0, v12, LX/Mwv;->A02:D
 
-    .line 2873815
+    .line 2873836
     iput-wide v10, v12, LX/Mwv;->A03:D
 
     const-wide/high16 v6, 0x3ff0000000000000L    # 1.0
 
-    .line 2873816
+    .line 2873837
     sub-double v10, p3, p1
 
     div-double/2addr v6, v10
@@ -121,7 +121,7 @@
 
     if-ne v0, v2, :cond_1
 
-    .line 2873817
+    .line 2873838
     move/from16 v0, v20
 
     iput-boolean v0, v12, LX/Mwv;->A08:Z
@@ -137,7 +137,7 @@
 
     sub-double v2, p11, p7
 
-    .line 2873818
+    .line 2873839
     if-nez v16, :cond_c
 
     invoke-static {v4, v5}, Ljava/lang/Math;->abs(D)D
@@ -162,10 +162,10 @@
 
     new-array v0, v0, [D
 
-    .line 2873819
+    .line 2873840
     iput-object v0, v12, LX/Mwv;->A0H:[D
 
-    .line 2873820
+    .line 2873841
     const/4 v0, 0x1
 
     if-eqz v13, :cond_2
@@ -179,7 +179,7 @@
 
     iput-wide v0, v12, LX/Mwv;->A0B:D
 
-    .line 2873821
+    .line 2873842
     const/4 v0, -0x1
 
     if-eqz v13, :cond_3
@@ -193,7 +193,7 @@
 
     iput-wide v2, v12, LX/Mwv;->A0C:D
 
-    .line 2873822
+    .line 2873843
     if-nez v13, :cond_4
 
     move-wide/from16 v21, v23
@@ -203,7 +203,7 @@
 
     iput-wide v0, v12, LX/Mwv;->A0D:D
 
-    .line 2873823
+    .line 2873844
     if-eqz v13, :cond_6
 
     move-wide v0, v8
@@ -211,7 +211,7 @@
     :goto_0
     iput-wide v0, v12, LX/Mwv;->A0E:D
 
-    .line 2873824
+    .line 2873845
     sub-double v8, p7, p11
 
     const/4 v11, 0x0
@@ -222,7 +222,7 @@
 
     const-wide/16 v17, 0x0
 
-    .line 2873825
+    .line 2873846
     :goto_1
     sget-object v10, LX/Mwv;->A0I:[D
 
@@ -234,7 +234,7 @@
 
     int-to-double v0, v11
 
-    .line 2873826
+    .line 2873847
     mul-double/2addr v0, v2
 
     add-int/lit8 v2, v13, -0x1
@@ -247,12 +247,12 @@
 
     move-result-wide v0
 
-    .line 2873827
+    .line 2873848
     invoke-static {v0, v1}, Ljava/lang/Math;->sin(D)D
 
     move-result-wide v15
 
-    .line 2873828
+    .line 2873849
     invoke-static {v0, v1}, Ljava/lang/Math;->cos(D)D
 
     move-result-wide v13
@@ -267,14 +267,14 @@
 
     sub-double v0, v13, v17
 
-    .line 2873829
+    .line 2873850
     invoke-static {v2, v3, v0, v1}, Ljava/lang/Math;->hypot(DD)D
 
     move-result-wide v0
 
     add-double/2addr v6, v0
 
-    .line 2873830
+    .line 2873851
     aput-wide v6, v10, v11
 
     :cond_5
@@ -286,23 +286,23 @@
 
     goto :goto_1
 
-    .line 2873831
+    .line 2873852
     :cond_6
     move-wide v0, v14
 
     goto :goto_0
 
-    .line 2873832
+    .line 2873853
     :cond_7
     iput-wide v6, v12, LX/Mwv;->A0A:D
 
     const/4 v2, 0x0
 
-    .line 2873833
+    .line 2873854
     :goto_2
     if-ge v2, v13, :cond_8
 
-    .line 2873834
+    .line 2873855
     aget-wide v0, v10, v2
 
     div-double/2addr v0, v6
@@ -316,7 +316,7 @@
     :cond_8
     const/4 v7, 0x0
 
-    .line 2873835
+    .line 2873856
     :goto_3
     iget-object v6, v12, LX/Mwv;->A0H:[D
 
@@ -326,21 +326,21 @@
 
     int-to-double v2, v7
 
-    .line 2873836
+    .line 2873857
     add-int/lit8 v0, v0, -0x1
 
     int-to-double v0, v0
 
     div-double/2addr v2, v0
 
-    .line 2873837
+    .line 2873858
     invoke-static {v10, v2, v3}, Ljava/util/Arrays;->binarySearch([DD)I
 
     move-result v1
 
     if-ltz v1, :cond_9
 
-    .line 2873838
+    .line 2873859
     int-to-double v4, v1
 
     :goto_4
@@ -350,22 +350,22 @@
 
     div-double/2addr v4, v0
 
-    .line 2873839
+    .line 2873860
     :goto_5
     aput-wide v4, v6, v7
 
-    .line 2873840
+    .line 2873861
     add-int/lit8 v7, v7, 0x1
 
     goto :goto_3
 
-    .line 2873841
+    .line 2873862
     :cond_9
     const/4 v0, -0x1
 
     if-ne v1, v0, :cond_a
 
-    .line 2873842
+    .line 2873863
     const-wide/16 v4, 0x0
 
     goto :goto_5
@@ -379,7 +379,7 @@
 
     int-to-double v4, v1
 
-    .line 2873843
+    .line 2873864
     aget-wide v8, v10, v1
 
     sub-double/2addr v2, v8
@@ -394,7 +394,7 @@
 
     goto :goto_4
 
-    .line 2873844
+    .line 2873865
     :cond_b
     iget-wide v2, v12, LX/Mwv;->A0A:D
 
@@ -406,48 +406,48 @@
 
     return-void
 
-    .line 2873845
+    .line 2873866
     :cond_c
     move/from16 v0, v20
 
     iput-boolean v0, v12, LX/Mwv;->A08:Z
 
-    .line 2873846
+    .line 2873867
     move-wide/from16 v0, v23
 
     iput-wide v0, v12, LX/Mwv;->A04:D
 
-    .line 2873847
+    .line 2873868
     move-wide/from16 v0, v21
 
     iput-wide v0, v12, LX/Mwv;->A05:D
 
-    .line 2873848
+    .line 2873869
     iput-wide v8, v12, LX/Mwv;->A06:D
 
-    .line 2873849
+    .line 2873870
     iput-wide v14, v12, LX/Mwv;->A07:D
 
-    .line 2873850
+    .line 2873871
     invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;->hypot(DD)D
 
     move-result-wide v0
 
     iput-wide v0, v12, LX/Mwv;->A0A:D
 
-    .line 2873851
+    .line 2873872
     mul-double/2addr v0, v6
 
     iput-wide v0, v12, LX/Mwv;->A00:D
 
-    .line 2873852
+    .line 2873873
     div-double/2addr v4, v10
 
     iput-wide v4, v12, LX/Mwv;->A0D:D
 
     div-double/2addr v2, v10
 
-    .line 2873853
+    .line 2873874
     iput-wide v2, v12, LX/Mwv;->A0E:D
 
     return-void

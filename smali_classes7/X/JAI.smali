@@ -365,7 +365,7 @@
     div-float/2addr v1, v0
 
     .line 59
-    invoke-static {v1, v7}, LX/Chg;->A03(FF)F
+    invoke-static {v1, v7}, LX/Chh;->A00(FF)F
 
     .line 60
     .line 61

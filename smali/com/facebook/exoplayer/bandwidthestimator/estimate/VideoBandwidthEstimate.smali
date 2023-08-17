@@ -62,7 +62,7 @@
     .line 268435457
     .line 268435458
     .line 268435459
-    const-string v0, "ewma"
+    const-string/jumbo v0, "ewma"
 
     .line 268435460
     .line 268435461
@@ -216,7 +216,7 @@
     .line 1
     .line 2
     .line 3
-    const-string v0, "ewma"
+    const-string/jumbo v0, "ewma"
 
     .line 4
     .line 5

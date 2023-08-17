@@ -869,7 +869,7 @@
 
     .line 393
     .line 394
-    invoke-static {v0, v5}, LX/Chg;->A03(FF)F
+    invoke-static {v0, v5}, LX/Chh;->A00(FF)F
 
     .line 395
     .line 396

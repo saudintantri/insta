@@ -210,7 +210,7 @@
     .locals 1
 
     .line 268435456
-    invoke-static {p2, p3}, LX/Chh;->A06(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
+    invoke-static {p2, p3}, LX/Chh;->A07(Landroid/util/AttributeSet;I)Landroid/util/AttributeSet;
 
     .line 268435457
     .line 268435458

@@ -683,7 +683,7 @@
     move-result-object v0
 
     .line 19
-    invoke-static {v0}, LX/Chj;->A1C(Landroid/graphics/RectF;)[Ljava/lang/Float;
+    invoke-static {v0}, LX/Chj;->A1D(Landroid/graphics/RectF;)[Ljava/lang/Float;
 
     .line 20
     .line 21

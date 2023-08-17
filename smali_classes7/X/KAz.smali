@@ -525,7 +525,6 @@
     goto :goto_3
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_2
-    .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_6
     .catchall {:try_start_5 .. :try_end_5} :catchall_2
 
     .line 224
@@ -612,7 +611,6 @@
     invoke-interface {v12}, Ljava/io/Closeable;->close()V
     :try_end_8
     .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_2
-    .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_6
     .catchall {:try_start_8 .. :try_end_8} :catchall_2
 
     .line 257
@@ -625,7 +623,6 @@
     invoke-interface {v8}, Ljava/io/Closeable;->close()V
     :try_end_9
     .catch Ljava/io/IOException; {:try_start_9 .. :try_end_9} :catch_3
-    .catch Ljava/io/IOException; {:try_start_9 .. :try_end_9} :catch_6
     .catchall {:try_start_9 .. :try_end_9} :catchall_2
 
     .line 260
@@ -1005,7 +1002,6 @@
     invoke-interface {v12}, Ljava/io/Closeable;->close()V
     :try_end_d
     .catch Ljava/io/IOException; {:try_start_d .. :try_end_d} :catch_4
-    .catch Ljava/io/IOException; {:try_start_d .. :try_end_d} :catch_6
     .catchall {:try_start_d .. :try_end_d} :catchall_2
 
     .line 440
@@ -1017,7 +1013,6 @@
     invoke-interface {v8}, Ljava/io/Closeable;->close()V
     :try_end_e
     .catch Ljava/io/IOException; {:try_start_e .. :try_end_e} :catch_5
-    .catch Ljava/io/IOException; {:try_start_e .. :try_end_e} :catch_6
     .catchall {:try_start_e .. :try_end_e} :catchall_2
 
     .line 443

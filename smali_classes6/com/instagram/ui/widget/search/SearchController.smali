@@ -131,7 +131,7 @@
     .line 36
     .line 37
     .line 38
-    invoke-static {v1, v0}, LX/Che;->A01(Landroid/content/Context;I)I
+    invoke-static {v1, v0}, LX/Che;->A02(Landroid/content/Context;I)I
 
     .line 39
     .line 40
@@ -465,7 +465,7 @@
 
     const/4 v12, 0x1
 
-    .line 539313155
+    .line 539313176
     move-object v3, p0
 
     move-object v4, p1
@@ -482,12 +482,12 @@
 
     invoke-direct/range {v3 .. v12}, Lcom/instagram/ui/widget/search/SearchController;-><init>(Landroid/app/Activity;Landroid/view/ViewGroup;LX/1rK;LX/HF4;LX/Ip3;IIZZ)V
 
-    .line 539313156
+    .line 539313177
     move-object/from16 v1, p3
 
     iput-object v1, p0, Lcom/instagram/ui/widget/search/SearchController;->A07:LX/3Ax;
 
-    .line 539313157
+    .line 539313178
     iget-object v0, p0, Lcom/instagram/ui/widget/search/SearchController;->mViewHolder:LX/HNs;
 
     iget-object v0, v0, LX/HNs;->A01:Landroidx/recyclerview/widget/RecyclerView;
@@ -496,17 +496,17 @@
 
     if-eqz v0, :cond_0
 
-    .line 539313158
+    .line 539313179
     invoke-virtual {v0, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(LX/3DT;)V
 
-    .line 539313159
+    .line 539313180
     iget-object v0, p0, Lcom/instagram/ui/widget/search/SearchController;->mViewHolder:LX/HNs;
 
     iget-object v0, v0, LX/HNs;->A01:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(LX/3Ax;)V
 
-    .line 539313160
+    .line 539313181
     iget-object v0, p0, Lcom/instagram/ui/widget/search/SearchController;->mViewHolder:LX/HNs;
 
     iget-object v1, v0, LX/HNs;->A01:Landroidx/recyclerview/widget/RecyclerView;
@@ -515,15 +515,15 @@
 
     invoke-virtual {v1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setItemAnimator(LX/2ui;)V
 
-    .line 539313161
+    .line 539313182
     iget-object v0, p0, Lcom/instagram/ui/widget/search/SearchController;->mViewHolder:LX/HNs;
 
     iget-object v0, v0, LX/HNs;->A01:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 539313162
+    .line 539313183
     iput-boolean v12, v0, Landroidx/recyclerview/widget/RecyclerView;->A0U:Z
 
-    .line 539313163
+    .line 539313184
     :cond_0
     new-instance v0, LX/G6d;
 
@@ -531,7 +531,7 @@
 
     iput-object v0, p0, Lcom/instagram/ui/widget/search/SearchController;->A08:LX/37Q;
 
-    .line 539313164
+    .line 539313185
     return-void
 .end method
 

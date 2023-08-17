@@ -1,8 +1,8 @@
 {
-  "AndroidManifest.xml": "3662e7aa0b618b68b20c994dc73171aa1f95f14ac88078329345742cf2d7252e",
-  "assets/libs.txt": "d50d78770751ee648aae06238c69a888f0695ebb512f344b0ba457dcbba9e2b8",
-  "assets/libs.zstd": "f35acaf2138ac36b91ffc143ef65f322a171dae863fb49e2e18b3df00edddf95",
-  "assets/mapbox2.dex": "d3f33392bfa36d7d75788652623cf86a9d6a464c2a535a48e54b1acb07456b03",
-  "assets/metadata.txt": "217dcf5155ab48f009c54da9619981ae36b44935b7196e142dbea7267d28cdc5",
+  "AndroidManifest.xml": "b16378488de71a3ed73f755233d598ffb1c1df4fe4de7c3b51eeea9183b515ee",
+  "assets/libs.txt": "d3b9837a543eb91027864ea77fca401cef1d75ff975733d049f91de104671703",
+  "assets/libs.zstd": "cbbc4157deb5cd1116ba882caa93132a5732a90cfabe5b666b7696d4586a64c0",
+  "assets/mapbox2.dex": "b3360c2871a6cd47ae51b1b1baee5b679db0d8321044015b9288bf4080f3f595",
+  "assets/metadata.txt": "2c98dcef613a278509e9b687b378ba7fc510ad3b8a1a04ee8570076bd4741d53",
   "assets/resources.arsc": "bf4005f80bf62226eb441e25bb4673e32c8b7074098da4943de263b5bb02a1c9"
 }

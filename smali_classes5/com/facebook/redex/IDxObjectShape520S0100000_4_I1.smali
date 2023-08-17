@@ -553,7 +553,7 @@
 
     .line 237
     .line 238
-    invoke-static {v2, v0}, LX/Chg;->A1S(LX/19z;Ljava/lang/String;)V
+    invoke-static {v2, v0}, LX/Chg;->A1R(LX/19z;Ljava/lang/String;)V
 
     .line 239
     .line 240
@@ -1133,7 +1133,7 @@
 
     .line 235
     .line 236
-    invoke-static {v0, v1}, LX/Chg;->A1O(LX/06L;I)V
+    invoke-static {v0, v1}, LX/Chg;->A1N(LX/06L;I)V
 
     .line 237
     .line 238

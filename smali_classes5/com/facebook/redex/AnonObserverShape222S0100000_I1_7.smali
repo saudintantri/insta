@@ -2112,7 +2112,7 @@
 
     .line 1006
     .line 1007
-    invoke-static {v0}, LX/Che;->A03(Z)I
+    invoke-static {v0}, LX/Che;->A04(Z)I
 
     .line 1008
     .line 1009

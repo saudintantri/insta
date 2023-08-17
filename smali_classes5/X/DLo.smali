@@ -1189,7 +1189,7 @@
     move-result v0
 
     .line 140
-    invoke-static {v2, v0}, LX/Chf;->A11(Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {v2, v0}, LX/Chf;->A12(Landroid/graphics/drawable/Drawable;I)V
 
     .line 141
     .line 142
@@ -1615,7 +1615,7 @@
     .line 356
     .line 357
     .line 358
-    invoke-static {v3, v0}, LX/Che;->A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+    invoke-static {v3, v0}, LX/Che;->A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
 
     .line 359
     .line 360
@@ -1645,7 +1645,7 @@
     .line 372
     .line 373
     .line 374
-    invoke-static {v3, v0}, LX/Che;->A06(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
+    invoke-static {v3, v0}, LX/Che;->A07(Landroid/content/Context;I)Landroid/text/style/ForegroundColorSpan;
 
     .line 375
     .line 376

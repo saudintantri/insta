@@ -3594,7 +3594,7 @@
     const/4 v1, 0x2
 
     .line 1390
-    invoke-static {v3, v4, v1}, LX/Chf;->A0W(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
+    invoke-static {v3, v4, v1}, LX/Chf;->A0X(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
 
     .line 1391
     .line 1392
@@ -5248,7 +5248,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-static {v1}, LX/Chf;->A0b(Landroidx/fragment/app/Fragment;)LX/2Br;
+    invoke-static {v1}, LX/Chf;->A0d(Landroidx/fragment/app/Fragment;)LX/2Br;
 
     .line 40
     .line 41

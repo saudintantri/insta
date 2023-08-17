@@ -766,7 +766,7 @@
 
     const/16 v17, 0x0
 
-    .line 1560062
+    .line 1560061
     move-object/from16 v13, p0
 
     move-object/from16 v1, p13
@@ -777,10 +777,10 @@
 
     move-result v7
 
-    .line 1560063
+    .line 1560062
     const/4 v14, 0x2
 
-    .line 1560064
+    .line 1560063
     move-object/from16 v3, p9
 
     move-object/from16 p0, p2
@@ -791,7 +791,7 @@
 
     move-result v16
 
-    .line 1560065
+    .line 1560064
     const/16 v0, 0x13
 
     move-object/from16 v15, p11
@@ -806,26 +806,26 @@
 
     invoke-static {v0, v1}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 1560066
+    .line 1560065
     move-object/from16 v0, p7
 
     iget-object v1, v0, Lcom/instagram/model/shopping/productfeed/ProductFeedItem;->A05:Lcom/instagram/model/shopping/productfeed/ProductTile;
 
-    .line 1560067
+    .line 1560066
     const/16 v19, 0x0
 
     if-eqz v1, :cond_17
 
-    .line 1560068
+    .line 1560067
     iget-object v1, v1, Lcom/instagram/model/shopping/productfeed/ProductTile;->A08:Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileMetadata;
 
-    .line 1560069
+    .line 1560068
     if-eqz v1, :cond_17
 
-    .line 1560070
+    .line 1560069
     iget-object v4, v1, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileMetadata;->A00:Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileDecoration;
 
-    .line 1560071
+    .line 1560070
     :goto_0
     move-object/from16 v9, p5
 
@@ -833,29 +833,29 @@
 
     move-result-object v5
 
-    .line 1560072
+    .line 1560071
     invoke-static {v3}, LX/BhZ;->A00(Lcom/instagram/service/session/UserSession;)LX/BhZ;
 
     move-result-object v1
 
-    .line 1560073
+    .line 1560072
     move-object/from16 v6, p14
 
     invoke-virtual {v1, v6}, LX/BhZ;->A02(Ljava/lang/Integer;)Z
 
     move-result v8
 
-    .line 1560074
+    .line 1560073
     sget-object v1, LX/001;->A03:Ljava/lang/Integer;
 
     if-ne v6, v1, :cond_0
 
-    .line 1560075
+    .line 1560074
     invoke-static {v3}, LX/4Xo;->A00(Lcom/instagram/service/session/UserSession;)LX/4Xo;
 
     move-result-object v2
 
-    .line 1560076
+    .line 1560075
     invoke-virtual {v0}, Lcom/instagram/model/shopping/productfeed/ProductFeedItem;->A01()Lcom/instagram/model/shopping/Product;
 
     move-result-object v1
@@ -866,17 +866,17 @@
 
     if-eqz v1, :cond_0
 
-    .line 1560077
+    .line 1560076
     sget-object v10, LX/0Sq;->A05:LX/0Sq;
 
     const-wide v1, 0x81036500000611L
 
-    .line 1560078
+    .line 1560077
     invoke-static {v10, v3, v1, v2}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v1
 
-    .line 1560079
+    .line 1560078
     const/16 v53, 0x1
 
     if-nez v1, :cond_1
@@ -884,31 +884,31 @@
     :cond_0
     const/16 v53, 0x0
 
-    .line 1560080
+    .line 1560079
     :cond_1
     iget-object v1, v0, Lcom/instagram/model/shopping/productfeed/ProductFeedItem;->A05:Lcom/instagram/model/shopping/productfeed/ProductTile;
 
-    .line 1560081
+    .line 1560080
     const/16 v56, 0x0
 
     if-eqz v1, :cond_2
 
-    .line 1560082
+    .line 1560081
     iget-object v1, v1, Lcom/instagram/model/shopping/productfeed/ProductTile;->A08:Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileMetadata;
 
-    .line 1560083
+    .line 1560082
     if-eqz v1, :cond_2
 
-    .line 1560084
+    .line 1560083
     iget-object v1, v1, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileMetadata;->A00:Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileDecoration;
 
-    .line 1560085
+    .line 1560084
     if-eqz v1, :cond_2
 
-    .line 1560086
+    .line 1560085
     iget-boolean v1, v1, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileDecoration;->A04:Z
 
-    .line 1560087
+    .line 1560086
     const/16 v57, 0x1
 
     if-eq v1, v7, :cond_3
@@ -916,7 +916,7 @@
     :cond_2
     const/16 v57, 0x0
 
-    .line 1560088
+    .line 1560087
     :cond_3
     move/from16 v28, p21
 
@@ -946,15 +946,15 @@
 
     check-cast v12, LX/96T;
 
-    .line 1560089
+    .line 1560088
     iget-object v11, v1, Lkotlin/Pair;->A01:Ljava/lang/Object;
 
     check-cast v11, Ljava/util/List;
 
-    .line 1560090
+    .line 1560089
     iget-object v1, v0, Lcom/instagram/model/shopping/productfeed/ProductFeedItem;->A05:Lcom/instagram/model/shopping/productfeed/ProductTile;
 
-    .line 1560091
+    .line 1560090
     if-eqz v1, :cond_4
 
     invoke-virtual {v1}, Lcom/instagram/model/shopping/productfeed/ProductTile;->A01()Lcom/instagram/model/shopping/FBProduct;
@@ -963,10 +963,10 @@
 
     if-eqz v1, :cond_4
 
-    .line 1560092
+    .line 1560091
     iget-object v10, v1, Lcom/instagram/model/shopping/FBProduct;->A0A:Ljava/lang/String;
 
-    .line 1560093
+    .line 1560092
     if-nez v10, :cond_5
 
     :cond_4
@@ -976,12 +976,12 @@
 
     invoke-static {v1}, LX/02K;->A09(Ljava/lang/Object;)V
 
-    .line 1560094
+    .line 1560093
     invoke-static {v1}, LX/92q;->A0c(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     move-result-object v10
 
-    .line 1560095
+    .line 1560094
     :cond_5
     const v2, 0x7f122db3
 
@@ -993,13 +993,13 @@
 
     const-string v1, ""
 
-    .line 1560096
+    .line 1560095
     :cond_6
-    invoke-static {v1, v2}, LX/Che;->A0E(Ljava/lang/Object;I)LX/97j;
+    invoke-static {v1, v2}, LX/Che;->A0F(Ljava/lang/Object;I)LX/97j;
 
     move-result-object v18
 
-    .line 1560097
+    .line 1560096
     invoke-static {v3}, LX/98U;->A01(Lcom/instagram/service/session/UserSession;)Z
 
     move-result v1
@@ -1015,17 +1015,17 @@
 
     if-eqz p4, :cond_15
 
-    .line 1560098
+    .line 1560097
     new-instance v1, Lcom/instagram/model/mediasize/ExtendedImageUrl;
 
     invoke-direct {v1, v2}, Lcom/instagram/model/mediasize/ExtendedImageUrl;-><init>(Lcom/instagram/common/typedurl/ImageUrl;)V
 
-    .line 1560099
+    .line 1560098
     invoke-static {v1}, LX/5Wd;->A17(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v39
 
-    .line 1560100
+    .line 1560099
     new-instance v25, Lcom/instagram/model/mediasize/ImageInfo;
 
     move-object/from16 v34, v25
@@ -1040,13 +1040,13 @@
 
     invoke-direct/range {v34 .. v39}, Lcom/instagram/model/mediasize/ImageInfo;-><init>(Lcom/instagram/model/mediasize/AdditionalCandidates;Lcom/instagram/model/mediasize/SpriteSheetInfoCandidates;Ljava/lang/Boolean;Ljava/lang/String;Ljava/util/List;)V
 
-    .line 1560101
+    .line 1560100
     :goto_2
     sget-object v1, LX/2Uj;->A07:LX/2Uj;
 
     if-eq v1, v5, :cond_7
 
-    .line 1560102
+    .line 1560101
     sget-object v1, LX/2Uj;->A03:LX/2Uj;
 
     const/16 v45, 0x0
@@ -1056,7 +1056,7 @@
     :cond_7
     const/16 v45, 0x1
 
-    .line 1560103
+    .line 1560102
     :cond_8
     move/from16 v5, p22
 
@@ -1066,28 +1066,28 @@
 
     if-nez p22, :cond_9
 
-    .line 1560104
+    .line 1560103
     iget-object v1, v0, Lcom/instagram/model/shopping/productfeed/ProductFeedItem;->A05:Lcom/instagram/model/shopping/productfeed/ProductTile;
 
-    .line 1560105
+    .line 1560104
     if-eqz v1, :cond_9
 
-    .line 1560106
+    .line 1560105
     iget-object v1, v1, Lcom/instagram/model/shopping/productfeed/ProductTile;->A08:Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileMetadata;
 
-    .line 1560107
+    .line 1560106
     if-eqz v1, :cond_9
 
-    .line 1560108
+    .line 1560107
     iget-object v1, v1, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileMetadata;->A00:Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileDecoration;
 
-    .line 1560109
+    .line 1560108
     if-eqz v1, :cond_9
 
-    .line 1560110
+    .line 1560109
     iget-boolean v1, v1, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileDecoration;->A07:Z
 
-    .line 1560111
+    .line 1560110
     const/16 v49, 0x1
 
     if-eq v1, v7, :cond_a
@@ -1100,10 +1100,10 @@
 
     if-eqz v4, :cond_b
 
-    .line 1560112
+    .line 1560111
     iget-boolean v1, v4, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileDecoration;->A05:Z
 
-    .line 1560113
+    .line 1560112
     const/16 v50, 0x1
 
     if-eq v1, v7, :cond_c
@@ -1114,7 +1114,7 @@
     :cond_c
     if-nez p26, :cond_d
 
-    .line 1560114
+    .line 1560113
     invoke-virtual {v0, v3}, Lcom/instagram/model/shopping/productfeed/ProductFeedItem;->A06(Lcom/instagram/service/session/UserSession;)Z
 
     move-result v1
@@ -1126,34 +1126,34 @@
     :cond_d
     const/16 v51, 0x0
 
-    .line 1560115
+    .line 1560114
     :cond_e
     invoke-static {v4, v3, v6}, LX/CqL;->A09(Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileDecoration;Lcom/instagram/service/session/UserSession;Ljava/lang/Integer;)Z
 
     move-result v52
 
-    .line 1560116
+    .line 1560115
     iget-object v1, v0, Lcom/instagram/model/shopping/productfeed/ProductFeedItem;->A05:Lcom/instagram/model/shopping/productfeed/ProductTile;
 
-    .line 1560117
+    .line 1560116
     if-eqz v1, :cond_f
 
-    .line 1560118
+    .line 1560117
     iget-object v1, v1, Lcom/instagram/model/shopping/productfeed/ProductTile;->A08:Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileMetadata;
 
-    .line 1560119
+    .line 1560118
     if-eqz v1, :cond_f
 
-    .line 1560120
+    .line 1560119
     iget-object v1, v1, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileMetadata;->A00:Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileDecoration;
 
-    .line 1560121
+    .line 1560120
     if-eqz v1, :cond_f
 
-    .line 1560122
+    .line 1560121
     iget-boolean v1, v1, Lcom/instagram/model/shopping/productfeed/producttilemetadata/ProductTileDecoration;->A02:Z
 
-    .line 1560123
+    .line 1560122
     if-ne v1, v7, :cond_f
 
     const/16 v56, 0x1
@@ -1161,21 +1161,21 @@
     :cond_f
     if-eqz p21, :cond_14
 
-    .line 1560124
+    .line 1560123
     invoke-static/range {v16 .. v16}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v30
 
-    .line 1560125
+    .line 1560124
     :goto_3
     invoke-static {v13, v0, v3, v6}, LX/CqL;->A02(Landroid/content/Context;Lcom/instagram/model/shopping/productfeed/ProductFeedItem;Lcom/instagram/service/session/UserSession;Ljava/lang/Integer;)LX/9Tm;
 
     move-result-object v27
 
-    .line 1560126
+    .line 1560125
     iget-object v1, v0, Lcom/instagram/model/shopping/productfeed/ProductFeedItem;->A05:Lcom/instagram/model/shopping/productfeed/ProductTile;
 
-    .line 1560127
+    .line 1560126
     if-eqz v1, :cond_12
 
     invoke-virtual {v1}, Lcom/instagram/model/shopping/productfeed/ProductTile;->A01()Lcom/instagram/model/shopping/FBProduct;
@@ -1184,17 +1184,17 @@
 
     if-eqz v1, :cond_12
 
-    .line 1560128
+    .line 1560127
     iget-object v1, v1, Lcom/instagram/model/shopping/FBProduct;->A09:Ljava/lang/String;
 
     if-eqz v1, :cond_12
 
-    .line 1560129
+    .line 1560128
     invoke-static {v1}, LX/5Wd;->A0Q(Ljava/lang/String;)Lcom/instagram/common/typedurl/SimpleImageUrl;
 
     move-result-object v1
 
-    .line 1560130
+    .line 1560129
     :goto_4
     invoke-static {v0}, LX/CqL;->A06(Lcom/instagram/model/shopping/productfeed/ProductFeedItem;)Ljava/lang/String;
 
@@ -1212,7 +1212,7 @@
 
     move-object/from16 v37, v19
 
-    .line 1560131
+    .line 1560130
     :goto_5
     new-instance v39, Lkotlin/jvm/internal/KtLambdaShape1S2302000_I1;
 
@@ -1236,15 +1236,15 @@
 
     invoke-direct/range {v67 .. v75}, Lkotlin/jvm/internal/KtLambdaShape1S2302000_I1;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;III)V
 
-    .line 1560132
+    .line 1560131
     if-eqz p22, :cond_10
 
     move-object/from16 v43, v19
 
-    .line 1560133
+    .line 1560132
     move-object/from16 v16, v19
 
-    .line 1560134
+    .line 1560133
     :goto_6
     const/16 v2, 0x21
 
@@ -1252,7 +1252,7 @@
 
     invoke-direct {v3, v2, v15, v0}, Lkotlin/jvm/internal/KtLambdaShape20S0200000_I1;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1560135
+    .line 1560134
     new-instance v38, Lkotlin/jvm/internal/KtLambdaShape4S0202000_I1;
 
     move-object/from16 v58, v38
@@ -1269,20 +1269,20 @@
 
     invoke-direct/range {v58 .. v63}, Lkotlin/jvm/internal/KtLambdaShape4S0202000_I1;-><init>(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 1560136
+    .line 1560135
     const/16 v0, 0xa
 
-    .line 1560137
+    .line 1560136
     move-object/from16 v2, p1
 
     invoke-static {v2, v0}, LX/Chb;->A0x(Ljava/lang/Object;I)Lkotlin/jvm/internal/KtLambdaShape67S0100000_I1_7;
 
     move-result-object v40
 
-    .line 1560138
+    .line 1560137
     const/16 v44, 0x7f0
 
-    .line 1560139
+    .line 1560138
     new-instance v15, LX/F03;
 
     move-object/from16 v29, p12
@@ -1331,7 +1331,7 @@
 
     return-object v15
 
-    .line 1560140
+    .line 1560139
     :cond_10
     const/16 v73, 0x5
 
@@ -1351,7 +1351,7 @@
 
     invoke-direct/range {v67 .. v73}, Lkotlin/jvm/internal/KtLambdaShape2S1202000_I1;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;III)V
 
-    .line 1560141
+    .line 1560140
     const/16 v64, 0x4
 
     new-instance v16, Lcom/facebook/redex/IDxCListenerShape0S1202000_4_I1;
@@ -1372,7 +1372,7 @@
 
     goto :goto_6
 
-    .line 1560142
+    .line 1560141
     :cond_11
     new-instance v37, Lkotlin/jvm/internal/KtLambdaShape0S2402000_I1;
 
@@ -1390,7 +1390,7 @@
 
     goto/16 :goto_5
 
-    .line 1560143
+    .line 1560142
     :cond_12
     invoke-virtual {v0}, Lcom/instagram/model/shopping/productfeed/ProductFeedItem;->A01()Lcom/instagram/model/shopping/Product;
 
@@ -1398,33 +1398,33 @@
 
     if-eqz v1, :cond_13
 
-    .line 1560144
+    .line 1560143
     iget-object v1, v1, Lcom/instagram/model/shopping/Product;->A00:Lcom/instagram/model/shopping/ProductDetailsProductItemDict;
 
-    .line 1560145
+    .line 1560144
     iget-object v1, v1, Lcom/instagram/model/shopping/ProductDetailsProductItemDict;->A0C:Lcom/instagram/model/shopping/Merchant;
 
-    .line 1560146
+    .line 1560145
     if-eqz v1, :cond_13
 
-    .line 1560147
+    .line 1560146
     iget-object v1, v1, Lcom/instagram/model/shopping/Merchant;->A02:Lcom/instagram/common/typedurl/ImageUrl;
 
     goto/16 :goto_4
 
-    .line 1560148
+    .line 1560147
     :cond_13
     const/4 v1, 0x0
 
     goto/16 :goto_4
 
-    .line 1560149
+    .line 1560148
     :cond_14
     move-object/from16 v30, v19
 
     goto/16 :goto_3
 
-    .line 1560150
+    .line 1560149
     :cond_15
     invoke-virtual {v0}, Lcom/instagram/model/shopping/productfeed/ProductFeedItem;->A00()Lcom/instagram/model/mediasize/ImageInfo;
 
@@ -1432,13 +1432,13 @@
 
     goto/16 :goto_2
 
-    .line 1560151
+    .line 1560150
     :cond_16
     move-object/from16 v33, v19
 
     goto/16 :goto_1
 
-    .line 1560152
+    .line 1560151
     :cond_17
     move-object/from16 v4, v19
 

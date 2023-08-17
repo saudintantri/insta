@@ -32,7 +32,7 @@
     move-result-object v0
 
     .line 12
-    const v1, 0x7f07011d
+    const v1, 0x7f070117
 
     .line 13
     .line 14

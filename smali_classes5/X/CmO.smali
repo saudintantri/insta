@@ -336,7 +336,7 @@
     .line 133
     .line 134
     .line 135
-    invoke-static/range {v16 .. v16}, LX/Che;->A03(Z)I
+    invoke-static/range {v16 .. v16}, LX/Che;->A04(Z)I
 
     .line 136
     .line 137

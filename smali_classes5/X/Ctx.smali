@@ -93,7 +93,7 @@
 
     .line 24
     .line 25
-    const v1, 0x7f0700f7
+    const v1, 0x7f0700f5
 
     .line 26
     .line 27

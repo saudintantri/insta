@@ -212,45 +212,45 @@
 .method public constructor <init>(Landroid/graphics/RectF;Landroidx/fragment/app/FragmentActivity;LX/1dt;LX/0YK;LX/1OD;LX/1NW;LX/1qw;LX/3qO;LX/3ty;Lcom/instagram/model/reels/ReelViewerConfig;Lcom/instagram/service/session/UserSession;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;IZZZZZZ)V
     .locals 3
 
-    .line 2329184
+    .line 2329205
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2329185
+    .line 2329206
     invoke-static {}, LX/5Wd;->A15()Ljava/util/HashSet;
 
     move-result-object v0
 
-    .line 2329186
+    .line 2329207
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0y:Ljava/util/HashSet;
 
     const/4 v0, 0x0
 
-    .line 2329187
+    .line 2329208
     iput-boolean v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0X:Z
 
     const/4 v0, 0x3
 
-    .line 2329188
+    .line 2329209
     iput v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A03:I
 
     const/4 v0, 0x0
 
-    .line 2329189
+    .line 2329210
     iput v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A00:F
 
     const/4 v0, 0x1
 
-    .line 2329190
+    .line 2329211
     iput-boolean v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0c:Z
 
-    .line 2329191
+    .line 2329212
     invoke-static {}, LX/39n;->A00()LX/39n;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0l:LX/39n;
 
-    .line 2329192
+    .line 2329213
     const/16 v1, 0xd
 
     new-instance v0, Lcom/facebook/redex/IDxObjectShape223S0100000_5_I1;
@@ -259,7 +259,7 @@
 
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A17:LX/1O6;
 
-    .line 2329193
+    .line 2329214
     const/16 v1, 0xc
 
     new-instance v0, Lcom/facebook/redex/AnonEListenerShape285S0100000_I1;
@@ -268,164 +268,164 @@
 
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A16:LX/1O6;
 
-    .line 2329194
+    .line 2329215
     iput-object p11, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0s:Lcom/instagram/service/session/UserSession;
 
-    .line 2329195
+    .line 2329216
     iput-object p3, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0j:LX/1dt;
 
-    .line 2329196
+    .line 2329217
     iput-object p2, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0i:Landroidx/fragment/app/FragmentActivity;
 
-    .line 2329197
+    .line 2329218
     iput-object p8, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0o:LX/3qO;
 
-    .line 2329198
+    .line 2329219
     iput-object p10, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0q:Lcom/instagram/model/reels/ReelViewerConfig;
 
-    .line 2329199
+    .line 2329220
     iput-object p6, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0n:LX/1NW;
 
-    .line 2329200
+    .line 2329221
     iput-object p9, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0p:LX/3ty;
 
-    .line 2329201
+    .line 2329222
     iput-object p5, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0m:LX/1OD;
 
-    .line 2329202
+    .line 2329223
     move-object/from16 v0, p18
 
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0z:Ljava/util/List;
 
-    .line 2329203
+    .line 2329224
     iput-object p12, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0w:Ljava/lang/String;
 
-    .line 2329204
+    .line 2329225
     move-object/from16 v0, p19
 
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0U:Ljava/util/List;
 
-    .line 2329205
+    .line 2329226
     move-object/from16 v0, p13
 
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0t:Ljava/lang/String;
 
-    .line 2329206
+    .line 2329227
     move-object/from16 v0, p14
 
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0v:Ljava/lang/String;
 
-    .line 2329207
+    .line 2329228
     move-object/from16 v0, p15
 
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0u:Ljava/lang/String;
 
-    .line 2329208
+    .line 2329229
     move-object/from16 v0, p16
 
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0x:Ljava/lang/String;
 
-    .line 2329209
+    .line 2329230
     move-object/from16 v0, p17
 
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0S:Ljava/lang/String;
 
-    .line 2329210
+    .line 2329231
     iput-object p7, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0N:LX/1qw;
 
-    .line 2329211
+    .line 2329232
     iput-object p1, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0h:Landroid/graphics/RectF;
 
-    .line 2329212
+    .line 2329233
     move/from16 v0, p20
 
     iput v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0g:I
 
-    .line 2329213
+    .line 2329234
     move/from16 v0, p21
 
     iput-boolean v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A10:Z
 
-    .line 2329214
+    .line 2329235
     move/from16 v0, p22
 
     iput-boolean v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A14:Z
 
-    .line 2329215
+    .line 2329236
     move/from16 v0, p23
 
     iput-boolean v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A1C:Z
 
-    .line 2329216
+    .line 2329237
     new-instance v0, LX/IDA;
 
-    .line 2329217
+    .line 2329238
     invoke-direct {v0, p0}, LX/IDA;-><init>(Lcom/instagram/direct/visual/DirectVisualMessageViewerController;)V
 
-    .line 2329218
+    .line 2329239
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0r:LX/66J;
 
-    .line 2329219
+    .line 2329240
     new-instance v0, LX/HDK;
 
-    .line 2329220
+    .line 2329241
     invoke-direct {v0, p0}, LX/HDK;-><init>(Lcom/instagram/direct/visual/DirectVisualMessageViewerController;)V
 
-    .line 2329221
+    .line 2329242
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A18:LX/HDK;
 
-    .line 2329222
+    .line 2329243
     new-instance v0, LX/IDO;
 
-    .line 2329223
+    .line 2329244
     invoke-direct {v0, p0}, LX/IDO;-><init>(Lcom/instagram/direct/visual/DirectVisualMessageViewerController;)V
 
-    .line 2329224
+    .line 2329245
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A19:LX/IDO;
 
-    .line 2329225
+    .line 2329246
     new-instance v0, LX/IDP;
 
-    .line 2329226
+    .line 2329247
     invoke-direct {v0, p0}, LX/IDP;-><init>(Lcom/instagram/direct/visual/DirectVisualMessageViewerController;)V
 
-    .line 2329227
+    .line 2329248
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A1A:LX/63G;
 
-    .line 2329228
+    .line 2329249
     invoke-static {p7, p11}, LX/0lf;->A01(LX/0YK;LX/0SF;)LX/0lf;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0k:LX/0lf;
 
-    .line 2329229
+    .line 2329250
     move/from16 v0, p24
 
     iput-boolean v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A1B:Z
 
-    .line 2329230
+    .line 2329251
     iput-object p4, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A15:LX/0YK;
 
-    .line 2329231
+    .line 2329252
     sget-object v2, LX/0Sq;->A05:LX/0Sq;
 
     const-wide v0, 0x8105f800000adbL
 
-    .line 2329232
+    .line 2329253
     invoke-static {v2, p11, v0, v1}, LX/5We;->A1P(LX/0Sq;Lcom/instagram/service/session/UserSession;J)Z
 
     move-result v0
 
-    .line 2329233
+    .line 2329254
     iput-boolean v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A11:Z
 
-    .line 2329234
+    .line 2329255
     move/from16 v0, p25
 
     iput-boolean v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A12:Z
 
-    .line 2329235
+    .line 2329256
     iget-object v1, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0s:Lcom/instagram/service/session/UserSession;
 
     new-instance v0, LX/F53;
@@ -434,7 +434,7 @@
 
     iput-object v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A0G:LX/F53;
 
-    .line 2329236
+    .line 2329257
     move/from16 v0, p26
 
     iput-boolean v0, p0, Lcom/instagram/direct/visual/DirectVisualMessageViewerController;->A13:Z
@@ -3742,7 +3742,7 @@
     add-long/2addr v2, v14
 
     .line 263
-    invoke-static {}, LX/Chf;->A0E()J
+    invoke-static {}, LX/Chf;->A0F()J
 
     .line 264
     .line 265
@@ -12540,7 +12540,7 @@
     add-long/2addr v0, v9
 
     .line 491
-    invoke-static {}, LX/Chf;->A0E()J
+    invoke-static {}, LX/Chf;->A0F()J
 
     .line 492
     .line 493

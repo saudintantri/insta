@@ -958,33 +958,33 @@
 
     move-object p7, v4
 
-    .line 2888936
+    .line 2888957
     :cond_5
     const/4 v0, 0x0
 
-    .line 2888937
+    .line 2888958
     invoke-static {p3, v0, p2}, LX/5We;->A17(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    .line 2888938
+    .line 2888959
     iget-object v1, p0, LX/N5r;->A00:LX/0lf;
 
-    .line 2888939
+    .line 2888960
     const-string v0, "ig_creator_monetization_payout_onboarding"
 
-    .line 2888940
+    .line 2888961
     invoke-static {v1, v0}, LX/5Wd;->A0O(LX/0lf;Ljava/lang/String;)LX/0AW;
 
     move-result-object v1
 
-    .line 2888941
+    .line 2888962
     const/16 v0, 0x518
 
-    .line 2888942
+    .line 2888963
     invoke-static {v1, p3, v0}, LX/N5r;->A00(LX/0AW;LX/ARm;I)Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;
 
     move-result-object v3
 
-    .line 2888943
+    .line 2888964
     invoke-virtual {p4}, Ljava/lang/Number;->intValue()I
 
     move-result v0
@@ -993,94 +993,94 @@
 
     const-string v0, "PAYEE_LINKING_AFTER_UPDATE_ENDPOINT_FAILURE"
 
-    .line 2888944
+    .line 2888965
     :goto_0
     invoke-static {v0}, LX/Mcs;->valueOf(Ljava/lang/String;)LX/Mcs;
 
     move-result-object v1
 
-    .line 2888945
+    .line 2888966
     const-string v0, "action"
 
-    .line 2888946
+    .line 2888967
     invoke-virtual {v3, v1, v0}, LX/0AX;->A1f(LX/0AP;Ljava/lang/String;)V
 
-    .line 2888947
+    .line 2888968
     invoke-static {p5}, LX/N5r;->A02(Ljava/lang/Integer;)LX/GuW;
 
     move-result-object v1
 
-    .line 2888948
+    .line 2888969
     const-string v0, "onboarding_payment_type"
 
-    .line 2888949
+    .line 2888970
     invoke-static {v1, v3, p2, v0}, LX/N5r;->A03(LX/0AP;LX/0AX;Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2888950
+    .line 2888971
     invoke-virtual {v3, p8}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A4L(Ljava/lang/String;)V
 
-    .line 2888951
+    .line 2888972
     invoke-static {p6}, LX/N5r;->A01(Ljava/lang/Integer;)LX/Mcp;
 
     move-result-object v1
 
-    .line 2888952
+    .line 2888973
     const-string v0, "error_type"
 
-    .line 2888953
+    .line 2888974
     invoke-virtual {v3, v1, v0}, LX/0AX;->A1f(LX/0AP;Ljava/lang/String;)V
 
-    .line 2888954
+    .line 2888975
     const/4 v2, 0x0
 
     if-eqz p1, :cond_6
 
-    .line 2888955
+    .line 2888976
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 2888956
+    .line 2888977
     :cond_6
     const-string v0, "onboarding_business_type"
 
-    .line 2888957
+    .line 2888978
     invoke-virtual {v3, v0, v4}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2888958
+    .line 2888979
     if-nez p7, :cond_8
 
     const/4 v1, 0x0
 
-    .line 2888959
+    .line 2888980
     :goto_1
     const-string v0, "onboarding_flow_type"
 
-    .line 2888960
+    .line 2888981
     invoke-virtual {v3, v1, v0}, LX/0AX;->A1f(LX/0AP;Ljava/lang/String;)V
 
-    .line 2888961
+    .line 2888982
     if-eqz p9, :cond_7
 
-    .line 2888962
+    .line 2888983
     invoke-virtual {p9}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 2888963
+    .line 2888984
     :cond_7
     const-string v0, "client_extra"
 
-    .line 2888964
+    .line 2888985
     invoke-virtual {v3, v0, v2}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2888965
+    .line 2888986
     invoke-virtual {v3}, LX/0AX;->BcK()V
 
-    .line 2888966
+    .line 2888987
     return-void
 
-    .line 2888967
+    .line 2888988
     :cond_8
     invoke-virtual {p7}, Ljava/lang/Number;->intValue()I
 
@@ -1090,7 +1090,7 @@
 
     const-string v0, "STANDARD"
 
-    .line 2888968
+    .line 2888989
     :goto_2
     invoke-static {v0}, LX/Mco;->valueOf(Ljava/lang/String;)LX/Mco;
 
@@ -1098,7 +1098,7 @@
 
     goto :goto_1
 
-    .line 2888969
+    .line 2888990
     :pswitch_0
     const-string v0, "ALLOWS_DEFERRED"
 
@@ -1109,7 +1109,7 @@
 
     goto :goto_2
 
-    .line 2888970
+    .line 2888991
     :pswitch_2
     const-string v0, "SELECTED_EXISTING_PAYOUT_INFO_BACK_TAPPED"
 
@@ -1534,35 +1534,35 @@
 
     move-object p9, v1
 
-    .line 2888971
+    .line 2888992
     :cond_4
     invoke-static {p2, p1}, LX/5We;->A1B(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2888972
+    .line 2888993
     const/4 v0, 0x3
 
     invoke-static {p4, v0}, LX/02K;->A0A(Ljava/lang/Object;I)V
 
-    .line 2888973
+    .line 2888994
     iget-object v1, p0, LX/N5r;->A00:LX/0lf;
 
-    .line 2888974
+    .line 2888995
     const-string v0, "ig_creator_monetization_payout_hub_edit_screen"
 
-    .line 2888975
+    .line 2888996
     invoke-static {v1, v0}, LX/5Wd;->A0O(LX/0lf;Ljava/lang/String;)LX/0AW;
 
     move-result-object v1
 
-    .line 2888976
+    .line 2888997
     const/16 v0, 0x516
 
-    .line 2888977
+    .line 2888998
     invoke-static {v1, p2, v0}, LX/N5r;->A00(LX/0AW;LX/ARm;I)Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;
 
     move-result-object p0
 
-    .line 2888978
+    .line 2888999
     invoke-virtual {p3}, Ljava/lang/Number;->intValue()I
 
     move-result v0
@@ -1571,19 +1571,19 @@
 
     const-string v0, "DIRECT_DEBIT_ACH_COMPLETE_TRIGGER"
 
-    .line 2888979
+    .line 2889000
     :goto_0
     invoke-static {v0}, LX/Mcq;->valueOf(Ljava/lang/String;)LX/Mcq;
 
     move-result-object v1
 
-    .line 2888980
+    .line 2889001
     const-string v0, "action"
 
-    .line 2888981
+    .line 2889002
     invoke-virtual {p0, v1, v0}, LX/0AX;->A1f(LX/0AP;Ljava/lang/String;)V
 
-    .line 2888982
+    .line 2889003
     invoke-virtual {p4}, Ljava/lang/Number;->intValue()I
 
     move-result v0
@@ -1596,19 +1596,19 @@
 
     move-result-object v0
 
-    .line 2888983
+    .line 2889004
     :goto_1
     invoke-static {v0}, LX/KH3;->valueOf(Ljava/lang/String;)LX/KH3;
 
     move-result-object v1
 
-    .line 2888984
+    .line 2889005
     const-string v0, "edit_type"
 
-    .line 2888985
+    .line 2889006
     invoke-static {v1, p0, p1, v0}, LX/N5r;->A03(LX/0AP;LX/0AX;Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2888986
+    .line 2889007
     if-eqz p9, :cond_6
 
     invoke-virtual {p9}, Ljava/lang/String;->length()I
@@ -1617,7 +1617,7 @@
 
     if-eqz v0, :cond_6
 
-    .line 2888987
+    .line 2889008
     invoke-static {p9}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v0
@@ -1627,77 +1627,77 @@
 
     move-result-object v1
 
-    .line 2888988
+    .line 2889009
     const-string v0, "financial_entity_id"
 
-    .line 2888989
+    .line 2889010
     invoke-virtual {p0, v0, v1}, LX/0AX;->A1j(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 2888990
+    .line 2889011
     invoke-static {p6}, LX/N5r;->A02(Ljava/lang/Integer;)LX/GuW;
 
     move-result-object v1
 
-    .line 2888991
+    .line 2889012
     const-string v0, "update_payment_type"
 
-    .line 2888992
+    .line 2889013
     invoke-virtual {p0, v1, v0}, LX/0AX;->A1f(LX/0AP;Ljava/lang/String;)V
 
-    .line 2888993
+    .line 2889014
     invoke-virtual {p0, p8}, Lcom/facebook/analytics/structuredlogger/base/USLEBaseShape0S0000000;->A4L(Ljava/lang/String;)V
 
-    .line 2888994
+    .line 2889015
     invoke-static {p5}, LX/N5r;->A01(Ljava/lang/Integer;)LX/Mcp;
 
     move-result-object v1
 
-    .line 2888995
+    .line 2889016
     const-string v0, "error_type"
 
-    .line 2888996
+    .line 2889017
     invoke-virtual {p0, v1, v0}, LX/0AX;->A1f(LX/0AP;Ljava/lang/String;)V
 
-    .line 2888997
+    .line 2889018
     if-eqz p10, :cond_5
 
-    .line 2888998
+    .line 2889019
     invoke-virtual {p10}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2888999
+    .line 2889020
     :goto_3
     const-string v0, "client_extra"
 
-    .line 2889000
+    .line 2889021
     invoke-virtual {p0, v0, v1}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2889001
+    .line 2889022
     const-string v0, "upl_session_id"
 
-    .line 2889002
+    .line 2889023
     invoke-virtual {p0, v0, p7}, LX/0AX;->A1k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2889003
+    .line 2889024
     invoke-virtual {p0}, LX/0AX;->BcK()V
 
-    .line 2889004
+    .line 2889025
     return-void
 
-    .line 2889005
+    .line 2889026
     :cond_5
     const/4 v1, 0x0
 
     goto :goto_3
 
-    .line 2889006
+    .line 2889027
     :cond_6
     const-wide/16 v0, -0x1
 
     goto :goto_2
 
-    .line 2889007
+    .line 2889028
     :pswitch_0
     const-string v0, "OWNER_INFO"
 
@@ -1718,7 +1718,7 @@
 
     goto :goto_1
 
-    .line 2889008
+    .line 2889029
     :pswitch_4
     const-string v0, "LEAVE_WITHOUT_SAVING"
 

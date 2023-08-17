@@ -84,143 +84,143 @@
 .method public constructor <init>(Lcom/instagram/common/typedurl/ImageUrl;Lcom/instagram/common/typedurl/ImageUrl;Lcom/instagram/music/common/config/MusicAttributionConfig;Lcom/instagram/music/common/model/AudioType;Lcom/instagram/music/common/model/MusicDataSource;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZZ)V
     .locals 4
 
-    .line 1669135
+    .line 1669133
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 1669136
+    .line 1669134
     iput-object p6, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A00:Ljava/lang/String;
 
-    .line 1669137
+    .line 1669135
     iput-object p7, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A05:Ljava/lang/String;
 
-    .line 1669138
+    .line 1669136
     iput-object p8, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A06:Ljava/lang/String;
 
-    .line 1669139
+    .line 1669137
     move/from16 v0, p24
 
     iput-boolean v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0L:Z
 
-    .line 1669140
+    .line 1669138
     iput-object p9, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A07:Ljava/lang/String;
 
-    .line 1669141
+    .line 1669139
     iput-object p10, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A09:Ljava/lang/String;
 
-    .line 1669142
+    .line 1669140
     iput-object p1, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A01:Lcom/instagram/common/typedurl/ImageUrl;
 
-    .line 1669143
+    .line 1669141
     iput-object p2, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A02:Lcom/instagram/common/typedurl/ImageUrl;
 
-    .line 1669144
+    .line 1669142
     iput-object p11, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0B:Ljava/lang/String;
 
-    .line 1669145
+    .line 1669143
     move-object/from16 v0, p12
 
     iput-object v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0J:Ljava/lang/String;
 
-    .line 1669146
+    .line 1669144
     move-object/from16 v0, p13
 
     iput-object v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0H:Ljava/lang/String;
 
-    .line 1669147
+    .line 1669145
     move-object/from16 v0, p14
 
     iput-object v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0I:Ljava/lang/String;
 
-    .line 1669148
+    .line 1669146
     move-object/from16 v3, p15
 
     iput-object v3, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0A:Ljava/lang/String;
 
-    .line 1669149
+    .line 1669147
     move-object/from16 v1, p16
 
     iput-object v1, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0K:Ljava/lang/String;
 
-    .line 1669150
+    .line 1669148
     iput-object p4, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A04:Lcom/instagram/music/common/model/AudioType;
 
-    .line 1669151
+    .line 1669149
     move/from16 v0, p25
 
     iput-boolean v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0M:Z
 
-    .line 1669152
+    .line 1669150
     move-object/from16 v0, p17
 
     iput-object v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0O:Ljava/lang/String;
 
-    .line 1669153
+    .line 1669151
     iput-object p5, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0N:Lcom/instagram/music/common/model/MusicDataSource;
 
-    .line 1669154
+    .line 1669152
     move/from16 v0, p26
 
     iput-boolean v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0P:Z
 
-    .line 1669155
+    .line 1669153
     move/from16 v0, p27
 
     iput-boolean v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0Q:Z
 
-    .line 1669156
+    .line 1669154
     iput-object p3, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A03:Lcom/instagram/music/common/config/MusicAttributionConfig;
 
-    .line 1669157
+    .line 1669155
     move-object/from16 v0, p18
 
     iput-object v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0G:Ljava/lang/String;
 
-    .line 1669158
+    .line 1669156
     move-object/from16 v0, p19
 
     iput-object v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0C:Ljava/lang/String;
 
-    .line 1669159
+    .line 1669157
     move-object/from16 v0, p20
 
     iput-object v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0D:Ljava/lang/String;
 
-    .line 1669160
+    .line 1669158
     move-object/from16 v0, p21
 
     iput-object v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A08:Ljava/lang/String;
 
-    .line 1669161
+    .line 1669159
     move-object/from16 v0, p22
 
     iput-object v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0F:Ljava/lang/String;
 
-    .line 1669162
+    .line 1669160
     move-object/from16 v0, p23
 
     iput-object v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A0E:Ljava/lang/String;
 
-    .line 1669163
+    .line 1669161
     const-string v2, "Required value was null."
 
     if-nez p15, :cond_1
 
-    .line 1669164
+    .line 1669162
     if-eqz p8, :cond_2
 
-    .line 1669165
+    .line 1669163
     if-eqz p1, :cond_2
 
-    .line 1669166
+    .line 1669164
     if-eqz p16, :cond_2
 
-    .line 1669167
+    .line 1669165
     if-eqz p4, :cond_2
 
-    .line 1669168
+    .line 1669166
     if-nez p5, :cond_0
 
-    .line 1669169
+    .line 1669167
     const-string v0, "MusicDataSource is null for audio asset id: "
 
     invoke-static {v0, p6}, LX/00t;->A0L(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -229,10 +229,10 @@
 
     const-string v0, "AudioPageMetadata"
 
-    .line 1669170
+    .line 1669168
     invoke-static {v0, v1}, LX/0Ud;->A02(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 1669171
+    .line 1669169
     :cond_0
     :goto_0
     iget-object v0, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A00:Ljava/lang/String;
@@ -241,19 +241,19 @@
 
     return-void
 
-    .line 1669172
+    .line 1669170
     :cond_1
     iput-object v3, p0, Lcom/instagram/clips/model/metadata/AudioPageMetadata;->A00:Ljava/lang/String;
 
     goto :goto_0
 
-    .line 1669173
+    .line 1669171
     :cond_2
     invoke-static {v2}, LX/5Wd;->A0d(Ljava/lang/String;)Ljava/lang/IllegalStateException;
 
     move-result-object v0
 
-    .line 1669174
+    .line 1669172
     throw v0
 .end method
 

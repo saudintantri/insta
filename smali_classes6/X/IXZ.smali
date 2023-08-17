@@ -1656,7 +1656,6 @@
     goto :goto_9
     :try_end_4
     .catch Ljava/lang/IllegalStateException; {:try_start_4 .. :try_end_4} :catch_1
-    .catch Ljava/lang/IllegalStateException; {:try_start_4 .. :try_end_4} :catch_3
 
     .line 715
     :catch_1
@@ -1871,7 +1870,6 @@
     goto :goto_b
     :try_end_8
     .catch Ljava/lang/IllegalStateException; {:try_start_8 .. :try_end_8} :catch_2
-    .catch Ljava/lang/IllegalStateException; {:try_start_8 .. :try_end_8} :catch_3
 
     .line 813
     :catch_2

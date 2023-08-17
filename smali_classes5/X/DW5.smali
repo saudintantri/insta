@@ -268,7 +268,7 @@
     move-result v0
 
     .line 110
-    invoke-static {v3, v0}, LX/Chg;->A0J(Landroid/widget/TextView;I)LX/2ge;
+    invoke-static {v3, v0}, LX/Chg;->A0I(Landroid/widget/TextView;I)LX/2ge;
 
     .line 111
     .line 112

@@ -1598,7 +1598,7 @@
 
     .line 762
     :cond_1a
-    invoke-static {v3}, LX/Chf;->A0C(Landroidx/fragment/app/Fragment;)I
+    invoke-static {v3}, LX/Chf;->A0D(Landroidx/fragment/app/Fragment;)I
 
     .line 763
     .line 764

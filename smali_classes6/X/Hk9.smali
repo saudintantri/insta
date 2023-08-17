@@ -3539,7 +3539,6 @@
     :try_end_1
     .catch Ljava/util/concurrent/ExecutionException; {:try_start_1 .. :try_end_1} :catch_1
     .catch Ljava/lang/InterruptedException; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/lang/InterruptedException; {:try_start_1 .. :try_end_1} :catch_4
     .catch LX/46k; {:try_start_1 .. :try_end_1} :catch_3
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_2
 

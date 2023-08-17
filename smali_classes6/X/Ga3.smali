@@ -85,7 +85,7 @@
 
     .line 24
     .line 25
-    invoke-static {v2}, LX/Chf;->A0O(Landroid/view/View;)LX/2gw;
+    invoke-static {v2}, LX/Chf;->A0P(Landroid/view/View;)LX/2gw;
 
     .line 26
     .line 27
@@ -139,7 +139,7 @@
     move-result-object v1
 
     .line 52
-    const v0, 0x7f0700cf
+    const v0, 0x7f0700ce
 
     .line 53
     .line 54

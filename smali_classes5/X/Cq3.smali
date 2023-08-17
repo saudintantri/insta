@@ -916,7 +916,7 @@
     .line 115
     .line 116
     .line 117
-    invoke-static {p0}, LX/Che;->A0A(Landroidx/fragment/app/Fragment;)LX/1rI;
+    invoke-static {p0}, LX/Che;->A0B(Landroidx/fragment/app/Fragment;)LX/1rI;
 
     .line 118
     .line 119

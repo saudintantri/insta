@@ -136,7 +136,7 @@
 
     .line 45
     .line 46
-    invoke-static {v1, v2, v0, v3}, LX/Chg;->A0Z(Lcom/instagram/common/kotlindelegate/lifecycle/AutoCleanup;Ljava/lang/Object;[LX/08G;I)Ljava/lang/Object;
+    invoke-static {v1, v2, v0, v3}, LX/Chg;->A0X(Lcom/instagram/common/kotlindelegate/lifecycle/AutoCleanup;Ljava/lang/Object;[LX/08G;I)Ljava/lang/Object;
 
     .line 47
     .line 48
@@ -1387,7 +1387,7 @@
     const/4 v0, 0x0
 
     .line 656
-    invoke-static {v2, v3, v1, v0}, LX/Chg;->A0Z(Lcom/instagram/common/kotlindelegate/lifecycle/AutoCleanup;Ljava/lang/Object;[LX/08G;I)Ljava/lang/Object;
+    invoke-static {v2, v3, v1, v0}, LX/Chg;->A0X(Lcom/instagram/common/kotlindelegate/lifecycle/AutoCleanup;Ljava/lang/Object;[LX/08G;I)Ljava/lang/Object;
 
     .line 657
     .line 658

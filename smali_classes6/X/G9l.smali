@@ -180,7 +180,7 @@
 
     .line 69
     .line 70
-    const v0, 0x7f07017b
+    const v0, 0x7f070173
 
     .line 71
     .line 72

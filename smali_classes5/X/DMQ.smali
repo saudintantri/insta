@@ -441,7 +441,7 @@
     const/4 v2, 0x5
 
     .line 142
-    invoke-static {v3, v7, v2}, LX/Chf;->A0W(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
+    invoke-static {v3, v7, v2}, LX/Chf;->A0X(Lcom/instagram/service/session/UserSession;Ljava/lang/Object;I)LX/21H;
 
     .line 143
     .line 144
@@ -453,7 +453,7 @@
 
     .line 147
     .line 148
-    invoke-static {v5}, LX/Che;->A09(LX/1r8;)LX/2tM;
+    invoke-static {v5}, LX/Che;->A0A(LX/1r8;)LX/2tM;
 
     .line 149
     .line 150

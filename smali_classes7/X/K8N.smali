@@ -2976,7 +2976,7 @@
 
     .line 1317
     .line 1318
-    const v0, 0x7f0700f1
+    const v0, 0x7f0700f0
 
     .line 1319
     .line 1320

@@ -112,7 +112,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, p1, v6}, LX/Chf;->A0Q(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/facebook/shimmer/ShimmerFrameLayout;
+    invoke-static {p2, p1, v6}, LX/Chf;->A0R(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/facebook/shimmer/ShimmerFrameLayout;
 
     .line 9
     .line 10

@@ -1,8 +1,8 @@
 {
-  "AndroidManifest.xml": "095361ac013f12ad05b85178a21d1df9f4b48d49898cee8fc8fb248546c6af96",
-  "assets/dancification2.dex": "8cec8c53e7b4a20db901800d449f2d3037b2f24b541e664cff682bd7d111f704",
-  "assets/libs.txt": "1037b6c5aafd9bd6eebd669db2327e7bea173b2ffd8fbf07c0bbb991dbb01d20",
-  "assets/libs.zstd": "53c80d1e823b27b33583e50f5aa2aee4c79b64d612da63ad7dc90124c2599a2c",
-  "assets/metadata.txt": "edd9f20e189b54778662d29019a8da491ccbb2e1bd48685255578f91d01da89a",
+  "AndroidManifest.xml": "db0aa261708cf77c31be054ebbcb956a140f8211a3db72cd81d706f59bacd330",
+  "assets/dancification2.dex": "fc7d3b13b1997f7283269b087e3c638f63658e87e83f51b9948d99c576c1536b",
+  "assets/libs.txt": "400a96dad2aa3824c865a0b9a9377a03030aefa8de4da0e8176fd065a425dbe4",
+  "assets/libs.zstd": "0efdc45bf5c418fe49aca07a4d9148d26022076766ee392ea405ab972965d796",
+  "assets/metadata.txt": "515115bda77989d5b9c842bb800525a16a976d7d222fa3262ed21231543a0cd2",
   "assets/resources.arsc": "43be3ddb34eb2846d8a7b98ca8ed554538de0bc0350eacfd4f4e5d0b2e7c1b69"
 }

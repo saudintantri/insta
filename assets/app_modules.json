@@ -1,217 +1,217 @@
 [
   {
     "disabled": false,
-    "hash": "23a64748ecf9bb98a75b2ed832229e07bfc77dc4baf0e9569a8b15c405284686",
+    "hash": "b645aeb40daecfb8f44d66fa952c2f3020df804cc1ff67cfa6e32392eebf4ad6",
     "name": "arclassBenchmarks",
     "path": "arclassBenchmarks.apk"
   },
   {
     "disabled": false,
-    "hash": "d5f6506c4f619eb2776004be05c937061a4af27150c9062633818b36e6495209",
+    "hash": "6d3451871bcb11ee41b6f04b755d03b5f8236601004dcf2f499754636dddc475",
     "name": "arservicesforbodytracking",
     "path": "arservicesforbodytracking.apk"
   },
   {
     "disabled": false,
-    "hash": "75eb354ba91fcccb0b521ad33ca3fd5927ba660f579fc838195d7fb7e786b00e",
+    "hash": "19391e05ed1306b1b83b84d22f8951ed907867516776266551042eedddfaff4e",
     "name": "arservicesforestimateddepthtoscenedepth",
     "path": "arservicesforestimateddepthtoscenedepth.apk"
   },
   {
     "disabled": false,
-    "hash": "098ea7d6f430a8a8aabd251ab7aad3ebbfd8b7e114d36b6e9ea616ebc0bec8b6",
+    "hash": "6c0d3794d1e03fc84bc9270f1834e1681d9640b6a4e6062ed075a159fb2a525d",
     "name": "arservicesforexpressionfitting",
     "path": "arservicesforexpressionfitting.apk"
   },
   {
     "disabled": false,
-    "hash": "1ea00949096dd88893df027cfc98162e28dbb94138aa4ddc0e926d27896f142b",
+    "hash": "f0322187eee348433a81d2050cdcb1dc208c5a3e576af32af83620cb117611e5",
     "name": "arservicesforfacewave",
     "path": "arservicesforfacewave.apk"
   },
   {
     "disabled": false,
-    "hash": "f2d9d69b082d1d3c62582bc99775250d64ea20b2415498d99261e9c5b02106ec",
+    "hash": "8c2b77d69b34436b6a04b716d74df1158956a5efb39247deaa8ee22d0291d10e",
     "name": "arservicesforgenericml",
     "path": "arservicesforgenericml.apk"
   },
   {
     "disabled": false,
-    "hash": "3274504c744726f6df4b690bc53247dd74fbe0b7583850a090f136aa3faaf5bf",
+    "hash": "d766db3028d4d3a863802ffdf24e5b1c61fd97fc8cf79fb541b35f97217d4a5e",
     "name": "arservicesforhairsegmentation",
     "path": "arservicesforhairsegmentation.apk"
   },
   {
     "disabled": false,
-    "hash": "e6385bc8c106a9ecbfeb533bc69ed36dfe7fceb06f6b47c5ec85460ca0efd63a",
+    "hash": "1f4058817b81d592e19a21dcb967e8256c310efb5625905858e51e6931169e29",
     "name": "arservicesforhandtracking",
     "path": "arservicesforhandtracking.apk"
   },
   {
     "disabled": false,
-    "hash": "f47e5c09224c51ba48ac4939f468b02696f6761e421e85f9ffe82ce5d64f3326",
+    "hash": "1919f58324cb5687c5c6ab526c0c5c56c887ee8667fe6173b2b2eaaf5f760afd",
     "name": "arservicesforpersonsegmentation",
     "path": "arservicesforpersonsegmentation.apk"
   },
   {
     "disabled": false,
-    "hash": "0120dd9cf0d9e87856ad79ceae1f30367a82b204ad75ad0ccdd3980f5588a14e",
+    "hash": "0ee933df5b7aa75f1400d2b2b910ad005260ffd9807e171d4f0ce8321cef7299",
     "name": "arservicesforrecognition",
     "path": "arservicesforrecognition.apk"
   },
   {
     "disabled": false,
-    "hash": "9bd2877c1e2516e7eb2597d67622bb9b8ae35857a1135a8b7872c31e7ed336f1",
+    "hash": "cc7a15c06b1095abdd05a75a4139859ad2057649bca2a732ea0fb524bea9fd77",
     "name": "arservicesfortargettracking",
     "path": "arservicesfortargettracking.apk"
   },
   {
     "disabled": false,
-    "hash": "adfbee7ffb5f09890d907a1ea869ad316371ff6c440fa1f3a330d8cf6fea01bd",
+    "hash": "2615c04bd2450e29fa98c53f5f66e324512f30adacb751e62bd9f17c182f87a5",
     "name": "arservicesforunifiedtargettracking",
     "path": "arservicesforunifiedtargettracking.apk"
   },
   {
     "disabled": false,
-    "hash": "e0688ae097b1c17bb9e7a06f569ee866b5a008378e4b0165aa53429e3aaf4c11",
+    "hash": "d693687d060c690fdc32df51c261e43d5380e112a4c22d10c0c8323fa41b293b",
     "name": "arservicesforwolf",
     "path": "arservicesforwolf.apk"
   },
   {
     "disabled": false,
-    "hash": "a5fd7ba1f9ddb13aa13c3250d39e95ad29b780a9d60cc0ae5658ec5496ec79de",
+    "hash": "bd85b116a4350ca548964d66db204c359ebac4315aab2ec7c0ae99f4c4b6ae04",
     "name": "creditcardscanner",
     "path": "creditcardscanner.apk"
   },
   {
     "disabled": false,
-    "hash": "f40ddb1ad3e11f496a3a5bca34a12060084cbe5e9b615aebeb8f509e93cdfb66",
+    "hash": "d244e7e5a01544c5091685c46bd1714c96c5b80ac6457354ee2c5534af45ae33",
     "name": "dancification",
     "path": "dancification.apk"
   },
   {
     "disabled": false,
-    "hash": "fd8829158c86497c7117284c8d7a3e2c9e4c03a58f4c56d48e4d05428a4a7dbc",
+    "hash": "17b797abdf2c3c67c17627635930e68ae64423d439d1bda95b1c0df338ae416b",
     "name": "devoptions",
     "path": "devoptions.apk"
   },
   {
     "disabled": false,
-    "hash": "da395ca0d265c5c957c6694a0159b335c4cc62f79439c9371cad2191ad3a322c",
+    "hash": "dd358afedc3628563a53f45fbe0e96ce73cbd2501802cb5ca0a741a561a74ed8",
     "name": "dogfoodingassistant",
     "path": "dogfoodingassistant.apk"
   },
   {
     "disabled": false,
-    "hash": "1d4264dd11516cc9b1c8762ab63a0ccf0b614436e3d3e851b14a98fca3823757",
+    "hash": "aa14c58699f88926e91a385219299ee3592d34f7aefac9a5b7d08b90216286bb",
     "name": "ethwalletsimulator",
     "path": "ethwalletsimulator.apk"
   },
   {
     "disabled": false,
-    "hash": "07b113b848aff26a336473ed048e238231389664ad2d080cf1066fe0084f8f70",
+    "hash": "d425739dd0f3a6ac299b9dca7f9842078688f2a58c7b0bd05be7c57534841323",
     "name": "hdrphotocapture",
     "path": "hdrphotocapture.apk"
   },
   {
     "disabled": false,
-    "hash": "35bb15e8f8dcdddfc932c9358b5059f9d0faf9360ecb1bb4eaaf763757916057",
+    "hash": "1eeb4bdde70be7ba39b0986a96e45762d867cdb17802ca9925fa99952202a8c7",
     "name": "igwbselfiecaptchachallenge",
     "path": "igwbselfiecaptchachallenge.apk"
   },
   {
     "disabled": false,
-    "hash": "0b2213f693b7313baf285a5550b57cc03ba21b8569c35ad910f2bdd7e0a4a5c2",
+    "hash": "a4855a3fc03413b027775d9ca7b061e1b53dd75e5d86f347d7a3e35717ad208c",
     "name": "mapbox",
     "path": "mapbox.apk"
   },
   {
     "disabled": false,
-    "hash": "b0ff0cbf04ba7a72a0e44af65fb1e1bffc2264b2ff38f10626ac5e86d2002ac3",
+    "hash": "b145a8604512edc0320dafe609d22eb4df39374e96add5c256b9e2e2aa7bba66",
     "name": "notworkingdeprulefixmoduledummy",
     "path": "notworkingdeprulefixmoduledummy.apk"
   },
   {
     "disabled": false,
-    "hash": "4e02a917f16bfeabd53dd0be40e06603fefa098d6bceeb40537653f1cc56cfcc",
+    "hash": "b0e1287d92d6a9ea1b926d226b863605f9ec367b81212a2de0ec96340a4b2035",
     "name": "papaya",
     "path": "papaya.apk"
   },
   {
     "disabled": false,
-    "hash": "db5b18906f5cfbfb8154c42d9c263b217b9199193bf0baab78c17ed73de30639",
+    "hash": "5c065b8d9399c3e5ca5a46859e00c283c3ad50f47b35ce877b64101b26bc1913",
     "name": "proxyservice",
     "path": "proxyservice.apk"
   },
   {
     "disabled": false,
-    "hash": "d7e6a73622b3ba17ea6f01436b8e32f95d93efeb060c48cb595661f7abec6c54",
+    "hash": "d28800a0443cb616f29d319dfefc4ba2842a1c43eda5b713d41fdc47606d2113",
     "name": "pytorch",
     "path": "pytorch.apk"
   },
   {
     "disabled": false,
-    "hash": "6a5746b094c46a0bbd93472346da1f08dbebdc1f4115f53ae5f876c272514851",
+    "hash": "02c6ce53435c9fcc98ae1197518a49c8f37c95261d32bf560ae2b76518d98b89",
     "name": "s_1324189732",
     "path": "s_1324189732.apk"
   },
   {
     "disabled": false,
-    "hash": "9fc91cd66c6eed270884e0e93ba28caf50801f028df255aa32bd169e63676cea",
+    "hash": "92660408cce4562bcabf2d8ff671dc85e67384acb9fcb3a0c83f854c88771fcb",
     "name": "s_396201961",
     "path": "s_396201961.apk"
   },
   {
     "disabled": false,
-    "hash": "6b4688884eab9b8a456471d0a607317314f1c5d733bc4995fec128c564401257",
+    "hash": "eb0cf1ff515b13c3e26f73115ec930160f4ced840f5a5cb571384162b6a04b33",
     "name": "s_44656914",
     "path": "s_44656914.apk"
   },
   {
     "disabled": false,
-    "hash": "84f2bba9d83c2121984c76416ca218cfa397e23474ef64eefbeae84c6ff0f922",
+    "hash": "b43be4e17815b087dd09b4e28fb570b5341e3f0ef0380147374dca308fc6b5ce",
     "name": "s_590158924",
     "path": "s_590158924.apk"
   },
   {
     "disabled": false,
-    "hash": "4b27ca8789bf084bf9b7cae5cc996d53f74408d0e4230ada1d2edc1c3558dc82",
+    "hash": "91cd1b358735d1b8d4fd568c1d65ccd081e073ac9004f8ca2d67e2def1aa05a7",
     "name": "s_710768825",
     "path": "s_710768825.apk"
   },
   {
     "disabled": false,
-    "hash": "3076ff965278930d1f3af15ed1fdbf6ba8e631bdca9b1042f4f6b3ac97eacee7",
+    "hash": "d6240780c031e737b9ef5fdc6a2385ddc1f441fbcaaec49e8006bc3f10df917f",
     "name": "s_821662336",
     "path": "s_821662336.apk"
   },
   {
     "disabled": false,
-    "hash": "a57532776013d461d84ec53cbd6e044acd08aa06c84443488ab85a00a5a75daa",
+    "hash": "8f1f2f8d00271d1b8421fdc0a3a8dc6ebfbe5f4b879d47513e9fd82f2ee07069",
     "name": "s_creditcardscanner_hdrphotocapture",
     "path": "s_creditcardscanner_hdrphotocapture.apk"
   },
   {
     "disabled": false,
-    "hash": "4477c3e4d3d8d8c694dfb2f872a7bc2cfa7f339754238a7285c36552326b5810",
+    "hash": "46ca4295fb7ab92658ae9caa2ab1227795d292f05775ab7e13abf0730d18f739",
     "name": "s_dancification_hdrphotocapture",
     "path": "s_dancification_hdrphotocapture.apk"
   },
   {
     "disabled": false,
-    "hash": "dc07c3e23c672d15defca98bbdd41afb3fc3147f73676916edf299ce9beeebf7",
+    "hash": "6e4aebf4b7d28bfbfb8f1f7e958e125b83e87ddd530c236843e681e1a1b40cc5",
     "name": "s_devoptions_dogfoodingassistant",
     "path": "s_devoptions_dogfoodingassistant.apk"
   },
   {
     "disabled": false,
-    "hash": "cde097b8ea47efe44f4cb5d93169dce20e75191a90c5a6e4e4c777a5b592cc81",
+    "hash": "9f29521cbb9faf15f31462158ad5630ba030d71856505d268fbd33842f78ef3f",
     "name": "s_hdrphotocapture_pytorch",
     "path": "s_hdrphotocapture_pytorch.apk"
   },
   {
     "disabled": false,
-    "hash": "d3a50e367b0fd779c4f0bd7fd366b55037cef98c45b43b24f23316b705f70c7a",
+    "hash": "730dde6fb2ed70b081bb67412c1f784adfe2102c90cd905890285eb9f911b864",
     "name": "slam",
     "path": "slam.apk"
   }

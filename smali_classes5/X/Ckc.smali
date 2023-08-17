@@ -196,7 +196,7 @@
     .line 34
     .line 35
     .line 36
-    invoke-static {v0}, LX/Chf;->A0H(Landroid/graphics/Rect;)Landroid/graphics/Bitmap;
+    invoke-static {v0}, LX/Chf;->A0I(Landroid/graphics/Rect;)Landroid/graphics/Bitmap;
 
     .line 37
     .line 38

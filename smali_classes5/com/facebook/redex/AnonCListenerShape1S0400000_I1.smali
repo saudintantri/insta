@@ -973,7 +973,7 @@
 
     .line 409
     .line 410
-    invoke-static {v3}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v3}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 411
     .line 412
@@ -1519,7 +1519,7 @@
 
     .line 679
     .line 680
-    invoke-static {v5}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v5}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 681
     .line 682
@@ -1729,7 +1729,7 @@
 
     .line 781
     .line 782
-    invoke-static {v5}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v5}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 783
     .line 784
@@ -1764,7 +1764,7 @@
     .line 798
     .line 799
     :cond_d
-    invoke-static {v5}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v5}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 800
     .line 801
@@ -1894,7 +1894,7 @@
 
     .line 863
     .line 864
-    invoke-static {v10}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v10}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 865
     .line 866
@@ -1965,7 +1965,7 @@
     .line 898
     .line 899
     .line 900
-    invoke-static {v10}, LX/Chg;->A0T(LX/01o;)LX/Cxt;
+    invoke-static {v10}, LX/Chg;->A0R(LX/01o;)LX/Cxt;
 
     .line 901
     .line 902
@@ -3009,7 +3009,7 @@
     const/4 v0, 0x2
 
     .line 1411
-    invoke-static {v4, v13, v0}, LX/Che;->A02(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
+    invoke-static {v4, v13, v0}, LX/Che;->A03(Lcom/instagram/music/search/MusicOverlayResultsListController;Ljava/lang/Object;I)I
 
     .line 1412
     .line 1413

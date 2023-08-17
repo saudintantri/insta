@@ -1761,7 +1761,6 @@
     :try_end_14
     .catch Ljava/io/IOException; {:try_start_14 .. :try_end_14} :catch_2
     .catch Ljava/lang/Exception; {:try_start_14 .. :try_end_14} :catch_1
-    .catch Ljava/io/IOException; {:try_start_14 .. :try_end_14} :catch_3
     .catchall {:try_start_14 .. :try_end_14} :catchall_7
 
     .line 814

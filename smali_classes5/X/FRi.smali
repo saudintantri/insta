@@ -77,7 +77,7 @@
 
     .line 8
     .line 9
-    invoke-static {v2, v0}, LX/Chh;->A07(Landroid/widget/AdapterView;I)Landroid/view/View;
+    invoke-static {v2, v0}, LX/Chi;->A0B(Landroid/widget/AdapterView;I)Landroid/view/View;
 
     .line 10
     .line 11

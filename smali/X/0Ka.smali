@@ -169,7 +169,6 @@
     goto/16 :goto_3
     :try_end_1
     .catch Ljava/lang/NoSuchMethodException; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/lang/NoSuchMethodException; {:try_start_1 .. :try_end_1} :catch_1
 
     .line 55
     .line 56

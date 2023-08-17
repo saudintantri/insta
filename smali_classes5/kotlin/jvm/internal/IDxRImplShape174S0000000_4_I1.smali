@@ -432,7 +432,7 @@
 
     .line 137
     .line 138
-    invoke-static {v1}, LX/Chg;->A0E(LX/01o;)Lcom/instagram/clips/viewer/recipesheet/RecipeSheetParams;
+    invoke-static {v1}, LX/Chg;->A0D(LX/01o;)Lcom/instagram/clips/viewer/recipesheet/RecipeSheetParams;
 
     .line 139
     .line 140
@@ -456,7 +456,7 @@
     move-result-object v4
 
     .line 150
-    invoke-static {v1}, LX/Chg;->A0E(LX/01o;)Lcom/instagram/clips/viewer/recipesheet/RecipeSheetParams;
+    invoke-static {v1}, LX/Chg;->A0D(LX/01o;)Lcom/instagram/clips/viewer/recipesheet/RecipeSheetParams;
 
     .line 151
     .line 152

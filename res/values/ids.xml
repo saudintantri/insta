@@ -204,14 +204,18 @@
     <item type="id" name="action_buttons" />
     <item type="id" name="action_buttons_container" />
     <item type="id" name="action_buttons_stub" />
+    <item type="id" name="APKTOOL_DUMMY_ec" />
     <item type="id" name="action_context_bar" />
+    <item type="id" name="APKTOOL_DUMMY_ee" />
     <item type="id" name="action_glyph" />
     <item type="id" name="action_group" />
     <item type="id" name="action_icon" />
     <item type="id" name="action_icon_stub" />
+    <item type="id" name="APKTOOL_DUMMY_f3" />
     <item type="id" name="action_label_text" />
     <item type="id" name="action_list" />
     <item type="id" name="action_list_drag_bar" />
+    <item type="id" name="APKTOOL_DUMMY_f7" />
     <item type="id" name="action_mode_bar" />
     <item type="id" name="action_mode_bar_stub" />
     <item type="id" name="action_mode_close_button" />
@@ -235,6 +239,7 @@
     <item type="id" name="action_text" />
     <item type="id" name="actionbar_filmstrip_timeline" />
     <item type="id" name="actionbar_rotate90_button" />
+    <item type="id" name="APKTOOL_DUMMY_10f" />
     <item type="id" name="activation_module_tip_image" />
     <item type="id" name="activation_module_tip_subtitle" />
     <item type="id" name="activation_module_tip_title" />
@@ -348,6 +353,7 @@
     <item type="id" name="add_on_container" />
     <item type="id" name="add_or_edit_cover_text_view" />
     <item type="id" name="add_or_hide_text" />
+    <item type="id" name="APKTOOL_DUMMY_183" />
     <item type="id" name="add_partner_plus_button" />
     <item type="id" name="add_partner_row" />
     <item type="id" name="add_paypal_row" />
@@ -970,6 +976,7 @@
     <item type="id" name="background_mode_button" />
     <item type="id" name="background_mode_label" />
     <item type="id" name="background_picker_button" />
+    <item type="id" name="APKTOOL_DUMMY_404" />
     <item type="id" name="background_pill" />
     <item type="id" name="background_prefetch_job_scheduler_compat_id" />
     <item type="id" name="background_prefetch_job_scheduler_id" />
@@ -991,6 +998,7 @@
     <item type="id" name="badges_thanks_supporter_sticker_editor_stub" />
     <item type="id" name="badges_thanks_supporter_sticker_helper_text" />
     <item type="id" name="balance" />
+    <item type="id" name="APKTOOL_DUMMY_41a" />
     <item type="id" name="bank_ACH_row" />
     <item type="id" name="bank_country" />
     <item type="id" name="bank_form" />
@@ -1901,6 +1909,7 @@
     <item type="id" name="carrier_id" />
     <item type="id" name="carrier_name" />
     <item type="id" name="carrier_signal_config" />
+    <item type="id" name="APKTOOL_DUMMY_7c1" />
     <item type="id" name="catalog_checkbox" />
     <item type="id" name="catalog_checkbox_guideline" />
     <item type="id" name="catalog_checkbox_spinner" />
@@ -2037,6 +2046,7 @@
     <item type="id" name="chooser_item_title" />
     <item type="id" name="chrome_section" />
     <item type="id" name="chrome_tappable_container" />
+    <item type="id" name="APKTOOL_DUMMY_850" />
     <item type="id" name="circle" />
     <item type="id" name="circle_center" />
     <item type="id" name="circle_page_indicator" />
@@ -2290,6 +2300,8 @@
     <item type="id" name="clips_together_subtitle" />
     <item type="id" name="clips_together_swipe_indicator_stub" />
     <item type="id" name="clips_top_level_container" />
+    <item type="id" name="APKTOOL_DUMMY_951" />
+    <item type="id" name="APKTOOL_DUMMY_952" />
     <item type="id" name="clips_trim_filmstrip_time_indicator" />
     <item type="id" name="clips_trim_filmstrip_view" />
     <item type="id" name="clips_video_container" />
@@ -3060,12 +3072,15 @@
     <item type="id" name="debug_sheet_media_stats_title" />
     <item type="id" name="debug_sheet_text_content" />
     <item type="id" name="debug_sheet_title" />
+    <item type="id" name="APKTOOL_DUMMY_c65" />
     <item type="id" name="debug_text" />
     <item type="id" name="debug_text_view" />
+    <item type="id" name="APKTOOL_DUMMY_c68" />
     <item type="id" name="decline_button" />
     <item type="id" name="decline_participant_button" />
     <item type="id" name="decor_content_parent" />
     <item type="id" name="deeplink_button" />
+    <item type="id" name="APKTOOL_DUMMY_c70" />
     <item type="id" name="default_ar_effect_picker_container_stub" />
     <item type="id" name="default_cover_photo" />
     <item type="id" name="default_cover_photo_border" />
@@ -3696,6 +3711,8 @@
     <item type="id" name="e2ee_status_label" />
     <item type="id" name="e2ee_text" />
     <item type="id" name="e2ee_title_divider" />
+    <item type="id" name="APKTOOL_DUMMY_eff" />
+    <item type="id" name="APKTOOL_DUMMY_f00" />
     <item type="id" name="earnings_amount_raised" />
     <item type="id" name="earnings_amount_text" />
     <item type="id" name="earnings_circle_badges_icon" />
@@ -3707,6 +3724,7 @@
     <item type="id" name="earnings_section_period" />
     <item type="id" name="earnings_section_title" />
     <item type="id" name="earnings_total_title" />
+    <item type="id" name="APKTOOL_DUMMY_f0f" />
     <item type="id" name="echo_text" />
     <item type="id" name="ecp_container_view" />
     <item type="id" name="ecp_disclaimer_container" />
@@ -4205,6 +4223,8 @@
     <item type="id" name="fbpay_ui_progress_bar_id" />
     <item type="id" name="fbpay_ui_progress_message_id" />
     <item type="id" name="fbpay_ui_pux_shipping_option_id" />
+    <item type="id" name="APKTOOL_DUMMY_1109" />
+    <item type="id" name="APKTOOL_DUMMY_110a" />
     <item type="id" name="fbui_ui_tracker_view_simple_name" />
     <item type="id" name="fc_link_textview" />
     <item type="id" name="fc_subtitle_textview" />
@@ -4398,6 +4418,7 @@
     <item type="id" name="fixed_tab_bar_view" />
     <item type="id" name="fixed_tabbar_tabs_container" />
     <item type="id" name="fixed_tabbar_view" />
+    <item type="id" name="APKTOOL_DUMMY_11d2" />
     <item type="id" name="fl_camera_aspect_ratio_container" />
     <item type="id" name="fl_help_button_container" />
     <item type="id" name="fl_icon_container" />
@@ -4416,6 +4437,7 @@
     <item type="id" name="flash_button" />
     <item type="id" name="flip_button" />
     <item type="id" name="flipper_skip_view_traversal" />
+    <item type="id" name="APKTOOL_DUMMY_11e8" />
     <item type="id" name="floating_banner_container" />
     <item type="id" name="floating_banner_stub" />
     <item type="id" name="floating_button_background" />
@@ -4582,6 +4604,7 @@
     <item type="id" name="from_story_username" />
     <item type="id" name="front_icon" />
     <item type="id" name="front_picture" />
+    <item type="id" name="APKTOOL_DUMMY_1292" />
     <item type="id" name="frx_footer_view" />
     <item type="id" name="frx_report_action_button" />
     <item type="id" name="frx_report_action_button_wrapper" />
@@ -4728,6 +4751,11 @@
     <item type="id" name="gallery_formats_picker_edit_selection_subtitle" />
     <item type="id" name="gallery_formats_picker_edit_selection_title" />
     <item type="id" name="gallery_grid" />
+    <item type="id" name="APKTOOL_DUMMY_1326" />
+    <item type="id" name="APKTOOL_DUMMY_1327" />
+    <item type="id" name="APKTOOL_DUMMY_1328" />
+    <item type="id" name="APKTOOL_DUMMY_1329" />
+    <item type="id" name="APKTOOL_DUMMY_132a" />
     <item type="id" name="gallery_grid_camera_item_overlay" />
     <item type="id" name="gallery_grid_container" />
     <item type="id" name="gallery_grid_draft_item_imageview" />
@@ -4772,6 +4800,7 @@
     <item type="id" name="gallery_grid_suggestion_hidden_stub" />
     <item type="id" name="gallery_grid_suggestion_hidden_title" />
     <item type="id" name="gallery_grid_suggestion_hidden_undo" />
+    <item type="id" name="APKTOOL_DUMMY_1357" />
     <item type="id" name="gallery_grid_suggestion_more_options" />
     <item type="id" name="gallery_grid_suggestion_subtitle" />
     <item type="id" name="gallery_grid_suggestion_thumbnail" />
@@ -4882,6 +4911,7 @@
     <item type="id" name="goal_setting_layout" />
     <item type="id" name="goal_setting_text_title" />
     <item type="id" name="goal_setting_title_icons" />
+    <item type="id" name="APKTOOL_DUMMY_13c6" />
     <item type="id" name="gpu_boost_item" />
     <item type="id" name="gradient" />
     <item type="id" name="gradient_background" />
@@ -5628,6 +5658,7 @@
     <item type="id" name="imgppr_end_button" />
     <item type="id" name="imgppr_restart_button" />
     <item type="id" name="imgppr_start_button" />
+    <item type="id" name="APKTOOL_DUMMY_16bf" />
     <item type="id" name="immersive_cta" />
     <item type="id" name="immersive_cta_left_aligned_text" />
     <item type="id" name="immersive_cta_overlay" />
@@ -5909,6 +5940,7 @@
     <item type="id" name="inverse_primary_button" />
     <item type="id" name="inverse_style_button_stub" />
     <item type="id" name="inverse_style_divider_bullet" />
+    <item type="id" name="APKTOOL_DUMMY_17db" />
     <item type="id" name="invite_button" />
     <item type="id" name="invite_button_title" />
     <item type="id" name="invite_collaborator" />
@@ -5973,6 +6005,7 @@
     <item type="id" name="item_vo_attribution_thumbnail" />
     <item type="id" name="iv_arrow" />
     <item type="id" name="iv_back_button" />
+    <item type="id" name="APKTOOL_DUMMY_181e" />
     <item type="id" name="iv_confirmation_icon" />
     <item type="id" name="iv_contour_bottom_left" />
     <item type="id" name="iv_contour_bottom_right" />
@@ -6281,6 +6314,8 @@
     <item type="id" name="limit_audience_description" />
     <item type="id" name="limited_comment_row" />
     <item type="id" name="limited_comments_row" />
+    <item type="id" name="APKTOOL_DUMMY_195c" />
+    <item type="id" name="APKTOOL_DUMMY_195d" />
     <item type="id" name="linechart" />
     <item type="id" name="link" />
     <item type="id" name="link2" />
@@ -6376,6 +6411,11 @@
     <item type="id" name="live_options_button" />
     <item type="id" name="live_rooms_button" />
     <item type="id" name="live_rooms_button_with_badge" />
+    <item type="id" name="APKTOOL_DUMMY_19bf" />
+    <item type="id" name="APKTOOL_DUMMY_19c0" />
+    <item type="id" name="APKTOOL_DUMMY_19c1" />
+    <item type="id" name="APKTOOL_DUMMY_19c2" />
+    <item type="id" name="APKTOOL_DUMMY_19c3" />
     <item type="id" name="live_rooms_request_empty" />
     <item type="id" name="live_scheduling_share_headline" />
     <item type="id" name="live_settings_row_stub" />
@@ -6387,6 +6427,13 @@
     <item type="id" name="live_video_debug_stats" />
     <item type="id" name="live_viewer_count" />
     <item type="id" name="live_viewer_invite_container" />
+    <item type="id" name="APKTOOL_DUMMY_19cf" />
+    <item type="id" name="APKTOOL_DUMMY_19d0" />
+    <item type="id" name="APKTOOL_DUMMY_19d1" />
+    <item type="id" name="APKTOOL_DUMMY_19d2" />
+    <item type="id" name="APKTOOL_DUMMY_19d3" />
+    <item type="id" name="APKTOOL_DUMMY_19d4" />
+    <item type="id" name="APKTOOL_DUMMY_19d5" />
     <item type="id" name="livewith_avatar_stub" />
     <item type="id" name="ll_download_failed_container" />
     <item type="id" name="ll_help_body_container" />
@@ -7130,6 +7177,7 @@
     <item type="id" name="more_prompts_container" />
     <item type="id" name="motion_base" />
     <item type="id" name="moved_settings_section" />
+    <item type="id" name="APKTOOL_DUMMY_1cc5" />
     <item type="id" name="mtrl_calendar_day_selector_frame" />
     <item type="id" name="mtrl_calendar_days_of_week" />
     <item type="id" name="mtrl_calendar_frame" />
@@ -7139,6 +7187,8 @@
     <item type="id" name="mtrl_calendar_text_input_frame" />
     <item type="id" name="mtrl_calendar_year_selector_frame" />
     <item type="id" name="mtrl_card_checked_layer_id" />
+    <item type="id" name="APKTOOL_DUMMY_1ccf" />
+    <item type="id" name="APKTOOL_DUMMY_1cd0" />
     <item type="id" name="mtrl_motion_snapshot_view" />
     <item type="id" name="mtrl_picker_fullscreen" />
     <item type="id" name="mtrl_picker_header" />
@@ -7346,6 +7396,7 @@
     <item type="id" name="netego_button_stub" />
     <item type="id" name="netego_carousel_container_view" />
     <item type="id" name="netego_carousel_cta" />
+    <item type="id" name="APKTOOL_DUMMY_1da1" />
     <item type="id" name="netego_carousel_footer" />
     <item type="id" name="netego_carousel_header" />
     <item type="id" name="netego_carousel_seperator" />
@@ -7488,6 +7539,7 @@
     <item type="id" name="no_media_text" />
     <item type="id" name="no_one_radio" />
     <item type="id" name="no_views_stub" />
+    <item type="id" name="APKTOOL_DUMMY_1e35" />
     <item type="id" name="non_carousel_media_group" />
     <item type="id" name="non_interop_recipients_list" />
     <item type="id" name="non_visual_variant_item_background" />
@@ -7555,6 +7607,8 @@
     <item type="id" name="notification_enabled_text" />
     <item type="id" name="notification_end_barrier" />
     <item type="id" name="notification_icon" />
+    <item type="id" name="APKTOOL_DUMMY_1e7c" />
+    <item type="id" name="APKTOOL_DUMMY_1e7d" />
     <item type="id" name="notification_message" />
     <item type="id" name="notification_messages_bottom_sheeet" />
     <item type="id" name="notification_title" />
@@ -7710,6 +7764,10 @@
     <item type="id" name="or_text" />
     <item type="id" name="order_fragment_container" />
     <item type="id" name="order_info_section_fragment_container" />
+    <item type="id" name="APKTOOL_DUMMY_1f1f" />
+    <item type="id" name="APKTOOL_DUMMY_1f20" />
+    <item type="id" name="APKTOOL_DUMMY_1f21" />
+    <item type="id" name="APKTOOL_DUMMY_1f22" />
     <item type="id" name="original_text" />
     <item type="id" name="os_version_blocking_nav_button" />
     <item type="id" name="otc_fbpay_account_button" />
@@ -7915,6 +7973,7 @@
     <item type="id" name="people_title_divider" />
     <item type="id" name="people_you_follow_radio" />
     <item type="id" name="per_unit_price" />
+    <item type="id" name="APKTOOL_DUMMY_1ffc" />
     <item type="id" name="performance_disclaimer_stub" />
     <item type="id" name="permanent_camera_button_view" />
     <item type="id" name="permanent_media_viewer_composer_camera_button" />
@@ -8171,6 +8230,7 @@
     <item type="id" name="poses_edit_button_badge" />
     <item type="id" name="poses_edit_image" />
     <item type="id" name="positive_manage_button" />
+    <item type="id" name="APKTOOL_DUMMY_2100" />
     <item type="id" name="post_button" />
     <item type="id" name="post_cap_ar_stickers_attribution_body" />
     <item type="id" name="post_cap_ar_stickers_recycler_view" />
@@ -8283,6 +8343,8 @@
     <item type="id" name="pref_failure_content_line2" />
     <item type="id" name="pref_failure_title" />
     <item type="id" name="prefetch_button" />
+    <item type="id" name="APKTOOL_DUMMY_2171" />
+    <item type="id" name="APKTOOL_DUMMY_2172" />
     <item type="id" name="prelive_container" />
     <item type="id" name="presence_head_audio_call_button" />
     <item type="id" name="presence_head_avatar" />
@@ -9741,11 +9803,13 @@
     <item type="id" name="right_cover_photo_overlay" />
     <item type="id" name="right_drag_handle" />
     <item type="id" name="right_guide" />
+    <item type="id" name="APKTOOL_DUMMY_2732" />
     <item type="id" name="right_icon_button" />
     <item type="id" name="right_igtv_thumbnail" />
     <item type="id" name="right_image" />
     <item type="id" name="right_product" />
     <item type="id" name="right_product_tile" />
+    <item type="id" name="APKTOOL_DUMMY_2739" />
     <item type="id" name="right_tab" />
     <item type="id" name="right_tab_content_stub" />
     <item type="id" name="right_tab_next_button" />
@@ -11222,6 +11286,8 @@
     <item type="id" name="state_selector_loading_spinner" />
     <item type="id" name="state_selector_text" />
     <item type="id" name="state_selector_text_container" />
+    <item type="id" name="APKTOOL_DUMMY_2d2a" />
+    <item type="id" name="APKTOOL_DUMMY_2d2b" />
     <item type="id" name="static_action_bar_stub" />
     <item type="id" name="static_action_bar_text" />
     <item type="id" name="static_picker" />
@@ -11584,6 +11650,7 @@
     <item type="id" name="swipe_up_fragment_container" />
     <item type="id" name="swipe_up_prompt" />
     <item type="id" name="swipe_up_root_container" />
+    <item type="id" name="APKTOOL_DUMMY_2e9a" />
     <item type="id" name="swiperefreshlayout_stub" />
     <item type="id" name="switchWidget" />
     <item type="id" name="switch_back_action_sheet_promotion_education_title_view" />
@@ -11659,6 +11726,8 @@
     <item type="id" name="tag_screen_reader_focusable" />
     <item type="id" name="tag_span_touch_key" />
     <item type="id" name="tag_state_description" />
+    <item type="id" name="APKTOOL_DUMMY_2ee7" />
+    <item type="id" name="APKTOOL_DUMMY_2ee8" />
     <item type="id" name="tag_video_view_stub" />
     <item type="id" name="tag_window_insets_animation_callback" />
     <item type="id" name="tagged_items" />
@@ -11731,6 +11800,7 @@
     <item type="id" name="test_two_actions_with_footer_on_media" />
     <item type="id" name="testing_id_view_tag_key" />
     <item type="id" name="text1" />
+    <item type="id" name="APKTOOL_DUMMY_2f32" />
     <item type="id" name="textButton" />
     <item type="id" name="textCell" />
     <item type="id" name="textSpacerNoButtons" />
@@ -12189,6 +12259,7 @@
     <item type="id" name="tracked_content" />
     <item type="id" name="training_button" />
     <item type="id" name="transition_current_scene" />
+    <item type="id" name="APKTOOL_DUMMY_310e" />
     <item type="id" name="transition_position" />
     <item type="id" name="transition_shadow" />
     <item type="id" name="transition_transform" />
@@ -12291,6 +12362,7 @@
     <item type="id" name="tutorial_step_text" />
     <item type="id" name="tutorial_text_arrow_container" />
     <item type="id" name="tutorial_title_text" />
+    <item type="id" name="APKTOOL_DUMMY_3176" />
     <item type="id" name="tv_credit_card_results" />
     <item type="id" name="tv_help_button" />
     <item type="id" name="tv_help_description" />
@@ -12942,6 +13014,7 @@
     <item type="id" name="wellbeing_interstitial_note" />
     <item type="id" name="wellbeing_interstitial_sub_title" />
     <item type="id" name="wellbeing_interstitial_title" />
+    <item type="id" name="APKTOOL_DUMMY_3408" />
     <item type="id" name="what_is_autofill_description" />
     <item type="id" name="whatsapp" />
     <item type="id" name="whatsapp_link_row" />
@@ -12952,12 +13025,15 @@
     <item type="id" name="who_can_see_autofill_info_description" />
     <item type="id" name="who_can_see_autofill_info_title" />
     <item type="id" name="widget_settings_header" />
+    <item type="id" name="APKTOOL_DUMMY_3414" />
     <item type="id" name="wont_know_message" />
     <item type="id" name="working_area_border_line" />
     <item type="id" name="wrapped_composition_tag" />
     <item type="id" name="wrapper" />
     <item type="id" name="x_button" />
     <item type="id" name="x_close" />
+    <item type="id" name="APKTOOL_DUMMY_341e" />
+    <item type="id" name="APKTOOL_DUMMY_341f" />
     <item type="id" name="xma_bubble_container" />
     <item type="id" name="your_activity_tab_layout" />
     <item type="id" name="your_activity_view_pager" />
@@ -12986,80 +13062,6 @@
     <item type="id" name="zip_checkbox_container" />
     <item type="id" name="zip_code_field" />
     <item type="id" name="zoomable_view_container" />
-    <id name="APKTOOL_DUMMY_ec" />
-    <id name="APKTOOL_DUMMY_ee" />
-    <id name="APKTOOL_DUMMY_f3" />
-    <id name="APKTOOL_DUMMY_f7" />
-    <id name="APKTOOL_DUMMY_10f" />
-    <id name="APKTOOL_DUMMY_183" />
-    <id name="APKTOOL_DUMMY_404" />
-    <id name="APKTOOL_DUMMY_41a" />
-    <id name="APKTOOL_DUMMY_7c1" />
-    <id name="APKTOOL_DUMMY_850" />
-    <id name="APKTOOL_DUMMY_951" />
-    <id name="APKTOOL_DUMMY_952" />
-    <id name="APKTOOL_DUMMY_c65" />
-    <id name="APKTOOL_DUMMY_c68" />
-    <id name="APKTOOL_DUMMY_c70" />
-    <id name="APKTOOL_DUMMY_eff" />
-    <id name="APKTOOL_DUMMY_f00" />
-    <id name="APKTOOL_DUMMY_f0f" />
-    <id name="APKTOOL_DUMMY_1109" />
-    <id name="APKTOOL_DUMMY_110a" />
-    <id name="APKTOOL_DUMMY_11d2" />
-    <id name="APKTOOL_DUMMY_11e8" />
-    <id name="APKTOOL_DUMMY_1292" />
-    <id name="APKTOOL_DUMMY_1326" />
-    <id name="APKTOOL_DUMMY_1327" />
-    <id name="APKTOOL_DUMMY_1328" />
-    <id name="APKTOOL_DUMMY_1329" />
-    <id name="APKTOOL_DUMMY_132a" />
-    <id name="APKTOOL_DUMMY_1357" />
-    <id name="APKTOOL_DUMMY_13c6" />
-    <id name="APKTOOL_DUMMY_16bf" />
-    <id name="APKTOOL_DUMMY_17db" />
-    <id name="APKTOOL_DUMMY_181e" />
-    <id name="APKTOOL_DUMMY_195c" />
-    <id name="APKTOOL_DUMMY_195d" />
-    <id name="APKTOOL_DUMMY_19bf" />
-    <id name="APKTOOL_DUMMY_19c0" />
-    <id name="APKTOOL_DUMMY_19c1" />
-    <id name="APKTOOL_DUMMY_19c2" />
-    <id name="APKTOOL_DUMMY_19c3" />
-    <id name="APKTOOL_DUMMY_19cf" />
-    <id name="APKTOOL_DUMMY_19d0" />
-    <id name="APKTOOL_DUMMY_19d1" />
-    <id name="APKTOOL_DUMMY_19d2" />
-    <id name="APKTOOL_DUMMY_19d3" />
-    <id name="APKTOOL_DUMMY_19d4" />
-    <id name="APKTOOL_DUMMY_19d5" />
-    <id name="APKTOOL_DUMMY_1cc5" />
-    <id name="APKTOOL_DUMMY_1ccf" />
-    <id name="APKTOOL_DUMMY_1cd0" />
-    <id name="APKTOOL_DUMMY_1da1" />
-    <id name="APKTOOL_DUMMY_1e35" />
-    <id name="APKTOOL_DUMMY_1e7c" />
-    <id name="APKTOOL_DUMMY_1e7d" />
-    <id name="APKTOOL_DUMMY_1f1f" />
-    <id name="APKTOOL_DUMMY_1f20" />
-    <id name="APKTOOL_DUMMY_1f21" />
-    <id name="APKTOOL_DUMMY_1f22" />
-    <id name="APKTOOL_DUMMY_1ffc" />
-    <id name="APKTOOL_DUMMY_2100" />
-    <id name="APKTOOL_DUMMY_2171" />
-    <id name="APKTOOL_DUMMY_2172" />
-    <id name="APKTOOL_DUMMY_2732" />
-    <id name="APKTOOL_DUMMY_2739" />
-    <id name="APKTOOL_DUMMY_2d2a" />
-    <id name="APKTOOL_DUMMY_2d2b" />
-    <id name="APKTOOL_DUMMY_2e9a" />
-    <id name="APKTOOL_DUMMY_2ee7" />
-    <id name="APKTOOL_DUMMY_2ee8" />
-    <id name="APKTOOL_DUMMY_2f32" />
-    <id name="APKTOOL_DUMMY_310e" />
-    <id name="APKTOOL_DUMMY_3176" />
-    <id name="APKTOOL_DUMMY_3408" />
-    <id name="APKTOOL_DUMMY_3414" />
-    <id name="APKTOOL_DUMMY_341e" />
-    <id name="APKTOOL_DUMMY_341f" />
+    <item type="id" name="pref_content" />
+    <item type="id" name="translate" />
 </resources>

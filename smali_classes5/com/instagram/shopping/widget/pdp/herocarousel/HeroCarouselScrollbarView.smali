@@ -124,58 +124,58 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;ILX/FYc;)V
     .locals 5
 
-    .line 538867916
+    .line 538867937
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 v4, 0x0
 
-    .line 538867917
+    .line 538867938
     iput v4, p0, Lcom/instagram/shopping/widget/pdp/herocarousel/HeroCarouselScrollbarView;->A05:I
 
-    .line 538867918
+    .line 538867939
     iput-boolean v4, p0, Lcom/instagram/shopping/widget/pdp/herocarousel/HeroCarouselScrollbarView;->A02:Z
 
     const/4 v3, 0x1
 
-    .line 538867919
+    .line 538867940
     iput-boolean v3, p0, Lcom/instagram/shopping/widget/pdp/herocarousel/HeroCarouselScrollbarView;->A03:Z
 
-    .line 538867920
+    .line 538867941
     iput-boolean v4, p0, Lcom/instagram/shopping/widget/pdp/herocarousel/HeroCarouselScrollbarView;->A04:Z
 
-    .line 538867921
+    .line 538867942
     new-instance v0, LX/CuF;
 
     invoke-direct {v0, p1}, LX/CuF;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, Lcom/instagram/shopping/widget/pdp/herocarousel/HeroCarouselScrollbarView;->A07:LX/CuF;
 
-    .line 538867922
+    .line 538867943
     invoke-virtual {v0, p0}, Landroid/graphics/drawable/Drawable;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
 
-    .line 538867923
+    .line 538867944
     iput-object p4, p0, Lcom/instagram/shopping/widget/pdp/herocarousel/HeroCarouselScrollbarView;->A01:LX/FYc;
 
-    .line 538867924
+    .line 538867945
     invoke-static {}, LX/Chd;->A0K()LX/2gG;
 
     move-result-object v2
 
-    .line 538867925
+    .line 538867946
     const-wide/16 v0, 0x0
 
-    .line 538867926
+    .line 538867947
     invoke-virtual {v2, v0, v1}, LX/2gG;->A02(D)V
 
-    .line 538867927
+    .line 538867948
     iput-boolean v3, v2, LX/2gG;->A06:Z
 
-    .line 538867928
+    .line 538867949
     new-instance v0, Lcom/facebook/redex/IDxSListenerShape459S0100000_4_I1;
 
     invoke-direct {v0, p0, v4}, Lcom/facebook/redex/IDxSListenerShape459S0100000_4_I1;-><init>(Ljava/lang/Object;I)V
 
-    .line 538867929
+    .line 538867950
     invoke-virtual {v2, v0}, LX/2gG;->A07(LX/1nz;)V
 
     iput-object v2, p0, Lcom/instagram/shopping/widget/pdp/herocarousel/HeroCarouselScrollbarView;->A06:LX/2gG;

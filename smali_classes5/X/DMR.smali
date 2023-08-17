@@ -1602,7 +1602,7 @@
 
     .line 230
     .line 231
-    invoke-static {v2, v7, v1}, LX/Che;->A0G(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
+    invoke-static {v2, v7, v1}, LX/Che;->A0H(Landroid/content/Context;LX/05g;Lcom/instagram/service/session/UserSession;)LX/2hg;
 
     .line 232
     .line 233

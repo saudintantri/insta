@@ -32,7 +32,7 @@
     .line 12
     .line 13
     .line 14
-    invoke-static {p0, p1, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/widget/ImageView;I)V
+    invoke-static {p0, p1, v0}, LX/Chf;->A0z(Landroid/content/Context;Landroid/widget/ImageView;I)V
 
     .line 15
     .line 16

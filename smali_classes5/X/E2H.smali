@@ -44,7 +44,7 @@
     move-result v0
 
     .line 18
-    invoke-static {v6, v0}, LX/Chf;->A11(Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {v6, v0}, LX/Chf;->A12(Landroid/graphics/drawable/Drawable;I)V
 
     .line 19
     .line 20

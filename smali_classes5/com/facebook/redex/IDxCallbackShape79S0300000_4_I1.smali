@@ -854,7 +854,7 @@
 
     .line 139
     .line 140
-    invoke-static {v7}, LX/Chf;->A0n(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
+    invoke-static {v7}, LX/Chf;->A0p(Lcom/instagram/model/shopping/Product;)Ljava/lang/String;
 
     .line 141
     .line 142

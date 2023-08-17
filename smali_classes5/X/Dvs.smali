@@ -228,7 +228,7 @@
     add-int/2addr v2, v0
 
     .line 110
-    const v0, 0x7f0700f2
+    const v0, 0x7f0700f1
 
     .line 111
     .line 112

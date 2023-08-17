@@ -14,7 +14,7 @@
     const/4 v1, 0x0
 
     .line 2
-    invoke-static {p3, p2}, LX/Chh;->A02(II)I
+    invoke-static {p3, p2}, LX/Chh;->A03(II)I
 
     .line 3
     .line 4

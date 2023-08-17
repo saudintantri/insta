@@ -278,7 +278,7 @@
     const/4 v0, 0x0
 
     .line 22
-    invoke-static {v1, v0}, LX/Che;->A04(II)Landroid/animation/ValueAnimator;
+    invoke-static {v1, v0}, LX/Che;->A05(II)Landroid/animation/ValueAnimator;
 
     .line 23
     .line 24

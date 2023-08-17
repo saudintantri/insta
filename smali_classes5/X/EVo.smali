@@ -19,7 +19,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0, p1, v9}, LX/Chf;->A0Q(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/facebook/shimmer/ShimmerFrameLayout;
+    invoke-static {v0, p1, v9}, LX/Chf;->A0R(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/facebook/shimmer/ShimmerFrameLayout;
 
     .line 6
     .line 7

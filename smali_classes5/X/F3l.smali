@@ -1206,7 +1206,7 @@
 
     .line 286
     .line 287
-    invoke-static {v1, p0, v0}, LX/Chf;->A1M(LX/3E7;Ljava/lang/Object;I)V
+    invoke-static {v1, p0, v0}, LX/Chf;->A1N(LX/3E7;Ljava/lang/Object;I)V
 
     .line 288
     .line 289
@@ -1321,7 +1321,7 @@
     .line 345
     .line 346
     .line 347
-    invoke-static {v7}, LX/Chf;->A10(Landroid/graphics/drawable/Drawable;)V
+    invoke-static {v7}, LX/Chf;->A11(Landroid/graphics/drawable/Drawable;)V
 
     .line 348
     .line 349

@@ -778,7 +778,7 @@
     double-to-float v8, v3
 
     .line 110
-    invoke-static {v9, v8}, LX/Chg;->A03(FF)F
+    invoke-static {v9, v8}, LX/Chh;->A00(FF)F
 
     .line 111
     .line 112

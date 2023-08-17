@@ -36,43 +36,43 @@
 .method public constructor <init>(Landroid/graphics/Typeface;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/text/SpannableStringBuilder;LX/FcA;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;ZZZZ)V
     .locals 0
 
-    .line 270428898
+    .line 270428919
     invoke-direct {p0}, LX/0SY;-><init>()V
 
-    .line 270428899
+    .line 270428920
     iput-object p7, p0, LX/DDH;->A07:Ljava/lang/String;
 
-    .line 270428900
+    .line 270428921
     iput-object p4, p0, LX/DDH;->A00:Landroid/text/SpannableStringBuilder;
 
-    .line 270428901
+    .line 270428922
     iput-object p1, p0, LX/DDH;->A01:Landroid/graphics/Typeface;
 
-    .line 270428902
+    .line 270428923
     iput-object p8, p0, LX/DDH;->A06:Ljava/lang/String;
 
-    .line 270428903
+    .line 270428924
     iput-object p2, p0, LX/DDH;->A03:Landroid/graphics/drawable/Drawable;
 
-    .line 270428904
+    .line 270428925
     iput-object p3, p0, LX/DDH;->A02:Landroid/graphics/drawable/Drawable;
 
-    .line 270428905
+    .line 270428926
     iput-object p5, p0, LX/DDH;->A04:LX/FcA;
 
-    .line 270428906
+    .line 270428927
     iput-boolean p9, p0, LX/DDH;->A0A:Z
 
-    .line 270428907
+    .line 270428928
     iput-boolean p10, p0, LX/DDH;->A08:Z
 
-    .line 270428908
+    .line 270428929
     iput-object p6, p0, LX/DDH;->A05:Ljava/lang/Integer;
 
-    .line 270428909
+    .line 270428930
     iput-boolean p11, p0, LX/DDH;->A09:Z
 
-    .line 270428910
+    .line 270428931
     iput-boolean p12, p0, LX/DDH;->A0B:Z
 
     return-void

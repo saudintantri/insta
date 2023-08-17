@@ -33,9 +33,10 @@ dextricksmerged_1 5
 dextricksmerged_2 5
 dextricksmerged_4 5
 instagram-libxplat_third-party_protobuf_fb-protobuf-liteAndroid.so-orderfile 5
+xplat_configerator_structs_arvr_prodtracer_prodtracer-cpp2-typesAndroid 5
+instagram-libfb_mozjpeg.so-orderfile 5
 instagram-libarlink.so-orderfile 5
 instagram-libcaffe2.so-orderfile 5
-instagram-libfb_mozjpeg.so-orderfile 5
 instagram-libfbjsc.so-orderfile 5
 lmkd_detector_binary 5 0
 watcher_binary 5 0
@@ -50,184 +51,183 @@ nightwatch 15 0
 bsdiff 15
 fb_xzdecoder 15 0
 superpack-jni 15 4 0
-arcore_sdk_jni 40
-fbjni 44 0
-glog 44
-torchmerged_8 44
-xplat_jsi_jsiAndroid 44
-android_aware_dlopen 44 23
-redexsharedmerged 44
-linkerutils 44 17 0
-fbunwindstack 44 0
-xplat_js_react-native-github_ReactCommon_jsinspector_jsinspectorAndroid 44
-xplat_papaya_store_storeAndroid 44
-xplat_bladerunner_realtime_client_sync_if_if-cpp2-typesAndroid 44
-yoga 44 3 0
-fbjitshared 44
-lockfreecounter 44
-xplat_bloks_common_commonAndroid 44
-minscompiler-jni 44
-xplat_ReliableMedia_ReliableMediaAndroid 44
-xplat_js_react-native-github_ReactCommon_react_bridging_bridgingAndroid 44
-flexlayout 44 3 0
-fb_ffmpeg_jni 44 18 0
-xplat_rp_omnigrid_utilsAndroid 44
-_request_measurement 44
-ssim 44
-_bandwidth_estimator 44
-hprofsanitizercommon 44
-fbandroid_java_com_facebook_memory_ion_libion_libion 44 0
-xplat_Abr_AbrAndroid 44 3
-xplat_cvat_library_modules_AudioResamplerAndroid 44 28
-fb_mboost-lite 44 0
-xplat_common_hash_murmurhashAndroid 44
-debugheadutil 44
-xplat_configerator_structs_arvr_prodtracer_prodtracer-cpp2-typesAndroid 44
-fbnightwatch 47 44
-commonpatchjni 48 0
-gputimer-jni 52 10 8 7
-smartcapture_id 52 19 3
-forker 52 17
-igblur 52 9
-mip_utils_jni 52
-restricks 52
-analyticsutil-jni 52
-papaya-log 52
-mapbufferjni 52
-vmasaver 52
-papaya-fb-store-generic-hash 52
-filestathelper 52
-reliability 52
-threadutils-jni 52
-reactperfloggerjni 52
-fbjni_kt 52
-zstddecoder 52
-xplat_js_react-native-github_ReactCommon_logger_loggerAndroid 53
-xplat_ReactNative_react_jsi_HeapSnapshotAndroid 55
-breakpad 56 17 0
-hiddenapi 56 17 0
-hiddenapis2 56 52
-distract 58
-unwindstack_binary 59
-stringregex-jni 66 52
-xplat_ReliableMedia_TigonHostHealthChecker_TigonHostHealthCheckerAndroid 68
-xplat_rp_omnigrid_marlogridAndroid 72
-xplat_rp_omnigrid_arlogridAndroid 72
-request_measurement_jni 73 52
-msssim 74 3
-bandwidth_estimator_jni 75 52
-hprofsanitizer 76 52
-ionmemory 77 52
-VideoJni 78
-xplat_RuntimeFeatureTracing_RuntimeFeatureTracingAndroid 81
-fb 105 53 52
+arcore_sdk_jni 41
+fbjni 45 0
+glog 45
+torchmerged_8 45
+xplat_jsi_jsiAndroid 45
+android_aware_dlopen 45 23
+redexsharedmerged 45
+linkerutils 45 17 0
+fbunwindstack 45 0
+xplat_js_react-native-github_ReactCommon_jsinspector_jsinspectorAndroid 45
+xplat_papaya_store_storeAndroid 45
+xplat_bladerunner_realtime_client_sync_if_if-cpp2-typesAndroid 45
+yoga 45 3 0
+fbjitshared 45
+lockfreecounter 45
+minscompiler-jni 45
+xplat_bloks_common_commonAndroid 45
+xplat_js_react-native-github_ReactCommon_react_bridging_bridgingAndroid 45
+xplat_ReliableMedia_ReliableMediaAndroid 45
+fb_ffmpeg_jni 45 18 0
+flexlayout 45 3 0
+xplat_rp_omnigrid_utilsAndroid 45
+_request_measurement 45
+hprofsanitizercommon 45
+ssim 45
+_bandwidth_estimator 45
+fbandroid_java_com_facebook_memory_ion_libion_libion 45 0
+xplat_Abr_AbrAndroid 45 3
+xplat_cvat_library_modules_AudioResamplerAndroid 45 28
+fb_mboost-lite 45 0
+xplat_common_hash_murmurhashAndroid 45
+debugheadutil 45
+fbnightwatch 48 45
+commonpatchjni 49 0
+gputimer-jni 53 10 8 7
+smartcapture_id 53 19 3
+forker 53 17
+igblur 53 9
+mip_utils_jni 53
+restricks 53
+analyticsutil-jni 53
+papaya-log 53
+mapbufferjni 53
+papaya-fb-store-generic-hash 53
+filestathelper 53
+vmasaver 53
+reliability 53
+threadutils-jni 53
+reactperfloggerjni 53
+fbjni_kt 53
+zstddecoder 53
+xplat_js_react-native-github_ReactCommon_logger_loggerAndroid 54
+xplat_ReactNative_react_jsi_HeapSnapshotAndroid 56
+breakpad 57 17 0
+hiddenapi 57 17 0
+hiddenapis2 57 53
+distract 59
+unwindstack_binary 60
+stringregex-jni 68 53
+xplat_ReliableMedia_TigonHostHealthChecker_TigonHostHealthCheckerAndroid 70
+xplat_rp_omnigrid_marlogridAndroid 73
+xplat_rp_omnigrid_arlogridAndroid 73
+request_measurement_jni 74 53
+hprofsanitizer 75 53
+msssim 76 3
+bandwidth_estimator_jni 77 53
+ionmemory 78 53
+VideoJni 79
+xplat_RuntimeFeatureTracing_RuntimeFeatureTracingAndroid 82
+fb 105 54 53
 hermes-crashmanager 105
 unwindstack_stream 105
 breakpad_extra 105
-fb_mboost 108 56
-aborthooks 108 105 53 52
-image_quality_utils 115 52 9
-dextricksmerged 121 108 57 2
+fb_mboost 108 57
+aborthooks 108 105 54 53
+image_quality_utils 116 53 9
+dextricksmerged 121 108 58 2
 distractutil 121 108
 fbjitoptionsjni 121
 mapsreader 121
 lyramanager 121 108
 addressspace 121
-loommerged 128 59 46 3
+loommerged 128 60 47 3
 liger-common 128 3
-xplat_hermes_API_HermesAPIAndroid 128 55 3
-pgo-native-900 128 64
-pgo-native-810 128 64
-pgo-native-800 128 64
-pgo-native-712 128 64
-pgo-native-700 128 64
-pgo-native-601 128 64
+xplat_hermes_API_HermesAPIAndroid 128 56 3
+pgo-native-900 128 65
+pgo-native-810 128 65
+pgo-native-800 128 65
+pgo-native-712 128 65
+pgo-native-700 128 65
+pgo-native-601 128 65
 pgo-native-511 128
 pgo-native-500 128
-appstatelogger 128
-appstatelogger2 128
 artdistract 128
-xplat_hermes_API_TimerStatsAndroid 128 55
-xplat_ReactNative_react_jsi_JSITracingAndroid 128 55
+appstatelogger2 128
+appstatelogger 128
 binderhookerjni 128
+xplat_hermes_API_TimerStatsAndroid 128 56
+xplat_ReactNative_react_jsi_JSITracingAndroid 128 56
 chipset 128 26
 mediacodechooks_jni 128
 renderthreadfix 128
 pthread_interceptor 128
 fbjit 128
 fssync 129
-javamemmetrics 134 65 22
+javamemmetrics 134 66 22
 artsmartgc 134
 surfacenativemem 134
 dalviksmartgc 134
 backtrace-jni 134
 liger 135 16
+fbaudiomerged 135 6 1
 mobilenetworkstack 135 16
 mediapipeline 135
 xplat_structuredlogger_events_HermesGcEventAndroid 135
-xplat_jsi_JSIDynamicAndroid 135 55
-xplat_js_react-native-github_ReactCommon_cxxreact_bridgeAndroid 135 103 55
+xplat_jsi_JSIDynamicAndroid 135 56
+xplat_js_react-native-github_ReactCommon_cxxreact_bridgeAndroid 135 103 56
 papaya-store-encryptor-otp 135
-xplat_bladerunner_realtime_client_sync_client_detail_detailAndroid 135 134 62
+xplat_bladerunner_realtime_client_sync_client_detail_detailAndroid 135 134 63
 xplat_models_models-manifestAndroid 135
 fbpayptt-android 135
 xplat_timeinappcore_timeinappcore-nonnativesqliteAndroid 135
 crypto 135
 compphoto-hollywood-io 135
 xplat_ReactNative_react_module_i18nassetsmoduleAndroid 135
-xplat_ReliableMedia_UrlMapParser_UrlMapParserAndroid 135 68
-hybridlogsinkjni 135
+xplat_ReliableMedia_UrlMapParser_UrlMapParserAndroid 135 70
 xplat_papaya_log_logImplAndroid 135
+hybridlogsinkjni 135
 logcat-interceptor 135 134
-quicksand 135
 cryptopub 135
+quicksand 135
 xplat_structuredlogger_events_MantleClientDebugEventAndroid 135
 xplat_models_models-compression-utilsAndroid 135
 xplat_hermes_API_SynthTraceAndroid 136
 jsijnimdcd 136
 jsijniprofiler 136
 fbjitjni 144 143 142 141 140 139 138 137 134
-acra 145 129
 sigquit 146 129
+acra 147 129
 limitstack 154
-fbaudiomerged 162 6 1
 rtmpssl 162
-realtime 163 162 134
-tls13_socket 163
-omnigridjni 163 113 112
-IGL 164 10 8
-xplat_js_react-native-github_ReactCommon_react_nativemodule_core_coreAndroid 166 69
-reactnativejni 167 60 6
-xplat_js_react-native-github_ReactCommon_jsiexecutor_jsiexecutorAndroid 167 166
-xplat_models_modelsAndroid 170 164 20
-timeinapp-jni 172
-fbreact-i18nassetsmodule 175
-logcat-interceptor-breakpad 179
+speechopus 163
+realtime 164 162 134
+tls13_socket 164
+omnigridjni 164 113 112
+IGL 165 10 8
+xplat_js_react-native-github_ReactCommon_react_nativemodule_core_coreAndroid 167 69
+reactnativejni 168 61 6
+xplat_js_react-native-github_ReactCommon_jsiexecutor_jsiexecutorAndroid 168 167
+xplat_models_modelsAndroid 171 165 20
+timeinapp-jni 173
+fbreact-i18nassetsmodule 176
+logcat-interceptor-breakpad 180
 cryptopub-jni 181
-xplat_mantle_logger_loggerAndroid 182
-xplat_models_models-decompressionAndroid 183
-speechopus 191
-mobileconfig 193 6
-tigon 193
-realtime-client-sync-jni 193 169
-xplat_models_models-cacheAndroid 193 170 164 20
-xplat_models_models-xanalyticsAndroid 193 24
-qpljsibindingsjni 193 55
-pando-facebook-jni 193
-fbandroid_native_memory_idle_time_measurement_memory_idle_time_measurement 193 25
-pando-api-framework 193
-xplat_ReliableMedia_TigonUrlMapFetcher_TigonUrlMapFetcherAndroid 193 176 120
-graphqlsubscriptions-sdk-provider-jni-instagram 193
-pando-consistency-instagram-jni 193
-rtgqlsdk-lite 193
-mediapipeline-iglu-merged 196 45 7 6
-mediapipeline-igl-context 196 6
-turbomodulejsijni 198 197
-uimanagerjni 198
-xplat_ReactNative_react_jsi_HermesExecutorFactoryAndroid 199 184 149 148 104
-models-common 200
-msysxplatmerged 208 45
-native_allocation_hooks_installer_jni 215
+xplat_mantle_logger_loggerAndroid 183
+xplat_models_models-decompressionAndroid 184
+mobileconfig 194 6
+tigon 194
+realtime-client-sync-jni 194 170
+xplat_models_models-cacheAndroid 194 171 165 20
+xplat_models_models-xanalyticsAndroid 194 24
+qpljsibindingsjni 194 56
+fbandroid_native_memory_idle_time_measurement_memory_idle_time_measurement 194 25
+pando-facebook-jni 194
+pando-api-framework 194
+xplat_ReliableMedia_TigonUrlMapFetcher_TigonUrlMapFetcherAndroid 194 177 120
+graphqlsubscriptions-sdk-provider-jni-instagram 194
+pando-consistency-instagram-jni 194
+rtgqlsdk-lite 194
+mediapipeline-iglu-merged 197 46 7 6
+mediapipeline-igl-context 197 6
+turbomodulejsijni 199 198
+uimanagerjni 199
+xplat_ReactNative_react_jsi_HermesExecutorFactoryAndroid 200 185 150 149 104
+models-common 201
+msysxplatmerged 208 46
+native_allocation_hooks_installer_jni 214
 pando-parsing-instagram-jni 216
 reliablemedia 217 209 111
 cj_moz 221
@@ -236,24 +236,24 @@ pdqhashing 221
 strings 221
 iglu-filter-debug 221
 glprogramcompiler 221
-hermes-executor 225 213 198 165 122
-rtc 227 191
+hermes-executor 225 213 199 166 122
+rtc 227 163
 Dav1dExo 227 9 8 7
 xplat_mantle_MantleCQLAndroid 227
-xplat_papaya_store_sqlite_sqliteAndroid 227 164 61
+xplat_papaya_store_sqlite_sqliteAndroid 227 165 62
 xplat_instagram_notification_engine_sync_path_integrator_MessagingNotificationEngineInstagramSyncPathIntegratorCQLAndroid 227
 xplat_secure_auth_MCAMailboxSecureAuthPlatformVestaAndroid 227
 messengersynctaskexecutormanagerjni 227
-ardelivery-merged 238 209 196
+ardelivery-merged 238 209 197
 ig_libyuv_jni 238
 igrtcconnectfunnel 238
-mantle-ig 240 205 200 54
-papaya-store 241 168
+mantle-ig 240 206 201 55
+papaya-store 241 169
 xplat_instagram_notification_engine_sync_path_integrator_MessagingNotificationEngineInstagramSyncPathIntegratorAndroid 242
 xplat_instagram_notification_engine_sync_path_integrator_MCAMailboxNotificationEngineInstagramIntegratorAndroid 242
 mailboxsecureauthplatformvestajni 243
 arfxgraphicsmerged 245
-xplat_models_models-tigonAndroid 245 206 170 20
+xplat_models_models-tigonAndroid 245 207 171 20
 arstandalonetracking-native-android 245
 participantservice 245
 multipeerservice 245
@@ -262,24 +262,24 @@ camera-xplat-spars-jni 245
 spark-qpluserflow-native 245
 msgnotificationenginejni 250
 mailboxnotificationengineinstagramintegratorjni 251
-effectservicehostmerged_4 253 54 40
+effectservicehostmerged_4 253 55 41
 livestreaming 253 192
 webpdecoder-native 253 9
 xplat_perflogger_xanalytics_xanalyticsAndroid 253
 webpencoder-native 253
 models-core_ig 254 226 212 211
-filters-native-android 263 166 165 136 86
+filters-native-android 263 167 166 136 86
 body-tracker 263
 scene-understanding-recognizer-android 263 21
 effectservicehostmerged 263
-audiopostprocessing-native 263
 arlink 263
 arpersistenceserviceconfig 263
+audiopostprocessing-native 263
 contextual-music-graph-android 263
 spark-ocxlogger-native 263 258
 regiontracking 263
 arengineservicesutils 263
 rtcaudiographclientproviderconverter-native 263
-xplat_cvat_engines_audiosync_AudioSyncAndroid 264 79
+xplat_cvat_engines_audiosync_AudioSyncAndroid 264 80
 perfloggerxplat_init 266
 ctaudiosync-native 281

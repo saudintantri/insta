@@ -856,7 +856,6 @@
     :try_end_1
     .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_0
     .catch LX/Gv9; {:try_start_1 .. :try_end_1} :catch_2
-    .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_2
     .catch LX/Gux; {:try_start_1 .. :try_end_1} :catch_2
 
     .line 198
@@ -1027,7 +1026,6 @@
     :try_end_3
     .catch Lorg/json/JSONException; {:try_start_3 .. :try_end_3} :catch_1
     .catch LX/Gv9; {:try_start_3 .. :try_end_3} :catch_2
-    .catch Lorg/json/JSONException; {:try_start_3 .. :try_end_3} :catch_2
     .catch LX/Gux; {:try_start_3 .. :try_end_3} :catch_2
 
     .line 278

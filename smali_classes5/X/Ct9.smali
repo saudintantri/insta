@@ -11,7 +11,7 @@
     const/4 v3, 0x0
 
     .line 1
-    invoke-static {}, LX/Chf;->A0a()Lcom/instagram/model/shopping/productfeed/ShoppingModuleLoggingInfo;
+    invoke-static {}, LX/Chf;->A0c()Lcom/instagram/model/shopping/productfeed/ShoppingModuleLoggingInfo;
 
     .line 2
     .line 3

@@ -144,7 +144,7 @@
 
     .line 66
     .line 67
-    invoke-static {v1, v0}, LX/Chf;->A0Z(Lcom/instagram/model/mediasize/ImageInfo;I)Lcom/instagram/model/mediasize/ExtendedImageUrl;
+    invoke-static {v1, v0}, LX/Chf;->A0b(Lcom/instagram/model/mediasize/ImageInfo;I)Lcom/instagram/model/mediasize/ExtendedImageUrl;
 
     .line 68
     .line 69
@@ -223,7 +223,7 @@
 
     .line 106
     .line 107
-    invoke-static {v3, v0}, LX/Chf;->A0Z(Lcom/instagram/model/mediasize/ImageInfo;I)Lcom/instagram/model/mediasize/ExtendedImageUrl;
+    invoke-static {v3, v0}, LX/Chf;->A0b(Lcom/instagram/model/mediasize/ImageInfo;I)Lcom/instagram/model/mediasize/ExtendedImageUrl;
 
     .line 108
     .line 109

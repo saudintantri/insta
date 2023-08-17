@@ -373,7 +373,7 @@
     .line 107
     .line 108
     .line 109
-    invoke-static {p0, v8, v5}, LX/Chf;->A0x(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {p0, v8, v5}, LX/Chf;->A0y(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
 
     .line 110
     .line 111
@@ -513,7 +513,7 @@
     .line 181
     .line 182
     .line 183
-    invoke-static {p0, v8, v7}, LX/Chf;->A0x(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {p0, v8, v7}, LX/Chf;->A0y(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
 
     .line 184
     .line 185
@@ -726,7 +726,7 @@
     .line 294
     .line 295
     .line 296
-    invoke-static {p0, v1, v0}, LX/Chf;->A0x(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {p0, v1, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
 
     .line 297
     .line 298
@@ -785,7 +785,7 @@
     .line 324
     .line 325
     .line 326
-    invoke-static {p0, v1, v0}, LX/Chf;->A0x(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {p0, v1, v0}, LX/Chf;->A0y(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
 
     .line 327
     .line 328

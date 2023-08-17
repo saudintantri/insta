@@ -1906,7 +1906,7 @@
 
     .line 908
     .line 909
-    invoke-static {v6}, LX/Chf;->A0o(Lcom/instagram/user/model/User;)Ljava/lang/String;
+    invoke-static {v6}, LX/Chf;->A0q(Lcom/instagram/user/model/User;)Ljava/lang/String;
 
     .line 910
     .line 911

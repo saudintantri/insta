@@ -222,7 +222,7 @@
 
     .line 92
     .line 93
-    invoke-static {v0, v8}, LX/Chf;->A0f(LX/01o;I)Ljava/lang/Object;
+    invoke-static {v0, v8}, LX/Chf;->A0h(LX/01o;I)Ljava/lang/Object;
 
     .line 94
     .line 95
@@ -238,7 +238,7 @@
 
     .line 100
     .line 101
-    invoke-static {v0, v8}, LX/Chf;->A0f(LX/01o;I)Ljava/lang/Object;
+    invoke-static {v0, v8}, LX/Chf;->A0h(LX/01o;I)Ljava/lang/Object;
 
     .line 102
     .line 103

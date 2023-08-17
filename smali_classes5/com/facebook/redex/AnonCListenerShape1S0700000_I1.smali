@@ -2277,7 +2277,7 @@
 
     .line 1079
     .line 1080
-    invoke-static {v3, v0}, LX/Chi;->A1S(LX/4Xu;I)V
+    invoke-static {v3, v0}, LX/Chi;->A1T(LX/4Xu;I)V
 
     .line 1081
     .line 1082
